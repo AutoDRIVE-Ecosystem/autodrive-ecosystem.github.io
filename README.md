@@ -76,7 +76,9 @@ AutoDRIVE Devkit is a developer's kit that enables the users to exploit AutoDRIV
 
 ### Presentations
 
-We encourage you to take a look at the following presentations to gain a better insight into the AutoDRIVE project.
+### Highlights
+
+We encourage you to take a look at the following quick highlights to keep up with the recent advances in AutoDRIVE Ecosystem.
 
 |                    |
 |:------------------:|
@@ -88,13 +90,15 @@ We encourage you to take a look at the following presentations to gain a better 
 |:------------------:|:-------------------:|
 | [<img src="images/AutoDRIVE-Simulator-Pitch-Video.png" width="500">](https://youtu.be/i7R79jwnqlg) | [<img src="images/AutoDRIVE-Testbed-Pitch-Video.png" width="500">](https://youtu.be/YFQzyfXV6Rw) |
 | [AutoDRIVE Simulator Pitch Video](https://youtu.be/i7R79jwnqlg) | [AutoDRIVE Testbed Pitch Video](https://youtu.be/YFQzyfXV6Rw) |
-| [<img src="images/SRMIST-FYP-Viva-Voce.png" width="500">](https://youtu.be/2FByDOkDxMc) | [<img src="images/CCRIS-2021-Presentation.png" width="500">](https://youtu.be/whTH6VyVtHE) |
-| [SRMIST UG Final Year Project Viva Voce](https://youtu.be/2FByDOkDxMc) | [CCRIS 2021 Virtual Presentation](https://youtu.be/whTH6VyVtHE) |
+| [<img src="images/OpenCAV-in-AutoDRIVE-Simulator.png" width="500">](https://youtu.be/YIZz_8rLgZQ) | [<img src="images/RZR-in-AutoDRIVE-Simulator.png" width="500">](https://youtu.be/PLW1-sYW6Hw) |
+| [OpenCAV in AutoDRIVE Simulator](https://youtu.be/YIZz_8rLgZQ) | [RZR in AutoDRIVE Simulator](https://youtu.be/PLW1-sYW6Hw) |
+| [<img src="images/Nigel-Variability-Testing.png" width="500">](https://youtu.be/KtjZapz0OkE) | [<img src="images/OpenCAV-Variability-Testing.png" width="500">](https://youtu.be/sW8Ic-XyufM) |
+| [Variability Testing using Nigel](https://youtu.be/KtjZapz0OkE) | [Variability Testing using OpenCAV](https://youtu.be/sW8Ic-XyufM) |
 |                    |                     |
 
 ### Demonstrations
 
-We encourage you to take a look at the following research projects developed using the AutoDRIVE platform.
+We encourage you to take a look at the following research projects developed using the AutoDRIVE Ecosystem.
 
 |                    |                     |
 |:------------------:|:-------------------:|
@@ -102,6 +106,22 @@ We encourage you to take a look at the following research projects developed usi
 | [Autonomous Parking](https://youtu.be/piCyvTM2dek) | [Behavioural Cloning](https://youtu.be/rejpoogaXOE) |
 | [<img src="images/Intersection-Traversal.png" width="500">](https://youtu.be/AEFJbDzOpcM) | [<img src="images/Smart-City-Management.png" width="500">](https://youtu.be/fnxOpV1gFXo) |
 | [Intersection Traversal](https://youtu.be/AEFJbDzOpcM) | [Smart City Management](https://youtu.be/fnxOpV1gFXo) |
+|                    |                     |
+
+### Presentations
+
+We encourage you to take a look at the following presentations to gain a better insight into the AutoDRIVE Ecosystem.
+
+|                    |                     |
+|:------------------:|:-------------------:|
+| [<img src="images/SRMIST-FYP-Viva-Voce.png" width="500">](https://youtu.be/2FByDOkDxMc) | [<img src="images/CCRIS-2021-Presentation.png" width="500">](https://youtu.be/whTH6VyVtHE) |
+| [SRMIST UG Final Year Project Viva Voce](https://youtu.be/2FByDOkDxMc) | [CCRIS 2021 Virtual Presentation](https://youtu.be/whTH6VyVtHE) |
+| [<img src="images/AutoDRIVE-Technical-Discussion.png" width="500">](https://youtu.be/nV7HuLTjUY4) | [<img src="images/Autoware-COE-Seminar.png" width="500">](https://youtu.be/WTGOAiRX4b0) |
+| [AutoDRIVE Technical Discussion @ ARMLab CU-ICAR](https://youtu.be/nV7HuLTjUY4) | [Autoware COE Seminar](https://youtu.be/WTGOAiRX4b0) |
+| [<img src="images/AIM-2023-Presentation.png" width="500">](https://youtu.be/PV9k3-N_bvc) | [<img src="images/OpenCAV-Technical-Discussion.png" width="500">](https://youtu.be/xihFoUxU7EU) |
+| [AIM 2023 Video Presentation](https://youtu.be/PV9k3-N_bvc) | [OpenCAV Technical Discussion @ ARMLab CU-ICAR](https://youtu.be/xihFoUxU7EU) |
+| [<img src="images/OpenCAV-AuE-Seminar.png" width="500">](https://youtu.be/bk7lJfD4H0s) | [<img src="images/SMRDC-2023-Presentation.png" width="500">](https://youtu.be/R_GZ1LkMWGQ) |
+| [OpenCAV CUICAR AuE Seminar](https://youtu.be/bk7lJfD4H0s) | [SMRDC 2023 Finalist Pitch](https://youtu.be/R_GZ1LkMWGQ) |
 |                    |                     |
 
 ### Publications
