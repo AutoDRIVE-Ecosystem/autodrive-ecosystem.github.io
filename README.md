@@ -13,6 +13,13 @@
   <!---img src="https://img.shields.io/github/stars/AutoDRIVE-Ecosystem?label=Stars&color=blue"-->
 </p>
 
+<div align="center">
+  
+| [<img src="images/Website-Icon.png" width="50">](https://autodrive-ecosystem.github.io) | [<img src="images/Paper-Icon.png" width="50">](https://doi.org/10.3390/robotics12030077) | [<img src="images/YouTube-Icon.png" width="50">](https://www.youtube.com/channel/UCh0Jbs01d6TTJPmmO_kpnjw) | [<img src="images/GitHub-Icon.png" width="50">](https://github.com/AutoDRIVE-Ecosystem) |
+|:------------------:|:-------------------:|:------------------:|:-------------------:|
+| [Website](https://autodrive-ecosystem.github.io) | [Paper](https://doi.org/10.3390/robotics12030077) | [YouTube](https://www.youtube.com/channel/UCh0Jbs01d6TTJPmmO_kpnjw) | [GitHub](https://github.com/AutoDRIVE-Ecosystem) |
+</div>
+
 ## Project Overview
 
 ![](images/AutoDRIVE-Overview.png)
