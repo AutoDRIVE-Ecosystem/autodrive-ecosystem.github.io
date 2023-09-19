@@ -14,10 +14,20 @@
 </p>
 
 <div align="center">
-  
-| [<img src="images/Website-Icon.png" width="50">](https://autodrive-ecosystem.github.io) | [<img src="images/Paper-Icon.png" width="50">](https://doi.org/10.3390/robotics12030077) | [<img src="images/YouTube-Icon.png" width="50">](https://www.youtube.com/channel/UCh0Jbs01d6TTJPmmO_kpnjw) | [<img src="images/GitHub-Icon.png" width="50">](https://github.com/AutoDRIVE-Ecosystem) |
-|:------------------:|:-------------------:|:------------------:|:-------------------:|
-| [Website](https://autodrive-ecosystem.github.io) | [Paper](https://doi.org/10.3390/robotics12030077) | [YouTube](https://www.youtube.com/channel/UCh0Jbs01d6TTJPmmO_kpnjw) | [GitHub](https://github.com/AutoDRIVE-Ecosystem) |
+  <table>
+    <tr>
+      <th><a href="https://autodrive-ecosystem.github.io"><img src="images/Website-Icon.png" alt="Website" width="50"></a></th>
+      <th><a href="https://doi.org/10.3390/robotics12030077"><img src="images/Paper-Icon.png" alt="Paper" width="50"></a></th>
+      <th><a href="https://www.youtube.com/channel/UCh0Jbs01d6TTJPmmO_kpnjw"><img src="images/YouTube-Icon.png" alt="YouTube" width="50"></a></th>
+      <th><a href="https://github.com/AutoDRIVE-Ecosystem"><img src="images/GitHub-Icon.png" alt="GitHub" width="50"></a></th>
+    </tr>
+    <tr>
+      <td><a href="https://autodrive-ecosystem.github.io">Website</a></td>
+      <td><a href="https://doi.org/10.3390/robotics12030077">Paper</a></td>
+      <td><a href="https://www.youtube.com/channel/UCh0Jbs01d6TTJPmmO_kpnjw">YouTube</a></td>
+      <td><a href="https://github.com/AutoDRIVE-Ecosystem">GitHub</a></td>
+    </tr>
+  </table>
 </div>
 
 ## Project Overview
