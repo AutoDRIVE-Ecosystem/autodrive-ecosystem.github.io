@@ -13,7 +13,7 @@
   <!---img src="https://img.shields.io/github/stars/AutoDRIVE-Ecosystem?label=Stars&color=blue"-->
 </p>
 
-<table align="center">
+<table align="center", style="width:50%; margin:auto;">
   <tr>
     <th><a href="https://autodrive-ecosystem.github.io"><img src="images/Website-Icon.png" alt="Website" width="50"></a></th>
     <th><a href="https://doi.org/10.3390/robotics12030077"><img src="images/Paper-Icon.png" alt="Paper" width="50"></a></th>
