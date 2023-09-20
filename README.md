@@ -91,8 +91,6 @@ AutoDRIVE Devkit is a developer's kit that enables the users to exploit AutoDRIV
 
 ## Resources
 
-### Presentations
-
 ### Highlights
 
 We encourage you to take a look at the following quick highlights to keep up with the recent advances in AutoDRIVE Ecosystem.
