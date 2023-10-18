@@ -254,3 +254,13 @@ year = {2022},
 copyright = {arXiv.org perpetual, non-exclusive license}
 }
 ```
+
+## Team
+
+#### Developers
+
+|                    |                     |
+|:------------------:|:-------------------:|
+| [<img src="images/Developer-Tanmay-Samak.png" width="100">](https://www.linkedin.com/in/samaktanmay) | [<img src="images/Developer-Chinmay-Samak.png" width="100">](https://www.linkedin.com/in/samakchinmay) |
+| [Tanmay Vilas Samak](https://www.linkedin.com/in/samaktanmay) | [Chinmay Vilas Samak](https://www.linkedin.com/in/samakchinmay) |
+|                    |                     |
