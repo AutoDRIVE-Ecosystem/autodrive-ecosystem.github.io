@@ -261,6 +261,14 @@ copyright = {arXiv.org perpetual, non-exclusive license}
 
 |                    |                     |
 |:------------------:|:-------------------:|
-| [<img src="images/Developer-Tanmay-Samak.png" width="100">](https://www.linkedin.com/in/samaktanmay) | [<img src="images/Developer-Chinmay-Samak.png" width="100">](https://www.linkedin.com/in/samakchinmay) |
+| [<img src="images/Developer-Tanmay-Samak.png" width="125">](https://www.linkedin.com/in/samaktanmay) | [<img src="images/Developer-Chinmay-Samak.png" width="125">](https://www.linkedin.com/in/samakchinmay) |
 | [Tanmay Vilas Samak](https://www.linkedin.com/in/samaktanmay) | [Chinmay Vilas Samak](https://www.linkedin.com/in/samakchinmay) |
+|                    |                     |
+
+#### Contributers
+
+|                    |                     |
+|:------------------:|:-------------------:|
+| [<img src="images/Contributer-Rohit-Ravikumar.png" width="125">](https://www.linkedin.com/in/rohitravikumar-) | [<img src="images/Contributer-Parth-Shinde.png" width="125">](https://www.linkedin.com/in/parthshindelink) |
+| [Rohit Ravikumar](https://www.linkedin.com/in/rohitravikumar-) | [Parth Shinde](https://www.linkedin.com/in/parthshindelink) |
 |                    |                     |
