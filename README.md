@@ -1,3 +1,7 @@
+<head>
+  <link rel="shortcut icon" type="image/png" href="favicon.png">
+</head>
+
 <img src="images/AutoDRIVE-Banner.jpg">
 
 <p align="center">
