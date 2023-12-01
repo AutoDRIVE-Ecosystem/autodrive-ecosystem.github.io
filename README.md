@@ -113,7 +113,7 @@ We encourage you to take a look at the following quick highlights to keep up wit
 | [<img src="images/OpenCAV-in-AutoDRIVE-Simulator.png" width="500">](https://youtu.be/YIZz_8rLgZQ) | [<img src="images/RZR-in-AutoDRIVE-Simulator.png" width="500">](https://youtu.be/PLW1-sYW6Hw) |
 | [OpenCAV in AutoDRIVE Simulator](https://youtu.be/YIZz_8rLgZQ) | [RZR in AutoDRIVE Simulator](https://youtu.be/PLW1-sYW6Hw) |
 | [<img src="images/Parallel-RL-using-AutoDRIVE-Simulator.png" width="500">](https://youtu.be/UAIcgeZ-at8) | [<img src="images/Deformable-Terrain-Demo.png" width="500">](https://youtu.be/N8oZdD-WGYU) |
-| [Parallel RL using AutoDRIVE Simulator](https://youtu.be/UAIcgeZ-at8) | [Deformable Terrain AutoDRIVE Simulator](https://youtu.be/N8oZdD-WGYU) |
+| [Parallel RL using AutoDRIVE Simulator](https://youtu.be/UAIcgeZ-at8) | [Deformable Terrain in AutoDRIVE Simulator](https://youtu.be/N8oZdD-WGYU) |
 | [<img src="images/Nigel-Variability-Testing.png" width="500">](https://youtu.be/KtjZapz0OkE) | [<img src="images/OpenCAV-Variability-Testing.png" width="500">](https://youtu.be/sW8Ic-XyufM) |
 | [Variability Testing using Nigel](https://youtu.be/KtjZapz0OkE) | [Variability Testing using OpenCAV](https://youtu.be/sW8Ic-XyufM) |
 |                    |                     |
