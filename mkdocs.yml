@@ -1,0 +1,5 @@
+site_name: AutoDRIVE Ecosystem
+site_url: https://autodrive-ecosystem.github.io
+theme:
+  name: material
+  logo: assets/logo.png
