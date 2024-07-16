@@ -68,13 +68,13 @@
     -	**Results Declared:** Standings of all the teams will be released.
 
 === "Resources"
-    Comming soon.
+    Coming soon.
 
 === "Registration"
-    Comming soon.
+    Coming soon.
 
 === "Results"
-    Comming soon.
+    Coming soon.
 
 ## F1TENTH @ CDC 2024
 
@@ -135,10 +135,10 @@
     -	**Results Declared:** Standings of all the teams will be released.
 
 === "Resources"
-    Comming soon.
+    Coming soon.
 
 === "Registration"
-    Comming soon.
+    Coming soon.
 
 === "Results"
-    Comming soon.
+    Coming soon.
