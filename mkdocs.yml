@@ -7,8 +7,8 @@ site_description: >-
   digital twin ecosystem for enhancing autonomous driving research and education.
 
 # Repository
-repo_name: AutoDRIVE-Ecosystem/autodrive-ecosystem.github.io
-repo_url: https://github.com/AutoDRIVE-Ecosystem/autodrive-ecosystem.github.io
+repo_name: Tinker-Twins/AutoDRIVE
+repo_url: https://github.com/Tinker-Twins/AutoDRIVE
 
 # Copyright
 copyright: Copyright &copy; 2023 - 2024 Tinker Twins
@@ -16,73 +16,65 @@ copyright: Copyright &copy; 2023 - 2024 Tinker Twins
 # Configuration
 theme:
   name: material
-  custom_dir: material/overrides
+  # custom_dir: material/overrides
   features:
     - announce.dismiss
     - content.action.edit
     - content.action.view
     - content.code.annotate
     - content.code.copy
-    # - content.code.select
-    # - content.footnote.tooltips
-    # - content.tabs.link
+    - content.code.select
+    - content.footnote.tooltips
+    - content.tabs.link
     - content.tooltips
-    # - header.autohide
-    # - navigation.expand
-    - navigation.footer
+    - header.autohide
+    - navigation.expand
+    # - navigation.footer
     - navigation.indexes
-    # - navigation.instant
-    # - navigation.instant.prefetch
-    # - navigation.instant.progress
-    # - navigation.prune
+    - navigation.instant
+    - navigation.instant.prefetch
+    - navigation.instant.progress
+    - navigation.prune
     - navigation.sections
     - navigation.tabs
-    # - navigation.tabs.sticky
+    - navigation.tabs.sticky
     - navigation.top
     - navigation.tracking
     - search.highlight
     - search.share
     - search.suggest
     - toc.follow
-    # - toc.integrate
+    - toc.integrate
+  language: en
   palette:
-    - media: "(prefers-color-scheme)"
+    - scheme: default
+      primary: white
       toggle:
-        icon: material/link
-        name: Switch to light mode
-    - media: "(prefers-color-scheme: light)"
-      scheme: default
-      primary: indigo
-      accent: indigo
-      toggle:
-        icon: material/toggle-switch
+        icon: material/weather-sunny
         name: Switch to dark mode
-    - media: "(prefers-color-scheme: dark)"
-      scheme: slate
-      primary: black
-      accent: indigo
+    - scheme: slate
+      primary: grey
       toggle:
-        icon: material/toggle-switch-off
-        name: Switch to system preference
+        icon: material/weather-night
+        name: Switch to light mode
   font:
     text: Roboto
     code: Roboto Mono
   favicon: assets/favicon.png
-  icon:
-    logo: logo
+  logo: assets/images/AutoDRIVE-Extended-Logo-Light.png
 
 # Plugins
 plugins:
   - blog
   - search:
       separator: '[\s\u200b\-_,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
-  - minify:
-      minify_html: true
+  # - minify:
+  #     minify_html: true
 
 # Hooks
-hooks:
-  - material/overrides/hooks/shortcodes.py
-  - material/overrides/hooks/translations.py
+# hooks:
+#   - material/overrides/hooks/shortcodes.py
+#   - material/overrides/hooks/translations.py
 
 # Additional configuration
 extra:
@@ -93,16 +85,20 @@ extra:
     provider: google
     property: !ENV GOOGLE_ANALYTICS_KEY
   social:
+    - icon: fontawesome/solid/globe
+      link: https://autodrive-ecosystem.github.io
+    - icon: fontawesome/solid/file
+      link: https://doi.org/10.3390/robotics12030077
     - icon: fontawesome/brands/github
-      link: https://github.com/squidfunk
+      link: https://github.com/autodrive-ecosystem
     - icon: fontawesome/brands/docker
-      link: https://hub.docker.com/r/squidfunk/mkdocs-material/
-    - icon: fontawesome/brands/python
-      link: https://pypi.org/project/mkdocs-material/
-    - icon: fontawesome/brands/mastodon
-      link: https://fosstodon.org/@squidfunk
+      link: https://hub.docker.com/u/autodriveecosystem
+    - icon: fontawesome/brands/youtube
+      link: https://www.youtube.com/@autodrive-ecosystem
     - icon: fontawesome/brands/x-twitter
-      link: https://x.com/squidfunk
+      link: https://x.com/autodrive_ai
+    - icon: fontawesome/brands/instagram
+      link: https://www.instagram.com/autodrive_ai
 
 # Extensions
 markdown_extensions:
