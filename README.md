@@ -2,7 +2,7 @@
   <link rel="shortcut icon" type="image/png" href="favicon.png">
 </head>
 
-<img src="docs\assets\imagesAutoDRIVE-Banner.jpg">
+<img src="docs/assets/images/AutoDRIVE-Banner.jpg">
 
 <p align="center">
   <img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fautodrive-ecosystem.github.io&count_bg=%23DA4848&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=Hits&edge_flat=false"/>
@@ -18,10 +18,10 @@
 <div align="center">
 <table>
   <tr>
-    <th><a href="https://autodrive-ecosystem.github.io"><img src="docs\assets\imagesWebsite-Icon.png" alt="Website" width="50"></a></th>
-    <th><a href="https://doi.org/10.3390/robotics12030077"><img src="docs\assets\imagesPaper-Icon.png" alt="Paper" width="50"></a></th>
-    <th><a href="https://www.youtube.com/channel/UCh0Jbs01d6TTJPmmO_kpnjw"><img src="docs\assets\imagesYouTube-Icon.png" alt="YouTube" width="50"></a></th>
-    <th><a href="https://github.com/AutoDRIVE-Ecosystem"><img src="docs\assets\imagesGitHub-Icon.png" alt="GitHub" width="50"></a></th>
+    <th><a href="https://autodrive-ecosystem.github.io"><img src="docs/assets/images/Website-Icon.png" alt="Website" width="50"></a></th>
+    <th><a href="https://doi.org/10.3390/robotics12030077"><img src="docs/assets/images/Paper-Icon.png" alt="Paper" width="50"></a></th>
+    <th><a href="https://www.youtube.com/channel/UCh0Jbs01d6TTJPmmO_kpnjw"><img src="docs/assets/images/YouTube-Icon.png" alt="YouTube" width="50"></a></th>
+    <th><a href="https://github.com/AutoDRIVE-Ecosystem"><img src="docs/assets/images/GitHub-Icon.png" alt="GitHub" width="50"></a></th>
   </tr>
   <tr>
     <td><a href="https://autodrive-ecosystem.github.io">Website</a></td>
@@ -34,7 +34,7 @@
 
 ## Project Overview
 
-![](docs\assets\imagesAutoDRIVE-Overview.png)
+![](docs/assets/images/AutoDRIVE-Overview.png)
 
 <p align="justify">
 AutoDRIVE is envisioned to be an integrated platform for autonomous driving research and education. It bridges the gap between software simulation and hardware deployment by providing the AutoDRIVE Simulator and AutoDRIVE Testbed, a well-suited duo for sim2real applications. It also offers AutoDRIVE Devkit, a developer's kit for rapid and flexible development of autonomy algorithms. Although the platform is primarily targeted towards autonomous driving, it also supports the development of smart-city solutions for managing the traffic flow.
@@ -42,7 +42,7 @@ AutoDRIVE is envisioned to be an integrated platform for autonomous driving rese
 
 ## AutoDRIVE Testbed
 
-| <img src="docs\assets\imagesTestbed-Vehicle.png" width="500"> | <img src="docs\assets\imagesTestbed-Infrastructure.png" width="500"> |
+| <img src="docs/assets/images/Testbed-Vehicle.png" width="500"> | <img src="docs/assets/images/Testbed-Infrastructure.png" width="500"> |
 |:--------:|:-------------:|
 | Vehicle | Infrastructure |
 
@@ -58,7 +58,7 @@ AutoDRIVE Testbed is the hardware setup comprising of a scaled vehicle model (ca
 
 ## AutoDRIVE Simulator
 
-| <img src="docs\assets\imagesSimulator-Vehicle.png" width="500"> | <img src="docs\assets\imagesSimulator-Infrastructure.png" width="500"> |
+| <img src="docs/assets/images/Simulator-Vehicle.png" width="500"> | <img src="docs/assets/images/Simulator-Infrastructure.png" width="500"> |
 |:--------:|:-------------:|
 | Vehicle | Infrastructure |
 
@@ -72,7 +72,7 @@ AutoDRIVE Simulator is the digital twin of the AutoDRIVE Testbed, which enables 
 
 ## AutoDRIVE Devkit
 
-| <img src="docs\assets\imagesADSS.png" width="500"> | <img src="docs\assets\imagesSCSS.png" width="500"> |
+| <img src="docs/assets/images/ADSS.png" width="500"> | <img src="docs/assets/images/SCSS.png" width="500"> |
 |:--------:|:-------------:|
 | ADSS Toolkit | SCSS Toolkit |
 
@@ -101,21 +101,21 @@ We encourage you to take a look at the following quick highlights to keep up wit
 
 |                    |
 |:------------------:|
-| [<img src="docs\assets\imagesAutoDRIVE-Ecosystem-Pitch-Video.png">](https://youtu.be/t0CgNR_LgrQ) |
+| [<img src="docs/assets/images/AutoDRIVE-Ecosystem-Pitch-Video.png">](https://youtu.be/t0CgNR_LgrQ) |
 | [AutoDRIVE Ecosystem Pitch Video](https://youtu.be/t0CgNR_LgrQ) |
 |                    |
 
 |                    |                     |
 |:------------------:|:-------------------:|
-| [<img src="docs\assets\imagesAutoDRIVE-Simulator-Pitch-Video.png" width="500">](https://youtu.be/i7R79jwnqlg) | [<img src="docs\assets\imagesAutoDRIVE-Testbed-Pitch-Video.png" width="500">](https://youtu.be/YFQzyfXV6Rw) |
+| [<img src="docs/assets/images/AutoDRIVE-Simulator-Pitch-Video.png" width="500">](https://youtu.be/i7R79jwnqlg) | [<img src="docs/assets/images/AutoDRIVE-Testbed-Pitch-Video.png" width="500">](https://youtu.be/YFQzyfXV6Rw) |
 | [AutoDRIVE Simulator Pitch Video](https://youtu.be/i7R79jwnqlg) | [AutoDRIVE Testbed Pitch Video](https://youtu.be/YFQzyfXV6Rw) |
-| [<img src="docs\assets\imagesNigel-4WD4WS-Feature-Video.png" width="500">](https://youtu.be/UVIShZuZmpg) | [<img src="docs\assets\imagesF1TENTH-in-AutoDRIVE-Simulator.png" width="500">](https://youtu.be/Rq7Wwcwn1uk) |
+| [<img src="docs/assets/images/Nigel-4WD4WS-Feature-Video.png" width="500">](https://youtu.be/UVIShZuZmpg) | [<img src="docs/assets/images/F1TENTH-in-AutoDRIVE-Simulator.png" width="500">](https://youtu.be/Rq7Wwcwn1uk) |
 | [Nigel 4WD4WS Feature Video](https://youtu.be/UVIShZuZmpg) | [F1TENTH in AutoDRIVE Simulator](https://youtu.be/Rq7Wwcwn1uk) |
-| [<img src="docs\assets\imagesOpenCAV-in-AutoDRIVE-Simulator.png" width="500">](https://youtu.be/YIZz_8rLgZQ) | [<img src="docs\assets\imagesRZR-in-AutoDRIVE-Simulator.png" width="500">](https://youtu.be/PLW1-sYW6Hw) |
+| [<img src="docs/assets/images/OpenCAV-in-AutoDRIVE-Simulator.png" width="500">](https://youtu.be/YIZz_8rLgZQ) | [<img src="docs/assets/images/RZR-in-AutoDRIVE-Simulator.png" width="500">](https://youtu.be/PLW1-sYW6Hw) |
 | [OpenCAV in AutoDRIVE Simulator](https://youtu.be/YIZz_8rLgZQ) | [RZR in AutoDRIVE Simulator](https://youtu.be/PLW1-sYW6Hw) |
-| [<img src="docs\assets\imagesParallel-RL-using-AutoDRIVE-Simulator.png" width="500">](https://youtu.be/UAIcgeZ-at8) | [<img src="docs\assets\imagesDeformable-Terrain-Demo.png" width="500">](https://youtu.be/N8oZdD-WGYU) |
+| [<img src="docs/assets/images/Parallel-RL-using-AutoDRIVE-Simulator.png" width="500">](https://youtu.be/UAIcgeZ-at8) | [<img src="docs/assets/images/Deformable-Terrain-Demo.png" width="500">](https://youtu.be/N8oZdD-WGYU) |
 | [Parallel RL using AutoDRIVE Simulator](https://youtu.be/UAIcgeZ-at8) | [Deformable Terrain in AutoDRIVE Simulator](https://youtu.be/N8oZdD-WGYU) |
-| [<img src="docs\assets\imagesNigel-Variability-Testing.png" width="500">](https://youtu.be/KtjZapz0OkE) | [<img src="docs\assets\imagesOpenCAV-Variability-Testing.png" width="500">](https://youtu.be/sW8Ic-XyufM) |
+| [<img src="docs/assets/images/Nigel-Variability-Testing.png" width="500">](https://youtu.be/KtjZapz0OkE) | [<img src="docs/assets/images/OpenCAV-Variability-Testing.png" width="500">](https://youtu.be/sW8Ic-XyufM) |
 | [Variability Testing using Nigel](https://youtu.be/KtjZapz0OkE) | [Variability Testing using OpenCAV](https://youtu.be/sW8Ic-XyufM) |
 |                    |                     |
 
@@ -125,9 +125,9 @@ We encourage you to take a look at the following research projects developed usi
 
 |                    |                     |
 |:------------------:|:-------------------:|
-| [<img src="docs\assets\imagesAutonomous-Parking.png" width="500">](https://youtu.be/piCyvTM2dek) | [<img src="docs\assets\imagesBehavioural-Cloning.png" width="500">](https://youtu.be/rejpoogaXOE) |
+| [<img src="docs/assets/images/Autonomous-Parking.png" width="500">](https://youtu.be/piCyvTM2dek) | [<img src="docs/assets/images/Behavioural-Cloning.png" width="500">](https://youtu.be/rejpoogaXOE) |
 | [Autonomous Parking](https://youtu.be/piCyvTM2dek) | [Behavioural Cloning](https://youtu.be/rejpoogaXOE) |
-| [<img src="docs\assets\imagesIntersection-Traversal.png" width="500">](https://youtu.be/AEFJbDzOpcM) | [<img src="docs\assets\imagesSmart-City-Management.png" width="500">](https://youtu.be/fnxOpV1gFXo) |
+| [<img src="docs/assets/images/Intersection-Traversal.png" width="500">](https://youtu.be/AEFJbDzOpcM) | [<img src="docs/assets/images/Smart-City-Management.png" width="500">](https://youtu.be/fnxOpV1gFXo) |
 | [Intersection Traversal](https://youtu.be/AEFJbDzOpcM) | [Smart City Management](https://youtu.be/fnxOpV1gFXo) |
 |                    |                     |
 
@@ -137,15 +137,15 @@ We encourage you to take a look at the following presentations to gain a better 
 
 |                    |                     |
 |:------------------:|:-------------------:|
-| [<img src="docs\assets\imagesSRMIST-FYP-Viva-Voce.png" width="500">](https://youtu.be/2FByDOkDxMc) | [<img src="docs\assets\imagesCCRIS-2021-Presentation.png" width="500">](https://youtu.be/whTH6VyVtHE) |
+| [<img src="docs/assets/images/SRMIST-FYP-Viva-Voce.png" width="500">](https://youtu.be/2FByDOkDxMc) | [<img src="docs/assets/images/CCRIS-2021-Presentation.png" width="500">](https://youtu.be/whTH6VyVtHE) |
 | [SRMIST UG Final Year Project Viva Voce](https://youtu.be/2FByDOkDxMc) | [CCRIS 2021 Virtual Presentation](https://youtu.be/whTH6VyVtHE) |
-| [<img src="docs\assets\imagesAutoDRIVE-Technical-Discussion.png" width="500">](https://youtu.be/nV7HuLTjUY4) | [<img src="docs\assets\imagesAutoware-COE-Seminar.png" width="500">](https://youtu.be/WTGOAiRX4b0) |
+| [<img src="docs/assets/images/AutoDRIVE-Technical-Discussion.png" width="500">](https://youtu.be/nV7HuLTjUY4) | [<img src="docs/assets/images/Autoware-COE-Seminar.png" width="500">](https://youtu.be/WTGOAiRX4b0) |
 | [AutoDRIVE Technical Discussion @ ARMLab CU-ICAR](https://youtu.be/nV7HuLTjUY4) | [Autoware COE Seminar](https://youtu.be/WTGOAiRX4b0) |
-| [<img src="docs\assets\imagesAIM-2023-Presentation.png" width="500">](https://youtu.be/PV9k3-N_bvc) | [<img src="docs\assets\imagesOpenCAV-Technical-Discussion.png" width="500">](https://youtu.be/xihFoUxU7EU) |
+| [<img src="docs/assets/images/AIM-2023-Presentation.png" width="500">](https://youtu.be/PV9k3-N_bvc) | [<img src="docs/assets/images/OpenCAV-Technical-Discussion.png" width="500">](https://youtu.be/xihFoUxU7EU) |
 | [AIM 2023 Video Presentation](https://youtu.be/PV9k3-N_bvc) | [OpenCAV Technical Discussion @ ARMLab CU-ICAR](https://youtu.be/xihFoUxU7EU) |
-| [<img src="docs\assets\imagesOpenCAV-AuE-Seminar.png" width="500">](https://youtu.be/bk7lJfD4H0s) | [<img src="docs\assets\imagesSMRDC-2023-Presentation.png" width="500">](https://youtu.be/R_GZ1LkMWGQ) |
+| [<img src="docs/assets/images/OpenCAV-AuE-Seminar.png" width="500">](https://youtu.be/bk7lJfD4H0s) | [<img src="docs/assets/images/SMRDC-2023-Presentation.png" width="500">](https://youtu.be/R_GZ1LkMWGQ) |
 | [OpenCAV CUICAR AuE Seminar](https://youtu.be/bk7lJfD4H0s) | [SMRDC 2023 Finalist Pitch](https://youtu.be/R_GZ1LkMWGQ) |
-| [<img src="docs\assets\imagesMECC-2023-Presentation.png" width="500">](https://youtu.be/0yS1-RpqhcE) | [<img src="docs\assets\imagesIROS-2023-Presentation.png" width="500">](https://youtu.be/8jyCJUOaLaI) |
+| [<img src="docs/assets/images/MECC-2023-Presentation.png" width="500">](https://youtu.be/0yS1-RpqhcE) | [<img src="docs/assets/images/IROS-2023-Presentation.png" width="500">](https://youtu.be/8jyCJUOaLaI) |
 | [MECC 2023 Video Pesentation](https://youtu.be/0yS1-RpqhcE) | [IROS 2023 Presentation](https://youtu.be/8jyCJUOaLaI) |
 |                    |                     |
 
@@ -335,7 +335,7 @@ copyright = {arXiv.org perpetual, non-exclusive license}
 
 |                    |                     |
 |:------------------:|:-------------------:|
-| [<img src="docs\assets\imagesDeveloper-Tanmay-Samak.png" width="125">](https://www.linkedin.com/in/samaktanmay) | [<img src="docs\assets\imagesDeveloper-Chinmay-Samak.png" width="125">](https://www.linkedin.com/in/samakchinmay) |
+| [<img src="docs/assets/images/Developer-Tanmay-Samak.png" width="125">](https://www.linkedin.com/in/samaktanmay) | [<img src="docs/assets/images/Developer-Chinmay-Samak.png" width="125">](https://www.linkedin.com/in/samakchinmay) |
 | [Tanmay Vilas Samak](https://www.linkedin.com/in/samaktanmay) | [Chinmay Vilas Samak](https://www.linkedin.com/in/samakchinmay) |
 |                    |                     |
 
@@ -343,7 +343,7 @@ copyright = {arXiv.org perpetual, non-exclusive license}
 
 |                    |                     |                     |                     |
 |:------------------:|:-------------------:|:-------------------:|:-------------------:|
-| [<img src="docs\assets\imagesContributor-Rohit-Ravikumar.png" width="125">](https://www.linkedin.com/in/rohitravikumar-) | [<img src="docs\assets\imagesContributor-Parth-Shinde.png" width="125">](https://www.linkedin.com/in/parthshindelink) | [<img src="docs\assets\imagesContributor-Joey-Binz.png" width="125">](https://www.linkedin.com/in/joey-binz) | [<img src="docs\assets\imagesContributor-Giovanni-Martino.png" width="125">](https://www.linkedin.com/in/giovannimartinose) |
+| [<img src="docs/assets/images/Contributor-Rohit-Ravikumar.png" width="125">](https://www.linkedin.com/in/rohitravikumar-) | [<img src="docs/assets/images/Contributor-Parth-Shinde.png" width="125">](https://www.linkedin.com/in/parthshindelink) | [<img src="docs/assets/images/Contributor-Joey-Binz.png" width="125">](https://www.linkedin.com/in/joey-binz) | [<img src="docs/assets/images/Contributor-Giovanni-Martino.png" width="125">](https://www.linkedin.com/in/giovannimartinose) |
 | [Rohit Ravikumar](https://www.linkedin.com/in/rohitravikumar-) | [Parth Shinde](https://www.linkedin.com/in/parthshindelink) | [Joey Binz](https://www.linkedin.com/in/joey-binz) | [Giovanni Martino](https://www.linkedin.com/in/giovannimartinose) |
 |                    |                     |                     |                     |
 
@@ -351,7 +351,7 @@ copyright = {arXiv.org perpetual, non-exclusive license}
 
 |                    |                     |                     |
 |:------------------:|:-------------------:|:-------------------:|
-| [<img src="docs\assets\imagesMentor-Venkat-Krovi.png" width="125">](https://www.linkedin.com/in/venkatnkrovi) | [<img src="docs\assets\imagesMentor-Sivanathan-Kandhasamy.png" width="125">](https://www.linkedin.com/in/dr-sivanathan-kandhasamy-a4703966) | [<img src="docs\assets\imagesMentor-Ming-Xie.png" width="125">](https://www.linkedin.com/in/ming-xie-800a4aa1) |
+| [<img src="docs/assets/images/Mentor-Venkat-Krovi.png" width="125">](https://www.linkedin.com/in/venkatnkrovi) | [<img src="docs/assets/images/Mentor-Sivanathan-Kandhasamy.png" width="125">](https://www.linkedin.com/in/dr-sivanathan-kandhasamy-a4703966) | [<img src="docs/assets/images/Mentor-Ming-Xie.png" width="125">](https://www.linkedin.com/in/ming-xie-800a4aa1) |
 | [Dr. Venkat Krovi](https://www.linkedin.com/in/venkatnkrovi) | [Dr. Sivanathan Kandhasamy](https://www.linkedin.com/in/dr-sivanathan-kandhasamy-a4703966) | [Dr. Ming Xie](https://www.linkedin.com/in/ming-xie-800a4aa1) |
 |                    |                     |                     |
 
@@ -359,6 +359,6 @@ copyright = {arXiv.org perpetual, non-exclusive license}
 
 |                    |                     |                     |
 |:------------------:|:-------------------:|:-------------------:|
-| [<img src="docs\assets\imagesInstitution-CUICAR.png" width="250">](https://cuicar.com) | [<img src="docs\assets\imagesInstitution-SRMIST.png" width="250">](https://www.srmist.edu.in/) | [<img src="docs\assets\imagesInstitution-NTU.png" width="250">](https://www.ntu.edu.sg) |
+| [<img src="docs/assets/images/Institution-CUICAR.png" width="250">](https://cuicar.com) | [<img src="docs/assets/images/Institution-SRMIST.png" width="250">](https://www.srmist.edu.in/) | [<img src="docs/assets/images/Institution-NTU.png" width="250">](https://www.ntu.edu.sg) |
 | [CU-ICAR](https://cuicar.com) | [SRM-IST](https://www.srmist.edu.in) | [NTU](https://www.ntu.edu.sg) |
 |                    |                     |                     |
