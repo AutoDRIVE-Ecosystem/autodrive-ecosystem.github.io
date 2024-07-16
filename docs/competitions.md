@@ -7,6 +7,9 @@
 
 === "Timeline"
     
+    !!! warning
+        Timeline is subject to change.
+
     |          DATE         | SIM RACING LEAGUE          |
     |:----------------------|:---------------------------|
     | Jul 16, 2024          | Registration Opens         |
@@ -33,6 +36,9 @@
     TODO
 
 === "Timeline"
+
+    !!! warning
+        Timeline is subject to change.
     
     |          DATE         | SIM RACING LEAGUE          |
     |:----------------------|:---------------------------|
