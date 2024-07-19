@@ -1,5 +1,7 @@
 # F1TENTH Sim Racing League @ IROS 2024
 
+![F1TENTH Sim Racing League @ IROS 2024](../../assets/images/F1TENTH-Sim-Racing-League-IROS-2024.png)
+
 === "About"
 
     <p align="justify">
