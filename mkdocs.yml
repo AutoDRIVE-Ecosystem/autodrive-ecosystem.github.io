@@ -104,6 +104,8 @@ extra:
       link: https://hub.docker.com/u/autodriveecosystem
     - icon: fontawesome/brands/youtube
       link: https://www.youtube.com/@autodrive-ecosystem
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/company/autodrive-ecosystem
     - icon: fontawesome/brands/x-twitter
       link: https://x.com/autodrive_ai
     - icon: fontawesome/brands/instagram

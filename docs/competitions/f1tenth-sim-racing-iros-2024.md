@@ -39,16 +39,16 @@
     |:----------------------|:---------------------------|
     | Jul 22, 2024          | Registration Opens         |
     | Aug 30, 2024          | Registration Closes        |
-    | Aug 20, 2024          | Orientation 1              |
-    | Sep 17, 2024          | Orientation 2              |
+    | Aug 20, 2024          | Online Orientation 1       |
+    | Sep 17, 2024          | Online Orientation 2       |
     | Sep 28 – Sep 29, 2024 | Qualification Round        |
     | Sep 30, 2024          | Competition Track Released |
     | Oct 05 – Oct 06, 2024 | Final Race                 |
     | Oct 07, 2024          | Results Declared           |
 
     -	**Registration:** Teams register for the sim racing league.
-    -	**Orientation 1:** Organizers will explain the competition rules and guidelines, and demonstrate how to use the simulation framework.
-    -	**Orientation 2:** Organizers will check progress of the participating teams and help with any technical difficulties.
+    -	**Online Orientation 1:** Organizers will explain the competition rules and guidelines, and demonstrate how to use the simulation framework.
+    -	**Online Orientation 2:** Organizers will check progress of the participating teams and help with any technical difficulties.
     -	**Qualification Round:** Teams will demonstrate successful completion of 10 laps around the practice track provided ahead of time.
     -	**Competition Track Released:** We will release the actual "competition track", which will be used for the final race. This track may be then replicated in the physical race as well.
     -	**Final Race:** We will collect Docker containers from teams, with their algorithms and connect them to the AutoDRIVE Simulator container. Performance metrics of each team will be recorded.
