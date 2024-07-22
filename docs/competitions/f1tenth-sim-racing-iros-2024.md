@@ -40,7 +40,7 @@
     |          DATE         | SIM RACING LEAGUE          |
     |:----------------------|:---------------------------|
     | Jul 22, 2024          | Registration Opens         |
-    | Aug 30, 2024          | Registration Closes        |
+    | Aug 31, 2024          | Registration Closes        |
     | Aug 20, 2024          | Online Orientation 1       |
     | Sep 17, 2024          | Online Orientation 2       |
     | Sep 28 – Sep 29, 2024 | Qualification Round        |
