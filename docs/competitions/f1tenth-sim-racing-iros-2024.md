@@ -60,7 +60,7 @@
     Coming soon.
 
 === "Registration"
-    Coming soon.
+    [:material-file-document-edit: Registration Form](https://forms.gle/hBCctUaHcvFoB9zHA){.md-button}
 
 === "Results"
     Coming soon.

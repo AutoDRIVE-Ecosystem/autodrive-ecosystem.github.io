@@ -32,6 +32,9 @@ The competition will take place in 2 stages:
 Since vehicles and simulator are standardized, teams must develop robust perception, planning, and control algorithms that can deal with the uncertainties of a new track.
 </p>
 
+!!! Tip
+    If you are interested in autonomously racing physical F1TENTH vehicles, please check out the website for [22nd F1TENTH Autonomous Grand Prix](https://cdc2024-race.f1tenth.org/), which will be held in person at CDC 2024. You can always register and compete in both physical and virtual competitions!
+
 ## Organizers
 
 - Venkat Krovi
