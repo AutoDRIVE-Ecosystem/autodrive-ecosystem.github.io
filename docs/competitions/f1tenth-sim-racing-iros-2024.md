@@ -60,7 +60,18 @@
     Coming soon.
 
 === "Registration"
-    [:material-file-document-edit: Registration Form](https://forms.gle/hBCctUaHcvFoB9zHA){.md-button}
+
+    <p align="justify">
+        This competition is open for everyone around the world across all academic/industrial levels, everyone is welcome to participate in this competition. A team can consist of multiple teammates. Teams with only one person are also allowed.
+    </p>
+
+    <p align="center">
+        [:material-file-document-edit: Registration Form](https://forms.gle/hBCctUaHcvFoB9zHA){.md-button}
+    </p>
+
+    <p align="justify">
+        Competition registration is free of cost and is seperate from the conference registration itself. The above form is only for competition registration, and for orientation and information sessions. Although you can participate in the F1TENTH Sim Racing League without attending the conference, we strongly encourage all competition participants to attent the conference in person. This will help you connect with the broader AutoDRIVE and F1TENTH communities, and you can also witness/participate in the physical F1TENTH autonomous racing competition!
+    </p>
 
 === "Results"
     Coming soon.
