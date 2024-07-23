@@ -69,7 +69,16 @@
     
     
     
-  </head>
+   <link href="../../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
+    html.glightbox-open { overflow: initial; height: 100%; }
+    .gslide-title { margin-top: 0px; user-select: text; }
+    .gslide-desc { color: #666; user-select: text; }
+    .gslide-image img { background: white; }
+    .gscrollbar-fixer { padding-right: 15px; }
+    .gdesc-inner { font-size: 0.75rem; }
+    body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color);}
+    body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color);}
+    body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color);}</style> <script src="../../assets/javascripts/glightbox.min.js"></script></head>
   
   
     
@@ -464,7 +473,9 @@
       
         
 
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+
+<nav class="md-nav md-nav--secondary" aria-label="CONTENTS">
   
   
   
@@ -473,7 +484,7 @@
   
     <label class="md-nav__title" for="__toc">
       <span class="md-nav__icon md-icon"></span>
-      Table of contents
+      CONTENTS
     </label>
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
@@ -566,15 +577,15 @@
 
 
 <h1 id="f1tenth-sim-racing-league-cdc-2024">F1TENTH Sim Racing League @ CDC 2024<a class="headerlink" href="#f1tenth-sim-racing-league-cdc-2024" title="Permanent link">&para;</a></h1>
-<p><img alt="F1TENTH Sim Racing League @ CDC 2024" src="../../assets/images/F1TENTH-Sim-Racing-League-CDC-2024.png" /></p>
+<p><a class="glightbox" href="../../assets/images/F1TENTH-Sim-Racing-League-CDC-2024.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="F1TENTH Sim Racing League @ CDC 2024" src="../../assets/images/F1TENTH-Sim-Racing-League-CDC-2024.png" /></a></p>
 <h2 id="about">About<a class="headerlink" href="#about" title="Permanent link">&para;</a></h2>
 <p align="justify">
-<b>F1TENTH Autonomous Racing</b> is a semi-regular competition organized by an international community of researchers, engineers, and autonomous systems enthusiasts. The teams participating in the <b>21st F1TENTH Autonomous Grand Prix</b> at CDC 2024 will write software for a 1:10 scaled autonomous racecar to fulfill the objectives of the competition: <b><i>drive fast but don’t crash!</i></b>
+<b>F1TENTH Autonomous Racing</b> is a semi-regular competition organized by an international community of researchers, engineers, and autonomous systems enthusiasts. The teams participating in the <b>22nd F1TENTH Autonomous Grand Prix</b> at CDC 2024 will write software for a 1:10 scaled autonomous racecar to fulfill the objectives of the competition: <b><i>drive fast but don’t crash!</i></b>
 </p>
 
 <!-- <div class="grid" markdown> -->
 <p align="justify">
-This year, we are organizing the <b>F1TENTH Sim Racing League</b>, which leverages <a href="https://autodrive-ecosystem.github.io">AutoDRIVE Ecosystem</a> to model and simulate the digital twin of an F1TENTH racecar within a virtual racetrack. Please see the accompanying video for more details. The main focus of the Sim Racing League is a virtual competition with simulated cars and environments.
+This time, we are organizing the second <b>F1TENTH Sim Racing League</b>, which leverages <a href="https://autodrive-ecosystem.github.io">AutoDRIVE Ecosystem</a> to model and simulate the digital twin of an F1TENTH racecar within a virtual racetrack. Please see the accompanying video for more details. The main focus of the Sim Racing League is a virtual competition with simulated cars and environments.
 
 <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/Rq7Wwcwn1uk?si=ngvop2-SfJJOIjWJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div> -->
@@ -611,13 +622,13 @@ Since vehicles and simulator are standardized, teams must develop robust percept
 <h2 id="timeline">Timeline<a class="headerlink" href="#timeline" title="Permanent link">&para;</a></h2>
 <div class="admonition warning">
 <p class="admonition-title">Warning</p>
-<p>Timeline is subject to change.</p>
+<p>Timeline is subject to change. Please keep checking this page for any updates.</p>
 </div>
 <table>
 <thead>
 <tr>
 <th style="text-align: left;">DATE</th>
-<th style="text-align: left;">SIM RACING LEAGUE</th>
+<th style="text-align: left;">EVENT</th>
 </tr>
 </thead>
 <tbody>
@@ -656,19 +667,19 @@ Since vehicles and simulator are standardized, teams must develop robust percept
 </tbody>
 </table>
 <ul>
-<li><strong>Registration:</strong> Teams register for the sim racing league.</li>
+<li><strong>Registration:</strong> Interested teams will register for the sim racing league.</li>
 <li><strong>Online Orientation 1:</strong> Organizers will explain the competition rules and guidelines, and demonstrate how to use the simulation framework.</li>
 <li><strong>Online Orientation 2:</strong> Organizers will check progress of the participating teams and help with any technical difficulties.</li>
 <li><strong>Qualification Round:</strong> Teams will demonstrate successful completion of 10 laps around the practice track provided ahead of time.</li>
-<li><strong>Competition Track Released:</strong> We will release the actual "competition track", which will be used for the final race. This track may be then replicated in the physical race as well.</li>
-<li><strong>Final Race:</strong> We will collect Docker containers from teams, with their algorithms and connect them to the AutoDRIVE Simulator container. Performance metrics of each team will be recorded.</li>
+<li><strong>Competition Track Released:</strong> Organizers will release the actual "competition track", which will be used for the final race. This track may be replicated in the physical race as well.</li>
+<li><strong>Final Race:</strong> Organizers will collect containerized algorithms from each team and connect them with the containerized simulator. Performance metrics of each team will be recorded.</li>
 <li><strong>Results Declared:</strong> Standings of all the teams will be released.</li>
 </ul>
 <h2 id="resources">Resources<a class="headerlink" href="#resources" title="Permanent link">&para;</a></h2>
 <p>AutoDRIVE is envisioned to be an open, comprehensive, flexible and integrated cyber-physical ecosystem for enhancing autonomous driving research and education. It bridges the gap between software simulation and hardware deployment by providing the AutoDRIVE Simulator and AutoDRIVE Testbed, a well-suited duo for sim2real applications. It also offers AutoDRIVE Devkit, a developer's kit for rapid and flexible development of autonomy algorithms in a variety of software frameworks. Although the ecosystem is primarily targeted towards autonomous driving, it also supports the development of smart-city solutions for managing the traffic flow.</p>
 <div class="grid">
-<p><img src="../../assets/images/AutoDRIVE-Overview.png"></p>
-<p><img src="../../assets/images/Vehicle-DT.png"></p>
+<p><a class="glightbox" href="/../assets/images/AutoDRIVE-Overview.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="/../assets/images/AutoDRIVE-Overview.png"></a></p>
+<p><a class="glightbox" href="/../assets/images/Vehicle-DT.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="/../assets/images/Vehicle-DT.png"></a></p>
 </div>
 <p><strong>Details of this framework are available from:</strong></p>
 <ol>
@@ -695,7 +706,7 @@ Since vehicles and simulator are standardized, teams must develop robust percept
 <h2 id="registration">Registration<a class="headerlink" href="#registration" title="Permanent link">&para;</a></h2>
 <p>Opens on Aug 01, 2024.</p>
 <h2 id="results">Results<a class="headerlink" href="#results" title="Permanent link">&para;</a></h2>
-<p>Will be announced around Dec 09, 2024.</p>
+<p>To be announced on Dec 09, 2024.</p>
 
 
 
@@ -703,6 +714,27 @@ Since vehicles and simulator are standardized, teams must develop robust percept
 
 
 
+  
+    
+  
+  
+
+
+  <aside class="md-source-file">
+    
+      
+  <span class="md-source-file__fact">
+    <span class="md-icon" title="Last update">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1-2.1-2M12.5 7v5.2l4 2.4-1 1L11 13V7h1.5M11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2v1.8Z"/></svg>
+    </span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">July 23, 2024</span>
+  </span>
+
+    
+    
+    
+    
+  </aside>
 
 
   
@@ -849,5 +881,7 @@ Since vehicles and simulator are standardized, teams must develop robust percept
       <script src="../../assets/javascripts/bundle.fe8b6f2b.min.js"></script>
       
     
-  </body>
+  <script id="init-glightbox">const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});
+document$.subscribe(() => { lightbox.reload() });
+</script></body>
 </html>

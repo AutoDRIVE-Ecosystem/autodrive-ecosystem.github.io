@@ -71,7 +71,16 @@
     
     
     
-  </head>
+   <link href="../../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
+    html.glightbox-open { overflow: initial; height: 100%; }
+    .gslide-title { margin-top: 0px; user-select: text; }
+    .gslide-desc { color: #666; user-select: text; }
+    .gslide-image img { background: white; }
+    .gscrollbar-fixer { padding-right: 15px; }
+    .gdesc-inner { font-size: 0.75rem; }
+    body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color);}
+    body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color);}
+    body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color);}</style> <script src="../../assets/javascripts/glightbox.min.js"></script></head>
   
   
     
@@ -422,6 +431,17 @@
         
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    F1TENTH @ IROS 2024
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="./" class="md-nav__link md-nav__link--active">
         
   
@@ -431,6 +451,81 @@
   
 
       </a>
+      
+        
+
+  
+
+<nav class="md-nav md-nav--secondary" aria-label="CONTENTS">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      CONTENTS
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#about" class="md-nav__link">
+    <span class="md-ellipsis">
+      About
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#organizers" class="md-nav__link">
+    <span class="md-ellipsis">
+      Organizers
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#timeline" class="md-nav__link">
+    <span class="md-ellipsis">
+      Timeline
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#resources" class="md-nav__link">
+    <span class="md-ellipsis">
+      Resources
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#registration" class="md-nav__link">
+    <span class="md-ellipsis">
+      Registration
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#results" class="md-nav__link">
+    <span class="md-ellipsis">
+      Results
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -484,21 +579,23 @@
 
 
 <h1 id="f1tenth-sim-racing-league-iros-2024">F1TENTH Sim Racing League @ IROS 2024<a class="headerlink" href="#f1tenth-sim-racing-league-iros-2024" title="Permanent link">&para;</a></h1>
-<p><img alt="F1TENTH Sim Racing League @ IROS 2024" src="../../assets/images/F1TENTH-Sim-Racing-League-IROS-2024.png" /></p>
-<div class="tabbed-set tabbed-alternate" data-tabs="1:6"><input checked="checked" id="f1tenth-sim-racing-league-iros-2024-about" name="__tabbed_1" type="radio" /><input id="f1tenth-sim-racing-league-iros-2024-organizers" name="__tabbed_1" type="radio" /><input id="f1tenth-sim-racing-league-iros-2024-timeline" name="__tabbed_1" type="radio" /><input id="f1tenth-sim-racing-league-iros-2024-resources" name="__tabbed_1" type="radio" /><input id="f1tenth-sim-racing-league-iros-2024-registration" name="__tabbed_1" type="radio" /><input id="f1tenth-sim-racing-league-iros-2024-results" name="__tabbed_1" type="radio" /><div class="tabbed-labels"><label for="f1tenth-sim-racing-league-iros-2024-about">About</label><label for="f1tenth-sim-racing-league-iros-2024-organizers">Organizers</label><label for="f1tenth-sim-racing-league-iros-2024-timeline">Timeline</label><label for="f1tenth-sim-racing-league-iros-2024-resources">Resources</label><label for="f1tenth-sim-racing-league-iros-2024-registration">Registration</label><label for="f1tenth-sim-racing-league-iros-2024-results">Results</label></div>
-<div class="tabbed-content">
-<div class="tabbed-block">
-<p><p align="justify">
-    <strong>F1TENTH Autonomous Racing</strong> is a semi-regular competition organized by an international community of researchers, engineers, and autonomous systems enthusiasts. The teams participating in <strong>21<sup>st</sup> F1TENTH Autonomous Grand Prix</strong> at IROS 2024 will write software for a 1:10 scaled autonomous race car to fulfill the objectives for the competition: <strong><em>drive fast but don’t crash!</em></strong>
-</p></p>
-<p><div class="grid" markdown>
+<p><a class="glightbox" href="../../assets/images/F1TENTH-Sim-Racing-League-IROS-2024.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="F1TENTH Sim Racing League @ IROS 2024" src="../../assets/images/F1TENTH-Sim-Racing-League-IROS-2024.png" /></a></p>
+<h2 id="about">About<a class="headerlink" href="#about" title="Permanent link">&para;</a></h2>
 <p align="justify">
-    This year, we are organizing the first ever <strong>F1TENTH Sim Racing League</strong> leveraging the <a href="https://autodrive-ecosystem.github.io">AutoDRIVE Ecosystem</a>. The main focus of the Sim Racing League is a virtual competition with simulated cars and environments. Each team will be provided with the F1TENTH digital twin simulator and have to write the software for their car. For the competition, teams first take part in a qualification session, where they demonstrate the ability to complete multiple laps without colliding with the track bounds at run time. This is followed by a time attack race, where teams compete against the clock to secure a position on the leaderboard. Since vehicles and simulator are standardized, teams must develop robust perception, planning, and control algorithms that can deal with the uncertainties of a new track.
+<b>F1TENTH Autonomous Racing</b> is a semi-regular competition organized by an international community of researchers, engineers, and autonomous systems enthusiasts. The teams participating in the <b>21st F1TENTH Autonomous Grand Prix</b> at IROS 2024 will write software for a 1:10 scaled autonomous race car to fulfill the objectives for the competition: <b><i>drive fast but don’t crash!</i></b>
 </p>
+
+<!-- <div class="grid" markdown> -->
+<p align="justify">
+This time, we are organizing the first ever <b>F1TENTH Sim Racing League</b>, which leverages <a href="https://autodrive-ecosystem.github.io">AutoDRIVE Ecosystem</a> to model and simulate the digital twin of an F1TENTH racecar within a virtual racetrack. Please see the accompanying video for more details. The main focus of the Sim Racing League is a virtual competition with simulated cars and environments.
+
+<!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/Rq7Wwcwn1uk?si=ngvop2-SfJJOIjWJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div> -->
+</p>
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Rq7Wwcwn1uk?si=ngvop2-SfJJOIjWJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-</div></p>
-</div>
-<div class="tabbed-block">
+
+<h2 id="organizers">Organizers<a class="headerlink" href="#organizers" title="Permanent link">&para;</a></h2>
 <ul>
 <li>Rahul Mangharam</li>
 <li>Johannes Betz</li>
@@ -515,17 +612,16 @@
 <li>Majd Khonji</li>
 <li>Hamad Karaki</li>
 </ul>
-</div>
-<div class="tabbed-block">
+<h2 id="timeline">Timeline<a class="headerlink" href="#timeline" title="Permanent link">&para;</a></h2>
 <div class="admonition warning">
 <p class="admonition-title">Warning</p>
-<p>Timeline is subject to change.</p>
+<p>Timeline is subject to change. Please keep checking this page for any updates.</p>
 </div>
 <table>
 <thead>
 <tr>
 <th style="text-align: left;">DATE</th>
-<th style="text-align: left;">SIM RACING LEAGUE</th>
+<th style="text-align: left;">EVENT</th>
 </tr>
 </thead>
 <tbody>
@@ -564,34 +660,30 @@
 </tbody>
 </table>
 <ul>
-<li><strong>Registration:</strong> Teams register for the sim racing league.</li>
+<li><strong>Registration:</strong> Interested teams will register for the sim racing league.</li>
 <li><strong>Online Orientation 1:</strong> Organizers will explain the competition rules and guidelines, and demonstrate how to use the simulation framework.</li>
 <li><strong>Online Orientation 2:</strong> Organizers will check progress of the participating teams and help with any technical difficulties.</li>
 <li><strong>Qualification Round:</strong> Teams will demonstrate successful completion of 10 laps around the practice track provided ahead of time.</li>
-<li><strong>Competition Track Released:</strong> We will release the actual "competition track", which will be used for the final race. This track may be then replicated in the physical race as well.</li>
-<li><strong>Final Race:</strong> We will collect Docker containers from teams, with their algorithms and connect them to the AutoDRIVE Simulator container. Performance metrics of each team will be recorded.</li>
+<li><strong>Competition Track Released:</strong> Organizers will release the actual "competition track", which will be used for the final race. This track may be replicated in the physical race as well.</li>
+<li><strong>Final Race:</strong> Organizers will collect containerized algorithms from each team and connect them with the containerized simulator. Performance metrics of each team will be recorded.</li>
 <li><strong>Results Declared:</strong> Standings of all the teams will be released.</li>
 </ul>
-</div>
-<div class="tabbed-block">
+<h2 id="resources">Resources<a class="headerlink" href="#resources" title="Permanent link">&para;</a></h2>
 <p>Coming soon.</p>
-</div>
-<div class="tabbed-block">
-<p><p align="justify">
-    This competition is open for everyone around the world across all academic/industrial levels, everyone is welcome to participate in this competition. A team can consist of multiple teammates. Teams with only one person are also allowed.
-</p></p>
-<p><p align="center">
-    <a class="md-button" href="https://forms.gle/hBCctUaHcvFoB9zHA"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M6 2c-1.11 0-2 .89-2 2v16a2 2 0 0 0 2 2h4v-1.91L12.09 18H6v-2h8.09l2-2H6v-2h12.09L20 10.09V8l-6-6H6m7 1.5L18.5 9H13V3.5m7.15 9.5a.55.55 0 0 0-.4.16l-1.02 1.02 2.09 2.08 1.02-1.01c.21-.22.21-.58 0-.79l-1.3-1.3a.544.544 0 0 0-.39-.16m-2.01 1.77L12 20.92V23h2.08l6.15-6.15-2.09-2.08Z"/></svg></span> Registration Form</a>
-</p></p>
-<p><p align="justify">
-    Competition registration is free of cost and is seperate from the conference registration itself. The above form is only for competition registration, and for orientation and information sessions. Although you can participate in the F1TENTH Sim Racing League without attending the conference, we strongly encourage all competition participants to attent the conference in person. This will help you connect with the broader AutoDRIVE and F1TENTH communities, and you can also witness/participate in the physical F1TENTH autonomous racing competition!
-</p></p>
-</div>
-<div class="tabbed-block">
-<p>Coming soon.</p>
-</div>
-</div>
-</div>
+<h2 id="registration">Registration<a class="headerlink" href="#registration" title="Permanent link">&para;</a></h2>
+<p align="justify">
+This competition is open for everyone around the world - students, researchers, hobbyists, professionals, or anyone else who is interested. A team can consist of multiple teammates. Teams with only one person are also allowed.
+</p>
+
+<p><center>
+<a class="md-button" href="https://forms.gle/hBCctUaHcvFoB9zHA"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M6 2c-1.11 0-2 .89-2 2v16a2 2 0 0 0 2 2h4v-1.91L12.09 18H6v-2h8.09l2-2H6v-2h12.09L20 10.09V8l-6-6H6m7 1.5L18.5 9H13V3.5m7.15 9.5a.55.55 0 0 0-.4.16l-1.02 1.02 2.09 2.08 1.02-1.01c.21-.22.21-.58 0-.79l-1.3-1.3a.544.544 0 0 0-.39-.16m-2.01 1.77L12 20.92V23h2.08l6.15-6.15-2.09-2.08Z"/></svg></span> Registration Form</a>
+</center></p>
+<p align="justify">
+Competition registration is free of cost and is seperate from the conference registration itself. The above form is only for competition registration, and for orientation and information sessions. Although you can participate in the F1TENTH Sim Racing League without attending the conference, we strongly encourage all competition participants to attent the conference in person. This will help you connect with the broader AutoDRIVE and F1TENTH communities, and you can also witness/participate in the physical F1TENTH autonomous racing competition!
+</p>
+
+<h2 id="results">Results<a class="headerlink" href="#results" title="Permanent link">&para;</a></h2>
+<p>To be announced on Oct 07, 2024.</p>
 
 
 
@@ -599,6 +691,27 @@
 
 
 
+  
+    
+  
+  
+
+
+  <aside class="md-source-file">
+    
+      
+  <span class="md-source-file__fact">
+    <span class="md-icon" title="Last update">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1-2.1-2M12.5 7v5.2l4 2.4-1 1L11 13V7h1.5M11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2v1.8Z"/></svg>
+    </span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">July 23, 2024</span>
+  </span>
+
+    
+    
+    
+    
+  </aside>
 
 
   
@@ -745,5 +858,7 @@
       <script src="../../assets/javascripts/bundle.fe8b6f2b.min.js"></script>
       
     
-  </body>
+  <script id="init-glightbox">const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});
+document$.subscribe(() => { lightbox.reload() });
+</script></body>
 </html>

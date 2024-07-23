@@ -69,7 +69,16 @@
     
     
     
-  </head>
+   <link href="assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
+    html.glightbox-open { overflow: initial; height: 100%; }
+    .gslide-title { margin-top: 0px; user-select: text; }
+    .gslide-desc { color: #666; user-select: text; }
+    .gslide-image img { background: white; }
+    .gscrollbar-fixer { padding-right: 15px; }
+    .gdesc-inner { font-size: 0.75rem; }
+    body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color);}
+    body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color);}
+    body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color);}</style> <script src="assets/javascripts/glightbox.min.js"></script></head>
   
   
     
@@ -354,14 +363,16 @@
       
         
 
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+
+<nav class="md-nav md-nav--secondary" aria-label="CONTENTS">
   
   
   
   
     <label class="md-nav__title" for="__toc">
       <span class="md-nav__icon md-icon"></span>
-      Table of contents
+      CONTENTS
     </label>
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
@@ -723,20 +734,20 @@
 
   <h1>HOME</h1>
 
-<p><img src="assets/images/AutoDRIVE-Banner.jpg"></p>
+<p><a class="glightbox" href="assets/images/AutoDRIVE-Banner.jpg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="assets/images/AutoDRIVE-Banner.jpg"></a></p>
 <p align="center">
-  <img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fautodrive-ecosystem.github.io&count_bg=%23DA4848&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=Hits&edge_flat=false"/>
-  <img src="https://komarev.com/ghpvc/?username=AutoDRIVE-Ecosystem&label=Views&color=brightgreen">
-  <img src="https://img.shields.io/github/followers/AutoDRIVE-Ecosystem?style=flat&label=Followers&color=blueviolet">
-  <img src="https://badgen.net/github/stars/Tinker-Twins/AutoDRIVE?label=Stars&color=blue">
-  <img src="https://badgen.net/github/forks/Tinker-Twins/AutoDRIVE?label=Forks&color=orange">
-  <img alt='GitHub Clones' src='https://img.shields.io/badge/dynamic/json?color=blue&label=Clones&query=count&url=https://gist.githubusercontent.com/Tinker-Twins/e2855ef0fa018279b206045be92424cb/raw/clone.json'>
-  <img src="https://img.shields.io/github/downloads/Tinker-Twins/AutoDRIVE/total?color=yellow&label=Downloads">
+  <a class="glightbox" href="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fautodrive-ecosystem.github.io&count_bg=%23DA4848&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=Hits&edge_flat=false" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fautodrive-ecosystem.github.io&count_bg=%23DA4848&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=Hits&edge_flat=false"/></a>
+  <a class="glightbox" href="https://komarev.com/ghpvc/?username=AutoDRIVE-Ecosystem&label=Views&color=brightgreen" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="https://komarev.com/ghpvc/?username=AutoDRIVE-Ecosystem&label=Views&color=brightgreen"></a>
+  <a class="glightbox" href="https://img.shields.io/github/followers/AutoDRIVE-Ecosystem?style=flat&label=Followers&color=blueviolet" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="https://img.shields.io/github/followers/AutoDRIVE-Ecosystem?style=flat&label=Followers&color=blueviolet"></a>
+  <a class="glightbox" href="https://badgen.net/github/stars/Tinker-Twins/AutoDRIVE?label=Stars&color=blue" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="https://badgen.net/github/stars/Tinker-Twins/AutoDRIVE?label=Stars&color=blue"></a>
+  <a class="glightbox" href="https://badgen.net/github/forks/Tinker-Twins/AutoDRIVE?label=Forks&color=orange" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="https://badgen.net/github/forks/Tinker-Twins/AutoDRIVE?label=Forks&color=orange"></a>
+  <a class="glightbox" href="https://img.shields.io/badge/dynamic/json?color=blue&label=Clones&query=count&url=https://gist.githubusercontent.com/Tinker-Twins/e2855ef0fa018279b206045be92424cb/raw/clone.json" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt='GitHub Clones' src='https://img.shields.io/badge/dynamic/json?color=blue&label=Clones&query=count&url=https://gist.githubusercontent.com/Tinker-Twins/e2855ef0fa018279b206045be92424cb/raw/clone.json'></a>
+  <a class="glightbox" href="https://img.shields.io/github/downloads/Tinker-Twins/AutoDRIVE/total?color=yellow&label=Downloads" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="https://img.shields.io/github/downloads/Tinker-Twins/AutoDRIVE/total?color=yellow&label=Downloads"></a>
   <!---img src="https://img.shields.io/github/stars/AutoDRIVE-Ecosystem?label=Stars&color=blue"-->
 </p>
 
 <h2 id="project-overview">Project Overview<a class="headerlink" href="#project-overview" title="Permanent link">&para;</a></h2>
-<p><img alt="" src="assets/images/AutoDRIVE-Overview.png" /></p>
+<p><a class="glightbox" href="assets/images/AutoDRIVE-Overview.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="assets/images/AutoDRIVE-Overview.png" /></a></p>
 <p align="justify">
 AutoDRIVE is envisioned to be an integrated platform for autonomous driving research and education. It bridges the gap between software simulation and hardware deployment by providing the AutoDRIVE Simulator and AutoDRIVE Testbed, a well-suited duo for sim2real applications. It also offers AutoDRIVE Devkit, a developer's kit for rapid and flexible development of autonomy algorithms. Although the platform is primarily targeted towards autonomous driving, it also supports the development of smart-city solutions for managing the traffic flow.
 </p>
@@ -745,8 +756,8 @@ AutoDRIVE is envisioned to be an integrated platform for autonomous driving rese
 <table>
 <thead>
 <tr>
-<th style="text-align: center;"><img src="assets/images/Testbed-Vehicle.png" width="500"></th>
-<th style="text-align: center;"><img src="assets/images/Testbed-Infrastructure.png" width="500"></th>
+<th style="text-align: center;"><a class="glightbox" href="assets/images/Testbed-Vehicle.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="assets/images/Testbed-Vehicle.png" width="500"></a></th>
+<th style="text-align: center;"><a class="glightbox" href="assets/images/Testbed-Infrastructure.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="assets/images/Testbed-Infrastructure.png" width="500"></a></th>
 </tr>
 </thead>
 <tbody>
@@ -771,8 +782,8 @@ AutoDRIVE Testbed is the hardware setup comprising of a scaled vehicle model (ca
 <table>
 <thead>
 <tr>
-<th style="text-align: center;"><img src="assets/images/Simulator-Vehicle.png" width="500"></th>
-<th style="text-align: center;"><img src="assets/images/Simulator-Infrastructure.png" width="500"></th>
+<th style="text-align: center;"><a class="glightbox" href="assets/images/Simulator-Vehicle.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="assets/images/Simulator-Vehicle.png" width="500"></a></th>
+<th style="text-align: center;"><a class="glightbox" href="assets/images/Simulator-Infrastructure.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="assets/images/Simulator-Infrastructure.png" width="500"></a></th>
 </tr>
 </thead>
 <tbody>
@@ -795,8 +806,8 @@ AutoDRIVE Simulator is the digital twin of the AutoDRIVE Testbed, which enables 
 <table>
 <thead>
 <tr>
-<th style="text-align: center;"><img src="assets/images/ADSS.png" width="500"></th>
-<th style="text-align: center;"><img src="assets/images/SCSS.png" width="500"></th>
+<th style="text-align: center;"><a class="glightbox" href="assets/images/ADSS.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="assets/images/ADSS.png" width="500"></a></th>
+<th style="text-align: center;"><a class="glightbox" href="assets/images/SCSS.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="assets/images/SCSS.png" width="500"></a></th>
 </tr>
 </thead>
 <tbody>
@@ -1257,6 +1268,27 @@ This work has been accepted at <strong>2024 Ground Vehicle Systems Engineering a
 
 
 
+  
+    
+  
+  
+
+
+  <aside class="md-source-file">
+    
+      
+  <span class="md-source-file__fact">
+    <span class="md-icon" title="Last update">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1-2.1-2M12.5 7v5.2l4 2.4-1 1L11 13V7h1.5M11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2v1.8Z"/></svg>
+    </span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">July 18, 2024</span>
+  </span>
+
+    
+    
+    
+    
+  </aside>
 
 
   
@@ -1403,5 +1435,7 @@ This work has been accepted at <strong>2024 Ground Vehicle Systems Engineering a
       <script src="assets/javascripts/bundle.fe8b6f2b.min.js"></script>
       
     
-  </body>
+  <script id="init-glightbox">const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});
+document$.subscribe(() => { lightbox.reload() });
+</script></body>
 </html>
