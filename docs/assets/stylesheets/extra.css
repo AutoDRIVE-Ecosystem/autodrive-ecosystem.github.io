@@ -23,3 +23,13 @@
 .md-typeset table:not([class]) {
     display: table;
 }
+
+/* IMAGES */
+#imageHyperlink {
+    opacity: 0.5;
+    filter: alpha(opacity=40);
+}
+a:hover #imageHyperlink {
+    opacity: 1.0;
+    filter: alpha(opacity=100);
+}

@@ -1,16 +1,16 @@
 # F1TENTH Sim Racing League @ CDC 2024
 
-![F1TENTH Sim Racing League @ CDC 2024](../../assets/images/F1TENTH-Sim-Racing-League-CDC-2024.png)
+![F1TENTH Sim Racing League @ CDC 2024](../assets/images/F1TENTH-Sim-Racing-League-CDC-2024.png)
 
 ## About
 
 <p align="justify">
-<b>F1TENTH Autonomous Racing</b> is a semi-regular competition organized by an international community of researchers, engineers, and autonomous systems enthusiasts. The teams participating in the <b>21st F1TENTH Autonomous Grand Prix</b> at CDC 2024 will write software for a 1:10 scaled autonomous racecar to fulfill the objectives of the competition: <b><i>drive fast but don’t crash!</i></b>
+<b>F1TENTH Autonomous Racing</b> is a semi-regular competition organized by an international community of researchers, engineers, and autonomous systems enthusiasts. The teams participating in the <b>22nd F1TENTH Autonomous Grand Prix</b> at CDC 2024 will write software for a 1:10 scaled autonomous racecar to fulfill the objectives of the competition: <b><i>drive fast but don’t crash!</i></b>
 </p>
 
 <!-- <div class="grid" markdown> -->
 <p align="justify">
-This year, we are organizing the <b>F1TENTH Sim Racing League</b>, which leverages <a href="https://autodrive-ecosystem.github.io">AutoDRIVE Ecosystem</a> to model and simulate the digital twin of an F1TENTH racecar within a virtual racetrack. Please see the accompanying video for more details. The main focus of the Sim Racing League is a virtual competition with simulated cars and environments.
+This time, we are organizing the second <b>F1TENTH Sim Racing League</b>, which leverages <a href="https://autodrive-ecosystem.github.io">AutoDRIVE Ecosystem</a> to model and simulate the digital twin of an F1TENTH racecar within a virtual racetrack. Please see the accompanying video for more details. The main focus of the Sim Racing League is a virtual competition with simulated cars and environments.
 
 <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/Rq7Wwcwn1uk?si=ngvop2-SfJJOIjWJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div> -->
@@ -46,9 +46,9 @@ Since vehicles and simulator are standardized, teams must develop robust percept
 ## Timeline
 
 !!! warning
-    Timeline is subject to change.
+    Timeline is subject to change. Please keep checking this page for any updates.
 
-|          DATE         | SIM RACING LEAGUE          |
+| DATE                  | EVENT                      |
 |:----------------------|:---------------------------|
 | Aug 01, 2024          | Registration Opens         |
 | Oct 30, 2024          | Registration Closes        |
@@ -59,12 +59,12 @@ Since vehicles and simulator are standardized, teams must develop robust percept
 | Dec 07 – Dec 08, 2024 | Final Race                 |
 | Dec 09, 2024          | Results Declared           |
 
--	**Registration:** Teams register for the sim racing league.
+-	**Registration:** Interested teams will register for the sim racing league.
 -	**Online Orientation 1:** Organizers will explain the competition rules and guidelines, and demonstrate how to use the simulation framework.
 -	**Online Orientation 2:** Organizers will check progress of the participating teams and help with any technical difficulties.
 -	**Qualification Round:** Teams will demonstrate successful completion of 10 laps around the practice track provided ahead of time.
--	**Competition Track Released:** We will release the actual "competition track", which will be used for the final race. This track may be then replicated in the physical race as well.
--	**Final Race:** We will collect Docker containers from teams, with their algorithms and connect them to the AutoDRIVE Simulator container. Performance metrics of each team will be recorded.
+-	**Competition Track Released:** Organizers will release the actual "competition track", which will be used for the final race. This track may be replicated in the physical race as well.
+-	**Final Race:** Organizers will collect containerized algorithms from each team and connect them with the containerized simulator. Performance metrics of each team will be recorded.
 -	**Results Declared:** Standings of all the teams will be released.
 
 ## Resources
@@ -72,9 +72,9 @@ Since vehicles and simulator are standardized, teams must develop robust percept
 AutoDRIVE is envisioned to be an open, comprehensive, flexible and integrated cyber-physical ecosystem for enhancing autonomous driving research and education. It bridges the gap between software simulation and hardware deployment by providing the AutoDRIVE Simulator and AutoDRIVE Testbed, a well-suited duo for sim2real applications. It also offers AutoDRIVE Devkit, a developer's kit for rapid and flexible development of autonomy algorithms in a variety of software frameworks. Although the ecosystem is primarily targeted towards autonomous driving, it also supports the development of smart-city solutions for managing the traffic flow.
 
 <div class="grid" markdown>
-<img src="../../assets/images/AutoDRIVE-Overview.png">
+<img src="/../assets/images/AutoDRIVE-Overview.png">
 
-<img src="../../assets/images/Vehicle-DT.png">
+<img src="/../assets/images/Vehicle-DT.png">
 </div>
 
 **Details of this framework are available from:**
@@ -99,4 +99,4 @@ Opens on Aug 01, 2024.
 
 ## Results
 
-Will be announced around Dec 09, 2024.
+To be announced on Dec 09, 2024.

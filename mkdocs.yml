@@ -74,6 +74,8 @@ plugins:
   - blog
   - search:
       separator: '[\s\u200b\-_,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
+  - git-revision-date-localized # https://github.com/timvink/mkdocs-git-revision-date-localized-plugin
+  - glightbox # https://squidfunk.github.io/mkdocs-material/reference/images
   # - mkdocs-video
   # - same-dir
   # - minify:
@@ -121,6 +123,7 @@ markdown_extensions:
   - md_in_html
   - toc:
       permalink: true
+      title: CONTENTS
   - pymdownx.arithmatex:
       generic: true
   - pymdownx.betterem:
