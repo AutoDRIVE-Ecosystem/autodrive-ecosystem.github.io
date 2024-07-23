@@ -72,7 +72,7 @@ Since vehicles and simulator are standardized, teams must develop robust percept
 AutoDRIVE is envisioned to be an open, comprehensive, flexible and integrated cyber-physical ecosystem for enhancing autonomous driving research and education. It bridges the gap between software simulation and hardware deployment by providing the AutoDRIVE Simulator and AutoDRIVE Testbed, a well-suited duo for sim2real applications. It also offers AutoDRIVE Devkit, a developer's kit for rapid and flexible development of autonomy algorithms in a variety of software frameworks. Although the ecosystem is primarily targeted towards autonomous driving, it also supports the development of smart-city solutions for managing the traffic flow.
 
 <div class="grid" markdown>
-<img src="/../assets/images/AutoDRIVE-Overview.png">
+<img src="/../assets/images/AutoDRIVE Overview - Light.png">
 
 <img src="/../assets/images/Vehicle-DT.png">
 </div>
