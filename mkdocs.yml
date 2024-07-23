@@ -63,7 +63,7 @@ theme:
     text: Roboto
     code: Roboto Mono
   favicon: assets/favicon.png
-  logo: assets/favicon.png
+  logo: assets/images/AutoDRIVE Extended Logo 3.png
 
 # Customization
 extra_css:
