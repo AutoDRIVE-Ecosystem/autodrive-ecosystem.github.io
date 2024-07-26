@@ -63,7 +63,7 @@ theme:
     text: Roboto
     code: Roboto Mono
   favicon: assets/favicon.png
-  logo: assets/images/AutoDRIVE Extended Logo 3.png
+  logo: assets/images/logos/AutoDRIVE Extended Logo 3.png
 
 # Customization
 extra_css:
@@ -75,7 +75,7 @@ plugins:
   - search:
       separator: '[\s\u200b\-_,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
   - git-revision-date-localized # https://github.com/timvink/mkdocs-git-revision-date-localized-plugin
-  - glightbox # https://squidfunk.github.io/mkdocs-material/reference/images
+  # - glightbox # https://squidfunk.github.io/mkdocs-material/reference/images
   # - mkdocs-video
   # - same-dir
   # - minify:
@@ -122,6 +122,7 @@ markdown_extensions:
   - footnotes
   - md_in_html
   - toc:
+      toc_depth: 2
       permalink: true
       title: CONTENTS
   - pymdownx.arithmatex:
