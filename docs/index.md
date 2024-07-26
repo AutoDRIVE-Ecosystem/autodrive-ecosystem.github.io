@@ -1,4 +1,4 @@
-<img src="assets/images/AutoDRIVE-Banner.jpg">
+<img src="assets/images/banners/AutoDRIVE Banner.png">
 
 <p align="center">
   <img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fautodrive-ecosystem.github.io&count_bg=%23DA4848&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=Hits&edge_flat=false"/>

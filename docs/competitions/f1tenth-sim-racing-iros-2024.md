@@ -73,12 +73,12 @@ Following is a brief summary of each event:
 
 ## Resources
 
-<img src="/../assets/images/logos/AutoDRIVE Logo.png" width="250" align="left"/>
+<img src="/../assets/images/logos/AutoDRIVE Logo.png" width="24.5%" align="left"/>
 <p align="justify">
 <a href="https://autodrive-ecosystem.github.io/">AutoDRIVE</a> is envisioned to be an open, comprehensive, flexible and integrated cyber-physical ecosystem for enhancing autonomous driving research and education. It bridges the gap between software simulation and hardware deployment by providing the <a href="https://github.com/Tinker-Twins/AutoDRIVE/tree/AutoDRIVE-Simulator">AutoDRIVE Simulator</a> and <a href="https://github.com/Tinker-Twins/AutoDRIVE/tree/AutoDRIVE-Testbed">AutoDRIVE Testbed</a>, a well-suited duo for real2sim and sim2real transfer targetting vehicles and environments of varying scales and operational design domains. It also offers <a href="https://github.com/Tinker-Twins/AutoDRIVE/tree/AutoDRIVE-Devkit">AutoDRIVE Devkit</a>, a developer's kit for rapid and flexible development of autonomy algorithms using a variety of programming languages and software frameworks. For the Sim Racing League, teams will develop their autonomous racing algorithms using the AutoDRIVE Devkit to interface with the AutoDRIVE Simulator in real-time.
 </p>
 
-<img src="/../assets/images/logos/F1TENTH Logo.png" width="250" align="right"/>
+<img src="/../assets/images/logos/F1TENTH Logo.png" width="24.5%" align="right"/>
 <p align="justify">
 <a href="https://f1tenth.org/">F1TENTH</a> is an <a href="https://f1tenth.org/about.html">international community</a> of researchers, engineers, and autonomous systems enthusiasts. It is centered around the idea of converting a 1:10 scale RC car into an autonomous vehicle for research and education; check out the <a href="https://f1tenth.org/build.html">documentation</a> to build your own F1TENTH autonomous racecar. Additionally, if you are new to the field of autonomous racing, you can refer to the complete <a href="https://f1tenth.org/learn.html">course material</a>, which is open sourced. If you already have some experience with autonomous racing, feel free to delve deeper into the <a href="https://f1tenth.org/research.html">research</a> enabled by F1TENTH. Lastly, you can also check out the physical <a href="https://f1tenth.org/race.html">F1TENTH races</a> that are being organized all around the world. For the Sim Racing League, teams will not require a physical F1TENTH vehicle; however, the learning resources can certainly be useful to get your autonomous racing fundamentals right!
 </p>
