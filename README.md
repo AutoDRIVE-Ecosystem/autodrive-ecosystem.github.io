@@ -1,8 +1,4 @@
-<head>
-  <link rel="shortcut icon" type="image/png" href="favicon.png">
-</head>
-
-<img src="docs/assets/images/AutoDRIVE-Banner.jpg">
+<img src="docs/assets/images/banners/AutoDRIVE Banner.png">
 
 <p align="center">
   <img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fautodrive-ecosystem.github.io&count_bg=%23DA4848&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=Hits&edge_flat=false"/>
@@ -14,23 +10,6 @@
   <img src="https://img.shields.io/github/downloads/Tinker-Twins/AutoDRIVE/total?color=yellow&label=Downloads">
   <!---img src="https://img.shields.io/github/stars/AutoDRIVE-Ecosystem?label=Stars&color=blue"-->
 </p>
-
-<div align="center">
-<table>
-  <tr>
-    <th><a href="https://autodrive-ecosystem.github.io"><img src="docs/assets/images/Website-Icon.png" alt="Website" width="50"></a></th>
-    <th><a href="https://doi.org/10.3390/robotics12030077"><img src="docs/assets/images/Paper-Icon.png" alt="Paper" width="50"></a></th>
-    <th><a href="https://www.youtube.com/channel/UCh0Jbs01d6TTJPmmO_kpnjw"><img src="docs/assets/images/YouTube-Icon.png" alt="YouTube" width="50"></a></th>
-    <th><a href="https://github.com/AutoDRIVE-Ecosystem"><img src="docs/assets/images/GitHub-Icon.png" alt="GitHub" width="50"></a></th>
-  </tr>
-  <tr>
-    <td><a href="https://autodrive-ecosystem.github.io">Website</a></td>
-    <td><a href="https://doi.org/10.3390/robotics12030077">Paper</a></td>
-    <td><a href="https://www.youtube.com/channel/UCh0Jbs01d6TTJPmmO_kpnjw">YouTube</a></td>
-    <td><a href="https://github.com/AutoDRIVE-Ecosystem">GitHub</a></td>
-  </tr>
-</table>
-</div>
 
 ## Project Overview
 
