@@ -39,7 +39,7 @@ Since the vehicle, the sensors, the simulator, and the devkit are standardized, 
 | [**Dr. Rahul Mangharam**](mailto:rahulm@seas.upenn.edu) | [**Dr. Venkat Krovi**](mailto:vkrovi@clemson.edu) | [**Chinmay Samak**](mailto:csamak@clemson.edu) | [**Tanmay Samak**](mailto:tsamak@clemson.edu) | [**Ahmad Amine**](mailto:aminea@seas.upenn.edu) |
 | <img src="/../assets/images/people/Paolo Burgio.png" width="125"> | <img src="/../assets/images/people/Maria Prandini.png" width="125"> | <img src="/../assets/images/people/Martina Maggio.png" width="125"> | <img src="/../assets/images/people/Alessio Masola.png" width="125"> | <img src="/../assets/images/people/Filippo Muzzini.png" width="125"> |
 | [**Dr. Paolo Burgio**](mailto:paolo.burgio@unimore.it) | [**Dr. Maria Prandini**](mailto:maria.prandini@polimi.it) | [**Dr. Martina Maggio**](mailto:maggio@cs.uni-saarland.de) | [**Dr. Alessio Masola**](mailto:alessio.masola@unimore.it) | [**Dr. Filippo Muzzini**](mailto:filippo.muzzini@unimore.it) |
-| <img src="/../assets/images/people/Federico Gavioli.png" width="125"> | <img src="/../assets/images/people/Default Male.png" width="125"> | <img src="/../assets/images/people/Enrico Mannocci.png" width="125"> |
+| <img src="/../assets/images/people/Federico Gavioli.png" width="125"> | <img src="/../assets/images/people/Antonio Russo.png" width="125"> | <img src="/../assets/images/people/Enrico Mannocci.png" width="125"> |
 | [**Dr. Federico Gavioli**](mailto:224833@studenti.unimore.it) | [**Antonio Russo**](mailto:270201@studenti.unimore.it) | [**Enrico Mannocci**](mailto:enrico.mannocci3@unibo.it) |
 
 ## Timeline
