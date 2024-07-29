@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-         <loc>https://autodrive-ecosystem.github.io/</loc>
-         <lastmod>2024-07-26</lastmod>
+         <loc>https://autodrive-ecosystem.github.io/about/</loc>
+         <lastmod>2024-07-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://autodrive-ecosystem.github.io/blog/</loc>
-         <lastmod>2024-07-26</lastmod>
+         <lastmod>2024-07-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://autodrive-ecosystem.github.io/competitions/</loc>
-         <lastmod>2024-07-26</lastmod>
+         <lastmod>2024-07-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://autodrive-ecosystem.github.io/competitions/f1tenth-sim-racing-cdc-2024/</loc>
-         <lastmod>2024-07-26</lastmod>
+         <lastmod>2024-07-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://autodrive-ecosystem.github.io/competitions/f1tenth-sim-racing-iros-2024/</loc>
-         <lastmod>2024-07-26</lastmod>
+         <lastmod>2024-07-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
