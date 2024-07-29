@@ -16,7 +16,7 @@ copyright: Copyright &copy; 2024 <a href="https://tinker-twins.github.io">Tinker
 # Configuration
 theme:
   name: material
-  # custom_dir: material/overrides
+  # custom_dir: overrides
   features:
     - announce.dismiss
     # - content.action.edit
@@ -167,7 +167,9 @@ markdown_extensions:
 
 # Page tree
 nav:
-  - HOME: index.md
+  - HOME: index.html
+  - ABOUT:
+    - about/index.md
   - COMPETITIONS:
     - competitions/index.md
     - F1TENTH @ IROS 2024: competitions/f1tenth-sim-racing-iros-2024.md

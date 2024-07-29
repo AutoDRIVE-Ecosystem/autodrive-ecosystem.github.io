@@ -34,13 +34,13 @@ Since the vehicle, the sensors, the simulator, and the devkit are standardized, 
 
 ## Organizers
 
-| <img src="/../assets/images/people/Rahul Mangharam.png" width="125"> | <img src="/../assets/images/people/Venkat Krovi.png" width="125"> | <img src="/../assets/images/people/Chinmay Samak.png" width="125"> | <img src="/../assets/images/people/Tanmay Samak.png" width="125"> | <img src="/../assets/images/people/Ahmad Amine.png" width="125"> |
+| <img src="/../assets/images/people/Rahul Mangharam.png" width="125"> | <img src="/../assets/images/people/Venkat Krovi.png" width="125"> | <img src="/../assets/images/people/Johannes Betz.png" width="125"> | <img src="/../assets/images/people/Chinmay Samak.png" width="125"> | <img src="/../assets/images/people/Tanmay Samak.png" width="125"> |
 |:------------------:|:-------------------:|:-------------------:|:-------------------:|:-------------------:|
-| [**Dr. Rahul Mangharam**](mailto:rahulm@seas.upenn.edu) | [**Dr. Venkat Krovi**](mailto:vkrovi@clemson.edu) | [**Chinmay Samak**](mailto:csamak@clemson.edu) | [**Tanmay Samak**](mailto:tsamak@clemson.edu) | [**Ahmad Amine**](mailto:aminea@seas.upenn.edu) |
-| <img src="/../assets/images/people/Paolo Burgio.png" width="125"> | <img src="/../assets/images/people/Maria Prandini.png" width="125"> | <img src="/../assets/images/people/Martina Maggio.png" width="125"> | <img src="/../assets/images/people/Alessio Masola.png" width="125"> | <img src="/../assets/images/people/Filippo Muzzini.png" width="125"> |
-| [**Dr. Paolo Burgio**](mailto:paolo.burgio@unimore.it) | [**Dr. Maria Prandini**](mailto:maria.prandini@polimi.it) | [**Dr. Martina Maggio**](mailto:maggio@cs.uni-saarland.de) | [**Dr. Alessio Masola**](mailto:alessio.masola@unimore.it) | [**Dr. Filippo Muzzini**](mailto:filippo.muzzini@unimore.it) |
-| <img src="/../assets/images/people/Federico Gavioli.png" width="125"> | <img src="/../assets/images/people/Antonio Russo.png" width="125"> | <img src="/../assets/images/people/Enrico Mannocci.png" width="125"> |
-| [**Dr. Federico Gavioli**](mailto:224833@studenti.unimore.it) | [**Antonio Russo**](mailto:270201@studenti.unimore.it) | [**Enrico Mannocci**](mailto:enrico.mannocci3@unibo.it) |
+| [**Dr. Rahul Mangharam**](mailto:rahulm@seas.upenn.edu) | [**Dr. Venkat Krovi**](mailto:vkrovi@clemson.edu) | [**Dr. Johannes Betz**](mailto:johannes.betz@tum.de) | [**Chinmay Samak**](mailto:csamak@clemson.edu) | [**Tanmay Samak**](mailto:tsamak@clemson.edu) |
+| <img src="/../assets/images/people/Ahmad Amine.png" width="125"> | <img src="/../assets/images/people/Paolo Burgio.png" width="125"> | <img src="/../assets/images/people/Maria Prandini.png" width="125"> | <img src="/../assets/images/people/Martina Maggio.png" width="125"> | <img src="/../assets/images/people/Alessio Masola.png" width="125"> |
+| [**Ahmad Amine**](mailto:aminea@seas.upenn.edu) | [**Dr. Paolo Burgio**](mailto:paolo.burgio@unimore.it) | [**Dr. Maria Prandini**](mailto:maria.prandini@polimi.it) | [**Dr. Martina Maggio**](mailto:maggio@cs.uni-saarland.de) | [**Dr. Alessio Masola**](mailto:alessio.masola@unimore.it) |
+| <img src="/../assets/images/people/Filippo Muzzini.png" width="125"> | <img src="/../assets/images/people/Federico Gavioli.png" width="125"> | <img src="/../assets/images/people/Antonio Russo.png" width="125"> | <img src="/../assets/images/people/Enrico Mannocci.png" width="125"> |
+| [**Dr. Filippo Muzzini**](mailto:filippo.muzzini@unimore.it) | [**Dr. Federico Gavioli**](mailto:224833@studenti.unimore.it) | [**Antonio Russo**](mailto:270201@studenti.unimore.it) | [**Enrico Mannocci**](mailto:enrico.mannocci3@unibo.it) |
 
 ## Timeline
 
@@ -101,7 +101,7 @@ This competition is open for everyone around the world - students, researchers, 
 </center>
 
 <p align="justify">
-Registration for the Sim Racing League is seperate from the Physical Racing League and the conference registrations themselves. The above form signs you up only for the Sim Racing League, and for its orientation and information sessions. Although you can participate in the Sim Racing League without attending the conference, we strongly encourage all competition participants to attent the conference in person. This will help you connect with the broader AutoDRIVE and F1TENTH communities, and you can also witness/participate in the physical F1TENTH autonomous racing competition!
+Registration for the Sim Racing League is free of cost and seperate from the Physical Racing League and the conference registrations themselves. The above form signs you up only for the Sim Racing League, and for its orientation and information sessions. Although you can participate in the Sim Racing League without attending the conference, we strongly encourage all competition participants to attent the conference in person. This will help you connect with the broader AutoDRIVE and F1TENTH communities, and you can also witness/participate in the physical F1TENTH autonomous racing competition!
 </p>
 
 <p align="justify">
