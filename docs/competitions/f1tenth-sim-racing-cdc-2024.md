@@ -97,7 +97,7 @@ This competition is open for everyone around the world - students, researchers, 
 </p>
 
 <center>
-[:material-file-document-edit: Registration Opens on Aug 01, 2024](){.md-button}
+[:material-file-document-edit: Registration Form](https://forms.gle/D6X2C5PMwmDWEWbo9){.md-button}
 </center>
 
 <p align="justify">
