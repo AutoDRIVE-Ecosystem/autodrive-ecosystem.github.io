@@ -108,8 +108,11 @@ Registration for the Sim Racing League is free of cost and seperate from the Phy
 Registered teams are added to the following table:
 </p>
 
-| TEAM NAME             | TEAM MEMBERS               | ORGANIZATION         |
-|:----------------------|:---------------------------|:---------------------|
+| TEAM NAME             | TEAM MEMBERS                  | ORGANIZATION                              |
+|:----------------------|:------------------------------|:------------------------------------------|
+| SAGOL                 | JoonCheol Park                | Individual                                |
+| Solo                  | Abdul Rahman Khader           | Khalifa University                        |
+| OptimusPrime          | Sahruday Patti                | University of Maryland, College Park      |
 
 ## Results
 
