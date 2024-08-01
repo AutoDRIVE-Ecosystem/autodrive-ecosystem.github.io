@@ -1,6 +1,6 @@
 # F1TENTH Sim Racing League @ CDC 2024
 
-![F1TENTH Sim Racing League @ CDC 2024](../assets/images/banners/F1TENTH Sim Racing @ IROS 2024.png)
+![F1TENTH Sim Racing League @ CDC 2024](../assets/images/banners/F1TENTH Sim Racing @ CDC 2024.png)
 
 ## About
 
