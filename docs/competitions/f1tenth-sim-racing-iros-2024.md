@@ -113,6 +113,7 @@ Registered teams are added to the following table:
 | SAGOL                 | JoonCheol Park                | Individual                                |
 | Solo                  | Abdul Rahman Khader           | Khalifa University                        |
 | OptimusPrime          | Sahruday Patti                | University of Maryland, College Park      |
+| Velizar Zlatev        | Velizar Zlatev                | University of Bristol                     |
 
 ## Results
 
