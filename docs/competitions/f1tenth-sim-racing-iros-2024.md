@@ -108,12 +108,14 @@ Registration for the Sim Racing League is free of cost and seperate from the Phy
 Registered teams are added to the following table:
 </p>
 
-| TEAM NAME             | TEAM MEMBERS                  | ORGANIZATION                              |
-|:----------------------|:------------------------------|:------------------------------------------|
-| SAGOL                 | JoonCheol Park                | Individual                                |
-| Solo                  | Abdul Rahman Khader           | Khalifa University                        |
-| OptimusPrime          | Sahruday Patti                | University of Maryland, College Park      |
-| Velizar Zlatev        | Velizar Zlatev                | University of Bristol                     |
+| TEAM NAME                 | TEAM MEMBERS                  | ORGANIZATION                              |
+|:--------------------------|:------------------------------|:------------------------------------------|
+| SAGOL                     | JoonCheol Park                | Personal                                  |
+| Solo                      | Abdul Rahman Khader           | Khalifa University                        |
+| OptimusPrime              | Sahruday Patti                | University of Maryland, College Park      |
+| Velizar Zlatev            | Velizar Zlatev                | University of Bristol                     |
+| Beryllium                 | Ronnie Romman                 | Personal                                  |
+| Cornell Electric Vehicles | Jason Klein<br />Eric Marchetti<br />Zach Chosed<br />Utku Melemetci<br />Sidharth Rao<br />Myles Pasetsky<br />Zephan Sanghani<br />Sia Chitnis<br />Nicole Sin | Cornell University |
 
 ## Results
 
