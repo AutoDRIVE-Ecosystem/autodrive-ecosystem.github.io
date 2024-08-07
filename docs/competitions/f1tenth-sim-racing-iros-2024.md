@@ -68,7 +68,7 @@ Following is a brief summary of each event:
 - **Final Race:** Organizers will collect containerized algorithms from each team and connect them with the containerized simulator. Performance metrics of each team will be recorded.
 - **Results Declared:** Standings of all the teams will be released.
 
-!!! note
+!!! info
     The F1TENTH Sim Racing League will be held approximately 1 week ahead of IROS 2024 and the performance metrics will be made available to the teams. Discussions are underway with the IROS organizing team to allow teams to analyze and present their approach/results in a short (~10 min) presentation in a special session at IROS 2024.
 
 ## Resources
@@ -116,6 +116,12 @@ Registered teams are added to the following table:
 | Velizar Zlatev            | Velizar Zlatev                | University of Bristol                     |
 | Beryllium                 | Ronnie Romman                 | Personal                                  |
 | Cornell Electric Vehicles | Jason Klein<br />Eric Marchetti<br />Zach Chosed<br />Utku Melemetci<br />Sidharth Rao<br />Myles Pasetsky<br />Zephan Sanghani<br />Sia Chitnis<br />Nicole Sin | Cornell University |
+| Robotisim Dev             | Muhammad Luqman<br />Yusuf Butt | Robotisim                               |
+| Log Robotics              | Logesh G                        | Bannari Amman Institute of Technology   |
+| Lone Rider                | Akshay Laddha                   | Indian Institute of Technology, Bombay  |
+
+!!! info
+    The above table will be updated with newly registered teams within a few days of registration. Please contact [Chinmay Samak](mailto:csamak@clemson.edu) or [Tanmay Samak](mailto:tsamak@clemson.edu) if you do no see your team entry for more than 5 days after registering.
 
 ## Results
 

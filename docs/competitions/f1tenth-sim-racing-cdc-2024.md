@@ -68,7 +68,7 @@ Following is a brief summary of each event:
 - **Final Race:** Organizers will collect containerized algorithms from each team and connect them with the containerized simulator. Performance metrics of each team will be recorded.
 - **Results Declared:** Standings of all the teams will be released.
 
-!!! note
+!!! info
     The F1TENTH Sim Racing League will be held approximately 1 week ahead of CDC 2024 and the performance metrics will be made available to the teams. Discussions are underway with the CDC organizing team to allow teams to analyze and present their approach/results in a short (~10 min) presentation in a special session at CDC 2024.
 
 ## Resources
@@ -110,6 +110,9 @@ Registered teams are added to the following table:
 
 | TEAM NAME             | TEAM MEMBERS               | ORGANIZATION         |
 |:----------------------|:---------------------------|:---------------------|
+
+!!! info
+    The above table will be updated with newly registered teams within a few days of registration. Please contact [Chinmay Samak](mailto:csamak@clemson.edu) or [Tanmay Samak](mailto:tsamak@clemson.edu) if you do no see your team entry for more than 5 days after registering.
 
 ## Results
 
