@@ -108,11 +108,12 @@ Registration for the Sim Racing League is free of cost and seperate from the Phy
 Registered teams are added to the following table:
 </p>
 
-| TEAM NAME             | TEAM MEMBERS               | ORGANIZATION         |
-|:----------------------|:---------------------------|:---------------------|
+| TEAM NAME                 | TEAM MEMBERS                  | ORGANIZATION                              |
+|:--------------------------|:------------------------------|:------------------------------------------|
+| Beryllium                 | Ronnie Romman                 | Personal                                  |
 
-!!! info
-    The above table will be updated with newly registered teams within a few days of registration. Please contact [Chinmay Samak](mailto:csamak@clemson.edu) or [Tanmay Samak](mailto:tsamak@clemson.edu) if you do no see your team entry for more than 5 days after registering.
+!!! note
+    The above table will be updated with newly registered teams within a few days of registration. Please contact [Chinmay Samak](mailto:csamak@clemson.edu) or [Tanmay Samak](mailto:tsamak@clemson.edu) if you do not see your team entry for more than 7 days after registering.
 
 ## Results
 
