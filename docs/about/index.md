@@ -128,7 +128,7 @@ We encourage you to take a look at the following presentations to gain a better 
 | [<img src="/../assets/images/OpenCAV-AuE-Seminar.png" width="500">](https://youtu.be/bk7lJfD4H0s) | [<img src="/../assets/images/SMRDC-2023-Presentation.png" width="500">](https://youtu.be/R_GZ1LkMWGQ) |
 | [OpenCAV CUICAR AuE Seminar](https://youtu.be/bk7lJfD4H0s) | [SMRDC 2023 Finalist Pitch](https://youtu.be/R_GZ1LkMWGQ) |
 | [<img src="/../assets/images/MECC-2023-Presentation.png" width="500">](https://youtu.be/0yS1-RpqhcE) | [<img src="/../assets/images/IROS-2023-Presentation.png" width="500">](https://youtu.be/8jyCJUOaLaI) |
-| [MECC 2023 Video Pesentation](https://youtu.be/0yS1-RpqhcE) | [IROS 2023 Presentation](https://youtu.be/8jyCJUOaLaI) |
+| [MECC 2023 Video Presentation](https://youtu.be/0yS1-RpqhcE) | [IROS 2023 Presentation](https://youtu.be/8jyCJUOaLaI) |
 |                    |                     |
 
 ### Publications
@@ -263,7 +263,7 @@ archivePrefix = {arXiv},
 primaryClass = {cs.RO}
 }
 ```
-This work has been accepted at **2024 Ground Vehicle Systems Engineering and Technology Symposium (GVSETS). Distribution Statement A. Approved for public release; distribution is unlimited. OPSEC #8451.**
+This work has been accepted at **2024 Ground Vehicle Systems Engineering and Technology Symposium (GVSETS). Distribution Statement A. Approved for public release; distribution is unlimited. OPSEC \#8451.**
 
 ### Technical Reports
 
