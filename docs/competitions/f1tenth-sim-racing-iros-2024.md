@@ -117,14 +117,15 @@ Registered teams are added to the following table:
 | Beryllium                 | Ronnie Romman                 | Personal                                  |
 | Cornell Electric Vehicles | Jason Klein<br />Eric Marchetti<br />Zach Chosed<br />Utku Melemetci<br />Sidharth Rao<br />Myles Pasetsky<br />Zephan Sanghani<br />Sia Chitnis<br />Nicole Sin | Cornell University |
 | Robotisim Dev             | Muhammad Luqman<br />Yusuf Butt | Robotisim                               |
-| Log Robotics              | Logesh G                        | Bannari Amman Institute of Technology   |
-| Lone Rider                | Akshay Laddha                   | Indian Institute of Technology, Bombay  |
-| Atlas 2.0                 | Manav Gagvani                   | Purdue University                       |
-| The Buttowskis            | Kalash Jain                     | Pandit Deendayal Energy University      |
+| Log Robotics              | Logesh G                      | Bannari Amman Institute of Technology     |
+| Lone Rider                | Akshay Laddha                 | Indian Institute of Technology, Bombay    |
+| Atlas 2.0                 | Manav Gagvani                 | Purdue University                         |
+| The Buttowskis            | Kalash Jain                   | Pandit Deendayal Energy University        |
 | Hanuman Parakram          | Dheeraj Bhurewar<br />Vaibhav Wanere | Personal                           |
-| Pallas                    | Haris Khan                      | Skoltech                                |
-| Gopher Speedsters         | Sujeendra Ramesh                | University of Minnesota, Twin Cities    |
+| Pallas                    | Haris Khan                    | Skoltech                                  |
+| Gopher Speedsters         | Sujeendra Ramesh              | University of Minnesota, Twin Cities      |
 | Autopilots                | Nouf Aljaberi<br />Amna Muhammad<br />Hajar Alnaqbi<br />Shouq Zanki<br />Sara Almessabie<br /> | United Arab Emirates University |
+| i3                        | Pranav Kallem                 | Personal                                  |
 
 !!! note
     The above table will be updated with newly registered teams within a few days of registration. Please contact [Chinmay Samak](mailto:csamak@clemson.edu) or [Tanmay Samak](mailto:tsamak@clemson.edu) if you do not see your team entry for more than 7 days after registering.
