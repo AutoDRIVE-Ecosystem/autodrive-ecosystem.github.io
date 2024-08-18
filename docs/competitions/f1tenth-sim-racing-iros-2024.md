@@ -126,6 +126,8 @@ Registered teams are added to the following table:
 | Gopher Speedsters         | Sujeendra Ramesh              | University of Minnesota, Twin Cities      |
 | Autopilots                | Nouf Aljaberi<br />Amna Muhammad<br />Hajar Alnaqbi<br />Shouq Zanki<br />Sara Almessabie<br /> | United Arab Emirates University |
 | i3                        | Pranav Kallem                 | Personal                                  |
+| Phoenix                   | Aman Kumar Singh<br />Lakshmikanth Nageswar | Personal                    |
+| RobotX & More             | Oussama Errouji<br />Imad-Eddine NACIRI | Euro Mediterranean University of Fez |
 
 !!! note
     The above table will be updated with newly registered teams within a few days of registration. Please contact [Chinmay Samak](mailto:csamak@clemson.edu) or [Tanmay Samak](mailto:tsamak@clemson.edu) if you do not see your team entry for more than 7 days after registering.
