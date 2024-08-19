@@ -1,6 +1,20 @@
-# F1TENTH Sim Racing League @ IROS 2024
+# Technical Guide
 
-![F1TENTH Sim Racing League @ IROS 2024](../assets/images/banners/F1TENTH Sim Racing @ IROS 2024.png)
+![F1TENTH Sim Racing](../assets/images/banners/F1TENTH Sim Racing.png)
+
+It expected that teams have sufficient background knowlege pertaining to autonomous racing (concepts, methods, and algorithms), programming languages (Python, C++, etc.) and frameworks (ROS 2), containerization (Docker) and version control (Git), etc. In order to be fair to all teams and keep the competition on track, extensive technical support/help cannot be provided by the organizers to any team. However, legitimate requests may be entertained at the discretion of the organizers.
+
+Although AutoDRIVE Ecosystem supports many vehicles across different scales and operational design domains (ODDs), the **ONLY** vehicle allowed for this competition is **F1TENTH**. Similarly, although AutoDRIVE Ecosystem supports multiple application programming interfaces (APIs), the **ONLY** API allowed for this competition is **ROS 2**.
+
+Teams are permitted to add/modify ROS 2 package(s) within the provided AutoDRIVE Devkit container for implementing their autonomous racing algorithm(s). However, any modifications to the existing container elements are strictly off the limits.
+
+This competition is intended to be a **battle of algorithms**, and hence any modifications to the competition framework including but not limited to simulator executable, vehicle (chassis, powertrain, sensors, etc.), environment (track, layout, ground, weather, time, etc.), commmunication interface (use of protocols other than WebSocket), devkit (use of APIs other than ROS 2) or the containerization approach (use of tools besides Docker, Dockerfile configuration, etc.) are strictly **NOT** permitted. Any modification to the competition framework shall result in direct disqualification of a team without admission to the qualification session.
+
+!!! tip
+    You can run the simulator locally
+
+!!! tip
+    You can run the devkit locally while developing/testing. You can then containerize the final algorithms, test them one last time, and ship them to us.
 
 ## About
 
@@ -51,7 +65,7 @@ Since the vehicle, the sensors, the simulator, and the devkit are standardized, 
 |:----------------------|:---------------------------|
 | Jul 22, 2024          | Registration Opens         |
 | Aug 31, 2024          | Registration Closes        |
-| Aug 27, 2024          | Online Orientation 1       |
+| Aug 20, 2024          | Online Orientation 1       |
 | Sep 17, 2024          | Online Orientation 2       |
 | Sep 28 – Sep 29, 2024 | Qualification Round        |
 | Sep 04, 2024          | Competition Track Released |
@@ -128,9 +142,6 @@ Registered teams are added to the following table:
 | i3                        | Pranav Kallem                 | Personal                                  |
 | Phoenix                   | Aman Kumar Singh<br />Lakshmikanth Nageswar | Personal                    |
 | RobotX & More             | Oussama Errouji<br />Imad-Eddine NACIRI | Euro Mediterranean University of Fez |
-| IEEE Zagazig SB           | Abdulrahman Omar<br />Hossam Elsherbiny<br />Essam Shenhab<br />Eman Abdelhamed<br />Abdullah Elmasry<br />Salma Swailem<br />Merna Atef<br />Amr Yasser<br />Mahmoud Samy<br />Mostafa Asaad<br />Menna Gamal<br />Ahmed Medhat  | Zagazig University                        |
-| AMUGAE                    | Kim Amugae                    | Personal                                  |
-| TURTLEBOT                 | Jit Ern Lim                   | Personal                                  |
 
 !!! note
     The above table will be updated with newly registered teams within a few days of registration. Please contact [Chinmay Samak](mailto:csamak@clemson.edu) or [Tanmay Samak](mailto:tsamak@clemson.edu) if you do not see your team entry for more than 7 days after registering.
