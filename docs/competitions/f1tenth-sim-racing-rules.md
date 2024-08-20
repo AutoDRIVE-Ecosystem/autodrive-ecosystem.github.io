@@ -180,7 +180,7 @@ Following are the key milestones for submitting an entry to the competition:
 <ul class="justify-list">
   <li>Teams will <b>containerize</b> their autonomous racing software stack using <a href="https://www.docker.com">Docker</a>.</li>
   <li>Teams will <b>push</b> their Docker container image to <a href="https://hub.docker.com">DockerHub</a>.</li>
-  <li>Teams will <b>share</b> the link of the upstream repository with the organizers via a secure Submission Form (separate forms for each stage of the competition).</li>
+  <li>Teams will <b>share</b> the link of the upstream repository with the organizers via a secure submission form (separate forms for each stage of the competition).</li>
 </ul>
 
 ### 3.3. Submission Privacy
