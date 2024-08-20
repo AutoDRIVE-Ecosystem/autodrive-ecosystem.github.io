@@ -33,3 +33,21 @@ a:hover #imageHyperlink {
     opacity: 1.0;
     filter: alpha(opacity=100);
 }
+
+/* LISTS */
+.justify-list {
+    text-align: justify;
+}
+.justify-list::before {
+    content: "";
+    display: block;
+    width: 100%;
+}
+
+/* ADMONITIONS */
+.admonition {
+    text-align: justify;
+}
+.admonition .admonition-content {
+    text-align: justify;
+}
