@@ -20,10 +20,14 @@ This time, we are organizing the first ever <b>F1TENTH Sim Racing League</b>, wh
 The main focus of the Sim Racing League is a virtual competition with simulated cars and environments, which is accessible to everyone across the globe. For the IROS 2024 competition, each team will be provided with a standardized simulation setup (in the form of a digital twin of the F1TENTH vehicle, and a digital twin of the Porto racetrack) within the high-fidelity <a href="https://github.com/Tinker-Twins/AutoDRIVE/tree/AutoDRIVE-Simulator">AutoDRIVE Simulator</a>. Additionally, teams will also be provided with a working implementation of the <a href="https://github.com/Tinker-Twins/AutoDRIVE/tree/AutoDRIVE-Devkit">AutoDRIVE Devkit</a> to get started with developing their autonomy algorithms. Teams will have to develop perception, planning, and control algorithms to parse the real-time sensor data streamed from the simulator and generate control commands to be fed back to the simulated vehicle.
 </p>
 
+<p align="justify">
 The competition will take place in 2 stages:
+</p>
 
-- **Qualification Session:** Teams will demonstrate their ability to complete multiple laps around the practice track without colliding with the track bounds at run time.
-- **Time-Attack Race:** Teams will compete against the clock, on a previously unseen racetrack, to secure a position on the leaderboard.
+<ul class="justify-list">
+  <li><b>Qualification Race:</b> Teams will demonstrate their ability to complete multiple laps around the practice track without colliding with the track bounds at run time.</li>
+  <li><b>Time-Attack Race:</b> Teams will compete against the clock, on a previously unseen racetrack, to secure a position on the leaderboard.</li>
+</ul>
 
 <p align="justify">
 Since the vehicle, the sensors, the simulator, and the devkit are standardized, teams must develop robust racing algorithms that can deal with the uncertainties of an unseen racetrack.
@@ -54,19 +58,23 @@ Since the vehicle, the sensors, the simulator, and the devkit are standardized, 
 | Aug 27, 2024          | Online Orientation 1       |
 | Sep 17, 2024          | Online Orientation 2       |
 | Sep 28 – Sep 29, 2024 | Qualification Round        |
-| Sep 04, 2024          | Competition Track Released |
+| Oct 04, 2024          | Competition Track Released |
 | Oct 05 – Oct 06, 2024 | Final Race                 |
 | Oct 07, 2024          | Results Declared           |
 
+<p align="justify">
 Following is a brief summary of each event:
+</p>
 
-- **Registration:** Interested teams will register for the Sim Racing League.
-- **Online Orientation 1:** Organizers will explain the competition rules and guidelines, and demonstrate how to use the simulation framework.
-- **Online Orientation 2:** Organizers will check progress of the participating teams and help with any technical difficulties.
-- **Qualification Round:** Teams will demonstrate successful completion of 10 laps around the practice track provided ahead of time.
-- **Competition Track Released:** Organizers will release the actual "competition track", which will be used for the final race. This track may be replicated in the physical race as well.
-- **Final Race:** Organizers will collect containerized algorithms from each team and connect them with the containerized simulator. Performance metrics of each team will be recorded.
-- **Results Declared:** Standings of all the teams will be released.
+<ul class="justify-list">
+  <li><b>Registration:</b> Interested teams will register for the Sim Racing League.</li>
+  <li><b>Online Orientation 1:</b> Organizers will explain the competition rules and guidelines, and demonstrate how to use the simulation framework.</li>
+  <li><b>Online Orientation 2:</b> Organizers will check progress of the participating teams and help with any technical difficulties.</li>
+  <li><b>Qualification Round:</b> Teams will demonstrate successful completion of 10 laps around the practice track provided ahead of time.</li>
+  <li><b>Competition Track Released:</b> Organizers will release the actual "competition track", which will be used for the final race. This track may be replicated in the physical race as well.</li>
+  <li><b>Final Race:</b> Organizers will collect containerized algorithms from each team and connect them with the containerized simulator. Performance metrics of each team will be recorded.</li>
+  <li><b>Results Declared:</b> Standings of all the teams will be released.</li>
+</ul>
 
 !!! info
     The F1TENTH Sim Racing League will be held approximately 1 week ahead of IROS 2024 and the performance metrics will be made available to the teams. Discussions are underway with the IROS organizing team to allow teams to analyze and present their approach/results in a short (~10 min) presentation in a special session at IROS 2024.
@@ -83,7 +91,9 @@ Following is a brief summary of each event:
 <a href="https://f1tenth.org/">F1TENTH</a> is an <a href="https://f1tenth.org/about.html">international community</a> of researchers, engineers, and autonomous systems enthusiasts. It is centered around the idea of converting a 1:10 scale RC car into an autonomous vehicle for research and education; check out the <a href="https://f1tenth.org/build.html">documentation</a> to build your own F1TENTH autonomous racecar. Additionally, if you are new to the field of autonomous racing, you can refer to the complete <a href="https://f1tenth.org/learn.html">course material</a>, which is open sourced. If you already have some experience with autonomous racing, feel free to delve deeper into the <a href="https://f1tenth.org/research.html">research</a> enabled by F1TENTH. Lastly, you can also check out the physical <a href="https://f1tenth.org/race.html">F1TENTH races</a> that are being organized all around the world. For the Sim Racing League, teams will not require a physical F1TENTH vehicle; however, the learning resources can certainly be useful to get your autonomous racing fundamentals right!
 </p>
 
+<p align="justify">
 As the next few steps, we recommend all the teams interested in participating in the F1TENTH Sim Racing League to get accustomed with the competition framework:
+</p>
 
 <div class="grid">
   <a href="https://hub.docker.com/r/autodriveecosystem/autodrive_f1tenth_sim" class="md-button md-button"><center><div class="logo"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path d="M349.9 236.3h-66.1v-59.4h66.1v59.4zm0-204.3h-66.1v60.7h66.1V32zm78.2 144.8H362v59.4h66.1v-59.4zm-156.3-72.1h-66.1v60.1h66.1v-60.1zm78.1 0h-66.1v60.1h66.1v-60.1zm276.8 100c-14.4-9.7-47.6-13.2-73.1-8.4-3.3-24-16.7-44.9-41.1-63.7l-14-9.3-9.3 14c-18.4 27.8-23.4 73.6-3.7 103.8-8.7 4.7-25.8 11.1-48.4 10.7H2.4c-8.7 50.8 5.8 116.8 44 162.1 37.1 43.9 92.7 66.2 165.4 66.2 157.4 0 273.9-72.5 328.4-204.2 21.4 .4 67.6 .1 91.3-45.2 1.5-2.5 6.6-13.2 8.5-17.1l-13.3-8.9zm-511.1-27.9h-66v59.4h66.1v-59.4zm78.1 0h-66.1v59.4h66.1v-59.4zm78.1 0h-66.1v59.4h66.1v-59.4zm-78.1-72.1h-66.1v60.1h66.1v-60.1z"/></svg></span> Download AutoDRIVE Simulator Container</div></center></a>
@@ -137,4 +147,6 @@ Registered teams are added to the following table:
 
 ## Results
 
+<p align="justify">
 To be announced on Oct 07, 2024.
+</p>

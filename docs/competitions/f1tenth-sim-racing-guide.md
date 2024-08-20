@@ -6,11 +6,14 @@ It expected that teams have sufficient background knowlege pertaining to autonom
 
 Although AutoDRIVE Ecosystem supports many vehicles across different scales and operational design domains (ODDs), the **ONLY** vehicle allowed for this competition is **F1TENTH**. Similarly, although AutoDRIVE Ecosystem supports multiple application programming interfaces (APIs), the **ONLY** API allowed for this competition is **ROS 2**.
 
-Teams are permitted to add/modify ROS 2 package(s) within the provided AutoDRIVE Devkit container for implementing their autonomous racing algorithm(s). However, any modifications to the existing container elements are strictly off the limits.
+!!! info
+    Note that the organizers will execute the competition framework on a workstation incorporating Intel Core i9 14th Gen 14900K CPU, NVIDIA GeForce RTX 4090 GPU, and 64 GB RAM running Ubuntu 22.04 (or similar configuration). However, this machine will be simultaneously running the simulator container, screen recorder and data logger in addition to the devkit container. Kindly develop your algorithms accordingly.
 
-This competition is intended to be a **battle of algorithms**, and hence any modifications to the competition framework including but not limited to simulator executable, vehicle (chassis, powertrain, sensors, etc.), environment (track, layout, ground, weather, time, etc.), commmunication interface (use of protocols other than WebSocket), devkit (use of APIs other than ROS 2) or the containerization approach (use of tools besides Docker, Dockerfile configuration, etc.) are strictly **NOT** permitted. Any modification to the competition framework shall result in direct disqualification of a team without admission to the qualification session.
+[DONE] Teams are permitted to add/modify ROS 2 package(s) within the provided AutoDRIVE Devkit container for implementing their autonomous racing algorithm(s). However, any modifications to the existing container elements are strictly off the limits.
 
-!!! tip
+[DONE] This competition is intended to be a **battle of algorithms**, and hence any modifications to the competition framework including but not limited to simulator executable, vehicle (chassis, powertrain, sensors, etc.), environment (track, layout, ground, weather, time, etc.), commmunication interface (use of protocols other than WebSocket), devkit (use of APIs other than ROS 2) or the containerization approach (use of tools besides Docker, Dockerfile configuration, etc.) are strictly **NOT** permitted. Any modification to the competition framework shall result in direct disqualification of a team without admission to the qualification session.
+
+!!! tip "Hello!"
     You can run the simulator locally
 
 !!! tip
