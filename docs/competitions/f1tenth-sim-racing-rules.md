@@ -132,6 +132,10 @@ However, utilizing simulation ground truth data or controlling aspects other tha
 !!! info
     Please refer to the Technical Guide for more information about permissible and restricted data streams.
 
+<p align="justify">
+Since this is a global event held at some of the world's premire conferences, we ask all teams to strictly observe ethical integrity and stick to the code of conduct of this competition. Any malpractice or plagiarism in terms of submission code or other material shall be considered a serious breach of the code of conduct. Depending upon the situation, organizers reserve the right to issue a warning, public citation and/or disqualification of the responsible team from the competition.
+</p>
+
 ### 2.5. Evaluation Criteria
 
 <p align="justify">

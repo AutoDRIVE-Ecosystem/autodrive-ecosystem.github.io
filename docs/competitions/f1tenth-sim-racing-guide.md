@@ -2,153 +2,149 @@
 
 ![F1TENTH Sim Racing](../assets/images/banners/F1TENTH Sim Racing.png)
 
-It expected that teams have sufficient background knowlege pertaining to autonomous racing (concepts, methods, and algorithms), programming languages (Python, C++, etc.) and frameworks (ROS 2), containerization (Docker) and version control (Git), etc. In order to be fair to all teams and keep the competition on track, extensive technical support/help cannot be provided by the organizers to any team. However, legitimate requests may be entertained at the discretion of the organizers.
-
-Although AutoDRIVE Ecosystem supports many vehicles across different scales and operational design domains (ODDs), the **ONLY** vehicle allowed for this competition is **F1TENTH**. Similarly, although AutoDRIVE Ecosystem supports multiple application programming interfaces (APIs), the **ONLY** API allowed for this competition is **ROS 2**.
-
-!!! info
-    Note that the organizers will execute the competition framework on a workstation incorporating Intel Core i9 14th Gen 14900K CPU, NVIDIA GeForce RTX 4090 GPU, and 64 GB RAM running (maybe don't write about OS) Ubuntu 22.04 (or similar configuration). However, this machine will be simultaneously running the simulator container, screen recorder and data logger in addition to the devkit container. Kindly develop your algorithms accordingly.
-
-[DONE] Teams are permitted to add/modify ROS 2 package(s) within the provided AutoDRIVE Devkit container for implementing their autonomous racing algorithm(s). However, any modifications to the existing container elements are strictly off the limits.
-
-[DONE] This competition is intended to be a **battle of algorithms**, and hence any modifications to the competition framework including but not limited to simulator executable, vehicle (chassis, powertrain, sensors, etc.), environment (track, layout, ground, weather, time, etc.), commmunication interface (use of protocols other than WebSocket), devkit (use of APIs other than ROS 2) or the containerization approach (use of tools besides Docker, Dockerfile configuration, etc.) are strictly **NOT** permitted. Any modification to the competition framework shall result in direct disqualification of a team without admission to the qualification session.
-
-!!! tip "Hello!"
-    You can run the simulator locally
-
-!!! tip
-    You can run the devkit locally while developing/testing. You can then containerize the final algorithms, test them one last time, and ship them to us.
-
-## About
-
 <p align="justify">
-<b>F1TENTH Autonomous Racing</b> is a semi-regular competition organized by an international community of researchers, engineers, and autonomous systems enthusiasts. The teams participating in the <b>21st F1TENTH Autonomous Grand Prix</b> at IROS 2024 will write software for a 1:10 scaled autonomous race car to fulfill the objectives for the competition: <b><i>drive fast but don’t crash!</i></b>
+This document describes the technical details of the competition framework for the F1TENTH Sim Racing League. It goes over the details pertaining to the simulator and devkit, as well as some important aspects of the submission system, process and evaluation. Some good-to-know tips and "best practices" are thrown asynchronously to smoothen the process and workflow for the participants.
 </p>
 
-<p align="justify">
-This time, we are organizing the first ever <b>F1TENTH Sim Racing League</b>, which leverages <a href="https://autodrive-ecosystem.github.io">AutoDRIVE Ecosystem</a> to model and simulate the digital twin of an F1TENTH racecar within a virtual racetrack. Please see the accompanying video for a glimpse of the F1TENTH digital twins in action.
-</p>
-
-<center>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Rq7Wwcwn1uk?si=ngvop2-SfJJOIjWJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-</center>
-
-<p align="justify">
-The main focus of the Sim Racing League is a virtual competition with simulated cars and environments, which is accessible to everyone across the globe. For the IROS 2024 competition, each team will be provided with a standardized simulation setup (in the form of a digital twin of the F1TENTH vehicle, and a digital twin of the Porto racetrack) within the high-fidelity <a href="https://github.com/Tinker-Twins/AutoDRIVE/tree/AutoDRIVE-Simulator">AutoDRIVE Simulator</a>. Additionally, teams will also be provided with a working implementation of the <a href="https://github.com/Tinker-Twins/AutoDRIVE/tree/AutoDRIVE-Devkit">AutoDRIVE Devkit</a> to get started with developing their autonomy algorithms. Teams will have to develop perception, planning, and control algorithms to parse the real-time sensor data streamed from the simulator and generate control commands to be fed back to the simulated vehicle.
-</p>
-
-The competition will take place in 2 stages:
-
-- **Qualification Session:** Teams will demonstrate their ability to complete multiple laps around the practice track without colliding with the track bounds at run time.
-- **Time-Attack Race:** Teams will compete against the clock, on a previously unseen racetrack, to secure a position on the leaderboard.
-
-<p align="justify">
-Since the vehicle, the sensors, the simulator, and the devkit are standardized, teams must develop robust racing algorithms that can deal with the uncertainties of an unseen racetrack.
-</p>
-
-!!! Tip
-    If you are interested in autonomously racing physical F1TENTH vehicles, please check out the website for [21st F1TENTH Autonomous Grand Prix](https://iros2024-race.f1tenth.org), which will be held in person at IROS 2024. You can always register and compete in both physical and virtual competitions!
-
-## Organizers
-
-| <img src="/../assets/images/people/Rahul Mangharam.png" width="125"> | <img src="/../assets/images/people/Venkat Krovi.png" width="125"> | <img src="/../assets/images/people/Johannes Betz.png" width="125"> | <img src="/../assets/images/people/Chinmay Samak.png" width="125"> | <img src="/../assets/images/people/Tanmay Samak.png" width="125"> |
-|:------------------:|:-------------------:|:-------------------:|:-------------------:|:-------------------:|
-| [**Dr. Rahul Mangharam**](mailto:rahulm@seas.upenn.edu) | [**Dr. Venkat Krovi**](mailto:vkrovi@clemson.edu) | [**Dr. Johannes Betz**](mailto:johannes.betz@tum.de) | [**Chinmay Samak**](mailto:csamak@clemson.edu) | [**Tanmay Samak**](mailto:tsamak@clemson.edu) |
-| <img src="/../assets/images/people/Ahmad Amine.png" width="125"> | <img src="/../assets/images/people/Hongrui Zeng.png" width="125"> | <img src="/../assets/images/people/Fabio Bonsignorio.png" width="125"> | <img src="/../assets/images/people/Enrica Zereik.png" width="125"> | <img src="/../assets/images/people/Bilal Hassan.png" width="125"> |
-| [**Ahmad Amine**](mailto:aminea@seas.upenn.edu) | [**Hongrui Zheng**](mailto:hongruiz@seas.upnn.edu) | [**Dr. Fabio Bonsignorio**](mailto:fabio.bonsignorio@fer.unizg.hr) | [**Dr. Enrica Zereik**](mailto:enrica.zereik@cnr.it) | [**Dr. Bilal Hassan**](mailto:bilal.hassan@ku.ac.ae) |
-| <img src="/../assets/images/people/Bushra Alshehhi.png" width="125"> | <img src="/../assets/images/people/Fady Alnajjar.png" width="125"> | <img src="/../assets/images/people/Majd Khonji.png" width="125"> | <img src="/../assets/images/people/Hamad Karaki.png" width="125"> | <img src="/../assets/images/people/Pedro Lima.png" width="125"> |
-| [**Bushra Alshehhi**](mailto:100050085@ku.ac.ae) | [**Dr. Fady Alnajjar**](mailto:fady.alnajjar@uaeu.ac.ae) | [**Dr. Majid Khonji**](mailto:majid.khonji@ku.ac.ae) | [**Dr. Hamad Karaki**](mailto:hamad.karki@ku.ac.ae) | [**Dr. Pedro Lima**](mailto:tp.aobsilu.ocincet@amil.ordep) |
-
-## Timeline
-    
 !!! warning
-    Timeline is subject to change. Please keep checking this page for any updates.
-
-| DATE                  | EVENT                      |
-|:----------------------|:---------------------------|
-| Jul 22, 2024          | Registration Opens         |
-| Aug 31, 2024          | Registration Closes        |
-| Aug 20, 2024          | Online Orientation 1       |
-| Sep 17, 2024          | Online Orientation 2       |
-| Sep 28 – Sep 29, 2024 | Qualification Round        |
-| Sep 04, 2024          | Competition Track Released |
-| Oct 05 – Oct 06, 2024 | Final Race                 |
-| Oct 07, 2024          | Results Declared           |
-
-Following is a brief summary of each event:
-
-- **Registration:** Interested teams will register for the Sim Racing League.
-- **Online Orientation 1:** Organizers will explain the competition rules and guidelines, and demonstrate how to use the simulation framework.
-- **Online Orientation 2:** Organizers will check progress of the participating teams and help with any technical difficulties.
-- **Qualification Round:** Teams will demonstrate successful completion of 10 laps around the practice track provided ahead of time.
-- **Competition Track Released:** Organizers will release the actual "competition track", which will be used for the final race. This track may be replicated in the physical race as well.
-- **Final Race:** Organizers will collect containerized algorithms from each team and connect them with the containerized simulator. Performance metrics of each team will be recorded.
-- **Results Declared:** Standings of all the teams will be released.
-
-!!! info
-    The F1TENTH Sim Racing League will be held approximately 1 week ahead of IROS 2024 and the performance metrics will be made available to the teams. Discussions are underway with the IROS organizing team to allow teams to analyze and present their approach/results in a short (~10 min) presentation in a special session at IROS 2024.
-
-## Resources
-
-<img src="/../assets/images/logos/AutoDRIVE Logo.png" width="24.5%" align="left"/>
-<p align="justify">
-<a href="https://autodrive-ecosystem.github.io/">AutoDRIVE</a> is envisioned to be an open, comprehensive, flexible and integrated cyber-physical ecosystem for enhancing autonomous driving research and education. It bridges the gap between software simulation and hardware deployment by providing the <a href="https://github.com/Tinker-Twins/AutoDRIVE/tree/AutoDRIVE-Simulator">AutoDRIVE Simulator</a> and <a href="https://github.com/Tinker-Twins/AutoDRIVE/tree/AutoDRIVE-Testbed">AutoDRIVE Testbed</a>, a well-suited duo for real2sim and sim2real transfer targeting vehicles and environments of varying scales and operational design domains. It also offers <a href="https://github.com/Tinker-Twins/AutoDRIVE/tree/AutoDRIVE-Devkit">AutoDRIVE Devkit</a>, a developer's kit for rapid and flexible development of autonomy algorithms using a variety of programming languages and software frameworks. For the Sim Racing League, teams will develop their autonomous racing algorithms using the AutoDRIVE Devkit to interface with the AutoDRIVE Simulator in real-time.
-</p>
-
-<img src="/../assets/images/logos/F1TENTH Logo.png" width="24.5%" align="right"/>
-<p align="justify">
-<a href="https://f1tenth.org/">F1TENTH</a> is an <a href="https://f1tenth.org/about.html">international community</a> of researchers, engineers, and autonomous systems enthusiasts. It is centered around the idea of converting a 1:10 scale RC car into an autonomous vehicle for research and education; check out the <a href="https://f1tenth.org/build.html">documentation</a> to build your own F1TENTH autonomous racecar. Additionally, if you are new to the field of autonomous racing, you can refer to the complete <a href="https://f1tenth.org/learn.html">course material</a>, which is open sourced. If you already have some experience with autonomous racing, feel free to delve deeper into the <a href="https://f1tenth.org/research.html">research</a> enabled by F1TENTH. Lastly, you can also check out the physical <a href="https://f1tenth.org/race.html">F1TENTH races</a> that are being organized all around the world. For the Sim Racing League, teams will not require a physical F1TENTH vehicle; however, the learning resources can certainly be useful to get your autonomous racing fundamentals right!
-</p>
-
-As the next few steps, we recommend all the teams interested in participating in the F1TENTH Sim Racing League to get accustomed with the competition framework:
-
-<div class="grid">
-  <a href="https://hub.docker.com/r/autodriveecosystem/autodrive_f1tenth_sim" class="md-button md-button"><center><div class="logo"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path d="M349.9 236.3h-66.1v-59.4h66.1v59.4zm0-204.3h-66.1v60.7h66.1V32zm78.2 144.8H362v59.4h66.1v-59.4zm-156.3-72.1h-66.1v60.1h66.1v-60.1zm78.1 0h-66.1v60.1h66.1v-60.1zm276.8 100c-14.4-9.7-47.6-13.2-73.1-8.4-3.3-24-16.7-44.9-41.1-63.7l-14-9.3-9.3 14c-18.4 27.8-23.4 73.6-3.7 103.8-8.7 4.7-25.8 11.1-48.4 10.7H2.4c-8.7 50.8 5.8 116.8 44 162.1 37.1 43.9 92.7 66.2 165.4 66.2 157.4 0 273.9-72.5 328.4-204.2 21.4 .4 67.6 .1 91.3-45.2 1.5-2.5 6.6-13.2 8.5-17.1l-13.3-8.9zm-511.1-27.9h-66v59.4h66.1v-59.4zm78.1 0h-66.1v59.4h66.1v-59.4zm78.1 0h-66.1v59.4h66.1v-59.4zm-78.1-72.1h-66.1v60.1h66.1v-60.1z"/></svg></span> Download AutoDRIVE Simulator Container</div></center></a>
-  <a href="https://hub.docker.com/r/autodriveecosystem/autodrive_f1tenth_api" class="md-button md-button"><center><div class="logo"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path d="M349.9 236.3h-66.1v-59.4h66.1v59.4zm0-204.3h-66.1v60.7h66.1V32zm78.2 144.8H362v59.4h66.1v-59.4zm-156.3-72.1h-66.1v60.1h66.1v-60.1zm78.1 0h-66.1v60.1h66.1v-60.1zm276.8 100c-14.4-9.7-47.6-13.2-73.1-8.4-3.3-24-16.7-44.9-41.1-63.7l-14-9.3-9.3 14c-18.4 27.8-23.4 73.6-3.7 103.8-8.7 4.7-25.8 11.1-48.4 10.7H2.4c-8.7 50.8 5.8 116.8 44 162.1 37.1 43.9 92.7 66.2 165.4 66.2 157.4 0 273.9-72.5 328.4-204.2 21.4 .4 67.6 .1 91.3-45.2 1.5-2.5 6.6-13.2 8.5-17.1l-13.3-8.9zm-511.1-27.9h-66v59.4h66.1v-59.4zm78.1 0h-66.1v59.4h66.1v-59.4zm78.1 0h-66.1v59.4h66.1v-59.4zm-78.1-72.1h-66.1v60.1h66.1v-60.1z"/></svg></span> Download AutoDRIVE Devkit Container</div></center></a>
-</div>
-
-## Registration
-
-<p align="justify">
-This competition is open for everyone around the world - students, researchers, hobbyists, professionals, or anyone else who is interested. A team can consist of multiple teammates. Teams with only one person are also allowed.
-</p>
-
-<center>
-[:material-file-document-edit: Registration Form](https://forms.gle/hBCctUaHcvFoB9zHA){.md-button}
-</center>
-
-<p align="justify">
-Registration for the Sim Racing League is free of cost and separate from the Physical Racing League and the conference registrations themselves. The above form signs you up only for the Sim Racing League, and for its orientation and information sessions. Although you can participate in the Sim Racing League without attending the conference, we strongly encourage all competition participants to attend the conference in person. This will help you connect with the broader AutoDRIVE and F1TENTH communities, and you can also witness/participate in the physical F1TENTH autonomous racing competition!
-</p>
-
-<p align="justify">
-Registered teams are added to the following table:
-</p>
-
-| TEAM NAME                 | TEAM MEMBERS                  | ORGANIZATION                              |
-|:--------------------------|:------------------------------|:------------------------------------------|
-| SAGOL                     | JoonCheol Park                | Personal                                  |
-| Solo                      | Abdul Rahman Khader           | Khalifa University                        |
-| OptimusPrime              | Sahruday Patti                | University of Maryland, College Park      |
-| Velizar Zlatev            | Velizar Zlatev                | University of Bristol                     |
-| Beryllium                 | Ronnie Romman                 | Personal                                  |
-| Cornell Electric Vehicles | Jason Klein<br />Eric Marchetti<br />Zach Chosed<br />Utku Melemetci<br />Sidharth Rao<br />Myles Pasetsky<br />Zephan Sanghani<br />Sia Chitnis<br />Nicole Sin | Cornell University |
-| Robotisim Dev             | Muhammad Luqman<br />Yusuf Butt | Robotisim                               |
-| Log Robotics              | Logesh G                      | Bannari Amman Institute of Technology     |
-| Lone Rider                | Akshay Laddha                 | Indian Institute of Technology, Bombay    |
-| Atlas 2.0                 | Manav Gagvani                 | Purdue University                         |
-| The Buttowskis            | Kalash Jain                   | Pandit Deendayal Energy University        |
-| Hanuman Parakram          | Dheeraj Bhurewar<br />Vaibhav Wanere | Personal                           |
-| Pallas                    | Haris Khan                    | Skoltech                                  |
-| Gopher Speedsters         | Sujeendra Ramesh              | University of Minnesota, Twin Cities      |
-| Autopilots                | Nouf Aljaberi<br />Amna Muhammad<br />Hajar Alnaqbi<br />Shouq Zanki<br />Sara Almessabie<br /> | United Arab Emirates University |
-| i3                        | Pranav Kallem                 | Personal                                  |
-| Phoenix                   | Aman Kumar Singh<br />Lakshmikanth Nageswar | Personal                    |
-| RobotX & More             | Oussama Errouji<br />Imad-Eddine NACIRI | Euro Mediterranean University of Fez |
+    It expected that teams have sufficient background knowlege pertaining to autonomous racing (concepts, methods, and algorithms), programming languages (Python, C++, etc.) and frameworks (ROS 2), containerization (Docker) and version control (Git), etc. In order to be fair to all teams and keep the competition on schedule, extensive technical support/help cannot be provided by the organizers to any team. However, legitimate requests may be entertained at the discretion of the organizers.
 
 !!! note
-    The above table will be updated with newly registered teams within a few days of registration. Please contact [Chinmay Samak](mailto:csamak@clemson.edu) or [Tanmay Samak](mailto:tsamak@clemson.edu) if you do not see your team entry for more than 7 days after registering.
+    Although AutoDRIVE Ecosystem supports many vehicles across different scales and operational design domains (ODDs), the **ONLY** vehicle allowed for this competition is **F1TENTH**. Similarly, although AutoDRIVE Ecosystem supports multiple application programming interfaces (APIs), the **ONLY** API allowed for this competition is **ROS 2**.
 
-## Results
+## 1. AutoDRIVE Simulator
 
-To be announced on Oct 07, 2024.
+<p align="justify">
+AutoDRIVE Simulator (part of the larger <a href="https://autodrive-ecosystem.github.io">AutoDRIVE Ecosystem</a>) is an autonomy oriented tool designed to model and simulate vehicle and environment digital twins. It equally prioritizes backend physics and frontend graphics to achieve high-fidelity simulation in realtime. From a computing perspective, the simulation framework is completely modular owing to its object-oriented programming (OOP) constructs. Additionally, the simulator can take advantage of CPU multi-threading as well as GPU instancing (only if available) to efficiently parallelize various simulation objects and processes, with cross-platform support.
+</p>
+
+<p align="justify">
+For the F1TENTH Sim Racing League, each team will be provided with a standardized simulation setup (in the form of a digital twin of the F1TENTH vehicle, and a digital twin of the Porto racetrack) within the high-fidelity <a href="https://github.com/Tinker-Twins/AutoDRIVE/tree/AutoDRIVE-Simulator">AutoDRIVE Simulator</a>. This would help make this competition and exploration of autonomous racing in general accessible to everyone across the globe.
+</p>
+
+### 1.1. System Requirements
+
+<p align="justify">
+  <b>Minimum Requirements:</b>
+</p>
+<ul class="justify-list">
+  <li>OS: Ubuntu 20.04 LTS or equivalent (as Docker images are often designed with specific Linux distributions in mind)</li>
+  <li>CPU: Quad-core processor (e.g., Intel Core i5 or AMD Ryzen 5)</li>
+  <li>Memory: 8 GB RAM</li>
+  <li>Graphics: Integrated graphics or a low-end discrete GPU (e.g., NVIDIA GeForce GTX 1050 or equivalent) with at least 2 GB of VRAM</li>
+  <li>Storage: 10 GB free disk space (for Docker images and simulation data)</li>
+  <li>Network: Internet connection for Docker image pulls and updates</li>
+</ul>
+
+<p align="justify">
+  <b>Recommended Requirements:</b>
+</p>
+<ul class="justify-list">
+  <li>OS: Ubuntu 20.04 LTS or equivalent (latest versions generally provide better support)</li>
+  <li>CPU: Six-core processor (e.g., Intel Core i7 or AMD Ryzen 7)</li>
+  <li>Memory: 16 GB RAM</li>
+  <li>Graphics: Mid-range discrete GPU (e.g., NVIDIA GeForce GTX 1660 or RTX 2060) with 4 GB or more VRAM</li>
+  <li>Storage: 20 GB free disk space (to accommodate larger Docker images, additional simulation data, and logs)</li>
+  <li>Network: Stable internet connection for downloading and updating Docker images</li>
+</ul>
+
+!!! info
+    Note that the organizers will execute the competition framework on a workstation incorporating Intel Core i9 14th Gen 14900K CPU, NVIDIA GeForce RTX 4090 GPU, and 64 GB RAM (or a similar configuration). However, this machine will be simultaneously running the simulator container, screen recorder and data logger in addition to the devkit container. Kindly develop your algorithms while considering their computational requirements.
+
+### 1.2. Graphical User Interface (GUI)
+
+### 1.3. Racecar
+#### 1.3.1 Frames of Reference (TF)
+#### 1.3.2 Vehicle Dynamics
+#### 1.3.3 Actuator Dynamics
+#### 1.3.4 Sensor Characteristics
+#### 1.3.5 Variability (noise in sensor/actuator/system characteristics)
+#### 1.3.6 Multiple Vehicles
+
+### 1.4. Racetrack
+#### 1.4.1 Size and Structure
+#### 1.4.2 Features (straight, chicane, bifurcation, etc.)
+#### 1.4.3 Obstacles (static/dynamic)
+#### 1.4.4 Frame(s) of Reference (TF)
+#### 1.4.5 Custom Racetracks
+#### 1.4.6 Environmental Variability (time, weather, wind, lighting, friction, etc.)
+
+
+## 2. AutoDRIVE Devkit
+
+<p align="justify">
+AutoDRIVE Devkit (part of the larger <a href="https://autodrive-ecosystem.github.io">AutoDRIVE Ecosystem</a>) is a collection of application programming interfaces (APIs), human-machine interfaces (HMIs), programming languages, libraries, frameworks, packages and tools, which enables the flexible development of on-road and off-road autonomous driving algorithms, as well as smart city traffic management algorithms. It allows targeting the devised algorithms to the simulator as well as the testbed, seamlessly. It supports both local as well as distributed computing, thereby facilitating the development of both centralized and decentralized autonomy algorithms.
+</p>
+
+<p align="justify">
+For the F1TENTH Sim Racing League, each team will be provided with a standardized working implementation of the <a href="https://github.com/Tinker-Twins/AutoDRIVE/tree/AutoDRIVE-Devkit">AutoDRIVE Devkit</a> (in the form of ROS 2 API for the the F1TENTH digital twin within AutoDRIVE Simulator) to get started with developing their autonomy algorithms. Teams will have to develop perception, planning, and control algorithms to parse the real-time sensor data streamed from the simulator and generate control commands to be fed back to the simulated vehicle. Since the vehicle, the sensors, the simulator, and the devkit are standardized, teams must develop robust racing algorithms that can deal with the uncertainties of an unseen racetrack.
+</p>
+
+### 2.1. System Requirements
+
+<p align="justify">
+  <b>Minimum Requirements:</b>
+</p>
+<ul class="justify-list">
+  <li>OS: Ubuntu 20.04 LTS or a similar Linux distribution (compatible with Docker)</li>
+  <li>CPU: Dual-core processor (e.g., Intel Core i3 or AMD Ryzen 3)</li>
+  <li>Memory: 4 GB RAM</li>
+  <li>Graphics: Integrated graphics (e.g., Intel HD Graphics) or a low-end discrete GPU (e.g., NVIDIA GeForce GT 1030)</li>
+  <li>Storage: 5 GB free disk space (for Docker images, API files, and temporary data)</li>
+  <li>Network: Internet connection for downloading Docker images and updates</li>
+</ul>
+
+<p align="justify">
+  <b>Recommended Requirements:</b>
+</p>
+<ul class="justify-list">
+  <li>OS: Ubuntu 20.04 LTS or the latest stable version for better compatibility and performance</li>
+  <li>CPU: Quad-core processor (e.g., Intel Core i5 or AMD Ryzen 5)</li>
+  <li>Memory: 8 GB RAM</li>
+  <li>Graphics: Mid-range discrete GPU (e.g., NVIDIA GeForce GTX 1050 or RTX 2060) with at least 2 GB of VRAM (optional, depending on whether the development kit includes graphical components)</li>
+  <li>Storage: 10 GB free disk space (to accommodate larger Docker images, additional data, and logs)</li>
+  <li>Network: Stable internet connection for pulling Docker images and updates</li>
+</ul>
+
+!!! info
+    Note that the organizers will execute the competition framework on a workstation incorporating Intel Core i9 14th Gen 14900K CPU, NVIDIA GeForce RTX 4090 GPU, and 64 GB RAM (or a similar configuration). However, this machine will be simultaneously running the simulator container, screen recorder and data logger in addition to the devkit container. Kindly develop your algorithms while considering their computational requirements.
+
+### 2.2. Package Structure
+
+### 2.3. Data Streams
+
+Topic | Message | Access Type | Description
+
+- Input topics: sensor topics
+- Output topics: actuator topics
+- Restricted topics: debugging topics
+
+!!! note
+    You may use the restricted topics for debugging, to train AI models, etc. However, these topics should not be used during the deployment/inference stage (i.e. while autonomously racing at run-time).
+
+## 3. Competition Submission
+<p align="justify">
+F1TENTH Sim Racing League is a virtual competition, which accompanies the physical F1TENTH Autonomous Racing Competition. It leverages <a href="https://autodrive-ecosystem.github.io">AutoDRIVE Ecosystem</a> to model and simulate the digital twin of an F1TENTH racecar within a virtual racetrack. The main goal of this competition is to make autonomous racing accessible to everyone across the globe.
+</p>
+
+### 3.1. Submission Preparation
+
+Explain the startup sequence - run the simulator, run the devkit, hit connection button, hit driving mode button.
+
+!!! tip
+    In certain cases, GPUs and Docker do not work very well and can cause problems in running the simulator container. In such cases, you can download and run the simulator locally (it should be easier to access the GPU this way). You can then run only the devkit within a container. Everything else will work just fine, only that the simulator will not be running inside a container. This shouldn’t matter, since you will have to submit only the container for your algorithms (i.e. devkit) and not the simulator. We will run the containerized simulator on our side for the evaluation of all submissions.
+
+!!! tip
+    If working with containers is overwhelming, you can download and run the devkit locally while developing and testing your autonomous racing algorithms. You can then containerize the finalized algorithms, test them one last time, and push them to the container registry.
+
+### 3.2. Evaluation Architecture
+
+figure with explaination
+
+### 3.3. Execution Sequence
+
+How will the evaluation process of a team's submission conducted
+
+### 3.4. Scoring & Evaluation
+
+Exact scoring, penalties, ranking, tie-breaker, etc. quantitative details
