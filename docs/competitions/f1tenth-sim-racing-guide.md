@@ -28,24 +28,24 @@ For the F1TENTH Sim Racing League, each team will be provided with a standardize
   <b>Minimum Requirements:</b>
 </p>
 <ul class="justify-list">
-  <li>OS: Ubuntu 20.04 LTS or equivalent (as Docker images are often designed with specific Linux distributions in mind)</li>
-  <li>CPU: Quad-core processor (e.g., Intel Core i5 or AMD Ryzen 5)</li>
+  <li>Platform: Ubuntu, Windows, macOS (simulator has cross-platform compatibility)</li>
+  <li>Processor: Quad-core CPU (e.g., Intel Core i5 or AMD Ryzen 5)</li>
   <li>Memory: 8 GB RAM</li>
-  <li>Graphics: Integrated graphics or a low-end discrete GPU (e.g., NVIDIA GeForce GTX 1050 or equivalent) with at least 2 GB of VRAM</li>
-  <li>Storage: 10 GB free disk space (for Docker images and simulation data)</li>
-  <li>Network: Internet connection for Docker image pulls and updates</li>
+  <li>Graphics: Integrated graphics or a low-end discrete GPU (e.g., NVIDIA GeForce GTX 1050) with at least 2 GB of VRAM</li>
+  <li>Storage: 10 GB free disk space (for Docker images, simulator application and data)</li>
+  <li>Network: Internet connection for pulling Docker images, and downloading updates</li>
 </ul>
 
 <p align="justify">
   <b>Recommended Requirements:</b>
 </p>
 <ul class="justify-list">
-  <li>OS: Ubuntu 20.04 LTS or equivalent (latest versions generally provide better support)</li>
-  <li>CPU: Six-core processor (e.g., Intel Core i7 or AMD Ryzen 7)</li>
+  <li>Platform: Ubuntu, Windows (simulator has been extensively tested on these platforms)</li>
+  <li>Processor: Six-core CPU (e.g., Intel Core i7 or AMD Ryzen 7)</li>
   <li>Memory: 16 GB RAM</li>
   <li>Graphics: Mid-range discrete GPU (e.g., NVIDIA GeForce GTX 1660 or RTX 2060) with 4 GB or more VRAM</li>
-  <li>Storage: 20 GB free disk space (to accommodate larger Docker images, additional simulation data, and logs)</li>
-  <li>Network: Stable internet connection for downloading and updating Docker images</li>
+  <li>Storage: 20 GB free disk space (to accommodate multiple Docker images, additional data, and logs)</li>
+  <li>Network: Stable internet connection for pulling Docker images, and downloading updates</li>
 </ul>
 
 !!! info
@@ -53,7 +53,47 @@ For the F1TENTH Sim Racing League, each team will be provided with a standardize
 
 ### 1.2. Graphical User Interface (GUI)
 
-### 1.3. Racecar
+<center>
+<img src="/../assets/images/AutoDRIVE-SImulator.png">
+</center>
+
+<p align="justify">
+Apart from the visualization of autonomous vehicle(s) and their operating environments, AutoDRIVE Simulator GUI consists of a toolbar encompassing two panels for observing and interacting with key aspects of the simulator in real-time, namely <b>Menu</b> and <b>Heads-Up Display (HUD)</b>. Both the panels can be enabled or disabled using buttons provided on the toolbar, the figure above illustrates both GUI panels being enabled. The menu panel on the left hand side helps configure and control some important aspects of the simulation with just a few clicks. The HUD panel on the right hand side helps visualize prominent simulation parameters along with vehicle status and sensory data, while hosting a time-synchronized data recording functionality that can be used to export vehicle as well as infrastructure data for a specific run.
+</p>
+
+#### 1.2.1 Menu Panel
+
+<ul class="justify-list">
+  <li><b>IP Address Field:</b> Input field to specify IP address for the communication bridge (default is 127.0.0.1, i.e. standard address for IPv4 loopback traffic).
+  <li><b>Port Number Field:</b> Input field to specify port number for the communication bridge (default is 4567).
+  <li><b>Connection Button:</b> Button to establish connection with the server (the button is disabled once the connection is established). The status of bridge connection (i.e. Connected or Disconnected) is displayed besides this button.
+  <li><b>Driving Mode Button:</b> Button to toggle the driving mode of the vehicle between Manual and Autonomous (default is Manual). The selected driving mode is displayed besides this button.
+  <li><b>Camera View Button:</b> Button to toggle the scene camera view between Driver’s Eye, Bird’s Eye and God’s Eye (default is Driver’s Eye). The selected view is displayed besides this button.
+  <li><b>Graphics Quality Button:</b> Button to toggle the graphics quality view between Low, High and Ultra (default is Low). The selected quality is displayed besides this button.
+  <li><b>Scene Light Button:</b> Button to enable/disable the scene light (default is enabled).
+  <li><b>Reset Button:</b> Button to reset the simulator to initial conditions.
+  <li><b>Quit Button:</b> Button to quit the simulator application.
+</ul>
+
+#### 1.2.2 HUD Panel
+
+<ul class="justify-list">
+  <li><b> Simulation Time:</b> The time (HH:MM:SS) since start of the simulation. Reset button resets the simulation time.
+  <li><b> Frame Rate:</b> Running average of the FPS value (Hz).
+  <li><b> Driving Mode:</b> Driving mode of the ego-vehicle (Manual or Autonomous).
+  <li><b> Gear:</b> Drive direction of the vehicle; either Drive (D) or Reverse (R).
+  <li><b> Speed:</b> Magnitude of forward velocity of the vehicle (m/s).
+  <li><b> Throttle:</b> Instantaneous throttle input of the vehicle (%).
+  <li><b> Steering:</b> Instantaneous steering angle of the vehicle (rad).
+  <li><b> Encoder Ticks:</b> Ticks (counts) of the left and right incremental encoders of the vehicle represented using a 1D array of 2 elements [left_ticks, right_ticks].
+  <li><b> IPS Data:</b> Position(m)ofvehiclewithinthemaprepresented using a vector [x, y, z].
+  <li><b> IMU Data:</b> Orientation [x, y, z] rad, angular velocity [x, y, z] rad/s, and linear acceleration [x, y, z] m/s2 of the ego-vehicle about its local axes.
+  <li><b> LIDAR Measurement:</b> Instantaneous ranging measurement (m) of the LIDAR on the vehicle.
+  <li><b> Camera Preview:</b> Instantaneous raw image from the front camera of the vehicle.
+  <li><b> Data Recorder:</b> Save time-synchronized vehicle as well as infrastructure data for a specific simulation run.
+</ul>
+
+### 1.3. Vehicle
 #### 1.3.1 Frames of Reference (TF)
 #### 1.3.2 Vehicle Dynamics
 #### 1.3.3 Actuator Dynamics
@@ -61,7 +101,7 @@ For the F1TENTH Sim Racing League, each team will be provided with a standardize
 #### 1.3.5 Variability (noise in sensor/actuator/system characteristics)
 #### 1.3.6 Multiple Vehicles
 
-### 1.4. Racetrack
+### 1.4. Environment
 #### 1.4.1 Size and Structure
 #### 1.4.2 Features (straight, chicane, bifurcation, etc.)
 #### 1.4.3 Obstacles (static/dynamic)
@@ -86,24 +126,24 @@ For the F1TENTH Sim Racing League, each team will be provided with a standardize
   <b>Minimum Requirements:</b>
 </p>
 <ul class="justify-list">
-  <li>OS: Ubuntu 20.04 LTS or a similar Linux distribution (compatible with Docker)</li>
-  <li>CPU: Dual-core processor (e.g., Intel Core i3 or AMD Ryzen 3)</li>
+  <li>Platform: Ubuntu 20.04, Windows 10, macOS 10.14 (simulator has cross-platform compatibility)</li>
+  <li>Processor: Dual-core CPU (e.g., Intel Core i3 or AMD Ryzen 3)</li>
   <li>Memory: 4 GB RAM</li>
   <li>Graphics: Integrated graphics (e.g., Intel HD Graphics) or a low-end discrete GPU (e.g., NVIDIA GeForce GT 1030)</li>
   <li>Storage: 5 GB free disk space (for Docker images, API files, and temporary data)</li>
-  <li>Network: Internet connection for downloading Docker images and updates</li>
+  <li>Network: Internet connection for pulling and pushing Docker images, and downloading updates</li>
 </ul>
 
 <p align="justify">
   <b>Recommended Requirements:</b>
 </p>
 <ul class="justify-list">
-  <li>OS: Ubuntu 20.04 LTS or the latest stable version for better compatibility and performance</li>
-  <li>CPU: Quad-core processor (e.g., Intel Core i5 or AMD Ryzen 5)</li>
+  <li>Platform: Ubuntu 20.04 (devkit has been extensively tested on this platform)</li>
+  <li>Processor: Quad-core CPU (e.g., Intel Core i5 or AMD Ryzen 5)</li>
   <li>Memory: 8 GB RAM</li>
   <li>Graphics: Mid-range discrete GPU (e.g., NVIDIA GeForce GTX 1050 or RTX 2060) with at least 2 GB of VRAM (optional, depending on whether the development kit includes graphical components)</li>
-  <li>Storage: 10 GB free disk space (to accommodate larger Docker images, additional data, and logs)</li>
-  <li>Network: Stable internet connection for pulling Docker images and updates</li>
+  <li>Storage: 10 GB free disk space (to accommodate multiple Docker images, additional data, and logs)</li>
+  <li>Network: Stable internet connection for pulling and pushing Docker images, and downloading updates</li>
 </ul>
 
 !!! info
@@ -129,7 +169,8 @@ F1TENTH Sim Racing League is a virtual competition, which accompanies the physic
 
 ### 3.1. Submission Preparation
 
-Explain the startup sequence - run the simulator, run the devkit, hit connection button, hit driving mode button.
+Setup - download and install dependencies, simulator and devkit
+Usage - run the simulator, run the devkit, hit connection button, hit driving mode button.
 
 !!! tip
     In certain cases, GPUs and Docker do not work very well and can cause problems in running the simulator container. In such cases, you can download and run the simulator locally (it should be easier to access the GPU this way). You can then run only the devkit within a container. Everything else will work just fine, only that the simulator will not be running inside a container. This shouldn’t matter, since you will have to submit only the container for your algorithms (i.e. devkit) and not the simulator. We will run the containerized simulator on our side for the evaluation of all submissions.
