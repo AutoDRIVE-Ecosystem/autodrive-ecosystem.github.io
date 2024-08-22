@@ -141,9 +141,10 @@ Registered teams are added to the following table:
 | IEEE Zagazig SB           | Abdulrahman Omar<br />Hossam Elsherbiny<br />Essam Shenhab<br />Eman Abdelhamed<br />Abdullah Elmasry<br />Salma Swailem<br />Merna Atef<br />Amr Yasser<br />Mahmoud Samy<br />Mostafa Asaad<br />Menna Gamal<br />Ahmed Medhat  | Zagazig University                        |
 | AMUGAE                    | Kim Amugae                    | Personal                                  |
 | TURTLEBOT                 | Jit Ern Lim                   | Personal                                  |
-| TeamNaNs                  | Hariharan Ravichandran        | Personal                                  |
 | Byte Benders              | Bhajneet Singh Bedi           | Personal                                  |
 | KGX                       | Hareesh R<br />Raja Rajan K<br />Ramesh Patel D<br />Marudhu Paandian K<br />Bhuvaneshwari Kanagaraj | KGISL Institute of technology |
+| NaN                       | Hariharan Ravichandran<br />Siva Vignesh Krishnan Chidambaram | Personal  |
+| Vortex                    | Chinmay K                     | National Institute of Technology, Karnataka |
 
 !!! note
     The above table will be updated with newly registered teams within a few days of registration. Please contact [Chinmay Samak](mailto:csamak@clemson.edu) or [Tanmay Samak](mailto:tsamak@clemson.edu) if you do not see your team entry for more than 7 days after registering.
