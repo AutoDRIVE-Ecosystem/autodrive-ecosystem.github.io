@@ -118,33 +118,43 @@ Registration for the Sim Racing League is free of cost and separate from the Phy
 Registered teams are added to the following table:
 </p>
 
-| TEAM NAME                 | TEAM MEMBERS                  | ORGANIZATION                              |
-|:--------------------------|:------------------------------|:------------------------------------------|
-| SAGOL                     | JoonCheol Park                | Personal                                  |
-| Solo                      | Abdul Rahman Khader           | Khalifa University                        |
-| OptimusPrime              | Sahruday Patti                | University of Maryland, College Park      |
-| Velizar Zlatev            | Velizar Zlatev                | University of Bristol                     |
-| Beryllium                 | Ronnie Romman                 | Personal                                  |
-| Cornell Electric Vehicles | Jason Klein<br />Eric Marchetti<br />Zach Chosed<br />Utku Melemetci<br />Sidharth Rao<br />Myles Pasetsky<br />Zephan Sanghani<br />Sia Chitnis<br />Nicole Sin | Cornell University |
-| Robotisim Dev             | Muhammad Luqman<br />Yusuf Butt | Robotisim                               |
-| Log Robotics              | Logesh G                      | Bannari Amman Institute of Technology     |
-| Lone Rider                | Akshay Laddha                 | Indian Institute of Technology, Bombay    |
-| Atlas 2.0                 | Manav Gagvani                 | Purdue University                         |
-| The Buttowskis            | Kalash Jain                   | Pandit Deendayal Energy University        |
-| Hanuman Parakram          | Dheeraj Bhurewar<br />Vaibhav Wanere | Personal                           |
-| Pallas                    | Haris Khan                    | Skoltech                                  |
-| Gopher Speedsters         | Sujeendra Ramesh              | University of Minnesota, Twin Cities      |
-| Autopilots                | Nouf Aljaberi<br />Amna Muhammad<br />Hajar Alnaqbi<br />Shouq Zanki<br />Sara Almessabie<br /> | United Arab Emirates University |
-| i3                        | Pranav Kallem                 | Personal                                  |
-| Phoenix                   | Aman Kumar Singh<br />Lakshmikanth Nageswar | Personal                    |
-| RobotX & More             | Oussama Errouji<br />Imad-Eddine NACIRI | Euro Mediterranean University of Fez |
-| IEEE Zagazig SB           | Abdulrahman Omar<br />Hossam Elsherbiny<br />Essam Shenhab<br />Eman Abdelhamed<br />Abdullah Elmasry<br />Salma Swailem<br />Merna Atef<br />Amr Yasser<br />Mahmoud Samy<br />Mostafa Asaad<br />Menna Gamal<br />Ahmed Medhat  | Zagazig University                        |
-| AMUGAE                    | Kim Amugae                    | Personal                                  |
-| TURTLEBOT                 | Jit Ern Lim                   | Personal                                  |
-| Byte Benders              | Bhajneet Singh Bedi           | Personal                                  |
-| KGX                       | Hareesh R<br />Raja Rajan K<br />Ramesh Patel D<br />Marudhu Paandian K<br />Bhuvaneshwari Kanagaraj | KGISL Institute of technology |
-| NaN                       | Hariharan Ravichandran<br />Siva Vignesh Krishnan Chidambaram | Personal  |
-| Vortex                    | Chinmay K                     | National Institute of Technology, Karnataka |
+| SR. NO. | TEAM NAME                 | TEAM MEMBERS                  | ORGANIZATION                              |
+|:--------|:--------------------------|:------------------------------|:------------------------------------------|
+| 01      | SAGOL                     | JoonCheol Park                | Personal                                  |
+| 02      | Solo                      | Abdul Rahman Khader           | Khalifa University                        |
+| 03      | OptimusPrime              | Sahruday Patti                | University of Maryland, College Park      |
+| 04      | Velizar Zlatev            | Velizar Zlatev                | University of Bristol                     |
+| 05      | Beryllium                 | Ronnie Romman                 | Personal                                  |
+| 06      | Cornell Electric Vehicles | Jason Klein<br />Eric Marchetti<br />Zach Chosed<br />Utku Melemetci<br />Sidharth Rao<br />Myles Pasetsky<br />Zephan Sanghani<br />Sia Chitnis<br />Nicole Sin | Cornell University |
+| 07      | Robotisim Dev             | Muhammad Luqman<br />Yusuf Butt | Robotisim                               |
+| 08      | Log Robotics              | Logesh G                      | Bannari Amman Institute of Technology     |
+| 09      | Lone Rider                | Akshay Laddha                 | Indian Institute of Technology, Bombay    |
+| 10      | Atlas 2.0                 | Manav Gagvani                 | Purdue University                         |
+| 11      | The Buttowskis            | Kalash Jain                   | Pandit Deendayal Energy University        |
+| 12      | Hanuman Parakram          | Dheeraj Bhurewar<br />Vaibhav Wanere | Personal                           |
+| 13      | Pallas                    | Haris Khan                    | Skoltech                                  |
+| 14      | Gopher Speedsters         | Sujeendra Ramesh              | University of Minnesota, Twin Cities      |
+| 15      | Autopilots                | Nouf Aljaberi<br />Amna Muhammad<br />Hajar Alnaqbi<br />Shouq Zanki<br />Sara Almessabie<br /> | United Arab Emirates University |
+| 16      | i3                        | Pranav Kallem                 | Personal                                  |
+| 17      | Phoenix                   | Aman Kumar Singh<br />Lakshmikanth Nageswar | Personal                    |
+| 18      | RobotX & More             | Oussama Errouji<br />Imad-Eddine NACIRI | Euro Mediterranean University of Fez |
+| 19      | IEEE Zagazig SB           | Abdulrahman Omar<br />Hossam Elsherbiny<br />Essam Shenhab<br />Eman Abdelhamed<br />Abdullah Elmasry<br />Salma Swailem<br />Merna Atef<br />Amr Yasser<br />Mahmoud Samy<br />Mostafa Asaad<br />Menna Gamal<br />Ahmed Medhat   | Zagazig University                        |
+| 20      | AMUGAE                    | Kim Amugae                    | Personal                                  |
+| 21      | TURTLEBOT                 | Jit Ern Lim                   | Personal                                  |
+| 22      | Byte Benders              | Bhajneet Singh Bedi           | Personal                                  |
+| 23      | KGX                       | Hareesh R<br />Raja Rajan K<br />Ramesh Patel D<br />Marudhu Paandian K<br />Bhuvaneshwari Kanagaraj | KGISL Institute of technology |
+| 24      | NaN                       | Hariharan Ravichandran<br />Siva Vignesh Krishnan Chidambaram | Personal  |
+| 25      | Vortex                    | Chinmay K                     | National Institute of Technology, Karnataka |
+| 26      | bracaai                   | Luis M Bracamontes<br />Luis Bracamontes | Braca Vision                   |
+| 27      | ASU Racing Team           | Abdallah Ismail<br />Mahmoud Omar<br />Hussien Algendy<br />Serag Abdelmohsen<br />Ammar Ahmed<br />Ahmed Sallam<br />Malk Hany | Ain Shams University |
+| 28      | TurboX                    | Dheeraj Bhogisetty            | Personal                                  |
+| 29      | TractionX                 | Ameya Bagal<br />Ananya Das<br />Amizhthni PRK<br />Aayush Ranawat | Indian Institute of Technology, Madras |
+| 30      | Urban AI                  | Adham Fayad<br />Abdulrahman Ahmed<br />Nabil Fouda<br />George Welson<br />Muhab Muhammed<br />Mostafa Samy | Ain Shams University |
+| 31      | fstMINI                   | José Mateus<br />Duarte Domingues | Instituto Superior Técnico            |
+| 32      | Buggy Coders              | Cody Uehara                   | Personal                                  |
+| 33      | AutoVision                | Luis Bracamontes              | Personal                                  |
+| 34      | Autobots                  | Shubham Barge<br />Anshuman Jena | Personal                               |
+| 35      | SUST AutoDrive            | Abul Basar Raz<br />Ad-deen Mahbub<br />Shafi Abdullah<br />Redwan Hossen<br />Taj Ahmad | Shahjalal University of Science and Technology |
 
 !!! note
     The above table will be updated with newly registered teams within a few days of registration. Please contact [Chinmay Samak](mailto:csamak@clemson.edu) or [Tanmay Samak](mailto:tsamak@clemson.edu) if you do not see your team entry for more than 7 days after registering.

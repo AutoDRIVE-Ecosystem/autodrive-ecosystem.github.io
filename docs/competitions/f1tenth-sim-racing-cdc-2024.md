@@ -118,11 +118,11 @@ Registration for the Sim Racing League is free of cost and separate from the Phy
 Registered teams are added to the following table:
 </p>
 
-| TEAM NAME                 | TEAM MEMBERS                  | ORGANIZATION                              |
-|:--------------------------|:------------------------------|:------------------------------------------|
-| Beryllium                 | Ronnie Romman                 | Personal                                  |
-| AERObotics                | Arif Anjum<br />Muhammed Sharjil | AEROBOTICS                             |
-| Pharst Laps               | Olivia Dry<br />Tian Zhao<br />Yitian Chen<br />Amir Ali Farzin | Australian National University |
+| SR. NO. | TEAM NAME                 | TEAM MEMBERS                  | ORGANIZATION                              |
+|:--------|:--------------------------|:------------------------------|:------------------------------------------|
+| 01      | Beryllium                 | Ronnie Romman                 | Personal                                  |
+| 02      | AERObotics                | Arif Anjum<br />Muhammed Sharjil | AEROBOTICS                             |
+| 03      | Pharst Laps               | Olivia Dry<br />Tian Zhao<br />Yitian Chen<br />Amir Ali Farzin | Australian National University |
 
 !!! note
     The above table will be updated with newly registered teams within a few days of registration. Please contact [Chinmay Samak](mailto:csamak@clemson.edu) or [Tanmay Samak](mailto:tsamak@clemson.edu) if you do not see your team entry for more than 7 days after registering.
