@@ -28,24 +28,24 @@ For the F1TENTH Sim Racing League, each team will be provided with a standardize
   <b>Minimum Requirements:</b>
 </p>
 <ul class="justify-list">
-  <li>Platform: Ubuntu, Windows, macOS (simulator has cross-platform compatibility)</li>
-  <li>Processor: Quad-core CPU (e.g., Intel Core i5 or AMD Ryzen 5)</li>
-  <li>Memory: 8 GB RAM</li>
-  <li>Graphics: Integrated graphics or a low-end discrete GPU (e.g., NVIDIA GeForce GTX 1050) with at least 2 GB of VRAM</li>
-  <li>Storage: 10 GB free disk space (for Docker images, simulator application and data)</li>
-  <li>Network: Internet connection for pulling Docker images, and downloading updates</li>
+  <li><b>Platform:</b> Ubuntu 20.04+, Windows 10+, macOS 10.14+ (simulator has cross-platform compatibility)</li>
+  <li><b>Processor:</b> Quad-core CPU (e.g., Intel Core i5 or AMD Ryzen 5)</li>
+  <li><b>Memory:</b> 8 GB RAM</li>
+  <li><b>Graphics:</b> Integrated graphics or a low-end discrete GPU (e.g., NVIDIA GeForce GTX 1050) with at least 2 GB of VRAM</li>
+  <li><b>Storage:</b> 10 GB free disk space (for Docker images, simulator application and data)</li>
+  <li><b>Network:</b> Internet connection for pulling Docker images, and downloading updates on demand</li>
 </ul>
 
 <p align="justify">
   <b>Recommended Requirements:</b>
 </p>
 <ul class="justify-list">
-  <li>Platform: Ubuntu, Windows (simulator has been extensively tested on these platforms)</li>
-  <li>Processor: Six-core CPU (e.g., Intel Core i7 or AMD Ryzen 7)</li>
-  <li>Memory: 16 GB RAM</li>
-  <li>Graphics: Mid-range discrete GPU (e.g., NVIDIA GeForce GTX 1660 or RTX 2060) with 4 GB or more VRAM</li>
-  <li>Storage: 20 GB free disk space (to accommodate multiple Docker images, additional data, and logs)</li>
-  <li>Network: Stable internet connection for pulling Docker images, and downloading updates</li>
+  <li><b>Platform:</b> Ubuntu 20.04/22.04, Windows 10/11 (simulator has been extensively tested on these platforms)</li>
+  <li><b>Processor:</b> Six-core CPU (e.g., Intel Core i7 or AMD Ryzen 7)</li>
+  <li><b>Memory:</b> 16 GB RAM</li>
+  <li><b>Graphics:</b> Mid-range discrete GPU (e.g., NVIDIA GeForce GTX 1660 or RTX 2060) with 4 GB or more VRAM</li>
+  <li><b>Storage:</b> 20 GB free disk space (to accommodate multiple Docker images, additional data, and logs)</li>
+  <li><b>Network:</b> Stable internet connection for pulling Docker images, and downloading updates on the fly</li>
 </ul>
 
 !!! info
@@ -135,24 +135,24 @@ For the F1TENTH Sim Racing League, each team will be provided with a standardize
   <b>Minimum Requirements:</b>
 </p>
 <ul class="justify-list">
-  <li>Platform: Ubuntu 20.04, Windows 10, macOS 10.14 (simulator has cross-platform compatibility)</li>
-  <li>Processor: Dual-core CPU (e.g., Intel Core i3 or AMD Ryzen 3)</li>
-  <li>Memory: 4 GB RAM</li>
-  <li>Graphics: Integrated graphics (e.g., Intel HD Graphics) or a low-end discrete GPU (e.g., NVIDIA GeForce GT 1030)</li>
-  <li>Storage: 5 GB free disk space (for Docker images, API files, and temporary data)</li>
-  <li>Network: Internet connection for pulling and pushing Docker images, and downloading updates</li>
+  <li><b>Platform:</b> Ubuntu 20.04, Windows 10, macOS 10.14 (simulator has cross-platform compatibility)</li>
+  <li><b>Processor:</b> Dual-core CPU (e.g., Intel Core i3 or AMD Ryzen 3)</li>
+  <li><b>Memory:</b> 4 GB RAM</li>
+  <li><b>Graphics:</b> Integrated graphics (e.g., Intel HD Graphics) or a low-end discrete GPU (e.g., NVIDIA GeForce GT 1030)</li>
+  <li><b>Storage:</b> 5 GB free disk space (for Docker images, API files, and temporary data)</li>
+  <li><b>Network:</b> Internet connection for pulling and pushing Docker images, and downloading updates on demand</li>
 </ul>
 
 <p align="justify">
   <b>Recommended Requirements:</b>
 </p>
 <ul class="justify-list">
-  <li>Platform: Ubuntu 20.04 (devkit has been extensively tested on this platform)</li>
-  <li>Processor: Quad-core CPU (e.g., Intel Core i5 or AMD Ryzen 5)</li>
-  <li>Memory: 8 GB RAM</li>
-  <li>Graphics: Mid-range discrete GPU (e.g., NVIDIA GeForce GTX 1050 or RTX 2060) with at least 2 GB of VRAM (optional, depending on whether the development kit includes graphical components)</li>
-  <li>Storage: 10 GB free disk space (to accommodate multiple Docker images, additional data, and logs)</li>
-  <li>Network: Stable internet connection for pulling and pushing Docker images, and downloading updates</li>
+  <li><b>Platform:</b> Ubuntu 20.04 (devkit has been extensively tested on this platform)</li>
+  <li><b>Processor:</b> Quad-core CPU (e.g., Intel Core i5 or AMD Ryzen 5)</li>
+  <li><b>Memory:</b> 8 GB RAM</li>
+  <li><b>Graphics:</b> Mid-range discrete GPU (e.g., NVIDIA GeForce GTX 1050 or RTX 2060) with at least 2 GB of VRAM (optional, depending on whether the development kit includes graphical components)</li>
+  <li><b>Storage:</b> 10 GB free disk space (to accommodate multiple Docker images, additional data, and logs)</li>
+  <li><b>Network:</b> Stable internet connection for pulling and pushing Docker images, and downloading updates on the fly</li>
 </ul>
 
 !!! info
