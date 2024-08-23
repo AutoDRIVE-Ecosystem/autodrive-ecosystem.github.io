@@ -54,23 +54,23 @@ For the F1TENTH Sim Racing League, each team will be provided with a standardize
 ### 1.2. Graphical User Interface (GUI)
 
 <center>
-<img src="/../assets/images/AutoDRIVE-SImulator.png">
+<img src="/../assets/images/documentation/f1tenth sim racing league/GUI.png">
 </center>
 
 <p align="justify">
-Apart from the visualization of autonomous vehicle(s) and their operating environments, AutoDRIVE Simulator GUI consists of a toolbar encompassing two panels for observing and interacting with key aspects of the simulator in real-time, namely <b>Menu</b> and <b>Heads-Up Display (HUD)</b>. Both the panels can be enabled or disabled using buttons provided on the toolbar, the figure above illustrates both GUI panels being enabled. The menu panel on the left hand side helps configure and control some important aspects of the simulation with just a few clicks. The HUD panel on the right hand side helps visualize prominent simulation parameters along with vehicle status and sensory data, while hosting a time-synchronized data recording functionality that can be used to export vehicle as well as infrastructure data for a specific run.
+Apart from the visualization of autonomous vehicle(s) and their operating environments, AutoDRIVE Simulator GUI consists of a toolbar encompassing two panels for observing and interacting with key aspects of the simulator in real-time, namely <b>Menu</b> and <b>Heads-Up Display (HUD)</b>. Both the panels can be enabled or disabled using buttons provided on the toolbar, the figure above illustrates both GUI panels being enabled. The menu panel on the left hand side helps configure and control some important aspects of the simulation with just a few clicks. The HUD panel on the right hand side helps visualize prominent simulation parameters along with vehicle status and sensory data, while hosting a time-synchronized data recording functionality that can be used to export simulation data for a specific run.
 </p>
 
 #### 1.2.1 Menu Panel
 
 <ul class="justify-list">
-  <li><b>IP Address Field:</b> Input field to specify IP address for the communication bridge (default is 127.0.0.1, i.e. standard address for IPv4 loopback traffic).
-  <li><b>Port Number Field:</b> Input field to specify port number for the communication bridge (default is 4567).
-  <li><b>Connection Button:</b> Button to establish connection with the server (the button is disabled once the connection is established). The status of bridge connection (i.e. Connected or Disconnected) is displayed besides this button.
+  <li><b>IP Address Field:</b> Input field to specify IP address for the machine running the devkit (default is 127.0.0.1, i.e., standard address for IPv4 loopback traffic).
+  <li><b>Port Number Field:</b> Input field to specify port number for the machine running the devkit (default is 4567, observed to be usually unoccupied).
+  <li><b>Connection Button:</b> Button to establish connection with the devkit, which acts as the server with simulator being the client (the button is disabled once the connection is established). The status of bridge connection (i.e., Connected or Disconnected) is displayed besides this button.
   <li><b>Driving Mode Button:</b> Button to toggle the driving mode of the vehicle between Manual and Autonomous (default is Manual). The selected driving mode is displayed besides this button.
   <li><b>Camera View Button:</b> Button to toggle the scene camera view between Driver’s Eye, Bird’s Eye and God’s Eye (default is Driver’s Eye). The selected view is displayed besides this button.
   <li><b>Graphics Quality Button:</b> Button to toggle the graphics quality view between Low, High and Ultra (default is Low). The selected quality is displayed besides this button.
-  <li><b>Scene Light Button:</b> Button to enable/disable the scene light (default is enabled).
+  <li><b>Scene Light Button:</b> Button to enable/disable the environmental lighting (default is enabled).
   <li><b>Reset Button:</b> Button to reset the simulator to initial conditions.
   <li><b>Quit Button:</b> Button to quit the simulator application.
 </ul>
@@ -81,16 +81,17 @@ Apart from the visualization of autonomous vehicle(s) and their operating enviro
   <li><b> Simulation Time:</b> The time (HH:MM:SS) since start of the simulation. Reset button resets the simulation time.
   <li><b> Frame Rate:</b> Running average of the FPS value (Hz).
   <li><b> Driving Mode:</b> Driving mode of the ego-vehicle (Manual or Autonomous).
-  <li><b> Gear:</b> Drive direction of the vehicle; either Drive (D) or Reverse (R).
+  <li><b> Gear:</b> Drive gear of the vehicle, either Drive (D) or Reverse (R).
   <li><b> Speed:</b> Magnitude of forward velocity of the vehicle (m/s).
   <li><b> Throttle:</b> Instantaneous throttle input of the vehicle (%).
   <li><b> Steering:</b> Instantaneous steering angle of the vehicle (rad).
-  <li><b> Encoder Ticks:</b> Ticks (counts) of the left and right incremental encoders of the vehicle represented using a 1D array of 2 elements [left_ticks, right_ticks].
-  <li><b> IPS Data:</b> Position(m)ofvehiclewithinthemaprepresented using a vector [x, y, z].
-  <li><b> IMU Data:</b> Orientation [x, y, z] rad, angular velocity [x, y, z] rad/s, and linear acceleration [x, y, z] m/s2 of the ego-vehicle about its local axes.
-  <li><b> LIDAR Measurement:</b> Instantaneous ranging measurement (m) of the LIDAR on the vehicle.
+  <li><b> Encoder Ticks:</b> Ticks (counts) of the rear-left and rear-right incremental encoders of the vehicle represented using a 1D array of 2 elements [left_ticks, right_ticks].
+  <li><b> IPS Data:</b> Position (m) of the vehicle within the environment represented using a 1D vector [x, y, z].
+  <li><b> IMU Data:</b> Orientation [x, y, z] rad, angular velocity [x, y, z] rad/s, and linear acceleration [x, y, z] m/s<sup>2</sup> of the ego-vehicle w.r.t. body frame of reference.
+  <li><b> LIDAR Measurement:</b> Instantaneous ranging measurement (m) of the 270&deg FOV 2D LIDAR on the vehicle.
   <li><b> Camera Preview:</b> Instantaneous raw image from the front camera of the vehicle.
-  <li><b> Data Recorder:</b> Save time-synchronized vehicle as well as infrastructure data for a specific simulation run.
+  <li><b> Race Telemetry:</b> Current elapsed lap time (s), last lap time (s), overall best lap time (s) as well as total lap count data.
+  <li><b> Data Recorder:</b> Save time-synchronized simulation data for a specific simulation run.
 </ul>
 
 ### 1.3. Vehicle
@@ -103,9 +104,17 @@ Apart from the visualization of autonomous vehicle(s) and their operating enviro
 
 ### 1.4. Environment
 #### 1.4.1 Size and Structure
+
+!!! warning
+    The racetrack is subject to change across different stages of the competition (i.e., practice or race) with prior notice.
+
 #### 1.4.2 Features (straight, chicane, bifurcation, etc.)
 #### 1.4.3 Obstacles (static/dynamic)
 #### 1.4.4 Frame(s) of Reference (TF)
+
+!!! warning
+    Since racetrack is subject to change, the fixed environmental frame of reference may be different depending the racetrack.
+
 #### 1.4.5 Custom Racetracks
 #### 1.4.6 Environmental Variability (time, weather, wind, lighting, friction, etc.)
 
@@ -160,7 +169,7 @@ Topic | Message | Access Type | Description
 - Restricted topics: debugging topics
 
 !!! note
-    You may use the restricted topics for debugging, to train AI models, etc. However, these topics should not be used during the deployment/inference stage (i.e. while autonomously racing at run-time).
+    You may use the restricted topics for debugging, to train AI models, etc. However, these topics should not be used during the deployment/inference stage (i.e., while autonomously racing at run-time).
 
 ## 3. Competition Submission
 <p align="justify">
@@ -173,7 +182,7 @@ Setup - download and install dependencies, simulator and devkit
 Usage - run the simulator, run the devkit, hit connection button, hit driving mode button.
 
 !!! tip
-    In certain cases, GPUs and Docker do not work very well and can cause problems in running the simulator container. In such cases, you can download and run the simulator locally (it should be easier to access the GPU this way). You can then run only the devkit within a container. Everything else will work just fine, only that the simulator will not be running inside a container. This shouldn’t matter, since you will have to submit only the container for your algorithms (i.e. devkit) and not the simulator. We will run the containerized simulator on our side for the evaluation of all submissions.
+    In certain cases, GPUs and Docker do not work very well and can cause problems in running the simulator container. In such cases, you can download and run the simulator locally (it should be easier to access the GPU this way). You can then run only the devkit within a container. Everything else will work just fine, only that the simulator will not be running inside a container. This shouldn’t matter, since you will have to submit only the container for your algorithms (i.e., devkit) and not the simulator. We will run the containerized simulator on our side for the evaluation of all submissions.
 
 !!! tip
     If working with containers is overwhelming, you can download and run the devkit locally while developing and testing your autonomous racing algorithms. You can then containerize the finalized algorithms, test them one last time, and push them to the container registry.
