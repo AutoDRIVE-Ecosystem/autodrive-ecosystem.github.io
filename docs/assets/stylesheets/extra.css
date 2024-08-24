@@ -51,3 +51,14 @@ a:hover #imageHyperlink {
 .admonition .admonition-content {
     text-align: justify;
 }
+.abstract {
+    text-align: justify;
+}
+
+/* GRID CARDS */
+.grid {
+    text-align: justify;
+}
+.grid .grid-content {
+    text-align: justify;
+}

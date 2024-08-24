@@ -172,6 +172,8 @@ nav:
   - HOME: index.html
   - ABOUT:
     - about/index.md
+  - RESEARCH:
+    - research/index.md
   - COMPETITIONS:
     - competitions/index.md
     - F1TENTH @ IROS 2024: competitions/f1tenth-sim-racing-iros-2024.md
