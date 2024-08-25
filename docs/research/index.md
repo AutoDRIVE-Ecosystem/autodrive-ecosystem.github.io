@@ -10,7 +10,7 @@ This page hosts research outcomes that employ or contribute to the AutoDRIVE Eco
 ## Publications
 
 !!! abstract ""
-    <a href="https://arxiv.org/abs/2212.05241"><img src="/../assets/images/research/AutoDRIVE Ecosystem - MDPI Robotics.png" width="100" style="float:left;margin:0 10px 10px 0"></a>
+    <a href="https://arxiv.org/abs/2212.05241"><img src="/../assets/images/research/AutoDRIVE Ecosystem - MDPI Robotics.png" width="200" style="float:left;margin:0 10px 10px 0"></a>
     <a href="https://arxiv.org/abs/2212.05241">
     <b>AutoDRIVE: A Comprehensive, Flexible and Integrated Digital Twin Ecosystem for Enhancing Autonomous Driving Research and Education</b>
     </a>
@@ -39,7 +39,7 @@ This page hosts research outcomes that employ or contribute to the AutoDRIVE Eco
         ```
 
 !!! abstract ""
-    <a href="https://arxiv.org/abs/2103.10030"><img src="/../assets/images/research/AutoDRIVE Simulator - CCRIS 2021.png" width="100" style="float:left;margin:0 10px 10px 0"></a>
+    <a href="https://arxiv.org/abs/2103.10030"><img src="/../assets/images/research/AutoDRIVE Simulator - CCRIS 2021.png" width="200" style="float:left;margin:0 10px 10px 0"></a>
     <a href="https://arxiv.org/abs/2103.10030">
     <b>AutoDRIVE Simulator: A Simulator for Scaled Autonomous Vehicle Research and Education</b>
     </a>
