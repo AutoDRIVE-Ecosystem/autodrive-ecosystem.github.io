@@ -168,8 +168,32 @@ Topic | Message | Access Type | Description
 - Output topics: actuator topics
 - Restricted topics: debugging topics
 
+/autodrive/f1tenth_1/best_lap_time
+/autodrive/f1tenth_1/collision_count
+/autodrive/f1tenth_1/front_camera
+/autodrive/f1tenth_1/imu
+/autodrive/f1tenth_1/ips
+/autodrive/f1tenth_1/lap_count
+/autodrive/f1tenth_1/lap_time
+/autodrive/f1tenth_1/last_lap_time
+/autodrive/f1tenth_1/left_encoder
+/autodrive/f1tenth_1/lidar
+/autodrive/f1tenth_1/right_encoder
+/autodrive/f1tenth_1/speed
+/autodrive/f1tenth_1/steering
+/autodrive/f1tenth_1/steering_command
+/autodrive/f1tenth_1/throttle
+/autodrive/f1tenth_1/throttle_command
+/clicked_point
+/goal_pose
+/initialpose
+/parameter_events
+/rosout
+/tf
+/tf_static
+
 !!! note
-    You may use the restricted topics for debugging, to train AI models, etc. However, these topics should not be used during the deployment/inference stage (i.e., while autonomously racing at run-time).
+    You may use the restricted topics for debugging, training AI models, etc. However, these topics should not be used during the deployment/inference stage (i.e., while autonomously racing at run-time).
 
 ## 3. Competition Submission
 <p align="justify">
