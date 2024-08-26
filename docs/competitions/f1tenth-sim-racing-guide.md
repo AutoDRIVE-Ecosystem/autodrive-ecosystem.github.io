@@ -181,6 +181,7 @@ Topic | Message | Access Type | Description
 - Output topics: actuator topics
 - Restricted topics: debugging topics
 
+```
 /autodrive/f1tenth_1/best_lap_time
 /autodrive/f1tenth_1/collision_count
 /autodrive/f1tenth_1/front_camera
@@ -204,6 +205,7 @@ Topic | Message | Access Type | Description
 /rosout
 /tf
 /tf_static
+```
 
 !!! note
     You may use the restricted topics for debugging, training AI models, etc. However, these topics should not be used during the deployment/inference stage (i.e., while autonomously racing at run-time).
