@@ -335,7 +335,7 @@ How will the evaluation process of a team's submission be conducted?
 
 Exact scoring, penalties, ranking, tie-breaker, etc. - quantitative details
 
-### 4. Citation
+## 4. Citation
 
 We encourage you to read and cite the following papers if you use any part of this framework for your research:
 
