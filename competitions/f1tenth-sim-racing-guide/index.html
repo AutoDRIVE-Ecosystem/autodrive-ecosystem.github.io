@@ -846,8 +846,42 @@ F1TENTH Sim Racing League is a virtual competition, which accompanies the physic
 </p>
 
 <h3 id="31-submission-preparation">3.1. Submission Preparation<a class="headerlink" href="#31-submission-preparation" title="Permanent link">&para;</a></h3>
-<p>Setup - download and install dependencies, simulator and devkit
-Usage - run the simulator, run the devkit, hit connection button, hit driving mode button.</p>
+<h4 id="311-setup">3.1.1. Setup<a class="headerlink" href="#311-setup" title="Permanent link">&para;</a></h4>
+<ol>
+<li>Install <a href="https://docs.docker.com/engine/install">Docker</a> is installed.</li>
+<li>Since the Docker container is to take advantage of an NVIDIA GPU, the host machine has to be properly configured by installing the necessary NVIDIA GPU Drivers and the <a href="https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/latest/index.html">NVIDIA Container Toolkit</a>.</li>
+<li>Pull <a href="https://hub.docker.com/repository/docker/autodriveecosystem/autodrive_f1tenth_sim">AutoDRIVE Simulator docker image</a> from DockerHub.
+   <div class="language-bash highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>docker<span class="w"> </span>pull<span class="w"> </span>autodriveecosystem/autodrive_f1tenth_sim:&lt;tag-name&gt;
+</span></code></pre></div></li>
+<li>Pull <a href="https://hub.docker.com/repository/docker/autodriveecosystem/autodrive_f1tenth_api">AutoDRIVE Devkit docker image</a> from DockerHub.
+   <div class="language-bash highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>docker<span class="w"> </span>pull<span class="w"> </span>autodriveecosystem/autodrive_f1tenth_api:&lt;tag-name&gt;
+</span></code></pre></div></li>
+</ol>
+<h4 id="312-test">3.1.2. Test<a class="headerlink" href="#312-test" title="Permanent link">&para;</a></h4>
+<ol>
+<li>Enable display forwarding for simulator:
+    <div class="language-bash highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>xhost<span class="w"> </span>local:root
+</span></code></pre></div></li>
+<li>Run the simulator container at <code>entrypoint</code>:
+    <div class="language-bash highlight"><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a>docker<span class="w"> </span>run<span class="w"> </span>--name<span class="w"> </span>autodrive_f1tenth_sim<span class="w"> </span>--rm<span class="w"> </span>-it<span class="w"> </span>--network<span class="o">=</span>host<span class="w"> </span>--ipc<span class="o">=</span>host<span class="w"> </span>-v<span class="w"> </span>/tmp/.X11-unix:/tmp.X11-umix:rw<span class="w"> </span>--env<span class="w"> </span>DISPLAY<span class="w"> </span>--privileged<span class="w"> </span>--gpus<span class="w"> </span>all<span class="w"> </span>autodriveecosystem/autodrive_f1tenth_sim
+</span></code></pre></div></li>
+<li>[OPTIONAL] Start additional bash session(s) within the simulator container (each in a new terminal window):
+    <div class="language-bash highlight"><pre><span></span><code><span id="__span-4-1"><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a>docker<span class="w"> </span><span class="nb">exec</span><span class="w"> </span>-it<span class="w"> </span>autodrive_f1tenth_sim<span class="w"> </span>bash
+</span></code></pre></div></li>
+<li>Enable display forwarding for devkit:
+    <div class="language-bash highlight"><pre><span></span><code><span id="__span-5-1"><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a>xhost<span class="w"> </span>local:root
+</span></code></pre></div></li>
+<li>Run the devkit container at <code>entrypoint</code>:
+    <div class="language-bash highlight"><pre><span></span><code><span id="__span-6-1"><a id="__codelineno-6-1" name="__codelineno-6-1" href="#__codelineno-6-1"></a>docker<span class="w"> </span>run<span class="w"> </span>--name<span class="w"> </span>autodrive_f1tenth_api<span class="w"> </span>--rm<span class="w"> </span>-it<span class="w"> </span>--network<span class="o">=</span>host<span class="w"> </span>--ipc<span class="o">=</span>host<span class="w"> </span>-v<span class="w"> </span>/tmp/.X11-unix:/tmp.X11-umix:rw<span class="w"> </span>--env<span class="w"> </span>DISPLAY<span class="w"> </span>--privileged<span class="w"> </span>--gpus<span class="w"> </span>all<span class="w"> </span>autodriveecosystem/autodrive_f1tenth_api
+</span></code></pre></div></li>
+<li>[OPTIONAL] Start additional bash session(s) within the devkit container (each in a new terminal window):
+    <div class="language-bash highlight"><pre><span></span><code><span id="__span-7-1"><a id="__codelineno-7-1" name="__codelineno-7-1" href="#__codelineno-7-1"></a>docker<span class="w"> </span><span class="nb">exec</span><span class="w"> </span>-it<span class="w"> </span>autodrive_f1tenth_api<span class="w"> </span>bash
+</span></code></pre></div></li>
+<li>Using the simulator GUI, configure the following:</li>
+</ol>
+<p>7.1 Enter the IP address of the machine running the devkit container.</p>
+<p>7.2 Hit the <code>Connection</code> button and note the status next to it.</p>
+<p>7.3 Once the connection has been established, hit the <code>Driving Mode</code> to engage the vehicle in <code>Autonomous</code> mode.</p>
 <div class="admonition tip">
 <p class="admonition-title">Tip</p>
 <p>In certain cases, GPUs and Docker do not work very well and can cause problems in running the simulator container. In such cases, you can download and run the simulator locally (it should be easier to access the GPU this way). You can then run only the devkit within a container. Everything else will work just fine, only that the simulator will not be running inside a container. This shouldn’t matter, since you will have to submit only the container for your algorithms (i.e., devkit) and not the simulator. We will run the containerized simulator on our side for the evaluation of all submissions.</p>
