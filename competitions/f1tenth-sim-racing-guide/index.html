@@ -857,7 +857,7 @@ F1TENTH Sim Racing League is a virtual competition, which accompanies the physic
    <div class="language-bash highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>docker<span class="w"> </span>pull<span class="w"> </span>autodriveecosystem/autodrive_f1tenth_api:&lt;tag-name&gt;
 </span></code></pre></div></li>
 </ol>
-<h4 id="312-test">3.1.2. Test<a class="headerlink" href="#312-test" title="Permanent link">&para;</a></h4>
+<h4 id="312-execute">3.1.2. Execute<a class="headerlink" href="#312-execute" title="Permanent link">&para;</a></h4>
 <ol>
 <li>Enable display forwarding for simulator:
     <div class="language-bash highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>xhost<span class="w"> </span>local:root
@@ -886,6 +886,9 @@ F1TENTH Sim Racing League is a virtual competition, which accompanies the physic
 <p class="admonition-title">Tip</p>
 <p>In certain cases, GPUs and Docker do not work very well and can cause problems in running the simulator container. In such cases, you can download and run the simulator locally (it should be easier to access the GPU this way). You can then run only the devkit within a container. Everything else will work just fine, only that the simulator will not be running inside a container. This shouldn’t matter, since you will have to submit only the container for your algorithms (i.e., devkit) and not the simulator. We will run the containerized simulator on our side for the evaluation of all submissions.</p>
 </div>
+<h4 id="313-develop">3.1.3. Develop<a class="headerlink" href="#313-develop" title="Permanent link">&para;</a></h4>
+<p>Teams will have to create their packages or meta-packages for autonomous racing within the devkit container <strong>separate</strong> from the provided <code>autodrive_f1tenth</code> package (i.e., without making any modifications to the <code>autodrive_f1tenth</code> package itself).</p>
+<p>Please make a note of the data streams mentioned above (along with their access restrictions) to help with the development process.</p>
 <div class="admonition tip">
 <p class="admonition-title">Tip</p>
 <p>If working with containers is overwhelming, you can download and run the devkit locally while developing and testing your autonomous racing algorithms. You can then containerize the finalized algorithms, test them one last time, and push them to the container registry.</p>
