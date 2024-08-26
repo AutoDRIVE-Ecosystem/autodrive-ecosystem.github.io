@@ -213,7 +213,7 @@ This page hosts research outcomes that employ or contribute to the AutoDRIVE Eco
         ```
 
 !!! abstract ""
-    <a href="https://arxiv.org/abs/2405.04743"><img src="/../assets/images/research/DT HPC V&V - GVSETS 2024.png" style="float:left; box-shadow: -2px 2px 4px rgba(0, 0, 0, 0.5); margin:0 10px 110px 0; max-width: 25%"></a>
+    <a href="https://arxiv.org/abs/2405.04743"><img src="/../assets/images/research/DT HPC V&V - GVSETS 2024.png" style="float:left; box-shadow: -2px 2px 4px rgba(0, 0, 0, 0.5); margin:0 10px 120px 0; max-width: 25%"></a>
     <a href="https://arxiv.org/abs/2405.04743">
     <b>Off-Road Autonomy Validation Using Scalable Digital Twin Simulations Within High-Performance Computing Clusters</b>
     </a>
