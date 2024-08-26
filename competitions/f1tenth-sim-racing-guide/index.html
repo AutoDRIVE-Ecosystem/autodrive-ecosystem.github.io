@@ -854,10 +854,10 @@ F1TENTH Sim Racing League is a virtual competition, which accompanies the physic
 <li>Install <a href="https://docs.docker.com/engine/install">Docker</a> is installed.</li>
 <li>Since the Docker container is to take advantage of an NVIDIA GPU, the host machine has to be properly configured by installing the necessary NVIDIA GPU Drivers and the <a href="https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/latest/index.html">NVIDIA Container Toolkit</a>.</li>
 <li>Pull <a href="https://hub.docker.com/repository/docker/autodriveecosystem/autodrive_f1tenth_sim">AutoDRIVE Simulator docker image</a> from DockerHub.
-   <div class="language-bash highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>docker<span class="w"> </span>pull<span class="w"> </span>autodriveecosystem/autodrive_f1tenth_sim:&lt;tag-name&gt;
+   <div class="language-bash highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>docker<span class="w"> </span>pull<span class="w"> </span>autodriveecosystem/autodrive_f1tenth_sim:&lt;TAG&gt;
 </span></code></pre></div></li>
 <li>Pull <a href="https://hub.docker.com/repository/docker/autodriveecosystem/autodrive_f1tenth_api">AutoDRIVE Devkit docker image</a> from DockerHub.
-   <div class="language-bash highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>docker<span class="w"> </span>pull<span class="w"> </span>autodriveecosystem/autodrive_f1tenth_api:&lt;tag-name&gt;
+   <div class="language-bash highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>docker<span class="w"> </span>pull<span class="w"> </span>autodriveecosystem/autodrive_f1tenth_api:&lt;TAG&gt;
 </span></code></pre></div></li>
 </ol>
 <h4 id="312-execute">3.1.2. Execute<a class="headerlink" href="#312-execute" title="Permanent link">&para;</a></h4>
@@ -897,14 +897,91 @@ F1TENTH Sim Racing League is a virtual competition, which accompanies the physic
 <p>If working with containers is overwhelming, you can download and run the devkit locally while developing and testing your autonomous racing algorithms. You can then containerize the finalized algorithms, test them one last time, and push them to the container registry.</p>
 </div>
 <h4 id="314-submit">3.1.4. Submit<a class="headerlink" href="#314-submit" title="Permanent link">&para;</a></h4>
-<p>Push to DockerHub</p>
-<p>Submit the link via a secure medium (Google Form)</p>
+<ol>
+<li>Run the image you created in the previous step inside a container:
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-8-1"><a id="__codelineno-8-1" name="__codelineno-8-1" href="#__codelineno-8-1"></a>xhost<span class="w"> </span>local:root
+</span><span id="__span-8-2"><a id="__codelineno-8-2" name="__codelineno-8-2" href="#__codelineno-8-2"></a>docker<span class="w"> </span>run<span class="w"> </span>--name<span class="w"> </span>autodrive_f1tenth_api<span class="w"> </span>--rm<span class="w"> </span>-it<span class="w"> </span>--network<span class="o">=</span>host<span class="w"> </span>--ipc<span class="o">=</span>host<span class="w"> </span>-v<span class="w"> </span>/tmp/.X11-unix:/tmp.X11-umix:rw<span class="w"> </span>--env<span class="w"> </span>DISPLAY<span class="w"> </span>--privileged<span class="w"> </span>--gpus<span class="w"> </span>all<span class="w"> </span>autodriveecosystem/autodrive_f1tenth_api:&lt;TAG&gt;
+</span></code></pre></div></li>
+<li>In a new terminal window, list all containers and make a note of the desired <code>CONTAINER ID</code>:
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-9-1"><a id="__codelineno-9-1" name="__codelineno-9-1" href="#__codelineno-9-1"></a>docker<span class="w"> </span>ps<span class="w"> </span>-a
+</span></code></pre></div></li>
+<li>Commit changes to DockerHub:
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-10-1"><a id="__codelineno-10-1" name="__codelineno-10-1" href="#__codelineno-10-1"></a>docker<span class="w"> </span>commit<span class="w"> </span>-m<span class="w"> </span><span class="s2">&quot;&lt;Sample commit message&gt;&quot;</span><span class="w"> </span>-a<span class="w"> </span><span class="s2">&quot;&lt;USERNAME&gt;&quot;</span><span class="w"> </span>&lt;CONTAINER<span class="w"> </span>ID&gt;<span class="w"> </span>&lt;username&gt;/&lt;image_name&gt;:&lt;TAG&gt;
+</span></code></pre></div></li>
+<li>Login to DockerHub:
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-11-1"><a id="__codelineno-11-1" name="__codelineno-11-1" href="#__codelineno-11-1"></a>docker<span class="w"> </span>login
+</span></code></pre></div></li>
+<li>Push the container to DockerHub, once done, you should be able to see your repository on DockerHub:
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-12-1"><a id="__codelineno-12-1" name="__codelineno-12-1" href="#__codelineno-12-1"></a>docker<span class="w"> </span>push<span class="w"> </span>&lt;username&gt;/&lt;image_name&gt;:&lt;TAG&gt;
+</span></code></pre></div></li>
+<li>Submit the link to your team's DockerHub repository via a secure Google Form.</li>
+</ol>
+<h4 id="315-troubleshooting">3.1.5. Troubleshooting<a class="headerlink" href="#315-troubleshooting" title="Permanent link">&para;</a></h4>
+<ol>
+<li>To access the container while it is running, execute the following command in a new terminal window to start a new bash session inside the container:
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-13-1"><a id="__codelineno-13-1" name="__codelineno-13-1" href="#__codelineno-13-1"></a>docker<span class="w"> </span><span class="nb">exec</span><span class="w"> </span>-it<span class="w"> </span>&lt;CONTAINER<span class="w"> </span>NAME&gt;<span class="w"> </span>bash
+</span></code></pre></div></li>
+<li>To exit the bash session(s), simply execute:
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-14-1"><a id="__codelineno-14-1" name="__codelineno-14-1" href="#__codelineno-14-1"></a><span class="nb">exit</span>
+</span></code></pre></div></li>
+<li>To kill the container, execute the following command:
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-15-1"><a id="__codelineno-15-1" name="__codelineno-15-1" href="#__codelineno-15-1"></a>docker<span class="w"> </span><span class="nb">kill</span><span class="w"> </span>&lt;CONTAINER<span class="w"> </span>NAME&gt;
+</span></code></pre></div></li>
+<li>To remove the container, simply execute:
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-16-1"><a id="__codelineno-16-1" name="__codelineno-16-1" href="#__codelineno-16-1"></a>docker<span class="w"> </span>rm<span class="w"> </span>&lt;CONTAINER<span class="w"> </span>NAME&gt;
+</span></code></pre></div></li>
+<li>Running or caching multiple docker images, containers, volumes, and networks can quickly consume a lot of disk space. Hence, it is always a good idea to frequently check Docker disk utilization:
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-17-1"><a id="__codelineno-17-1" name="__codelineno-17-1" href="#__codelineno-17-1"></a>docker<span class="w"> </span>system<span class="w"> </span>df
+</span></code></pre></div></li>
+<li>To avoid utilizing a lot of disk space, it is a good idea to frequently purge docker resources such as images, containers, volumes, and networks that are unused or dangling (i.e. not tagged or associated with a container). There are several ways with many options to achieve this, please refer to appropriate documentation. The easiest way (but a potentially dangerous one) is to use a single command to clean up all the docker resources (dangling or otherwise):
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-18-1"><a id="__codelineno-18-1" name="__codelineno-18-1" href="#__codelineno-18-1"></a>docker<span class="w"> </span>system<span class="w"> </span>prune<span class="w"> </span>-a
+</span></code></pre></div></li>
+</ol>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>For additional help on containerization, visit <a href="https://www.docker.com">docker.com</a>. Specifically, the <a href="https://docs.docker.com/?_gl=1*1xv75eh*_gcl_au*MTA2MDkwMzgxMC4xNzI0NzEzMDY3*_ga*NjgyMTY2Njc2LjE2OTc0MjMwNzQ.*_ga_XJWPQMJYHQ*MTcyNDcxMzA3Mi4zOS4xLjE3MjQ3MTMyODAuNTMuMC4w">documentation</a> and <a href="https://www.docker.com/get-started">get started</a> pages would be of significant help for the beginners. Also, the <a href="https://docs.docker.com/get-started/docker_cheatsheet.pdf?_gl=1*l3zebg*_gcl_au*MTA2MDkwMzgxMC4xNzI0NzEzMDY3*_ga*NjgyMTY2Njc2LjE2OTc0MjMwNzQ.*_ga_XJWPQMJYHQ*MTcyNDcxMzA3Mi4zOS4xLjE3MjQ3MTM1NzIuOS4wLjA.">cheatsheet</a> could be a very handy reference for all important Docker CLI commands.</p>
+</div>
 <h3 id="32-evaluation-architecture">3.2. Evaluation Architecture<a class="headerlink" href="#32-evaluation-architecture" title="Permanent link">&para;</a></h3>
 <p>figure with explanation</p>
 <h3 id="33-execution-sequence">3.3. Execution Sequence<a class="headerlink" href="#33-execution-sequence" title="Permanent link">&para;</a></h3>
 <p>How will the evaluation process of a team's submission be conducted?</p>
 <h3 id="34-scoring-evaluation">3.4. Scoring &amp; Evaluation<a class="headerlink" href="#34-scoring-evaluation" title="Permanent link">&para;</a></h3>
 <p>Exact scoring, penalties, ranking, tie-breaker, etc. - quantitative details</p>
+<h3 id="4-citation">4. Citation<a class="headerlink" href="#4-citation" title="Permanent link">&para;</a></h3>
+<p>We encourage you to read and cite the following papers if you use any part of this project for your research:</p>
+<h4 id="autodrive-a-comprehensive-flexible-and-integrated-digital-twin-ecosystem-for-enhancing-autonomous-driving-research-and-education"><a href="https://arxiv.org/abs/2212.05241">AutoDRIVE: A Comprehensive, Flexible and Integrated Digital Twin Ecosystem for Enhancing Autonomous Driving Research and Education</a><a class="headerlink" href="#autodrive-a-comprehensive-flexible-and-integrated-digital-twin-ecosystem-for-enhancing-autonomous-driving-research-and-education" title="Permanent link">&para;</a></h4>
+<p><div class="language-bibtex highlight"><pre><span></span><code><span id="__span-19-1"><a id="__codelineno-19-1" name="__codelineno-19-1" href="#__codelineno-19-1"></a><span class="nc">@article</span><span class="p">{</span><span class="nl">AutoDRIVE-Ecosystem-2023</span><span class="p">,</span>
+</span><span id="__span-19-2"><a id="__codelineno-19-2" name="__codelineno-19-2" href="#__codelineno-19-2"></a><span class="na">author</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="s">{Samak, Tanmay and Samak, Chinmay and Kandhasamy, Sivanathan and Krovi, Venkat and Xie, Ming}</span><span class="p">,</span>
+</span><span id="__span-19-3"><a id="__codelineno-19-3" name="__codelineno-19-3" href="#__codelineno-19-3"></a><span class="na">title</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="s">{AutoDRIVE: A Comprehensive, Flexible and Integrated Digital Twin Ecosystem for Autonomous Driving Research &amp;amp; Education}</span><span class="p">,</span>
+</span><span id="__span-19-4"><a id="__codelineno-19-4" name="__codelineno-19-4" href="#__codelineno-19-4"></a><span class="na">journal</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="s">{Robotics}</span><span class="p">,</span>
+</span><span id="__span-19-5"><a id="__codelineno-19-5" name="__codelineno-19-5" href="#__codelineno-19-5"></a><span class="na">volume</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="s">{12}</span><span class="p">,</span>
+</span><span id="__span-19-6"><a id="__codelineno-19-6" name="__codelineno-19-6" href="#__codelineno-19-6"></a><span class="na">year</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="s">{2023}</span><span class="p">,</span>
+</span><span id="__span-19-7"><a id="__codelineno-19-7" name="__codelineno-19-7" href="#__codelineno-19-7"></a><span class="na">number</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="s">{3}</span><span class="p">,</span>
+</span><span id="__span-19-8"><a id="__codelineno-19-8" name="__codelineno-19-8" href="#__codelineno-19-8"></a><span class="na">article-number</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="s">{77}</span><span class="p">,</span>
+</span><span id="__span-19-9"><a id="__codelineno-19-9" name="__codelineno-19-9" href="#__codelineno-19-9"></a><span class="na">url</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="s">{https://www.mdpi.com/2218-6581/12/3/77}</span><span class="p">,</span>
+</span><span id="__span-19-10"><a id="__codelineno-19-10" name="__codelineno-19-10" href="#__codelineno-19-10"></a><span class="na">issn</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="s">{2218-6581}</span><span class="p">,</span>
+</span><span id="__span-19-11"><a id="__codelineno-19-11" name="__codelineno-19-11" href="#__codelineno-19-11"></a><span class="na">doi</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="s">{10.3390/robotics12030077}</span>
+</span><span id="__span-19-12"><a id="__codelineno-19-12" name="__codelineno-19-12" href="#__codelineno-19-12"></a><span class="p">}</span>
+</span></code></pre></div>
+This work has been published in <strong>MDPI Robotics.</strong> The open-access publication can be found on <a href="https://doi.org/10.3390/robotics12030077">MDPI</a>.</p>
+<h4 id="autodrive-simulator-a-simulator-for-scaled-autonomous-vehicle-research-and-education"><a href="https://arxiv.org/abs/2103.10030">AutoDRIVE Simulator: A Simulator for Scaled Autonomous Vehicle Research and Education</a><a class="headerlink" href="#autodrive-simulator-a-simulator-for-scaled-autonomous-vehicle-research-and-education" title="Permanent link">&para;</a></h4>
+<p><div class="language-bibtex highlight"><pre><span></span><code><span id="__span-20-1"><a id="__codelineno-20-1" name="__codelineno-20-1" href="#__codelineno-20-1"></a><span class="nc">@inproceedings</span><span class="p">{</span><span class="nl">AutoDRIVE-Simulator-2021</span><span class="p">,</span>
+</span><span id="__span-20-2"><a id="__codelineno-20-2" name="__codelineno-20-2" href="#__codelineno-20-2"></a><span class="na">author</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="s">{Samak, Tanmay Vilas and Samak, Chinmay Vilas and Xie, Ming}</span><span class="p">,</span>
+</span><span id="__span-20-3"><a id="__codelineno-20-3" name="__codelineno-20-3" href="#__codelineno-20-3"></a><span class="na">title</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="s">{AutoDRIVE Simulator: A Simulator for Scaled Autonomous Vehicle Research and Education}</span><span class="p">,</span>
+</span><span id="__span-20-4"><a id="__codelineno-20-4" name="__codelineno-20-4" href="#__codelineno-20-4"></a><span class="na">year</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="s">{2021}</span><span class="p">,</span>
+</span><span id="__span-20-5"><a id="__codelineno-20-5" name="__codelineno-20-5" href="#__codelineno-20-5"></a><span class="na">isbn</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="s">{9781450390453}</span><span class="p">,</span>
+</span><span id="__span-20-6"><a id="__codelineno-20-6" name="__codelineno-20-6" href="#__codelineno-20-6"></a><span class="na">publisher</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="s">{Association for Computing Machinery}</span><span class="p">,</span>
+</span><span id="__span-20-7"><a id="__codelineno-20-7" name="__codelineno-20-7" href="#__codelineno-20-7"></a><span class="na">address</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="s">{New York, NY, USA}</span><span class="p">,</span>
+</span><span id="__span-20-8"><a id="__codelineno-20-8" name="__codelineno-20-8" href="#__codelineno-20-8"></a><span class="na">url</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="s">{https://doi.org/10.1145/3483845.3483846}</span><span class="p">,</span>
+</span><span id="__span-20-9"><a id="__codelineno-20-9" name="__codelineno-20-9" href="#__codelineno-20-9"></a><span class="na">doi</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="s">{10.1145/3483845.3483846}</span><span class="p">,</span>
+</span><span id="__span-20-10"><a id="__codelineno-20-10" name="__codelineno-20-10" href="#__codelineno-20-10"></a><span class="na">booktitle</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="s">{2021 2nd International Conference on Control, Robotics and Intelligent System}</span><span class="p">,</span>
+</span><span id="__span-20-11"><a id="__codelineno-20-11" name="__codelineno-20-11" href="#__codelineno-20-11"></a><span class="na">pages</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="s">{1–5}</span><span class="p">,</span>
+</span><span id="__span-20-12"><a id="__codelineno-20-12" name="__codelineno-20-12" href="#__codelineno-20-12"></a><span class="na">numpages</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="s">{5}</span><span class="p">,</span>
+</span><span id="__span-20-13"><a id="__codelineno-20-13" name="__codelineno-20-13" href="#__codelineno-20-13"></a><span class="na">location</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="s">{Qingdao, China}</span><span class="p">,</span>
+</span><span id="__span-20-14"><a id="__codelineno-20-14" name="__codelineno-20-14" href="#__codelineno-20-14"></a><span class="na">series</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="s">{CCRIS&#39;21}</span>
+</span><span id="__span-20-15"><a id="__codelineno-20-15" name="__codelineno-20-15" href="#__codelineno-20-15"></a><span class="p">}</span>
+</span></code></pre></div>
+This work has been published at <strong>2021 International Conference on Control, Robotics and Intelligent System (CCRIS).</strong> The publication can be found on <a href="https://dl.acm.org/doi/abs/10.1145/3483845.3483846">ACM Digital Library</a>.</p>
 
 
 
