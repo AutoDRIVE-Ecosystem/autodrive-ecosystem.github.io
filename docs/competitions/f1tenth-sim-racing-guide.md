@@ -112,6 +112,19 @@ Apart from the visualization of autonomous vehicle(s) and their operating enviro
 #### 1.4.3 Obstacles (static/dynamic)
 #### 1.4.4 Frame(s) of Reference (TF)
 
+- world
+    - f1tenth_1
+        - front_camera
+        - front_left_wheel
+        - front_right_wheel
+        - imu
+        - ips
+        - left_encoder
+        - lidar
+        - rear_left_wheel
+        - rear_right_wheel
+        - right_encoder
+
 !!! warning
     Since racetrack is subject to change, the fixed environmental frame of reference may be different depending the racetrack.
 
