@@ -10,7 +10,7 @@ This page hosts research outcomes that employ or contribute to the AutoDRIVE Eco
 ## Publications
 
 !!! abstract ""
-    <a href="https://arxiv.org/abs/2103.10030"><img src="/../assets/images/research/AutoDRIVE Simulator - CCRIS 2021.png" style="float:left; box-shadow: -2px 2px 4px rgba(0, 0, 0, 0.5); margin:0 10px 40px 0; max-width: 25%"></a>
+    <a href="https://arxiv.org/abs/2103.10030"><img src="/../assets/images/research/AutoDRIVE Simulator - CCRIS 2021.png" style="float:left; box-shadow: -2px 2px 4px rgba(0, 0, 0, 0.5); margin:0 10px 50px 0; max-width: 25%"></a>
     <a href="https://arxiv.org/abs/2103.10030">
     <b>AutoDRIVE Simulator: A Simulator for Scaled Autonomous Vehicle Research and Education</b>
     </a>
@@ -99,7 +99,7 @@ This page hosts research outcomes that employ or contribute to the AutoDRIVE Eco
         ```
 
 !!! abstract ""
-    <a href="https://arxiv.org/abs/2307.13272"><img src="/../assets/images/research/Sim2Real Transfer - MECC 2023.png" style="float:left; box-shadow: -2px 2px 4px rgba(0, 0, 0, 0.5); margin:0 10px 20px 0; max-width: 25%"></a>
+    <a href="https://arxiv.org/abs/2307.13272"><img src="/../assets/images/research/Sim2Real Transfer - MECC 2023.png" style="float:left; box-shadow: -2px 2px 4px rgba(0, 0, 0, 0.5); margin:0 10px 40px 0; max-width: 25%"></a>
     <a href="https://arxiv.org/abs/2307.13272">
     <b>Towards Sim2Real Transfer of Autonomy Algorithms using AutoDRIVE Ecosystem</b>
     </a>
@@ -213,7 +213,7 @@ This page hosts research outcomes that employ or contribute to the AutoDRIVE Eco
         ```
 
 !!! abstract ""
-    <a href="https://arxiv.org/abs/2405.04743"><img src="/../assets/images/research/DT HPC V&V - GVSETS 2024.png" style="float:left; box-shadow: -2px 2px 4px rgba(0, 0, 0, 0.5); margin:0 10px 80px 0; max-width: 25%"></a>
+    <a href="https://arxiv.org/abs/2405.04743"><img src="/../assets/images/research/DT HPC V&V - GVSETS 2024.png" style="float:left; box-shadow: -2px 2px 4px rgba(0, 0, 0, 0.5); margin:0 10px 100px 0; max-width: 25%"></a>
     <a href="https://arxiv.org/abs/2405.04743">
     <b>Off-Road Autonomy Validation Using Scalable Digital Twin Simulations Within High-Performance Computing Clusters</b>
     </a>
@@ -241,7 +241,7 @@ This page hosts research outcomes that employ or contribute to the AutoDRIVE Eco
         ```
 
 !!! abstract ""
-    <a href="https://arxiv.org/abs/2406.05465"><img src="/../assets/images/research/Metaverse for Safer Roadways - Telepresence 2024.png" style="float:left; box-shadow: -2px 2px 4px rgba(0, 0, 0, 0.5); margin:0 10px 40px 0; max-width: 25%"></a>
+    <a href="https://arxiv.org/abs/2406.05465"><img src="/../assets/images/research/Metaverse for Safer Roadways - Telepresence 2024.png" style="float:left; box-shadow: -2px 2px 4px rgba(0, 0, 0, 0.5); margin:0 10px 50px 0; max-width: 25%"></a>
     <a href="https://arxiv.org/abs/2406.05465">
     <b>Metaverse for Safer Roadways: An Immersive Digital Twin Framework for Exploring Human-Autonomy Coexistence in Urban Transportation Systems</b>
     </a>
