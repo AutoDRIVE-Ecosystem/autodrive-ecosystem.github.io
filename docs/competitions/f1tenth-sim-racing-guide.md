@@ -246,7 +246,7 @@ F1TENTH Sim Racing League is a virtual competition, which accompanies the physic
     ```
 7. Using the simulator GUI, configure the following:
    
-   7.1 Enter the IP address of the machine running the devkit container.
+   7.1 Enter the IP address of the machine running the devkit container. If both containers are running on the same machine, leave the default loopback IP.
    
    7.2 Hit the `Connection` button and note the status next to it.
 
