@@ -218,7 +218,7 @@ F1TENTH Sim Racing League is a virtual competition, which accompanies the physic
    docker pull autodriveecosystem/autodrive_f1tenth_api:<tag-name>
    ```
 
-#### 3.1.2. Test
+#### 3.1.2. Execute
 
 1. Enable display forwarding for simulator:
     ```bash
@@ -254,6 +254,12 @@ F1TENTH Sim Racing League is a virtual competition, which accompanies the physic
 
 !!! tip
     In certain cases, GPUs and Docker do not work very well and can cause problems in running the simulator container. In such cases, you can download and run the simulator locally (it should be easier to access the GPU this way). You can then run only the devkit within a container. Everything else will work just fine, only that the simulator will not be running inside a container. This shouldn’t matter, since you will have to submit only the container for your algorithms (i.e., devkit) and not the simulator. We will run the containerized simulator on our side for the evaluation of all submissions.
+
+#### 3.1.3. Develop
+
+Teams will have to create their packages or meta-packages for autonomous racing within the devkit container **separate** from the provided `autodrive_f1tenth` package (i.e., without making any modifications to the `autodrive_f1tenth` package itself).
+
+Please make a note of the data streams mentioned above (along with their access restrictions) to help with the development process.
 
 !!! tip
     If working with containers is overwhelming, you can download and run the devkit locally while developing and testing your autonomous racing algorithms. You can then containerize the finalized algorithms, test them one last time, and push them to the container registry.
