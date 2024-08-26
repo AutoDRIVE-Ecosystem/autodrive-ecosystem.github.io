@@ -61,7 +61,7 @@ For the F1TENTH Sim Racing League, each team will be provided with a standardize
 Apart from the visualization of autonomous vehicle(s) and their operating environments, AutoDRIVE Simulator GUI consists of a toolbar encompassing two panels for observing and interacting with key aspects of the simulator in real-time, namely <b>Menu</b> and <b>Heads-Up Display (HUD)</b>. Both the panels can be enabled or disabled using buttons provided on the toolbar, the figure above illustrates both GUI panels being enabled. The menu panel on the left hand side helps configure and control some important aspects of the simulation with just a few clicks. The HUD panel on the right hand side helps visualize prominent simulation parameters along with vehicle status and sensory data, while hosting a time-synchronized data recording functionality that can be used to export simulation data for a specific run.
 </p>
 
-#### 1.2.1 Menu Panel
+#### 1.2.1. Menu Panel
 
 <ul class="justify-list">
   <li><b>IP Address Field:</b> Input field to specify IP address for the machine running the devkit (default is 127.0.0.1, i.e., standard address for IPv4 loopback traffic).
@@ -75,7 +75,7 @@ Apart from the visualization of autonomous vehicle(s) and their operating enviro
   <li><b>Quit Button:</b> Button to quit the simulator application.
 </ul>
 
-#### 1.2.2 HUD Panel
+#### 1.2.2. HUD Panel
 
 <ul class="justify-list">
   <li><b> Simulation Time:</b> The time (HH:MM:SS) since start of the simulation. Reset button resets the simulation time.
@@ -95,22 +95,22 @@ Apart from the visualization of autonomous vehicle(s) and their operating enviro
 </ul>
 
 ### 1.3. Vehicle
-#### 1.3.1 Frames of Reference (TF)
-#### 1.3.2 Vehicle Dynamics
-#### 1.3.3 Actuator Dynamics
-#### 1.3.4 Sensor Characteristics
-#### 1.3.5 Variability (noise in sensor/actuator/system characteristics)
-#### 1.3.6 Multiple Vehicles
+#### 1.3.1. Frames of Reference (TF)
+#### 1.3.2. Vehicle Dynamics
+#### 1.3.3. Actuator Dynamics
+#### 1.3.4. Sensor Characteristics
+#### 1.3.5. Variability (noise in sensor/actuator/system characteristics)
+#### 1.3.6. Multiple Vehicles
 
 ### 1.4. Environment
-#### 1.4.1 Size and Structure
+#### 1.4.1. Size and Structure
 
 !!! warning
     The racetrack is subject to change across different stages of the competition (i.e., practice or race) with prior notice.
 
-#### 1.4.2 Features (straight, chicane, bifurcation, etc.)
-#### 1.4.3 Obstacles (static/dynamic)
-#### 1.4.4 Frame(s) of Reference (TF)
+#### 1.4.2. Features (straight, chicane, bifurcation, etc.)
+#### 1.4.3. Obstacles (static/dynamic)
+#### 1.4.4. Frame(s) of Reference (TF)
 
 - world
     - f1tenth_1
@@ -128,8 +128,8 @@ Apart from the visualization of autonomous vehicle(s) and their operating enviro
 !!! warning
     Since racetrack is subject to change, the fixed environmental frame of reference may be different depending the racetrack.
 
-#### 1.4.5 Custom Racetracks
-#### 1.4.6 Environmental Variability (time, weather, wind, lighting, friction, etc.)
+#### 1.4.5. Custom Racetracks
+#### 1.4.6. Environmental Variability (time, weather, wind, lighting, friction, etc.)
 
 
 ## 2. AutoDRIVE Devkit
@@ -268,14 +268,20 @@ Please make a note of the data streams mentioned above (along with their access 
 !!! tip
     If working with containers is overwhelming, you can download and run the devkit locally while developing and testing your autonomous racing algorithms. You can then containerize the finalized algorithms, test them one last time, and push them to the container registry.
 
+#### 3.1.4. Submit
+
+Push to DockerHub
+
+Submit the link via a secure medium (Google Form)
+
 ### 3.2. Evaluation Architecture
 
-figure with explaination
+figure with explanation
 
 ### 3.3. Execution Sequence
 
-How will the evaluation process of a team's submission conducted
+How will the evaluation process of a team's submission be conducted?
 
 ### 3.4. Scoring & Evaluation
 
-Exact scoring, penalties, ranking, tie-breaker, etc. quantitative details
+Exact scoring, penalties, ranking, tie-breaker, etc. - quantitative details
