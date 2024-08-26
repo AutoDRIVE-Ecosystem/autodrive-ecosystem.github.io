@@ -54,7 +54,7 @@ For the F1TENTH Sim Racing League, each team will be provided with a standardize
 ### 1.2. Graphical User Interface (GUI)
 
 <center>
-<img src="/../assets/images/documentation/f1tenth sim racing league/GUI.png">
+<img src="/../assets/images/documentation/f1tenth sim racing league/Simulator.png">
 </center>
 
 <p align="justify">
