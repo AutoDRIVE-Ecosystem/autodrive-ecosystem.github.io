@@ -175,25 +175,25 @@ For the F1TENTH Sim Racing League, each team will be provided with a standardize
 
 ### 2.3. Data Streams
 
-| TOPIC                                   | TYPE        | MESSAGE                      | ACCESS             | DESCRIPTION                |
-|:----------------------------------------|:------------|:-----------------------------|:-------------------|:---------------------------|
-`/autodrive/f1tenth_1/best_lap_time`      | Debugging   | `std_msgs/msg/Float32`       | Restricted         |                            |
-`/autodrive/f1tenth_1/collision_count`    | Debugging   | `std_msgs/msg/Int32`         | Restricted         |                            |
-`/autodrive/f1tenth_1/front_camera`       | Sensor      | `sensor_msgs/msg/Image`      | Input              |                            |
-`/autodrive/f1tenth_1/imu`                | Sensor      | `sensor_msgs/msg/Imu`        | Input              |                            |
-`/autodrive/f1tenth_1/ips`                | Sensor      | `geometry_msgs/msg/Point`    | Input (Restricted) |                            |
-`/autodrive/f1tenth_1/lap_count`          | Debugging   | `std_msgs/msg/Int32`         | Restricted         |                            |
-`/autodrive/f1tenth_1/lap_time`           | Debugging   | `std_msgs/msg/Float32`       | Restricted         |                            |
-`/autodrive/f1tenth_1/last_lap_time`      | Debugging   | `std_msgs/msg/Float32`       | Restricted         |                            |
-`/autodrive/f1tenth_1/left_encoder`       | Sensor      | `sensor_msgs/msg/JointState` | Input              |                            |
-`/autodrive/f1tenth_1/lidar`              | Sensor      | `sensor_msgs/msg/LaserScan`  | Input              |                            |
-`/autodrive/f1tenth_1/right_encoder`      | Sensor      | `sensor_msgs/msg/JointState` | Input              |                            |
-`/autodrive/f1tenth_1/speed`              | Debugging   | `std_msgs/msg/Float32`       | Restricted         |                            |
-`/autodrive/f1tenth_1/steering`           | Sensor      | `std_msgs/msg/Float32`       | Input              |                            |
-`/autodrive/f1tenth_1/steering_command`   | Actuator    | `std_msgs/msg/Float32`       | Output             |                            |
-`/autodrive/f1tenth_1/throttle`           | Sensor      | `std_msgs/msg/Float32`       | Input              |                            |
-`/autodrive/f1tenth_1/throttle_command`   | Actuator    | `std_msgs/msg/Float32`       | Output             |                            |
-`/tf`                                     | Debugging   | `tf2_msgs/msg/TFMessage`     | Restricted         |                            |
+| TOPIC                                   | TYPE        | MESSAGE                      | ACCESS             |
+|:----------------------------------------|:------------|:-----------------------------|:-------------------|
+`/autodrive/f1tenth_1/best_lap_time`      | Debugging   | `std_msgs/msg/Float32`       | Restricted         |
+`/autodrive/f1tenth_1/collision_count`    | Debugging   | `std_msgs/msg/Int32`         | Restricted         |
+`/autodrive/f1tenth_1/front_camera`       | Sensor      | `sensor_msgs/msg/Image`      | Input              |
+`/autodrive/f1tenth_1/imu`                | Sensor      | `sensor_msgs/msg/Imu`        | Input              |
+`/autodrive/f1tenth_1/ips`                | Sensor      | `geometry_msgs/msg/Point`    | Input (Restricted) |
+`/autodrive/f1tenth_1/lap_count`          | Debugging   | `std_msgs/msg/Int32`         | Restricted         |
+`/autodrive/f1tenth_1/lap_time`           | Debugging   | `std_msgs/msg/Float32`       | Restricted         |
+`/autodrive/f1tenth_1/last_lap_time`      | Debugging   | `std_msgs/msg/Float32`       | Restricted         |
+`/autodrive/f1tenth_1/left_encoder`       | Sensor      | `sensor_msgs/msg/JointState` | Input              |
+`/autodrive/f1tenth_1/lidar`              | Sensor      | `sensor_msgs/msg/LaserScan`  | Input              |
+`/autodrive/f1tenth_1/right_encoder`      | Sensor      | `sensor_msgs/msg/JointState` | Input              |
+`/autodrive/f1tenth_1/speed`              | Debugging   | `std_msgs/msg/Float32`       | Restricted         |
+`/autodrive/f1tenth_1/steering`           | Sensor      | `std_msgs/msg/Float32`       | Input              |
+`/autodrive/f1tenth_1/steering_command`   | Actuator    | `std_msgs/msg/Float32`       | Output             |
+`/autodrive/f1tenth_1/throttle`           | Sensor      | `std_msgs/msg/Float32`       | Input              |
+`/autodrive/f1tenth_1/throttle_command`   | Actuator    | `std_msgs/msg/Float32`       | Output             |
+`/tf`                                     | Debugging   | `tf2_msgs/msg/TFMessage`     | Restricted         |
 
 !!! note
     You may use the restricted topics for debugging, training AI models, etc. However, these topics should not be used during the deployment/inference stage (i.e., while autonomously racing at run-time).
