@@ -175,37 +175,29 @@ For the F1TENTH Sim Racing League, each team will be provided with a standardize
 
 ### 2.3. Data Streams
 
-Topic | Message | Access Type | Description
+| TOPIC                                   | TYPE        | MESSAGE                    | ACCESS                     | DESCRIPTION                |
+|:----------------------------------------|:------------|:---------------------------|:---------------------------|:---------------------------|
+`/autodrive/f1tenth_1/best_lap_time`      | Debugging   | ` `
+`/autodrive/f1tenth_1/collision_count`    | Debugging   | ` `
+`/autodrive/f1tenth_1/front_camera`       | Sensor      | ` `
+`/autodrive/f1tenth_1/imu`                | Sensor      | ` `
+`/autodrive/f1tenth_1/ips`                | Sensor      | ` `
+`/autodrive/f1tenth_1/lap_count`          | Debugging   | ` `
+`/autodrive/f1tenth_1/lap_time`           | Debugging   | ` `
+`/autodrive/f1tenth_1/last_lap_time`      | Debugging   | ` `
+`/autodrive/f1tenth_1/left_encoder`       | Sensor      | ` `
+`/autodrive/f1tenth_1/lidar`              | Sensor      | ` `
+`/autodrive/f1tenth_1/right_encoder`      | Sensor      | ` `
+`/autodrive/f1tenth_1/speed`              | Debugging   | ` `
+`/autodrive/f1tenth_1/steering`           | Sensor      | ` `
+`/autodrive/f1tenth_1/steering_command`   | Actuator    | ` `
+`/autodrive/f1tenth_1/throttle`           | Sensor      | ` `
+`/autodrive/f1tenth_1/throttle_command`   | Actuator    | ` `
+`/tf`                                     | Debugging   | ` `
 
 - Input topics: sensor topics
 - Output topics: actuator topics
 - Restricted topics: debugging topics
-
-```
-/autodrive/f1tenth_1/best_lap_time
-/autodrive/f1tenth_1/collision_count
-/autodrive/f1tenth_1/front_camera
-/autodrive/f1tenth_1/imu
-/autodrive/f1tenth_1/ips
-/autodrive/f1tenth_1/lap_count
-/autodrive/f1tenth_1/lap_time
-/autodrive/f1tenth_1/last_lap_time
-/autodrive/f1tenth_1/left_encoder
-/autodrive/f1tenth_1/lidar
-/autodrive/f1tenth_1/right_encoder
-/autodrive/f1tenth_1/speed
-/autodrive/f1tenth_1/steering
-/autodrive/f1tenth_1/steering_command
-/autodrive/f1tenth_1/throttle
-/autodrive/f1tenth_1/throttle_command
-/clicked_point
-/goal_pose
-/initialpose
-/parameter_events
-/rosout
-/tf
-/tf_static
-```
 
 !!! note
     You may use the restricted topics for debugging, training AI models, etc. However, these topics should not be used during the deployment/inference stage (i.e., while autonomously racing at run-time).
