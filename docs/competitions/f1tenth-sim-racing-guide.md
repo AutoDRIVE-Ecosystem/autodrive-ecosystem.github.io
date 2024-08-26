@@ -205,8 +205,52 @@ F1TENTH Sim Racing League is a virtual competition, which accompanies the physic
 
 ### 3.1. Submission Preparation
 
-Setup - download and install dependencies, simulator and devkit
-Usage - run the simulator, run the devkit, hit connection button, hit driving mode button.
+#### 3.1.1. Setup
+
+1. Install [Docker](https://docs.docker.com/engine/install) is installed.
+2. Since the Docker container is to take advantage of an NVIDIA GPU, the host machine has to be properly configured by installing the necessary NVIDIA GPU Drivers and the [NVIDIA Container Toolkit](https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/latest/index.html).
+3. Pull [AutoDRIVE Simulator docker image](https://hub.docker.com/repository/docker/autodriveecosystem/autodrive_f1tenth_sim) from DockerHub.
+   ```bash
+   docker pull autodriveecosystem/autodrive_f1tenth_sim:<tag-name>
+   ```
+4. Pull [AutoDRIVE Devkit docker image](https://hub.docker.com/repository/docker/autodriveecosystem/autodrive_f1tenth_api) from DockerHub.
+   ```bash
+   docker pull autodriveecosystem/autodrive_f1tenth_api:<tag-name>
+   ```
+
+#### 3.1.2. Test
+
+1. Enable display forwarding for simulator:
+    ```bash
+    xhost local:root
+    ```
+2. Run the simulator container at `entrypoint`:
+    ```bash
+    docker run --name autodrive_f1tenth_sim --rm -it --network=host --ipc=host -v /tmp/.X11-unix:/tmp.X11-umix:rw --env DISPLAY --privileged --gpus all autodriveecosystem/autodrive_f1tenth_sim
+    ```
+3. [OPTIONAL] Start additional bash session(s) within the simulator container (each in a new terminal window):
+    ```bash
+    docker exec -it autodrive_f1tenth_sim bash
+    ```
+4. Enable display forwarding for devkit:
+    ```bash
+    xhost local:root
+    ```
+5. Run the devkit container at `entrypoint`:
+    ```bash
+    docker run --name autodrive_f1tenth_api --rm -it --network=host --ipc=host -v /tmp/.X11-unix:/tmp.X11-umix:rw --env DISPLAY --privileged --gpus all autodriveecosystem/autodrive_f1tenth_api
+    ```
+6. [OPTIONAL] Start additional bash session(s) within the devkit container (each in a new terminal window):
+    ```bash
+    docker exec -it autodrive_f1tenth_api bash
+    ```
+7. Using the simulator GUI, configure the following:
+   
+   7.1 Enter the IP address of the machine running the devkit container.
+   
+   7.2 Hit the `Connection` button and note the status next to it.
+
+   7.3 Once the connection has been established, hit the `Driving Mode` to engage the vehicle in `Autonomous` mode.
 
 !!! tip
     In certain cases, GPUs and Docker do not work very well and can cause problems in running the simulator container. In such cases, you can download and run the simulator locally (it should be easier to access the GPU this way). You can then run only the devkit within a container. Everything else will work just fine, only that the simulator will not be running inside a container. This shouldn’t matter, since you will have to submit only the container for your algorithms (i.e., devkit) and not the simulator. We will run the containerized simulator on our side for the evaluation of all submissions.
