@@ -134,6 +134,10 @@ Apart from the visualization of autonomous vehicle(s) and their operating enviro
 
 ## 2. AutoDRIVE Devkit
 
+<center>
+<img src="/../assets/images/documentation/f1tenth sim racing league/Devkit.png">
+</center>
+
 <p align="justify">
 AutoDRIVE Devkit (part of the larger <a href="https://autodrive-ecosystem.github.io">AutoDRIVE Ecosystem</a>) is a collection of application programming interfaces (APIs), human-machine interfaces (HMIs), programming languages, libraries, frameworks, packages and tools, which enables the flexible development of on-road and off-road autonomous driving algorithms, as well as smart city traffic management algorithms. It allows targeting the devised algorithms to the simulator as well as the testbed, seamlessly. It supports both local as well as distributed computing, thereby facilitating the development of both centralized and decentralized autonomy algorithms.
 </p>
