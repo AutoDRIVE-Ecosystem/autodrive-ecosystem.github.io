@@ -943,8 +943,17 @@ F1TENTH Sim Racing League is a virtual competition, which accompanies the physic
 </div>
 <h3 id="32-evaluation-architecture">3.2. Evaluation Architecture<a class="headerlink" href="#32-evaluation-architecture" title="Permanent link">&para;</a></h3>
 <p>figure with explanation</p>
+<p>We expect to receive DockerHub repository links from each team prior to the event associated with each phase of the competition. These submissions will have to capture all required dependencies, as well as the team’s autonomous racing software package within the Docker container image.</p>
+<ol>
+<li>A Docker container running the simulator will be executed. This container will execute AutoDRIVE Simulator with the virtual racetrack configured to run F1TENTH digital twin.</li>
+<li>A ROS bag (log file) will tap into the data stream traffic and capture all input, output and debugging messages for post-processing and analysis.</li>
+<li>A team’s Docker container (running the team’s devkit image) will be executed. It’s expected that the entry point of this Docker instance spawns all the necessary elements of the team’s code.</li>
+<li>The competitor’s code should interact with the simulation via the ROS 2 API, without any modifications to the underlying API package files themselves.</li>
+</ol>
+<p>This process will be repeated for each phase and for all the teams participating in the competition. This architecture allows the execution of the entire competition in batch mode.</p>
 <h3 id="33-execution-sequence">3.3. Execution Sequence<a class="headerlink" href="#33-execution-sequence" title="Permanent link">&para;</a></h3>
 <p>How will the evaluation process of a team's submission be conducted?</p>
+<p>Performance for each team will be evaluated as follows:</p>
 <h3 id="34-scoring-evaluation">3.4. Scoring &amp; Evaluation<a class="headerlink" href="#34-scoring-evaluation" title="Permanent link">&para;</a></h3>
 <p>Exact scoring, penalties, ranking, tie-breaker, etc. - quantitative details</p>
 <h2 id="4-citation">4. Citation<a class="headerlink" href="#4-citation" title="Permanent link">&para;</a></h2>
