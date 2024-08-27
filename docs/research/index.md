@@ -10,7 +10,7 @@ This page hosts research outcomes that employ or contribute to the AutoDRIVE Eco
 ## Publications
 
 !!! abstract ""
-    <a href="https://arxiv.org/abs/2103.10030"><img src="/../assets/images/research/AutoDRIVE Simulator - CCRIS 2021.png" style="float:left; box-shadow: -2px 2px 4px rgba(0, 0, 0, 0.5); margin:0 10px 60px 0; max-width: 25%"></a>
+    <a href="https://arxiv.org/abs/2103.10030"><img class="research-artifact" src="/../assets/images/research/AutoDRIVE Simulator - CCRIS 2021.png"></a>
     <a href="https://arxiv.org/abs/2103.10030">
     <b>AutoDRIVE Simulator: A Simulator for Scaled Autonomous Vehicle Research and Education</b>
     </a>
@@ -42,7 +42,7 @@ This page hosts research outcomes that employ or contribute to the AutoDRIVE Eco
         ```
 
 !!! abstract ""
-    <a href="https://arxiv.org/abs/2212.05241"><img src="/../assets/images/research/AutoDRIVE Ecosystem - MDPI Robotics.png" style="float:left; box-shadow: -2px 2px 4px rgba(0, 0, 0, 0.5); margin:0 10px 60px 0; max-width: 25%"></a>
+    <a href="https://arxiv.org/abs/2212.05241"><img class="research-artifact" src="/../assets/images/research/AutoDRIVE Ecosystem - MDPI Robotics.png"></a>
     <a href="https://arxiv.org/abs/2212.05241">
     <b>AutoDRIVE: A Comprehensive, Flexible and Integrated Digital Twin Ecosystem for Enhancing Autonomous Driving Research and Education</b>
     </a>
@@ -71,7 +71,7 @@ This page hosts research outcomes that employ or contribute to the AutoDRIVE Eco
         ```
 
 !!! abstract ""
-    <a href="https://arxiv.org/abs/2301.13425"><img src="/../assets/images/research/Mechatronics Approach - AIM 2023.png" style="float:left; box-shadow: -2px 2px 4px rgba(0, 0, 0, 0.5); margin:0 10px 40px 0; max-width: 25%"></a>
+    <a href="https://arxiv.org/abs/2301.13425"><img class="research-artifact" src="/../assets/images/research/Mechatronics Approach - AIM 2023.png"></a>
     <a href="https://arxiv.org/abs/2301.13425">
     <b>Towards Mechatronics Approach of System Design, Verification and Validation for Autonomous Vehicles</b>
     </a>
@@ -99,7 +99,7 @@ This page hosts research outcomes that employ or contribute to the AutoDRIVE Eco
         ```
 
 !!! abstract ""
-    <a href="https://arxiv.org/abs/2307.13272"><img src="/../assets/images/research/Sim2Real Transfer - MECC 2023.png" style="float:left; box-shadow: -2px 2px 4px rgba(0, 0, 0, 0.5); margin:0 10px 40px 0; max-width: 25%"></a>
+    <a href="https://arxiv.org/abs/2307.13272"><img class="research-artifact" src="/../assets/images/research/Sim2Real Transfer - MECC 2023.png"></a>
     <a href="https://arxiv.org/abs/2307.13272">
     <b>Towards Sim2Real Transfer of Autonomy Algorithms using AutoDRIVE Ecosystem</b>
     </a>
@@ -129,7 +129,7 @@ This page hosts research outcomes that employ or contribute to the AutoDRIVE Eco
         ```
 
 !!! abstract ""
-    <a href="https://arxiv.org/abs/2309.10007"><img src="/../assets/images/research/Coopertitive MARL - IROS 2023.png" style="float:left; box-shadow: -2px 2px 4px rgba(0, 0, 0, 0.5); margin:0 10px 60px 0; max-width: 25%"></a>
+    <a href="https://arxiv.org/abs/2309.10007"><img class="research-artifact" src="/../assets/images/research/Coopertitive MARL - IROS 2023.png"></a>
     <a href="https://arxiv.org/abs/2309.10007">
     <b>Multi-Agent Deep Reinforcement Learning for Cooperative and Competitive Autonomous Vehicles using AutoDRIVE Ecosystem</b>
     </a>
@@ -157,7 +157,7 @@ This page hosts research outcomes that employ or contribute to the AutoDRIVE Eco
         ```
 
 !!! abstract ""
-    <a href="https://arxiv.org/abs/2401.11542"><img src="/../assets/images/research/Nigel Sim2Real Control - IEEE TMECH.png" style="float:left; box-shadow: -2px 2px 4px rgba(0, 0, 0, 0.5); margin:0 10px 60px 0; max-width: 25%"></a>
+    <a href="https://arxiv.org/abs/2401.11542"><img class="research-artifact" src="/../assets/images/research/Nigel Sim2Real Control - IEEE TMECH.png"></a>
     <a href="https://arxiv.org/abs/2401.11542">
     <b>Nigel - Mechatronic Design and Robust Sim2Real Control of an Over-Actuated Autonomous Vehicle</b>
     </a>
@@ -185,7 +185,7 @@ This page hosts research outcomes that employ or contribute to the AutoDRIVE Eco
         ```
 
 !!! abstract ""
-    <a href="https://arxiv.org/abs/2402.12670"><img src="/../assets/images/research/Autonomy Across Scales - AIM 2024.png" style="float:left; box-shadow: -2px 2px 4px rgba(0, 0, 0, 0.5); margin:0 10px 40px 0; max-width: 25%"></a>
+    <a href="https://arxiv.org/abs/2402.12670"><img class="research-artifact" src="/../assets/images/research/Autonomy Across Scales - AIM 2024.png"></a>
     <a href="https://arxiv.org/abs/2402.12670">
     <b>Towards Validation of Autonomous Vehicles Across Scales using an Integrated Digital Twin Framework</b>
     </a>
@@ -213,7 +213,7 @@ This page hosts research outcomes that employ or contribute to the AutoDRIVE Eco
         ```
 
 !!! abstract ""
-    <a href="https://arxiv.org/abs/2405.04743"><img src="/../assets/images/research/DT HPC V&V - GVSETS 2024.png" style="float:left; box-shadow: -2px 2px 4px rgba(0, 0, 0, 0.5); margin:0 10px 120px 0; max-width: 25%"></a>
+    <a href="https://arxiv.org/abs/2405.04743"><img class="research-artifact" src="/../assets/images/research/DT HPC V&V - GVSETS 2024.png"></a>
     <a href="https://arxiv.org/abs/2405.04743">
     <b>Off-Road Autonomy Validation Using Scalable Digital Twin Simulations Within High-Performance Computing Clusters</b>
     </a>
@@ -241,7 +241,7 @@ This page hosts research outcomes that employ or contribute to the AutoDRIVE Eco
         ```
 
 !!! abstract ""
-    <a href="https://arxiv.org/abs/2406.05465"><img src="/../assets/images/research/Metaverse for Safer Roadways - Telepresence 2024.png" style="float:left; box-shadow: -2px 2px 4px rgba(0, 0, 0, 0.5); margin:0 10px 60px 0; max-width: 25%"></a>
+    <a href="https://arxiv.org/abs/2406.05465"><img class="research-artifact" src="/../assets/images/research/Metaverse for Safer Roadways - Telepresence 2024.png"></a>
     <a href="https://arxiv.org/abs/2406.05465">
     <b>Metaverse for Safer Roadways: An Immersive Digital Twin Framework for Exploring Human-Autonomy Coexistence in Urban Transportation Systems</b>
     </a>
@@ -267,7 +267,7 @@ This page hosts research outcomes that employ or contribute to the AutoDRIVE Eco
         ```
 
 !!! abstract ""
-    <a href="https://arxiv.org/abs/2403.10996"><img src="/../assets/images/research/Sim2Real MARL - ICRA 2025.png" style="float:left; box-shadow: -2px 2px 4px rgba(0, 0, 0, 0.5); margin:0 10px 40px 0; max-width: 25%"></a>
+    <a href="https://arxiv.org/abs/2403.10996"><img class="research-artifact" src="/../assets/images/research/Sim2Real MARL - ICRA 2025.png"></a>
     <a href="https://arxiv.org/abs/2403.10996">
     <b>A Scalable and Parallelizable Digital Twin Framework for Sustainable Sim2Real Transition of Multi-Agent Reinforcement Learning Systems</b>
     </a>
@@ -295,7 +295,7 @@ This page hosts research outcomes that employ or contribute to the AutoDRIVE Eco
 ## Reports
 
 !!! abstract ""
-    <a href="https://arxiv.org/abs/2211.07022"><img src="/../assets/images/research/AutoDRIVE Simulator - IC@N Report 2020.png" style="float:left; box-shadow: -2px 2px 4px rgba(0, 0, 0, 0.5); margin:0 10px 40px 0; max-width: 25%"></a>
+    <a href="https://arxiv.org/abs/2211.07022"><img class="research-artifact" src="/../assets/images/research/AutoDRIVE Simulator - IC@N Report 2020.png"></a>
     <a href="https://arxiv.org/abs/2211.07022">
     <b>AutoDRIVE Simulator: A Simulator for Scaled Autonomous Vehicle Research and Education</b>
     </a>
@@ -321,7 +321,7 @@ This page hosts research outcomes that employ or contribute to the AutoDRIVE Eco
         ```
 
 !!! abstract ""
-    <a href="https://arxiv.org/abs/2402.14739"><img src="/../assets/images/research/AutoDRIVE-Autoware - Technical Report 2023.png" style="float:left; box-shadow: -2px 2px 4px rgba(0, 0, 0, 0.5); margin:0 10px 10px 0; max-width: 25%"></a>
+    <a href="https://arxiv.org/abs/2402.14739"><img class="research-artifact" src="/../assets/images/research/AutoDRIVE-Autoware - Technical Report 2023.png"></a>
     <a href="https://arxiv.org/abs/2402.14739">
     <b>Autonomy Oriented Digital Twins for Real2Sim2Real Autoware Deployment</b>
     </a>
@@ -349,7 +349,7 @@ This page hosts research outcomes that employ or contribute to the AutoDRIVE Eco
 ## Theses
 
 !!! abstract ""
-    <a href="https://arxiv.org/abs/2211.08475"><img src="/../assets/images/research/AutoDRIVE Ecosystem - B.Tech. Report 2021.png" style="float:left; box-shadow: -2px 2px 4px rgba(0, 0, 0, 0.5); margin:0 10px 20px 0; max-width: 25%"></a>
+    <a href="https://arxiv.org/abs/2211.08475"><img class="research-artifact" src="/../assets/images/research/AutoDRIVE Ecosystem - B.Tech. Report 2021.png"></a>
     <a href="https://arxiv.org/abs/2211.08475">
     <b>AutoDRIVE – An Integrated Platform for Autonomous Driving Research and Education</b>
     </a>
