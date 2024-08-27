@@ -14,13 +14,13 @@ This page hosts research outcomes that employ or contribute to the AutoDRIVE Eco
     <a href="https://arxiv.org/abs/2103.10030">
     <b>AutoDRIVE Simulator: A Simulator for Scaled Autonomous Vehicle Research and Education</b>
     </a>
-    <br />
+    <br/>
     Tanmay Vilas Samak, Chinmay Vilas Samak, and Ming Xie
-    <br />
+    <br/>
     <a href="https://doi.org/10.1145/3483845.3483846">
     <i>ACM International Conference on Control, Robotics and Intelligent System (CCRIS)</i>
     </a>
-    <br />
+    <br/>
     <i>2021</i>
     ??? quote "Citation"
         ```bibtex
@@ -46,13 +46,13 @@ This page hosts research outcomes that employ or contribute to the AutoDRIVE Eco
     <a href="https://arxiv.org/abs/2212.05241">
     <b>AutoDRIVE: A Comprehensive, Flexible and Integrated Digital Twin Ecosystem for Enhancing Autonomous Driving Research and Education</b>
     </a>
-    <br />
+    <br/>
     Tanmay Vilas Samak, Chinmay Vilas Samak, Sivanathan Kandhasamy, Venkat Narayan Krovi, and Ming Xie
-    <br />
+    <br/>
     <a href="https://doi.org/10.3390/robotics12030077">
     <i>MDPI Robotics</i>
     </a>
-    <br />
+    <br/>
     <i>2023</i>
     ??? quote "Citation"
         ```bibtex
@@ -75,13 +75,13 @@ This page hosts research outcomes that employ or contribute to the AutoDRIVE Eco
     <a href="https://arxiv.org/abs/2301.13425">
     <b>Towards Mechatronics Approach of System Design, Verification and Validation for Autonomous Vehicles</b>
     </a>
-    <br />
+    <br/>
     Chinmay Vilas Samak, Tanmay Vilas Samak, and Venkat Narayan Krovi
-    <br />
+    <br/>
     <a href="https://doi.org/10.1109/AIM46323.2023.10196233">
     <i>IEEE/ASME International Conference on Advanced Intelligent Mechatronics (AIM)</i>
     </a>
-    <br />
+    <br/>
     <i>2023</i>
     ??? quote "Citation"
         ```bibtex
@@ -103,13 +103,13 @@ This page hosts research outcomes that employ or contribute to the AutoDRIVE Eco
     <a href="https://arxiv.org/abs/2307.13272">
     <b>Towards Sim2Real Transfer of Autonomy Algorithms using AutoDRIVE Ecosystem</b>
     </a>
-    <br />
+    <br/>
     Chinmay Vilas Samak, Tanmay Vilas Samak, and Venkat Narayan Krovi
-    <br />
+    <br/>
     <a href="https://doi.org/10.1016/j.ifacol.2023.12.037">
     <i>AACC/IFAC Modeling, Estimation and Control Conference (MECC)</i>
     </a>
-    <br />
+    <br/>
     <i>2023</i>
     ??? quote "Citation"
         ```bibtex
@@ -133,13 +133,13 @@ This page hosts research outcomes that employ or contribute to the AutoDRIVE Eco
     <a href="https://arxiv.org/abs/2309.10007">
     <b>Multi-Agent Deep Reinforcement Learning for Cooperative and Competitive Autonomous Vehicles using AutoDRIVE Ecosystem</b>
     </a>
-    <br />
+    <br/>
     Tanmay Vilas Samak, Chinmay Vilas Samak, and Venkat Narayan Krovi
-    <br />
+    <br/>
     <a href="https://iros2023-madgames.f1tenth.org/papers/samak.pdf">
     <i>IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)</i>
     </a>
-    <br />
+    <br/>
     <i>2023</i>
     ??? quote "Citation"
         ```bibtex
@@ -161,13 +161,13 @@ This page hosts research outcomes that employ or contribute to the AutoDRIVE Eco
     <a href="https://arxiv.org/abs/2401.11542">
     <b>Nigel - Mechatronic Design and Robust Sim2Real Control of an Over-Actuated Autonomous Vehicle</b>
     </a>
-    <br />
+    <br/>
     Chinmay Vilas Samak, Tanmay Vilas Samak, Javad Mohammadpour Velni, and Venkat Narayan Krovi
-    <br />
+    <br/>
     <a href="https://doi.org/10.1109/TMECH.2024.3401077">
     <i>IEEE/ASME Transactions on Mechatronics (Presented at AIM 2024)</i>
     </a>
-    <br />
+    <br/>
     <i>2024</i>
     ??? quote "Citation"
         ```bibtex
@@ -189,13 +189,13 @@ This page hosts research outcomes that employ or contribute to the AutoDRIVE Eco
     <a href="https://arxiv.org/abs/2402.12670">
     <b>Towards Validation of Autonomous Vehicles Across Scales using an Integrated Digital Twin Framework</b>
     </a>
-    <br />
+    <br/>
     Tanmay Vilas Samak, Chinmay Vilas Samak, and Venkat Narayan Krovi
-    <br />
+    <br/>
     <a href="https://doi.org/10.1109/AIM55361.2024.10637205">
     <i>IEEE/ASME International Conference on Advanced Intelligent Mechatronics (AIM)</i>
     </a>
-    <br />
+    <br/>
     <i>2024</i>
     ??? quote "Citation"
         ```bibtex
@@ -217,13 +217,13 @@ This page hosts research outcomes that employ or contribute to the AutoDRIVE Eco
     <a href="https://arxiv.org/abs/2405.04743">
     <b>Off-Road Autonomy Validation Using Scalable Digital Twin Simulations Within High-Performance Computing Clusters</b>
     </a>
-    <br />
+    <br/>
     Tanmay Vilas Samak, Chinmay Vilas Samak, Joey Binz, Jonathon Smereka, Mark Brudnak, David Gorsich, Feng Luo, and Venkat Narayan Krovi
-    <br />
+    <br/>
     <a href="https://ndia-mich.org/images/events/gvsets/2024/papers/MSPV/320PMO~1.PDF">
     <i>NDIA Ground Vehicle Systems Engineering and Technology Symposium (GVSETS)</i>
     </a>
-    <br />
+    <br/>
     <i>2024</i>
     ??? quote "Citation"
         ```bibtex
@@ -245,13 +245,13 @@ This page hosts research outcomes that employ or contribute to the AutoDRIVE Eco
     <a href="https://arxiv.org/abs/2406.05465">
     <b>Metaverse for Safer Roadways: An Immersive Digital Twin Framework for Exploring Human-Autonomy Coexistence in Urban Transportation Systems</b>
     </a>
-    <br />
+    <br/>
     Tanmay Vilas Samak, Chinmay Vilas Samak, and Venkat Narayan Krovi
-    <br />
+    <br/>
     <a href="https://arxiv.org/abs/2406.05465">
     <i>IEEE Conference on Telepresence</i>
     </a>
-    <br />
+    <br/>
     <i>2024</i>
     ??? quote "Citation"
         ```bibtex
@@ -271,13 +271,13 @@ This page hosts research outcomes that employ or contribute to the AutoDRIVE Eco
     <a href="https://arxiv.org/abs/2403.10996">
     <b>A Scalable and Parallelizable Digital Twin Framework for Sustainable Sim2Real Transition of Multi-Agent Reinforcement Learning Systems</b>
     </a>
-    <br />
+    <br/>
     Chinmay Vilas Samak, Tanmay Vilas Samak, and Venkat Narayan Krovi
-    <br />
+    <br/>
     <a href="https://arxiv.org/abs/2403.10996">
     <i>arXiv Preprint</i>
     </a>
-    <br />
+    <br/>
     <i>2024</i>
     ??? quote "Citation"
         ```bibtex
@@ -299,13 +299,13 @@ This page hosts research outcomes that employ or contribute to the AutoDRIVE Eco
     <a href="https://arxiv.org/abs/2211.07022">
     <b>AutoDRIVE Simulator: A Simulator for Scaled Autonomous Vehicle Research and Education</b>
     </a>
-    <br />
+    <br/>
     Tanmay Vilas Samak and Chinmay Vilas Samak
-    <br />
+    <br/>
     <a href="https://arxiv.org/abs/2211.07022">
     <i>India Connect @ NTU (IC@N) Research Internship Program</i>
     </a>
-    <br />
+    <br/>
     <i>2020</i>
     ??? quote "Citation"
         ```bibtex
@@ -325,13 +325,13 @@ This page hosts research outcomes that employ or contribute to the AutoDRIVE Eco
     <a href="https://arxiv.org/abs/2402.14739">
     <b>Autonomy Oriented Digital Twins for Real2Sim2Real Autoware Deployment</b>
     </a>
-    <br />
+    <br/>
     Chinmay Vilas Samak and Tanmay Vilas Samak
-    <br />
+    <br/>
     <a href="https://arxiv.org/abs/2402.14739">
     <i>arXiv</i>
     </a>
-    <br />
+    <br/>
     <i>2023</i>
     ??? quote "Citation"
         ```bibtex
@@ -353,13 +353,13 @@ This page hosts research outcomes that employ or contribute to the AutoDRIVE Eco
     <a href="https://arxiv.org/abs/2211.08475">
     <b>AutoDRIVE – An Integrated Platform for Autonomous Driving Research and Education</b>
     </a>
-    <br />
+    <br/>
     Tanmay Vilas Samak and Chinmay Vilas Samak
-    <br />
+    <br/>
     <a href="https://arxiv.org/abs/2211.08475">
     <i>Bachelor's Thesis</i>
     </a>
-    <br />
+    <br/>
     <i>2021</i>
     ??? quote "Citation"
         ```bibtex
