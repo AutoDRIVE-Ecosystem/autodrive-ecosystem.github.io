@@ -123,6 +123,7 @@ Registered teams are added to the following table:
 | 01      | Beryllium                 | Ronnie Romman                 | Personal                                  |
 | 02      | AERObotics                | Arif Anjum<br />Muhammed Sharjil | AEROBOTICS                             |
 | 03      | Pharst Laps               | Olivia Dry<br />Tian Zhao<br />Yitian Chen<br />Amir Ali Farzin | Australian National University |
+| 04      | SeDriCa-UMIC              | Kshitij Vaidya<br />Yash Gupta<br />Manav Jain<br />Parth Agrawal<br />Sahil Kukreja<br />Johan Biju<br />Paawan Nenwani<br />Shivam Yadav | Indian Institute of Technology, Bombay |
 
 !!! note
     The above table will be updated with newly registered teams within a few days of registration. Please contact [Chinmay Samak](mailto:csamak@clemson.edu) or [Tanmay Samak](mailto:tsamak@clemson.edu) if you do not see your team entry for more than 7 days after registering.

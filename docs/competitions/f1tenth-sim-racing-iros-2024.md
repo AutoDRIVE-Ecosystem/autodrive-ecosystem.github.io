@@ -154,7 +154,10 @@ Registered teams are added to the following table:
 | 32      | Buggy Coders              | Cody Uehara                   | Personal                                  |
 | 33      | AutoVision                | Luis Bracamontes              | Personal                                  |
 | 34      | Autobots                  | Shubham Barge<br />Anshuman Jena | Personal                               |
-| 35      | SUST AutoDrive            | Abul Basar Raz<br />Ad-deen Mahbub<br />Shafi Abdullah<br />Redwan Hossen<br />Taj Ahmad | Shahjalal University of Science and Technology |
+| 35      | Kyber-Kabs                | Aditya Jambhale<br />Siddhant Diwaker | SRM Institute of Science and Technology |
+| 36      | Shoubra Racing Team       | Mazen Khaled<br />Hazem Abuelanin<br />Hana Ahmed<br />Mohamed Alaa<br />Abdelghafar Mohamad<br />Abdelrahman Salah<br />Malak Mounir<br />Razan Ahmed<br />Mohamed Hamdy<br />Abdelrahman Osama | Benha University |
+| 37      | SUST AutoDrive            | Abul Bashar Raz<br />Ad-Deen Mahbub<br />Shafi Abdullah<br />Fardeen Mosharraf<br />Redwan Hassan<br />Taj Ahmed | Shahjalal University of Science and Technology |
+| 38      | VersusAI                  | Junior Jesus<br />Alisson Kolling<br />Pedro Pinheiro<br />Victor Kich | Universidade Federal do Rio Grande |
 
 !!! note
     The above table will be updated with newly registered teams within a few days of registration. Please contact [Chinmay Samak](mailto:csamak@clemson.edu) or [Tanmay Samak](mailto:tsamak@clemson.edu) if you do not see your team entry for more than 7 days after registering.
