@@ -327,9 +327,20 @@ docker system prune -a
 
 figure with explanation
 
+We expect to receive DockerHub repository links from each team prior to the event associated with each phase of the competition. These submissions will have to capture all required dependencies, as well as the team’s autonomous racing software package within the Docker container image.
+
+1. A Docker container running the simulator will be executed. This container will execute AutoDRIVE Simulator with the virtual racetrack configured to run F1TENTH digital twin.
+2. A ROS bag (log file) will tap into the data stream traffic and capture all input, output and debugging messages for post-processing and analysis.
+3. A team’s Docker container (running the team’s devkit image) will be executed. It’s expected that the entry point of this Docker instance spawns all the necessary elements of the team’s code.
+4. The competitor’s code should interact with the simulation via the ROS 2 API, without any modifications to the underlying API package files themselves.
+
+This process will be repeated for each phase and for all the teams participating in the competition. This architecture allows the execution of the entire competition in batch mode.
+
 ### 3.3. Execution Sequence
 
 How will the evaluation process of a team's submission be conducted?
+
+Performance for each team will be evaluated as follows:
 
 ### 3.4. Scoring & Evaluation
 
