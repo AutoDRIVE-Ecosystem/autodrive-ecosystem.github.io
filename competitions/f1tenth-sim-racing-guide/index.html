@@ -554,24 +554,24 @@
 <h1 id="technical-guide">Technical Guide<a class="headerlink" href="#technical-guide" title="Permanent link">&para;</a></h1>
 <p><img alt="F1TENTH Sim Racing" src="../../assets/images/banners/F1TENTH%20Sim%20Racing.png" /></p>
 <p align="justify">
-This document describes the technical details of the competition framework for the F1TENTH Sim Racing League. It goes over the details pertaining to the simulator and devkit, as well as some important aspects of the submission system, process and evaluation. Some good-to-know tips and "best practices" are thrown asynchronously to smoothen the process and workflow for the participants.
+This document describes the technical details of the competition framework for the F1TENTH Sim Racing League. It goes over the details pertaining to the simulator and devkit, as well as some important aspects of the submission system, process and evaluation.
 </p>
 
 <div class="admonition warning">
 <p class="admonition-title">Warning</p>
-<p>It expected that teams have sufficient background knowlege pertaining to autonomous racing (concepts, methods, and algorithms), programming languages (Python, C++, etc.) and frameworks (ROS 2), containerization (Docker) and version control (Git), etc. In order to be fair to all teams and keep the competition on schedule, extensive technical support/help cannot be provided by the organizers to any team. However, legitimate requests may be entertained at the discretion of the organizers.</p>
+<p>It expected that teams have sufficient background knowlege pertaining to autonomous racing (concepts, methods, and algorithms), programming languages (Python, C++, etc.) and frameworks (ROS 2), containerization (Docker) and version control (Git), etc. In order to be fair to all teams and keep the competition on schedule, extensive technical support/help cannot be provided by the organizers. However, legitimate requests may be entertained at the discretion of the organizers.</p>
 </div>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
-<p>Although AutoDRIVE Ecosystem supports many vehicles across different scales and operational design domains (ODDs), the <strong>ONLY</strong> vehicle allowed for this competition is <strong>F1TENTH</strong>. Similarly, although AutoDRIVE Ecosystem supports multiple application programming interfaces (APIs), the <strong>ONLY</strong> API allowed for this competition is <strong>ROS 2</strong>.</p>
+<p>Although AutoDRIVE Ecosystem supports various vehicles across different scales, configurations and operational design domains (ODDs), the <strong>only</strong> vehicle allowed for this competition is the <strong>F1TENTH</strong>. Similarly, although AutoDRIVE Ecosystem supports multiple application programming interfaces (APIs), the <strong>only</strong> API allowed for this competition is <strong>ROS 2</strong>.</p>
 </div>
 <h2 id="1-autodrive-simulator">1. AutoDRIVE Simulator<a class="headerlink" href="#1-autodrive-simulator" title="Permanent link">&para;</a></h2>
 <p align="justify">
-AutoDRIVE Simulator (part of the larger <a href="https://autodrive-ecosystem.github.io">AutoDRIVE Ecosystem</a>) is an autonomy oriented tool designed to model and simulate vehicle and environment digital twins. It equally prioritizes backend physics and frontend graphics to achieve high-fidelity simulation in realtime. From a computing perspective, the simulation framework is completely modular owing to its object-oriented programming (OOP) constructs. Additionally, the simulator can take advantage of CPU multi-threading as well as GPU instancing (only if available) to efficiently parallelize various simulation objects and processes, with cross-platform support.
+AutoDRIVE Simulator (part of the larger <a href="https://autodrive-ecosystem.github.io">AutoDRIVE Ecosystem</a>) is an autonomy oriented tool designed to model and simulate vehicle and environment digital twins. It equally prioritizes backend physics and frontend graphics to achieve high-fidelity simulation in real-time. From a computing perspective, the simulation framework is completely modular owing to its object-oriented programming (OOP) constructs. Additionally, the simulator can take advantage of CPU multi-threading as well as GPU instancing (if available) to efficiently parallelize various simulation objects and processes, with cross-platform support.
 </p>
 
 <p align="justify">
-For the F1TENTH Sim Racing League, each team will be provided with a standardized simulation setup (in the form of a digital twin of the F1TENTH vehicle, and a digital twin of the Porto racetrack) within the high-fidelity <a href="https://github.com/Tinker-Twins/AutoDRIVE/tree/AutoDRIVE-Simulator">AutoDRIVE Simulator</a>. This would help make this competition and exploration of autonomous racing in general accessible to everyone across the globe.
+For the F1TENTH Sim Racing League, each team will be provided with a standardized simulation setup (in the form of a digital twin of the F1TENTH vehicle, and a digital twin of the Porto racetrack) within the high-fidelity <a href="https://github.com/Tinker-Twins/AutoDRIVE/tree/AutoDRIVE-Simulator">AutoDRIVE Simulator</a>. This would help make this competition, and exploration of autonomous racing in general, accessible to everyone across the globe.
 </p>
 
 <h3 id="11-system-requirements">1.1. System Requirements<a class="headerlink" href="#11-system-requirements" title="Permanent link">&para;</a></h3>
@@ -957,7 +957,7 @@ F1TENTH Sim Racing League is a virtual competition, which accompanies the physic
 <h3 id="34-scoring-evaluation">3.4. Scoring &amp; Evaluation<a class="headerlink" href="#34-scoring-evaluation" title="Permanent link">&para;</a></h3>
 <p>Exact scoring, penalties, ranking, tie-breaker, etc. - quantitative details</p>
 <h2 id="4-citation">4. Citation<a class="headerlink" href="#4-citation" title="Permanent link">&para;</a></h2>
-<p>We encourage you to read and cite the following papers if you use any part of this framework for your research:</p>
+<p>We encourage you to read and cite the following papers if you use any part of the competition framework for your research:</p>
 <h4 id="autodrive-a-comprehensive-flexible-and-integrated-digital-twin-ecosystem-for-enhancing-autonomous-driving-research-and-education"><a href="https://arxiv.org/abs/2212.05241">AutoDRIVE: A Comprehensive, Flexible and Integrated Digital Twin Ecosystem for Enhancing Autonomous Driving Research and Education</a><a class="headerlink" href="#autodrive-a-comprehensive-flexible-and-integrated-digital-twin-ecosystem-for-enhancing-autonomous-driving-research-and-education" title="Permanent link">&para;</a></h4>
 <p><div class="language-bibtex highlight"><pre><span></span><code><span id="__span-19-1"><a id="__codelineno-19-1" name="__codelineno-19-1" href="#__codelineno-19-1"></a><span class="nc">@article</span><span class="p">{</span><span class="nl">AutoDRIVE-Ecosystem-2023</span><span class="p">,</span>
 </span><span id="__span-19-2"><a id="__codelineno-19-2" name="__codelineno-19-2" href="#__codelineno-19-2"></a><span class="na">author</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="s">{Samak, Tanmay and Samak, Chinmay and Kandhasamy, Sivanathan and Krovi, Venkat and Xie, Ming}</span><span class="p">,</span>
@@ -1011,7 +1011,7 @@ This work has been published at <strong>2021 International Conference on Control
     <span class="md-icon" title="Last update">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1-2.1-2M12.5 7v5.2l4 2.4-1 1L11 13V7h1.5M11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2v1.8Z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">August 27, 2024</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">August 30, 2024</span>
   </span>
 
     
