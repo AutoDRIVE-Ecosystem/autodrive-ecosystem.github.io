@@ -121,7 +121,7 @@ Registered teams are added to the following table:
 | SR. NO. | TEAM NAME                 | TEAM MEMBERS                  | ORGANIZATION                              |
 |:--------|:--------------------------|:------------------------------|:------------------------------------------|
 | 01      | Beryllium                 | Ronnie Romman                 | Personal                                  |
-| 02      | AERObotics                | Arif Anjum<br/>Muhammed Sharjil | AEROBOTICS                             |
+| 02      | AERObotics                | Arif Anjum<br/>Muhammed Sharjil | AEROBOTICS                              |
 | 03      | Pharst Laps               | Olivia Dry<br/>Tian Zhao<br/>Yitian Chen<br/>Amir Ali Farzin | Australian National University |
 | 04      | SeDriCa-UMIC              | Kshitij Vaidya<br/>Yash Gupta<br/>Manav Jain<br/>Parth Agrawal<br/>Sahil Kukreja<br/>Johan Biju<br/>Paawan Nenwani<br/>Shivam Yadav | Indian Institute of Technology, Bombay |
 
