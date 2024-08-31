@@ -105,18 +105,18 @@ AutoDRIVE Simulator's GUI consists of a toolbar encompassing two panels for obse
 </div>
 
 
-| FRAME             | x        | y        | z        | R        | P        | Y        |
-|:------------------|:---------|:---------|:---------|:---------|:---------|:---------|
-| left_encoder      | 0.0      | 0.118    | 0.0      | 0.0      | $\chi$   | 0.0      |
-| right_encoder     | 0.0      | -0.118   | 0.0      | 0.0      | $\chi$   | 0.0      |
-| ips               | 0.08     | 0.0      | 0.055    | 0.0      | 0.0      | 0.0      |
-| imu               | 0.08     | 0.0      | 0.055    | 0.0      | 0.0      | 0.0      |
-| lidar             | 0.2733   | 0.0      | 0.096    | 0.0      | 0.0      | 0.0      |
-| front_camera      | -0.015   | 0.0      | 0.15     | 0.0      | 10.0     | 0.0      |
-| front_left_wheel  | 0.33     | 0.118    | 0.0      | 0.0      | 0.0      | $\chi$   |
-| front_right_wheel | 0.33     | -0.118   | 0.0      | 0.0      | 0.0      | $\chi$   |
-| rear_left_wheel   | 0.0      | 0.118    | 0.0      | 0.0      | $\chi$   | 0.0      |
-| rear_right_wheel  | 0.0      | -0.118   | 0.0      | 0.0      | $\chi$   | 0.0      |
+| FRAME               | x        | y        | z        | R        | P        | Y        |
+|:--------------------|:---------|:---------|:---------|:---------|:---------|:---------|
+| `left_encoder`      | 0.0      | 0.118    | 0.0      | 0.0      | $\chi$   | 0.0      |
+| `right_encoder`     | 0.0      | -0.118   | 0.0      | 0.0      | $\chi$   | 0.0      |
+| `ips`               | 0.08     | 0.0      | 0.055    | 0.0      | 0.0      | 0.0      |
+| `imu`               | 0.08     | 0.0      | 0.055    | 0.0      | 0.0      | 0.0      |
+| `lidar`             | 0.2733   | 0.0      | 0.096    | 0.0      | 0.0      | 0.0      |
+| `front_camera`      | -0.015   | 0.0      | 0.15     | 0.0      | 10.0     | 0.0      |
+| `front_left_wheel`  | 0.33     | 0.118    | 0.0      | 0.0      | 0.0      | $\chi$   |
+| `front_right_wheel` | 0.33     | -0.118   | 0.0      | 0.0      | 0.0      | $\chi$   |
+| `rear_left_wheel`   | 0.0      | 0.118    | 0.0      | 0.0      | $\chi$   | 0.0      |
+| `rear_right_wheel`  | 0.0      | -0.118   | 0.0      | 0.0      | $\chi$   | 0.0      |
 
 !!! note
     All frame transforms mentioned above are defined w.r.t. the vehicle (local) frame of reference `f1tenth_1` located at the center of rear axle with x-axis pointing forward, y-axis pointing left, and z-axis pointing upwards. Columns x, y, and z denote translations in meters (m), while R, P, and Y denote rotations in degrees (deg). $\chi$ denotes variable quantities. 
@@ -151,8 +151,8 @@ LIDAR simulation employs iterative ray-casting \texttt{raycast}\{$^w\mathbf{T}_l
 
 Simulated cameras are parameterized by their focal length $f$, sensor size $\{s_x, s_y\}$, target resolution, as well as the distances to the near $N$ and far $F$ clipping planes. The viewport rendering pipeline for the simulated cameras operates in three stages. First, the camera view matrix $\mathbf{V} \in SE(3)$ is computed by obtaining the relative homogeneous transform of the camera $\{c\}$ with respect to the world $\{w\}$: $\mathbf{V} = \begin{bmatrix} r_{00} & r_{01} & r_{02} & t_{0} \\ r_{10} & r_{11} & r_{12} & t_{1} \\ r_{20} & r_{21} & r_{22} & t_{2} \\ 0 & 0 & 0 & 1 \\ \end{bmatrix}$, where $r_{ij}$ and $t_i$ denote the rotational and translational components, respectively. Next, the camera projection matrix $\mathbf{P} \in \mathbb{R}^{4 \times 4}$ is calculated to project world coordinates into image space coordinates: $\mathbf{P} = \begin{bmatrix} \frac{2*N}{R-L} & 0 & \frac{R+L}{R-L} & 0 \\ 0 & \frac{2*N}{T-B} & \frac{T+B}{T-B} & 0 \\ 0 & 0 & -\frac{F+N}{F-N} & -\frac{2*F*N}{F-N} \\ 0 & 0 & -1 & 0 \\ \end{bmatrix}$, where $L$, $R$, $T$, and $B$ denote the left, right, top, and bottom offsets of the sensor. The camera parameters $\{f,s_x,s_y\}$ are related to the terms of the projection matrix as follows: $f = \frac{2*N}{R-L}$, $a = \frac{s_y}{s_x}$, and $\frac{f}{a} = \frac{2*N}{T-B}$. The perspective projection from the simulated camera's viewport is given as $\mathbf{C} = \mathbf{P}*\mathbf{V}*\mathbf{W}$, where $\mathbf{C} = \left [x_c\;\;y_c\;\;z_c\;\;w_c \right ]^T$ represents image space coordinates, and $\mathbf{W} = \left [x_w\;\;y_w\;\;z_w\;\;w_w \right ]^T$ represents world coordinates. Finally, this camera projection is transformed into normalized device coordinates (NDC) by performing perspective division (i.e., dividing throughout by $w_c$), leading to a viewport projection achieved by scaling and shifting the result and then utilizing the rasterization process of the graphics API (e.g., DirectX for Windows, Metal for macOS, and Vulkan for Linux). Additionally, a post-processing step simulates non-linear lens and film effects, such as lens distortion, depth of field, exposure, ambient occlusion, contact shadows, bloom, motion blur, film grain, chromatic aberration, etc.
 
-#### 1.3.5. Variability (noise in sensor/actuator/system characteristics)
-#### 1.3.6. Multiple Vehicles
+<!-- #### 1.3.5. Variability (noise in sensor/actuator/system characteristics)
+#### 1.3.6. Multiple Vehicles -->
 
 ### 1.4. Environment
 
@@ -175,8 +175,8 @@ These environments are simulated by conducting mesh-mesh interference detection 
 
 | FRAME             | x        | y        | z        | R        | P        | Y        |
 |:------------------|:---------|:---------|:---------|:---------|:---------|:---------|
-| world             | 0.0      | 0.0      | 0.0      | 0.0      | 0.0      | 0.0      |
-| f1tenth_1         | $\chi$   | $\chi$   | $\chi$   | $\chi$   | $\chi$   | $\chi$   |
+| `world`           | 0.0      | 0.0      | 0.0      | 0.0      | 0.0      | 0.0      |
+| `f1tenth_1`       | $\chi$   | $\chi$   | $\chi$   | $\chi$   | $\chi$   | $\chi$   |
 
 !!! note
     All frame transforms mentioned above are defined w.r.t. the global frame of reference `world`, which serves as a static frame of reference for the simulation environment. Columns x, y, and z denote translations in meters (m), while R, P, and Y denote rotations in degrees (deg). $\chi$ denotes variable quantities, which in this case define the ground-truth pose of the vehicle within the simulated racetrack.
