@@ -197,6 +197,10 @@ For the F1TENTH Sim Racing League, each team will be provided with a standardize
 
 ### 2.3. Data Streams
 
+<p align="justify">
+The following table describes various data streams of the competition framework. These data streams are exposed as ROS 2 topics using AutoDRIVE Devkit.
+</p>
+
 | TOPIC                                   | TYPE        | MESSAGE                      | ACCESS             |
 |:----------------------------------------|:------------|:-----------------------------|:-------------------|
 `/autodrive/f1tenth_1/best_lap_time`      | Debugging   | `std_msgs/msg/Float32`       | Restricted         |
