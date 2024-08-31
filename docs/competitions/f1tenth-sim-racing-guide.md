@@ -19,7 +19,7 @@ AutoDRIVE Simulator (part of the larger <a href="https://autodrive-ecosystem.git
 </p>
 
 <p align="justify">
-For the F1TENTH Sim Racing League, each team will be provided with a standardized simulation setup (in the form of a digital twin of the F1TENTH vehicle, and a digital twin of the Porto racetrack) within the high-fidelity <a href="https://github.com/Tinker-Twins/AutoDRIVE/tree/AutoDRIVE-Simulator">AutoDRIVE Simulator</a>. This would help make this competition, and exploration of autonomous racing in general, accessible to everyone across the globe.
+For the F1TENTH Sim Racing League, each team will be provided with a standardized simulation setup (in the form of a digital twin of the F1TENTH vehicle, and a digital twin of the Porto racetrack) within the high-fidelity <a href="https://github.com/Tinker-Twins/AutoDRIVE/tree/AutoDRIVE-Simulator">AutoDRIVE Simulator</a>. This would democratize autonomous racing, and make this competition accessible to everyone across the globe.
 </p>
 
 ### 1.1. System Requirements
@@ -31,9 +31,9 @@ For the F1TENTH Sim Racing League, each team will be provided with a standardize
   <li><b>Platform:</b> Ubuntu 20.04+, Windows 10+, macOS 10.14+ (simulator has cross-platform compatibility)</li>
   <li><b>Processor:</b> Quad-core CPU (e.g., Intel Core i5 or AMD Ryzen 5)</li>
   <li><b>Memory:</b> 8 GB RAM</li>
-  <li><b>Graphics:</b> Integrated graphics or a low-end discrete GPU (e.g., NVIDIA GeForce GTX 1050) with at least 2 GB of VRAM</li>
-  <li><b>Storage:</b> 10 GB free disk space (for Docker images, simulator application and data)</li>
-  <li><b>Network:</b> Internet connection for pulling Docker images, and downloading updates on demand</li>
+  <li><b>Graphics:</b> Integrated graphics (e.g., Intel HD Graphics) or a low-end discrete GPU (e.g., NVIDIA GeForce GTX 1050) with at least 2 GB of VRAM</li>
+  <li><b>Storage:</b> 10 GB of free disk space (for storing Docker images, simulator application and data)</li>
+  <li><b>Network:</b> Stable internet connection (1 Mbps) for pulling/pushing Docker images, and downloading updates on demand</li>
 </ul>
 
 <p align="justify">
@@ -41,15 +41,15 @@ For the F1TENTH Sim Racing League, each team will be provided with a standardize
 </p>
 <ul class="justify-list">
   <li><b>Platform:</b> Ubuntu 20.04/22.04, Windows 10/11 (simulator has been extensively tested on these platforms)</li>
-  <li><b>Processor:</b> Six-core CPU (e.g., Intel Core i7 or AMD Ryzen 7)</li>
+  <li><b>Processor:</b> Octa-core CPU (e.g., Intel Core i7 or AMD Ryzen 7)</li>
   <li><b>Memory:</b> 16 GB RAM</li>
-  <li><b>Graphics:</b> Mid-range discrete GPU (e.g., NVIDIA GeForce GTX 1660 or RTX 2060) with 4 GB or more VRAM</li>
-  <li><b>Storage:</b> 20 GB free disk space (to accommodate multiple Docker images, additional data, and logs)</li>
-  <li><b>Network:</b> Stable internet connection for pulling Docker images, and downloading updates on the fly</li>
+  <li><b>Graphics:</b> Mid-range discrete GPU (e.g., NVIDIA GeForce GTX 1660 or RTX 2060) with 4+ GB of VRAM</li>
+  <li><b>Storage:</b> 20 GB of free disk space (to accommodate multiple Docker images, additional data, and logs)</li>
+  <li><b>Network:</b> Fast internet connection (10 Mbps) for pulling/pushing Docker images, and downloading updates on the fly</li>
 </ul>
 
 !!! info
-    Note that the organizers will execute the competition framework on a workstation incorporating Intel Core i9 14th Gen 14900K CPU, NVIDIA GeForce RTX 4090 GPU, and 64 GB RAM (or a similar configuration). However, this machine will be simultaneously running the simulator container, screen recorder and data logger in addition to the devkit container. Kindly develop your algorithms while considering their computational requirements.
+    Note that the organizers will execute the competition framework on a workstation incorporating Intel Core i9 14th Gen 14900K CPU, NVIDIA GeForce RTX 4090 GPU, and 64 GB RAM (or a similar configuration). This machine will be simultaneously running the simulator container, devkit container, screen recorder and data logger. Kindly develop your algorithms while considering these computational requirements.
 
 ### 1.2. Graphical User Interface (GUI)
 
@@ -58,7 +58,7 @@ For the F1TENTH Sim Racing League, each team will be provided with a standardize
 </center>
 
 <p align="justify">
-Apart from the visualization of autonomous vehicle(s) and their operating environments, AutoDRIVE Simulator GUI consists of a toolbar encompassing two panels for observing and interacting with key aspects of the simulator in real-time, namely <b>Menu</b> and <b>Heads-Up Display (HUD)</b>. Both the panels can be enabled or disabled using buttons provided on the toolbar, the figure above illustrates both GUI panels being enabled. The menu panel on the left hand side helps configure and control some important aspects of the simulation with just a few clicks. The HUD panel on the right hand side helps visualize prominent simulation parameters along with vehicle status and sensory data, while hosting a time-synchronized data recording functionality that can be used to export simulation data for a specific run.
+AutoDRIVE Simulator's GUI consists of a toolbar encompassing two panels for observing and interacting with key aspects of the simulator in real-time; namely <b>Menu</b> and <b>Heads-Up Display (HUD)</b>. Both the panels can be enabled or disabled using the burger icons provided on the toolbar; the figure above illustrates both the GUI panels being enabled. The menu panel on the left hand side helps configure and control some important aspects of the simulation with just a few clicks. The HUD panel on the right hand side helps visualize prominent simulation parameters along with vehicle status and sensory data, while hosting a time-synchronized data recording functionality that can be used to export simulation data for a specific run.
 </p>
 
 #### 1.2.1. Menu Panel
@@ -66,7 +66,7 @@ Apart from the visualization of autonomous vehicle(s) and their operating enviro
 <ul class="justify-list">
   <li><b>IP Address Field:</b> Input field to specify IP address for the machine running the devkit (default is 127.0.0.1, i.e., standard address for IPv4 loopback traffic).
   <li><b>Port Number Field:</b> Input field to specify port number for the machine running the devkit (default is 4567, observed to be usually unoccupied).
-  <li><b>Connection Button:</b> Button to establish connection with the devkit, which acts as the server with simulator being the client (the button is disabled once the connection is established). The status of bridge connection (i.e., Connected or Disconnected) is displayed besides this button.
+  <li><b>Connection Button:</b> Button to establish connection with the devkit, which acts as the server with the simulator being the client (the button is disabled once the connection is established). The status of bridge connection (i.e., Connected or Disconnected) is displayed besides this button.
   <li><b>Driving Mode Button:</b> Button to toggle the driving mode of the vehicle between Manual and Autonomous (default is Manual). The selected driving mode is displayed besides this button.
   <li><b>Camera View Button:</b> Button to toggle the scene camera view between Driver’s Eye, Bird’s Eye and God’s Eye (default is Driver’s Eye). The selected view is displayed besides this button.
   <li><b>Graphics Quality Button:</b> Button to toggle the graphics quality view between Low, High and Ultra (default is Low). The selected quality is displayed besides this button.
@@ -78,24 +78,46 @@ Apart from the visualization of autonomous vehicle(s) and their operating enviro
 #### 1.2.2. HUD Panel
 
 <ul class="justify-list">
-  <li><b> Simulation Time:</b> The time (HH:MM:SS) since start of the simulation. Reset button resets the simulation time.
-  <li><b> Frame Rate:</b> Running average of the FPS value (Hz).
-  <li><b> Driving Mode:</b> Driving mode of the ego-vehicle (Manual or Autonomous).
-  <li><b> Gear:</b> Drive gear of the vehicle, either Drive (D) or Reverse (R).
-  <li><b> Speed:</b> Magnitude of forward velocity of the vehicle (m/s).
-  <li><b> Throttle:</b> Instantaneous throttle input of the vehicle (%).
-  <li><b> Steering:</b> Instantaneous steering angle of the vehicle (rad).
-  <li><b> Encoder Ticks:</b> Ticks (counts) of the rear-left and rear-right incremental encoders of the vehicle represented using a 1D array of 2 elements [left_ticks, right_ticks].
-  <li><b> IPS Data:</b> Position (m) of the vehicle within the environment represented using a 1D vector [x, y, z].
-  <li><b> IMU Data:</b> Orientation [x, y, z] rad, angular velocity [x, y, z] rad/s, and linear acceleration [x, y, z] m/s<sup>2</sup> of the ego-vehicle w.r.t. body frame of reference.
-  <li><b> LIDAR Measurement:</b> Instantaneous ranging measurement (m) of the 270&deg FOV 2D LIDAR on the vehicle.
-  <li><b> Camera Preview:</b> Instantaneous raw image from the front camera of the vehicle.
-  <li><b> Race Telemetry:</b> Current elapsed lap time (s), last lap time (s), overall best lap time (s) as well as total lap count data.
-  <li><b> Data Recorder:</b> Save time-synchronized simulation data for a specific simulation run.
+  <li><b>Simulation Time:</b> The time (HH:MM:SS) since start of the simulation. Reset button resets the simulation time.
+  <li><b>Frame Rate:</b> Running average of the FPS value (Hz).
+  <li><b>Driving Mode:</b> Driving mode of the ego-vehicle (Manual or Autonomous).
+  <li><b>Gear:</b> Driving gear of the vehicle, either Drive (D) or Reverse (R).
+  <li><b>Speed:</b> Magnitude of forward velocity of the vehicle (m/s).
+  <li><b>Throttle:</b> Instantaneous throttle input of the vehicle (%).
+  <li><b>Steering:</b> Instantaneous steering angle of the vehicle (rad).
+  <li><b>Encoder Ticks:</b> Ticks (counts) of the rear-left and rear-right incremental encoders of the vehicle represented using a 1D array of 2 elements [left_ticks, right_ticks].
+  <li><b>IPS Data:</b> Position (m) of the vehicle within the environment represented using a 1D vector [x, y, z].
+  <li><b>IMU Data:</b> Orientation [x, y, z] rad, angular velocity [x, y, z] rad/s, and linear acceleration [x, y, z] m/s<sup>2</sup> of the ego-vehicle w.r.t. body frame of reference.
+  <li><b>LIDAR Measurement:</b> Instantaneous ranging measurement (m) of the 270&deg FOV 2D LIDAR on the vehicle.
+  <li><b>Camera Preview:</b> Instantaneous raw image from the front camera of the vehicle.
+  <li><b>Race Telemetry:</b> Current elapsed lap time (s), last lap time (s), overall best lap time (s) as well as total lap count data.
+  <li><b>Data Recorder:</b> Save time-synchronized simulation data for a specific simulation run.
 </ul>
 
 ### 1.3. Vehicle
-#### 1.3.1. Frames of Reference (TF)
+#### 1.3.1. Transforms
+
+| <center> <img src="/../assets/images/documentation/f1tenth sim racing league/F1TENTH TF - Oblique View.png"> </center> | <center> <img src="/../assets/images/documentation/f1tenth sim racing league/F1TENTH TF - Front View.png"> </center> |
+|:------------------|:---------|
+| <center> <img src="/../assets/images/documentation/f1tenth sim racing league/F1TENTH TF - Side View.png"> </center> | <center> <img src="/../assets/images/documentation/f1tenth sim racing league/F1TENTH TF - Top View.png"> </center> |
+
+
+| FRAME             | x        | y        | z        | R        | P        | Y        |
+|:------------------|:---------|:---------|:---------|:---------|:---------|:---------|
+| left_encoder      | 0.0      | 0.118    | 0.0      | 0.0      | $\chi$   | 0.0      |
+| right_encoder     | 0.0      | -0.118   | 0.0      | 0.0      | $\chi$   | 0.0      |
+| ips               | 0.08     | 0.0      | 0.055    | 0.0      | 0.0      | 0.0      |
+| imu               | 0.08     | 0.0      | 0.055    | 0.0      | 0.0      | 0.0      |
+| lidar             | 0.2733   | 0.0      | 0.096    | 0.0      | 0.0      | 0.0      |
+| front_camera      | -0.015   | 0.0      | 0.15     | 0.0      | 10.0     | 0.0      |
+| front_left_wheel  | 0.33     | 0.118    | 0.0      | 0.0      | 0.0      | $\chi$   |
+| front_right_wheel | 0.33     | -0.118   | 0.0      | 0.0      | 0.0      | $\chi$   |
+| rear_left_wheel   | 0.0      | 0.118    | 0.0      | 0.0      | $\chi$   | 0.0      |
+| rear_right_wheel  | 0.0      | -0.118   | 0.0      | 0.0      | $\chi$   | 0.0      |
+
+!!! note
+    All frame transforms mentioned above are defined w.r.t. the vehicle (local) frame of reference `f1tenth_1` located at the center of rear axle with x-axis pointing forward, y-axis pointing left, and z-axis pointing upwards. Columns x, y, and z denote translations in meters (m), while R, P, and Y denote rotations in degrees (deg). $\chi$ denotes variable quantities. 
+
 #### 1.3.2. Vehicle Dynamics
 #### 1.3.3. Actuator Dynamics
 #### 1.3.4. Sensor Characteristics
@@ -106,31 +128,27 @@ Apart from the visualization of autonomous vehicle(s) and their operating enviro
 #### 1.4.1. Size and Structure
 
 !!! warning
-    The racetrack is subject to change across different stages of the competition (i.e., practice or race) with prior notice.
+    The racetrack is subject to change across different stages of the competition (e.g., practice, quilification, race, etc.). Participants will be informed about any track changes in advance.
 
 #### 1.4.2. Features (straight, chicane, bifurcation, etc.)
 #### 1.4.3. Obstacles (static/dynamic)
-#### 1.4.4. Frame(s) of Reference (TF)
+#### 1.4.4. Transforms
 
-- world
-    - f1tenth_1
-        - front_camera
-        - front_left_wheel
-        - front_right_wheel
-        - imu
-        - ips
-        - left_encoder
-        - lidar
-        - rear_left_wheel
-        - rear_right_wheel
-        - right_encoder
+<center> <img src="/../assets/images/documentation/f1tenth sim racing league/Racetrack TF - Porto.png"> </center>
+
+| FRAME             | x        | y        | z        | R        | P        | Y        |
+|:------------------|:---------|:---------|:---------|:---------|:---------|:---------|
+| world             | 0.0      | 0.0      | 0.0      | 0.0      | 0.0      | 0.0      |
+| f1tenth_1         | $\chi$   | $\chi$   | $\chi$   | $\chi$   | $\chi$   | $\chi$   |
+
+!!! note
+    All frame transforms mentioned above are defined w.r.t. the global frame of reference `world`, which serves as a static frame of reference for the simulation environment. Columns x, y, and z denote translations in meters (m), while R, P, and Y denote rotations in degrees (deg). $\chi$ denotes variable quantities, which in this case define the ground-truth pose of the vehicle within the simulated racetrack.
 
 !!! warning
-    Since racetrack is subject to change, the fixed environmental frame of reference may be different depending the racetrack.
+    Since the racetrack is subject to change during different phases and iterations of the competition, the location of the fixed environmental frame of reference may be different depending on the racetrack.
 
 #### 1.4.5. Custom Racetracks
 #### 1.4.6. Environmental Variability (time, weather, wind, lighting, friction, etc.)
-
 
 ## 2. AutoDRIVE Devkit
 
@@ -152,12 +170,12 @@ For the F1TENTH Sim Racing League, each team will be provided with a standardize
   <b>Minimum Requirements:</b>
 </p>
 <ul class="justify-list">
-  <li><b>Platform:</b> Ubuntu 20.04, Windows 10, macOS 10.14 (simulator has cross-platform compatibility)</li>
+  <li><b>Platform:</b> Ubuntu 20.04, Windows 10 (VS 2019), macOS 10.14</li>
   <li><b>Processor:</b> Dual-core CPU (e.g., Intel Core i3 or AMD Ryzen 3)</li>
   <li><b>Memory:</b> 4 GB RAM</li>
-  <li><b>Graphics:</b> Integrated graphics (e.g., Intel HD Graphics) or a low-end discrete GPU (e.g., NVIDIA GeForce GT 1030)</li>
-  <li><b>Storage:</b> 5 GB free disk space (for Docker images, API files, and temporary data)</li>
-  <li><b>Network:</b> Internet connection for pulling and pushing Docker images, and downloading updates on demand</li>
+  <li><b>Graphics:</b> Integrated graphics (e.g., Intel HD Graphics)</li>
+  <li><b>Storage:</b> 5 GB free disk space (for storing Docker images, API files, and temporary data)</li>
+  <li><b>Network:</b> Stable internet connection (1 Mbps) for pulling/pushing Docker images, and downloading updates on demand</li>
 </ul>
 
 <p align="justify">
@@ -167,9 +185,9 @@ For the F1TENTH Sim Racing League, each team will be provided with a standardize
   <li><b>Platform:</b> Ubuntu 20.04 (devkit has been extensively tested on this platform)</li>
   <li><b>Processor:</b> Quad-core CPU (e.g., Intel Core i5 or AMD Ryzen 5)</li>
   <li><b>Memory:</b> 8 GB RAM</li>
-  <li><b>Graphics:</b> Mid-range discrete GPU (e.g., NVIDIA GeForce GTX 1050 or RTX 2060) with at least 2 GB of VRAM (optional, depending on whether the development kit includes graphical components)</li>
+  <li><b>Graphics:</b> Low-end discrete GPU (e.g., NVIDIA GeForce GT 1030)</li>
   <li><b>Storage:</b> 10 GB free disk space (to accommodate multiple Docker images, additional data, and logs)</li>
-  <li><b>Network:</b> Stable internet connection for pulling and pushing Docker images, and downloading updates on the fly</li>
+  <li><b>Network:</b> Fast internet connection (10 Mbps) for pulling/pushing Docker images, and downloading updates on the fly</li>
 </ul>
 
 !!! info
