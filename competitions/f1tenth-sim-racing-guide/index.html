@@ -1089,14 +1089,7 @@ AutoDRIVE Simulator's GUI consists of a toolbar encompassing two panels for obse
 <h3 id="14-environment">1.4. Environment<a class="headerlink" href="#14-environment" title="Permanent link">&para;</a></h3>
 <p>Simulated environments can be developed using AutoDRIVE's modular infrastructure development kit (IDK), or imported from third-party tools and open standards. Specifically, the autonomous racing scenario was created based on the binary occupancy grid map of a real-world F1TENTH racetrack, called "Porto", using a third-party 3D modeling software, and was imported and post-processed within AutoDRIVE Simulator to make it physically and graphically "sim-ready".</p>
 <p>These environments are simulated by conducting mesh-mesh interference detection and computing contact forces, frictional forces, momentum transfer, as well as linear and angular drag acting on all rigid bodies in the scenario.</p>
-<h4 id="141-size-and-structure">1.4.1. Size and Structure<a class="headerlink" href="#141-size-and-structure" title="Permanent link">&para;</a></h4>
-<div class="admonition warning">
-<p class="admonition-title">Warning</p>
-<p>The racetrack is subject to change across different stages (e.g., practice, quilification, race, etc.) and iterations (e.g., IROS 2024, CDC 2024, etc.) of the competition. Participants will be informed about any track changes in advance.</p>
-</div>
-<h4 id="142-features-straight-chicane-bifurcation-etc">1.4.2. Features (straight, chicane, bifurcation, etc.)<a class="headerlink" href="#142-features-straight-chicane-bifurcation-etc" title="Permanent link">&para;</a></h4>
-<h4 id="143-obstacles-staticdynamic">1.4.3. Obstacles (static/dynamic)<a class="headerlink" href="#143-obstacles-staticdynamic" title="Permanent link">&para;</a></h4>
-<h4 id="144-transforms">1.4.4. Transforms<a class="headerlink" href="#144-transforms" title="Permanent link">&para;</a></h4>
+<h4 id="141-transforms">1.4.1. Transforms<a class="headerlink" href="#141-transforms" title="Permanent link">&para;</a></h4>
 <p><center>
 <img src="/../assets/images/documentation/f1tenth sim racing league/Racetrack TF - Porto.png">
 </center></p>
@@ -1141,7 +1134,39 @@ AutoDRIVE Simulator's GUI consists of a toolbar encompassing two panels for obse
 <p class="admonition-title">Warning</p>
 <p>Since the racetrack is subject to change during different phases and iterations of the competition, the location of the fixed environmental frame of reference may be different depending on the racetrack.</p>
 </div>
-<!-- #### 1.4.5. Custom Racetracks
+<h4 id="142-size-and-structure">1.4.2. Size and Structure<a class="headerlink" href="#142-size-and-structure" title="Permanent link">&para;</a></h4>
+<ul>
+<li>
+<p>The simulated racetrack will be designed in accordance with the physical F1TENTH racetracks, using similar materials and spanning similar dimensions.</p>
+</li>
+<li>
+<p>The entire racetrack will be designed to fit within an area of around 30<span class="arithmatex">\(\times\)</span>10 m<span class="arithmatex">\(^2\)</span>, much like the physical F1TENTH racetracks.</p>
+</li>
+<li>
+<p>The racetrack border will be constructed from air ducts of about 33 cm in diameter, making sure that it is perceivable to exteroceptive sensors.</p>
+</li>
+<li>
+<p>The racetrack will be atleast 3 car widths (90 cm) wide throughout to allow safe vehicle traversal, while giving an opportunity to optimize racelines.</p>
+</li>
+</ul>
+<h4 id="143-design-and-features">1.4.3. Design and Features<a class="headerlink" href="#143-design-and-features" title="Permanent link">&para;</a></h4>
+<ul>
+<li>
+<p>The road surface will be simulated with properties of polished concrete, which is flat and reflective. Therefore, exteroceptive perception may become challanging at times, much like in the real world.</p>
+</li>
+<li>
+<p>There may be a gap(s) between the ducts through which the LiDAR beams can pass, making it appear as a obstacle-free space. Therefore, motion planning may become challanging at times, much like in the real world.</p>
+</li>
+<li>
+<p>The racetrack may consist of variabilities such as straight stretch, chicane, bifurcation, obstacles, etc. to make the course challenging.</p>
+</li>
+</ul>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>The racetrack is subject to change across different phases (e.g., practice, quilification, race, etc.) and iterations (e.g., IROS 2024, CDC 2024, etc.) of the competition. Participants will be informed about any track changes in advance.</p>
+</div>
+<!-- #### 1.4.4. Obstacles (static/dynamic)
+#### 1.4.5. Custom Racetracks
 #### 1.4.6. Environmental Variability (time, weather, wind, lighting, friction, etc.) -->
 
 <h2 id="2-autodrive-devkit">2. AutoDRIVE Devkit<a class="headerlink" href="#2-autodrive-devkit" title="Permanent link">&para;</a></h2>
@@ -1352,7 +1377,7 @@ F1TENTH Sim Racing League is a virtual competition, which accompanies the physic
 <h3 id="31-submission-preparation">3.1. Submission Preparation<a class="headerlink" href="#31-submission-preparation" title="Permanent link">&para;</a></h3>
 <h4 id="311-setup">3.1.1. Setup<a class="headerlink" href="#311-setup" title="Permanent link">&para;</a></h4>
 <ol>
-<li>Install <a href="https://docs.docker.com/engine/install">Docker</a> is installed.</li>
+<li>Install <a href="https://docs.docker.com/engine/install">Docker</a>.</li>
 <li>Since the Docker container is to take advantage of an NVIDIA GPU, the host machine has to be properly configured by installing the necessary NVIDIA GPU Drivers and the <a href="https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/latest/index.html">NVIDIA Container Toolkit</a>.</li>
 <li>Pull <a href="https://hub.docker.com/repository/docker/autodriveecosystem/autodrive_f1tenth_sim">AutoDRIVE Simulator docker image</a> from DockerHub.
    <div class="language-bash highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>docker<span class="w"> </span>pull<span class="w"> </span>autodriveecosystem/autodrive_f1tenth_sim:&lt;TAG&gt;
