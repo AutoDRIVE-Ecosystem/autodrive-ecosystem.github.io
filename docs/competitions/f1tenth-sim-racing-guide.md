@@ -7,10 +7,10 @@ This document describes the technical details of the competition framework for t
 </p>
 
 !!! warning
-    It expected that teams have sufficient background knowlege pertaining to autonomous racing (concepts, methods, and algorithms), programming languages (Python, C++, etc.) and frameworks (ROS 2), containerization (Docker) and version control (Git), etc. In order to be fair to all teams and keep the competition on schedule, extensive technical support/help cannot be provided by the organizers. However, legitimate requests may be entertained at the discretion of the organizers.
+    It expected that teams have sufficient background knowledge pertaining to autonomous racing (concepts, methods, and algorithms), programming languages (Python, C++, etc.) and frameworks (ROS 2), containerization (Docker) and version control (Git), etc. In order to be fair to all teams and keep the competition on schedule, extensive technical support/help cannot be provided by the organizers. However, legitimate requests may be entertained at the discretion of the organizers.
 
 !!! note
-    Although AutoDRIVE Ecosystem supports various vehicles across different scales, configurations and operational design domains (ODDs), the **only** vehicle allowed for this competition is the **F1TENTH**. Similarly, although AutoDRIVE Ecosystem supports multiple application programming interfaces (APIs), the **only** API allowed for this competition is **ROS 2**.
+    Although AutoDRIVE Ecosystem supports various vehicles across different scales, configurations, and operational design domains (ODDs), the **only** vehicle allowed for this competition is the **F1TENTH**. Similarly, although AutoDRIVE Ecosystem supports multiple application programming interfaces (APIs), the **only** API allowed for this competition is **ROS 2**.
 
 ## 1. AutoDRIVE Simulator
 
@@ -19,7 +19,7 @@ AutoDRIVE Simulator (part of the larger <a href="https://autodrive-ecosystem.git
 </p>
 
 <p align="justify">
-For the F1TENTH Sim Racing League, each team will be provided with a standardized simulation setup (in the form of a digital twin of the F1TENTH vehicle, and a digital twin of the Porto racetrack) within the high-fidelity <a href="https://github.com/Tinker-Twins/AutoDRIVE/tree/AutoDRIVE-Simulator">AutoDRIVE Simulator</a>. This would democratize autonomous racing, and make this competition accessible to everyone across the globe.
+For the F1TENTH Sim Racing League, each team will be provided with a standardized simulation setup (in the form of a digital twin of the F1TENTH vehicle, and a digital twin of the Porto racetrack) within the high-fidelity <a href="https://github.com/Tinker-Twins/AutoDRIVE/tree/AutoDRIVE-Simulator">AutoDRIVE Simulator</a>. This would democratize autonomous racing and make this competition accessible to everyone across the globe.
 </p>
 
 ### 1.1. System Requirements
@@ -58,7 +58,7 @@ For the F1TENTH Sim Racing League, each team will be provided with a standardize
 </center>
 
 <p align="justify">
-AutoDRIVE Simulator's GUI consists of a toolbar encompassing two panels for observing and interacting with key aspects of the simulator in real-time; namely <b>Menu</b> and <b>Heads-Up Display (HUD)</b>. Both the panels can be enabled or disabled using the burger icons provided on the toolbar; the figure above illustrates both the GUI panels being enabled. The menu panel on the left hand side helps configure and control some important aspects of the simulation with just a few clicks. The HUD panel on the right hand side helps visualize prominent simulation parameters along with vehicle status and sensory data, while hosting a time-synchronized data recording functionality that can be used to export simulation data for a specific run.
+AutoDRIVE Simulator's GUI consists of a toolbar encompassing two panels for observing and interacting with key aspects of the simulator in real-time, namely <b>Menu</b> and <b>Heads-Up Display (HUD)</b>. Both the panels can be enabled or disabled using the burger icons provided on the toolbar; the figure above illustrates both the GUI panels being enabled. The menu panel on the left-hand side helps configure and control some important aspects of the simulation with just a few clicks. The HUD panel on the right-hand side helps visualize prominent simulation parameters along with vehicle status and sensory data, while hosting a time-synchronized data recording functionality that can be used to export simulation data for a specific run.
 </p>
 
 #### 1.2.1. Menu Panel
@@ -69,7 +69,7 @@ AutoDRIVE Simulator's GUI consists of a toolbar encompassing two panels for obse
   <li><b>Connection Button:</b> Button to establish connection with the devkit, which acts as the server with the simulator being the client (the button is disabled once the connection is established). The status of bridge connection (i.e., Connected or Disconnected) is displayed besides this button.
   <li><b>Driving Mode Button:</b> Button to toggle the driving mode of the vehicle between Manual and Autonomous (default is Manual). The selected driving mode is displayed besides this button.
   <li><b>Camera View Button:</b> Button to toggle the scene camera view between Driver’s Eye, Bird’s Eye and God’s Eye (default is Driver’s Eye). The selected view is displayed besides this button.
-  <li><b>Graphics Quality Button:</b> Button to toggle the graphics quality view between Low, High and Ultra (default is Low). The selected quality is displayed besides this button.
+  <li><b>Graphics Quality Button:</b> Button to toggle the graphics quality view between Low, High, and Ultra (default is Low). The selected quality is displayed besides this button.
   <li><b>Scene Light Button:</b> Button to enable/disable the environmental lighting (default is enabled).
   <li><b>Reset Button:</b> Button to reset the simulator to initial conditions.
   <li><b>Quit Button:</b> Button to quit the simulator application.
@@ -110,7 +110,7 @@ These vehicles are simulated as a combination of rigid body and sprung mass repr
 </div>
 
 !!! note
-    All right handed coordinate frames depicted above are defined such that red represents x-axis, green represents y-axis, and blue represents z-axis.
+    All right-handed coordinate frames depicted above are defined such that red represents x-axis, green represents y-axis, and blue represents z-axis.
 
 | :material-axis-arrow: FRAME | x        | y        | z        | R        | P                                   | Y       |
 |:----------------------------|:---------|:---------|:---------|:---------|:------------------------------------|:--------|
@@ -236,7 +236,7 @@ Simulated cameras are parameterized by their focal length $f$, sensor size $\{s_
 | Shutter Speed             | 0.005 s               |
 | Focal Length              | 3.04 m                |
 | Aperture                  | f/16                  |
-| Target Resoultion         | 1280$\times$720 px    |
+| Target Resolution         | 1280$\times$720 px    |
 | Supported Outputs         | RGB Image             |
 
 <!-- #### 1.3.5. Variability (noise in sensor/actuator/system characteristics)
@@ -255,7 +255,7 @@ These environments are simulated by conducting mesh-mesh interference detection 
 </center>
 
 !!! note
-    All right handed coordinate frames depicted above are defined such that red represents x-axis, green represents y-axis, and blue represents z-axis.
+    All right-handed coordinate frames depicted above are defined such that red represents x-axis, green represents y-axis, and blue represents z-axis.
 
 | :material-axis-arrow: FRAME | x        | y        | z        | R        | P        | Y        |
 |:----------------------------|:---------|:---------|:---------|:---------|:---------|:---------|
@@ -276,18 +276,18 @@ These environments are simulated by conducting mesh-mesh interference detection 
 
 - The racetrack border will be constructed from air ducts of about 33 cm in diameter, making sure that it is perceivable to exteroceptive sensors.
 
-- The racetrack will be atleast 3 car widths (90 cm) wide throughout to allow safe vehicle traversal, while giving an opportunity to optimize racelines.
+- The racetrack will be at least 3 car widths (90 cm) wide throughout to allow safe vehicle traversal, while giving an opportunity to optimize the racelines.
 
 #### 1.4.3. Design and Features
 
-- The road surface will be simulated with properties of polished concrete, which is flat and reflective. Therefore, exteroceptive perception may become challanging at times, much like in the real world.
+- The road surface will be simulated with properties of polished concrete, which is flat and reflective. Therefore, exteroceptive perception may become challenging at times, much like in the real world.
 
-- There may be a gap(s) between the ducts through which the LiDAR beams can pass, making it appear as an obstacle-free space. Therefore, motion planning may become challanging at times, much like in the real world.
+- There may be a gap(s) between the ducts through which the LiDAR beams can pass, making it appear as an obstacle-free space. Therefore, motion planning may become challenging at times, much like in the real world.
 
 - The racetrack may consist of variabilities such as straight stretch, chicane, bifurcation, obstacles, etc. to make the course challenging.
 
 !!! warning
-    The racetrack is subject to change across different phases (e.g., practice, quilification, race, etc.) and iterations (e.g., IROS 2024, CDC 2024, etc.) of the competition. Participants will be informed about any track changes in advance.
+    The racetrack is subject to change across different phases (e.g., practice, qualification, race, etc.) and iterations (e.g., IROS 2024, CDC 2024, etc.) of the competition. Participants will be informed about any track changes in advance.
 
 <!-- #### 1.4.4. Obstacles (static/dynamic)
 #### 1.4.5. Custom Racetracks
@@ -304,7 +304,7 @@ AutoDRIVE Devkit (part of the larger <a href="https://autodrive-ecosystem.github
 </p>
 
 <p align="justify">
-For the F1TENTH Sim Racing League, each team will be provided with a standardized working implementation of the <a href="https://github.com/Tinker-Twins/AutoDRIVE/tree/AutoDRIVE-Devkit">AutoDRIVE Devkit</a> (in the form of ROS 2 API for the the F1TENTH digital twin within AutoDRIVE Simulator) to get started with developing their autonomy algorithms. Teams will have to develop perception, planning, and control algorithms to parse the real-time sensor data streamed from the simulator and generate control commands to be fed back to the simulated vehicle. Since the vehicle, the sensors, the simulator, and the devkit are standardized, teams must develop robust racing algorithms that can deal with the uncertainties of an unseen racetrack.
+For the F1TENTH Sim Racing League, each team will be provided with a standardized working implementation of the <a href="https://github.com/Tinker-Twins/AutoDRIVE/tree/AutoDRIVE-Devkit">AutoDRIVE Devkit</a> (in the form of ROS 2 API for the F1TENTH digital twin within AutoDRIVE Simulator) to get started with developing their autonomy algorithms. Teams will have to develop perception, planning, and control algorithms to parse the real-time sensor data streamed from the simulator and generate control commands to be fed back to the simulated vehicle. Since the vehicle, the sensors, the simulator, and the devkit are standardized, teams must develop robust racing algorithms that can deal with the uncertainties of an unseen racetrack.
 </p>
 
 ### 2.1. System Requirements
