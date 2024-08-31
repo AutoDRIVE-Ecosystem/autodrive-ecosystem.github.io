@@ -571,7 +571,7 @@ AutoDRIVE Simulator (part of the larger <a href="https://autodrive-ecosystem.git
 </p>
 
 <p align="justify">
-For the F1TENTH Sim Racing League, each team will be provided with a standardized simulation setup (in the form of a digital twin of the F1TENTH vehicle, and a digital twin of the Porto racetrack) within the high-fidelity <a href="https://github.com/Tinker-Twins/AutoDRIVE/tree/AutoDRIVE-Simulator">AutoDRIVE Simulator</a>. This would help make this competition, and exploration of autonomous racing in general, accessible to everyone across the globe.
+For the F1TENTH Sim Racing League, each team will be provided with a standardized simulation setup (in the form of a digital twin of the F1TENTH vehicle, and a digital twin of the Porto racetrack) within the high-fidelity <a href="https://github.com/Tinker-Twins/AutoDRIVE/tree/AutoDRIVE-Simulator">AutoDRIVE Simulator</a>. This would democratize autonomous racing, and make this competition accessible to everyone across the globe.
 </p>
 
 <h3 id="11-system-requirements">1.1. System Requirements<a class="headerlink" href="#11-system-requirements" title="Permanent link">&para;</a></h3>
@@ -582,9 +582,9 @@ For the F1TENTH Sim Racing League, each team will be provided with a standardize
   <li><b>Platform:</b> Ubuntu 20.04+, Windows 10+, macOS 10.14+ (simulator has cross-platform compatibility)</li>
   <li><b>Processor:</b> Quad-core CPU (e.g., Intel Core i5 or AMD Ryzen 5)</li>
   <li><b>Memory:</b> 8 GB RAM</li>
-  <li><b>Graphics:</b> Integrated graphics or a low-end discrete GPU (e.g., NVIDIA GeForce GTX 1050) with at least 2 GB of VRAM</li>
-  <li><b>Storage:</b> 10 GB free disk space (for Docker images, simulator application and data)</li>
-  <li><b>Network:</b> Internet connection for pulling Docker images, and downloading updates on demand</li>
+  <li><b>Graphics:</b> Integrated graphics (e.g., Intel HD Graphics) or a low-end discrete GPU (e.g., NVIDIA GeForce GTX 1050) with at least 2 GB of VRAM</li>
+  <li><b>Storage:</b> 10 GB of free disk space (for storing Docker images, simulator application and data)</li>
+  <li><b>Network:</b> Stable internet connection (1 Mbps) for pulling/pushing Docker images, and downloading updates on demand</li>
 </ul>
 
 <p align="justify">
@@ -592,30 +592,30 @@ For the F1TENTH Sim Racing League, each team will be provided with a standardize
 </p>
 <ul class="justify-list">
   <li><b>Platform:</b> Ubuntu 20.04/22.04, Windows 10/11 (simulator has been extensively tested on these platforms)</li>
-  <li><b>Processor:</b> Six-core CPU (e.g., Intel Core i7 or AMD Ryzen 7)</li>
+  <li><b>Processor:</b> Octa-core CPU (e.g., Intel Core i7 or AMD Ryzen 7)</li>
   <li><b>Memory:</b> 16 GB RAM</li>
-  <li><b>Graphics:</b> Mid-range discrete GPU (e.g., NVIDIA GeForce GTX 1660 or RTX 2060) with 4 GB or more VRAM</li>
-  <li><b>Storage:</b> 20 GB free disk space (to accommodate multiple Docker images, additional data, and logs)</li>
-  <li><b>Network:</b> Stable internet connection for pulling Docker images, and downloading updates on the fly</li>
+  <li><b>Graphics:</b> Mid-range discrete GPU (e.g., NVIDIA GeForce GTX 1660 or RTX 2060) with 4+ GB of VRAM</li>
+  <li><b>Storage:</b> 20 GB of free disk space (to accommodate multiple Docker images, additional data, and logs)</li>
+  <li><b>Network:</b> Fast internet connection (10 Mbps) for pulling/pushing Docker images, and downloading updates on the fly</li>
 </ul>
 
 <div class="admonition info">
 <p class="admonition-title">Info</p>
-<p>Note that the organizers will execute the competition framework on a workstation incorporating Intel Core i9 14<sup>th</sup> Gen 14900K CPU, NVIDIA GeForce RTX 4090 GPU, and 64 GB RAM (or a similar configuration). However, this machine will be simultaneously running the simulator container, screen recorder and data logger in addition to the devkit container. Kindly develop your algorithms while considering their computational requirements.</p>
+<p>Note that the organizers will execute the competition framework on a workstation incorporating Intel Core i9 14<sup>th</sup> Gen 14900K CPU, NVIDIA GeForce RTX 4090 GPU, and 64 GB RAM (or a similar configuration). This machine will be simultaneously running the simulator container, devkit container, screen recorder and data logger. Kindly develop your algorithms while considering these computational requirements.</p>
 </div>
 <h3 id="12-graphical-user-interface-gui">1.2. Graphical User Interface (GUI)<a class="headerlink" href="#12-graphical-user-interface-gui" title="Permanent link">&para;</a></h3>
 <p><center>
 <img src="/../assets/images/documentation/f1tenth sim racing league/Simulator.png">
 </center></p>
 <p align="justify">
-Apart from the visualization of autonomous vehicle(s) and their operating environments, AutoDRIVE Simulator GUI consists of a toolbar encompassing two panels for observing and interacting with key aspects of the simulator in real-time, namely <b>Menu</b> and <b>Heads-Up Display (HUD)</b>. Both the panels can be enabled or disabled using buttons provided on the toolbar, the figure above illustrates both GUI panels being enabled. The menu panel on the left hand side helps configure and control some important aspects of the simulation with just a few clicks. The HUD panel on the right hand side helps visualize prominent simulation parameters along with vehicle status and sensory data, while hosting a time-synchronized data recording functionality that can be used to export simulation data for a specific run.
+AutoDRIVE Simulator's GUI consists of a toolbar encompassing two panels for observing and interacting with key aspects of the simulator in real-time; namely <b>Menu</b> and <b>Heads-Up Display (HUD)</b>. Both the panels can be enabled or disabled using the burger icons provided on the toolbar; the figure above illustrates both the GUI panels being enabled. The menu panel on the left hand side helps configure and control some important aspects of the simulation with just a few clicks. The HUD panel on the right hand side helps visualize prominent simulation parameters along with vehicle status and sensory data, while hosting a time-synchronized data recording functionality that can be used to export simulation data for a specific run.
 </p>
 
 <h4 id="121-menu-panel">1.2.1. Menu Panel<a class="headerlink" href="#121-menu-panel" title="Permanent link">&para;</a></h4>
 <ul class="justify-list">
   <li><b>IP Address Field:</b> Input field to specify IP address for the machine running the devkit (default is 127.0.0.1, i.e., standard address for IPv4 loopback traffic).
   <li><b>Port Number Field:</b> Input field to specify port number for the machine running the devkit (default is 4567, observed to be usually unoccupied).
-  <li><b>Connection Button:</b> Button to establish connection with the devkit, which acts as the server with simulator being the client (the button is disabled once the connection is established). The status of bridge connection (i.e., Connected or Disconnected) is displayed besides this button.
+  <li><b>Connection Button:</b> Button to establish connection with the devkit, which acts as the server with the simulator being the client (the button is disabled once the connection is established). The status of bridge connection (i.e., Connected or Disconnected) is displayed besides this button.
   <li><b>Driving Mode Button:</b> Button to toggle the driving mode of the vehicle between Manual and Autonomous (default is Manual). The selected driving mode is displayed besides this button.
   <li><b>Camera View Button:</b> Button to toggle the scene camera view between Driver’s Eye, Bird’s Eye and God’s Eye (default is Driver’s Eye). The selected view is displayed besides this button.
   <li><b>Graphics Quality Button:</b> Button to toggle the graphics quality view between Low, High and Ultra (default is Low). The selected quality is displayed besides this button.
@@ -626,24 +626,147 @@ Apart from the visualization of autonomous vehicle(s) and their operating enviro
 
 <h4 id="122-hud-panel">1.2.2. HUD Panel<a class="headerlink" href="#122-hud-panel" title="Permanent link">&para;</a></h4>
 <ul class="justify-list">
-  <li><b> Simulation Time:</b> The time (HH:MM:SS) since start of the simulation. Reset button resets the simulation time.
-  <li><b> Frame Rate:</b> Running average of the FPS value (Hz).
-  <li><b> Driving Mode:</b> Driving mode of the ego-vehicle (Manual or Autonomous).
-  <li><b> Gear:</b> Drive gear of the vehicle, either Drive (D) or Reverse (R).
-  <li><b> Speed:</b> Magnitude of forward velocity of the vehicle (m/s).
-  <li><b> Throttle:</b> Instantaneous throttle input of the vehicle (%).
-  <li><b> Steering:</b> Instantaneous steering angle of the vehicle (rad).
-  <li><b> Encoder Ticks:</b> Ticks (counts) of the rear-left and rear-right incremental encoders of the vehicle represented using a 1D array of 2 elements [left_ticks, right_ticks].
-  <li><b> IPS Data:</b> Position (m) of the vehicle within the environment represented using a 1D vector [x, y, z].
-  <li><b> IMU Data:</b> Orientation [x, y, z] rad, angular velocity [x, y, z] rad/s, and linear acceleration [x, y, z] m/s<sup>2</sup> of the ego-vehicle w.r.t. body frame of reference.
-  <li><b> LIDAR Measurement:</b> Instantaneous ranging measurement (m) of the 270&deg FOV 2D LIDAR on the vehicle.
-  <li><b> Camera Preview:</b> Instantaneous raw image from the front camera of the vehicle.
-  <li><b> Race Telemetry:</b> Current elapsed lap time (s), last lap time (s), overall best lap time (s) as well as total lap count data.
-  <li><b> Data Recorder:</b> Save time-synchronized simulation data for a specific simulation run.
+  <li><b>Simulation Time:</b> The time (HH:MM:SS) since start of the simulation. Reset button resets the simulation time.
+  <li><b>Frame Rate:</b> Running average of the FPS value (Hz).
+  <li><b>Driving Mode:</b> Driving mode of the ego-vehicle (Manual or Autonomous).
+  <li><b>Gear:</b> Driving gear of the vehicle, either Drive (D) or Reverse (R).
+  <li><b>Speed:</b> Magnitude of forward velocity of the vehicle (m/s).
+  <li><b>Throttle:</b> Instantaneous throttle input of the vehicle (%).
+  <li><b>Steering:</b> Instantaneous steering angle of the vehicle (rad).
+  <li><b>Encoder Ticks:</b> Ticks (counts) of the rear-left and rear-right incremental encoders of the vehicle represented using a 1D array of 2 elements [left_ticks, right_ticks].
+  <li><b>IPS Data:</b> Position (m) of the vehicle within the environment represented using a 1D vector [x, y, z].
+  <li><b>IMU Data:</b> Orientation [x, y, z] rad, angular velocity [x, y, z] rad/s, and linear acceleration [x, y, z] m/s<sup>2</sup> of the ego-vehicle w.r.t. body frame of reference.
+  <li><b>LIDAR Measurement:</b> Instantaneous ranging measurement (m) of the 270&deg FOV 2D LIDAR on the vehicle.
+  <li><b>Camera Preview:</b> Instantaneous raw image from the front camera of the vehicle.
+  <li><b>Race Telemetry:</b> Current elapsed lap time (s), last lap time (s), overall best lap time (s) as well as total lap count data.
+  <li><b>Data Recorder:</b> Save time-synchronized simulation data for a specific simulation run.
 </ul>
 
 <h3 id="13-vehicle">1.3. Vehicle<a class="headerlink" href="#13-vehicle" title="Permanent link">&para;</a></h3>
-<h4 id="131-frames-of-reference-tf">1.3.1. Frames of Reference (TF)<a class="headerlink" href="#131-frames-of-reference-tf" title="Permanent link">&para;</a></h4>
+<h4 id="131-transforms">1.3.1. Transforms<a class="headerlink" href="#131-transforms" title="Permanent link">&para;</a></h4>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;"><center> <img src="/../assets/images/documentation/f1tenth sim racing league/F1TENTH TF - Oblique View.png"> </center></th>
+<th style="text-align: left;"><center> <img src="/../assets/images/documentation/f1tenth sim racing league/F1TENTH TF - Front View.png"> </center></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><center> <img src="/../assets/images/documentation/f1tenth sim racing league/F1TENTH TF - Side View.png"> </center></td>
+<td style="text-align: left;"><center> <img src="/../assets/images/documentation/f1tenth sim racing league/F1TENTH TF - Top View.png"> </center></td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">FRAME</th>
+<th style="text-align: left;">x</th>
+<th style="text-align: left;">y</th>
+<th style="text-align: left;">z</th>
+<th style="text-align: left;">R</th>
+<th style="text-align: left;">P</th>
+<th style="text-align: left;">Y</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">left_encoder</td>
+<td style="text-align: left;">0.0</td>
+<td style="text-align: left;">0.118</td>
+<td style="text-align: left;">0.0</td>
+<td style="text-align: left;">0.0</td>
+<td style="text-align: left;"><span class="arithmatex">\(\chi\)</span></td>
+<td style="text-align: left;">0.0</td>
+</tr>
+<tr>
+<td style="text-align: left;">right_encoder</td>
+<td style="text-align: left;">0.0</td>
+<td style="text-align: left;">-0.118</td>
+<td style="text-align: left;">0.0</td>
+<td style="text-align: left;">0.0</td>
+<td style="text-align: left;"><span class="arithmatex">\(\chi\)</span></td>
+<td style="text-align: left;">0.0</td>
+</tr>
+<tr>
+<td style="text-align: left;">ips</td>
+<td style="text-align: left;">0.08</td>
+<td style="text-align: left;">0.0</td>
+<td style="text-align: left;">0.055</td>
+<td style="text-align: left;">0.0</td>
+<td style="text-align: left;">0.0</td>
+<td style="text-align: left;">0.0</td>
+</tr>
+<tr>
+<td style="text-align: left;">imu</td>
+<td style="text-align: left;">0.08</td>
+<td style="text-align: left;">0.0</td>
+<td style="text-align: left;">0.055</td>
+<td style="text-align: left;">0.0</td>
+<td style="text-align: left;">0.0</td>
+<td style="text-align: left;">0.0</td>
+</tr>
+<tr>
+<td style="text-align: left;">lidar</td>
+<td style="text-align: left;">0.2733</td>
+<td style="text-align: left;">0.0</td>
+<td style="text-align: left;">0.096</td>
+<td style="text-align: left;">0.0</td>
+<td style="text-align: left;">0.0</td>
+<td style="text-align: left;">0.0</td>
+</tr>
+<tr>
+<td style="text-align: left;">front_camera</td>
+<td style="text-align: left;">-0.015</td>
+<td style="text-align: left;">0.0</td>
+<td style="text-align: left;">0.15</td>
+<td style="text-align: left;">0.0</td>
+<td style="text-align: left;">10.0</td>
+<td style="text-align: left;">0.0</td>
+</tr>
+<tr>
+<td style="text-align: left;">front_left_wheel</td>
+<td style="text-align: left;">0.33</td>
+<td style="text-align: left;">0.118</td>
+<td style="text-align: left;">0.0</td>
+<td style="text-align: left;">0.0</td>
+<td style="text-align: left;">0.0</td>
+<td style="text-align: left;"><span class="arithmatex">\(\chi\)</span></td>
+</tr>
+<tr>
+<td style="text-align: left;">front_right_wheel</td>
+<td style="text-align: left;">0.33</td>
+<td style="text-align: left;">-0.118</td>
+<td style="text-align: left;">0.0</td>
+<td style="text-align: left;">0.0</td>
+<td style="text-align: left;">0.0</td>
+<td style="text-align: left;"><span class="arithmatex">\(\chi\)</span></td>
+</tr>
+<tr>
+<td style="text-align: left;">rear_left_wheel</td>
+<td style="text-align: left;">0.0</td>
+<td style="text-align: left;">0.118</td>
+<td style="text-align: left;">0.0</td>
+<td style="text-align: left;">0.0</td>
+<td style="text-align: left;"><span class="arithmatex">\(\chi\)</span></td>
+<td style="text-align: left;">0.0</td>
+</tr>
+<tr>
+<td style="text-align: left;">rear_right_wheel</td>
+<td style="text-align: left;">0.0</td>
+<td style="text-align: left;">-0.118</td>
+<td style="text-align: left;">0.0</td>
+<td style="text-align: left;">0.0</td>
+<td style="text-align: left;"><span class="arithmatex">\(\chi\)</span></td>
+<td style="text-align: left;">0.0</td>
+</tr>
+</tbody>
+</table>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>All frame transforms mentioned above are defined w.r.t. the vehicle (local) frame of reference <code>f1tenth_1</code> located at the center of rear axle with x-axis pointing forward, y-axis pointing left, and z-axis pointing upwards. Columns x, y, and z denote translations in meters (m), while R, P, and Y denote rotations in degrees (deg). <span class="arithmatex">\(\chi\)</span> denotes variable quantities. </p>
+</div>
 <h4 id="132-vehicle-dynamics">1.3.2. Vehicle Dynamics<a class="headerlink" href="#132-vehicle-dynamics" title="Permanent link">&para;</a></h4>
 <h4 id="133-actuator-dynamics">1.3.3. Actuator Dynamics<a class="headerlink" href="#133-actuator-dynamics" title="Permanent link">&para;</a></h4>
 <h4 id="134-sensor-characteristics">1.3.4. Sensor Characteristics<a class="headerlink" href="#134-sensor-characteristics" title="Permanent link">&para;</a></h4>
@@ -653,32 +776,52 @@ Apart from the visualization of autonomous vehicle(s) and their operating enviro
 <h4 id="141-size-and-structure">1.4.1. Size and Structure<a class="headerlink" href="#141-size-and-structure" title="Permanent link">&para;</a></h4>
 <div class="admonition warning">
 <p class="admonition-title">Warning</p>
-<p>The racetrack is subject to change across different stages of the competition (i.e., practice or race) with prior notice.</p>
+<p>The racetrack is subject to change across different stages of the competition (e.g., practice, quilification, race, etc.). Participants will be informed about any track changes in advance.</p>
 </div>
 <h4 id="142-features-straight-chicane-bifurcation-etc">1.4.2. Features (straight, chicane, bifurcation, etc.)<a class="headerlink" href="#142-features-straight-chicane-bifurcation-etc" title="Permanent link">&para;</a></h4>
 <h4 id="143-obstacles-staticdynamic">1.4.3. Obstacles (static/dynamic)<a class="headerlink" href="#143-obstacles-staticdynamic" title="Permanent link">&para;</a></h4>
-<h4 id="144-frames-of-reference-tf">1.4.4. Frame(s) of Reference (TF)<a class="headerlink" href="#144-frames-of-reference-tf" title="Permanent link">&para;</a></h4>
-<ul>
-<li>world<ul>
-<li>f1tenth_1<ul>
-<li>front_camera</li>
-<li>front_left_wheel</li>
-<li>front_right_wheel</li>
-<li>imu</li>
-<li>ips</li>
-<li>left_encoder</li>
-<li>lidar</li>
-<li>rear_left_wheel</li>
-<li>rear_right_wheel</li>
-<li>right_encoder</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
+<h4 id="144-transforms">1.4.4. Transforms<a class="headerlink" href="#144-transforms" title="Permanent link">&para;</a></h4>
+<p><center> <img src="/../assets/images/documentation/f1tenth sim racing league/Racetrack TF - Porto.png"> </center></p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">FRAME</th>
+<th style="text-align: left;">x</th>
+<th style="text-align: left;">y</th>
+<th style="text-align: left;">z</th>
+<th style="text-align: left;">R</th>
+<th style="text-align: left;">P</th>
+<th style="text-align: left;">Y</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">world</td>
+<td style="text-align: left;">0.0</td>
+<td style="text-align: left;">0.0</td>
+<td style="text-align: left;">0.0</td>
+<td style="text-align: left;">0.0</td>
+<td style="text-align: left;">0.0</td>
+<td style="text-align: left;">0.0</td>
+</tr>
+<tr>
+<td style="text-align: left;">f1tenth_1</td>
+<td style="text-align: left;"><span class="arithmatex">\(\chi\)</span></td>
+<td style="text-align: left;"><span class="arithmatex">\(\chi\)</span></td>
+<td style="text-align: left;"><span class="arithmatex">\(\chi\)</span></td>
+<td style="text-align: left;"><span class="arithmatex">\(\chi\)</span></td>
+<td style="text-align: left;"><span class="arithmatex">\(\chi\)</span></td>
+<td style="text-align: left;"><span class="arithmatex">\(\chi\)</span></td>
+</tr>
+</tbody>
+</table>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>All frame transforms mentioned above are defined w.r.t. the global frame of reference <code>world</code>, which serves as a static frame of reference for the simulation environment. Columns x, y, and z denote translations in meters (m), while R, P, and Y denote rotations in degrees (deg). <span class="arithmatex">\(\chi\)</span> denotes variable quantities, which in this case define the ground-truth pose of the vehicle within the simulated racetrack.</p>
+</div>
 <div class="admonition warning">
 <p class="admonition-title">Warning</p>
-<p>Since racetrack is subject to change, the fixed environmental frame of reference may be different depending the racetrack.</p>
+<p>Since the racetrack is subject to change during different phases and iterations of the competition, the location of the fixed environmental frame of reference may be different depending on the racetrack.</p>
 </div>
 <h4 id="145-custom-racetracks">1.4.5. Custom Racetracks<a class="headerlink" href="#145-custom-racetracks" title="Permanent link">&para;</a></h4>
 <h4 id="146-environmental-variability-time-weather-wind-lighting-friction-etc">1.4.6. Environmental Variability (time, weather, wind, lighting, friction, etc.)<a class="headerlink" href="#146-environmental-variability-time-weather-wind-lighting-friction-etc" title="Permanent link">&para;</a></h4>
@@ -699,12 +842,12 @@ For the F1TENTH Sim Racing League, each team will be provided with a standardize
   <b>Minimum Requirements:</b>
 </p>
 <ul class="justify-list">
-  <li><b>Platform:</b> Ubuntu 20.04, Windows 10, macOS 10.14 (simulator has cross-platform compatibility)</li>
+  <li><b>Platform:</b> Ubuntu 20.04, Windows 10 (VS 2019), macOS 10.14</li>
   <li><b>Processor:</b> Dual-core CPU (e.g., Intel Core i3 or AMD Ryzen 3)</li>
   <li><b>Memory:</b> 4 GB RAM</li>
-  <li><b>Graphics:</b> Integrated graphics (e.g., Intel HD Graphics) or a low-end discrete GPU (e.g., NVIDIA GeForce GT 1030)</li>
-  <li><b>Storage:</b> 5 GB free disk space (for Docker images, API files, and temporary data)</li>
-  <li><b>Network:</b> Internet connection for pulling and pushing Docker images, and downloading updates on demand</li>
+  <li><b>Graphics:</b> Integrated graphics (e.g., Intel HD Graphics)</li>
+  <li><b>Storage:</b> 5 GB free disk space (for storing Docker images, API files, and temporary data)</li>
+  <li><b>Network:</b> Stable internet connection (1 Mbps) for pulling/pushing Docker images, and downloading updates on demand</li>
 </ul>
 
 <p align="justify">
@@ -714,9 +857,9 @@ For the F1TENTH Sim Racing League, each team will be provided with a standardize
   <li><b>Platform:</b> Ubuntu 20.04 (devkit has been extensively tested on this platform)</li>
   <li><b>Processor:</b> Quad-core CPU (e.g., Intel Core i5 or AMD Ryzen 5)</li>
   <li><b>Memory:</b> 8 GB RAM</li>
-  <li><b>Graphics:</b> Mid-range discrete GPU (e.g., NVIDIA GeForce GTX 1050 or RTX 2060) with at least 2 GB of VRAM (optional, depending on whether the development kit includes graphical components)</li>
+  <li><b>Graphics:</b> Low-end discrete GPU (e.g., NVIDIA GeForce GT 1030)</li>
   <li><b>Storage:</b> 10 GB free disk space (to accommodate multiple Docker images, additional data, and logs)</li>
-  <li><b>Network:</b> Stable internet connection for pulling and pushing Docker images, and downloading updates on the fly</li>
+  <li><b>Network:</b> Fast internet connection (10 Mbps) for pulling/pushing Docker images, and downloading updates on the fly</li>
 </ul>
 
 <div class="admonition info">
@@ -1011,7 +1154,7 @@ This work has been published at <strong>2021 International Conference on Control
     <span class="md-icon" title="Last update">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1-2.1-2M12.5 7v5.2l4 2.4-1 1L11 13V7h1.5M11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2v1.8Z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">August 30, 2024</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">August 31, 2024</span>
   </span>
 
     
@@ -1174,6 +1317,10 @@ This work has been published at <strong>2021 International Conference on Control
     
     
       <script src="../../assets/javascripts/bundle.af256bd8.min.js"></script>
+      
+        <script src="../../javascripts/mathjax.js"></script>
+      
+        <script src="https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js"></script>
       
     
   </body>
