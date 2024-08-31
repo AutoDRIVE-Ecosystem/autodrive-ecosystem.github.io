@@ -119,6 +119,11 @@ AutoDRIVE Simulator's GUI consists of a toolbar encompassing two panels for obse
     All frame transforms mentioned above are defined w.r.t. the vehicle (local) frame of reference `f1tenth_1` located at the center of rear axle with x-axis pointing forward, y-axis pointing left, and z-axis pointing upwards. Columns x, y, and z denote translations in meters (m), while R, P, and Y denote rotations in degrees (deg). $\chi$ denotes variable quantities. 
 
 #### 1.3.2. Vehicle Dynamics
+
+<center>
+<img src="/../assets/images/documentation/f1tenth sim racing league/F1TENTH Vehicle Dynamics.png">
+</center>
+
 #### 1.3.3. Actuator Dynamics
 #### 1.3.4. Sensor Characteristics
 #### 1.3.5. Variability (noise in sensor/actuator/system characteristics)
