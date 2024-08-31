@@ -245,14 +245,7 @@ Simulated environments can be developed using AutoDRIVE's modular infrastructure
 
 These environments are simulated by conducting mesh-mesh interference detection and computing contact forces, frictional forces, momentum transfer, as well as linear and angular drag acting on all rigid bodies in the scenario.
 
-#### 1.4.1. Size and Structure
-
-!!! warning
-    The racetrack is subject to change across different stages (e.g., practice, quilification, race, etc.) and iterations (e.g., IROS 2024, CDC 2024, etc.) of the competition. Participants will be informed about any track changes in advance.
-
-#### 1.4.2. Features (straight, chicane, bifurcation, etc.)
-#### 1.4.3. Obstacles (static/dynamic)
-#### 1.4.4. Transforms
+#### 1.4.1. Transforms
 
 <center>
 <img src="/../assets/images/documentation/f1tenth sim racing league/Racetrack TF - Porto.png">
@@ -269,7 +262,29 @@ These environments are simulated by conducting mesh-mesh interference detection 
 !!! warning
     Since the racetrack is subject to change during different phases and iterations of the competition, the location of the fixed environmental frame of reference may be different depending on the racetrack.
 
-<!-- #### 1.4.5. Custom Racetracks
+#### 1.4.2. Size and Structure
+
+- The simulated racetrack will be designed in accordance with the physical F1TENTH racetracks, using similar materials and spanning similar dimensions.
+
+- The entire racetrack will be designed to fit within an area of around 30$\times$10 m$^2$, much like the physical F1TENTH racetracks.
+
+- The racetrack border will be constructed from air ducts of about 33 cm in diameter, making sure that it is perceivable to exteroceptive sensors.
+
+- The racetrack will be atleast 3 car widths (90 cm) wide throughout to allow safe vehicle traversal, while giving an opportunity to optimize racelines.
+
+#### 1.4.3. Design and Features
+
+- The road surface will be simulated with properties of polished concrete, which is flat and reflective. Therefore, exteroceptive perception may become challanging at times, much like in the real world.
+
+- There may be a gap(s) between the ducts through which the LiDAR beams can pass, making it appear as a obstacle-free space. Therefore, motion planning may become challanging at times, much like in the real world.
+
+- The racetrack may consist of variabilities such as straight stretch, chicane, bifurcation, obstacles, etc. to make the course challenging.
+
+!!! warning
+    The racetrack is subject to change across different phases (e.g., practice, quilification, race, etc.) and iterations (e.g., IROS 2024, CDC 2024, etc.) of the competition. Participants will be informed about any track changes in advance.
+
+<!-- #### 1.4.4. Obstacles (static/dynamic)
+#### 1.4.5. Custom Racetracks
 #### 1.4.6. Environmental Variability (time, weather, wind, lighting, friction, etc.) -->
 
 ## 2. AutoDRIVE Devkit
@@ -391,7 +406,7 @@ F1TENTH Sim Racing League is a virtual competition, which accompanies the physic
 
 #### 3.1.1. Setup
 
-1. Install [Docker](https://docs.docker.com/engine/install) is installed.
+1. Install [Docker](https://docs.docker.com/engine/install).
 2. Since the Docker container is to take advantage of an NVIDIA GPU, the host machine has to be properly configured by installing the necessary NVIDIA GPU Drivers and the [NVIDIA Container Toolkit](https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/latest/index.html).
 3. Pull [AutoDRIVE Simulator docker image](https://hub.docker.com/repository/docker/autodriveecosystem/autodrive_f1tenth_sim) from DockerHub.
    ```bash
