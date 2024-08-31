@@ -643,6 +643,8 @@ AutoDRIVE Simulator's GUI consists of a toolbar encompassing two panels for obse
 </ul>
 
 <h3 id="13-vehicle">1.3. Vehicle<a class="headerlink" href="#13-vehicle" title="Permanent link">&para;</a></h3>
+<p>Simulated vehicles can be developed using AutoDRIVE's modular scripts, or imported from third-party tools and open standards. Specifically, the F1TENTH vehicle was reverse-engineered and visually recreated using a third-party 3D modeling software, and was imported and post-processed within AutoDRIVE Simulator to make it physically and graphically "sim-ready".</p>
+<p>These vehicles are simulated as a combination of rigid body and sprung mass representations with adequate attention to rigid body dynamics, suspension dynamics, actuator dynamics, and tire dynamics. Additionally, the simulator detects mesh-mesh interference and computes contact forces, frictional forces, momentum transfer, as well as linear and angular drag acting on the vehicle. Finally, being an autonomy-oriented digital twin, the simulator offers physically-based sensor simulation for proprioceptive as well as exteroceptive sensors on-board the virtual vehicle.</p>
 <h4 id="131-transforms">1.3.1. Transforms<a class="headerlink" href="#131-transforms" title="Permanent link">&para;</a></h4>
 <div class="grid cards">
 <ul>
@@ -656,12 +658,12 @@ AutoDRIVE Simulator's GUI consists of a toolbar encompassing two panels for obse
 <thead>
 <tr>
 <th style="text-align: left;">FRAME</th>
-<th style="text-align: left;">x</th>
-<th style="text-align: left;">y</th>
-<th style="text-align: left;">z</th>
-<th style="text-align: left;">R</th>
-<th style="text-align: left;">P</th>
-<th style="text-align: left;">Y</th>
+<th style="text-align: left;">x (m)</th>
+<th style="text-align: left;">y (m)</th>
+<th style="text-align: left;">z (m)</th>
+<th style="text-align: left;">R (deg)</th>
+<th style="text-align: left;">P (deg)</th>
+<th style="text-align: left;">Y (deg)</th>
 </tr>
 </thead>
 <tbody>
@@ -1139,8 +1141,9 @@ AutoDRIVE Simulator's GUI consists of a toolbar encompassing two panels for obse
 <p class="admonition-title">Warning</p>
 <p>Since the racetrack is subject to change during different phases and iterations of the competition, the location of the fixed environmental frame of reference may be different depending on the racetrack.</p>
 </div>
-<h4 id="145-custom-racetracks">1.4.5. Custom Racetracks<a class="headerlink" href="#145-custom-racetracks" title="Permanent link">&para;</a></h4>
-<h4 id="146-environmental-variability-time-weather-wind-lighting-friction-etc">1.4.6. Environmental Variability (time, weather, wind, lighting, friction, etc.)<a class="headerlink" href="#146-environmental-variability-time-weather-wind-lighting-friction-etc" title="Permanent link">&para;</a></h4>
+<!-- #### 1.4.5. Custom Racetracks
+#### 1.4.6. Environmental Variability (time, weather, wind, lighting, friction, etc.) -->
+
 <h2 id="2-autodrive-devkit">2. AutoDRIVE Devkit<a class="headerlink" href="#2-autodrive-devkit" title="Permanent link">&para;</a></h2>
 <p><center>
 <img src="/../assets/images/documentation/f1tenth sim racing league/Devkit.png">
