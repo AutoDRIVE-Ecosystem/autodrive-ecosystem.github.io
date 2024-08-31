@@ -867,6 +867,10 @@ For the F1TENTH Sim Racing League, each team will be provided with a standardize
 <p>Note that the organizers will execute the competition framework on a workstation incorporating Intel Core i9 14<sup>th</sup> Gen 14900K CPU, NVIDIA GeForce RTX 4090 GPU, and 64 GB RAM (or a similar configuration). This machine will be simultaneously running the simulator container, devkit container, screen recorder and data logger. Kindly develop your algorithms while considering these computational requirements.</p>
 </div>
 <h3 id="22-package-structure">2.2. Package Structure<a class="headerlink" href="#22-package-structure" title="Permanent link">&para;</a></h3>
+<p align="justify">
+The following tree describes the ROS 2 package structure of the AutoDRIVE Devkit used for the competition framework.
+</p>
+
 <div class="language-text highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>autodrive_devkit
 </span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>├───package.xml
 </span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a>├───setup.cfg
@@ -894,6 +898,10 @@ For the F1TENTH Sim Racing League, each team will be provided with a standardize
 </span><span id="__span-0-25"><a id="__codelineno-0-25" name="__codelineno-0-25" href="#__codelineno-0-25"></a>│   └───test_flake8.py
 </span><span id="__span-0-26"><a id="__codelineno-0-26" name="__codelineno-0-26" href="#__codelineno-0-26"></a>│   └───test_pep257.py
 </span></code></pre></div>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>Modifying the <code>autodrive_f1tenth</code> package is not permitted. Participants will have to create their own separate package(s) to implement their autonomous racing algorithms.</p>
+</div>
 <h3 id="23-data-streams">2.3. Data Streams<a class="headerlink" href="#23-data-streams" title="Permanent link">&para;</a></h3>
 <p align="justify">
 The following table describes various data streams of the competition framework. These data streams are exposed as ROS 2 topics using AutoDRIVE Devkit.
