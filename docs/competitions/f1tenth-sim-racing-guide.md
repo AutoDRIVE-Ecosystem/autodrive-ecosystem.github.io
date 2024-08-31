@@ -95,6 +95,11 @@ AutoDRIVE Simulator's GUI consists of a toolbar encompassing two panels for obse
 </ul>
 
 ### 1.3. Vehicle
+
+Simulated vehicles can be developed using AutoDRIVE's modular scripts, or imported from third-party tools and open standards. Specifically, the F1TENTH vehicle was reverse-engineered and visually recreated using a third-party 3D modeling software, and was imported and post-processed within AutoDRIVE Simulator to make it physically and graphically "sim-ready".
+
+These vehicles are simulated as a combination of rigid body and sprung mass representations with adequate attention to rigid body dynamics, suspension dynamics, actuator dynamics, and tire dynamics. Additionally, the simulator detects mesh-mesh interference and computes contact forces, frictional forces, momentum transfer, as well as linear and angular drag acting on the vehicle. Finally, being an autonomy-oriented digital twin, the simulator offers physically-based sensor simulation for proprioceptive as well as exteroceptive sensors on-board the virtual vehicle.
+
 #### 1.3.1. Transforms
 
 <div class="grid cards" markdown>
@@ -104,8 +109,7 @@ AutoDRIVE Simulator's GUI consists of a toolbar encompassing two panels for obse
 - <img src="/../assets/images/documentation/f1tenth sim racing league/F1TENTH TF - Top View.png">
 </div>
 
-
-| FRAME               | x        | y        | z        | R        | P        | Y        |
+| FRAME               | x (m)    | y (m)    | z (m)    | R (deg)  | P (deg)  | Y (deg)  |
 |:--------------------|:---------|:---------|:---------|:---------|:---------|:---------|
 | `left_encoder`      | 0.0      | 0.118    | 0.0      | 0.0      | $\chi$   | 0.0      |
 | `right_encoder`     | 0.0      | -0.118   | 0.0      | 0.0      | $\chi$   | 0.0      |
@@ -186,8 +190,8 @@ Throttle ($\tau$) and steering ($\delta$) sensors are simulated using an instant
 :-------------------|:--------------------|
 | Type              | Simulated Sensor    |
 | Class             | Proprioceptive      |
-| Pulses Per Revolution | 16        |
-| Supported Outputs | Ticks<br/>Angles       |
+| Pulses Per Revolution | 16              |
+| Supported Outputs | Ticks<br/>Angles    |
 
 The indoor positioning system (IPS) and inertial measurement unit (IMU) are simulated based on temporally-coherent rigid-body transform updates of the vehicle $\{v\}$ w.r.t. the world $\{w\}$: ${^w\mathbf{T}_v} = \left[\begin{array}{c | c} \mathbf{R}_{3 \times 3} & \mathbf{t}_{3 \times 1} \\ \hline \mathbf{0}_{1 \times 3} & 1 \end{array}\right] \in SE(3)$. IPS provides 3-DOF positional coordinates $\{x,y,z\}$ of the vehicle, while IMU supplies linear accelerations $\{a_x,a_y,a_z\}$, angular velocities $\{\omega_x,\omega_y,\omega_z\}$, and 3-DOF orientation of the vehicle as Euler angles $\{\phi_x,\theta_y,\psi_z\}$ or quaternion $\{q_0,q_1,q_2,q_3\}$.
 
@@ -265,8 +269,8 @@ These environments are simulated by conducting mesh-mesh interference detection 
 !!! warning
     Since the racetrack is subject to change during different phases and iterations of the competition, the location of the fixed environmental frame of reference may be different depending on the racetrack.
 
-#### 1.4.5. Custom Racetracks
-#### 1.4.6. Environmental Variability (time, weather, wind, lighting, friction, etc.)
+<!-- #### 1.4.5. Custom Racetracks
+#### 1.4.6. Environmental Variability (time, weather, wind, lighting, friction, etc.) -->
 
 ## 2. AutoDRIVE Devkit
 
