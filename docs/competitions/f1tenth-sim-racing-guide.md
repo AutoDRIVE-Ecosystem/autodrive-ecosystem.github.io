@@ -163,7 +163,7 @@ These environments are simulated by conducting mesh-mesh interference detection 
 #### 1.4.1. Size and Structure
 
 !!! warning
-    The racetrack is subject to change across different stages of the competition (e.g., practice, quilification, race, etc.). Participants will be informed about any track changes in advance.
+    The racetrack is subject to change across different stages (e.g., practice, quilification, race, etc.) and iterations (e.g., IROS 2024, CDC 2024, etc.) of the competition. Participants will be informed about any track changes in advance.
 
 #### 1.4.2. Features (straight, chicane, bifurcation, etc.)
 #### 1.4.3. Obstacles (static/dynamic)
