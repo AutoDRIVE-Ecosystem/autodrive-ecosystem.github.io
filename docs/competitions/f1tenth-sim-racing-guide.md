@@ -195,6 +195,10 @@ For the F1TENTH Sim Racing League, each team will be provided with a standardize
 
 ### 2.2. Package Structure
 
+<p align="justify">
+The following tree describes the ROS 2 package structure of the AutoDRIVE Devkit used for the competition framework.
+</p>
+
 ```
 autodrive_devkit
 ├───package.xml
@@ -223,6 +227,9 @@ autodrive_devkit
 │   └───test_flake8.py
 │   └───test_pep257.py
 ```
+
+!!! warning
+    Modifying the `autodrive_f1tenth` package is not permitted. Participants will have to create their own separate package(s) to implement their autonomous racing algorithms.
 
 ### 2.3. Data Streams
 
