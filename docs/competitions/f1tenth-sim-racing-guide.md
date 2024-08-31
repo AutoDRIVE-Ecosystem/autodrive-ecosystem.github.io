@@ -109,6 +109,9 @@ These vehicles are simulated as a combination of rigid body and sprung mass repr
 - <img src="/../assets/images/documentation/f1tenth sim racing league/F1TENTH TF - Top View.png">
 </div>
 
+!!! note
+    All right handed coordinate frames depicted above are defined such that red represents x-axis, green represents y-axis, and blue represents z-axis.
+
 | FRAME               | x (m)    | y (m)    | z (m)    | R (deg)  | P (deg)  | Y (deg)  |
 |:--------------------|:---------|:---------|:---------|:---------|:---------|:---------|
 | `left_encoder`      | 0.0      | 0.118    | 0.0      | 0.0      | $\chi$   | 0.0      |
@@ -250,6 +253,9 @@ These environments are simulated by conducting mesh-mesh interference detection 
 <center>
 <img src="/../assets/images/documentation/f1tenth sim racing league/Racetrack TF - Porto.png">
 </center>
+
+!!! note
+    All right handed coordinate frames depicted above are defined such that red represents x-axis, green represents y-axis, and blue represents z-axis.
 
 | FRAME             | x        | y        | z        | R        | P        | Y        |
 |:------------------|:---------|:---------|:---------|:---------|:---------|:---------|
