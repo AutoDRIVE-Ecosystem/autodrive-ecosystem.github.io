@@ -282,7 +282,7 @@ These environments are simulated by conducting mesh-mesh interference detection 
 
 - The road surface will be simulated with properties of polished concrete, which is flat and reflective. Therefore, exteroceptive perception may become challanging at times, much like in the real world.
 
-- There may be a gap(s) between the ducts through which the LiDAR beams can pass, making it appear as a obstacle-free space. Therefore, motion planning may become challanging at times, much like in the real world.
+- There may be a gap(s) between the ducts through which the LIDAR beams can pass, making it appear as a obstacle-free space. Therefore, motion planning may become challanging at times, much like in the real world.
 
 - The racetrack may consist of variabilities such as straight stretch, chicane, bifurcation, obstacles, etc. to make the course challenging.
 
