@@ -1,3 +1,9 @@
+/* TYPESETTING */
+p {
+    text-align: justify;
+    text-justify: inter-word;
+}
+
 /* COLORS */
 /* Style */
 :root {
@@ -78,6 +84,7 @@ a:hover #imageHyperlink {
     margin: 0px 10px 15px 0px;
     width: 25%
 }
+
 /* Responsive adjustments for small screens (e.g., tablets) */
 @media (max-width: 768px) {
     .research-artifact {
@@ -86,6 +93,7 @@ a:hover #imageHyperlink {
         width: 25%;
     }
 }
+
 /* Responsive adjustments for very small screens (e.g., phones) */
 @media (max-width: 480px) {
     .research-artifact {
