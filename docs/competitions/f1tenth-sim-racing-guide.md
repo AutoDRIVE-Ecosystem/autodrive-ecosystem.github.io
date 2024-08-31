@@ -112,7 +112,7 @@ These vehicles are simulated as a combination of rigid body and sprung mass repr
 !!! note
     All right handed coordinate frames depicted above are defined such that red represents x-axis, green represents y-axis, and blue represents z-axis.
 
-| :material-axis-arrow: FRAME | x (m)    | y (m)    | z (m)    | R (deg)  | P (deg)                             | Y (deg) |
+| :material-axis-arrow: FRAME | x        | y        | z        | R        | P                                   | Y       |
 |:----------------------------|:---------|:---------|:---------|:---------|:------------------------------------|:--------|
 | `left_encoder`              | 0.0      | 0.118    | 0.0      | 0.0      | :fontawesome-solid-arrow-trend-up:  | 0.0     |
 | `right_encoder`             | 0.0      | -0.118   | 0.0      | 0.0      | :fontawesome-solid-arrow-trend-up:  | 0.0     |
