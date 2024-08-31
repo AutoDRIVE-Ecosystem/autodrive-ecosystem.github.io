@@ -195,6 +195,35 @@ For the F1TENTH Sim Racing League, each team will be provided with a standardize
 
 ### 2.2. Package Structure
 
+```
+autodrive_devkit
+├───package.xml
+├───setup.cfg
+├───setup.py
+│
+├───autodrive_f1tenth
+│   └───autodrive_incoming_bridge.py
+│   └───autodrive_outgoing_bridge.py
+│   └───config.py
+│   └───teleop_keyboard.py
+│   └───__init__.py
+│
+├───launch
+│   └───simulator_bringup_headless.launch.py
+│   └───simulator_bringup_rviz.launch.py
+│
+├───resource
+│   └───autodrive_f1tenth
+│
+├───rviz
+│   └───simulator.rviz
+│
+└───test
+│   └───test_copyright.py
+│   └───test_flake8.py
+│   └───test_pep257.py
+```
+
 ### 2.3. Data Streams
 
 <p align="justify">
