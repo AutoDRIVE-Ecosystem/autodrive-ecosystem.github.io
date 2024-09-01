@@ -123,9 +123,13 @@ We recommend all the teams interested in participating in the F1TENTH Sim Racing
 
     Get started with the competition framework locally, and worry about containerization later. 
 
-    **AutoDRIVE Simulator:** [:simple-linux: Linux](https://github.com/AutoDRIVE-Ecosystem/AutoDRIVE-F1TENTH-Sim-Racing/releases/download/2024-cdc-practice/autodrive_simulator_linux.zip) | [:material-microsoft: Windows](https://github.com/AutoDRIVE-Ecosystem/AutoDRIVE-F1TENTH-Sim-Racing/releases/download/2024-cdc-practice/autodrive_simulator_windows.zip) | [:simple-apple: macOS](https://github.com/AutoDRIVE-Ecosystem/AutoDRIVE-F1TENTH-Sim-Racing/releases/download/2024-cdc-practice/autodrive_simulator_macos.zip)
+    **AutoDRIVE Simulator:**
+    
+    [:simple-linux: Linux](https://github.com/AutoDRIVE-Ecosystem/AutoDRIVE-F1TENTH-Sim-Racing/releases/download/2024-cdc-practice/autodrive_simulator_linux.zip) | [:material-microsoft: Windows](https://github.com/AutoDRIVE-Ecosystem/AutoDRIVE-F1TENTH-Sim-Racing/releases/download/2024-cdc-practice/autodrive_simulator_windows.zip) | [:simple-apple: macOS](https://github.com/AutoDRIVE-Ecosystem/AutoDRIVE-F1TENTH-Sim-Racing/releases/download/2024-cdc-practice/autodrive_simulator_macos.zip)
 
-    **AutoDRIVE Devkit:** [:simple-ros: ROS 2](https://github.com/AutoDRIVE-Ecosystem/AutoDRIVE-F1TENTH-Sim-Racing/releases/download/2024-cdc-practice/autodrive_devkit.zip)
+    **AutoDRIVE Devkit:**
+    
+    [:simple-ros: ROS 2](https://github.com/AutoDRIVE-Ecosystem/AutoDRIVE-F1TENTH-Sim-Racing/releases/download/2024-cdc-practice/autodrive_devkit.zip)
 
 -   :fontawesome-solid-users:{ .lg .middle } __Orientation Resources__
 
@@ -133,9 +137,13 @@ We recommend all the teams interested in participating in the F1TENTH Sim Racing
 
     Join the online orientation sessions or review what we covered there.
 
-    **Orientation 1:** :fontawesome-solid-video: Zoom | :octicons-video-24: Recording | :material-microsoft-powerpoint: Slides
+    **Orientation 1:**
+    
+    :fontawesome-solid-video: Zoom | :octicons-video-24: Recording | :material-microsoft-powerpoint: Slides
 
-    **Orientation 2:** :fontawesome-solid-video: Zoom | :octicons-video-24: Recording | :material-microsoft-powerpoint: Slides
+    **Orientation 2:**
+    
+    :fontawesome-solid-video: Zoom | :octicons-video-24: Recording | :material-microsoft-powerpoint: Slides
 
 </div>
 
