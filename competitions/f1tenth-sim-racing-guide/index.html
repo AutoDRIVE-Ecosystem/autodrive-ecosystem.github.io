@@ -771,12 +771,10 @@ AutoDRIVE Simulator's GUI consists of a toolbar encompassing two panels for obse
 <p><center>
 <img src="/../assets/images/documentation/f1tenth sim racing league/F1TENTH Vehicle Dynamics.png">
 </center></p>
-<p>{% raw %}</p>
 <p>The vehicle model is a combination of a rigid body and a collection of sprung masses <span class="arithmatex">\(^iM\)</span>, where the total mass of the rigid body is defined as <span class="arithmatex">\(M=\sum{^iM}\)</span>. The rigid body's center of mass, <span class="arithmatex">\(X_{COM} = \frac{\sum{{^iM}*{^iX}}}{\sum{^iM}}\)</span>, connects these representations, with <span class="arithmatex">\(^iX\)</span> representing the coordinates of the sprung masses.</p>
 <p>The suspension force acting on each sprung mass is computed as <span class="arithmatex">\({^iM} * {^i{\ddot{Z}}} + {^iB} * ({^i{\dot{Z}}}-{^i{\dot{z}}}) + {^iK} * ({^i{Z}}-{^i{z}})\)</span>, where <span class="arithmatex">\(^iZ\)</span> and <span class="arithmatex">\(^iz\)</span> are the displacements of sprung and unsprung masses, and <span class="arithmatex">\(^iB\)</span> and <span class="arithmatex">\(^iK\)</span> are the damping and spring coefficients of the <span class="arithmatex">\(i\)</span>-th suspension, respectively. The unsprung mass <span class="arithmatex">\(m\)</span> is also subject to gravitational and suspension forces: <span class="arithmatex">\({^im} * {^i{\ddot{z}}} + {^iB} * ({^i{\dot{z}}}-{^i{\dot{Z}}}) + {^iK} * ({^i{z}}-{^i{Z}})\)</span>.</p>
 <p>Tire forces are computed based on the friction curve for each tire, represented as <span class="arithmatex">\(\left\{\begin{matrix} {^iF_{t_x}} = F(^iS_x) \\{^iF_{t_y}} = F(^iS_y) \\ \end{matrix}\right.\)</span>, where <span class="arithmatex">\(^iS_x\)</span> and <span class="arithmatex">\(^iS_y\)</span> are the longitudinal and lateral slips of the <span class="arithmatex">\(i\)</span>-th tire, respectively. The friction curve is approximated using a two-piece cubic spline, defined as <span class="arithmatex">\(F(S) = \left\{\begin{matrix} f_0(S); \;\; S_0 \leq S &lt; S_e \\ f_1(S); \;\; S_e \leq S &lt; S_a \\ \end{matrix}\right.\)</span>, where <span class="arithmatex">\(f_k(S) = a_k*S^3+b_k*S^2+c_k*S+d_k\)</span> is a cubic polynomial function. The first segment of the spline ranges from zero <span class="arithmatex">\((S_0,F_0)\)</span> to an extremum point <span class="arithmatex">\((S_e,F_e)\)</span>, while the second segment ranges from the extremum point <span class="arithmatex">\((S_e, F_e)\)</span> to an asymptote point <span class="arithmatex">\((S_a, F_a)\)</span>.</p>
 <p>The tire slip is influenced by factors including tire stiffness <span class="arithmatex">\(^iC_\alpha\)</span>, steering angle <span class="arithmatex">\(\delta\)</span>, wheel speeds <span class="arithmatex">\(^i\omega\)</span>, suspension forces <span class="arithmatex">\(^iF_s\)</span>, and rigid-body momentum <span class="arithmatex">\(^iP\)</span>. These factors impact the longitudinal and lateral components of the vehicle's linear velocity. The longitudinal slip <span class="arithmatex">\(^iS_x\)</span> of <span class="arithmatex">\(i\)</span>-th tire is calculated by comparing the longitudinal components of the surface velocity of the <span class="arithmatex">\(i\)</span>-th wheel <span class="arithmatex">\(v_x\)</span> with the angular velocity <span class="arithmatex">\(^i\omega\)</span> of the <span class="arithmatex">\(i\)</span>-th wheel: <span class="arithmatex">\({^iS_x} = \frac{{^ir}*{^i\omega}-v_x}{v_x}\)</span>. The lateral slip <span class="arithmatex">\(^iS_y\)</span> depends on the tire's slip angle <span class="arithmatex">\(\alpha\)</span> and is determined by comparing the longitudinal <span class="arithmatex">\(v_x\)</span> and lateral <span class="arithmatex">\(v_y\)</span> components of the vehicle's linear velocity: <span class="arithmatex">\({^iS_y} = \tan(\alpha) = \frac{v_y}{\left| v_x \right|}\)</span>.</p>
-<p>{% endraw %}</p>
 <table>
 <thead>
 <tr>
@@ -820,9 +818,7 @@ AutoDRIVE Simulator's GUI consists of a toolbar encompassing two panels for obse
 </tbody>
 </table>
 <h4 id="133-actuator-dynamics">1.3.3. Actuator Dynamics<a class="headerlink" href="#133-actuator-dynamics" title="Permanent link">&para;</a></h4>
-<p>{% raw %}</p>
 <p>The driving actuators apply torque to the wheels: <span class="arithmatex">\({^i\tau_{drive}} = {^iI_w}*{^i\dot{\omega}_w}\)</span>, where <span class="arithmatex">\({^iI_w} = \frac{1}{2}*{^im_w}*{^i{r_w}^2}\)</span> represents the moment of inertia, <span class="arithmatex">\(^i\dot{\omega}_w\)</span> is the angular acceleration, <span class="arithmatex">\(^im_w\)</span> is the mass, and <span class="arithmatex">\(^ir_w\)</span> is the radius of the <span class="arithmatex">\(i\)</span>-th wheel. Additionally, the driving actuators simulate idle torque by applying an equivalent braking torque, i.e., <span class="arithmatex">\({^i\tau_{idle}} = {^i\tau_{brake}}\)</span>.</p>
-<p>{% endraw %}</p>
 <table>
 <thead>
 <tr>
@@ -849,9 +845,7 @@ AutoDRIVE Simulator's GUI consists of a toolbar encompassing two panels for obse
 </tr>
 </tbody>
 </table>
-<p>{% raw %}</p>
 <p>The front wheels are steered at the commanded steering angle <span class="arithmatex">\(\delta\)</span> using a steering actuator. The individual turning angles, <span class="arithmatex">\(\delta_l\)</span> and <span class="arithmatex">\(\delta_r\)</span>, for the left and right wheels, respectively, are computed based on the Ackermann steering geometry defined by the wheelbase <span class="arithmatex">\(l\)</span> and track width <span class="arithmatex">\(w\)</span>, as follows: <span class="arithmatex">\(\left\{\begin{matrix} \delta_l = \textup{tan}^{-1}\left(\frac{2*l*\textup{tan}(\delta)}{2*l+w*\textup{tan}(\delta)}\right) \\ \delta_r = \textup{tan}^{-1}\left(\frac{2*l*\textup{tan}(\delta)}{2*l-w*\textup{tan}(\delta)}\right) \end{matrix}\right.\)</span></p>
-<p>{% endraw %}</p>
 <table>
 <thead>
 <tr>
@@ -879,9 +873,7 @@ AutoDRIVE Simulator's GUI consists of a toolbar encompassing two panels for obse
 </tbody>
 </table>
 <h4 id="134-sensor-physics">1.3.4. Sensor Physics<a class="headerlink" href="#134-sensor-physics" title="Permanent link">&para;</a></h4>
-<p>{% raw %}</p>
 <p>Throttle (<span class="arithmatex">\(\tau\)</span>) and steering (<span class="arithmatex">\(\delta\)</span>) sensors are simulated using an instantaneous feedback loop. Incremental encoders are simulated by measuring the rotation of the rear wheels: <span class="arithmatex">\(^iN_{ticks} = {^iPPR} * {^iGR} * {^iN_{rev}}\)</span>, where <span class="arithmatex">\(^iN_{ticks}\)</span> and <span class="arithmatex">\(^iPPR\)</span> respectively represent the measured ticks and base resolution (pulses per revolution) of the <span class="arithmatex">\(i\)</span>-th encoder, while <span class="arithmatex">\(^iGR\)</span> and <span class="arithmatex">\(^iN_{rev}\)</span> respectively represent the gear ratio and output shaft revolutions of the <span class="arithmatex">\(i\)</span>-th motor.</p>
-<p>{% endraw %}</p>
 <table>
 <thead>
 <tr>
@@ -952,9 +944,7 @@ AutoDRIVE Simulator's GUI consists of a toolbar encompassing two panels for obse
 </tr>
 </tbody>
 </table>
-<p>{% raw %}</p>
 <p>The indoor positioning system (IPS) and inertial measurement unit (IMU) are simulated based on temporally-coherent rigid-body transform updates of the vehicle <span class="arithmatex">\(\{v\}\)</span> w.r.t. the world <span class="arithmatex">\(\{w\}\)</span>: <span class="arithmatex">\({^w\mathbf{T}_v} = \left[\begin{array}{c | c} \mathbf{R}_{3 \times 3} &amp; \mathbf{t}_{3 \times 1} \\ \hline \mathbf{0}_{1 \times 3} &amp; 1 \end{array}\right] \in SE(3)\)</span>. IPS provides 3-DOF positional coordinates <span class="arithmatex">\(\{x,y,z\}\)</span> of the vehicle, while IMU supplies linear accelerations <span class="arithmatex">\(\{a_x,a_y,a_z\}\)</span>, angular velocities <span class="arithmatex">\(\{\omega_x,\omega_y,\omega_z\}\)</span>, and 3-DOF orientation of the vehicle as Euler angles <span class="arithmatex">\(\{\phi_x,\theta_y,\psi_z\}\)</span> or quaternion <span class="arithmatex">\(\{q_0,q_1,q_2,q_3\}\)</span>.</p>
-<p>{% endraw %}</p>
 <table>
 <thead>
 <tr>
@@ -999,9 +989,7 @@ AutoDRIVE Simulator's GUI consists of a toolbar encompassing two panels for obse
 </tr>
 </tbody>
 </table>
-<p>{% raw %}</p>
 <p>LIDAR simulation employs iterative ray-casting <span class="arithmatex">\(\texttt{raycast}\)</span>{<span class="arithmatex">\(^w\mathbf{T}_l\)</span>, <span class="arithmatex">\(\vec{\mathbf{R}}\)</span>, <span class="arithmatex">\(r_{max}\)</span>} for each angle <span class="arithmatex">\(\theta \in \left [ \theta_{min}:\theta_{res}:\theta_{max} \right ]\)</span> at a specified update rate. Here, <span class="arithmatex">\({^w\mathbf{T}_l} = {^w\mathbf{T}_v} \times {^v\mathbf{T}_l} \in SE(3)\)</span> represents the relative transformation of the LIDAR {<span class="arithmatex">\(l\)</span>} w.r.t the vehicle {<span class="arithmatex">\(v\)</span>} and the world {<span class="arithmatex">\(w\)</span>}, <span class="arithmatex">\(\vec{\mathbf{R}} = \left [\cos(\theta) \;\; \sin(\theta) \;\; 0 \right ]^T\)</span> defines the direction vector of each ray-cast, <span class="arithmatex">\(r_{min}\)</span>, <span class="arithmatex">\(r_{max}\)</span>, <span class="arithmatex">\(\theta_{min}\)</span> and <span class="arithmatex">\(\theta_{max}\)</span> denote the minimum and maximum linear and angular ranges, and <span class="arithmatex">\(\theta_{res}\)</span> represents the angular resolution of the LIDAR. The laser scan ranges are determined by checking ray-cast hits and then applying a threshold to the minimum linear range of the LIDAR, calculated as <span class="arithmatex">\(\texttt{ranges[i]}=\begin{cases} d_\text{hit} &amp; \text{ if } \texttt{ray[i].hit} \text{ and } d_\text{hit} \geq r_{\text{min}} \\ \infty &amp; \text{ otherwise} \end{cases}\)</span>, where <span class="arithmatex">\(\texttt{ray.hit}\)</span> is a Boolean flag indicating whether a ray-cast hits any colliders in the scene, and <span class="arithmatex">\(d_\text{hit}=\sqrt{(x_{\text{hit}}-x_{\text{ray}})^2 + (y_{\text{hit}}-y_{\text{ray}})^2 + (z_{\text{hit}}-z_{\text{ray}})^2}\)</span> calculates the Euclidean distance from the ray-cast source <span class="arithmatex">\(\{x_{ray}, y_{ray}, z_{ray}\}\)</span> to the hit point <span class="arithmatex">\(\{x_{hit}, y_{hit}, z_{hit}\}\)</span>.</p>
-<p>{% endraw %}</p>
 <table>
 <thead>
 <tr>
@@ -1052,9 +1040,7 @@ AutoDRIVE Simulator's GUI consists of a toolbar encompassing two panels for obse
 </tr>
 </tbody>
 </table>
-<p>{% raw %}</p>
 <p>Simulated cameras are parameterized by their focal length <span class="arithmatex">\(f\)</span>, sensor size <span class="arithmatex">\(\{s_x, s_y\}\)</span>, target resolution, as well as the distances to the near <span class="arithmatex">\(N\)</span> and far <span class="arithmatex">\(F\)</span> clipping planes. The viewport rendering pipeline for the simulated cameras operates in three stages. First, the camera view matrix <span class="arithmatex">\(\mathbf{V} \in SE(3)\)</span> is computed by obtaining the relative homogeneous transform of the camera <span class="arithmatex">\(\{c\}\)</span> with respect to the world <span class="arithmatex">\(\{w\}\)</span>: <span class="arithmatex">\(\mathbf{V} = \begin{bmatrix} r_{00} &amp; r_{01} &amp; r_{02} &amp; t_{0} \\ r_{10} &amp; r_{11} &amp; r_{12} &amp; t_{1} \\ r_{20} &amp; r_{21} &amp; r_{22} &amp; t_{2} \\ 0 &amp; 0 &amp; 0 &amp; 1 \\ \end{bmatrix}\)</span>, where <span class="arithmatex">\(r_{ij}\)</span> and <span class="arithmatex">\(t_i\)</span> denote the rotational and translational components, respectively. Next, the camera projection matrix <span class="arithmatex">\(\mathbf{P} \in \mathbb{R}^{4 \times 4}\)</span> is calculated to project world coordinates into image space coordinates: <span class="arithmatex">\(\mathbf{P} = \begin{bmatrix} \frac{2*N}{R-L} &amp; 0 &amp; \frac{R+L}{R-L} &amp; 0 \\ 0 &amp; \frac{2*N}{T-B} &amp; \frac{T+B}{T-B} &amp; 0 \\ 0 &amp; 0 &amp; -\frac{F+N}{F-N} &amp; -\frac{2*F*N}{F-N} \\ 0 &amp; 0 &amp; -1 &amp; 0 \\ \end{bmatrix}\)</span>, where <span class="arithmatex">\(L\)</span>, <span class="arithmatex">\(R\)</span>, <span class="arithmatex">\(T\)</span>, and <span class="arithmatex">\(B\)</span> denote the left, right, top, and bottom offsets of the sensor. The camera parameters <span class="arithmatex">\(\{f,s_x,s_y\}\)</span> are related to the terms of the projection matrix as follows: <span class="arithmatex">\(f = \frac{2*N}{R-L}\)</span>, <span class="arithmatex">\(a = \frac{s_y}{s_x}\)</span>, and <span class="arithmatex">\(\frac{f}{a} = \frac{2*N}{T-B}\)</span>. The perspective projection from the simulated camera's viewport is given as <span class="arithmatex">\(\mathbf{C} = \mathbf{P}*\mathbf{V}*\mathbf{W}\)</span>, where <span class="arithmatex">\(\mathbf{C} = \left [x_c\;\;y_c\;\;z_c\;\;w_c \right ]^T\)</span> represents image space coordinates, and <span class="arithmatex">\(\mathbf{W} = \left [x_w\;\;y_w\;\;z_w\;\;w_w \right ]^T\)</span> represents world coordinates. Finally, this camera projection is transformed into normalized device coordinates (NDC) by performing perspective division (i.e., dividing throughout by <span class="arithmatex">\(w_c\)</span>), leading to a viewport projection achieved by scaling and shifting the result and then utilizing the rasterization process of the graphics API (e.g., DirectX for Windows, Metal for macOS, and Vulkan for Linux). Additionally, a post-processing step simulates non-linear lens and film effects, such as lens distortion, depth of field, exposure, ambient occlusion, contact shadows, bloom, motion blur, film grain, chromatic aberration, etc.</p>
-<p>{% endraw %}</p>
 <table>
 <thead>
 <tr>
