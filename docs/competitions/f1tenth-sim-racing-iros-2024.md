@@ -5,7 +5,7 @@
 ## About
 
 <p align="justify">
-<b>F1TENTH Autonomous Racing</b> is a semi-regular competition organized by an international community of researchers, engineers, and autonomous systems enthusiasts. The teams participating in the <b>21st F1TENTH Autonomous Grand Prix</b> at IROS 2024 will write software for a 1:10 scaled autonomous race car to fulfill the objectives for the competition: <b><i>drive fast but don’t crash!</i></b>
+<b>F1TENTH Autonomous Racing</b> is a semi-regular competition organized by an international community of researchers, engineers, and autonomous systems enthusiasts. The teams participating in the <b>21st F1TENTH Autonomous Grand Prix</b> at <a href="https://iros2024-abudhabi.org">IROS 2024</a> will write software for a 1:10 scaled autonomous race car to fulfill the objectives for the competition: <b><i>drive fast but don’t crash!</i></b>
 </p>
 
 <p align="justify">
@@ -17,7 +17,7 @@ This time, we are organizing the first ever <b>F1TENTH Sim Racing League</b>, wh
 </center>
 
 <p align="justify">
-The main focus of the Sim Racing League is a virtual competition with simulated cars and environments, which is accessible to everyone across the globe. For the IROS 2024 competition, each team will be provided with a standardized simulation setup (in the form of a digital twin of the F1TENTH vehicle, and a digital twin of the Porto racetrack) within the high-fidelity <a href="https://github.com/Tinker-Twins/AutoDRIVE/tree/AutoDRIVE-Simulator">AutoDRIVE Simulator</a>. Additionally, teams will also be provided with a working implementation of the <a href="https://github.com/Tinker-Twins/AutoDRIVE/tree/AutoDRIVE-Devkit">AutoDRIVE Devkit</a> to get started with developing their autonomy algorithms. Teams will have to develop perception, planning, and control algorithms to parse the real-time sensor data streamed from the simulator and generate control commands to be fed back to the simulated vehicle.
+The main focus of the Sim Racing League is a virtual competition with simulated cars and environments, which is accessible to everyone across the globe. For the <a href="https://iros2024-abudhabi.org">IROS 2024</a> competition, each team will be provided with a standardized simulation setup (in the form of a digital twin of the F1TENTH vehicle, and a digital twin of the Porto racetrack) within the high-fidelity <a href="https://github.com/Tinker-Twins/AutoDRIVE/tree/AutoDRIVE-Simulator">AutoDRIVE Simulator</a>. Additionally, teams will also be provided with a working implementation of the <a href="https://github.com/Tinker-Twins/AutoDRIVE/tree/AutoDRIVE-Devkit">AutoDRIVE Devkit</a> to get started with developing their autonomy algorithms. Teams will have to develop perception, planning, and control algorithms to parse the real-time sensor data streamed from the simulator and generate control commands to be fed back to the simulated vehicle.
 </p>
 
 <p align="justify">
@@ -34,7 +34,7 @@ Since the vehicle, the sensors, the simulator, and the devkit are standardized, 
 </p>
 
 !!! Tip
-    If you are interested in autonomously racing physical F1TENTH vehicles, please check out the website for [21st F1TENTH Autonomous Grand Prix](https://iros2024-race.f1tenth.org), which will be held in person at IROS 2024. You can always register and compete in both physical and virtual competitions!
+    If you are interested in autonomously racing physical F1TENTH vehicles, please check out the website for [21st F1TENTH Autonomous Grand Prix](https://iros2024-race.f1tenth.org), which will be held in person at <a href="https://iros2024-abudhabi.org">IROS 2024</a>. You can always register and compete in both physical and virtual competitions!
 
 ## Organizers
 
@@ -77,7 +77,7 @@ Following is a brief summary of each event:
 </ul>
 
 !!! info
-    The F1TENTH Sim Racing League will be held approximately 1 week ahead of IROS 2024 and the performance metrics will be made available to the teams. Discussions are underway with the IROS organizing team to allow teams to analyze and present their approach/results in a short (~10 min) presentation in a special session at IROS 2024.
+    The F1TENTH Sim Racing League will be held approximately 1 week ahead of <a href="https://iros2024-abudhabi.org">IROS 2024</a> and the performance metrics will be made available to the teams. Discussions are underway with the IROS organizing team to allow teams to analyze and present their approach/results in a short (~10 min) presentation in a special session at <a href="https://iros2024-abudhabi.org">IROS 2024</a>.
 
 ## Resources
 
@@ -139,16 +139,16 @@ We recommend all the teams interested in participating in the F1TENTH Sim Racing
 
     **Orientation 1:**
     
-    [:fontawesome-solid-video: Zoom](https://clemson.zoom.us/s/96939189458) | :octicons-video-24: Recording | :material-microsoft-powerpoint: Slides
+    [:fontawesome-solid-video: Zoom](https://clemson.zoom.us/s/96939189458) | :octicons-video-16: Recording | :material-projector-screen-outline: Slides
 
     **Orientation 2:**
     
-    :fontawesome-solid-video: Zoom | :octicons-video-24: Recording | :material-microsoft-powerpoint: Slides
+    :fontawesome-solid-video: Zoom | :octicons-video-16: Recording | :material-projector-screen-outline: Slides
 
 </div>
 
 !!! question
-    You can post general questions on the [AutoDRIVE Slack](https://join.slack.com/t/autodrive-ecosystem/shared_invite/zt-2oeg2hce8-0JvasvnBM1M_wUdDTWRuKw) workspace; this is the preferred modality. Technical questions can be also posted as [GitHub Issues](https://github.com/AutoDRIVE-Ecosystem/AutoDRIVE-F1TENTH-Sim-Racing/issues) or [GitHub Discussions](https://github.com/AutoDRIVE-Ecosystem/AutoDRIVE-F1TENTH-Sim-Racing/discussions). For any other questions or concerns that cannot be posted publicly, please contact [Chinmay Samak](mailto:csamak@clemson.edu) or [Tanmay Samak](mailto:tsamak@clemson.edu).
+    You can post general questions on the [:material-slack: AutoDRIVE Slack](https://join.slack.com/t/autodrive-ecosystem/shared_invite/zt-2oeg2hce8-0JvasvnBM1M_wUdDTWRuKw) workspace; this is the preferred modality. Technical questions can be also posted as [:material-github: GitHub Issues](https://github.com/AutoDRIVE-Ecosystem/AutoDRIVE-F1TENTH-Sim-Racing/issues) or [:material-github: GitHub Discussions](https://github.com/AutoDRIVE-Ecosystem/AutoDRIVE-F1TENTH-Sim-Racing/discussions). For any other questions or concerns that cannot be posted publicly, please contact [:material-email: Chinmay Samak](mailto:csamak@clemson.edu) or [:material-email: Tanmay Samak](mailto:tsamak@clemson.edu).
 
 ## Registration
 
@@ -230,7 +230,7 @@ Registered teams are added to the following table:
 | 58      | Cognitron                 | Abhinav Pillai<br/>Abid Ansari<br/>Muhamed Shijas<br/>Safa N<br/>Razeen Rasheed | Indian Institute of Technology, Kharagpur |
 
 !!! note
-    The above table will be updated with newly registered teams within a few days of registration. Please contact [Chinmay Samak](mailto:csamak@clemson.edu) or [Tanmay Samak](mailto:tsamak@clemson.edu) if you do not see your team entry for more than 7 days after registering.
+    The above table will be updated with newly registered teams within a few days of registration. Please contact [:material-email: Chinmay Samak](mailto:csamak@clemson.edu) or [:material-email: Tanmay Samak](mailto:tsamak@clemson.edu) if you do not see your team entry for more than 7 days after registering.
 
 ## Results
 
