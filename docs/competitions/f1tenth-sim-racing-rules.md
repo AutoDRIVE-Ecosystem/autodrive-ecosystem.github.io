@@ -1,4 +1,4 @@
-# Competition Rulebook
+# Competition Rules
 
 ![F1TENTH Sim Racing](../assets/images/banners/F1TENTH Sim Racing.png)
 
