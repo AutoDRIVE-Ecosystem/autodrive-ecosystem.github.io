@@ -3,7 +3,7 @@
 ![F1TENTH Sim Racing](../assets/images/banners/F1TENTH Sim Racing.png)
 
 <p align="justify">
-This document describes the technical details of the competition framework for the F1TENTH Sim Racing League. It goes over the details pertaining to the simulator and devkit, as well as some important aspects of the submission system, process and evaluation.
+This document describes the technical details of the competition framework for the F1TENTH Sim Racing League. It goes over the details pertaining to the simulator and devkit, as well as some important aspects of the submission system, process, and evaluation.
 </p>
 
 !!! warning
@@ -13,6 +13,10 @@ This document describes the technical details of the competition framework for t
     Although AutoDRIVE Ecosystem supports various vehicles across different scales, configurations, and operational design domains (ODDs), the **only** vehicle allowed for this competition is the **F1TENTH**. Similarly, although AutoDRIVE Ecosystem supports multiple application programming interfaces (APIs), the **only** API allowed for this competition is **ROS 2**.
 
 ## 1. AutoDRIVE Simulator
+
+<center>
+<img src="/../assets/images/documentation/f1tenth sim racing league/Simulator.png">
+</center>
 
 <p align="justify">
 AutoDRIVE Simulator (part of the larger <a href="https://autodrive-ecosystem.github.io">AutoDRIVE Ecosystem</a>) is an autonomy oriented tool designed to model and simulate vehicle and environment digital twins. It equally prioritizes backend physics and frontend graphics to achieve high-fidelity simulation in real-time. From a computing perspective, the simulation framework is completely modular owing to its object-oriented programming (OOP) constructs. Additionally, the simulator can take advantage of CPU multi-threading as well as GPU instancing (if available) to efficiently parallelize various simulation objects and processes, with cross-platform support.
@@ -52,10 +56,6 @@ For the F1TENTH Sim Racing League, each team will be provided with a standardize
     Note that the organizers will execute the competition framework on a workstation incorporating Intel Core i9 14th Gen 14900K CPU, NVIDIA GeForce RTX 4090 GPU, and 64 GB RAM (or a similar configuration). This machine will be simultaneously running the simulator container, devkit container, screen recorder and data logger. Kindly develop your algorithms while considering these computational requirements.
 
 ### 1.2. Graphical User Interface (GUI)
-
-<center>
-<img src="/../assets/images/documentation/f1tenth sim racing league/Simulator.png">
-</center>
 
 <p align="justify">
 AutoDRIVE Simulator's GUI consists of a toolbar encompassing two panels for observing and interacting with key aspects of the simulator in real-time, namely <b>Menu</b> and <b>Heads-Up Display (HUD)</b>. Both the panels can be enabled or disabled using the burger icons provided on the toolbar; the figure above illustrates both the GUI panels being enabled. The menu panel on the left-hand side helps configure and control some important aspects of the simulation with just a few clicks. The HUD panel on the right-hand side helps visualize prominent simulation parameters along with vehicle status and sensory data, while hosting a time-synchronized data recording functionality that can be used to export simulation data for a specific run.
@@ -276,7 +276,7 @@ These environments are simulated by conducting mesh-mesh interference detection 
 
 - The racetrack border will be constructed from air ducts of about 33 cm in diameter, making sure that it is perceivable to exteroceptive sensors.
 
-- The racetrack will be at least 3 car widths (90 cm) wide throughout to allow safe vehicle traversal, while giving an opportunity to optimize the racelines.
+- The racetrack will be at least 3 car widths (90 cm) wide throughout to allow safe vehicle traversal, while giving an opportunity to optimize the raceline.
 
 #### 1.4.3. Design and Features
 
@@ -404,13 +404,20 @@ The following table describes various data streams of the competition framework.
     You may use the restricted topics for debugging, training AI models, etc. However, these topics should not be used while autonomously racing at run-time (e.g., during the deployment/inference stage of the algorithm).
 
 ## 3. Competition Submission
+
+<center>
+<img src="/../assets/images/documentation/f1tenth sim racing league/Competition Framework.png">
+</center>
+
 <p align="justify">
-F1TENTH Sim Racing League is a virtual competition, which accompanies the physical F1TENTH Autonomous Racing Competition. It leverages <a href="https://autodrive-ecosystem.github.io">AutoDRIVE Ecosystem</a> to model and simulate the digital twin of an F1TENTH racecar within a virtual racetrack. The main goal of this competition is to make autonomous racing accessible to everyone across the globe.
+F1TENTH Sim Racing League is a virtual competition, which aims to make autonomous racing accessible to everyone across the globe. This competition adopts a containerization workflow to evaluate the submissions in a reproducible manner. Containerization provides a lightweight and portable environment, allowing applications to be easily packaged along with their dependencies, configurations, and libraries.
 </p>
 
-### 3.1. Submission Preparation
+<p align="justify">
+Particularly, each team is expected to submit a containerized version of their autonomous racing software stack. Submissions for each phase of the competition will be done separately.
+</p>
 
-#### 3.1.1. Setup
+### 3.1. Container Setup
 
 1. Install [Docker](https://docs.docker.com/engine/install).
 2. Since the Docker container is to take advantage of an NVIDIA GPU, the host machine has to be properly configured by installing the necessary NVIDIA GPU Drivers and the [NVIDIA Container Toolkit](https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/latest/index.html).
@@ -423,7 +430,7 @@ F1TENTH Sim Racing League is a virtual competition, which accompanies the physic
    docker pull autodriveecosystem/autodrive_f1tenth_api:<TAG>
    ```
 
-#### 3.1.2. Execute
+### 3.2. Container Execution
 
 1. Enable display forwarding for simulator:
     ```bash
@@ -451,50 +458,16 @@ F1TENTH Sim Racing League is a virtual competition, which accompanies the physic
     ```
 7. Using the simulator GUI, configure the following:
    
-   7.1 Enter the IP address of the machine running the devkit container. If both containers are running on the same machine, leave the default loopback IP.
+    7.1. Enter the IP address of the machine running the devkit container. If both containers are running on the same machine, leave the default loopback IP.
    
-   7.2 Hit the `Connection` button and note the status next to it.
+    7.2. Hit the `Connection` button and note the status next to it.
 
-   7.3 Once the connection has been established, hit the `Driving Mode` to engage the vehicle in `Autonomous` mode.
-
-!!! tip
-    In certain cases, GPUs and Docker do not work very well and can cause problems in running the simulator container. In such cases, you can download and run the simulator locally (it should be easier to access the GPU this way). You can then run only the devkit within a container. Everything else will work just fine, only that the simulator will not be running inside a container. This shouldn’t matter, since you will have to submit only the container for your algorithms (i.e., devkit) and not the simulator. We will run the containerized simulator on our side for the evaluation of all submissions.
-
-#### 3.1.3. Develop
-
-Teams will have to create their packages or meta-packages for autonomous racing within the devkit container **separate** from the provided `autodrive_f1tenth` package (i.e., without making any modifications to the `autodrive_f1tenth` package itself).
-
-Please make a note of the data streams mentioned above (along with their access restrictions) to help with the development process.
+    7.3. Once the connection has been established, hit the `Driving Mode` to engage the vehicle in `Autonomous` mode.
 
 !!! tip
-    If working with containers is overwhelming, you can download and run the devkit locally while developing and testing your autonomous racing algorithms. You can then containerize the finalized algorithms, test them one last time, and push them to the container registry.
+    In certain cases, GPUs and Docker do not work very well and can cause problems in running the simulator container. In such cases, you can download and run the simulator locally (it should be easier to access the GPU this way). You can then run only the devkit within a container. Everything else will work just fine, only that the simulator will not be running inside a container. This shouldn not matter, since you will have to submit only the container for your algorithms (i.e., devkit) and not the simulator. We will run the containerized simulator on our side for the evaluation of all submissions.
 
-#### 3.1.4. Submit
-
-1. Run the image you created in the previous step inside a container:
-```bash
-xhost local:root
-docker run --name autodrive_f1tenth_api --rm -it --network=host --ipc=host -v /tmp/.X11-unix:/tmp.X11-umix:rw --env DISPLAY --privileged --gpus all autodriveecosystem/autodrive_f1tenth_api:<TAG>
-```
-2. In a new terminal window, list all containers and make a note of the desired `CONTAINER ID`:
-```bash
-docker ps -a
-```
-3. Commit changes to DockerHub:
-```bash
-docker commit -m "<Sample commit message>" -a "<USERNAME>" <CONTAINER ID> <username>/<image_name>:<TAG>
-```
-4. Login to DockerHub:
-```bash
-docker login
-```
-5. Push the container to DockerHub, once done, you should be able to see your repository on DockerHub:
-```bash
-docker push <username>/<image_name>:<TAG>
-```
-6. Submit the link to your team's DockerHub repository via a secure Google Form.
-
-#### 3.1.5. Troubleshooting
+### 3.3. Container Troubleshooting
 
 1. To access the container while it is running, execute the following command in a new terminal window to start a new bash session inside the container:
 ```bash
@@ -521,31 +494,42 @@ docker system df
 docker system prune -a
 ```
 
+!!! info
+    For additional help on containerization, visit [docker.com](https://www.docker.com). Specifically, the [documentation](https://docs.docker.com/?_gl=1*1xv75eh*_gcl_au*MTA2MDkwMzgxMC4xNzI0NzEzMDY3*_ga*NjgyMTY2Njc2LjE2OTc0MjMwNzQ.*_ga_XJWPQMJYHQ*MTcyNDcxMzA3Mi4zOS4xLjE3MjQ3MTMyODAuNTMuMC4w) and [get started](https://www.docker.com/get-started) pages would be of significant help for the beginners. Also, this [cheatsheet](https://docs.docker.com/get-started/docker_cheatsheet.pdf?_gl=1*l3zebg*_gcl_au*MTA2MDkwMzgxMC4xNzI0NzEzMDY3*_ga*NjgyMTY2Njc2LjE2OTc0MjMwNzQ.*_ga_XJWPQMJYHQ*MTcyNDcxMzA3Mi4zOS4xLjE3MjQ3MTM1NzIuOS4wLjA.) could be a very handy reference for all important Docker CLI commands.
+
+### 3.4. Algorithm Development
+
+Teams will have to create their ROS 2 package(s) or meta-package(s) for autonomous racing within the devkit container **separate** from the provided `autodrive_f1tenth` package (i.e., without making any modifications to the `autodrive_f1tenth` package itself).
+
+Please make a note of the data streams mentioned above (along with their access restrictions) to help with the algorithm development process.
+
 !!! tip
-    For additional help on containerization, visit [docker.com](https://www.docker.com). Specifically, the [documentation](https://docs.docker.com/?_gl=1*1xv75eh*_gcl_au*MTA2MDkwMzgxMC4xNzI0NzEzMDY3*_ga*NjgyMTY2Njc2LjE2OTc0MjMwNzQ.*_ga_XJWPQMJYHQ*MTcyNDcxMzA3Mi4zOS4xLjE3MjQ3MTMyODAuNTMuMC4w) and [get started](https://www.docker.com/get-started) pages would be of significant help for the beginners. Also, the [cheatsheet](https://docs.docker.com/get-started/docker_cheatsheet.pdf?_gl=1*l3zebg*_gcl_au*MTA2MDkwMzgxMC4xNzI0NzEzMDY3*_ga*NjgyMTY2Njc2LjE2OTc0MjMwNzQ.*_ga_XJWPQMJYHQ*MTcyNDcxMzA3Mi4zOS4xLjE3MjQ3MTM1NzIuOS4wLjA.) could be a very handy reference for all important Docker CLI commands.
+    If working with containers is overwhelming, you can download and run the devkit locally while developing and testing your autonomous racing algorithms. You can then containerize the refined algorithms, test them one last time, and push them to the container registry.
 
-### 3.2. Evaluation Architecture
+### 3.5. Container Submission
 
-figure with explanation
-
-We expect to receive DockerHub repository links from each team prior to the event associated with each phase of the competition. These submissions will have to capture all required dependencies, as well as the team’s autonomous racing software package within the Docker container image.
-
-1. A Docker container running the simulator will be executed. This container will execute AutoDRIVE Simulator with the virtual racetrack configured to run F1TENTH digital twin.
-2. A ROS bag (log file) will tap into the data stream traffic and capture all input, output and debugging messages for post-processing and analysis.
-3. A team’s Docker container (running the team’s devkit image) will be executed. It’s expected that the entry point of this Docker instance spawns all the necessary elements of the team’s code.
-4. The competitor’s code should interact with the simulation via the ROS 2 API, without any modifications to the underlying API package files themselves.
-
-This process will be repeated for each phase and for all the teams participating in the competition. This architecture allows the execution of the entire competition in batch mode.
-
-### 3.3. Execution Sequence
-
-How will the evaluation process of a team's submission be conducted?
-
-Performance for each team will be evaluated as follows:
-
-### 3.4. Scoring & Evaluation
-
-Exact scoring, penalties, ranking, tie-breaker, etc. - quantitative details
+1. Run the image you created in the previous step inside a container:
+```bash
+xhost local:root
+docker run --name autodrive_f1tenth_api --rm -it --network=host --ipc=host -v /tmp/.X11-unix:/tmp.X11-umix:rw --env DISPLAY --privileged --gpus all autodriveecosystem/autodrive_f1tenth_api:<TAG>
+```
+2. In a new terminal window, list all containers and make a note of the desired `CONTAINER ID`:
+```bash
+docker ps -a
+```
+3. Commit changes to DockerHub:
+```bash
+docker commit -m "<Sample commit message>" -a "<USERNAME>" <CONTAINER ID> <username>/<image_name>:<TAG>
+```
+4. Login to DockerHub:
+```bash
+docker login
+```
+5. Push the container to DockerHub, once done, you should be able to see your repository on DockerHub:
+```bash
+docker push <username>/<image_name>:<TAG>
+```
+6. Submit the link to your team's DockerHub repository via a secure Google Form.
 
 ## 4. Citation
 
