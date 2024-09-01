@@ -112,18 +112,18 @@ These vehicles are simulated as a combination of rigid body and sprung mass repr
 !!! note
     All right-handed coordinate frames depicted above are defined such that red represents x-axis, green represents y-axis, and blue represents z-axis.
 
-| :material-axis-arrow: FRAME | x        | y        | z        | R        | P                                   | Y       |
-|:----------------------------|:---------|:---------|:---------|:---------|:------------------------------------|:--------|
-| `left_encoder`              | 0.0      | 0.118    | 0.0      | 0.0      | :fontawesome-solid-arrow-trend-up:  | 0.0     |
-| `right_encoder`             | 0.0      | -0.118   | 0.0      | 0.0      | :fontawesome-solid-arrow-trend-up:  | 0.0     |
-| `ips`                       | 0.08     | 0.0      | 0.055    | 0.0      | 0.0                                 | 0.0     |
-| `imu`                       | 0.08     | 0.0      | 0.055    | 0.0      | 0.0                                 | 0.0     |
-| `lidar`                     | 0.2733   | 0.0      | 0.096    | 0.0      | 0.0                                 | 0.0     |
-| `front_camera`              | -0.015   | 0.0      | 0.15     | 0.0      | 10.0                                | 0.0     |
-| `front_left_wheel`          | 0.33     | 0.118    | 0.0      | 0.0      | 0.0      | :fontawesome-solid-arrow-trend-up: |
-| `front_right_wheel`         | 0.33     | -0.118   | 0.0      | 0.0      | 0.0      | :fontawesome-solid-arrow-trend-up: |
-| `rear_left_wheel`           | 0.0      | 0.118    | 0.0      | 0.0      | :fontawesome-solid-arrow-trend-up:  | 0.0     |
-| `rear_right_wheel`          | 0.0      | -0.118   | 0.0      | 0.0      | :fontawesome-solid-arrow-trend-up:  | 0.0     |
+| :material-axis-arrow:{ .lg .middle } FRAME    | x        | y        | z        | R        | P                                   | Y       |
+|:----------------------------------------------|:---------|:---------|:---------|:---------|:------------------------------------|:--------|
+| `left_encoder`                                | 0.0      | 0.118    | 0.0      | 0.0      | :fontawesome-solid-arrow-trend-up:  | 0.0     |
+| `right_encoder`                               | 0.0      | -0.118   | 0.0      | 0.0      | :fontawesome-solid-arrow-trend-up:  | 0.0     |
+| `ips`                                         | 0.08     | 0.0      | 0.055    | 0.0      | 0.0                                 | 0.0     |
+| `imu`                                         | 0.08     | 0.0      | 0.055    | 0.0      | 0.0                                 | 0.0     |
+| `lidar`                                       | 0.2733   | 0.0      | 0.096    | 0.0      | 0.0                                 | 0.0     |
+| `front_camera`                                | -0.015   | 0.0      | 0.15     | 0.0      | 10.0                                | 0.0     |
+| `front_left_wheel`                            | 0.33     | 0.118    | 0.0      | 0.0      | 0.0      | :fontawesome-solid-arrow-trend-up: |
+| `front_right_wheel`                           | 0.33     | -0.118   | 0.0      | 0.0      | 0.0      | :fontawesome-solid-arrow-trend-up: |
+| `rear_left_wheel`                             | 0.0      | 0.118    | 0.0      | 0.0      | :fontawesome-solid-arrow-trend-up:  | 0.0     |
+| `rear_right_wheel`                            | 0.0      | -0.118   | 0.0      | 0.0      | :fontawesome-solid-arrow-trend-up:  | 0.0     |
 
 !!! note
     All frame transforms mentioned above are defined w.r.t. the vehicle (local) frame of reference :material-axis-arrow: `f1tenth_1` located at the center of rear axle with x-axis pointing forward, y-axis pointing left, and z-axis pointing upwards. Columns x, y, and z denote translations in meters (m), while R, P, and Y denote rotations in degrees (deg). :fontawesome-solid-arrow-trend-up: denotes variable quantities.
@@ -142,102 +142,102 @@ Tire forces are computed based on the friction curve for each tire, represented 
 
 The tire slip is influenced by factors including tire stiffness $^iC_\alpha$, steering angle $\delta$, wheel speeds $^i\omega$, suspension forces $^iF_s$, and rigid-body momentum $^iP$. These factors impact the longitudinal and lateral components of the vehicle's linear velocity. The longitudinal slip $^iS_x$ of $i$-th tire is calculated by comparing the longitudinal components of the surface velocity of the $i$-th wheel $v_x$ with the angular velocity $^i\omega$ of the $i$-th wheel: ${^iS_x} = \frac{{^ir}*{^i\omega}-v_x}{v_x}$. The lateral slip $^iS_y$ depends on the tire's slip angle $\alpha$ and is determined by comparing the longitudinal $v_x$ and lateral $v_y$ components of the vehicle's linear velocity: ${^iS_y} = \tan(\alpha) = \frac{v_y}{\left| v_x \right|}$.
 
-| :material-car: VEHICLE PARAMETERS |                       |
-:-----------------------------------|:----------------------|
-| Wheelbase                         | 0.3240 m              |
-| Track Width                       | 0.2360 m              |
-| Wheel Radius                      | 0.0590 m              |
-| Sprung Mass                       | 3.47 kg               |
-| Wheel Mass                        | 0.109 kg              |
-| Center of Mass                    | X: 0.15532 m<br/>Y: 0.00000 m<br/>Z: 0.01434 m |
-| Suspension Spring                 | 500 N/m               |
-| Suspension Damper                 | 100 Ns/m              |
+| :material-car:{ .lg .middle } VEHICLE PARAMETERS  |                       |
+:---------------------------------------------------|:----------------------|
+| Wheelbase                                         | 0.3240 m              |
+| Track Width                                       | 0.2360 m              |
+| Wheel Radius                                      | 0.0590 m              |
+| Sprung Mass                                       | 3.47 kg               |
+| Wheel Mass                                        | 0.109 kg              |
+| Center of Mass                                    | X: 0.15532 m<br/>Y: 0.00000 m<br/>Z: 0.01434 m |
+| Suspension Spring                                 | 500 N/m               |
+| Suspension Damper                                 | 100 Ns/m              |
 
 #### 1.3.3. Actuator Dynamics
 
 The driving actuators apply torque to the wheels: ${^i\tau_{drive}} = {^iI_w}*{^i\dot{\omega}_w}$, where ${^iI_w} = \frac{1}{2}*{^im_w}*{^i{r_w}^2}$ represents the moment of inertia, $^i\dot{\omega}_w$ is the angular acceleration, $^im_w$ is the mass, and $^ir_w$ is the radius of the $i$-th wheel. Additionally, the driving actuators simulate idle torque by applying an equivalent braking torque, i.e., ${^i\tau_{idle}} = {^i\tau_{brake}}$.
 
-| :material-engine: DRIVING ACTUATOR  |                       |
-:-------------------------------------|:----------------------|
-| Drive Type                          | All wheel drive       |
-| Throttle Limits                     | [-1,1]                |
-| Motor Torque                        | 428 Nm                |
-| Top Speed                           | 22.88 m/s             |
+| :material-engine:{ .lg .middle } DRIVING ACTUATOR |                       |
+:---------------------------------------------------|:----------------------|
+| Drive Type                                        | All wheel drive       |
+| Throttle Limits                                   | [-1,1]                |
+| Motor Torque                                      | 428 Nm                |
+| Top Speed                                         | 22.88 m/s             |
 
 The front wheels are steered at the commanded steering angle $\delta$ using a steering actuator. The individual turning angles, $\delta_l$ and $\delta_r$, for the left and right wheels, respectively, are computed based on the Ackermann steering geometry defined by the wheelbase $l$ and track width $w$, as follows: $\left\{\begin{matrix} \delta_l = \textup{tan}^{-1}\left(\frac{2*l*\textup{tan}(\delta)}{2*l+w*\textup{tan}(\delta)}\right) \\ \delta_r = \textup{tan}^{-1}\left(\frac{2*l*\textup{tan}(\delta)}{2*l-w*\textup{tan}(\delta)}\right) \end{matrix}\right.$
 
-| :material-steering: STEERING ACTUATOR |                       |
-:---------------------------------------|:----------------------|
-| Steer Type                            | Ackermann steering    |
-| Steering Limits                       | [-1,1]                |
-| Steering Angle Limits                 | [-0.5236,0.5236] rad  |
-| Steering Rate                         | 3.2 rad/s             |
+| :material-steering:{ .lg .middle } STEERING ACTUATOR  |                       |
+:-------------------------------------------------------|:----------------------|
+| Steer Type                                            | Ackermann steering    |
+| Steering Limits                                       | [-1,1]                |
+| Steering Angle Limits                                 | [-0.5236,0.5236] rad  |
+| Steering Rate                                         | 3.2 rad/s             |
 
 #### 1.3.4. Sensor Physics
 
 Throttle ($\tau$) and steering ($\delta$) sensors are simulated using an instantaneous feedback loop. Incremental encoders are simulated by measuring the rotation of the rear wheels: $^iN_{ticks} = {^iPPR} * {^iGR} * {^iN_{rev}}$, where $^iN_{ticks}$ and $^iPPR$ respectively represent the measured ticks and base resolution (pulses per revolution) of the $i$-th encoder, while $^iGR$ and $^iN_{rev}$ respectively represent the gear ratio and output shaft revolutions of the $i$-th motor.
 
-| :material-engine: THROTTLE SENSOR |                     |
-:-----------------------------------|:--------------------|
-| Type                              | Virtual Sensor      |
-| Class                             | Actuator Feedback   |
-| Supported Outputs                 | [-1, 1]             |
+| :material-engine:{ .lg .middle } THROTTLE SENSOR  |                     |
+:---------------------------------------------------|:--------------------|
+| Type                                              | Virtual Sensor      |
+| Class                                             | Actuator Feedback   |
+| Supported Outputs                                 | [-1, 1]             |
 
-| :material-steering: STEERING SENSOR |                     |
-:-------------------------------------|:--------------------|
-| Type                                | Virtual Sensor      |
-| Class                               | Actuator Feedback   |
-| Supported Outputs                   | [-1, 1]             |
+| :material-steering:{ .lg .middle } STEERING SENSOR    |                     |
+:-------------------------------------------------------|:--------------------|
+| Type                                                  | Virtual Sensor      |
+| Class                                                 | Actuator Feedback   |
+| Supported Outputs                                     | [-1, 1]             |
 
-| :material-tire: ENCODERS  |                     |
-:---------------------------|:--------------------|
-| Type                      | Simulated Sensor    |
-| Class                     | Proprioceptive      |
-| Pulses Per Revolution     | 16                  |
-| Supported Outputs         | Ticks<br/>Angles    |
+| :material-tire:{ .lg .middle } ENCODERS   |                     |
+:-------------------------------------------|:--------------------|
+| Type                                      | Simulated Sensor    |
+| Class                                     | Proprioceptive      |
+| Pulses Per Revolution                     | 16                  |
+| Supported Outputs                         | Ticks<br/>Angles    |
 
 The indoor positioning system (IPS) and inertial measurement unit (IMU) are simulated based on temporally-coherent rigid-body transform updates of the vehicle $\{v\}$ w.r.t. the world $\{w\}$: ${^w\mathbf{T}_v} = \left[\begin{array}{c | c} \mathbf{R}_{3 \times 3} & \mathbf{t}_{3 \times 1} \\ \hline \mathbf{0}_{1 \times 3} & 1 \end{array}\right] \in SE(3)$. IPS provides 3-DOF positional coordinates $\{x,y,z\}$ of the vehicle, while IMU supplies linear accelerations $\{a_x,a_y,a_z\}$, angular velocities $\{\omega_x,\omega_y,\omega_z\}$, and 3-DOF orientation of the vehicle as Euler angles $\{\phi_x,\theta_y,\psi_z\}$ or quaternion $\{q_0,q_1,q_2,q_3\}$.
 
-| :material-crosshairs-gps: IPS |                     |
-:-------------------------------|:--------------------|
-| Type                          | Simulated Sensor    |
-| Class                         | Proprioceptive      |
-| Supported Outputs             | Position Vector [x, y, z] m |
+| :material-crosshairs-gps:{ .lg .middle } IPS  |                     |
+:-----------------------------------------------|:--------------------|
+| Type                                          | Simulated Sensor    |
+| Class                                         | Proprioceptive      |
+| Supported Outputs                             | Position Vector [x, y, z] m |
 
-| :material-rotate-orbit: IMU |                     |
-:-----------------------------|:--------------------|
-| Type                        | Simulated Sensor    |
-| Class                       | Proprioceptive      |
+| :material-rotate-orbit:{ .lg .middle } IMU    |                     |
+:-----------------------------------------------|:--------------------|
+| Type                                          | Simulated Sensor    |
+| Class                                         | Proprioceptive      |
 | Supported Outputs | Orientation Quaternion [x, y, z, w]<br/>Orientation Euler Angles [x, y, z] rad<br/>Angular Velocity Vector [x, y, z] rad/s<br/>Linear Acceleration Vector [x, y, z] m/s2 |
 
 LIDAR simulation employs iterative ray-casting $\texttt{raycast}$\{$^w\mathbf{T}_l$, $\vec{\mathbf{R}}$, $r_{max}$\} for each angle $\theta \in \left [ \theta_{min}:\theta_{res}:\theta_{max} \right ]$ at a specified update rate. Here, ${^w\mathbf{T}_l} = {^w\mathbf{T}_v} \times {^v\mathbf{T}_l} \in SE(3)$ represents the relative transformation of the LIDAR \{$l$\} w.r.t the vehicle \{$v$\} and the world \{$w$\}, $\vec{\mathbf{R}} = \left [\cos(\theta) \;\; \sin(\theta) \;\; 0 \right ]^T$ defines the direction vector of each ray-cast, $r_{min}$, $r_{max}$, $\theta_{min}$ and $\theta_{max}$ denote the minimum and maximum linear and angular ranges, and $\theta_{res}$ represents the angular resolution of the LIDAR. The laser scan ranges are determined by checking ray-cast hits and then applying a threshold to the minimum linear range of the LIDAR, calculated as $\texttt{ranges[i]}=\begin{cases} d_\text{hit} & \text{ if } \texttt{ray[i].hit} \text{ and } d_\text{hit} \geq r_{\text{min}} \\ \infty & \text{ otherwise} \end{cases}$, where $\texttt{ray.hit}$ is a Boolean flag indicating whether a ray-cast hits any colliders in the scene, and $d_\text{hit}=\sqrt{(x_{\text{hit}}-x_{\text{ray}})^2 + (y_{\text{hit}}-y_{\text{ray}})^2 + (z_{\text{hit}}-z_{\text{ray}})^2}$ calculates the Euclidean distance from the ray-cast source $\{x_{ray}, y_{ray}, z_{ray}\}$ to the hit point $\{x_{hit}, y_{hit}, z_{hit}\}$.
 
-| :material-asterisk: LIDAR |                     |
-:---------------------------|:--------------------|
-| Type                      | Simulated Sensor    |
-| Class                     | Exteroceptive       |
-| Scan Rate                 | 20 Hz               |
-| Angular Resolution        | 0.25 deg            |
-| Measurements Per Scan     | 1080                |
-| Minimum Linear Range      | 0.06 m              |
-| Maximum Linear Range      | 10.0 m              |
-| Minimum Angular Range     | -135 deg            |
-| Maximum Angular Range     | +135 deg            |
-| Supported Outputs         | Range Array (m)<br/>Intensity Array |
+| :material-asterisk:{ .lg .middle } LIDAR  |                     |
+:-------------------------------------------|:--------------------|
+| Type                                      | Simulated Sensor    |
+| Class                                     | Exteroceptive       |
+| Scan Rate                                 | 20 Hz               |
+| Angular Resolution                        | 0.25 deg            |
+| Measurements Per Scan                     | 1080                |
+| Minimum Linear Range                      | 0.06 m              |
+| Maximum Linear Range                      | 10.0 m              |
+| Minimum Angular Range                     | -135 deg            |
+| Maximum Angular Range                     | +135 deg            |
+| Supported Outputs                         | Range Array (m)<br/>Intensity Array |
 
 Simulated cameras are parameterized by their focal length $f$, sensor size $\{s_x, s_y\}$, target resolution, as well as the distances to the near $N$ and far $F$ clipping planes. The viewport rendering pipeline for the simulated cameras operates in three stages. First, the camera view matrix $\mathbf{V} \in SE(3)$ is computed by obtaining the relative homogeneous transform of the camera $\{c\}$ with respect to the world $\{w\}$: $\mathbf{V} = \begin{bmatrix} r_{00} & r_{01} & r_{02} & t_{0} \\ r_{10} & r_{11} & r_{12} & t_{1} \\ r_{20} & r_{21} & r_{22} & t_{2} \\ 0 & 0 & 0 & 1 \\ \end{bmatrix}$, where $r_{ij}$ and $t_i$ denote the rotational and translational components, respectively. Next, the camera projection matrix $\mathbf{P} \in \mathbb{R}^{4 \times 4}$ is calculated to project world coordinates into image space coordinates: $\mathbf{P} = \begin{bmatrix} \frac{2*N}{R-L} & 0 & \frac{R+L}{R-L} & 0 \\ 0 & \frac{2*N}{T-B} & \frac{T+B}{T-B} & 0 \\ 0 & 0 & -\frac{F+N}{F-N} & -\frac{2*F*N}{F-N} \\ 0 & 0 & -1 & 0 \\ \end{bmatrix}$, where $L$, $R$, $T$, and $B$ denote the left, right, top, and bottom offsets of the sensor. The camera parameters $\{f,s_x,s_y\}$ are related to the terms of the projection matrix as follows: $f = \frac{2*N}{R-L}$, $a = \frac{s_y}{s_x}$, and $\frac{f}{a} = \frac{2*N}{T-B}$. The perspective projection from the simulated camera's viewport is given as $\mathbf{C} = \mathbf{P}*\mathbf{V}*\mathbf{W}$, where $\mathbf{C} = \left [x_c\;\;y_c\;\;z_c\;\;w_c \right ]^T$ represents image space coordinates, and $\mathbf{W} = \left [x_w\;\;y_w\;\;z_w\;\;w_w \right ]^T$ represents world coordinates. Finally, this camera projection is transformed into normalized device coordinates (NDC) by performing perspective division (i.e., dividing throughout by $w_c$), leading to a viewport projection achieved by scaling and shifting the result and then utilizing the rasterization process of the graphics API (e.g., DirectX for Windows, Metal for macOS, and Vulkan for Linux). Additionally, a post-processing step simulates non-linear lens and film effects, such as lens distortion, depth of field, exposure, ambient occlusion, contact shadows, bloom, motion blur, film grain, chromatic aberration, etc.
 
-| :material-camera: CAMERA  |                       |
-:---------------------------|:----------------------|
-| Type                      | Simulated Sensor      |
-| Class                     | Exteroceptive         |
-| Field of View             | 48.8311 deg           |
-| Sensor Size               | X: 3.68 mm<br/>Y: 2.76 mm |
-| Shutter Speed             | 0.005 s               |
-| Focal Length              | 3.04 m                |
-| Aperture                  | f/16                  |
-| Target Resolution         | 1280$\times$720 px    |
-| Supported Outputs         | RGB Image             |
+| :material-camera:{ .lg .middle } CAMERA   |                       |
+:-------------------------------------------|:----------------------|
+| Type                                      | Simulated Sensor      |
+| Class                                     | Exteroceptive         |
+| Field of View                             | 48.8311 deg           |
+| Sensor Size                               | X: 3.68 mm<br/>Y: 2.76 mm |
+| Shutter Speed                             | 0.005 s               |
+| Focal Length                              | 3.04 m                |
+| Aperture                                  | f/16                  |
+| Target Resolution                         | 1280$\times$720 px    |
+| Supported Outputs                         | RGB Image             |
 
 <!-- #### 1.3.5. Variability (noise in sensor/actuator/system characteristics)
 #### 1.3.6. Multiple Vehicles -->
@@ -257,9 +257,9 @@ These environments are simulated by conducting mesh-mesh interference detection 
 !!! note
     All right-handed coordinate frames depicted above are defined such that red represents x-axis, green represents y-axis, and blue represents z-axis.
 
-| :material-axis-arrow: FRAME | x        | y        | z        | R        | P        | Y        |
-|:----------------------------|:---------|:---------|:---------|:---------|:---------|:---------|
-| `world`                     | 0.0      | 0.0      | 0.0      | 0.0      | 0.0      | 0.0      |
+| :material-axis-arrow:{ .lg .middle } FRAME    | x        | y        | z        | R        | P        | Y        |
+|:----------------------------------------------|:---------|:---------|:---------|:---------|:---------|:---------|
+| `world`                                       | 0.0      | 0.0      | 0.0      | 0.0      | 0.0      | 0.0      |
 | `f1tenth_1` | :fontawesome-solid-arrow-trend-up: | :fontawesome-solid-arrow-trend-up: | :fontawesome-solid-arrow-trend-up: | :fontawesome-solid-arrow-trend-up: | :fontawesome-solid-arrow-trend-up: | :fontawesome-solid-arrow-trend-up: |
 
 !!! note
@@ -438,7 +438,7 @@ Particularly, each team is expected to submit a containerized version of their a
     ```
 2. Run the simulator container at `entrypoint`:
     ```bash
-    docker run --name autodrive_f1tenth_sim --rm -it --network=host --ipc=host -v /tmp/.X11-unix:/tmp.X11-umix:rw --env DISPLAY --privileged --gpus all autodriveecosystem/autodrive_f1tenth_sim
+    docker run --name autodrive_f1tenth_sim --rm -it --network=host --ipc=host -v /tmp/.X11-unix:/tmp.X11-umix:rw --env DISPLAY --privileged --gpus all autodriveecosystem/autodrive_f1tenth_sim:<TAG>
     ```
 3. [OPTIONAL] Start additional bash session(s) within the simulator container (each in a new terminal window):
     ```bash
@@ -450,7 +450,7 @@ Particularly, each team is expected to submit a containerized version of their a
     ```
 5. Run the devkit container at `entrypoint`:
     ```bash
-    docker run --name autodrive_f1tenth_api --rm -it --network=host --ipc=host -v /tmp/.X11-unix:/tmp.X11-umix:rw --env DISPLAY --privileged --gpus all autodriveecosystem/autodrive_f1tenth_api
+    docker run --name autodrive_f1tenth_api --rm -it --network=host --ipc=host -v /tmp/.X11-unix:/tmp.X11-umix:rw --env DISPLAY --privileged --gpus all autodriveecosystem/autodrive_f1tenth_api:<TAG>
     ```
 6. [OPTIONAL] Start additional bash session(s) within the devkit container (each in a new terminal window):
     ```bash
