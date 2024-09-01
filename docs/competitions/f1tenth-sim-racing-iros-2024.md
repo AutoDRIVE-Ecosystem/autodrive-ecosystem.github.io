@@ -92,13 +92,55 @@ Following is a brief summary of each event:
 </p>
 
 <p align="justify">
-As the next few steps, we recommend all the teams interested in participating in the F1TENTH Sim Racing League to get accustomed with the competition framework:
+We recommend all the teams interested in participating in the F1TENTH Sim Racing League to get accustomed with the competition. Following are a few resources to get you started:
 </p>
 
-<div class="grid">
-  <a href="https://hub.docker.com/r/autodriveecosystem/autodrive_f1tenth_sim" class="md-button md-button"><center><div class="logo"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path d="M349.9 236.3h-66.1v-59.4h66.1v59.4zm0-204.3h-66.1v60.7h66.1V32zm78.2 144.8H362v59.4h66.1v-59.4zm-156.3-72.1h-66.1v60.1h66.1v-60.1zm78.1 0h-66.1v60.1h66.1v-60.1zm276.8 100c-14.4-9.7-47.6-13.2-73.1-8.4-3.3-24-16.7-44.9-41.1-63.7l-14-9.3-9.3 14c-18.4 27.8-23.4 73.6-3.7 103.8-8.7 4.7-25.8 11.1-48.4 10.7H2.4c-8.7 50.8 5.8 116.8 44 162.1 37.1 43.9 92.7 66.2 165.4 66.2 157.4 0 273.9-72.5 328.4-204.2 21.4 .4 67.6 .1 91.3-45.2 1.5-2.5 6.6-13.2 8.5-17.1l-13.3-8.9zm-511.1-27.9h-66v59.4h66.1v-59.4zm78.1 0h-66.1v59.4h66.1v-59.4zm78.1 0h-66.1v59.4h66.1v-59.4zm-78.1-72.1h-66.1v60.1h66.1v-60.1z"/></svg></span> Download AutoDRIVE Simulator Container</div></center></a>
-  <a href="https://hub.docker.com/r/autodriveecosystem/autodrive_f1tenth_api" class="md-button md-button"><center><div class="logo"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path d="M349.9 236.3h-66.1v-59.4h66.1v59.4zm0-204.3h-66.1v60.7h66.1V32zm78.2 144.8H362v59.4h66.1v-59.4zm-156.3-72.1h-66.1v60.1h66.1v-60.1zm78.1 0h-66.1v60.1h66.1v-60.1zm276.8 100c-14.4-9.7-47.6-13.2-73.1-8.4-3.3-24-16.7-44.9-41.1-63.7l-14-9.3-9.3 14c-18.4 27.8-23.4 73.6-3.7 103.8-8.7 4.7-25.8 11.1-48.4 10.7H2.4c-8.7 50.8 5.8 116.8 44 162.1 37.1 43.9 92.7 66.2 165.4 66.2 157.4 0 273.9-72.5 328.4-204.2 21.4 .4 67.6 .1 91.3-45.2 1.5-2.5 6.6-13.2 8.5-17.1l-13.3-8.9zm-511.1-27.9h-66v59.4h66.1v-59.4zm78.1 0h-66.1v59.4h66.1v-59.4zm78.1 0h-66.1v59.4h66.1v-59.4zm-78.1-72.1h-66.1v60.1h66.1v-60.1z"/></svg></span> Download AutoDRIVE Devkit Container</div></center></a>
+<div class="grid cards" markdown>
+
+-   :material-file-document:{ .lg .middle } __Competition Documents__
+
+    ---
+
+    Learn about the competition rules and technical aspects of the framework.
+
+    [:material-open-in-new: Competition Rules](../f1tenth-sim-racing-rules)
+
+    [:material-open-in-new: Technical Guide](../f1tenth-sim-racing-guide)
+
+-   :material-docker:{ .lg .middle } __Docker Containers__
+
+    ---
+
+    Download base container images for the competition and start developing your algorithms.
+
+    [:octicons-download-16: AutoDRIVE Simulator Container](https://hub.docker.com/r/autodriveecosystem/autodrive_f1tenth_sim)
+
+    [:octicons-download-16: AutoDRIVE Devkit Container](https://hub.docker.com/r/autodriveecosystem/autodrive_f1tenth_api)
+
+-   :material-monitor:{ .lg .middle } __Local Resources__
+
+    ---
+
+    Get started with the competition framework locally, and worry about containerization later. 
+
+    **AutoDRIVE Simulator:** [:simple-linux: Linux](https://github.com/AutoDRIVE-Ecosystem/AutoDRIVE-F1TENTH-Sim-Racing/releases/download/2024-iros-practice/autodrive_simulator_linux.zip) | [:material-microsoft: Windows](https://github.com/AutoDRIVE-Ecosystem/AutoDRIVE-F1TENTH-Sim-Racing/releases/download/2024-iros-practice/autodrive_simulator_windows.zip) | [:simple-apple: macOS](https://github.com/AutoDRIVE-Ecosystem/AutoDRIVE-F1TENTH-Sim-Racing/releases/download/2024-iros-practice/autodrive_simulator_macos.zip)
+
+    **AutoDRIVE Devkit:** [:simple-ros: ROS 2](https://github.com/AutoDRIVE-Ecosystem/AutoDRIVE-F1TENTH-Sim-Racing/releases/download/2024-iros-practice/autodrive_devkit.zip)
+
+-   :fontawesome-solid-users:{ .lg .middle } __Orientation Resources__
+
+    ---
+
+    Join the online orientation sessions or review what we covered there.
+
+    **Orientation 1:** [:fontawesome-solid-video: Zoom](https://clemson.zoom.us/s/96939189458) | :octicons-video-24: Recording | :material-microsoft-powerpoint: Slides
+
+    **Orientation 2:** :fontawesome-solid-video: Zoom | :octicons-video-24: Recording | :material-microsoft-powerpoint: Slides
+
 </div>
+
+!!! question
+    You can post general questions on the [AutoDRIVE Slack](https://join.slack.com/t/autodrive-ecosystem/shared_invite/zt-2oeg2hce8-0JvasvnBM1M_wUdDTWRuKw) workspace; this is the preferred modality. Technical questions can be also posted as [GitHub Issues](https://github.com/AutoDRIVE-Ecosystem/AutoDRIVE-F1TENTH-Sim-Racing/issues) or [GitHub Discussions](https://github.com/AutoDRIVE-Ecosystem/AutoDRIVE-F1TENTH-Sim-Racing/discussions). For any other questions or concerns that cannot be posted publicly, please contact [Chinmay Samak](mailto:csamak@clemson.edu) or [Tanmay Samak](mailto:tsamak@clemson.edu).
 
 ## Registration
 
@@ -153,7 +195,7 @@ Registered teams are added to the following table:
 | 31      | Buggy Coders              | Cody Uehara                   | Personal                                  |
 | 32      | AutoVision                | Luis Bracamontes              | Personal                                  |
 | 33      | Autobots                  | Shubham Barge<br/>Anshuman Jena | Personal                                |
-| 34      | Kyber-Kabs                | Aditya Jambhale<br/>Siddhant Diwaker | SRM Institute of Science and Technology |
+| 34      | Kyber-Kabs                | Aditya Jambhale               | SRM Institute of Science and Technology   |
 | 35      | Shoubra Racing Team       | Mazen Khaled<br/>Hazem Abuelanin<br/>Hana Ahmed<br/>Mohamed Alaa<br/>Abdelghafar Mohamad<br/>Abdelrahman Salah<br/>Malak Mounir<br/>Razan Ahmed<br/>Mohamed Hamdy<br/>Abdelrahman Osama | Benha University |
 | 36      | SUST AutoDrive            | Abul Bashar Raz<br/>Ad-Deen Mahbub<br/>Shafi Abdullah<br/>Fardeen Mosharraf<br/>Redwan Hassan<br/>Taj Ahmed | Shahjalal University of Science and Technology |
 | 37      | VersusAI                  | Junior Jesus<br/>Alisson Kolling<br/>Pedro Pinheiro<br/>Victor Kich | Universidade Federal do Rio Grande |
@@ -165,18 +207,19 @@ Registered teams are added to the following table:
 | 43      | Void                      | Gonna Yaswanth<br/>Prajyot Jadhav | Personal                              |
 | 44      | Aztec Autonomous Racing Team (AART) | Hyunjong Choi<br/>Pascal Reich<br/>Hyunhee Kwak | San Diego State University |
 | 45      | IDEA_LAB                  | Myeongjun Kim<br/>Ji-hong Park<br/>Juyoung Kim<br/>Sunwoong Moon<br/>Gyuhyeok Lee<br/>Sujin Park | Gyeongsang National University |
-| 46      | UJI                       | Enric Cervera                 | Universitat Jaume-I                       |
-| 47      | TurboTrack AI             | Swapneel Dhananjay Wagholikar | Personal                                  |
-| 48      | InDIGo                    | Nikolaos Sarantinoudis        | Technical University of Crete             |
-| 49      | Shelby                    | S Srikaanth<br/>S A Gogulnath | Sastra Deemed University                  |
-| 50      | Noyma                     | Roni Emad<br/>Youssef Karam<br/>Ahmed Khalifa<br/>John Maged<br/>Mina Sameh<br/>Andrew Bahaa<br/>Marise Nachaat<br/>Mark Medhat | Personal |
-| 51      | BREATH                    | Wonbin Lee<br/>Sechan Park<br/>Sunhwan Lee | Handong Global University    |
-| 52      | SNAIL                     | Minsu Kim<br/>Minyoung Song<br/>Sieun Park | Handong Global University    |
-| 53      | Shoubra Racing Team       | Ahmed Elmasry<br/>Mohamed Alaa<br/>Hana Ahmed<br/>Hazem Abuelanin | Benha University - Shoubra Faculty of Engineering |
-| 54      | Kanka                     | Goktug Poyrazoglu<br/>Volkan Isler<br/>Yukang Cao<br/>Burak Mert Gonultas<br/>Qingyuan Jiang<br/>Burak Susam<br/>William Chastek | University of Minnesota |
-| 55      | Kılavuz-Mekatronom        | Mehmet Baha Dursun<br/>Mustafa Kurban<br/>Hüseyin Ayvacı<br/>Cihat Kurtuluş Altıparmak | Saha Robotik |
-| 56      | AA Lab                    | Taha Kocyigit                 | Bogazici University                       |
-| 57      | Cognitron                 | Abhinav Pillai<br/>Abid Ansari<br/>Muhamed Shijas<br/>Safa N<br/>Razeen Rasheed | Indian Institute of Technology, Kharagpur |
+| 46      | Aumechtron                | Siddhant Diwaker<br/>Aryan Iyer | SRM Institute of Science and Technology |
+| 47      | UJI                       | Enric Cervera                 | Universitat Jaume-I                       |
+| 48      | TurboTrack AI             | Swapneel Dhananjay Wagholikar | Personal                                  |
+| 49      | InDIGo                    | Nikolaos Sarantinoudis        | Technical University of Crete             |
+| 50      | Shelby                    | S Srikaanth<br/>S A Gogulnath | Sastra Deemed University                  |
+| 51      | Noyma                     | Roni Emad<br/>Youssef Karam<br/>Ahmed Khalifa<br/>John Maged<br/>Mina Sameh<br/>Andrew Bahaa<br/>Marise Nachaat<br/>Mark Medhat | Personal |
+| 52      | BREATH                    | Wonbin Lee<br/>Sechan Park<br/>Sunhwan Lee | Handong Global University    |
+| 53      | SNAIL                     | Minsu Kim<br/>Minyoung Song<br/>Sieun Park | Handong Global University    |
+| 54      | Shoubra Racing Team       | Ahmed Elmasry<br/>Mohamed Alaa<br/>Hana Ahmed<br/>Hazem Abuelanin | Benha University - Shoubra Faculty of Engineering |
+| 55      | Kanka                     | Goktug Poyrazoglu<br/>Volkan Isler<br/>Yukang Cao<br/>Burak Mert Gonultas<br/>Qingyuan Jiang<br/>Burak Susam<br/>William Chastek | University of Minnesota |
+| 56      | Kılavuz-Mekatronom        | Mehmet Baha Dursun<br/>Mustafa Kurban<br/>Hüseyin Ayvacı<br/>Cihat Kurtuluş Altıparmak | Saha Robotik |
+| 57      | AA Lab                    | Taha Kocyigit                 | Bogazici University                       |
+| 58      | Cognitron                 | Abhinav Pillai<br/>Abid Ansari<br/>Muhamed Shijas<br/>Safa N<br/>Razeen Rasheed | Indian Institute of Technology, Kharagpur |
 
 !!! note
     The above table will be updated with newly registered teams within a few days of registration. Please contact [Chinmay Samak](mailto:csamak@clemson.edu) or [Tanmay Samak](mailto:tsamak@clemson.edu) if you do not see your team entry for more than 7 days after registering.
