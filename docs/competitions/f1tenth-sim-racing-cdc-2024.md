@@ -92,13 +92,55 @@ Following is a brief summary of each event:
 </p>
 
 <p align="justify">
-As the next few steps, we recommend all the teams interested in participating in the F1TENTH Sim Racing League to get accustomed with the competition framework:
+We recommend all the teams interested in participating in the F1TENTH Sim Racing League to get accustomed with the competition. Following are a few resources to get you started:
 </p>
 
-<div class="grid">
-  <a href="https://hub.docker.com/r/autodriveecosystem/autodrive_f1tenth_sim" class="md-button md-button"><center><div class="logo"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path d="M349.9 236.3h-66.1v-59.4h66.1v59.4zm0-204.3h-66.1v60.7h66.1V32zm78.2 144.8H362v59.4h66.1v-59.4zm-156.3-72.1h-66.1v60.1h66.1v-60.1zm78.1 0h-66.1v60.1h66.1v-60.1zm276.8 100c-14.4-9.7-47.6-13.2-73.1-8.4-3.3-24-16.7-44.9-41.1-63.7l-14-9.3-9.3 14c-18.4 27.8-23.4 73.6-3.7 103.8-8.7 4.7-25.8 11.1-48.4 10.7H2.4c-8.7 50.8 5.8 116.8 44 162.1 37.1 43.9 92.7 66.2 165.4 66.2 157.4 0 273.9-72.5 328.4-204.2 21.4 .4 67.6 .1 91.3-45.2 1.5-2.5 6.6-13.2 8.5-17.1l-13.3-8.9zm-511.1-27.9h-66v59.4h66.1v-59.4zm78.1 0h-66.1v59.4h66.1v-59.4zm78.1 0h-66.1v59.4h66.1v-59.4zm-78.1-72.1h-66.1v60.1h66.1v-60.1z"/></svg></span> Download AutoDRIVE Simulator Container</div></center></a>
-  <a href="https://hub.docker.com/r/autodriveecosystem/autodrive_f1tenth_api" class="md-button md-button"><center><div class="logo"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path d="M349.9 236.3h-66.1v-59.4h66.1v59.4zm0-204.3h-66.1v60.7h66.1V32zm78.2 144.8H362v59.4h66.1v-59.4zm-156.3-72.1h-66.1v60.1h66.1v-60.1zm78.1 0h-66.1v60.1h66.1v-60.1zm276.8 100c-14.4-9.7-47.6-13.2-73.1-8.4-3.3-24-16.7-44.9-41.1-63.7l-14-9.3-9.3 14c-18.4 27.8-23.4 73.6-3.7 103.8-8.7 4.7-25.8 11.1-48.4 10.7H2.4c-8.7 50.8 5.8 116.8 44 162.1 37.1 43.9 92.7 66.2 165.4 66.2 157.4 0 273.9-72.5 328.4-204.2 21.4 .4 67.6 .1 91.3-45.2 1.5-2.5 6.6-13.2 8.5-17.1l-13.3-8.9zm-511.1-27.9h-66v59.4h66.1v-59.4zm78.1 0h-66.1v59.4h66.1v-59.4zm78.1 0h-66.1v59.4h66.1v-59.4zm-78.1-72.1h-66.1v60.1h66.1v-60.1z"/></svg></span> Download AutoDRIVE Devkit Container</div></center></a>
+<div class="grid cards" markdown>
+
+-   :material-file-document:{ .lg .middle } __Competition Documents__
+
+    ---
+
+    Learn about the competition rules and technical aspects of the framework.
+
+    [:material-open-in-new: Competition Rules](../f1tenth-sim-racing-rules)
+
+    [:material-open-in-new: Technical Guide](../f1tenth-sim-racing-guide)
+
+-   :material-docker:{ .lg .middle } __Docker Containers__
+
+    ---
+
+    Download base container images for the competition and start developing your algorithms.
+
+    [:octicons-download-16: AutoDRIVE Simulator Container](https://hub.docker.com/r/autodriveecosystem/autodrive_f1tenth_sim)
+
+    [:octicons-download-16: AutoDRIVE Devkit Container](https://hub.docker.com/r/autodriveecosystem/autodrive_f1tenth_api)
+
+-   :material-monitor:{ .lg .middle } __Local Resources__
+
+    ---
+
+    Get started with the competition framework locally, and worry about containerization later. 
+
+    **AutoDRIVE Simulator:** [:simple-linux: Linux](https://github.com/AutoDRIVE-Ecosystem/AutoDRIVE-F1TENTH-Sim-Racing/releases/download/2024-cdc-practice/autodrive_simulator_linux.zip) | [:material-microsoft: Windows](https://github.com/AutoDRIVE-Ecosystem/AutoDRIVE-F1TENTH-Sim-Racing/releases/download/2024-cdc-practice/autodrive_simulator_windows.zip) | [:simple-apple: macOS](https://github.com/AutoDRIVE-Ecosystem/AutoDRIVE-F1TENTH-Sim-Racing/releases/download/2024-cdc-practice/autodrive_simulator_macos.zip)
+
+    **AutoDRIVE Devkit:** [:simple-ros: ROS 2](https://github.com/AutoDRIVE-Ecosystem/AutoDRIVE-F1TENTH-Sim-Racing/releases/download/2024-cdc-practice/autodrive_devkit.zip)
+
+-   :fontawesome-solid-users:{ .lg .middle } __Orientation Resources__
+
+    ---
+
+    Join the online orientation sessions or review what we covered there.
+
+    **Orientation 1:** :fontawesome-solid-video: Zoom | :octicons-video-24: Recording | :material-microsoft-powerpoint: Slides
+
+    **Orientation 2:** :fontawesome-solid-video: Zoom | :octicons-video-24: Recording | :material-microsoft-powerpoint: Slides
+
 </div>
+
+!!! question
+    You can post general questions on the [AutoDRIVE Slack](https://join.slack.com/t/autodrive-ecosystem/shared_invite/zt-2oeg2hce8-0JvasvnBM1M_wUdDTWRuKw) workspace; this is the preferred modality. Technical questions can be also posted as [GitHub Issues](https://github.com/AutoDRIVE-Ecosystem/AutoDRIVE-F1TENTH-Sim-Racing/issues) or [GitHub Discussions](https://github.com/AutoDRIVE-Ecosystem/AutoDRIVE-F1TENTH-Sim-Racing/discussions). For any other questions or concerns that cannot be posted publicly, please contact [Chinmay Samak](mailto:csamak@clemson.edu) or [Tanmay Samak](mailto:tsamak@clemson.edu).
 
 ## Registration
 
