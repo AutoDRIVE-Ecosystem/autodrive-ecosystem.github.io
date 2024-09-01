@@ -134,8 +134,6 @@ These vehicles are simulated as a combination of rigid body and sprung mass repr
 <img src="/../assets/images/documentation/f1tenth sim racing league/F1TENTH Vehicle Dynamics.png">
 </center>
 
-{% raw %}
-
 The vehicle model is a combination of a rigid body and a collection of sprung masses $^iM$, where the total mass of the rigid body is defined as $M=\sum{^iM}$. The rigid body's center of mass, $X_{COM} = \frac{\sum{{^iM}*{^iX}}}{\sum{^iM}}$, connects these representations, with $^iX$ representing the coordinates of the sprung masses.
 
 The suspension force acting on each sprung mass is computed as ${^iM} * {^i{\ddot{Z}}} + {^iB} * ({^i{\dot{Z}}}-{^i{\dot{z}}}) + {^iK} * ({^i{Z}}-{^i{z}})$, where $^iZ$ and $^iz$ are the displacements of sprung and unsprung masses, and $^iB$ and $^iK$ are the damping and spring coefficients of the $i$-th suspension, respectively. The unsprung mass $m$ is also subject to gravitational and suspension forces: ${^im} * {^i{\ddot{z}}} + {^iB} * ({^i{\dot{z}}}-{^i{\dot{Z}}}) + {^iK} * ({^i{z}}-{^i{Z}})$.
@@ -143,8 +141,6 @@ The suspension force acting on each sprung mass is computed as ${^iM} * {^i{\ddo
 Tire forces are computed based on the friction curve for each tire, represented as $\left\{\begin{matrix} {^iF_{t_x}} = F(^iS_x) \\{^iF_{t_y}} = F(^iS_y) \\ \end{matrix}\right.$, where $^iS_x$ and $^iS_y$ are the longitudinal and lateral slips of the $i$-th tire, respectively. The friction curve is approximated using a two-piece cubic spline, defined as $F(S) = \left\{\begin{matrix} f_0(S); \;\; S_0 \leq S < S_e \\ f_1(S); \;\; S_e \leq S < S_a \\ \end{matrix}\right.$, where $f_k(S) = a_k*S^3+b_k*S^2+c_k*S+d_k$ is a cubic polynomial function. The first segment of the spline ranges from zero $(S_0,F_0)$ to an extremum point $(S_e,F_e)$, while the second segment ranges from the extremum point $(S_e, F_e)$ to an asymptote point $(S_a, F_a)$.
 
 The tire slip is influenced by factors including tire stiffness $^iC_\alpha$, steering angle $\delta$, wheel speeds $^i\omega$, suspension forces $^iF_s$, and rigid-body momentum $^iP$. These factors impact the longitudinal and lateral components of the vehicle's linear velocity. The longitudinal slip $^iS_x$ of $i$-th tire is calculated by comparing the longitudinal components of the surface velocity of the $i$-th wheel $v_x$ with the angular velocity $^i\omega$ of the $i$-th wheel: ${^iS_x} = \frac{{^ir}*{^i\omega}-v_x}{v_x}$. The lateral slip $^iS_y$ depends on the tire's slip angle $\alpha$ and is determined by comparing the longitudinal $v_x$ and lateral $v_y$ components of the vehicle's linear velocity: ${^iS_y} = \tan(\alpha) = \frac{v_y}{\left| v_x \right|}$.
-
-{% endraw %}
 
 | :material-car:{ .lg .middle } VEHICLE PARAMETERS  |                       |
 :---------------------------------------------------|:----------------------|
@@ -159,11 +155,7 @@ The tire slip is influenced by factors including tire stiffness $^iC_\alpha$, st
 
 #### 1.3.3. Actuator Dynamics
 
-{% raw %}
-
 The driving actuators apply torque to the wheels: ${^i\tau_{drive}} = {^iI_w}*{^i\dot{\omega}_w}$, where ${^iI_w} = \frac{1}{2}*{^im_w}*{^i{r_w}^2}$ represents the moment of inertia, $^i\dot{\omega}_w$ is the angular acceleration, $^im_w$ is the mass, and $^ir_w$ is the radius of the $i$-th wheel. Additionally, the driving actuators simulate idle torque by applying an equivalent braking torque, i.e., ${^i\tau_{idle}} = {^i\tau_{brake}}$.
-
-{% endraw %}
 
 | :material-engine:{ .lg .middle } DRIVING ACTUATOR |                       |
 :---------------------------------------------------|:----------------------|
@@ -172,11 +164,7 @@ The driving actuators apply torque to the wheels: ${^i\tau_{drive}} = {^iI_w}*{^
 | Motor Torque                                      | 428 Nm                |
 | Top Speed                                         | 22.88 m/s             |
 
-{% raw %}
-
 The front wheels are steered at the commanded steering angle $\delta$ using a steering actuator. The individual turning angles, $\delta_l$ and $\delta_r$, for the left and right wheels, respectively, are computed based on the Ackermann steering geometry defined by the wheelbase $l$ and track width $w$, as follows: $\left\{\begin{matrix} \delta_l = \textup{tan}^{-1}\left(\frac{2*l*\textup{tan}(\delta)}{2*l+w*\textup{tan}(\delta)}\right) \\ \delta_r = \textup{tan}^{-1}\left(\frac{2*l*\textup{tan}(\delta)}{2*l-w*\textup{tan}(\delta)}\right) \end{matrix}\right.$
-
-{% endraw %}
 
 | :material-steering:{ .lg .middle } STEERING ACTUATOR  |                       |
 :-------------------------------------------------------|:----------------------|
@@ -187,11 +175,7 @@ The front wheels are steered at the commanded steering angle $\delta$ using a st
 
 #### 1.3.4. Sensor Physics
 
-{% raw %}
-
 Throttle ($\tau$) and steering ($\delta$) sensors are simulated using an instantaneous feedback loop. Incremental encoders are simulated by measuring the rotation of the rear wheels: $^iN_{ticks} = {^iPPR} * {^iGR} * {^iN_{rev}}$, where $^iN_{ticks}$ and $^iPPR$ respectively represent the measured ticks and base resolution (pulses per revolution) of the $i$-th encoder, while $^iGR$ and $^iN_{rev}$ respectively represent the gear ratio and output shaft revolutions of the $i$-th motor.
-
-{% endraw %}
 
 | :material-engine:{ .lg .middle } THROTTLE SENSOR  |                     |
 :---------------------------------------------------|:--------------------|
@@ -212,11 +196,7 @@ Throttle ($\tau$) and steering ($\delta$) sensors are simulated using an instant
 | Pulses Per Revolution                     | 16                  |
 | Supported Outputs                         | Ticks<br/>Angles    |
 
-{% raw %}
-
 The indoor positioning system (IPS) and inertial measurement unit (IMU) are simulated based on temporally-coherent rigid-body transform updates of the vehicle $\{v\}$ w.r.t. the world $\{w\}$: ${^w\mathbf{T}_v} = \left[\begin{array}{c | c} \mathbf{R}_{3 \times 3} & \mathbf{t}_{3 \times 1} \\ \hline \mathbf{0}_{1 \times 3} & 1 \end{array}\right] \in SE(3)$. IPS provides 3-DOF positional coordinates $\{x,y,z\}$ of the vehicle, while IMU supplies linear accelerations $\{a_x,a_y,a_z\}$, angular velocities $\{\omega_x,\omega_y,\omega_z\}$, and 3-DOF orientation of the vehicle as Euler angles $\{\phi_x,\theta_y,\psi_z\}$ or quaternion $\{q_0,q_1,q_2,q_3\}$.
-
-{% endraw %}
 
 | :material-crosshairs-gps:{ .lg .middle } IPS  |                     |
 :-----------------------------------------------|:--------------------|
@@ -230,11 +210,7 @@ The indoor positioning system (IPS) and inertial measurement unit (IMU) are simu
 | Class                                         | Proprioceptive      |
 | Supported Outputs | Orientation Quaternion [x, y, z, w]<br/>Orientation Euler Angles [x, y, z] rad<br/>Angular Velocity Vector [x, y, z] rad/s<br/>Linear Acceleration Vector [x, y, z] m/s2 |
 
-{% raw %}
-
 LIDAR simulation employs iterative ray-casting $\texttt{raycast}$\{$^w\mathbf{T}_l$, $\vec{\mathbf{R}}$, $r_{max}$\} for each angle $\theta \in \left [ \theta_{min}:\theta_{res}:\theta_{max} \right ]$ at a specified update rate. Here, ${^w\mathbf{T}_l} = {^w\mathbf{T}_v} \times {^v\mathbf{T}_l} \in SE(3)$ represents the relative transformation of the LIDAR \{$l$\} w.r.t the vehicle \{$v$\} and the world \{$w$\}, $\vec{\mathbf{R}} = \left [\cos(\theta) \;\; \sin(\theta) \;\; 0 \right ]^T$ defines the direction vector of each ray-cast, $r_{min}$, $r_{max}$, $\theta_{min}$ and $\theta_{max}$ denote the minimum and maximum linear and angular ranges, and $\theta_{res}$ represents the angular resolution of the LIDAR. The laser scan ranges are determined by checking ray-cast hits and then applying a threshold to the minimum linear range of the LIDAR, calculated as $\texttt{ranges[i]}=\begin{cases} d_\text{hit} & \text{ if } \texttt{ray[i].hit} \text{ and } d_\text{hit} \geq r_{\text{min}} \\ \infty & \text{ otherwise} \end{cases}$, where $\texttt{ray.hit}$ is a Boolean flag indicating whether a ray-cast hits any colliders in the scene, and $d_\text{hit}=\sqrt{(x_{\text{hit}}-x_{\text{ray}})^2 + (y_{\text{hit}}-y_{\text{ray}})^2 + (z_{\text{hit}}-z_{\text{ray}})^2}$ calculates the Euclidean distance from the ray-cast source $\{x_{ray}, y_{ray}, z_{ray}\}$ to the hit point $\{x_{hit}, y_{hit}, z_{hit}\}$.
-
-{% endraw %}
 
 | :material-asterisk:{ .lg .middle } LIDAR  |                     |
 :-------------------------------------------|:--------------------|
@@ -249,11 +225,7 @@ LIDAR simulation employs iterative ray-casting $\texttt{raycast}$\{$^w\mathbf{T}
 | Maximum Angular Range                     | +135 deg            |
 | Supported Outputs                         | Range Array (m)<br/>Intensity Array |
 
-{% raw %}
-
 Simulated cameras are parameterized by their focal length $f$, sensor size $\{s_x, s_y\}$, target resolution, as well as the distances to the near $N$ and far $F$ clipping planes. The viewport rendering pipeline for the simulated cameras operates in three stages. First, the camera view matrix $\mathbf{V} \in SE(3)$ is computed by obtaining the relative homogeneous transform of the camera $\{c\}$ with respect to the world $\{w\}$: $\mathbf{V} = \begin{bmatrix} r_{00} & r_{01} & r_{02} & t_{0} \\ r_{10} & r_{11} & r_{12} & t_{1} \\ r_{20} & r_{21} & r_{22} & t_{2} \\ 0 & 0 & 0 & 1 \\ \end{bmatrix}$, where $r_{ij}$ and $t_i$ denote the rotational and translational components, respectively. Next, the camera projection matrix $\mathbf{P} \in \mathbb{R}^{4 \times 4}$ is calculated to project world coordinates into image space coordinates: $\mathbf{P} = \begin{bmatrix} \frac{2*N}{R-L} & 0 & \frac{R+L}{R-L} & 0 \\ 0 & \frac{2*N}{T-B} & \frac{T+B}{T-B} & 0 \\ 0 & 0 & -\frac{F+N}{F-N} & -\frac{2*F*N}{F-N} \\ 0 & 0 & -1 & 0 \\ \end{bmatrix}$, where $L$, $R$, $T$, and $B$ denote the left, right, top, and bottom offsets of the sensor. The camera parameters $\{f,s_x,s_y\}$ are related to the terms of the projection matrix as follows: $f = \frac{2*N}{R-L}$, $a = \frac{s_y}{s_x}$, and $\frac{f}{a} = \frac{2*N}{T-B}$. The perspective projection from the simulated camera's viewport is given as $\mathbf{C} = \mathbf{P}*\mathbf{V}*\mathbf{W}$, where $\mathbf{C} = \left [x_c\;\;y_c\;\;z_c\;\;w_c \right ]^T$ represents image space coordinates, and $\mathbf{W} = \left [x_w\;\;y_w\;\;z_w\;\;w_w \right ]^T$ represents world coordinates. Finally, this camera projection is transformed into normalized device coordinates (NDC) by performing perspective division (i.e., dividing throughout by $w_c$), leading to a viewport projection achieved by scaling and shifting the result and then utilizing the rasterization process of the graphics API (e.g., DirectX for Windows, Metal for macOS, and Vulkan for Linux). Additionally, a post-processing step simulates non-linear lens and film effects, such as lens distortion, depth of field, exposure, ambient occlusion, contact shadows, bloom, motion blur, film grain, chromatic aberration, etc.
-
-{% endraw %}
 
 | :material-camera:{ .lg .middle } CAMERA   |                       |
 :-------------------------------------------|:----------------------|
