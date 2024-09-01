@@ -51,16 +51,16 @@ Since the vehicle, the sensors, the simulator, and the devkit are standardized, 
 !!! warning
     Timeline is subject to change. Please keep checking this page for any updates.
 
-| DATE                  | EVENT                      |
-|:----------------------|:---------------------------|
-| Aug 01, 2024          | Registration Opens         |
-| Oct 31, 2024          | Registration Closes        |
-| Oct 22, 2024          | Online Orientation 1       |
-| Nov 19, 2024          | Online Orientation 2       |
-| Nov 30 – Dec 01, 2024 | Qualification Round        |
-| Dec 06, 2024          | Competition Track Released |
-| Dec 07 – Dec 08, 2024 | Final Race                 |
-| Dec 09, 2024          | Results Declared           |
+| DATE                              | EVENT                      |
+|:----------------------------------|:---------------------------|
+| Aug 01, 2024                      | Registration Opens         |
+| Oct 31, 2024                      | Registration Closes        |
+| Oct 22, 2024 (5:30 – 6:30 PM EDT) | Online Orientation 1       |
+| Nov 19, 2024 (5:30 – 6:30 PM EDT) | Online Orientation 2       |
+| Nov 30 – Dec 01, 2024             | Qualification Round        |
+| Dec 06, 2024                      | Competition Track Released |
+| Dec 07 – Dec 08, 2024             | Final Race                 |
+| Dec 09, 2024                      | Results Declared           |
 
 <p align="justify">
 Following is a brief summary of each event:
