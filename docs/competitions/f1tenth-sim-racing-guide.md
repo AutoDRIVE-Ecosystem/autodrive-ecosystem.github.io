@@ -438,7 +438,7 @@ Particularly, each team is expected to submit a containerized version of their a
     ```
 2. Run the simulator container at `entrypoint`:
     ```bash
-    docker run --name autodrive_f1tenth_sim --rm -it --network=host --ipc=host -v /tmp/.X11-unix:/tmp.X11-umix:rw --env DISPLAY --privileged --gpus all autodriveecosystem/autodrive_f1tenth_sim
+    docker run --name autodrive_f1tenth_sim --rm -it --network=host --ipc=host -v /tmp/.X11-unix:/tmp.X11-umix:rw --env DISPLAY --privileged --gpus all autodriveecosystem/autodrive_f1tenth_sim:<TAG>
     ```
 3. [OPTIONAL] Start additional bash session(s) within the simulator container (each in a new terminal window):
     ```bash
@@ -450,7 +450,7 @@ Particularly, each team is expected to submit a containerized version of their a
     ```
 5. Run the devkit container at `entrypoint`:
     ```bash
-    docker run --name autodrive_f1tenth_api --rm -it --network=host --ipc=host -v /tmp/.X11-unix:/tmp.X11-umix:rw --env DISPLAY --privileged --gpus all autodriveecosystem/autodrive_f1tenth_api
+    docker run --name autodrive_f1tenth_api --rm -it --network=host --ipc=host -v /tmp/.X11-unix:/tmp.X11-umix:rw --env DISPLAY --privileged --gpus all autodriveecosystem/autodrive_f1tenth_api:<TAG>
     ```
 6. [OPTIONAL] Start additional bash session(s) within the devkit container (each in a new terminal window):
     ```bash
