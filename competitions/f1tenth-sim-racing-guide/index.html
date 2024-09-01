@@ -661,7 +661,7 @@ AutoDRIVE Simulator's GUI consists of a toolbar encompassing two panels for obse
 <table>
 <thead>
 <tr>
-<th style="text-align: left;"><span class="twemoji lg middle"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m12 2 4 4h-3v7.85l6.53 3.76L21 15.03l1.5 5.47-5.5 1.46 1.53-2.61L12 15.58l-6.53 3.77L7 21.96 1.5 20.5 3 15.03l1.47 2.58L11 13.85V6H8z"/></svg></span> FRAME</th>
+<th style="text-align: left;"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m12 2 4 4h-3v7.85l6.53 3.76L21 15.03l1.5 5.47-5.5 1.46 1.53-2.61L12 15.58l-6.53 3.77L7 21.96 1.5 20.5 3 15.03l1.47 2.58L11 13.85V6H8z"/></svg></span> FRAME</th>
 <th style="text-align: left;">x</th>
 <th style="text-align: left;">y</th>
 <th style="text-align: left;">z</th>
@@ -771,14 +771,14 @@ AutoDRIVE Simulator's GUI consists of a toolbar encompassing two panels for obse
 <p><center>
 <img src="/../assets/images/documentation/f1tenth sim racing league/F1TENTH Vehicle Dynamics.png">
 </center></p>
-<p>The vehicle model is a combination of a rigid body and a collection of sprung masses <span class="arithmatex">\({^iM}\)</span>, where the total mass of the rigid body is defined as <span class="arithmatex">\(M=\sum{^iM}\)</span>. The rigid body's center of mass, <span class="arithmatex">\(X_{COM} = \frac{\sum{{^iM}*{^iX}}}{\sum{^iM}}\)</span>, connects these representations, with <span class="arithmatex">\(^iX\)</span> representing the coordinates of the sprung masses.</p>
+<p>The vehicle model is a combination of a rigid body and a collection of sprung masses <span class="arithmatex">\(^iM\)</span>, where the total mass of the rigid body is defined as <span class="arithmatex">\(M=\sum{^iM}\)</span>. The rigid body's center of mass, <span class="arithmatex">\(X_{COM} = \frac{\sum{{^iM}*{^iX}}}{\sum{^iM}}\)</span>, connects these representations, with <span class="arithmatex">\(^iX\)</span> representing the coordinates of the sprung masses.</p>
 <p>The suspension force acting on each sprung mass is computed as <span class="arithmatex">\({^iM} * {^i{\ddot{Z}}} + {^iB} * ({^i{\dot{Z}}}-{^i{\dot{z}}}) + {^iK} * ({^i{Z}}-{^i{z}})\)</span>, where <span class="arithmatex">\(^iZ\)</span> and <span class="arithmatex">\(^iz\)</span> are the displacements of sprung and unsprung masses, and <span class="arithmatex">\(^iB\)</span> and <span class="arithmatex">\(^iK\)</span> are the damping and spring coefficients of the <span class="arithmatex">\(i\)</span>-th suspension, respectively. The unsprung mass <span class="arithmatex">\(m\)</span> is also subject to gravitational and suspension forces: <span class="arithmatex">\({^im} * {^i{\ddot{z}}} + {^iB} * ({^i{\dot{z}}}-{^i{\dot{Z}}}) + {^iK} * ({^i{z}}-{^i{Z}})\)</span>.</p>
 <p>Tire forces are computed based on the friction curve for each tire, represented as <span class="arithmatex">\(\left\{\begin{matrix} {^iF_{t_x}} = F(^iS_x) \\{^iF_{t_y}} = F(^iS_y) \\ \end{matrix}\right.\)</span>, where <span class="arithmatex">\(^iS_x\)</span> and <span class="arithmatex">\(^iS_y\)</span> are the longitudinal and lateral slips of the <span class="arithmatex">\(i\)</span>-th tire, respectively. The friction curve is approximated using a two-piece cubic spline, defined as <span class="arithmatex">\(F(S) = \left\{\begin{matrix} f_0(S); \;\; S_0 \leq S &lt; S_e \\ f_1(S); \;\; S_e \leq S &lt; S_a \\ \end{matrix}\right.\)</span>, where <span class="arithmatex">\(f_k(S) = a_k*S^3+b_k*S^2+c_k*S+d_k\)</span> is a cubic polynomial function. The first segment of the spline ranges from zero <span class="arithmatex">\((S_0,F_0)\)</span> to an extremum point <span class="arithmatex">\((S_e,F_e)\)</span>, while the second segment ranges from the extremum point <span class="arithmatex">\((S_e, F_e)\)</span> to an asymptote point <span class="arithmatex">\((S_a, F_a)\)</span>.</p>
-<p>The tire slip is influenced by factors including tire stiffness <span class="arithmatex">\(^iC_\alpha\)</span>, steering angle <span class="arithmatex">\(\delta\)</span>, wheel speeds <span class="arithmatex">\(^i\omega\)</span>, suspension forces <span class="arithmatex">\(^iF_s\)</span>, and rigid-body momentum <span class="arithmatex">\(^iP\)</span>. These factors impact the longitudinal and lateral components of the vehicle's linear velocity. The longitudinal slip <span class="arithmatex">\(^iS_x\)</span> of <span class="arithmatex">\(i\)</span>-th tire is calculated by comparing the longitudinal components of the surface velocity of the <span class="arithmatex">\(i\)</span>-th wheel <span class="arithmatex">\(v_x\)</span> with the angular velocity <span class="arithmatex">\(^i\omega\)</span> of the <span class="arithmatex">\(i\)</span>-th wheel: <span class="arithmatex">\({^iS_x} = \frac{{{^ir}}*{^i\omega}-v_x}{v_x}\)</span>. The lateral slip <span class="arithmatex">\(^iS_y\)</span> depends on the tire's slip angle <span class="arithmatex">\(\alpha\)</span> and is determined by comparing the longitudinal <span class="arithmatex">\(v_x\)</span> and lateral <span class="arithmatex">\(v_y\)</span> components of the vehicle's linear velocity: <span class="arithmatex">\({^iS_y} = \tan(\alpha) = \frac{v_y}{\left| v_x \right|}\)</span>.</p>
+<p>The tire slip is influenced by factors including tire stiffness <span class="arithmatex">\(^iC_\alpha\)</span>, steering angle <span class="arithmatex">\(\delta\)</span>, wheel speeds <span class="arithmatex">\(^i\omega\)</span>, suspension forces <span class="arithmatex">\(^iF_s\)</span>, and rigid-body momentum <span class="arithmatex">\(^iP\)</span>. These factors impact the longitudinal and lateral components of the vehicle's linear velocity. The longitudinal slip <span class="arithmatex">\(^iS_x\)</span> of <span class="arithmatex">\(i\)</span>-th tire is calculated by comparing the longitudinal components of the surface velocity of the <span class="arithmatex">\(i\)</span>-th wheel <span class="arithmatex">\(v_x\)</span> with the angular velocity <span class="arithmatex">\(^i\omega\)</span> of the <span class="arithmatex">\(i\)</span>-th wheel: <span class="arithmatex">\({^iS_x} = \frac{{^ir}*{^i\omega}-v_x}{v_x}\)</span>. The lateral slip <span class="arithmatex">\(^iS_y\)</span> depends on the tire's slip angle <span class="arithmatex">\(\alpha\)</span> and is determined by comparing the longitudinal <span class="arithmatex">\(v_x\)</span> and lateral <span class="arithmatex">\(v_y\)</span> components of the vehicle's linear velocity: <span class="arithmatex">\({^iS_y} = \tan(\alpha) = \frac{v_y}{\left| v_x \right|}\)</span>.</p>
 <table>
 <thead>
 <tr>
-<th style="text-align: left;"><span class="twemoji lg middle"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m5 11 1.5-4.5h11L19 11m-1.5 5a1.5 1.5 0 0 1-1.5-1.5 1.5 1.5 0 0 1 1.5-1.5 1.5 1.5 0 0 1 1.5 1.5 1.5 1.5 0 0 1-1.5 1.5m-11 0A1.5 1.5 0 0 1 5 14.5 1.5 1.5 0 0 1 6.5 13 1.5 1.5 0 0 1 8 14.5 1.5 1.5 0 0 1 6.5 16M18.92 6c-.2-.58-.76-1-1.42-1h-11c-.66 0-1.22.42-1.42 1L3 12v8a1 1 0 0 0 1 1h1a1 1 0 0 0 1-1v-1h12v1a1 1 0 0 0 1 1h1a1 1 0 0 0 1-1v-8z"/></svg></span> VEHICLE PARAMETERS</th>
+<th style="text-align: left;"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m5 11 1.5-4.5h11L19 11m-1.5 5a1.5 1.5 0 0 1-1.5-1.5 1.5 1.5 0 0 1 1.5-1.5 1.5 1.5 0 0 1 1.5 1.5 1.5 1.5 0 0 1-1.5 1.5m-11 0A1.5 1.5 0 0 1 5 14.5 1.5 1.5 0 0 1 6.5 13 1.5 1.5 0 0 1 8 14.5 1.5 1.5 0 0 1 6.5 16M18.92 6c-.2-.58-.76-1-1.42-1h-11c-.66 0-1.22.42-1.42 1L3 12v8a1 1 0 0 0 1 1h1a1 1 0 0 0 1-1v-1h12v1a1 1 0 0 0 1 1h1a1 1 0 0 0 1-1v-8z"/></svg></span> VEHICLE PARAMETERS</th>
 <th style="text-align: left;"></th>
 </tr>
 </thead>
@@ -818,11 +818,11 @@ AutoDRIVE Simulator's GUI consists of a toolbar encompassing two panels for obse
 </tbody>
 </table>
 <h4 id="133-actuator-dynamics">1.3.3. Actuator Dynamics<a class="headerlink" href="#133-actuator-dynamics" title="Permanent link">&para;</a></h4>
-<p>The driving actuators apply torque to the wheels: <span class="arithmatex">\({^i\tau_{drive}} = {^iI_w}*{^i\dot{\omega}_w}\)</span>, where <span class="arithmatex">\({^iI_w} = \frac{1}{2}*{^im_w}*{^i{r_w}^2}\)</span> represents the moment of inertia, <span class="arithmatex">\(^i\dot{\omega}_w\)</span> is the angular acceleration, <span class="arithmatex">\(^im_w\)</span> is the mass, and <span class="arithmatex">\(^i{r_w}\)</span> is the radius of the <span class="arithmatex">\(i\)</span>-th wheel. Additionally, the driving actuators simulate idle torque by applying an equivalent braking torque, i.e., <span class="arithmatex">\({^i\tau_{idle}} = {^i\tau_{brake}}\)</span>.</p>
+<p>The driving actuators apply torque to the wheels: <span class="arithmatex">\({^i\tau_{drive}} = {^iI_w}*{^i\dot{\omega}_w}\)</span>, where <span class="arithmatex">\({^iI_w} = \frac{1}{2}*{^im_w}*{^i{r_w}^2}\)</span> represents the moment of inertia, <span class="arithmatex">\(^i\dot{\omega}_w\)</span> is the angular acceleration, <span class="arithmatex">\(^im_w\)</span> is the mass, and <span class="arithmatex">\(^ir_w\)</span> is the radius of the <span class="arithmatex">\(i\)</span>-th wheel. Additionally, the driving actuators simulate idle torque by applying an equivalent braking torque, i.e., <span class="arithmatex">\({^i\tau_{idle}} = {^i\tau_{brake}}\)</span>.</p>
 <table>
 <thead>
 <tr>
-<th style="text-align: left;"><span class="twemoji lg middle"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M7 4v2h3v2H7l-2 2v3H3v-3H1v8h2v-3h2v3h3l2 2h8v-4h2v3h3V9h-3v3h-2V8h-6V6h3V4z"/></svg></span> DRIVING ACTUATOR</th>
+<th style="text-align: left;"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M7 4v2h3v2H7l-2 2v3H3v-3H1v8h2v-3h2v3h3l2 2h8v-4h2v3h3V9h-3v3h-2V8h-6V6h3V4z"/></svg></span> DRIVING ACTUATOR</th>
 <th style="text-align: left;"></th>
 </tr>
 </thead>
@@ -849,7 +849,7 @@ AutoDRIVE Simulator's GUI consists of a toolbar encompassing two panels for obse
 <table>
 <thead>
 <tr>
-<th style="text-align: left;"><span class="twemoji lg middle"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 19.92c1.8-.22 3.35-.97 4.65-2.27S19.7 14.8 19.92 13h-3c-.22 1-.68 1.84-1.38 2.54S14 16.7 13 16.92zM10 8h4l3 3h2.92c-.25-1.95-1.13-3.62-2.65-5C15.76 4.66 14 4 12 4s-3.76.66-5.27 2c-1.52 1.38-2.4 3.05-2.65 5H7zm1 11.92v-3c-1-.22-1.84-.68-2.54-1.38S7.3 14 7.08 13h-3c.22 1.77.97 3.3 2.27 4.6S9.2 19.67 11 19.92M12 2c2.75 0 5.1 1 7.05 2.95S22 9.25 22 12s-1 5.1-2.95 7.05S14.75 22 12 22s-5.1-1-7.05-2.95S2 14.75 2 12s1-5.1 2.95-7.05S9.25 2 12 2"/></svg></span> STEERING ACTUATOR</th>
+<th style="text-align: left;"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 19.92c1.8-.22 3.35-.97 4.65-2.27S19.7 14.8 19.92 13h-3c-.22 1-.68 1.84-1.38 2.54S14 16.7 13 16.92zM10 8h4l3 3h2.92c-.25-1.95-1.13-3.62-2.65-5C15.76 4.66 14 4 12 4s-3.76.66-5.27 2c-1.52 1.38-2.4 3.05-2.65 5H7zm1 11.92v-3c-1-.22-1.84-.68-2.54-1.38S7.3 14 7.08 13h-3c.22 1.77.97 3.3 2.27 4.6S9.2 19.67 11 19.92M12 2c2.75 0 5.1 1 7.05 2.95S22 9.25 22 12s-1 5.1-2.95 7.05S14.75 22 12 22s-5.1-1-7.05-2.95S2 14.75 2 12s1-5.1 2.95-7.05S9.25 2 12 2"/></svg></span> STEERING ACTUATOR</th>
 <th style="text-align: left;"></th>
 </tr>
 </thead>
@@ -877,7 +877,7 @@ AutoDRIVE Simulator's GUI consists of a toolbar encompassing two panels for obse
 <table>
 <thead>
 <tr>
-<th style="text-align: left;"><span class="twemoji lg middle"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M7 4v2h3v2H7l-2 2v3H3v-3H1v8h2v-3h2v3h3l2 2h8v-4h2v3h3V9h-3v3h-2V8h-6V6h3V4z"/></svg></span> THROTTLE SENSOR</th>
+<th style="text-align: left;"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M7 4v2h3v2H7l-2 2v3H3v-3H1v8h2v-3h2v3h3l2 2h8v-4h2v3h3V9h-3v3h-2V8h-6V6h3V4z"/></svg></span> THROTTLE SENSOR</th>
 <th style="text-align: left;"></th>
 </tr>
 </thead>
@@ -899,7 +899,7 @@ AutoDRIVE Simulator's GUI consists of a toolbar encompassing two panels for obse
 <table>
 <thead>
 <tr>
-<th style="text-align: left;"><span class="twemoji lg middle"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 19.92c1.8-.22 3.35-.97 4.65-2.27S19.7 14.8 19.92 13h-3c-.22 1-.68 1.84-1.38 2.54S14 16.7 13 16.92zM10 8h4l3 3h2.92c-.25-1.95-1.13-3.62-2.65-5C15.76 4.66 14 4 12 4s-3.76.66-5.27 2c-1.52 1.38-2.4 3.05-2.65 5H7zm1 11.92v-3c-1-.22-1.84-.68-2.54-1.38S7.3 14 7.08 13h-3c.22 1.77.97 3.3 2.27 4.6S9.2 19.67 11 19.92M12 2c2.75 0 5.1 1 7.05 2.95S22 9.25 22 12s-1 5.1-2.95 7.05S14.75 22 12 22s-5.1-1-7.05-2.95S2 14.75 2 12s1-5.1 2.95-7.05S9.25 2 12 2"/></svg></span> STEERING SENSOR</th>
+<th style="text-align: left;"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 19.92c1.8-.22 3.35-.97 4.65-2.27S19.7 14.8 19.92 13h-3c-.22 1-.68 1.84-1.38 2.54S14 16.7 13 16.92zM10 8h4l3 3h2.92c-.25-1.95-1.13-3.62-2.65-5C15.76 4.66 14 4 12 4s-3.76.66-5.27 2c-1.52 1.38-2.4 3.05-2.65 5H7zm1 11.92v-3c-1-.22-1.84-.68-2.54-1.38S7.3 14 7.08 13h-3c.22 1.77.97 3.3 2.27 4.6S9.2 19.67 11 19.92M12 2c2.75 0 5.1 1 7.05 2.95S22 9.25 22 12s-1 5.1-2.95 7.05S14.75 22 12 22s-5.1-1-7.05-2.95S2 14.75 2 12s1-5.1 2.95-7.05S9.25 2 12 2"/></svg></span> STEERING SENSOR</th>
 <th style="text-align: left;"></th>
 </tr>
 </thead>
@@ -921,7 +921,7 @@ AutoDRIVE Simulator's GUI consists of a toolbar encompassing two panels for obse
 <table>
 <thead>
 <tr>
-<th style="text-align: left;"><span class="twemoji lg middle"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m19.66 9.64-.36-.94 1.86-.7c-.92-2.12-2.56-3.82-4.62-4.86l-.8 1.78-.92-.42.8-1.8C14.5 2.26 13.28 2 12 2c-1.06 0-2.08.22-3.04.5l.68 1.84-.94.36L8 2.84c-2.12.92-3.82 2.56-4.86 4.62l1.78.8-.42.92-1.8-.8C2.26 9.5 2 10.72 2 12c0 1.06.22 2.08.5 3.04l1.84-.68.36.94-1.86.7c.92 2.12 2.56 3.82 4.62 4.86l.8-1.78.92.42-.8 1.8c1.12.44 2.34.7 3.62.7 1.06 0 2.08-.22 3.04-.5l-.68-1.84.94-.36.7 1.86c2.12-.92 3.82-2.56 4.86-4.62l-1.78-.8.42-.92 1.8.8c.44-1.12.7-2.34.7-3.62 0-1.06-.22-2.08-.5-3.04zm-5.36 7.9c-3.06 1.26-6.58-.18-7.84-3.24s.18-6.58 3.24-7.84 6.58.18 7.84 3.24a5.986 5.986 0 0 1-3.24 7.84"/></svg></span> ENCODERS</th>
+<th style="text-align: left;"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m19.66 9.64-.36-.94 1.86-.7c-.92-2.12-2.56-3.82-4.62-4.86l-.8 1.78-.92-.42.8-1.8C14.5 2.26 13.28 2 12 2c-1.06 0-2.08.22-3.04.5l.68 1.84-.94.36L8 2.84c-2.12.92-3.82 2.56-4.86 4.62l1.78.8-.42.92-1.8-.8C2.26 9.5 2 10.72 2 12c0 1.06.22 2.08.5 3.04l1.84-.68.36.94-1.86.7c.92 2.12 2.56 3.82 4.62 4.86l.8-1.78.92.42-.8 1.8c1.12.44 2.34.7 3.62.7 1.06 0 2.08-.22 3.04-.5l-.68-1.84.94-.36.7 1.86c2.12-.92 3.82-2.56 4.86-4.62l-1.78-.8.42-.92 1.8.8c.44-1.12.7-2.34.7-3.62 0-1.06-.22-2.08-.5-3.04zm-5.36 7.9c-3.06 1.26-6.58-.18-7.84-3.24s.18-6.58 3.24-7.84 6.58.18 7.84 3.24a5.986 5.986 0 0 1-3.24 7.84"/></svg></span> ENCODERS</th>
 <th style="text-align: left;"></th>
 </tr>
 </thead>
@@ -948,7 +948,7 @@ AutoDRIVE Simulator's GUI consists of a toolbar encompassing two panels for obse
 <table>
 <thead>
 <tr>
-<th style="text-align: left;"><span class="twemoji lg middle"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 1 4 4 4 4 0 0 1-4 4 4 4 0 0 1-4-4 4 4 0 0 1 4-4m-8.95 5H1v-2h2.05C3.5 6.83 6.83 3.5 11 3.05V1h2v2.05c4.17.45 7.5 3.78 7.95 7.95H23v2h-2.05c-.45 4.17-3.78 7.5-7.95 7.95V23h-2v-2.05C6.83 20.5 3.5 17.17 3.05 13M12 5a7 7 0 0 0-7 7 7 7 0 0 0 7 7 7 7 0 0 0 7-7 7 7 0 0 0-7-7"/></svg></span> IPS</th>
+<th style="text-align: left;"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 1 4 4 4 4 0 0 1-4 4 4 4 0 0 1-4-4 4 4 0 0 1 4-4m-8.95 5H1v-2h2.05C3.5 6.83 6.83 3.5 11 3.05V1h2v2.05c4.17.45 7.5 3.78 7.95 7.95H23v2h-2.05c-.45 4.17-3.78 7.5-7.95 7.95V23h-2v-2.05C6.83 20.5 3.5 17.17 3.05 13M12 5a7 7 0 0 0-7 7 7 7 0 0 0 7 7 7 7 0 0 0 7-7 7 7 0 0 0-7-7"/></svg></span> IPS</th>
 <th style="text-align: left;"></th>
 </tr>
 </thead>
@@ -970,7 +970,7 @@ AutoDRIVE Simulator's GUI consists of a toolbar encompassing two panels for obse
 <table>
 <thead>
 <tr>
-<th style="text-align: left;"><span class="twemoji lg middle"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M8 14.25 4.75 11H7c.25-5.61 2.39-10 5-10 2 0 3.77 2.64 4.55 6.45C20.36 8.23 23 10 23 12c0 1.83-2.17 3.43-5.4 4.3l.29-2.03C19.8 13.72 21 12.91 21 12c0-1.06-1.65-2-4.13-2.5.08.79.13 1.63.13 2.5 0 6.08-2.24 11-5 11-1.83 0-3.43-2.17-4.3-5.4l2.03.29C10.28 19.8 11.09 21 12 21c1.66 0 3-4.03 3-9q0-1.5-.15-2.85Q13.5 9 12 9l-1.86.06.29-2.01L12 7c.87 0 1.71.05 2.5.13C14 4.65 13.06 3 12 3c-1.54 0-2.82 3.5-3 8h2.25zM14.25 16 11 19.25V17c-5.61-.25-10-2.39-10-5 0-1.83 2.17-3.43 5.4-4.3l-.29 2.03C4.2 10.28 3 11.09 3 12c0 1.54 3.5 2.82 8 3v-2.25z"/></svg></span> IMU</th>
+<th style="text-align: left;"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M8 14.25 4.75 11H7c.25-5.61 2.39-10 5-10 2 0 3.77 2.64 4.55 6.45C20.36 8.23 23 10 23 12c0 1.83-2.17 3.43-5.4 4.3l.29-2.03C19.8 13.72 21 12.91 21 12c0-1.06-1.65-2-4.13-2.5.08.79.13 1.63.13 2.5 0 6.08-2.24 11-5 11-1.83 0-3.43-2.17-4.3-5.4l2.03.29C10.28 19.8 11.09 21 12 21c1.66 0 3-4.03 3-9q0-1.5-.15-2.85Q13.5 9 12 9l-1.86.06.29-2.01L12 7c.87 0 1.71.05 2.5.13C14 4.65 13.06 3 12 3c-1.54 0-2.82 3.5-3 8h2.25zM14.25 16 11 19.25V17c-5.61-.25-10-2.39-10-5 0-1.83 2.17-3.43 5.4-4.3l-.29 2.03C4.2 10.28 3 11.09 3 12c0 1.54 3.5 2.82 8 3v-2.25z"/></svg></span> IMU</th>
 <th style="text-align: left;"></th>
 </tr>
 </thead>
@@ -993,7 +993,7 @@ AutoDRIVE Simulator's GUI consists of a toolbar encompassing two panels for obse
 <table>
 <thead>
 <tr>
-<th style="text-align: left;"><span class="twemoji lg middle"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13h-6.6l4.7 4.7-1.4 1.4-4.7-4.7V21h-2v-6.7L6.3 19l-1.4-1.4L9.4 13H3v-2h6.6L4.9 6.3l1.4-1.4L11 9.6V3h2v6.4l4.6-4.6L19 6.3 14.3 11H21z"/></svg></span> LIDAR</th>
+<th style="text-align: left;"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13h-6.6l4.7 4.7-1.4 1.4-4.7-4.7V21h-2v-6.7L6.3 19l-1.4-1.4L9.4 13H3v-2h6.6L4.9 6.3l1.4-1.4L11 9.6V3h2v6.4l4.6-4.6L19 6.3 14.3 11H21z"/></svg></span> LIDAR</th>
 <th style="text-align: left;"></th>
 </tr>
 </thead>
@@ -1044,7 +1044,7 @@ AutoDRIVE Simulator's GUI consists of a toolbar encompassing two panels for obse
 <table>
 <thead>
 <tr>
-<th style="text-align: left;"><span class="twemoji lg middle"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 4h3l2-2h6l2 2h3a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2m8 3a5 5 0 0 0-5 5 5 5 0 0 0 5 5 5 5 0 0 0 5-5 5 5 0 0 0-5-5m0 2a3 3 0 0 1 3 3 3 3 0 0 1-3 3 3 3 0 0 1-3-3 3 3 0 0 1 3-3"/></svg></span> CAMERA</th>
+<th style="text-align: left;"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 4h3l2-2h6l2 2h3a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2m8 3a5 5 0 0 0-5 5 5 5 0 0 0 5 5 5 5 0 0 0 5-5 5 5 0 0 0-5-5m0 2a3 3 0 0 1 3 3 3 3 0 0 1-3 3 3 3 0 0 1-3-3 3 3 0 0 1 3-3"/></svg></span> CAMERA</th>
 <th style="text-align: left;"></th>
 </tr>
 </thead>
@@ -1104,7 +1104,7 @@ AutoDRIVE Simulator's GUI consists of a toolbar encompassing two panels for obse
 <table>
 <thead>
 <tr>
-<th style="text-align: left;"><span class="twemoji lg middle"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m12 2 4 4h-3v7.85l6.53 3.76L21 15.03l1.5 5.47-5.5 1.46 1.53-2.61L12 15.58l-6.53 3.77L7 21.96 1.5 20.5 3 15.03l1.47 2.58L11 13.85V6H8z"/></svg></span> FRAME</th>
+<th style="text-align: left;"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m12 2 4 4h-3v7.85l6.53 3.76L21 15.03l1.5 5.47-5.5 1.46 1.53-2.61L12 15.58l-6.53 3.77L7 21.96 1.5 20.5 3 15.03l1.47 2.58L11 13.85V6H8z"/></svg></span> FRAME</th>
 <th style="text-align: left;">x</th>
 <th style="text-align: left;">y</th>
 <th style="text-align: left;">z</th>
@@ -1406,7 +1406,7 @@ Particularly, each team is expected to submit a containerized version of their a
     <div class="language-bash highlight"><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a>xhost<span class="w"> </span>local:root
 </span></code></pre></div></li>
 <li>Run the simulator container at <code>entrypoint</code>:
-    <div class="language-bash highlight"><pre><span></span><code><span id="__span-4-1"><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a>docker<span class="w"> </span>run<span class="w"> </span>--name<span class="w"> </span>autodrive_f1tenth_sim<span class="w"> </span>--rm<span class="w"> </span>-it<span class="w"> </span>--network<span class="o">=</span>host<span class="w"> </span>--ipc<span class="o">=</span>host<span class="w"> </span>-v<span class="w"> </span>/tmp/.X11-unix:/tmp.X11-umix:rw<span class="w"> </span>--env<span class="w"> </span>DISPLAY<span class="w"> </span>--privileged<span class="w"> </span>--gpus<span class="w"> </span>all<span class="w"> </span>autodriveecosystem/autodrive_f1tenth_sim:&lt;TAG&gt;
+    <div class="language-bash highlight"><pre><span></span><code><span id="__span-4-1"><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a>docker<span class="w"> </span>run<span class="w"> </span>--name<span class="w"> </span>autodrive_f1tenth_sim<span class="w"> </span>--rm<span class="w"> </span>-it<span class="w"> </span>--network<span class="o">=</span>host<span class="w"> </span>--ipc<span class="o">=</span>host<span class="w"> </span>-v<span class="w"> </span>/tmp/.X11-unix:/tmp.X11-umix:rw<span class="w"> </span>--env<span class="w"> </span>DISPLAY<span class="w"> </span>--privileged<span class="w"> </span>--gpus<span class="w"> </span>all<span class="w"> </span>autodriveecosystem/autodrive_f1tenth_sim
 </span></code></pre></div></li>
 <li>[OPTIONAL] Start additional bash session(s) within the simulator container (each in a new terminal window):
     <div class="language-bash highlight"><pre><span></span><code><span id="__span-5-1"><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a>docker<span class="w"> </span><span class="nb">exec</span><span class="w"> </span>-it<span class="w"> </span>autodrive_f1tenth_sim<span class="w"> </span>bash
@@ -1415,7 +1415,7 @@ Particularly, each team is expected to submit a containerized version of their a
     <div class="language-bash highlight"><pre><span></span><code><span id="__span-6-1"><a id="__codelineno-6-1" name="__codelineno-6-1" href="#__codelineno-6-1"></a>xhost<span class="w"> </span>local:root
 </span></code></pre></div></li>
 <li>Run the devkit container at <code>entrypoint</code>:
-    <div class="language-bash highlight"><pre><span></span><code><span id="__span-7-1"><a id="__codelineno-7-1" name="__codelineno-7-1" href="#__codelineno-7-1"></a>docker<span class="w"> </span>run<span class="w"> </span>--name<span class="w"> </span>autodrive_f1tenth_api<span class="w"> </span>--rm<span class="w"> </span>-it<span class="w"> </span>--network<span class="o">=</span>host<span class="w"> </span>--ipc<span class="o">=</span>host<span class="w"> </span>-v<span class="w"> </span>/tmp/.X11-unix:/tmp.X11-umix:rw<span class="w"> </span>--env<span class="w"> </span>DISPLAY<span class="w"> </span>--privileged<span class="w"> </span>--gpus<span class="w"> </span>all<span class="w"> </span>autodriveecosystem/autodrive_f1tenth_api:&lt;TAG&gt;
+    <div class="language-bash highlight"><pre><span></span><code><span id="__span-7-1"><a id="__codelineno-7-1" name="__codelineno-7-1" href="#__codelineno-7-1"></a>docker<span class="w"> </span>run<span class="w"> </span>--name<span class="w"> </span>autodrive_f1tenth_api<span class="w"> </span>--rm<span class="w"> </span>-it<span class="w"> </span>--network<span class="o">=</span>host<span class="w"> </span>--ipc<span class="o">=</span>host<span class="w"> </span>-v<span class="w"> </span>/tmp/.X11-unix:/tmp.X11-umix:rw<span class="w"> </span>--env<span class="w"> </span>DISPLAY<span class="w"> </span>--privileged<span class="w"> </span>--gpus<span class="w"> </span>all<span class="w"> </span>autodriveecosystem/autodrive_f1tenth_api
 </span></code></pre></div></li>
 <li>[OPTIONAL] Start additional bash session(s) within the devkit container (each in a new terminal window):
     <div class="language-bash highlight"><pre><span></span><code><span id="__span-8-1"><a id="__codelineno-8-1" name="__codelineno-8-1" href="#__codelineno-8-1"></a>docker<span class="w"> </span><span class="nb">exec</span><span class="w"> </span>-it<span class="w"> </span>autodrive_f1tenth_api<span class="w"> </span>bash
