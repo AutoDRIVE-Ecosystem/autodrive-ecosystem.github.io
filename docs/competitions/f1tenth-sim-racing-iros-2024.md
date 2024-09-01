@@ -164,8 +164,19 @@ Registered teams are added to the following table:
 | 42      | KU F1TENTH                | Riley Anderson<br/>Jackson Yanek | The University of Kansas               |
 | 43      | Void                      | Gonna Yaswanth<br/>Prajyot Jadhav | Personal                              |
 | 44      | Aztec Autonomous Racing Team (AART) | Hyunjong Choi<br/>Pascal Reich<br/>Hyunhee Kwak | San Diego State University |
-| 45      | IDEA_LAB                  | Myeongjun KIM<br/>Ji-hong PARK<br/>Juyoung KIM<br/>Sunwoong MOON<br/>Gyuhyeok LEE<br/>Sujin PARK | Gyeongsang National University |
+| 45      | IDEA_LAB                  | Myeongjun Kim<br/>Ji-hong Park<br/>Juyoung Kim<br/>Sunwoong Moon<br/>Gyuhyeok Lee<br/>Sujin Park | Gyeongsang National University |
 | 46      | UJI                       | Enric Cervera                 | Universitat Jaume-I                       |
+| 47      | TurboTrack AI             | Swapneel Dhananjay Wagholikar | Personal                                  |
+| 48      | InDIGo                    | Nikolaos Sarantinoudis        | Technical University of Crete             |
+| 49      | Shelby                    | S Srikaanth<br/>S A Gogulnath | Sastra Deemed University                  |
+| 50      | Noyma                     | Roni Emad<br/>Youssef Karam<br/>Ahmed Khalifa<br/>John Maged<br/>Mina Sameh<br/>Andrew Bahaa<br/>Marise Nachaat<br/>Mark Medhat | Personal |
+| 51      | BREATH                    | Wonbin Lee<br/>Sechan Park<br/>Sunhwan Lee | Handong Global University    |
+| 52      | SNAIL                     | Minsu Kim<br/>Minyoung Song<br/>Sieun Park | Handong Global University    |
+| 53      | Shoubra Racing Team       | Ahmed Elmasry<br/>Mohamed Alaa<br/>Hana Ahmed<br/>Hazem Abuelanin | Benha University - Shoubra Faculty of Engineering |
+| 54      | Kanka                     | Goktug Poyrazoglu<br/>Volkan Isler<br/>Yukang Cao<br/>Burak Mert Gonultas<br/>Qingyuan Jiang<br/>Burak Susam<br/>William Chastek | University of Minnesota |
+| 55      | Kılavuz-Mekatronom        | Mehmet Baha Dursun<br/>Mustafa Kurban<br/>Hüseyin Ayvacı<br/>Cihat Kurtuluş Altıparmak | Saha Robotik |
+| 56      | AA Lab                    | Taha Kocyigit                 | Bogazici University                       |
+| 57      | Cognitron                 | Abhinav Pillai<br/>Abid Ansari<br/>Muhamed Shijas<br/>Safa N<br/>Razeen Rasheed | Indian Institute of Technology, Kharagpur |
 
 !!! note
     The above table will be updated with newly registered teams within a few days of registration. Please contact [Chinmay Samak](mailto:csamak@clemson.edu) or [Tanmay Samak](mailto:tsamak@clemson.edu) if you do not see your team entry for more than 7 days after registering.
