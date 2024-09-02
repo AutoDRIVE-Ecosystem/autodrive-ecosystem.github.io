@@ -12,6 +12,12 @@ This document describes the technical details of the competition framework for t
 !!! note
     Although AutoDRIVE Ecosystem supports various vehicles across different scales, configurations, and operational design domains (ODDs), the **only** vehicle allowed for this competition is the **F1TENTH**. Similarly, although AutoDRIVE Ecosystem supports multiple application programming interfaces (APIs), the **only** API allowed for this competition is **ROS 2**.
 
+Please see the accompanying video for a step-by-step tutorial of setting up and using the competition framework.
+
+<center>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/lvm0Ep-5YPA" title="Competition Framework Tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</center>
+
 ## AutoDRIVE Simulator
 
 <center>
