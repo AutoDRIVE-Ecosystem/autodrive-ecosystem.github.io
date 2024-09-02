@@ -329,7 +329,7 @@ This page hosts research outcomes that employ or contribute to the AutoDRIVE Eco
     Chinmay Vilas Samak and Tanmay Vilas Samak
     <br/>
     <a href="https://arxiv.org/abs/2402.14739">
-    <i>arXiv</i>
+    <i>AuE-8360 Scaled Autonomous Vehicles, CU-ICAR</i>
     </a>
     <br/>
     <i>2023</i>
@@ -357,7 +357,7 @@ This page hosts research outcomes that employ or contribute to the AutoDRIVE Eco
     Tanmay Vilas Samak and Chinmay Vilas Samak
     <br/>
     <a href="https://arxiv.org/abs/2211.08475">
-    <i>Bachelor's Thesis</i>
+    <i>Bachelor's Thesis, Mechatronics Engineering, SRMIST</i>
     </a>
     <br/>
     <i>2021</i>
