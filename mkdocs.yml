@@ -77,6 +77,7 @@ plugins:
   - blog
   - search:
       separator: '[\s\u200b\-_,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
+  - awesome-pages
   - git-revision-date-localized # https://github.com/timvink/mkdocs-git-revision-date-localized-plugin
   # - glightbox # https://squidfunk.github.io/mkdocs-material/reference/images
   # - mkdocs-video
@@ -184,7 +185,3 @@ nav:
     - competitions/index.md
     - F1TENTH @ IROS 2024: competitions/f1tenth-sim-racing-iros-2024.md
     - F1TENTH @ CDC 2024: competitions/f1tenth-sim-racing-cdc-2024.md
-  - "":
-    - <b>COMPETITION RULES</b>: competitions/f1tenth-sim-racing-rules.md
-  - "":
-    - <b>TECHNICAL GUIDE</b>: competitions/f1tenth-sim-racing-guide.md
