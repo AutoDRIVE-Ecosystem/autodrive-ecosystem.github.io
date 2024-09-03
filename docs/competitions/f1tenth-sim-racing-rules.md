@@ -9,13 +9,13 @@ This document describes the rules and regulations for the F1TENTH Sim Racing Lea
 !!! warning
     Rules are subject to change. Organizers reserve the right to amend existing rules and, if situation demands, create new rules on the go.
 
-## General Guidelines
+## 1. General Guidelines
 
 <p align="justify">
 F1TENTH Sim Racing League is a virtual competition, which accompanies the physical F1TENTH Autonomous Racing Competition. It leverages <a href="https://autodrive-ecosystem.github.io">AutoDRIVE Ecosystem</a> to model and simulate the digital twin of an F1TENTH racecar within a virtual racetrack. The main goal of this competition is to make autonomous racing accessible to everyone across the globe.
 </p>
 
-### Eligibility Criteria
+### 1.1. Eligibility Criteria
 
 <p align="justify">
 This competition is open for everyone around the world - students, researchers, hobbyists, professionals, or anyone else who is interested. There are no restrictions on age, sex, nationality, profession, etc. A team can consist of single or multiple participants. Multiple teams from the same organization are also allowed. However, each participant can be a member of strictly one team.
@@ -25,13 +25,13 @@ This competition is open for everyone around the world - students, researchers, 
 Registration for the Sim Racing League is free of cost and separate from the Physical Racing League and the conference registrations themselves. Although teams can participate in the Sim Racing League without attending the conference, we strongly encourage all competition participants to attend the conference in person. This will allow the teams to participate in competition-related events at the conference and connect with the broader community!
 </p>
 
-### Competition Structure
+### 1.2. Competition Structure
 
 <p align="justify">
 Each team will be provided with a standardized simulation setup (in the form of a digital twin of the F1TENTH vehicle, and a digital twin of the Porto racetrack) within the high-fidelity <a href="https://github.com/Tinker-Twins/AutoDRIVE/tree/AutoDRIVE-Simulator">AutoDRIVE Simulator</a>. Additionally, teams will also be provided with a working implementation of the <a href="https://github.com/Tinker-Twins/AutoDRIVE/tree/AutoDRIVE-Devkit">AutoDRIVE Devkit</a> to get started with developing their autonomy algorithms. Teams will have to develop perception, planning, and control algorithms to parse the real-time sensor data streamed from the simulator and generate control commands to be fed back to the simulated vehicle.
 </p>
 
-### Competition Timeline
+### 1.3. Competition Timeline
 
 <p align="justify">
 The competition will take place in 2 stages:
@@ -56,13 +56,13 @@ Following is a summary of the main events of the competition:
   <li><b>Results Declared:</b> Standings of all the teams will be released.</li>
 </ul>
 
-## Competition Guidelines
+## 2. Competition Guidelines
 
 <p align="justify">
 This competition will adhere to the <b>time-attack racing</b> format, wherein each team will compete against the clock independently, on the same racetrack. Each race will comprise a total of 12 laps: the vehicles will start with a warm-up lap, followed by 10 race laps, and finally a cool-down lap.
 </p>
 
-### Competition Requirements
+### 2.1. Competition Requirements
 
 <p align="justify">
 Following are the requirements to progress along each phase of the competition:
@@ -75,7 +75,7 @@ Following are the requirements to progress along each phase of the competition:
   <li><b>Competition:</b> During this phase, the clock will be ticking, and the objective would be to complete 10 consecutive autonomous laps as fast as possible without exceeding the collision count tolerance. Failure to respect the collision count tolerance will result in disqualification of that team. Teams will be ranked on a leaderboard in the ascending order of their time to completion (10 autonomous racing laps).</li>
 </ul>
 
-### Competition Terminology
+### 2.2. Competition Terminology
 
 <p align="justify">
 Following are the definitions of some competition terminologies:
@@ -93,7 +93,7 @@ Following are the definitions of some competition terminologies:
   <li><b>Average Lap Time:</b> This is the average time that the vehicle took to complete a race laps (out of 10 race laps) around the racetrack. This is the statistical mean of all the 10 race lap times.</li>
 </ul>
 
-### Competition Execution 
+### 2.3. Competition Execution 
 
 <p align="justify">
 Following is a summary of a typical racing event:
@@ -109,7 +109,7 @@ Following is a summary of a typical racing event:
   <li><b>Data:</b> Performance metrics of the team will be recorded and stored along with the screen recording of the simulator as well as the comprehensive ROS 2 bag.</li>
 </ul>
 
-### Inspection Rules
+### 2.4. Inspection Rules
 
 !!! warning
     Organizers reserve the right to reject any submission that they deem illegal due to unethical exploitation of the competition framework. All submissions will be examined by the race stewards prior to the race.
@@ -136,7 +136,7 @@ However, utilizing simulation ground truth data or controlling aspects other tha
 Since this is a global event held at some of the world's premier conferences, we ask all teams to observe ethical integrity and abide by the code of conduct of this competition. Any malpractice or plagiarism in terms of submission code or other material shall be considered a serious breach of the code of conduct. Depending upon the situation, organizers reserve the right to issue a warning, public citation, and/or disqualification of the responsible team(s) from the competition.
 </p>
 
-### Evaluation Criteria
+### 2.5. Evaluation Criteria
 
 <p align="justify">
 Following are the evaluation criteria for the competition:
@@ -152,13 +152,13 @@ Following are the evaluation criteria for the competition:
 !!! note
     Race referee's decision is final! In extreme cases, rebuttals with supporting evidence may be entertained at the organizers' discretion.
 
-## Submission Guidelines
+## 3. Submission Guidelines
 
 <p align="justify">
 Each team is expected to submit a containerized version of their autonomous racing software stack. Submissions for each phase of the competition will be done separately.
 </p>
 
-### Submission Requirements
+### 3.1. Submission Requirements
 
 <p align="justify">
 Following are the requirements for submitting an entry to the competition:
@@ -175,7 +175,7 @@ Following are the requirements for submitting an entry to the competition:
 !!! tip
     Teams can test their algorithms locally before containerizing them. However, don't forget to test the containerized approach before submitting!
 
-### Submission Process
+### 3.2. Submission Process
 
 <p align="justify">
 Following are the key milestones for submitting an entry to the competition:
@@ -187,7 +187,7 @@ Following are the key milestones for submitting an entry to the competition:
   <li>Teams will <b>share</b> the link of the upstream repository with the organizers via a secure submission form (separate forms for each stage of the competition).</li>
 </ul>
 
-### Submission Privacy
+### 3.3. Submission Privacy
 
 <p align="justify">
 This is a competition, and all teams have the right to keep their source code hidden from their competitors. Here are a few strategies to keep in mind:
@@ -203,7 +203,7 @@ This is a competition, and all teams have the right to keep their source code hi
 However, <b>after the competition,</b> we encourage teams to publish their source code on GitHub under an open-source license. We also encourage teams to make their Docker containers public on DockerHub. Teams can also choose to make other race data (e.g., videos, logs, reports, etc.) publicly available. This will increase the visibility of their work and increase the quality of the future competitions.
 </p>
 
-## Citation
+## 4. Citation
 
 We encourage you to read and cite the following papers if you use any part of the competition framework for your research:
 

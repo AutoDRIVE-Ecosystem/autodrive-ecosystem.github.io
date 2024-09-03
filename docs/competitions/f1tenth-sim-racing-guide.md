@@ -18,7 +18,7 @@ Please see the accompanying video for a step-by-step tutorial of setting up and 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/lvm0Ep-5YPA" title="Competition Framework Tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </center>
 
-## AutoDRIVE Simulator
+## 1. AutoDRIVE Simulator
 
 <center>
 <img src="/../assets/images/documentation/f1tenth sim racing league/Simulator.png">
@@ -32,7 +32,7 @@ AutoDRIVE Simulator (part of the larger <a href="https://autodrive-ecosystem.git
 For the F1TENTH Sim Racing League, each team will be provided with a standardized simulation setup (in the form of a digital twin of the F1TENTH vehicle, and a digital twin of the Porto racetrack) within the high-fidelity <a href="https://github.com/Tinker-Twins/AutoDRIVE/tree/AutoDRIVE-Simulator">AutoDRIVE Simulator</a>. This would democratize autonomous racing and make this competition accessible to everyone across the globe.
 </p>
 
-### System Requirements
+### 1.1. System Requirements
 
 <p align="justify">
   <b>Minimum Requirements:</b>
@@ -61,13 +61,13 @@ For the F1TENTH Sim Racing League, each team will be provided with a standardize
 !!! info
     Note that the organizers will execute the competition framework on a workstation incorporating Intel Core i9 14th Gen 14900K CPU, NVIDIA GeForce RTX 4090 GPU, and 64 GB RAM (or a similar configuration). This machine will be simultaneously running the simulator container, devkit container, screen recorder and data logger. Kindly develop your algorithms while considering these computational requirements.
 
-### User Interface
+### 1.2. User Interface
 
 <p align="justify">
 AutoDRIVE Simulator's graphical user interface (GUI) consists of a toolbar encompassing two panels for observing and interacting with key aspects of the simulator in real-time, namely <b>Menu</b> and <b>Heads-Up Display (HUD)</b>. Both the panels can be enabled or disabled using the burger icons provided on the toolbar; the figure above illustrates both the GUI panels being enabled. The menu panel on the left-hand side helps configure and control some important aspects of the simulation with just a few clicks. The HUD panel on the right-hand side helps visualize prominent simulation parameters along with vehicle status and sensory data, while hosting a time-synchronized data recording functionality that can be used to export simulation data for a specific run.
 </p>
 
-#### Menu Panel
+#### 1.2.1. Menu Panel
 
 <ul class="justify-list">
   <li><b>IP Address Field:</b> Input field to specify IP address for the machine running the devkit (default is 127.0.0.1, i.e., standard address for IPv4 loopback traffic).
@@ -81,7 +81,7 @@ AutoDRIVE Simulator's graphical user interface (GUI) consists of a toolbar encom
   <li><b>Quit Button:</b> Button to quit the simulator application.
 </ul>
 
-#### HUD Panel
+#### 1.2.2. HUD Panel
 
 <ul class="justify-list">
   <li><b>Simulation Time:</b> The time (HH:MM:SS) since start of the simulation. Reset button resets the simulation time.
@@ -100,13 +100,13 @@ AutoDRIVE Simulator's graphical user interface (GUI) consists of a toolbar encom
   <li><b>Data Recorder:</b> Save time-synchronized simulation data for a specific simulation run.
 </ul>
 
-### Vehicle
+### 1.3. Vehicle
 
 Simulated vehicles can be developed using AutoDRIVE's modular scripts, or imported from third-party tools and open standards. Specifically, the F1TENTH vehicle was reverse-engineered and visually recreated using a third-party 3D modeling software, and was imported and post-processed within AutoDRIVE Simulator to make it physically and graphically "sim-ready".
 
 These vehicles are simulated as a combination of rigid body and sprung mass representations with adequate attention to rigid body dynamics, suspension dynamics, actuator dynamics, and tire dynamics. Additionally, the simulator detects mesh-mesh interference and computes contact forces, frictional forces, momentum transfer, as well as linear and angular drag acting on the vehicle. Finally, being an autonomy-oriented digital twin, the simulator offers physically-based sensor simulation for proprioceptive as well as exteroceptive sensors on-board the virtual vehicle.
 
-#### Transforms
+#### 1.3.1. Transforms
 
 <div class="grid cards" markdown>
 - <img src="/../assets/images/documentation/f1tenth sim racing league/F1TENTH TF - Oblique View.png">
@@ -134,7 +134,7 @@ These vehicles are simulated as a combination of rigid body and sprung mass repr
 !!! note
     All frame transforms mentioned above are defined w.r.t. the vehicle (local) frame of reference :material-axis-arrow: `f1tenth_1` located at the center of rear axle with x-axis pointing forward, y-axis pointing left, and z-axis pointing upwards. Columns x, y, and z denote translations in meters (m), while R, P, and Y denote rotations in degrees (deg). :fontawesome-solid-arrow-trend-up: denotes variable quantities.
 
-#### Vehicle Dynamics
+#### 1.3.2. Vehicle Dynamics
 
 <center>
 <img src="/../assets/images/documentation/f1tenth sim racing league/F1TENTH Vehicle Dynamics.png">
@@ -159,7 +159,7 @@ The tire slip is influenced by factors including tire stiffness $^iC_\alpha$, st
 | Suspension Spring                                 | 500 N/m               |
 | Suspension Damper                                 | 100 Ns/m              |
 
-#### Actuator Dynamics
+#### 1.3.3. Actuator Dynamics
 
 The driving actuators apply torque to the wheels: ${^i\tau_{drive}} = {^iI_w}*{^i\dot{\omega}_w}$, where ${^iI_w} = \frac{1}{2}*{^im_w}*{^i{r_w}^2}$ represents the moment of inertia, $^i\dot{\omega}_w$ is the angular acceleration, $^im_w$ is the mass, and $^ir_w$ is the radius of the $i$-th wheel. Additionally, the driving actuators simulate idle torque by applying an equivalent braking torque, i.e., ${^i\tau_{idle}} = {^i\tau_{brake}}$.
 
@@ -179,7 +179,7 @@ The front wheels are steered at the commanded steering angle $\delta$ using a st
 | Steering Angle Limits                                 | [-0.5236,0.5236] rad  |
 | Steering Rate                                         | 3.2 rad/s             |
 
-#### Sensor Physics
+#### 1.3.4. Sensor Physics
 
 Throttle ($\tau$) and steering ($\delta$) sensors are simulated using an instantaneous feedback loop. Incremental encoders are simulated by measuring the rotation of the rear wheels: $^iN_{ticks} = {^iPPR} * {^iGR} * {^iN_{rev}}$, where $^iN_{ticks}$ and $^iPPR$ respectively represent the measured ticks and base resolution (pulses per revolution) of the $i$-th encoder, while $^iGR$ and $^iN_{rev}$ respectively represent the gear ratio and output shaft revolutions of the $i$-th motor.
 
@@ -245,16 +245,16 @@ Simulated cameras are parameterized by their focal length $f$, sensor size $\{s_
 | Target Resolution                         | 1280$\times$720 px    |
 | Supported Outputs                         | RGB Image             |
 
-<!-- #### Variability (noise in sensor/actuator/system characteristics)
-#### Multiple Vehicles -->
+<!-- #### 1.3.5. Variability (noise in sensor/actuator/system characteristics)
+#### 1.3.6. Multiple Vehicles -->
 
-### Environment
+### 1.4. Environment
 
 Simulated environments can be developed using AutoDRIVE's modular infrastructure development kit (IDK), or imported from third-party tools and open standards. Specifically, the autonomous racing scenario was created based on the binary occupancy grid map of a real-world F1TENTH racetrack, called "Porto", using a third-party 3D modeling software, and was imported and post-processed within AutoDRIVE Simulator to make it physically and graphically "sim-ready".
 
 These environments are simulated by conducting mesh-mesh interference detection and computing contact forces, frictional forces, momentum transfer, as well as linear and angular drag acting on all rigid bodies in the scenario.
 
-#### Transforms
+#### 1.4.1. Transforms
 
 <center>
 <img src="/../assets/images/documentation/f1tenth sim racing league/Racetrack TF - Porto.png">
@@ -274,7 +274,7 @@ These environments are simulated by conducting mesh-mesh interference detection 
 !!! warning
     Since the racetrack is subject to change during different phases and iterations of the competition, the location of the fixed environmental frame of reference may be different depending on the racetrack.
 
-#### Size and Structure
+#### 1.4.2. Size and Structure
 
 - The simulated racetrack will be designed in accordance with the physical F1TENTH racetracks, using similar materials and spanning similar dimensions.
 
@@ -284,7 +284,7 @@ These environments are simulated by conducting mesh-mesh interference detection 
 
 - The racetrack will be at least 3 car widths (90 cm) wide throughout to allow safe vehicle traversal, while giving an opportunity to optimize the raceline.
 
-#### Design and Features
+#### 1.4.3. Design and Features
 
 - The road surface will be simulated with properties of polished concrete, which is flat and reflective. Therefore, exteroceptive perception may become challenging at times, much like in the real world.
 
@@ -295,11 +295,11 @@ These environments are simulated by conducting mesh-mesh interference detection 
 !!! warning
     The racetrack is subject to change across different phases (e.g., practice, qualification, race, etc.) and iterations (e.g., IROS 2024, CDC 2024, etc.) of the competition. Participants will be informed about any track changes in advance.
 
-<!-- #### Obstacles (static/dynamic)
-#### Custom Racetracks
-#### Environmental Variability (time, weather, wind, lighting, friction, etc.) -->
+<!-- #### 1.4.4. Obstacles (static/dynamic)
+#### 1.4.5. Custom Racetracks
+#### 1.4.6. Environmental Variability (time, weather, wind, lighting, friction, etc.) -->
 
-## AutoDRIVE Devkit
+## 2. AutoDRIVE Devkit
 
 <center>
 <img src="/../assets/images/documentation/f1tenth sim racing league/Devkit.png">
@@ -313,7 +313,7 @@ AutoDRIVE Devkit (part of the larger <a href="https://autodrive-ecosystem.github
 For the F1TENTH Sim Racing League, each team will be provided with a standardized working implementation of the <a href="https://github.com/Tinker-Twins/AutoDRIVE/tree/AutoDRIVE-Devkit">AutoDRIVE Devkit</a> (in the form of ROS 2 API for the F1TENTH digital twin within AutoDRIVE Simulator) to get started with developing their autonomy algorithms. Teams will have to develop perception, planning, and control algorithms to parse the real-time sensor data streamed from the simulator and generate control commands to be fed back to the simulated vehicle. Since the vehicle, the sensors, the simulator, and the devkit are standardized, teams must develop robust racing algorithms that can deal with the uncertainties of an unseen racetrack.
 </p>
 
-### System Requirements
+### 2.1. System Requirements
 
 <p align="justify">
   <b>Minimum Requirements:</b>
@@ -342,7 +342,7 @@ For the F1TENTH Sim Racing League, each team will be provided with a standardize
 !!! info
     Note that the organizers will execute the competition framework on a workstation incorporating Intel Core i9 14th Gen 14900K CPU, NVIDIA GeForce RTX 4090 GPU, and 64 GB RAM (or a similar configuration). This machine will be simultaneously running the simulator container, devkit container, screen recorder and data logger. Kindly develop your algorithms while considering these computational requirements.
 
-### Package Structure
+### 2.2. Package Structure
 
 <p align="justify">
 The following tree describes the ROS 2 package structure of the AutoDRIVE Devkit used for the competition framework.
@@ -380,7 +380,7 @@ autodrive_devkit
 !!! warning
     Modifying the `autodrive_f1tenth` package is not permitted. Participants will have to create their own separate package(s) to implement their autonomous racing algorithms.
 
-### Data Streams
+### 2.3. Data Streams
 
 <p align="justify">
 The following table describes various data streams of the competition framework. These data streams are exposed as ROS 2 topics using AutoDRIVE Devkit.
@@ -409,7 +409,7 @@ The following table describes various data streams of the competition framework.
 !!! warning
     You may use the restricted topics for debugging, training AI models, etc. However, these topics should not be used while autonomously racing at run-time (e.g., during the deployment/inference stage of the algorithm).
 
-## Competition Submission
+## 3. Competition Submission
 
 <center>
 <img src="/../assets/images/documentation/f1tenth sim racing league/Competition Framework.png">
@@ -423,7 +423,7 @@ F1TENTH Sim Racing League is a virtual competition, which aims to make autonomou
 Particularly, each team is expected to submit a containerized version of their autonomous racing software stack. Submissions for each phase of the competition will be done separately.
 </p>
 
-### Container Setup
+### 3.1. Container Setup
 
 1. Install [Docker](https://docs.docker.com/engine/install).
 2. Since the Docker container is to take advantage of an NVIDIA GPU, the host machine has to be properly configured by installing the necessary NVIDIA GPU Drivers and the [NVIDIA Container Toolkit](https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/latest/index.html).
@@ -436,7 +436,7 @@ Particularly, each team is expected to submit a containerized version of their a
    docker pull autodriveecosystem/autodrive_f1tenth_api:<TAG>
    ```
 
-### Container Execution
+### 3.2. Container Execution
 
 1. Enable display forwarding for simulator:
     ```bash
@@ -473,7 +473,7 @@ Particularly, each team is expected to submit a containerized version of their a
 !!! tip
     In certain cases, GPUs and Docker do not work very well and can cause problems in running the simulator container. In such cases, you can download and run the simulator locally (it should be easier to access the GPU this way). You can then run only the devkit within a container. Everything else will work just fine, only that the simulator will not be running inside a container. This shouldn not matter, since you will have to submit only the container for your algorithms (i.e., devkit) and not the simulator. We will run the containerized simulator on our side for the evaluation of all submissions.
 
-### Container Troubleshooting
+### 3.3. Container Troubleshooting
 
 1. To access the container while it is running, execute the following command in a new terminal window to start a new bash session inside the container:
 ```bash
@@ -510,7 +510,7 @@ docker context use default
 !!! info
     For additional help on containerization, visit [docker.com](https://www.docker.com). Specifically, the [documentation](https://docs.docker.com/?_gl=1*1xv75eh*_gcl_au*MTA2MDkwMzgxMC4xNzI0NzEzMDY3*_ga*NjgyMTY2Njc2LjE2OTc0MjMwNzQ.*_ga_XJWPQMJYHQ*MTcyNDcxMzA3Mi4zOS4xLjE3MjQ3MTMyODAuNTMuMC4w) and [get started](https://www.docker.com/get-started) pages would be of significant help for the beginners. Also, this [cheatsheet](https://docs.docker.com/get-started/docker_cheatsheet.pdf?_gl=1*l3zebg*_gcl_au*MTA2MDkwMzgxMC4xNzI0NzEzMDY3*_ga*NjgyMTY2Njc2LjE2OTc0MjMwNzQ.*_ga_XJWPQMJYHQ*MTcyNDcxMzA3Mi4zOS4xLjE3MjQ3MTM1NzIuOS4wLjA.) could be a very handy reference for all important Docker CLI commands.
 
-### Algorithm Development
+### 3.4. Algorithm Development
 
 Teams will have to create their ROS 2 package(s) or meta-package(s) for autonomous racing within the devkit container **separate** from the provided `autodrive_f1tenth` package (i.e., without making any modifications to the `autodrive_f1tenth` package itself).
 
@@ -519,7 +519,7 @@ Please make a note of the data streams mentioned above (along with their access 
 !!! tip
     If working with containers is overwhelming, you can download and run the devkit locally while developing and testing your autonomous racing algorithms. You can then containerize the refined algorithms, test them one last time, and push them to the container registry.
 
-### Container Submission
+### 3.5. Container Submission
 
 1. Run the image you created in the previous step inside a container:
 ```bash
@@ -544,7 +544,7 @@ docker push <username>/<image_name>:<TAG>
 ```
 6. Submit the link to your team's DockerHub repository via a secure Google Form.
 
-## Citation
+## 4. Citation
 
 We encourage you to read and cite the following papers if you use any part of the competition framework for your research:
 
