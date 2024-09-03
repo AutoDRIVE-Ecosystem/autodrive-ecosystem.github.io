@@ -139,7 +139,7 @@ We recommend all the teams interested in participating in the F1TENTH Sim Racing
 
     **Orientation 1:**
     
-    [:fontawesome-solid-video: Zoom](https://clemson.zoom.us/s/96939189458) | :octicons-video-16: Recording | :material-projector-screen-outline: Slides
+    [:fontawesome-solid-video: Zoom](https://clemson.zoom.us/s/96939189458) | [:octicons-video-16: Recording](https://github.com/AutoDRIVE-Ecosystem/AutoDRIVE-F1TENTH-Sim-Racing/releases/download/2024-iros-practice/orientation_1_recording.zip) | [:material-projector-screen-outline: Slides](https://github.com/AutoDRIVE-Ecosystem/AutoDRIVE-F1TENTH-Sim-Racing/releases/download/2024-iros-practice/orientation_1_slides.zip)
 
     **Orientation 2:**
     
