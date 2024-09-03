@@ -228,6 +228,7 @@ Registered teams are added to the following table:
 | 56      | Kılavuz-Mekatronom        | Mehmet Baha Dursun<br/>Mustafa Kurban<br/>Hüseyin Ayvacı<br/>Cihat Kurtuluş Altıparmak | Saha Robotik |
 | 57      | AA Lab                    | Taha Kocyigit                 | Bogazici University                       |
 | 58      | Cognitron                 | Abhinav Pillai<br/>Abid Ansari<br/>Muhamed Shijas<br/>Safa N<br/>Razeen Rasheed | Indian Institute of Technology, Kharagpur |
+| 59      | VAUL                      | Tommy Bouchard-Lebrun<br/>William Fecteau<br/>Nicolas Lauzon | Laval University |
 
 !!! note
     The above table will be updated with newly registered teams within a few days of registration. Please contact [:material-email: Chinmay Samak](mailto:csamak@clemson.edu) or [:material-email: Tanmay Samak](mailto:tsamak@clemson.edu) if you do not see your team entry for more than 7 days after registering.
