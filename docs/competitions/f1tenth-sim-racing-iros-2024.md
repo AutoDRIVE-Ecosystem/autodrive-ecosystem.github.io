@@ -204,7 +204,6 @@ Registered teams are added to the following table:
 | 32      | AutoVision                | Luis Bracamontes              | Personal                                  |
 | 33      | Autobots                  | Shubham Barge<br/>Anshuman Jena | Personal                                |
 | 34      | Kyber-Kabs                | Aditya Jambhale               | SRM Institute of Science and Technology   |
-| 35      | Shoubra Racing Team       | Mazen Khaled<br/>Hazem Abuelanin<br/>Hana Ahmed<br/>Mohamed Alaa<br/>Abdelghafar Mohamad<br/>Abdelrahman Salah<br/>Malak Mounir<br/>Razan Ahmed<br/>Mohamed Hamdy<br/>Abdelrahman Osama | Benha University |
 | 36      | SUST AutoDrive            | Abul Bashar Raz<br/>Ad-Deen Mahbub<br/>Shafi Abdullah<br/>Fardeen Mosharraf<br/>Redwan Hassan<br/>Taj Ahmed | Shahjalal University of Science and Technology |
 | 37      | VersusAI                  | Junior Jesus<br/>Alisson Kolling<br/>Pedro Pinheiro<br/>Victor Kich | Universidade Federal do Rio Grande |
 | 38      | vijAYAM                   | Adarsh Baburaj                | Manipal University (MU), Dubai |
