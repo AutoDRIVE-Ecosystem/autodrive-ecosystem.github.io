@@ -181,7 +181,7 @@ Registered teams are added to the following table:
 | 09      | Lone Rider                | Akshay Laddha                 | Indian Institute of Technology, Bombay    |
 | 10      | Atlas 2.0                 | Manav Gagvani                 | Purdue University                         |
 | 11      | The Buttowskis            | Kalash Jain                   | Pandit Deendayal Energy University        |
-| 12      | Hanuman Parakram          | Dheeraj Bhurewar<br/>Vaibhav Wanere | Personal                            |
+| 12      | Hanuman Parakram          | Dheeraj Bhurewar<br/>Vaibhav Wanere<br/>Akash Sundar<br/>Suryaprakash | Personal                            |
 | 13      | Pallas                    | Haris Khan                    | Skoltech                                  |
 | 14      | Gopher Speedsters         | Sujeendra Ramesh              | University of Minnesota, Twin Cities      |
 | 15      | Autopilots                | Nouf Aljaberi<br/>Amna Muhammad<br/>Hajar Alnaqbi<br/>Shouq Zanki<br/>Sara Almessabie<br/> | United Arab Emirates University |
