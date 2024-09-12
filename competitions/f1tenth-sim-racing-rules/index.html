@@ -627,7 +627,7 @@ Following are the definitions of some competition terminologies:
 </p>
 
 <ul class="justify-list">
-  <li><b>Collision:</b> Any contact between the colliders of the simulated vehicle and the racetrack bounds (except the wheels touching the ground) is considered a collision. A collision will incur a compounding penalty of 10 seconds (i.e., 10 seconds for first collision, 20 seconds for the second, 30 seconds for the third, and so on). Colliding more than 5 times in a single racing event will lead to disqualification. Each collision will automatically reset the vehicle to the nearest checkpoint (your localization algorithm will have to be robust against this re-setting action). Lap timer will not reset upon collision.</li>
+  <li><b>Collision:</b> Any contact between the colliders of the simulated vehicle and the racetrack bounds (except the wheels touching the ground) is considered a collision. A collision will incur a compounding penalty of 10 seconds (i.e., 10 seconds for first collision, 20 seconds for the second, 30 seconds for the third, and so on). Colliding more than 5 times in a single racing event will lead to disqualification. Each collision will automatically reset the vehicle to the last checkpoint (your localization algorithm will have to be robust against this re-setting action). Lap timer will not reset upon collision.</li>
   <li><b>Warm-Up Lap:</b> This is the first lap of a race. The time or collisions during the warm-up lap will not be considered. This lap acts as a buffer since your algorithms may take time to launch and connect with the simulator, while the lap timer is on.</li>
   <li><b>Race Laps:</b> These are a set of 10 laps immediately following the warm-up lap. The race laps start as soon as the vehicle crosses the finish line in the warm-up lap. The time and collisions of the race laps will be considered.</li>
   <li><b>Cool-Down Lap:</b> This is the last lap of a race. The time or collisions during the cool-down lap will not be considered. Completing this lap is not required for the competition, but this can be a good time to "show-off" your skills without worrying about collisions!</li>
@@ -801,7 +801,7 @@ This work has been published at <strong>2021 International Conference on Control
     <span class="md-icon" title="Last update">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">September 3, 2024</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">September 12, 2024</span>
   </span>
 
     
