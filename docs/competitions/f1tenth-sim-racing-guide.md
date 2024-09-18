@@ -43,6 +43,7 @@ For the F1TENTH Sim Racing League, each team will be provided with a standardize
   <li><b>Memory:</b> 8 GB RAM</li>
   <li><b>Graphics:</b> Integrated graphics (e.g., Intel HD Graphics) or a low-end discrete GPU (e.g., NVIDIA GeForce GTX 1050) with at least 2 GB of VRAM</li>
   <li><b>Storage:</b> 10 GB of free disk space (for storing Docker images, simulator application and data)</li>
+  <li><b>Display:</b> 1280x720 px resolution with 60 Hz refresh rate</li>
   <li><b>Network:</b> Stable internet connection (1 Mbps) for pulling/pushing Docker images, and downloading updates on demand</li>
 </ul>
 
@@ -55,6 +56,7 @@ For the F1TENTH Sim Racing League, each team will be provided with a standardize
   <li><b>Memory:</b> 16 GB RAM</li>
   <li><b>Graphics:</b> Mid-range discrete GPU (e.g., NVIDIA GeForce GTX 1660 or RTX 2060) with 4+ GB of VRAM</li>
   <li><b>Storage:</b> 20 GB of free disk space (to accommodate multiple Docker images, additional data, and logs)</li>
+  <li><b>Display:</b> 1920x1080 px resolution with 144 Hz refresh rate</li>
   <li><b>Network:</b> Fast internet connection (10 Mbps) for pulling/pushing Docker images, and downloading updates on the fly</li>
 </ul>
 
@@ -324,6 +326,7 @@ For the F1TENTH Sim Racing League, each team will be provided with a standardize
   <li><b>Memory:</b> 4 GB RAM</li>
   <li><b>Graphics:</b> Integrated graphics (e.g., Intel HD Graphics)</li>
   <li><b>Storage:</b> 5 GB free disk space (for storing Docker images, API files, and temporary data)</li>
+  <li><b>Display:</b> 1280x720 px resolution with 60 Hz refresh rate</li>
   <li><b>Network:</b> Stable internet connection (1 Mbps) for pulling/pushing Docker images, and downloading updates on demand</li>
 </ul>
 
@@ -336,6 +339,7 @@ For the F1TENTH Sim Racing League, each team will be provided with a standardize
   <li><b>Memory:</b> 8 GB RAM</li>
   <li><b>Graphics:</b> Low-end discrete GPU (e.g., NVIDIA GeForce GT 1030)</li>
   <li><b>Storage:</b> 10 GB free disk space (to accommodate multiple Docker images, additional data, and logs)</li>
+  <li><b>Display:</b> 1920x1080 px resolution with 60 Hz refresh rate</li>
   <li><b>Network:</b> Fast internet connection (10 Mbps) for pulling/pushing Docker images, and downloading updates on the fly</li>
 </ul>
 
