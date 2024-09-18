@@ -56,7 +56,7 @@ Since the vehicle, the sensors, the simulator, and the devkit are standardized, 
 | Jul 22, 2024                      | Registration Opens         |
 | Aug 31, 2024                      | Registration Closes        |
 | Sep 02, 2024 (5:30 – 6:30 PM EDT) | Online Orientation 1       |
-| Sep 18, 2024 (5:30 – 6:30 PM EDT) | Online Orientation 2       |
+| Sep 21, 2024 (5:30 – 6:30 PM EDT) | Online Orientation 2       |
 | Sep 28 – Sep 29, 2024             | Qualification Round        |
 | Oct 04, 2024                      | Competition Track Released |
 | Oct 05 – Oct 06, 2024             | Final Race                 |
