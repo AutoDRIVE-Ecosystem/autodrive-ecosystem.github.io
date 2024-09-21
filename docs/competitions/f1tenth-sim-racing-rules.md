@@ -18,7 +18,7 @@ F1TENTH Sim Racing League is a virtual competition, which accompanies the physic
 ### 1.1. Eligibility Criteria
 
 <p align="justify">
-This competition is open for everyone around the world - students, researchers, hobbyists, professionals, or anyone else who is interested. There are no restrictions on age, sex, nationality, profession, etc. A team can consist of single or multiple participants. Multiple teams from the same organization are also allowed. However, each participant can be a member of strictly one team.
+This competition is open to everyone around the world - students, researchers, hobbyists, professionals, or anyone else who is interested. There are no restrictions on age, sex, nationality, profession, etc. A team can consist of single or multiple participants. Multiple teams from the same organization are also allowed. However, each participant can be a member of strictly one team.
 </p>
 
 <p align="justify">
