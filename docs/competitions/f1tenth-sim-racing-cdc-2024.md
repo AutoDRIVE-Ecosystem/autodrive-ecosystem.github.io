@@ -153,7 +153,7 @@ We recommend all the teams interested in participating in the F1TENTH Sim Racing
 ## Registration
 
 <p align="justify">
-This competition is open for everyone around the world - students, researchers, hobbyists, professionals, or anyone else who is interested. A team can consist of multiple teammates. Teams with only one person are also allowed.
+This competition is open to everyone around the world - students, researchers, hobbyists, professionals, or anyone else who is interested. A team can consist of multiple teammates. Teams with only one person are also allowed.
 </p>
 
 <center>
