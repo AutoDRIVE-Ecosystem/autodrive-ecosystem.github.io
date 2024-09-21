@@ -56,7 +56,7 @@ Since the vehicle, the sensors, the simulator, and the devkit are standardized, 
 | Jul 22, 2024                      | Registration Opens         |
 | Aug 31, 2024                      | Registration Closes        |
 | Sep 02, 2024 (5:30 – 6:30 PM EDT) | Online Orientation 1       |
-| Sep 21, 2024 (5:30 – 6:30 PM EDT) | Online Orientation 2       |
+| Sep 22, 2024 (5:30 – 6:30 PM EDT) | Online Orientation 2       |
 | Sep 28 – Sep 29, 2024             | Qualification Round        |
 | Oct 04, 2024                      | Competition Track Released |
 | Oct 05 – Oct 06, 2024             | Final Race                 |
@@ -153,7 +153,7 @@ We recommend all the teams interested in participating in the F1TENTH Sim Racing
 ## Registration
 
 <p align="justify">
-This competition is open for everyone around the world - students, researchers, hobbyists, professionals, or anyone else who is interested. A team can consist of multiple teammates. Teams with only one person are also allowed.
+This competition is open to everyone around the world - students, researchers, hobbyists, professionals, or anyone else who is interested. A team can consist of multiple teammates. Teams with only one person are also allowed.
 </p>
 
 <center>
