@@ -143,7 +143,7 @@ We recommend all the teams interested in participating in the F1TENTH Sim Racing
 
     **Orientation 2:**
     
-    :fontawesome-solid-video: Zoom | :octicons-video-16: Recording | :material-projector-screen-outline: Slides
+    [:fontawesome-solid-video: Zoom](https://clemson.zoom.us/j/95101125213) | :octicons-video-16: Recording | :material-projector-screen-outline: Slides
 
 </div>
 
