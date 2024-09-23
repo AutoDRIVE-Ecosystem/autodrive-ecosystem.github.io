@@ -448,7 +448,7 @@ Particularly, each team is expected to submit a containerized version of their a
     ```
 2. Run the simulator container at `entrypoint`:
     ```bash
-    docker run --name autodrive_f1tenth_sim --rm -it --network=host --ipc=host -v /tmp/.X11-unix:/tmp.X11-umix:rw --env DISPLAY --privileged --gpus all autodriveecosystem/autodrive_f1tenth_sim:<TAG>
+    docker run --name autodrive_f1tenth_sim --rm -it --entrypoint /bin/bash --network=host --ipc=host -v /tmp/.X11-unix:/tmp.X11-umix:rw --env DISPLAY --privileged --gpus all autodriveecosystem/autodrive_f1tenth_sim:<TAG>
     ```
 3. [OPTIONAL] Start additional bash session(s) within the simulator container (each in a new terminal window):
     ```bash
@@ -460,19 +460,58 @@ Particularly, each team is expected to submit a containerized version of their a
     ```
 5. Run the devkit container at `entrypoint`:
     ```bash
-    docker run --name autodrive_f1tenth_api --rm -it --network=host --ipc=host -v /tmp/.X11-unix:/tmp.X11-umix:rw --env DISPLAY --privileged --gpus all autodriveecosystem/autodrive_f1tenth_api:<TAG>
+    docker run --name autodrive_f1tenth_api --rm -it --entrypoint /bin/bash --network=host --ipc=host -v /tmp/.X11-unix:/tmp.X11-umix:rw --env DISPLAY --privileged --gpus all autodriveecosystem/autodrive_f1tenth_api:<TAG>
     ```
 6. [OPTIONAL] Start additional bash session(s) within the devkit container (each in a new terminal window):
     ```bash
     docker exec -it autodrive_f1tenth_api bash
     ```
-7. Using the simulator GUI, configure the following:
-   
-    7.1. Enter the IP address of the machine running the devkit container. If both containers are running on the same machine, leave the default loopback IP.
-   
-    7.2. Hit the `Connection` button and note the status next to it.
 
-    7.3. Once the connection has been established, hit the `Driving Mode` to engage the vehicle in `Autonomous` mode.
+#### 3.2.1. GUI Mode Operations:
+
+<center>
+<img src="/../assets/images/documentation/f1tenth sim racing league/GUI vs Headless Mode.png">
+</center>
+
+1. Launch AutoDRIVE Simulator in `gui` mode (camera rendering will be enabled):
+    ```bash
+    ./AutoDRIVE\ Simulator.x86_64
+    ```
+2. Launch AutoDRIVE Devkit in `gui` mode (rviz rendering will be enabled):
+    ```bash
+    ros2 launch autodrive_f1tenth simulator_bringup_rviz.launch.py
+    ```
+3. Using the simulator GUI menu panel, configure the following:
+   
+    3.1. Enter the IP address of the machine running the devkit. If both containers are running on the same machine, leave the default loopback IP.
+   
+    3.2. Hit the `Connection` button and note the status next to it (also note that the devkit echoes `Connected!` message).
+
+    3.3. Once the connection has been established, hit the `Driving Mode` to toggle the vehicle between `Manual` and `Autonomous` driving modes.
+
+#### 3.2.2. Headless Mode Operations:
+
+1. Launch AutoDRIVE Simulator in `headless` mode (camera rendering will be disabled) by passing the IP address of the machine running the devkit as AutoDRIVE CLI arguments:
+    ```bash
+    ./AutoDRIVE\ Simulator.x86_64 -batchmode -nographics -ip 127.0.0.1 -port 4567
+    ```
+2. Launch AutoDRIVE Devkit in `headless` mode (rviz rendering will be disabled):
+    ```bash
+    ros2 launch autodrive_f1tenth simulator_bringup_headless.launch.py
+    ```
+
+!!! info
+    It is possible to run either the simulator, devkit, or both selectively in either `gui` or `headless` mode.
+
+#### 3.2.3. Distributed Computing Mode:
+
+<center>
+<img src="/../assets/images/documentation/f1tenth sim racing league/Distributed Computing Mode.png">
+</center>
+
+<p align="justify">
+It is possible to run the simulator and devkit on two separate computing nodes (e.g. two different PCs) connected via a common network. The benefit of this approach is workload distribution by isolating the two computing processes, thereby gaining higher performance. It is further possible to run the devkit on a physical F1TENTH vehicle (using the Jetson SBC onboard) and connect it to the PC running AutoDRIVE Simulator as a hardware-in-the-loop (HIL) setup.
+</p>
 
 !!! tip
     In certain cases, GPUs and Docker do not work very well and can cause problems in running the simulator container. In such cases, you can download and run the simulator locally (it should be easier to access the GPU this way). You can then run only the devkit within a container. Everything else will work just fine, only that the simulator will not be running inside a container. This shouldn not matter, since you will have to submit only the container for your algorithms (i.e., devkit) and not the simulator. We will run the containerized simulator on our side for the evaluation of all submissions.
@@ -528,7 +567,7 @@ Please make a note of the data streams mentioned above (along with their access 
 1. Run the image you created in the previous step inside a container:
 ```bash
 xhost local:root
-docker run --name autodrive_f1tenth_api --rm -it --network=host --ipc=host -v /tmp/.X11-unix:/tmp.X11-umix:rw --env DISPLAY --privileged --gpus all autodriveecosystem/autodrive_f1tenth_api:<TAG>
+docker run --name autodrive_f1tenth_api --rm -it --entrypoint /bin/bash --network=host --ipc=host -v /tmp/.X11-unix:/tmp.X11-umix:rw --env DISPLAY --privileged --gpus all autodriveecosystem/autodrive_f1tenth_api:<TAG>
 ```
 2. In a new terminal window, list all containers and make a note of the desired `CONTAINER ID`:
 ```bash
