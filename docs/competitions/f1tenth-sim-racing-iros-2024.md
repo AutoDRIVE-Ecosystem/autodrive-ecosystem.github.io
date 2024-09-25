@@ -232,6 +232,19 @@ Registered teams are added to the following table:
 !!! note
     The above table will be updated with newly registered teams within a few days of registration. Please contact [:material-email: Chinmay Samak](mailto:csamak@clemson.edu) or [:material-email: Tanmay Samak](mailto:tsamak@clemson.edu) if you do not see your team entry for more than 7 days after registering.
 
+## Submission
+
+<p align="justify">
+Use the secure form below to make your team's submission for Phase 1 (Qualification Round) of the F1TENTH Sim Racing League. Please fill in your team's name and add the link to your team's DockerHub repository containing the autonomous racing stack. If you are using a private repository, make sure to add <a href="https://hub.docker.com/u/autodriveecosystem">autodriveecosystem</a> as a <a href="https://docs.docker.com/docker-hub/repos/access">collaborator to your repository</a>.
+</p>
+
+<center>
+[:material-file-document-edit: Phase 1 Submission Form](https://forms.gle/c9LzgnwVnm6jNNqt9){.md-button}
+</center>
+
+!!! warning
+    Phase 1 submission window will close on Sep 27, 2024. Please contact [:material-email: Chinmay Samak](mailto:csamak@clemson.edu) or [:material-email: Tanmay Samak](mailto:tsamak@clemson.edu) if you have any questions.
+
 ## Results
 
 <p align="justify">
