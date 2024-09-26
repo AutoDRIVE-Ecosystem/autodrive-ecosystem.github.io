@@ -150,16 +150,23 @@ Tire forces are computed based on the friction curve for each tire, represented 
 
 The tire slip is influenced by factors including tire stiffness $^iC_\alpha$, steering angle $\delta$, wheel speeds $^i\omega$, suspension forces $^iF_s$, and rigid-body momentum $^iP$. These factors impact the longitudinal and lateral components of the vehicle's linear velocity. The longitudinal slip $^iS_x$ of $i$-th tire is calculated by comparing the longitudinal components of the surface velocity of the $i$-th wheel $v_x$ with the angular velocity $^i\omega$ of the $i$-th wheel: ${^iS_x} = \frac{{^ir}*{^i\omega}-v_x}{v_x}$. The lateral slip $^iS_y$ depends on the tire's slip angle $\alpha$ and is determined by comparing the longitudinal $v_x$ and lateral $v_y$ components of the vehicle's linear velocity: ${^iS_y} = \tan(\alpha) = \frac{v_y}{\left| v_x \right|}$.
 
-| :material-car:{ .lg .middle } VEHICLE PARAMETERS  |                       |
-:---------------------------------------------------|:----------------------|
-| Wheelbase                                         | 0.3240 m              |
-| Track Width                                       | 0.2360 m              |
-| Wheel Radius                                      | 0.0590 m              |
-| Sprung Mass                                       | 3.47 kg               |
-| Wheel Mass                                        | 0.109 kg              |
-| Center of Mass                                    | X: 0.15532 m<br/>Y: 0.00000 m<br/>Z: 0.01434 m |
-| Suspension Spring                                 | 500 N/m               |
-| Suspension Damper                                 | 100 Ns/m              |
+| :material-car-side:{ .lg .middle } VEHICLE PARAMETERS  |                       |
+:--------------------------------------------------------|:----------------------|
+| Car Length                                             | 0.5000 m              |
+| Car Width                                              | 0.2700 m              |
+| Wheelbase                                              | 0.3240 m              |
+| Track Width                                            | 0.2360 m              |
+| Front Overhang                                         | 0.0900 m              |
+| Rear Overhang                                            | 0.0800 m              |
+| Wheel Radius                                           | 0.0590 m              |
+| Wheel Width                                            | 0.0450 m              |
+| Sprung Mass                                            | 3.47 kg               |
+| Wheel Mass                                             | 0.109 kg              |
+| Center of Mass                                         | X: 0.15532 m<br/>Y: 0.00000 m<br/>Z: 0.01434 m |
+| Suspension Spring                                      | 500 N/m               |
+| Suspension Damper                                      | 100 Ns/m              |
+| Longitudinal Tire Limits (Slip, Force)                 | Extremum: (0.15, 0.72)<br/>Asymptote: (0.25, 0.464) |
+| Lateral Tire Limits (Slip, Force)                      | Extremum: (0.01, 1.00)<br/>Asymptote: (0.10, 0.500) |
 
 #### 1.3.3. Actuator Dynamics
 
@@ -170,7 +177,7 @@ The driving actuators apply torque to the wheels: ${^i\tau_{drive}} = {^iI_w}*{^
 | Drive Type                                        | All wheel drive       |
 | Throttle Limits                                   | [-1,1]                |
 | Motor Torque                                      | 428 Nm                |
-| Top Speed                                         | 22.88 m/s             |
+| Vehicle Top Speed                                 | 22.88 m/s             |
 
 The front wheels are steered at the commanded steering angle $\delta$ using a steering actuator. The individual turning angles, $\delta_l$ and $\delta_r$, for the left and right wheels, respectively, are computed based on the Ackermann steering geometry defined by the wheelbase $l$ and track width $w$, as follows: $\left\{\begin{matrix} \delta_l = \textup{tan}^{-1}\left(\frac{2*l*\textup{tan}(\delta)}{2*l+w*\textup{tan}(\delta)}\right) \\ \delta_r = \textup{tan}^{-1}\left(\frac{2*l*\textup{tan}(\delta)}{2*l-w*\textup{tan}(\delta)}\right) \end{matrix}\right.$
 
@@ -224,7 +231,7 @@ LIDAR simulation employs iterative ray-casting $\texttt{raycast}$\{$^w\mathbf{T}
 :-------------------------------------------|:--------------------|
 | Type                                      | Simulated Sensor    |
 | Class                                     | Exteroceptive       |
-| Scan Rate                                 | 20 Hz               |
+| Scan Rate                                 | 40 Hz               |
 | Angular Resolution                        | 0.25 deg            |
 | Measurements Per Scan                     | 1080                |
 | Minimum Linear Range                      | 0.06 m              |
