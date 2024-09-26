@@ -18,7 +18,7 @@
       
       
       <link rel="icon" href="../../assets/favicon.png">
-      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.36">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.37">
     
     
       
@@ -26,7 +26,7 @@
       
     
     
-      <link rel="stylesheet" href="../../assets/stylesheets/main.06209087.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.8c3ca2c6.min.css">
       
         
         <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
@@ -784,11 +784,19 @@ AutoDRIVE Simulator's graphical user interface (GUI) consists of a toolbar encom
 <table>
 <thead>
 <tr>
-<th style="text-align: left;"><span class="twemoji lg middle"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m5 11 1.5-4.5h11L19 11m-1.5 5a1.5 1.5 0 0 1-1.5-1.5 1.5 1.5 0 0 1 1.5-1.5 1.5 1.5 0 0 1 1.5 1.5 1.5 1.5 0 0 1-1.5 1.5m-11 0A1.5 1.5 0 0 1 5 14.5 1.5 1.5 0 0 1 6.5 13 1.5 1.5 0 0 1 8 14.5 1.5 1.5 0 0 1 6.5 16M18.92 6c-.2-.58-.76-1-1.42-1h-11c-.66 0-1.22.42-1.42 1L3 12v8a1 1 0 0 0 1 1h1a1 1 0 0 0 1-1v-1h12v1a1 1 0 0 0 1 1h1a1 1 0 0 0 1-1v-8z"/></svg></span> VEHICLE PARAMETERS</th>
+<th style="text-align: left;"><span class="twemoji lg middle"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m16 6 3 4h2c1.11 0 2 .89 2 2v3h-2a3 3 0 0 1-3 3 3 3 0 0 1-3-3H9a3 3 0 0 1-3 3 3 3 0 0 1-3-3H1v-3c0-1.11.89-2 2-2l3-4zm-5.5 1.5H6.75L4.86 10h5.64zm1.5 0V10h5.14l-1.89-2.5zm-6 6A1.5 1.5 0 0 0 4.5 15 1.5 1.5 0 0 0 6 16.5 1.5 1.5 0 0 0 7.5 15 1.5 1.5 0 0 0 6 13.5m12 0a1.5 1.5 0 0 0-1.5 1.5 1.5 1.5 0 0 0 1.5 1.5 1.5 1.5 0 0 0 1.5-1.5 1.5 1.5 0 0 0-1.5-1.5"/></svg></span> VEHICLE PARAMETERS</th>
 <th style="text-align: left;"></th>
 </tr>
 </thead>
 <tbody>
+<tr>
+<td style="text-align: left;">Car Length</td>
+<td style="text-align: left;">0.5000 m</td>
+</tr>
+<tr>
+<td style="text-align: left;">Car Width</td>
+<td style="text-align: left;">0.2700 m</td>
+</tr>
 <tr>
 <td style="text-align: left;">Wheelbase</td>
 <td style="text-align: left;">0.3240 m</td>
@@ -798,8 +806,20 @@ AutoDRIVE Simulator's graphical user interface (GUI) consists of a toolbar encom
 <td style="text-align: left;">0.2360 m</td>
 </tr>
 <tr>
+<td style="text-align: left;">Front Overhang</td>
+<td style="text-align: left;">0.0900 m</td>
+</tr>
+<tr>
+<td style="text-align: left;">Rear Overhang</td>
+<td style="text-align: left;">0.0800 m</td>
+</tr>
+<tr>
 <td style="text-align: left;">Wheel Radius</td>
 <td style="text-align: left;">0.0590 m</td>
+</tr>
+<tr>
+<td style="text-align: left;">Wheel Width</td>
+<td style="text-align: left;">0.0450 m</td>
 </tr>
 <tr>
 <td style="text-align: left;">Sprung Mass</td>
@@ -820,6 +840,14 @@ AutoDRIVE Simulator's graphical user interface (GUI) consists of a toolbar encom
 <tr>
 <td style="text-align: left;">Suspension Damper</td>
 <td style="text-align: left;">100 Ns/m</td>
+</tr>
+<tr>
+<td style="text-align: left;">Longitudinal Tire Limits (Slip, Force)</td>
+<td style="text-align: left;">Extremum: (0.15, 0.72)<br/>Asymptote: (0.25, 0.464)</td>
+</tr>
+<tr>
+<td style="text-align: left;">Lateral Tire Limits (Slip, Force)</td>
+<td style="text-align: left;">Extremum: (0.01, 1.00)<br/>Asymptote: (0.10, 0.500)</td>
 </tr>
 </tbody>
 </table>
@@ -846,7 +874,7 @@ AutoDRIVE Simulator's graphical user interface (GUI) consists of a toolbar encom
 <td style="text-align: left;">428 Nm</td>
 </tr>
 <tr>
-<td style="text-align: left;">Top Speed</td>
+<td style="text-align: left;">Vehicle Top Speed</td>
 <td style="text-align: left;">22.88 m/s</td>
 </tr>
 </tbody>
@@ -1014,7 +1042,7 @@ AutoDRIVE Simulator's graphical user interface (GUI) consists of a toolbar encom
 </tr>
 <tr>
 <td style="text-align: left;">Scan Rate</td>
-<td style="text-align: left;">20 Hz</td>
+<td style="text-align: left;">40 Hz</td>
 </tr>
 <tr>
 <td style="text-align: left;">Angular Resolution</td>
@@ -1587,7 +1615,7 @@ This work has been published at <strong>2021 International Conference on Control
     <span class="md-icon" title="Last update">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">September 23, 2024</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">September 26, 2024</span>
   </span>
 
     
@@ -1749,7 +1777,7 @@ This work has been published at <strong>2021 International Conference on Control
     <script id="__config" type="application/json">{"base": "../..", "features": ["announce.dismiss", "content.code.annotate", "content.code.copy", "content.code.select", "content.footnote.tooltips", "content.tooltips", "header.autohide", "navigation.expand", "navigation.indexes", "navigation.instant", "navigation.instant.prefetch", "navigation.instant.progress", "navigation.prune", "navigation.sections", "navigation.tabs", "navigation.tabs.sticky", "navigation.top", "navigation.tracking", "search.highlight", "search.share", "search.suggest", "toc.follow", "toc.integrate"], "search": "../../assets/javascripts/workers/search.6ce7567c.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
     
     
-      <script src="../../assets/javascripts/bundle.56dfad97.min.js"></script>
+      <script src="../../assets/javascripts/bundle.d6f25eb3.min.js"></script>
       
         <script src="../../assets/javascripts/mathjax.js"></script>
       
