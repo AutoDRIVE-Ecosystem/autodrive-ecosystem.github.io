@@ -125,7 +125,11 @@ We recommend all the teams interested in participating in the F1TENTH Sim Racing
 
     **AutoDRIVE Simulator:**
     
-    [:simple-linux: Linux](https://github.com/AutoDRIVE-Ecosystem/AutoDRIVE-F1TENTH-Sim-Racing/releases/download/2024-cdc-practice/autodrive_simulator_linux.zip) | [:material-microsoft: Windows](https://github.com/AutoDRIVE-Ecosystem/AutoDRIVE-F1TENTH-Sim-Racing/releases/download/2024-cdc-practice/autodrive_simulator_windows.zip) | [:simple-apple: macOS](https://github.com/AutoDRIVE-Ecosystem/AutoDRIVE-F1TENTH-Sim-Racing/releases/download/2024-cdc-practice/autodrive_simulator_macos.zip)
+    `explore`&nbsp;&nbsp;&nbsp; [:simple-linux: Linux](https://github.com/AutoDRIVE-Ecosystem/AutoDRIVE-F1TENTH-Sim-Racing/releases/download/2024-cdc-practice/autodrive_simulator_explore_linux.zip) | [:material-microsoft: Windows](https://github.com/AutoDRIVE-Ecosystem/AutoDRIVE-F1TENTH-Sim-Racing/releases/download/2024-cdc-practice/autodrive_simulator_explore_windows.zip) | [:simple-apple: macOS](https://github.com/AutoDRIVE-Ecosystem/AutoDRIVE-F1TENTH-Sim-Racing/releases/download/2024-cdc-practice/autodrive_simulator_explore_macos.zip)
+
+    `practice`&nbsp; [:simple-linux: Linux](https://github.com/AutoDRIVE-Ecosystem/AutoDRIVE-F1TENTH-Sim-Racing/releases/download/2024-cdc-practice/autodrive_simulator_practice_linux.zip) | [:material-microsoft: Windows](https://github.com/AutoDRIVE-Ecosystem/AutoDRIVE-F1TENTH-Sim-Racing/releases/download/2024-cdc-practice/autodrive_simulator_practice_windows.zip) | [:simple-apple: macOS](https://github.com/AutoDRIVE-Ecosystem/AutoDRIVE-F1TENTH-Sim-Racing/releases/download/2024-cdc-practice/autodrive_simulator_practice_macos.zip)
+
+    `compete`&nbsp;&nbsp;&nbsp; :simple-linux: Linux | :material-microsoft: Windows | :simple-apple: macOS
 
     **AutoDRIVE Devkit:**
     
@@ -139,12 +143,15 @@ We recommend all the teams interested in participating in the F1TENTH Sim Racing
 
     **Orientation 1:**
     
-    :fontawesome-solid-video: Zoom | :octicons-video-16: Recording | :material-projector-screen-outline: Slides
+    Meeting Link: :fontawesome-solid-video: Zoom
+    
+    Review Links: :octicons-video-16: Recording | :material-projector-screen-outline: Slides
 
     **Orientation 2:**
     
-    :fontawesome-solid-video: Zoom | :octicons-video-16: Recording | :material-projector-screen-outline: Slides
-
+    Meeting Link: :fontawesome-solid-video: Zoom
+    
+    Review Links: :octicons-video-16: Recording | :material-projector-screen-outline: Slides
 </div>
 
 !!! question
