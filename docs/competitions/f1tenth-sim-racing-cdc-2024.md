@@ -188,6 +188,8 @@ Registered teams are added to the following table:
 | 09      | Autonomous Motorsports Purdue | Manav Gagvani             | Purdue University                         |
 | 10      | Pegasus                   | Zeyuan Wang<br/>Chao Wang     | Personal                                  |
 | 11      | ARCLab                    | William Akuffo<br/>Joshua Nti<br/>Reginald Andrew Sai-Obodai<br/>Baron Afutu<br/>Joel Osei-Asamoah | Ashesi University |
+| 12      | YTU AESK                  | Mahmut Demir<br/>Ahmet Çelik<br/>İlayda Sena Şahin<br/>Furkan Erdoğan<br/>Alper Yılmaz<br/>Enes Talha Günay<br/>Taha İlter Akar<br/>Hilal Horasan | Yıldız Technical University Alternative Energy Systems Society |
+| 13      | MMS Autonomous            | Yousef Asal<br/>Zaynap Ahmad<br/>Omar Ashraf<br/>Omar Elsharabasy<br/>Abdallah Nabil<br/>Ahmed ElShaboury | Mansoura University |
 
 !!! note
     The above table will be updated with newly registered teams within a few days of registration. Please contact [:material-email: Chinmay Samak](mailto:csamak@clemson.edu) or [:material-email: Tanmay Samak](mailto:tsamak@clemson.edu) if you do not see your team entry for more than 7 days after registering.
