@@ -51,16 +51,17 @@ Since the vehicle, the sensors, the simulator, and the devkit are standardized, 
 !!! warning
     Timeline is subject to change. Please keep checking this page for any updates.
 
-| DATE                              | EVENT                      |
-|:----------------------------------|:---------------------------|
-| Jul 22, 2024                      | Registration Opens         |
-| Aug 31, 2024                      | Registration Closes        |
-| Sep 02, 2024 (5:30 – 6:30 PM EDT) | Online Orientation 1       |
-| Sep 22, 2024 (5:30 – 6:30 PM EDT) | Online Orientation 2       |
-| Sep 28 – Sep 29, 2024             | Qualification Round        |
-| Oct 04, 2024                      | Competition Track Released |
-| Oct 05 – Oct 06, 2024             | Final Race                 |
-| Oct 07, 2024                      | Results Declared           |
+| DATE                              | EVENT                          |
+|:----------------------------------|:-------------------------------|
+| Jul 22, 2024                      | Registration Opens             |
+| Aug 31, 2024                      | Registration Closes            |
+| Sep 02, 2024 (5:30 – 6:30 PM EDT) | Online Orientation 1           |
+| Sep 22, 2024 (5:30 – 6:30 PM EDT) | Online Orientation 2           |
+| Sep 28 – Sep 29, 2024             | Qualification Round            |
+| Sep 30, 2024                      | Qualification Results Declared |
+| Oct 04, 2024                      | Competition Track Released     |
+| Oct 05 – Oct 06, 2024             | Final Race                     |
+| Oct 07, 2024                      | Competition Results Declared   |
 
 <p align="justify">
 Following is a brief summary of each event:
@@ -254,6 +255,24 @@ Use the secure form below to make your team's submission for Phase 1 (Qualificat
     Phase 1 submission window will close on Sep 27, 2024. Please contact [:material-email: Chinmay Samak](mailto:csamak@clemson.edu) or [:material-email: Tanmay Samak](mailto:tsamak@clemson.edu) if you have any questions.
 
 ## Results
+
+**Phase 1: Qualification**
+
+The following teams have qualified for the final time-attack race:
+
+| RANK    | TEAM NAME                 | TOTAL RACE TIME | COLLISION COUNT | ADJUSTED RACE TIME | BEST LAP TIME |
+|:--------|:--------------------------|:----------------|:----------------|:-------------------|:--------------|
+| 01      | KU F1TENTH                | 117.05 s        | 0               | 117.05 s           | 11.67 s       |
+| 02      | IDEA_LAB                  | 145.89 s        | 1               | 155.89 s           | 14.43 s       |
+| 03      | Shoubra Racing Team       | 179.57 s        | 0               | 179.57 s           | 17.84 s       |
+| 04      | bracaai                   | 181.04 s        | 0               | 181.04 s           | 17.87 s       |
+| 05      | TURTLEBOT                 | 181.33 s        | 0               | 181.33 s           | 17.98 s       |
+| 06      | Log Robotics              | 265.59 s        | 2               | 285.59 s           | 26.47 s       |
+| 07      | Phoenix                   | 411.03 s        | 0               | 411.03 s           | 41.05 s       |
+| 08      | Kanka                     | 177.08 s        | 8               | 977.08 s           | 17.37 s       |
+| 09      | Urban AI                  | 1284.26 s       | 0               | 1284.26 s          | 128.00 s      |
+
+**Phase 2: Competition**
 
 <p align="justify">
 To be announced on Oct 07, 2024.
