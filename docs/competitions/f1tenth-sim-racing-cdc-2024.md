@@ -51,16 +51,17 @@ Since the vehicle, the sensors, the simulator, and the devkit are standardized, 
 !!! warning
     Timeline is subject to change. Please keep checking this page for any updates.
 
-| DATE                              | EVENT                      |
-|:----------------------------------|:---------------------------|
-| Aug 01, 2024                      | Registration Opens         |
-| Oct 31, 2024                      | Registration Closes        |
-| Oct 22, 2024 (5:30 – 6:30 PM EDT) | Online Orientation 1       |
-| Nov 19, 2024 (5:30 – 6:30 PM EDT) | Online Orientation 2       |
-| Nov 30 – Dec 01, 2024             | Qualification Round        |
-| Dec 06, 2024                      | Competition Track Released |
-| Dec 07 – Dec 08, 2024             | Final Race                 |
-| Dec 09, 2024                      | Results Declared           |
+| DATE                              | EVENT                          |
+|:----------------------------------|:-------------------------------|
+| Aug 01, 2024                      | Registration Opens             |
+| Oct 31, 2024                      | Registration Closes            |
+| Oct 22, 2024 (5:30 – 6:30 PM EDT) | Online Orientation 1           |
+| Nov 19, 2024 (5:30 – 6:30 PM EDT) | Online Orientation 2           |
+| Nov 30 – Dec 01, 2024             | Qualification Round            |
+| Dec 02, 2024                      | Qualification Results Declared |
+| Dec 06, 2024                      | Competition Track Released     |
+| Dec 07 – Dec 08, 2024             | Final Race                     |
+| Dec 09, 2024                      | Competition Results Declared   |
 
 <p align="justify">
 Following is a brief summary of each event:
@@ -195,6 +196,14 @@ Registered teams are added to the following table:
     The above table will be updated with newly registered teams within a few days of registration. Please contact [:material-email: Chinmay Samak](mailto:csamak@clemson.edu) or [:material-email: Tanmay Samak](mailto:tsamak@clemson.edu) if you do not see your team entry for more than 7 days after registering.
 
 ## Results
+
+**Phase 1: Qualification**
+
+<p align="justify">
+To be announced on Dec 02, 2024.
+</p>
+
+**Phase 2: Competition**
 
 <p align="justify">
 To be announced on Dec 09, 2024.
