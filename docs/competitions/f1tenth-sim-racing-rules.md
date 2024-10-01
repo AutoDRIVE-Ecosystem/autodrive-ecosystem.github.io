@@ -82,7 +82,7 @@ Following are the definitions of some competition terminologies:
 </p>
 
 <ul class="justify-list">
-  <li><b>Collision:</b> Any contact between the colliders of the simulated vehicle and the racetrack bounds (except the wheels touching the ground) is considered a collision. A collision will incur a compounding penalty of 10 seconds (i.e., 10 seconds for first collision, 20 seconds for the second, 30 seconds for the third, and so on). Colliding more than 5 times in a single racing event will lead to disqualification. Each collision will automatically reset the vehicle to the last checkpoint (your localization algorithm will have to be robust against this re-setting action). Lap timer will not reset upon collision.</li>
+  <li><b>Collision:</b> Any contact between the colliders of the simulated vehicle and the racetrack bounds (except the wheels touching the ground) is considered a collision. A collision will incur a penalty of 10 seconds (i.e., 10 seconds after first collision, 20 seconds after the second, 30 seconds after the third, and so on). Colliding more than 10 times in a single racing event will lead to disqualification. Each collision will automatically reset the vehicle to the last checkpoint (your localization algorithm will have to be robust against this re-setting action). Lap timer will not reset upon collision.</li>
   <li><b>Warm-Up Lap:</b> This is the first lap of a race. The time or collisions during the warm-up lap will not be considered. This lap acts as a buffer since your algorithms may take time to launch and connect with the simulator, while the lap timer is on.</li>
   <li><b>Race Laps:</b> These are a set of 10 laps immediately following the warm-up lap. The race laps start as soon as the vehicle crosses the finish line in the warm-up lap. The time and collisions of the race laps will be considered.</li>
   <li><b>Cool-Down Lap:</b> This is the last lap of a race. The time or collisions during the cool-down lap will not be considered. Completing this lap is not required for the competition, but this can be a good time to "show-off" your skills without worrying about collisions!</li>
@@ -144,8 +144,8 @@ Following are the evaluation criteria for the competition:
 
 <ul class="justify-list">
   <li>The ultimate evaluation criterion for the race is <b>total race time.</b> However, best lap time and/or other metrics may be used in case of a tie.</li>
-  <li>A collision will incur a compounding <b>penalty</b> of 10 seconds (i.e., 10 seconds for first collision, 20 seconds for the second, 30 seconds for the third, and so on).</li>
-  <li>The maximum number of collisions permissible for a race (qualification/competition) is 5, beyond which the team will be <b>disqualified.</b></li>
+  <li>A collision will incur a <b>penalty</b> of 10 seconds (i.e., 10 seconds after first collision, 20 seconds after the second, 30 seconds after the third, and so on).</li>
+  <li>The maximum number of collisions permissible for a race (qualification/competition) is 10, beyond which the team will be <b>disqualified.</b></li>
   <li>Lap times or collisions during the warm-up and cool-down laps will not be considered, only those during the <b>10 race laps</b> will be considered.</li>
 </ul>
 
