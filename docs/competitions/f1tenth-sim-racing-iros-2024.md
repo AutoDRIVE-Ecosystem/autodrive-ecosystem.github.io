@@ -203,7 +203,7 @@ Registered teams are added to the following table:
 | 22      | KGX                       | Hareesh R<br/>Raja Rajan K<br/>Ramesh Patel D<br/>Marudhu Paandian K<br/>Bhuvaneshwari Kanagaraj | KGISL Institute of technology |
 | 23      | NaN                       | Hariharan Ravichandran<br/>Siva Vignesh Krishnan Chidambaram | Personal   |
 | 24      | Vortex                    | Chinmay K                     | National Institute of Technology, Karnataka |
-| 25      | bracaai                   | Luis M Bracamontes<br/>Luis Bracamontes | Braca Vision                    |
+| 25      | bracaai                   | Luis Bracamontes              | Braca Vision                    |
 | 26      | ASU Racing Team           | Abdallah Ismail<br/>Mahmoud Omar<br/>Hussien Algendy<br/>Serag Abdelmohsen<br/>Ammar Ahmed<br/>Ahmed Sallam<br/>Malk Hany | Ain Shams University |
 | 27      | TurboX                    | Dheeraj Bhogisetty            | Personal                                  |
 | 28      | TractionX                 | Ameya Bagal<br/>Ananya Das<br/>Amizhthni PRK<br/>Aayush Ranawat | Indian Institute of Technology, Madras |
