@@ -102,7 +102,7 @@ AutoDRIVE Simulator's graphical user interface (GUI) consists of a toolbar encom
   <li><b>Data Recorder:</b> Save time-synchronized simulation data for a specific simulation run.
 </ul>
 
-#### 1.2.3 Data Recorder
+#### 1.2.3. Data Recorder
 
 AutoDRIVE Simulator hosts a time-synchronized data recording functionality that can be used to export simulation data at 30 Hz. The data is saved in `CSV` format and the raw camera frames are exported as timestamped `JPG` files. The `CSV` file hosts the following data entries per timestamp:
 
