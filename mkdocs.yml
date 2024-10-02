@@ -74,7 +74,6 @@ extra_javascript:
 
 # Plugins
 plugins:
-  - blog
   - search:
       separator: '[\s\u200b\-_,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
   - awesome-pages
@@ -84,6 +83,7 @@ plugins:
   # - same-dir
   # - minify:
   #     minify_html: true
+  - blog
 
 # Hooks
 # hooks:
