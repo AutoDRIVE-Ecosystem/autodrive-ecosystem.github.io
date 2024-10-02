@@ -267,9 +267,9 @@ The following teams have qualified for the final time-attack race:
 | 03      | Shoubra Racing Team       | 179.57 s        | 0               | 179.57 s           | 17.84 s       |
 | 04      | bracaai                   | 181.04 s        | 0               | 181.04 s           | 17.87 s       |
 | 05      | TURTLEBOT                 | 181.33 s        | 0               | 181.33 s           | 17.98 s       |
-| 06      | Log Robotics              | 265.59 s        | 2               | 285.59 s           | 26.47 s       |
-| 07      | Phoenix                   | 411.03 s        | 0               | 411.03 s           | 41.05 s       |
-| 08      | Kanka                     | 177.08 s        | 8               | 977.08 s           | 17.37 s       |
+| 06      | Kanka                     | 177.08 s        | 7               | 247.08 s           | 17.37 s       |
+| 07      | Log Robotics              | 265.59 s        | 1               | 275.59 s           | 26.47 s       |
+| 08      | Phoenix                   | 411.03 s        | 0               | 411.03 s           | 41.05 s       |
 | 09      | Urban AI                  | 1284.26 s       | 0               | 1284.26 s          | 128.00 s      |
 
 **Phase 2: Competition**
