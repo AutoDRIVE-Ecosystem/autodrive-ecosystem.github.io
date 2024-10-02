@@ -50,10 +50,11 @@ Following is a summary of the main events of the competition:
   <li><b>Registration:</b> Interested teams will register for the Sim Racing League.</li>
   <li><b>Online Orientation 1:</b> Organizers will explain the competition rules and guidelines, and demonstrate how to use the simulation framework.</li>
   <li><b>Online Orientation 2:</b> Organizers will check progress of the participating teams and help with any technical difficulties.</li>
-  <li><b>Qualification Round:</b> Teams will demonstrate successful completion of 10 autonomous laps around the practice track provided ahead of time.</li>
+  <li><b>Qualification Round:</b> Teams will demonstrate successful completion of 10 laps around the practice track provided ahead of time.</li>
+  <li><b>Qualification Results Declared:</b> Standings of all the qualified teams will be released.</li>
   <li><b>Competition Track Released:</b> Organizers will release the actual "competition track", which will be used for the final race. This track may be replicated in the physical race as well.</li>
   <li><b>Final Race:</b> Organizers will collect containerized algorithms from each team and connect them with the containerized simulator. Performance metrics of each team will be recorded.</li>
-  <li><b>Results Declared:</b> Standings of all the teams will be released.</li>
+  <li><b>Competition Results Declared:</b> Standings of all the teams for the final race will be released.</li>
 </ul>
 
 ## 2. Competition Guidelines
