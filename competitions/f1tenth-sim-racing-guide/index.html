@@ -720,6 +720,73 @@ AutoDRIVE Simulator's graphical user interface (GUI) consists of a toolbar encom
   <li><b>Data Recorder:</b> Save time-synchronized simulation data for a specific simulation run.
 </ul>
 
+<h4 id="123-data-recorder">1.2.3 Data Recorder<a class="headerlink" href="#123-data-recorder" title="Permanent link">&para;</a></h4>
+<p>AutoDRIVE Simulator hosts a time-synchronized data recording functionality that can be used to export simulation data at 30 Hz. The data is saved in <code>CSV</code> format and the raw camera frames are exported as timestamped <code>JPG</code> files. The <code>CSV</code> file hosts the following data entries per timestamp:</p>
+<table>
+<thead>
+<tr>
+<th><strong>DATA</strong></th>
+<th>timestamp</th>
+<th>throttle</th>
+<th>steering</th>
+<th>leftTicks</th>
+<th>rightTicks</th>
+<th>posX</th>
+<th>posY</th>
+<th>posZ</th>
+<th>roll</th>
+<th>pitch</th>
+<th>yaw</th>
+<th>speed</th>
+<th>angX</th>
+<th>angY</th>
+<th>angZ</th>
+<th>accX</th>
+<th>accY</th>
+<th>accZ</th>
+<th>camera</th>
+<th>lidar</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>UNIT</strong></td>
+<td>yyyy_MM_dd_HH_mm_ss_fff</td>
+<td>norm%</td>
+<td>rad</td>
+<td>count</td>
+<td>count</td>
+<td>m</td>
+<td>m</td>
+<td>m</td>
+<td>rad</td>
+<td>rad</td>
+<td>rad</td>
+<td>m/s</td>
+<td>rad/s</td>
+<td>rad/s</td>
+<td>rad/s</td>
+<td>m/s^2</td>
+<td>m/s^2</td>
+<td>m/s^2</td>
+<td>img_path</td>
+<td>array(float)</td>
+</tr>
+</tbody>
+</table>
+<p>The data recorder can be triggered by clicking on the red <code>Record Data</code> button in the HUD panel, or using the <code>R</code> hotkey. The first time, the data recorder will prompt the user to specify the directory path to store the data. The second trigger will start recording the data, which can be verified by checking the status of the red button change from <code>Record Data</code> to <code>Recording Data</code>. Finally, the third trigger will stop data recording, which can be verified by checking the status of the red button change from <code>Recording Data</code> to <code>Saving Data</code> with the save percentage being displayed.</p>
+<div class="admonition info">
+<p class="admonition-title">Info</p>
+<p>When specifying the directory path to store the data, just select the directory where you want the data to be saved with a single click, do not enter that directory by double-clicking onto it.</p>
+</div>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>Although the data is meant to be recorded at 30 Hz, the actual rate depends on the compute power and the OS schedular, and may therefore fluctuate a bit. However, the data will still be time-synchronized.</p>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>If you try to record data two (or more) times in a row, without resetting or restarting the simulator, the new data will be appended to the same <code>CSV</code> file and the new camera frames will be added to the same <code>Camera Frames</code> directory. The old data will not be overwritten for user convenience and one can differentiate between the old and new datasets using the <code>timestamp</code> variable. However, if this is not intended, please consider resetting or restarting the simulator and specifying a different directory to store the new data.</p>
+</div>
 <h3 id="13-vehicle">1.3. Vehicle<a class="headerlink" href="#13-vehicle" title="Permanent link">&para;</a></h3>
 <p>Simulated vehicles can be developed using AutoDRIVE's modular scripts, or imported from third-party tools and open standards. Specifically, the F1TENTH vehicle was reverse-engineered and visually recreated using a third-party 3D modeling software, and was imported and post-processed within AutoDRIVE Simulator to make it physically and graphically "sim-ready".</p>
 <p>These vehicles are simulated as a combination of rigid body and sprung mass representations with adequate attention to rigid body dynamics, suspension dynamics, actuator dynamics, and tire dynamics. Additionally, the simulator detects mesh-mesh interference and computes contact forces, frictional forces, momentum transfer, as well as linear and angular drag acting on the vehicle. Finally, being an autonomy-oriented digital twin, the simulator offers physically-based sensor simulation for proprioceptive as well as exteroceptive sensors on-board the virtual vehicle.</p>
@@ -1687,7 +1754,7 @@ This work has been published at <strong>2021 International Conference on Control
     <span class="md-icon" title="Last update">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">September 26, 2024</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">October 2, 2024</span>
   </span>
 
     
