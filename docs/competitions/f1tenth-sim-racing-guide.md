@@ -102,6 +102,25 @@ AutoDRIVE Simulator's graphical user interface (GUI) consists of a toolbar encom
   <li><b>Data Recorder:</b> Save time-synchronized simulation data for a specific simulation run.
 </ul>
 
+#### 1.2.3 Data Recorder
+
+AutoDRIVE Simulator hosts a time-synchronized data recording functionality that can be used to export simulation data at 30 Hz. The data is saved in `CSV` format and the raw camera frames are exported as timestamped `JPG` files. The `CSV` file hosts the following data entries per timestamp:
+
+| **DATA** | timestamp | throttle |	steering | leftTicks | rightTicks |	posX | posY |	posZ | roll |	pitch |	yaw |	speed |	angX |	angY |	angZ | accX |	accY | accZ |	camera   | lidar |
+| -------- | --------- | -------- |	-------- | --------- | ---------- |	---- | ---- |	---- | ---- |	----- |	--- |	----- |	---- |	---- |	---- | ---- |	---- | ---- |	------   | ----- |
+| **UNIT** | yyyy_MM_dd_HH_mm_ss_fff | norm% | rad | count | count |	m | m |	m | rad |	rad |	rad |	m/s |	rad/s |	rad/s |	rad/s | m/s^2 |	m/s^2 | m/s^2 |	img_path    | array(float) |
+
+The data recorder can be triggered by clicking on the red `Record Data` button in the HUD panel, or using the `R` hotkey. The first time, the data recorder will prompt the user to specify the directory path to store the data. The second trigger will start recording the data, which can be verified by checking the status of the red button change from `Record Data` to `Recording Data`. Finally, the third trigger will stop data recording, which can be verified by checking the status of the red button change from `Recording Data` to `Saving Data` with the save percentage being displayed.
+
+!!! info
+    When specifying the directory path to store the data, just select the directory where you want the data to be saved with a single click, do not enter that directory by double-clicking onto it.
+
+!!! warning
+    Although the data is meant to be recorded at 30 Hz, the actual rate depends on the compute power and the OS schedular, and may therefore fluctuate a bit. However, the data will still be time-synchronized.
+
+!!! note
+    If you try to record data two (or more) times in a row, without resetting or restarting the simulator, the new data will be appended to the same `CSV` file and the new camera frames will be added to the same `Camera Frames` directory. The old data will not be overwritten for user convenience and one can differentiate between the old and new datasets using the `timestamp` variable. However, if this is not intended, please consider resetting or restarting the simulator and specifying a different directory to store the new data.
+
 ### 1.3. Vehicle
 
 Simulated vehicles can be developed using AutoDRIVE's modular scripts, or imported from third-party tools and open standards. Specifically, the F1TENTH vehicle was reverse-engineered and visually recreated using a third-party 3D modeling software, and was imported and post-processed within AutoDRIVE Simulator to make it physically and graphically "sim-ready".
