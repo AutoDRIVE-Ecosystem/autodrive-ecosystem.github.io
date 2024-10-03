@@ -105,9 +105,9 @@ We recommend all the teams interested in participating in the F1TENTH Sim Racing
 
     Learn about the competition rules and technical aspects of the framework.
 
-    [:material-open-in-new: Competition Rules](../f1tenth-sim-racing-rules)
+    [:material-open-in-new: **Competition Rules**](../f1tenth-sim-racing-rules)
 
-    [:material-open-in-new: Technical Guide](../f1tenth-sim-racing-guide)
+    [:material-open-in-new: **Technical Guide**](../f1tenth-sim-racing-guide)
 
 -   :material-docker:{ .lg .middle } __Docker Containers__
 
@@ -115,9 +115,10 @@ We recommend all the teams interested in participating in the F1TENTH Sim Racing
 
     Download base container images for the competition and start developing your algorithms.
 
-    [:octicons-download-16: AutoDRIVE Simulator Container](https://hub.docker.com/r/autodriveecosystem/autodrive_f1tenth_sim)
+    [:material-open-in-new: **AutoDRIVE Simulator:**](https://hub.docker.com/r/autodriveecosystem/autodrive_f1tenth_sim) [`explore`](https://hub.docker.com/layers/autodriveecosystem/autodrive_f1tenth_sim/2024-iros-explore/images/sha256-7c62e0f13edbb875c6328771a441366b8f7fc5e3fc1dac1ba5e37ae0c61e4505) | [`practice`](https://hub.docker.com/layers/autodriveecosystem/autodrive_f1tenth_sim/2024-iros-practice/images/sha256-79b24cb29dcf4ee6fe64f2e9ede4806fbae0e75238eec1091a25318dcc76df7d) | [`compete`](https://hub.docker.com/layers/autodriveecosystem/autodrive_f1tenth_sim/2024-iros-compete/images/sha256-f1d48a64e9d9f36d1637e7ff0152f95a6cd151478070c10f1739feeea7cf6b79)
 
-    [:octicons-download-16: AutoDRIVE Devkit Container](https://hub.docker.com/r/autodriveecosystem/autodrive_f1tenth_api)
+    [:material-open-in-new: **AutoDRIVE Devkit:**](https://hub.docker.com/r/autodriveecosystem/autodrive_f1tenth_api) [`explore`](https://hub.docker.com/layers/autodriveecosystem/autodrive_f1tenth_api/2024-iros-explore/images/sha256-2782ff06e5d0526b7ad963b334a4c7d6122bdb22c8c02b292dae45b6c23c5cfa) | [`practice`](https://hub.docker.com/layers/autodriveecosystem/autodrive_f1tenth_api/2024-iros-practice/images/sha256-e0e66d5b9e4ba063780c7d6e3d741891c6b173ff4c5153c2b989a98a6cebc0db) | [`compete`](https://hub.docker.com/layers/autodriveecosystem/autodrive_f1tenth_api/2024-iros-compete/images/sha256-39a5ccc2cfe655bf13f3d04109f12b5382100125545191265d96d0d70320be43)
+
 
 -   :material-monitor:{ .lg .middle } __Local Resources__
 

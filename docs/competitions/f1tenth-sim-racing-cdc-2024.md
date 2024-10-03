@@ -105,9 +105,9 @@ We recommend all the teams interested in participating in the F1TENTH Sim Racing
 
     Learn about the competition rules and technical aspects of the framework.
 
-    [:material-open-in-new: Competition Rules](../f1tenth-sim-racing-rules)
+    [:material-open-in-new: **Competition Rules**](../f1tenth-sim-racing-rules)
 
-    [:material-open-in-new: Technical Guide](../f1tenth-sim-racing-guide)
+    [:material-open-in-new: **Technical Guide**](../f1tenth-sim-racing-guide)
 
 -   :material-docker:{ .lg .middle } __Docker Containers__
 
@@ -115,9 +115,9 @@ We recommend all the teams interested in participating in the F1TENTH Sim Racing
 
     Download base container images for the competition and start developing your algorithms.
 
-    [:octicons-download-16: AutoDRIVE Simulator Container](https://hub.docker.com/r/autodriveecosystem/autodrive_f1tenth_sim)
+    [:material-open-in-new: **AutoDRIVE Simulator:**](https://hub.docker.com/r/autodriveecosystem/autodrive_f1tenth_sim) [`explore`](https://hub.docker.com/layers/autodriveecosystem/autodrive_f1tenth_sim/2024-cdc-explore/images/sha256-6a4a9aab20e5deafdcf1a8318b4f270d409b557ba198888fd701eb56506760c7) | [`practice`](https://hub.docker.com/layers/autodriveecosystem/autodrive_f1tenth_sim/2024-cdc-practice/images/sha256-07126b3b4bcf7d6ff43a7d76f9ba84412b2553784026d27b7e4ebdab269c4c6f) | `compete`
 
-    [:octicons-download-16: AutoDRIVE Devkit Container](https://hub.docker.com/r/autodriveecosystem/autodrive_f1tenth_api)
+    [:material-open-in-new: **AutoDRIVE Devkit:**](https://hub.docker.com/r/autodriveecosystem/autodrive_f1tenth_api) [`explore`](https://hub.docker.com/layers/autodriveecosystem/autodrive_f1tenth_api/2024-cdc-explore/images/sha256-221ab09c92720fc9ed324839ec81da6aceb4c5c12ae1e46b8733c2275cb000f1) | [`practice`](https://hub.docker.com/layers/autodriveecosystem/autodrive_f1tenth_api/2024-cdc-practice/images/sha256-d3fd68b51ec6934d8de283c14be5d5b5d8e3c536599eeeef652a16f47cce103d) | `compete`
 
 -   :material-monitor:{ .lg .middle } __Local Resources__
 
