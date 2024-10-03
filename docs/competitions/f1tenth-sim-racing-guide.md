@@ -467,7 +467,7 @@ Particularly, each team is expected to submit a containerized version of their a
    ```
    
 !!! note
-    Pay close attention to the `tagname` of the container image you are pulling. This could be `explore` for exploring the framework, `practice` for practicing and qualification, or `compete` for competing in the final race. The `tagname` convention is set to `<year>-<event>-<phase>` for convenience and avoiding any potential repetition.
+    Pay close attention to the `<TAG>` (i.e., tag name) of the container image you are pulling. This could be `explore` for exploring the framework, `practice` for practicing and qualification, or `compete` for competing in the final race. The tag naming convention is set to `<YEAR>-<EVENT>-<PHASE>` for convenience and avoiding any repetition.
 
 ### 3.2. Container Execution
 
