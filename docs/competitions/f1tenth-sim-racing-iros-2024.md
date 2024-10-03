@@ -254,7 +254,18 @@ Use the secure form below to make your team's submission for Phase 1 (Qualificat
 </center>
 
 !!! warning
-    Phase 1 submission window will close on Sep 27, 2024. Please contact [:material-email: Chinmay Samak](mailto:csamak@clemson.edu) or [:material-email: Tanmay Samak](mailto:tsamak@clemson.edu) if you have any questions.
+    Phase 1 submission window will close on Sep 28, 2024. Please contact [:material-email: Chinmay Samak](mailto:csamak@clemson.edu) or [:material-email: Tanmay Samak](mailto:tsamak@clemson.edu) if you have any questions.
+
+<p align="justify">
+Use the secure form below to make your team's submission for Phase 2 (Final Race) of the F1TENTH Sim Racing League. Please fill in your team's name and add the link to your team's DockerHub repository containing the autonomous racing stack. If you are using a private repository, make sure to add <a href="https://hub.docker.com/u/autodriveecosystem">autodriveecosystem</a> as a <a href="https://docs.docker.com/docker-hub/repos/access">collaborator to your repository</a>.
+</p>
+
+<center>
+[:material-file-document-edit: Phase 2 Submission Form](https://forms.gle/ps95hV8aBGFqACQt8){.md-button}
+</center>
+
+!!! warning
+    Phase 2 submission window will close on Oct 05, 2024. Please contact [:material-email: Chinmay Samak](mailto:csamak@clemson.edu) or [:material-email: Tanmay Samak](mailto:tsamak@clemson.edu) if you have any questions.
 
 ## Results
 
