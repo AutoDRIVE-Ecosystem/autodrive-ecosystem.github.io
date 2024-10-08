@@ -148,13 +148,13 @@ We recommend all the teams interested in participating in the F1TENTH Sim Racing
     
     Meeting Link: [:fontawesome-solid-video: Zoom](https://clemson.zoom.us/s/96939189458)
     
-    Review Links: [:octicons-video-16: Recording](https://github.com/AutoDRIVE-Ecosystem/AutoDRIVE-F1TENTH-Sim-Racing/releases/download/2024-iros/orientation_1_recording.zip) | [:material-projector-screen-outline: Slides](https://github.com/AutoDRIVE-Ecosystem/AutoDRIVE-F1TENTH-Sim-Racing/releases/download/2024-iros/orientation_1_slides.zip)
+    Review Links: [:octicons-video-16: Recording](https://youtu.be/ERgcBxQGHec?feature=shared) | [:material-projector-screen-outline: Slides](https://github.com/AutoDRIVE-Ecosystem/AutoDRIVE-F1TENTH-Sim-Racing/releases/download/2024-iros/orientation_1_slides.zip)
 
     **Orientation 2:**
     
     Meeting Link: [:fontawesome-solid-video: Zoom](https://clemson.zoom.us/j/95101125213)
     
-    Review Links: [:octicons-video-16: Recording](https://github.com/AutoDRIVE-Ecosystem/AutoDRIVE-F1TENTH-Sim-Racing/releases/download/2024-iros/orientation_2_recording.zip) | [:material-projector-screen-outline: Slides](https://github.com/AutoDRIVE-Ecosystem/AutoDRIVE-F1TENTH-Sim-Racing/releases/download/2024-iros/orientation_2_sildes.zip)
+    Review Links: [:octicons-video-16: Recording](https://youtu.be/SPWGkH8k2MM?feature=shared) | [:material-projector-screen-outline: Slides](https://github.com/AutoDRIVE-Ecosystem/AutoDRIVE-F1TENTH-Sim-Racing/releases/download/2024-iros/orientation_2_sildes.zip)
 
 </div>
 
@@ -221,7 +221,7 @@ Registered teams are added to the following table:
 | 38      | OutRunner                 | Nihad Jifri<br/>Arif Sidhiequ<br/>Midhun Manoharan | Personal             |
 | 39      | simracer                  | Vinura Wanniarachchi          | Personal                                  |
 | 40      | Phoenix                   | Aman Kumar Singh<br/>Lakshmikanth Nageswar<br/>Kandregula Abhinav<br/>Suchi Sharma | Personal |
-| 41      | KU F1TENTH                | Riley Anderson<br/>Jackson Yanek | The University of Kansas               |
+| 41      | KU F1TENTH                | Riley Anderson<br/>Jackson Yanek<br/>Misbah Zarrar | The University of Kansas               |
 | 42      | Void                      | Gonna Yaswanth<br/>Prajyot Jadhav | Personal                              |
 | 43      | Aztec Autonomous Racing Team (AART) | Hyunjong Choi<br/>Pascal Reich<br/>Hyunhee Kwak | San Diego State University |
 | 44      | IDEA_LAB                  | Myeongjun Kim<br/>Ji-hong Park<br/>Juyoung Kim<br/>Sunwoong Moon<br/>Gyuhyeok Lee<br/>Sujin Park | Gyeongsang National University |
@@ -275,17 +275,17 @@ Use the secure form below to make your team's submission for Phase 2 (Final Race
 The following teams have qualified for the final time-attack race. Here are the official standings:
 </p>
 
-| RANK    | TEAM NAME                 | RACE TIME       | COLLISION COUNT | ADJUSTED RACE TIME | BEST LAP TIME |
-|:--------|:--------------------------|:----------------|:----------------|:-------------------|:--------------|
-| 01      | 👏 KU F1TENTH             | 117.05 s        | 0               | 117.05 s           | 11.67 s       |
-| 02      | 👏 IDEA_LAB               | 145.89 s        | 1               | 155.89 s           | 14.43 s       |
-| 03      | 👏 Shoubra Racing Team    | 179.57 s        | 0               | 179.57 s           | 17.84 s       |
-| 04      | 👏 bracaai                | 181.04 s        | 0               | 181.04 s           | 17.87 s       |
-| 05      | 👏 TURTLEBOT              | 181.33 s        | 0               | 181.33 s           | 17.98 s       |
-| 06      | 👏 Kanka                  | 177.08 s        | 7               | 247.08 s           | 17.37 s       |
-| 07      | 👏 Log Robotics           | 265.59 s        | 1               | 275.59 s           | 26.47 s       |
-| 08      | 👏 Phoenix                | 411.03 s        | 0               | 411.03 s           | 41.05 s       |
-| 09      | 👏 Urban AI               | 1284.26 s       | 0               | 1284.26 s          | 128.00 s      |
+| RANK    | TEAM NAME                 | RACE TIME       | COLLISION COUNT | ADJUSTED RACE TIME | BEST LAP TIME | VIDEO                                                     |
+|:--------|:--------------------------|:----------------|:----------------|:-------------------|:--------------|:----------------------------------------------------------|
+| 01      | 👏 KU F1TENTH             | 117.05 s        | 0               | 117.05 s           | 11.67 s       | [:material-youtube: YouTube](https://youtu.be/wOZ63Q4OYLE?feature=shared) |
+| 02      | 👏 IDEA_LAB               | 145.89 s        | 1               | 155.89 s           | 14.43 s       | [:material-youtube: YouTube](https://youtu.be/uA3r9io5lHA?feature=shared) |
+| 03      | 👏 Shoubra Racing Team    | 179.57 s        | 0               | 179.57 s           | 17.84 s       | [:material-youtube: YouTube](https://youtu.be/th7Gi0yOSHo?feature=shared) |
+| 04      | 👏 bracaai                | 181.04 s        | 0               | 181.04 s           | 17.87 s       | [:material-youtube: YouTube](https://youtu.be/4ackKDejY-s?feature=shared) |
+| 05      | 👏 TURTLEBOT              | 181.33 s        | 0               | 181.33 s           | 17.98 s       | [:material-youtube: YouTube](https://youtu.be/BtDTqaODmWE?feature=shared) |
+| 06      | 👏 Kanka                  | 177.08 s        | 7               | 247.08 s           | 17.37 s       | [:material-youtube: YouTube](https://youtu.be/yEDHL6-6TqY?feature=shared) |
+| 07      | 👏 Log Robotics           | 265.59 s        | 1               | 275.59 s           | 26.47 s       | [:material-youtube: YouTube](https://youtu.be/SzUYifnIKxE?feature=shared) |
+| 08      | 👏 Phoenix                | 411.03 s        | 0               | 411.03 s           | 41.05 s       | [:material-youtube: YouTube](https://youtu.be/YLNN_68lXAE?feature=shared) |
+| 09      | 👏 Urban AI               | 1284.26 s       | 0               | 1284.26 s          | 128.00 s      | [:material-youtube: YouTube](https://youtu.be/Wnm7_KDCT80?feature=shared) |
 
 **Phase 2: Competition**
 
@@ -293,10 +293,10 @@ The following teams have qualified for the final time-attack race. Here are the 
 The following teams successfully finished the final time-attack race. Here are the official standings:
 </p>
 
-| RANK    | TEAM NAME                 | RACE TIME       | COLLISION COUNT | ADJUSTED RACE TIME | BEST LAP TIME |
-|:--------|:--------------------------|:----------------|:----------------|:-------------------|:--------------|
-| 01      | 🥇 TURTLEBOT              | 141.59 s        | 0               | 141.59 s           | 13.90 s       |
-| 02      | 🥈 IDEA_LAB               | 186.58 s        | 0               | 186.58 s           | 17.79 s       |
-| 03      | 🥉 KU F1TENTH             | 244.88 s        | 0               | 244.88 s           | 24.12 s       |
-| 04      | 👏 Shoubra Racing Team    | 201.84 s        | 6               | 261.84 s           | 19.00 s       |
-| 05      | 👏 Phoenix                | 282.16 s        | 0               | 282.16 s           | 27.97 s       |
+| RANK    | TEAM NAME                 | RACE TIME       | COLLISION COUNT | ADJUSTED RACE TIME | BEST LAP TIME | VIDEO                                                     |
+|:--------|:--------------------------|:----------------|:----------------|:-------------------|:--------------|:----------------------------------------------------------|
+| 01      | 🥇 TURTLEBOT              | 141.59 s        | 0               | 141.59 s           | 13.90 s       | [:material-youtube: YouTube](https://youtu.be/fEj-bWC8bJ0?feature=shared) |
+| 02      | 🥈 IDEA_LAB               | 186.58 s        | 0               | 186.58 s           | 17.79 s       | [:material-youtube: YouTube](https://youtu.be/92napssQUY0?feature=shared) |
+| 03      | 🥉 KU F1TENTH             | 244.88 s        | 0               | 244.88 s           | 24.12 s       | [:material-youtube: YouTube](https://youtu.be/dOEyaTzgGhc?feature=shared) |
+| 04      | 👏 Shoubra Racing Team    | 201.84 s        | 6               | 261.84 s           | 19.00 s       | [:material-youtube: YouTube](https://youtu.be/Vf_XOZvBjdA?feature=shared) |
+| 05      | 👏 Phoenix                | 282.16 s        | 0               | 282.16 s           | 27.97 s       | [:material-youtube: YouTube](https://youtu.be/GAyaM3pc60c?feature=shared) |
