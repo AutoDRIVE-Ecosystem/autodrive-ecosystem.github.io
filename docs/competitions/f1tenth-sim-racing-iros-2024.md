@@ -271,22 +271,32 @@ Use the secure form below to make your team's submission for Phase 2 (Final Race
 
 **Phase 1: Qualification**
 
-The following teams have qualified for the final time-attack race:
+<p align="justify">
+The following teams have qualified for the final time-attack race. Here are the official standings:
+</p>
 
-| RANK    | TEAM NAME                 | TOTAL RACE TIME | COLLISION COUNT | ADJUSTED RACE TIME | BEST LAP TIME |
+| RANK    | TEAM NAME                 | RACE TIME       | COLLISION COUNT | ADJUSTED RACE TIME | BEST LAP TIME |
 |:--------|:--------------------------|:----------------|:----------------|:-------------------|:--------------|
-| 01      | KU F1TENTH                | 117.05 s        | 0               | 117.05 s           | 11.67 s       |
-| 02      | IDEA_LAB                  | 145.89 s        | 1               | 155.89 s           | 14.43 s       |
-| 03      | Shoubra Racing Team       | 179.57 s        | 0               | 179.57 s           | 17.84 s       |
-| 04      | bracaai                   | 181.04 s        | 0               | 181.04 s           | 17.87 s       |
-| 05      | TURTLEBOT                 | 181.33 s        | 0               | 181.33 s           | 17.98 s       |
-| 06      | Kanka                     | 177.08 s        | 7               | 247.08 s           | 17.37 s       |
-| 07      | Log Robotics              | 265.59 s        | 1               | 275.59 s           | 26.47 s       |
-| 08      | Phoenix                   | 411.03 s        | 0               | 411.03 s           | 41.05 s       |
-| 09      | Urban AI                  | 1284.26 s       | 0               | 1284.26 s          | 128.00 s      |
+| 01      | 👏 KU F1TENTH             | 117.05 s        | 0               | 117.05 s           | 11.67 s       |
+| 02      | 👏 IDEA_LAB               | 145.89 s        | 1               | 155.89 s           | 14.43 s       |
+| 03      | 👏 Shoubra Racing Team    | 179.57 s        | 0               | 179.57 s           | 17.84 s       |
+| 04      | 👏 bracaai                | 181.04 s        | 0               | 181.04 s           | 17.87 s       |
+| 05      | 👏 TURTLEBOT              | 181.33 s        | 0               | 181.33 s           | 17.98 s       |
+| 06      | 👏 Kanka                  | 177.08 s        | 7               | 247.08 s           | 17.37 s       |
+| 07      | 👏 Log Robotics           | 265.59 s        | 1               | 275.59 s           | 26.47 s       |
+| 08      | 👏 Phoenix                | 411.03 s        | 0               | 411.03 s           | 41.05 s       |
+| 09      | 👏 Urban AI               | 1284.26 s       | 0               | 1284.26 s          | 128.00 s      |
 
 **Phase 2: Competition**
 
 <p align="justify">
-To be announced on Oct 07, 2024.
+The following teams successfully finished the final time-attack race. Here are the official standings:
 </p>
+
+| RANK    | TEAM NAME                 | RACE TIME       | COLLISION COUNT | ADJUSTED RACE TIME | BEST LAP TIME |
+|:--------|:--------------------------|:----------------|:----------------|:-------------------|:--------------|
+| 01      | 🥇 TURTLEBOT              | 141.59 s        | 0               | 141.59 s           | 13.90 s       |
+| 02      | 🥈 IDEA_LAB               | 186.58 s        | 0               | 186.58 s           | 17.79 s       |
+| 03      | 🥉 KU F1TENTH             | 244.88 s        | 0               | 244.88 s           | 24.12 s       |
+| 04      | 👏 Shoubra Racing Team    | 201.84 s        | 6               | 261.84 s           | 19.00 s       |
+| 05      | 👏 Phoenix                | 282.16 s        | 0               | 282.16 s           | 27.97 s       |
