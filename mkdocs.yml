@@ -16,7 +16,7 @@ copyright: Copyright &copy; 2024 <a href="https://tinker-twins.github.io">Tinker
 # Configuration
 theme:
   name: material
-  # custom_dir: overrides
+  custom_dir: overrides
   features:
     - announce.dismiss
     # - content.action.edit
