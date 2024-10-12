@@ -198,6 +198,7 @@ Registered teams are added to the following table:
 | 17      | Exhausted Lion            | Mohamed Alaa                  | Personal                                  |
 | 18      | Sahruday Patti            | Sahruday Patti                | Personal                                  |
 | 19      | Als F1Tenth Racing        | Auriol Ble                    | Alpha Space Robotics Lab                  |
+| 20      | SoloDriver                | Hana Nabhan                   | Personal                                  |
 
 !!! note
     The above table will be updated with newly registered teams within a few days of registration. Please contact [:material-email: Chinmay Samak](mailto:csamak@clemson.edu) or [:material-email: Tanmay Samak](mailto:tsamak@clemson.edu) if you do not see your team entry for more than 7 days after registering.
