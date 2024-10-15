@@ -221,7 +221,7 @@ Registered teams are added to the following table:
 | 38      | OutRunner                 | Nihad Jifri<br/>Arif Sidhiequ<br/>Midhun Manoharan | Personal             |
 | 39      | simracer                  | Vinura Wanniarachchi          | Personal                                  |
 | 40      | Phoenix                   | Aman Kumar Singh<br/>Lakshmikanth Nageswar<br/>Kandregula Abhinav<br/>Suchi Sharma | Personal |
-| 41      | KU F1TENTH                | Riley Anderson<br/>Jackson Yanek<br/>Misbah Zarrar | The University of Kansas               |
+| 41      | KU F1TENTH                | Riley Anderson<br/>Jackson Yanek<br/>Mohammed Misbah Zarrar | The University of Kansas               |
 | 42      | Void                      | Gonna Yaswanth<br/>Prajyot Jadhav | Personal                              |
 | 43      | Aztec Autonomous Racing Team (AART) | Hyunjong Choi<br/>Pascal Reich<br/>Hyunhee Kwak | San Diego State University |
 | 44      | IDEA_LAB                  | Myeongjun Kim<br/>Ji-hong Park<br/>Juyoung Kim<br/>Sunwoong Moon<br/>Gyuhyeok Lee<br/>Sujin Park | Gyeongsang National University |
