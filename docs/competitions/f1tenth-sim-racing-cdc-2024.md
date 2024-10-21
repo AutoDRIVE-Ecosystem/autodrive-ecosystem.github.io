@@ -201,6 +201,15 @@ Registered teams are added to the following table:
 | 20      | SoloDriver                | Hana Nabhan                   | Personal                                  |
 | 21      | Daniel's RL Experiment    | Daniel Mittelman              | Georgia Institute of Technology           |
 | 22      | TURTLEBOT                 | Jit Ern Lim                   | Personal                                  |
+| 23      | TractionX                 | Ameya Bagal<br/>Ananya Das<br/>Amizhthni PRK | Indian Institute of Technology, Madras |
+| 24      | Awareness                 | Guodong Zhu                   | Nanjing Forest University                 |
+| 25      | Byte Benders              | Bhajneet Singh Bedi<br/>Yaduraj Jagadeesan | Personal                     |
+| 26      | Eigenbots                 | Shubham Barge<br/>Anshuman Jena | Personal                                |
+| 27      | __duronto__               | Md. Jesan<br/>Muhammad Fahim Faisal<br/>Abu Nafis Mohammod Noor Rohan<br/>Rakibul Islam Rakib | BRAC University, Dhaka Residential Model College |
+| 28      | MV33F110                  | Vishwanath R                  | Personal                                  |
+| 29      | F1NESSE - Formula 1 Neuro-Enhanced System for Smart Execution | Oscar Guerrero Rosado<br/>Joris Kranz<br/>Jan Honing<br/>Wout Laracker | Radboud University, ROC Nijmegen |
+| 30      | Baby Driver               | Mason Notz                    | Personal                                  |
+| 31      | Asturian Kingdom Team     | David Miranda<br/>Lucía Sánchez<br/>Miguel Santamaría | University of Oviedo |
 
 !!! note
     The above table will be updated with newly registered teams within a few days of registration. Please contact [:material-email: Chinmay Samak](mailto:csamak@clemson.edu) or [:material-email: Tanmay Samak](mailto:tsamak@clemson.edu) if you do not see your team entry for more than 7 days after registering.
