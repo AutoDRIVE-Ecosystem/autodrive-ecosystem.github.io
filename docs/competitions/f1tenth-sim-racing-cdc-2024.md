@@ -205,7 +205,7 @@ Registered teams are added to the following table:
 | 24      | Awareness                 | Guodong Zhu                   | Nanjing Forest University                 |
 | 25      | Byte Benders              | Bhajneet Singh Bedi<br/>Yaduraj Jagadeesan | Personal                     |
 | 26      | Eigenbots                 | Shubham Barge<br/>Anshuman Jena | Personal                                |
-| 27      | __duronto__               | Md. Jesan<br/>Muhammad Fahim Faisal<br/>Abu Nafis Mohammod Noor Rohan<br/>Rakibul Islam Rakib | BRAC University, Dhaka Residential Model College |
+| 27      | \_\_duronto\_\_               | Md. Jesan<br/>Muhammad Fahim Faisal<br/>Abu Nafis Mohammod Noor Rohan<br/>Rakibul Islam Rakib | BRAC University, Dhaka Residential Model College |
 | 28      | MV33F110                  | Vishwanath R                  | Personal                                  |
 | 29      | F1NESSE - Formula 1 Neuro-Enhanced System for Smart Execution | Oscar Guerrero Rosado<br/>Joris Kranz<br/>Jan Honing<br/>Wout Laracker | Radboud University, ROC Nijmegen |
 | 30      | Baby Driver               | Mason Notz                    | Personal                                  |
