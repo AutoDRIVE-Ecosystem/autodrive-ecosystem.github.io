@@ -205,11 +205,14 @@ Registered teams are added to the following table:
 | 24      | Awareness                 | Guodong Zhu                   | Nanjing Forest University                 |
 | 25      | Byte Benders              | Bhajneet Singh Bedi<br/>Yaduraj Jagadeesan | Personal                     |
 | 26      | Eigenbots                 | Shubham Barge<br/>Anshuman Jena | Personal                                |
-| 27      | \_\_duronto\_\_               | Md. Jesan<br/>Muhammad Fahim Faisal<br/>Abu Nafis Mohammod Noor Rohan<br/>Rakibul Islam Rakib | BRAC University, Dhaka Residential Model College |
+| 27      | \_\_duronto\_\_           | Md. Jesan<br/>Muhammad Fahim Faisal<br/>Abu Nafis Mohammod Noor Rohan<br/>Rakibul Islam Rakib | BRAC University, Dhaka Residential Model College |
 | 28      | MV33F110                  | Vishwanath R                  | Personal                                  |
 | 29      | F1NESSE - Formula 1 Neuro-Enhanced System for Smart Execution | Oscar Guerrero Rosado<br/>Joris Kranz<br/>Jan Honing<br/>Wout Laracker | Radboud University, ROC Nijmegen |
 | 30      | Baby Driver               | Mason Notz                    | Personal                                  |
 | 31      | Asturian Kingdom Team     | David Miranda<br/>Lucía Sánchez<br/>Miguel Santamaría | University of Oviedo |
+| 32      | AsTenth Martin            | Ajay Shankar Sriram           | UC Irvine                                 |
+| 33      | Ray C.E.R.S.              | Aditya Jambhale<br/>Akshat Tambi | SRM Institute of Science and Technology |
+| 34      | Neutrino                  | Ahmed Elnely<br/>Abdallah Atef<br/>Mohamed Abdelmoneam<br/>Noran Mohamed<br/>Yasmin Khaled<br/>Nouran Karam | Egyptian Russian University |
 
 !!! note
     The above table will be updated with newly registered teams within a few days of registration. Please contact [:material-email: Chinmay Samak](mailto:csamak@clemson.edu) or [:material-email: Tanmay Samak](mailto:tsamak@clemson.edu) if you do not see your team entry for more than 7 days after registering.
