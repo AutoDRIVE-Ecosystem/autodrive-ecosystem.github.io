@@ -213,6 +213,9 @@ Registered teams are added to the following table:
 | 32      | AsTenth Martin            | Ajay Shankar Sriram           | UC Irvine                                 |
 | 33      | Ray C.E.R.S.              | Aditya Jambhale<br/>Akshat Tambi | SRM Institute of Science and Technology |
 | 34      | Neutrino                  | Ahmed Elnely<br/>Abdallah Atef<br/>Mohamed Abdelmoneam<br/>Noran Mohamed<br/>Yasmin Khaled<br/>Nouran Karam | Egyptian Russian University |
+| 35      | Zancle E-Drive            | Gaetano Pio Pispisa<br/>Giovanni Lombardo<br/>Simone Castorino | University of Messina, Italy |
+| 36      | sim_goes_brrrrrr_mha      | Marzanul Momenine<br/>Maidul Islam<br/>Hironmoy Roy Rudra | Personal |
+| 37      | Inertia              | Mushfiqur Rahman<br/>Al Mahir Ahmed<br/>Suhail Haque Rafi<br/>Abrar Ahmed | Personal |
 
 !!! note
     The above table will be updated with newly registered teams within a few days of registration. Please contact [:material-email: Chinmay Samak](mailto:csamak@clemson.edu) or [:material-email: Tanmay Samak](mailto:tsamak@clemson.edu) if you do not see your team entry for more than 7 days after registering.
