@@ -216,6 +216,14 @@ Registered teams are added to the following table:
 | 35      | Zancle E-Drive            | Gaetano Pio Pispisa<br/>Giovanni Lombardo<br/>Simone Castorino | University of Messina, Italy |
 | 36      | sim_goes_brrrrrr_mha      | Marzanul Momenine<br/>Maidul Islam<br/>Hironmoy Roy Rudra | Personal |
 | 37      | Inertia              | Mushfiqur Rahman<br/>Al Mahir Ahmed<br/>Suhail Haque Rafi<br/>Abrar Ahmed | Personal |
+| 38      | Assiut Motorsport         | Omar Abbas<br/>Kareem Salah<br/>Mohamed Abd-El-Fattah<br/>Ahmed Shehata<br/>Doaa Ibrahem<br/>Eslam Mohamed<br/>Arwa Ibrahim<br/>Maotaz Refaat<br/>Fajr Mohamed<br/>Ahmed Mohamed | Assiut University |
+| 39      | SELF                      | Zhuo Ouyang<br/>Pengcheng You<br/>Chang Liu<br/>Yingzhu Liu<br/>Chengrui Qu | Peking University |
+| 40      | Triton AI                 | Yen-Ru Chen<br/>Winston Chou<br/>Kevin Shin<br/>Samuel Lin<br/>Surya Setty<br/>Aryan Palaskar | University of California, San Diego |
+| 41      | Escuderia Brasileira de Veículos Autônomos | Fernando Zolubas Preto<br/>Antonio Colombini Neto<br/>Felipe Gomes de Melo D'Elia<br/>Carlos Alberto Arronte Delgado<br/>Francisco Rodrigues Marazia<br/>Luccas Barsotti<br/>Caio Victor Goveia Freitas | Polytechnic School of the University of São Paulo - Brazil |
+| 42      | Autonomous Ground Vehicle | Shreyansh Kansal<br/>Swaminathan S K<br/>Yash Sirvi<br/>Aditya Srivastava<br/>Akshit Goyal<br/>Atul Singh<br/>Rohan Singh<br/>Theyanesh E R<br/>Sandip Das<br/>Arham J Bhansali<br/>Ansh Sharma<br/>Samarth G | Indian Institute of Technology, Kharagpur |
+| 43      | SUST Autodrive            | Abul Bashar Raz<br/>Md. Redwan Hasan<br/>Ehsanul Karim Aslam<br/>Md. Tamzid Islam Babul | Shahjalal University of Science and Technology |
+| 44      | Sabeq                     | Adham Waleed<br/>Abdulrahman Ahmed<br/>Nabil Fouda<br/>Mostafa Samy | Ain Shams University |
+| 45      | RapidRabbits              | Aryan Iyer<br/>Siddhant Diwaker  | Personal                                |
 
 !!! note
     The above table will be updated with newly registered teams within a few days of registration. Please contact [:material-email: Chinmay Samak](mailto:csamak@clemson.edu) or [:material-email: Tanmay Samak](mailto:tsamak@clemson.edu) if you do not see your team entry for more than 7 days after registering.
