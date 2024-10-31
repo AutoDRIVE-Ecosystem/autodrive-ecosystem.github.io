@@ -223,7 +223,10 @@ Registered teams are added to the following table:
 | 42      | Autonomous Ground Vehicle | Shreyansh Kansal<br/>Swaminathan S K<br/>Yash Sirvi<br/>Aditya Srivastava<br/>Akshit Goyal<br/>Atul Singh<br/>Rohan Singh<br/>Theyanesh E R<br/>Sandip Das<br/>Arham J Bhansali<br/>Ansh Sharma<br/>Samarth G | Indian Institute of Technology, Kharagpur |
 | 43      | SUST Autodrive            | Abul Bashar Raz<br/>Md. Redwan Hasan<br/>Ehsanul Karim Aslam<br/>Md. Tamzid Islam Babul | Shahjalal University of Science and Technology |
 | 44      | Sabeq                     | Adham Waleed<br/>Abdulrahman Ahmed<br/>Nabil Fouda<br/>Mostafa Samy | Ain Shams University |
-| 45      | RapidRabbits              | Aryan Iyer<br/>Siddhant Diwaker  | Personal                                |
+| 45      | RapidRabbits              | Aryan Iyer<br/>Siddhant Diwaker | Personal                                |
+| 46      | Orion                     | U Skanda Aithal<br/>Aryan Agarwal<br/>Aditya Gupta<br/>Aman Kumar<br/>Lakshmikanth Nageswar | Personal |
+| 47      | KOU-Mekatronom            | Mehmet Baha Dursun<br/>Muvahhid Kılıç<br/>Can Ercan | Personal            |
+| 48      | CLUTCH                    | Emmanuel Korankye<br/>Appenteng Adjepong<br/>Samuel Akwensivie<br/>Kobena Enyam<br/>Desmond Hammond | Personal |
 
 !!! note
     The above table will be updated with newly registered teams within a few days of registration. Please contact [:material-email: Chinmay Samak](mailto:csamak@clemson.edu) or [:material-email: Tanmay Samak](mailto:tsamak@clemson.edu) if you do not see your team entry for more than 7 days after registering.
