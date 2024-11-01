@@ -215,7 +215,7 @@ Registered teams are added to the following table:
 | 34      | Neutrino                  | Ahmed Elnely<br/>Abdallah Atef<br/>Mohamed Abdelmoneam<br/>Noran Mohamed<br/>Yasmin Khaled<br/>Nouran Karam | Egyptian Russian University |
 | 35      | Zancle E-Drive            | Gaetano Pio Pispisa<br/>Giovanni Lombardo<br/>Simone Castorino | University of Messina, Italy |
 | 36      | sim_goes_brrrrrr_mha      | Marzanul Momenine<br/>Maidul Islam<br/>Hironmoy Roy Rudra | Personal |
-| 37      | Inertia              | Mushfiqur Rahman<br/>Al Mahir Ahmed<br/>Suhail Haque Rafi<br/>Abrar Ahmed | Personal |
+| 37      | Inertia                   | Mushfiqur Rahman<br/>Al Mahir Ahmed<br/>Suhail Haque Rafi<br/>Abrar Ahmed | Personal |
 | 38      | Assiut Motorsport         | Omar Abbas<br/>Kareem Salah<br/>Mohamed Abd-El-Fattah<br/>Ahmed Shehata<br/>Doaa Ibrahem<br/>Eslam Mohamed<br/>Arwa Ibrahim<br/>Maotaz Refaat<br/>Fajr Mohamed<br/>Ahmed Mohamed | Assiut University |
 | 39      | SELF                      | Zhuo Ouyang<br/>Pengcheng You<br/>Chang Liu<br/>Yingzhu Liu<br/>Chengrui Qu | Peking University |
 | 40      | Triton AI                 | Yen-Ru Chen<br/>Winston Chou<br/>Kevin Shin<br/>Samuel Lin<br/>Surya Setty<br/>Aryan Palaskar | University of California, San Diego |
@@ -227,6 +227,8 @@ Registered teams are added to the following table:
 | 46      | Orion                     | U Skanda Aithal<br/>Aryan Agarwal<br/>Aditya Gupta<br/>Aman Kumar<br/>Lakshmikanth Nageswar | Personal |
 | 47      | KOU-Mekatronom            | Mehmet Baha Dursun<br/>Muvahhid Kılıç<br/>Can Ercan | Personal            |
 | 48      | CLUTCH                    | Emmanuel Korankye<br/>Appenteng Adjepong<br/>Samuel Akwensivie<br/>Kobena Enyam<br/>Desmond Hammond | Personal |
+| 49      | SimRacer                  | Vinura Wanniarachchi          | Personal                                  |
+| 50      | WaterlooF110              | Megnath Ramesh<br/>Shaswat Garg<br/>Avraiem Iskander<br/>Praneeth KVK | University of Waterloo |
 
 !!! note
     The above table will be updated with newly registered teams within a few days of registration. Please contact [:material-email: Chinmay Samak](mailto:csamak@clemson.edu) or [:material-email: Tanmay Samak](mailto:tsamak@clemson.edu) if you do not see your team entry for more than 7 days after registering.
