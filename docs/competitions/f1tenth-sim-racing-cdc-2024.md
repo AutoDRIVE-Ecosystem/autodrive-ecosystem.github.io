@@ -55,7 +55,7 @@ Since the vehicle, the sensors, the simulator, and the devkit are standardized, 
 |:----------------------------------|:-------------------------------|
 | Aug 01, 2024                      | Registration Opens             |
 | Oct 31, 2024                      | Registration Closes            |
-| Nov 06, 2024 (5:30 – 6:30 PM EST) | Online Orientation 1           |
+| Nov 07, 2024 (5:30 – 6:30 PM EST) | Online Orientation 1           |
 | Nov 20, 2024 (5:30 – 6:30 PM EST) | Online Orientation 2           |
 | Nov 30 – Dec 01, 2024             | Qualification Round            |
 | Dec 02, 2024                      | Qualification Results Declared |
