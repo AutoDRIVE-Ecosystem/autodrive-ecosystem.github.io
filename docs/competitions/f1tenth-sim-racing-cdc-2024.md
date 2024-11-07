@@ -229,6 +229,7 @@ Registered teams are added to the following table:
 | 48      | CLUTCH                    | Emmanuel Korankye<br/>Appenteng Adjepong<br/>Samuel Akwensivie<br/>Kobena Enyam<br/>Desmond Hammond | Personal |
 | 49      | SimRacer                  | Vinura Wanniarachchi          | Personal                                  |
 | 50      | WaterlooF110              | Megnath Ramesh<br/>Shaswat Garg<br/>Avraiem Iskander<br/>Praneeth KVK | University of Waterloo |
+| 51      | AA LAB                    | Taha Kocyigit<br/>Taha Yigit Erdogan | Bogazici University                |
 
 !!! note
     The above table will be updated with newly registered teams within a few days of registration. Please contact [:material-email: Chinmay Samak](mailto:csamak@clemson.edu) or [:material-email: Tanmay Samak](mailto:tsamak@clemson.edu) if you do not see your team entry for more than 7 days after registering.
