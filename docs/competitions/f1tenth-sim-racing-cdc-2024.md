@@ -145,7 +145,7 @@ We recommend all the teams interested in participating in the F1TENTH Sim Racing
 
     **Orientation 1:**
     
-    Meeting Link: :fontawesome-solid-video: Zoom
+    Meeting Link: :fontawesome-solid-video: [Zoom](https://clemson.zoom.us/j/92399406829)
     
     Review Links: :octicons-video-16: Recording | :material-projector-screen-outline: Slides
 
