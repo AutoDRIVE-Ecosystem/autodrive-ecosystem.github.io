@@ -209,7 +209,7 @@ The front wheels are steered at the commanded steering angle $\delta$ using a st
 
 #### 1.3.4. Sensor Physics
 
-Throttle ($\tau$) and steering ($\delta$) sensors are simulated using an instantaneous feedback loop. Incremental encoders are simulated by measuring the rotation of the rear wheels: $^iN_{ticks} = {^iPPR} * {^iGR} * {^iN_{rev}}$, where $^iN_{ticks}$ and $^iPPR$ respectively represent the measured ticks and base resolution (pulses per revolution) of the $i$-th encoder, while $^iGR$ and $^iN_{rev}$ respectively represent the gear ratio and output shaft revolutions of the $i$-th motor.
+Throttle ($\tau$) and steering ($\delta$) sensors are simulated using an instantaneous feedback loop. Incremental encoders are simulated by measuring the rotation of the rear wheels: $^iN_{ticks} = {^iPPR} * {^iCR} * {^iN_{rev}}$, where $^iN_{ticks}$ and $^iPPR$ respectively represent the measured ticks and base resolution (pulses per revolution) of the $i$-th encoder, while $^iCR$ and $^iN_{rev}$ respectively represent the conversion ratio and output shaft revolutions of the $i$-th motor.
 
 | :material-engine:{ .lg .middle } THROTTLE SENSOR  |                     |
 :---------------------------------------------------|:--------------------|
@@ -228,6 +228,7 @@ Throttle ($\tau$) and steering ($\delta$) sensors are simulated using an instant
 | Type                                      | Simulated Sensor    |
 | Class                                     | Proprioceptive      |
 | Pulses Per Revolution                     | 16                  |
+| Conversion Ratio                          | 120                 |
 | Supported Outputs                         | Ticks<br/>Angles    |
 
 The indoor positioning system (IPS) and inertial measurement unit (IMU) are simulated based on temporally-coherent rigid-body transform updates of the vehicle $\{v\}$ w.r.t. the world $\{w\}$: ${^w\mathbf{T}_v} = \left[\begin{array}{c | c} \mathbf{R}_{3 \times 3} & \mathbf{t}_{3 \times 1} \\ \hline \mathbf{0}_{1 \times 3} & 1 \end{array}\right] \in SE(3)$. IPS provides 3-DOF positional coordinates $\{x,y,z\}$ of the vehicle, while IMU supplies linear accelerations $\{a_x,a_y,a_z\}$, angular velocities $\{\omega_x,\omega_y,\omega_z\}$, and 3-DOF orientation of the vehicle as Euler angles $\{\phi_x,\theta_y,\psi_z\}$ or quaternion $\{q_0,q_1,q_2,q_3\}$.
