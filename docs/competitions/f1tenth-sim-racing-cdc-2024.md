@@ -145,9 +145,9 @@ We recommend all the teams interested in participating in the F1TENTH Sim Racing
 
     **Orientation 1:**
     
-    Meeting Link: :fontawesome-solid-video: [Zoom](https://clemson.zoom.us/j/92399406829)
+    Meeting Link: [:fontawesome-solid-video: Zoom](https://clemson.zoom.us/j/92399406829)
     
-    Review Links: :octicons-video-16: Recording | [:material-projector-screen-outline: Slides](https://github.com/AutoDRIVE-Ecosystem/AutoDRIVE-F1TENTH-Sim-Racing/releases/download/2024-cdc/orientation_1_slides.zip)
+    Review Links: [:octicons-video-16: Recording](https://youtu.be/WQyhXQtFC0o) | [:material-projector-screen-outline: Slides](https://github.com/AutoDRIVE-Ecosystem/AutoDRIVE-F1TENTH-Sim-Racing/releases/download/2024-cdc/orientation_1_slides.zip)
 
     **Orientation 2:**
     
