@@ -435,6 +435,7 @@ The following table describes various data streams of the competition framework.
 `/autodrive/f1tenth_1/steering_command`   | :material-engine: Actuator  | `std_msgs/msg/Float32`       | :material-progress-upload: Output                          |
 `/autodrive/f1tenth_1/throttle`           | :material-eye: Sensor       | `std_msgs/msg/Float32`       | :material-progress-download: Input                         |
 `/autodrive/f1tenth_1/throttle_command`   | :material-engine: Actuator  | `std_msgs/msg/Float32`       | :material-progress-upload: Output                          |
+`/autodrive/reset_command`                | :material-bug: Debugging    | `std_msgs/msg/Bool`          | :warning: Restricted                                       |
 `/tf`                                     | :material-bug: Debugging    | `tf2_msgs/msg/TFMessage`     | :warning: Restricted                                       |
 
 !!! warning
