@@ -442,7 +442,7 @@ The following table describes various data streams of the competition framework.
     You may use the restricted topics for debugging, training AI models, etc. However, these topics should not be used while autonomously racing at run-time (e.g., during the deployment/inference stage of the algorithm).
 
 !!! warning
-    You can reset the simulation by publishing a `True` value Boolean message on the topic `/autodrive/reset_command`. However, do not forget to set it to `False` again, or the simulation will keep resetting!
+    You can reset the simulation by publishing a `True` value `std_msgs/msg/Bool` message on the topic `/autodrive/reset_command`. However, do not forget to set it to `False` again, or the simulation will keep resetting!
 
 ## 3. Competition Submission
 
