@@ -1580,6 +1580,10 @@ The following table describes various data streams of the competition framework.
 <p class="admonition-title">Warning</p>
 <p>You may use the restricted topics for debugging, training AI models, etc. However, these topics should not be used while autonomously racing at run-time (e.g., during the deployment/inference stage of the algorithm).</p>
 </div>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>You can reset the simulation by publishing a <code>True</code> value Boolean message on the topic <code>/autodrive/reset_command</code>. However, do not forget to set it to <code>False</code> again, or the simulation will keep resetting!</p>
+</div>
 <h2 id="3-competition-submission">3. Competition Submission<a class="headerlink" href="#3-competition-submission" title="Permanent link">&para;</a></h2>
 <p><center>
 <img src="/../assets/images/documentation/f1tenth sim racing league/Competition Framework.png">
