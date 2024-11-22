@@ -271,7 +271,7 @@ Simulated cameras are parameterized by their focal length $f$, sensor size $\{s_
 | Shutter Speed                             | 0.005 s               |
 | Focal Length                              | 3.04 m                |
 | Aperture                                  | f/16                  |
-| Target Resolution                         | 1280$\times$720 px    |
+| Target Image                              | 16:9 (75% JPG Compression) |
 | Supported Outputs                         | RGB Image             |
 
 <!-- #### 1.3.5. Variability (noise in sensor/actuator/system characteristics)
