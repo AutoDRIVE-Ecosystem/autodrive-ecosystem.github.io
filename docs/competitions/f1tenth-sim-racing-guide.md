@@ -441,8 +441,15 @@ The following table describes various data streams of the competition framework.
 !!! warning
     You may use the restricted topics for debugging, training AI models, etc. However, these topics should not be used while autonomously racing at run-time (e.g., during the deployment/inference stage of the algorithm).
 
-!!! warning
-    You can reset the simulation by publishing a `True` value `std_msgs/msg/Bool` message on the topic `/autodrive/reset_command`. However, do not forget to set it to `False` again, or the simulation will keep resetting!
+!!! info
+    !!! warning
+        You can reset the simulation by publishing a `std_msgs/msg/Bool` message with `True` value on the `/autodrive/reset_command` topic. However, do not forget to set it to `False` again, or else the simulation will keep resetting!
+    
+    Please check out the video below to see the functionality of resetting the simulator via API in action, using the [`teleop_keyboard`](https://github.com/AutoDRIVE-Ecosystem/AutoDRIVE-F1TENTH-Sim-Racing/blob/main/autodrive_devkit/autodrive_f1tenth/teleop_keyboard.py) node. This would be a good way of understanding the working and implementation of this functionality for writing your custom nodes that can exploit this feature.
+
+    <center>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/IV2W0G827f0?si=jzcpbMhpFcXCNvyN" title="Reset AutoDRIVE Simulator via AutoDRIVE Devkit" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </center>
 
 ## 3. Competition Submission
 
