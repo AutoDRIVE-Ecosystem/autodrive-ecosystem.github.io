@@ -34,7 +34,7 @@ This page hosts research outcomes that employ or contribute to the AutoDRIVE Eco
         url = {https://doi.org/10.1145/3483845.3483846},
         doi = {10.1145/3483845.3483846},
         booktitle = {2021 2nd International Conference on Control, Robotics and Intelligent System},
-        pages = {1–5},
+        pages = {1-5},
         numpages = {5},
         location = {Qingdao, China},
         series = {CCRIS'21}
@@ -228,15 +228,14 @@ This page hosts research outcomes that employ or contribute to the AutoDRIVE Eco
     ??? quote "Citation"
         ```bibtex
         @inproceedings{DT-HPC-VnV-2024,
-        author = {Samak, Tanmay and Samak, Chinmay and Binz, Joey and Smereka, Jonathon and Brudnak, Mark and Gorsich, David and Luo, Feng and Krovi, Venkat},
-        booktitle = {2024 Ground Vehicle Systems Engineering and Technology Symposium (GVSETS)}, 
-        title = {Off-Road Autonomy Validation Using Scalable Digital Twin Simulations Within High-Performance Computing Clusters}, 
+        author = {{Samak, Tanmay} and {Samak, Chinmay} and {Krovi, Venkat} and {Binz, Joey} and {Luo, Feng} and {Smereka, Jonathon} and {Brudnak, Mark} and {Gorsich, David}},
+        title = {Off-Road Autonomy Validation Using Scalable Digital Twin Simulations Within High-Performance Computing Clusters},
+        booktitle = {2024 NDIA Michigan Chapter Ground Vehicle Systems Engineering and Technology Symposium},
+        publisher = {National Defense Industrial Association},
+        month = {sep},
         year = {2024},
-        volume = {},
-        number = {},
-        pages = {1068-1075},
-        doi = {10.48550/arXiv.2405.04743}
-        url = {https://ndia-mich.org/images/events/gvsets/2024/papers/MSPV/320PMO~1.PDF}
+        doi = {10.4271/2024-01-4111},
+        url = {https://doi.org/10.4271/2024-01-4111}
         }
         ```
 
@@ -256,13 +255,13 @@ This page hosts research outcomes that employ or contribute to the AutoDRIVE Eco
     ??? quote "Citation"
         ```bibtex
         @misc{Metaverse-for-Safer-Roadways-2024,
-        title={Metaverse for Safer Roadways: An Immersive Digital Twin Framework for Exploring Human-Autonomy Coexistence in Urban Transportation Systems}, 
-        author={Tanmay Vilas Samak and Chinmay Vilas Samak and Venkat Narayan Krovi},
-        year={2024},
-        eprint={2406.05465},
-        archivePrefix={arXiv},
-        primaryClass={cs.RO},
-        url={https://arxiv.org/abs/2406.05465},
+        author = {Tanmay Vilas Samak and Chinmay Vilas Samak and Venkat Narayan Krovi},
+        title = {Metaverse for Safer Roadways: An Immersive Digital Twin Framework for Exploring Human-Autonomy Coexistence in Urban Transportation Systems}, 
+        year = {2024},
+        eprint = {2406.05465},
+        archivePrefix = {arXiv},
+        primaryClass = {cs.RO},
+        url = {https://arxiv.org/abs/2406.05465}
         }
         ```
 
@@ -282,13 +281,13 @@ This page hosts research outcomes that employ or contribute to the AutoDRIVE Eco
     ??? quote "Citation"
         ```bibtex
         @misc{Sim2Real-MARL-2024,
-        title={A Scalable and Parallelizable Digital Twin Framework for Sustainable Sim2Real Transition of Multi-Agent Reinforcement Learning Systems}, 
-        author={Chinmay Vilas Samak and Tanmay Vilas Samak and Venkat Krovi},
-        year={2024},
-        eprint={2403.10996},
-        archivePrefix={arXiv},
-        primaryClass={cs.RO},
-        url={https://arxiv.org/abs/2403.10996}, 
+        author = {Chinmay Vilas Samak and Tanmay Vilas Samak and Venkat Krovi},
+        title = {A Scalable and Parallelizable Digital Twin Framework for Sustainable Sim2Real Transition of Multi-Agent Reinforcement Learning Systems}, 
+        year = {2024},
+        eprint = {2403.10996},
+        archivePrefix = {arXiv},
+        primaryClass = {cs.RO},
+        url = {https://arxiv.org/abs/2403.10996}
         }
         ```
 
@@ -310,13 +309,13 @@ This page hosts research outcomes that employ or contribute to the AutoDRIVE Eco
     ??? quote "Citation"
         ```bibtex
         @misc{AutoDRIVE-Simulator-2020,
-        title={AutoDRIVE Simulator -- Technical Report}, 
         author={Tanmay Vilas Samak and Chinmay Vilas Samak},
+        title={AutoDRIVE Simulator -- Technical Report}, 
         year={2022},
         eprint={2211.07022},
         archivePrefix={arXiv},
         primaryClass={cs.RO},
-        url={https://arxiv.org/abs/2211.07022}, 
+        url={https://arxiv.org/abs/2211.07022}
         }
         ```
 
@@ -336,13 +335,13 @@ This page hosts research outcomes that employ or contribute to the AutoDRIVE Eco
     ??? quote "Citation"
         ```bibtex
         @misc{AutoDRIVE-Autoware-2023,
-        title={Autonomy Oriented Digital Twins for Real2Sim2Real Autoware Deployment}, 
         author={Chinmay Vilas Samak and Tanmay Vilas Samak},
+        title={Autonomy Oriented Digital Twins for Real2Sim2Real Autoware Deployment},
         year={2024},
         eprint={2402.14739},
         archivePrefix={arXiv},
         primaryClass={cs.RO},
-        url={https://arxiv.org/abs/2402.14739}, 
+        url={https://arxiv.org/abs/2402.14739}
         }
         ```
 
@@ -364,12 +363,12 @@ This page hosts research outcomes that employ or contribute to the AutoDRIVE Eco
     ??? quote "Citation"
         ```bibtex
         @misc{AutoDRIVE-Ecosystem-2021,
-        title={AutoDRIVE -- Technical Report}, 
         author={Tanmay Vilas Samak and Chinmay Vilas Samak},
+        title={AutoDRIVE -- Technical Report},
         year={2022},
         eprint={2211.08475},
         archivePrefix={arXiv},
         primaryClass={cs.RO},
-        url={https://arxiv.org/abs/2211.08475}, 
+        url={https://arxiv.org/abs/2211.08475}
         }
         ```
