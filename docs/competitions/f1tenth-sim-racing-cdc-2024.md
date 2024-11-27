@@ -241,7 +241,7 @@ Use the secure form below to make your team's submission for Phase 1 (Qualificat
 </p>
 
 <center>
-[:material-file-document-edit: Phase 1 Submission Form](){.md-button}
+[:material-file-document-edit: Phase 1 Submission Form](https://forms.gle/aYPFnWwVDzf47eXS6){.md-button}
 </center>
 
 !!! warning
