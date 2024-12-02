@@ -263,8 +263,31 @@ Use the secure form below to make your team's submission for Phase 2 (Final Race
 **Phase 1: Qualification**
 
 <p align="justify">
-To be announced on Dec 02, 2024.
+The following teams have qualified for the final time-attack race. Here are the official standings:
 </p>
+
+| RANK    | TEAM NAME                                     | RACE TIME       | COLLISION COUNT | ADJUSTED RACE TIME | BEST LAP TIME |
+|:--------|:----------------------------------------------|:----------------|:----------------|:-------------------|:--------------|
+| 01      | 👏 VAUL                                       | 70.30 s         | 0               | 70.30 s            | 6.96 s        |
+| 02      | 👏 Asturian Kingdom Team                      | 75.27 s         | 0               | 75.27 s            | 7.52 s        |
+| 03      | 👏 SoloDriver                                 | 82.97 s         | 0               | 82.97 s            | 8.27 s        |
+| 04      | 👏 TURTLEBOT                                  | 90.33 s         | 0               | 90.33 s            | 8.98 s        |
+| 05      | 👏 Byte Benders                               | 85.61 s         | 1               | 95.61 s            | 8.29 s        |
+| 06      | 👏 AsTenth Martin                             | 92.44 s         | 1               | 102.44 s           | 9.08 s        |
+| 07      | 👏 Pharst Laps                                | 93.69 s         | 1               | 103.69 s           | 9.24 s        |
+| 08      | 👏 Autonomous Ground Vehicle                  | 111.94 s        | 1               | 121.94 s           | 10.55 s       |
+| 09      | 👏 Autonomous Motorsports Purdue              | 122.34 s        | 0               | 122.34 s           | 12.22 s       |
+| 10      | 👏 Escuderia Brasileira de Veículos Autônomos | 114.19 s        | 1               | 124.19 s           | 11.33 s       |
+| 11      | 👏 YTU AESK                                   | 125.14 s        | 0               | 125.14 s           | 12.47 s       |
+| 12      | 👏 Zancle E-Drive                             | 126.79 s        | 0               | 126.79 s           | 12.65 s       |
+| 13      | 👏 Baby Driver                                | 122.66 s        | 1               | 132.66 s           | 12.19 s       |
+| 14      | 👏 Pegasus                                    | 146.82 s        | 0               | 146.82 s           | 14.65 s       |
+| 15      | 👏 MMS Autonomous                             | 113.15 s        | 5               | 163.15 s           | 10.90 s       |
+| 16      | 👏 WaterlooF110                               | 190.31 s        | 0               | 190.31 s           | 18.78 s       |
+| 17      | 👏 bracaai                                    | 201.09 s        | 0               | 201.09 s           | 19.68 s       |
+| 18      | 👏 Assiut Motorsport                          | 112.09 s        | 9               | 202.09 s           | 10.74 s       |
+| 19      | 👏 SeDriCa-UMIC                               | 185.18 s        | 2               | 205.18 s           | 18.34 s       |
+| 20      | 👏 Sabeq                                      | 128.63 s        | 10              | 228.63 s           | 12.50 s       |
 
 **Phase 2: Competition**
 
