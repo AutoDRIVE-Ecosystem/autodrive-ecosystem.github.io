@@ -423,7 +423,7 @@ The following table describes various data streams of the competition framework.
 `/autodrive/f1tenth_1/collision_count`    | :material-bug: Debugging    | `std_msgs/msg/Int32`         | :warning: Restricted                                       |
 `/autodrive/f1tenth_1/front_camera`       | :material-eye: Sensor       | `sensor_msgs/msg/Image`      | :material-progress-download: Input                         |
 `/autodrive/f1tenth_1/imu`                | :material-eye: Sensor       | `sensor_msgs/msg/Imu`        | :material-progress-download: Input                         |
-`/autodrive/f1tenth_1/ips`                | :material-eye: Sensor       | `geometry_msgs/msg/Point`    |  :warning: Restricted, :material-progress-download: Input  |
+`/autodrive/f1tenth_1/ips`                | :material-eye: Sensor       | `geometry_msgs/msg/Point`    | :warning: Restricted                                       |
 `/autodrive/f1tenth_1/lap_count`          | :material-bug: Debugging    | `std_msgs/msg/Int32`         | :warning: Restricted                                       |
 `/autodrive/f1tenth_1/lap_time`           | :material-bug: Debugging    | `std_msgs/msg/Float32`       | :warning: Restricted                                       |
 `/autodrive/f1tenth_1/last_lap_time`      | :material-bug: Debugging    | `std_msgs/msg/Float32`       | :warning: Restricted                                       |
