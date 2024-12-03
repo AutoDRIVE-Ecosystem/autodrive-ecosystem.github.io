@@ -794,6 +794,11 @@ Following are the evaluation criteria for the competition:
 Each team is expected to submit a containerized version of their autonomous racing software stack. Submissions for each phase of the competition will be done separately.
 </p>
 
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>We expect that upon running your submitted container, all the necessary nodes should start up (the <code>autodrive_devkit</code> API we have included as well as your team's racing stack). Once we hit the <code>Connection Button</code> on the <code>Menu Panel</code> of AutoDRIVE Simulator, the simulated vehicle should start running. Please refer to the <a href="https://autodrive-ecosystem.github.io/competitions/f1tenth-sim-racing-rules">competition rules</a>, where it talks about the <a href="https://autodrive-ecosystem.github.io/competitions/f1tenth-sim-racing-rules/#31-submission-requirements">submission requirements</a> and <a href="https://autodrive-ecosystem.github.io/competitions/f1tenth-sim-racing-rules/#32-submission-process">submission process</a>.</p>
+</div>
+<p>Please make sure that you include all the necessary commands (for sourcing workspaces, setting environment variables, launching nodes, etc.) within the <code>entrypoint</code> script (<code>autodrive_devkit.sh</code> file) provided within the <code>autodrive_f1tenth_api</code> container. Please do <strong>NOT</strong> use <code>~/.bashrc</code> or other means to automate the algorithm execution! Competition organizers should be able to start additional bash session(s) within your submitted container (without your codebase executing every time a new bash session is initialized) for data recording and inspection purposes.</p>
 <h3 id="31-submission-requirements">3.1. Submission Requirements<a class="headerlink" href="#31-submission-requirements" title="Permanent link">&para;</a></h3>
 <p align="justify">
 Following are the requirements for submitting an entry to the competition:
@@ -809,7 +814,7 @@ Following are the requirements for submitting an entry to the competition:
 
 <div class="admonition tip">
 <p class="admonition-title">Tip</p>
-<p>Teams can test their algorithms locally before containerizing them. However, don't forget to test the containerized approach before submitting!</p>
+<p>Teams can test their algorithms locally before containerizing them. However, don't forget to test your containers before pushing them upstream and submitting them!</p>
 </div>
 <h3 id="32-submission-process">3.2. Submission Process<a class="headerlink" href="#32-submission-process" title="Permanent link">&para;</a></h3>
 <p align="justify">
@@ -818,7 +823,7 @@ Following are the key milestones for submitting an entry to the competition:
 
 <ul class="justify-list">
   <li>Teams will <b>containerize</b> their autonomous racing software stack using <a href="https://www.docker.com">Docker</a>.</li>
-  <li>Teams will <b>push</b> their Docker container image to <a href="https://hub.docker.com">DockerHub</a>.</li>
+  <li>Teams will <b>push</b> their self-sustainable Docker container image to <a href="https://hub.docker.com">DockerHub</a>.</li>
   <li>Teams will <b>share</b> the link of the upstream repository with the organizers via a secure submission form (separate forms for each stage of the competition).</li>
 </ul>
 
@@ -892,7 +897,7 @@ This work has been published at <strong>2021 International Conference on Control
     <span class="md-icon" title="Last update">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">October 2, 2024</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">December 3, 2024</span>
   </span>
 
     
