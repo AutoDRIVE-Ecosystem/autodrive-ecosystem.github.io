@@ -159,6 +159,10 @@ Following are the evaluation criteria for the competition:
 Each team is expected to submit a containerized version of their autonomous racing software stack. Submissions for each phase of the competition will be done separately.
 </p>
 
+!!! note
+    We expect that upon running your submitted container, all the necessary nodes should start up (the `autodrive_devkit` API we have included as well as your team's racing stack). Once we hit the `Connection Button` on the `Menu Panel` of AutoDRIVE Simulator, the simulated vehicle should start running. Please refer to the [competition rules](https://autodrive-ecosystem.github.io/competitions/f1tenth-sim-racing-rules), where it talks about the [submission requirements](https://autodrive-ecosystem.github.io/competitions/f1tenth-sim-racing-rules/#31-submission-requirements) and [submission process](https://autodrive-ecosystem.github.io/competitions/f1tenth-sim-racing-rules/#32-submission-process).
+Please make sure that you include all the necessary commands (for sourcing workspaces, setting environment variables, launching nodes, etc.) within the `entrypoint` script (`autodrive_devkit.sh` file) provided within the `autodrive_f1tenth_api` container. Please do **NOT** use `~/.bashrc` or other means to automate the algorithm execution! Competition organizers should be able to start additional bash session(s) within your submitted container (without your codebase executing every time a new bash session is initialized) for data recording and inspection purposes.
+
 ### 3.1. Submission Requirements
 
 <p align="justify">
@@ -174,7 +178,7 @@ Following are the requirements for submitting an entry to the competition:
 </ul>
 
 !!! tip
-    Teams can test their algorithms locally before containerizing them. However, don't forget to test the containerized approach before submitting!
+    Teams can test their algorithms locally before containerizing them. However, don't forget to test your containers before pushing them upstream and submitting them!
 
 ### 3.2. Submission Process
 
@@ -184,7 +188,7 @@ Following are the key milestones for submitting an entry to the competition:
 
 <ul class="justify-list">
   <li>Teams will <b>containerize</b> their autonomous racing software stack using <a href="https://www.docker.com">Docker</a>.</li>
-  <li>Teams will <b>push</b> their Docker container image to <a href="https://hub.docker.com">DockerHub</a>.</li>
+  <li>Teams will <b>push</b> their self-sustainable Docker container image to <a href="https://hub.docker.com">DockerHub</a>.</li>
   <li>Teams will <b>share</b> the link of the upstream repository with the organizers via a secure submission form (separate forms for each stage of the competition).</li>
 </ul>
 
