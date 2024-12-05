@@ -252,7 +252,7 @@ Use the secure form below to make your team's submission for Phase 2 (Final Race
 </p>
 
 <center>
-[:material-file-document-edit: Phase 2 Submission Form](){.md-button}
+[:material-file-document-edit: Phase 2 Submission Form](https://forms.gle/mbrDFBU9Xww1Gp5X9){.md-button}
 </center>
 
 !!! warning
