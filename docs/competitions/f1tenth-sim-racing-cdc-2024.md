@@ -115,9 +115,9 @@ We recommend all the teams interested in participating in the F1TENTH Sim Racing
 
     Download base container images for the competition and start developing your algorithms.
 
-    [:material-open-in-new: **AutoDRIVE Simulator:**](https://hub.docker.com/r/autodriveecosystem/autodrive_f1tenth_sim) [`explore`](https://hub.docker.com/layers/autodriveecosystem/autodrive_f1tenth_sim/2024-cdc-explore/images/sha256-6a4a9aab20e5deafdcf1a8318b4f270d409b557ba198888fd701eb56506760c7) | [`practice`](https://hub.docker.com/layers/autodriveecosystem/autodrive_f1tenth_sim/2024-cdc-practice/images/sha256-07126b3b4bcf7d6ff43a7d76f9ba84412b2553784026d27b7e4ebdab269c4c6f) | `compete`
+    [:material-open-in-new: **AutoDRIVE Simulator:**](https://hub.docker.com/r/autodriveecosystem/autodrive_f1tenth_sim) [`explore`](https://hub.docker.com/layers/autodriveecosystem/autodrive_f1tenth_sim/2024-cdc-explore/images/sha256-6a4a9aab20e5deafdcf1a8318b4f270d409b557ba198888fd701eb56506760c7) | [`practice`](https://hub.docker.com/layers/autodriveecosystem/autodrive_f1tenth_sim/2024-cdc-practice/images/sha256-07126b3b4bcf7d6ff43a7d76f9ba84412b2553784026d27b7e4ebdab269c4c6f) | [`compete`](https://hub.docker.com/layers/autodriveecosystem/autodrive_f1tenth_sim/2024-cdc-compete/images/sha256-e0b511807cdc5597e9da3e3c1f630750476dd9a6a56f14187f79ca15ad72ad5e)
 
-    [:material-open-in-new: **AutoDRIVE Devkit:**](https://hub.docker.com/r/autodriveecosystem/autodrive_f1tenth_api) [`explore`](https://hub.docker.com/layers/autodriveecosystem/autodrive_f1tenth_api/2024-cdc-explore/images/sha256-221ab09c92720fc9ed324839ec81da6aceb4c5c12ae1e46b8733c2275cb000f1) | [`practice`](https://hub.docker.com/layers/autodriveecosystem/autodrive_f1tenth_api/2024-cdc-practice/images/sha256-d3fd68b51ec6934d8de283c14be5d5b5d8e3c536599eeeef652a16f47cce103d) | `compete`
+    [:material-open-in-new: **AutoDRIVE Devkit:**](https://hub.docker.com/r/autodriveecosystem/autodrive_f1tenth_api) [`explore`](https://hub.docker.com/layers/autodriveecosystem/autodrive_f1tenth_api/2024-cdc-explore/images/sha256-221ab09c92720fc9ed324839ec81da6aceb4c5c12ae1e46b8733c2275cb000f1) | [`practice`](https://hub.docker.com/layers/autodriveecosystem/autodrive_f1tenth_api/2024-cdc-practice/images/sha256-d3fd68b51ec6934d8de283c14be5d5b5d8e3c536599eeeef652a16f47cce103d) | [`compete`](https://hub.docker.com/layers/autodriveecosystem/autodrive_f1tenth_api/2024-cdc-compete/images/sha256-6596fa4eed9521f61d2fb3dc43c52bb0affbf3e7e2a197e1afb6ef03894694a7)
 
 -   :material-monitor:{ .lg .middle } __Local Resources__
 
@@ -131,7 +131,7 @@ We recommend all the teams interested in participating in the F1TENTH Sim Racing
 
     `practice`&nbsp; [:simple-linux: Linux](https://github.com/AutoDRIVE-Ecosystem/AutoDRIVE-F1TENTH-Sim-Racing/releases/download/2024-cdc/autodrive_simulator_practice_linux.zip) | [:material-microsoft: Windows](https://github.com/AutoDRIVE-Ecosystem/AutoDRIVE-F1TENTH-Sim-Racing/releases/download/2024-cdc/autodrive_simulator_practice_windows.zip) | [:simple-apple: macOS](https://github.com/AutoDRIVE-Ecosystem/AutoDRIVE-F1TENTH-Sim-Racing/releases/download/2024-cdc/autodrive_simulator_practice_macos.zip)
 
-    `compete`&nbsp;&nbsp;&nbsp; :simple-linux: Linux | :material-microsoft: Windows | :simple-apple: macOS
+    `compete`&nbsp;&nbsp;&nbsp; [:simple-linux: Linux](https://github.com/AutoDRIVE-Ecosystem/AutoDRIVE-F1TENTH-Sim-Racing/releases/download/2024-cdc/autodrive_simulator_compete_linux.zip) | [:material-microsoft: Windows](https://github.com/AutoDRIVE-Ecosystem/AutoDRIVE-F1TENTH-Sim-Racing/releases/download/2024-cdc/autodrive_simulator_compete_windows.zip) | [:simple-apple: macOS](https://github.com/AutoDRIVE-Ecosystem/AutoDRIVE-F1TENTH-Sim-Racing/releases/download/2024-cdc/autodrive_simulator_compete_macos.zip)
 
     **AutoDRIVE Devkit:**
     
