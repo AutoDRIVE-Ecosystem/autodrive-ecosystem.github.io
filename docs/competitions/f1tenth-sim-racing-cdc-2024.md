@@ -59,7 +59,7 @@ Since the vehicle, the sensors, the simulator, and the devkit are standardized, 
 | Nov 23, 2024 (1:00 – 2:00 PM EST) | Online Orientation 2           |
 | Nov 30 – Dec 01, 2024             | Qualification Round            |
 | Dec 02, 2024                      | Qualification Results Declared |
-| Dec 06, 2024                      | Competition Track Released     |
+| Dec 04, 2024                      | Competition Track Released     |
 | Dec 07 – Dec 08, 2024             | Final Race                     |
 | Dec 09, 2024                      | Competition Results Declared   |
 
