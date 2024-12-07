@@ -176,11 +176,12 @@ The tire slip is influenced by factors including tire stiffness $^iC_\alpha$, st
 | Wheelbase                                              | 0.3240 m              |
 | Track Width                                            | 0.2360 m              |
 | Front Overhang                                         | 0.0900 m              |
-| Rear Overhang                                            | 0.0800 m              |
+| Rear Overhang                                          | 0.0800 m              |
 | Wheel Radius                                           | 0.0590 m              |
 | Wheel Width                                            | 0.0450 m              |
-| Sprung Mass                                            | 3.47 kg               |
-| Wheel Mass                                             | 0.109 kg              |
+| Total Mass                                             | 3.906 kg              |
+| Sprung Mass                                            | 3.470 kg              |
+| Unsprung Mass                                          | 0.436 kg              |
 | Center of Mass                                         | X: 0.15532 m<br/>Y: 0.00000 m<br/>Z: 0.01434 m |
 | Suspension Spring                                      | 500 N/m               |
 | Suspension Damper                                      | 100 Ns/m              |
