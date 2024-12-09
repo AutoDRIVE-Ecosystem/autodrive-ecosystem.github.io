@@ -292,5 +292,21 @@ The following teams have qualified for the final time-attack race. Here are the 
 **Phase 2: Competition**
 
 <p align="justify">
-To be announced on Dec 09, 2024.
+The following teams successfully finished the final time-attack race. Here are the official standings:
 </p>
+
+| RANK    | TEAM NAME                                     | RACE TIME       | COLLISION COUNT | ADJUSTED RACE TIME | BEST LAP TIME |
+|:--------|:----------------------------------------------|:----------------|:----------------|:-------------------|:--------------|
+| 01      | 🥇 VAUL                                       | 103.84 s        | 0               | 103.84 s           | 10.35 s       |
+| 02      | 🥈 Baby Driver                                | 136.63 s        | 0               | 136.63 s           | 13.58 s       |
+| 03      | 🥉 TURTLEBOT                                  | 145.99 s        | 0               | 145.99 s           | 14.42 s       |
+| 04      | 👏 Asturian Kingdom Team                      | 150.76 s        | 1               | 160.76 s           | 14.91s        |
+| 05      | 👏 Pharst Laps                                | 151.37 s        | 3               | 181.37 s           | 14.79 s       |
+| 06      | 👏 bracaai                                    | 167.15 s        | 2               | 187.15 s           | 16.34 s       |
+| 07      | 👏 Byte Benders                               | 195.76 s        | 2               | 215.76 s           | 18.99 s       |
+| 08      | 👏 Autonomous Motorsports Purdue              | 211.76 s        | 1               | 221.76 s           | 20.48 s       |
+| 09      | 👏 Escuderia Brasileira de Veículos Autônomos | 219.45 s        | 1               | 229.45 s           | 21.74 s       |
+| 10      | 👏 Pegasus                                    | 227.29 s        | 1               | 237.29 s           | 21.72 s       |
+| 11      | 👏 Zancle E-Drive                             | 241.64 s        | 0               | 241.64 s           | 24.04 s       |
+| 12      | 👏 MMS Autonomous                             | 155.19 s        | 9               | 245.19 s           | 15.09 s       |
+| 13      | 👏 SoloDriver                                 | 259.23 s        | 1               | 269.23 s           | 24.59 s       |
