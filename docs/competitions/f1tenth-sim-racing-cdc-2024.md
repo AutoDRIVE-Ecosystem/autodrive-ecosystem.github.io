@@ -79,7 +79,7 @@ Following is a brief summary of each event:
 </ul>
 
 !!! info
-    The F1TENTH Sim Racing League will be held approximately 1 week ahead of <a href="https://cdc2024.ieeecss.org">CDC 2024</a> and the performance metrics will be made available to the teams. Discussions are underway with the CDC organizing team to allow teams to analyze and present their approach/results in a short (~10 min) presentation in a special session at <a href="https://cdc2024.ieeecss.org">CDC 2024</a>.
+    The F1TENTH Sim Racing League will be held approximately 1 week ahead of <a href="https://cdc2024.ieeecss.org">CDC 2024</a> and the performance metrics will be made available to the teams. We have also been able to organize a <a href="https://css.paperplaza.net/conferences/conferences/CDC24/program/CDC24_ContentListWeb_1.html#moevsp1_01">special session</a> for <a href="https://cdc2024.ieeecss.org/program/competitions#session-10-44">F1TENTH Sim Racing League Celebration</a> on Monday (Dec 16), 18:00-19:00 CET with the help of the CDC organizing committee. Join the celebration event to relive the nail-biting races, hear the top teams brag about their winning strategies (~5-minute presentations), and start your engines for the physical competition.
 
 ## Resources
 
