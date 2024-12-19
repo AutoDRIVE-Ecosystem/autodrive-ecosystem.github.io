@@ -310,3 +310,48 @@ The following teams successfully finished the final time-attack race. Here are t
 | 11      | 👏 Zancle E-Drive                             | 241.64 s        | 0               | 241.64 s           | 24.04 s       |
 | 12      | 👏 MMS Autonomous                             | 155.19 s        | 9               | 245.19 s           | 15.09 s       |
 | 13      | 👏 SoloDriver                                 | 259.23 s        | 1               | 269.23 s           | 24.59 s       |
+
+**Celebration Event @ CDC 2024**
+
+<p align="justify">
+🎉 Please join us (in-person or virtually) for the <a href="https://css.paperplaza.net/conferences/conferences/CDC24/program/CDC24_ContentListWeb_1.html#moevsp1_01">celebration event</a> of the 2nd F1TENTH Sim Racing League @ CDC 2024 on Monday (Dec 16, 2024) between 18:00-19:00 CET! 🏁
+</p>
+
+<p align="justify">
+<b>🎤<i>Agenda:</i></b>
+</p>
+
+<ul class="justify-list">
+  <li>Introduction & Overview (15 min) – Dr. Krovi & Dr. Mangharam</li>
+  <li>Competition Insights (20 min) – Tanmay & Chinmay</li>
+  <li>Words from the Winners (15 min) – 5 min for each team</li>
+  <li>Concluding Remarks (10 min) – Dr. Krovi & Dr. Mangharam</li>
+</ul>
+
+<p align="justify">
+<b>💻<i>Zoom:</i></b> <a href="https://tinyurl.com/f1tenth-cdc24-virtual-race">https://tinyurl.com/f1tenth-cdc24-virtual-race</a>
+</p>
+
+<p align="justify">
+🏆 Don't miss this chance to relive the thrill of the competition and hear from the champions themselves!
+</p>
+
+<div class="grid cards" markdown> 
+
+- :material-youtube:{ .lg .middle } __Celebration Event Recording__
+    
+    <iframe width="640" height="266" src="https://www.youtube.com/embed/HtmRKE3Jres?si=4j6mOefsbBnGiGud" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+- :material-youtube:{ .lg .middle } __Words from the Winners!__
+    
+    <iframe width="640" height="268" src="https://www.youtube.com/embed/-mV4k7wvUac?si=1sykHxWwryncDJFu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+- :material-projector-screen-outline:{ .lg .middle } __Celebration Event Slides - Part 1__
+    
+    <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSLHoLW0B1yny-4t3aMZe-5fzNr4C5L-VeqnEDFXdi-l1I0gR46fN9wd9yIWIE00BWGEQpyQfqeZkUA/embed?start=true&loop=true&delayms=3000" frameborder="0" width="640" height="303" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
+- :material-projector-screen-outline:{ .lg .middle } __Celebration Event Slides - Part 2__
+    
+    <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSJVIfhhZw81-v_NYhlLYA26MjgjBjS75riYiAlLf1rb6IQKDfprxQQV917b2nY_Q/embed?start=true&loop=true&delayms=3000" frameborder="0" width="640" height="303" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
+</div>
