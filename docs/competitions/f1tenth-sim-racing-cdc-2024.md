@@ -318,7 +318,7 @@ The following teams successfully finished the final time-attack race. Here are t
 </p>
 
 <p align="justify">
-<b>🎤<i>Agenda:</i></b>
+<b>🎤 <i>Agenda:</i></b>
 </p>
 
 <ul class="justify-list">
@@ -329,7 +329,7 @@ The following teams successfully finished the final time-attack race. Here are t
 </ul>
 
 <p align="justify">
-<b>💻<i>Zoom:</i></b> <a href="https://tinyurl.com/f1tenth-cdc24-virtual-race">https://tinyurl.com/f1tenth-cdc24-virtual-race</a>
+<b>💻 <i>Zoom:</i></b> <a href="https://tinyurl.com/f1tenth-cdc24-virtual-race">https://tinyurl.com/f1tenth-cdc24-virtual-race</a>
 </p>
 
 <p align="justify">
