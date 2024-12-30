@@ -13,7 +13,7 @@ This time, we are organizing the first ever <b>F1TENTH Sim Racing League</b>, wh
 </p>
 
 <center>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Rq7Wwcwn1uk?si=ngvop2-SfJJOIjWJ" title="Digital Twin of F1TENTH in AutoDRIVE Simulator" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="1280" height="536" src="https://www.youtube.com/embed/Rq7Wwcwn1uk?si=ngvop2-SfJJOIjWJ" title="Digital Twin of F1TENTH in AutoDRIVE Simulator" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </center>
 
 <p align="justify">
@@ -300,3 +300,9 @@ The following teams successfully finished the final time-attack race. Here are t
 | 03      | 🥉 KU F1TENTH             | 244.88 s        | 0               | 244.88 s           | 24.12 s       | [:material-youtube: YouTube](https://youtu.be/dOEyaTzgGhc?feature=shared) |
 | 04      | 👏 Shoubra Racing Team    | 201.84 s        | 6               | 261.84 s           | 19.00 s       | [:material-youtube: YouTube](https://youtu.be/Vf_XOZvBjdA?feature=shared) |
 | 05      | 👏 Phoenix                | 282.16 s        | 0               | 282.16 s           | 27.97 s       | [:material-youtube: YouTube](https://youtu.be/GAyaM3pc60c?feature=shared) |
+
+## Summary
+
+<center>
+<iframe width="1280" height="536" src="https://www.youtube.com/embed/bctpfSjyjXs?si=QqA764OGp2r5WWYs" title="F1TENTH Sim Racing League @ IROS 2024" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</center>
