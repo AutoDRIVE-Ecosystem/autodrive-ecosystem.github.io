@@ -13,7 +13,7 @@ This time, we are organizing the second <b>F1TENTH Sim Racing League</b>, which 
 </p>
 
 <center>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Rq7Wwcwn1uk?si=ngvop2-SfJJOIjWJ" title="Digital Twin of F1TENTH in AutoDRIVE Simulator" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="1280" height="580" src="https://www.youtube.com/embed/Rq7Wwcwn1uk?si=ngvop2-SfJJOIjWJ" title="Digital Twin of F1TENTH in AutoDRIVE Simulator" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </center>
 
 <p align="justify">
@@ -355,3 +355,9 @@ The following teams successfully finished the final time-attack race. Here are t
     <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSJVIfhhZw81-v_NYhlLYA26MjgjBjS75riYiAlLf1rb6IQKDfprxQQV917b2nY_Q/embed?start=true&loop=true&delayms=3000" frameborder="0" width="640" height="303" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
 </div>
+
+## Summary
+
+<center>
+<iframe width="1280" height="580" src="https://www.youtube.com/embed/Q-WTcTOld08?si=PORCUPmbj2KfHYST" title="F1TENTH Sim Racing League @ CDC 2024" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</center>
