@@ -266,28 +266,28 @@ Use the secure form below to make your team's submission for Phase 2 (Final Race
 The following teams have qualified for the final time-attack race. Here are the official standings:
 </p>
 
-| RANK    | TEAM NAME                                     | RACE TIME       | COLLISION COUNT | ADJUSTED RACE TIME | BEST LAP TIME |
-|:--------|:----------------------------------------------|:----------------|:----------------|:-------------------|:--------------|
-| 01      | 👏 VAUL                                       | 70.30 s         | 0               | 70.30 s            | 6.96 s        |
-| 02      | 👏 Asturian Kingdom Team                      | 75.27 s         | 0               | 75.27 s            | 7.52 s        |
-| 03      | 👏 SoloDriver                                 | 82.97 s         | 0               | 82.97 s            | 8.27 s        |
-| 04      | 👏 TURTLEBOT                                  | 90.33 s         | 0               | 90.33 s            | 8.98 s        |
-| 05      | 👏 Byte Benders                               | 85.61 s         | 1               | 95.61 s            | 8.29 s        |
-| 06      | 👏 AsTenth Martin                             | 92.44 s         | 1               | 102.44 s           | 9.08 s        |
-| 07      | 👏 Pharst Laps                                | 93.69 s         | 1               | 103.69 s           | 9.24 s        |
-| 08      | 👏 Autonomous Ground Vehicle                  | 111.94 s        | 1               | 121.94 s           | 10.55 s       |
-| 09      | 👏 Autonomous Motorsports Purdue              | 122.34 s        | 0               | 122.34 s           | 12.22 s       |
-| 10      | 👏 Escuderia Brasileira de Veículos Autônomos | 114.19 s        | 1               | 124.19 s           | 11.33 s       |
-| 11      | 👏 YTU AESK                                   | 125.14 s        | 0               | 125.14 s           | 12.47 s       |
-| 12      | 👏 Zancle E-Drive                             | 126.79 s        | 0               | 126.79 s           | 12.65 s       |
-| 13      | 👏 Baby Driver                                | 122.66 s        | 1               | 132.66 s           | 12.19 s       |
-| 14      | 👏 Pegasus                                    | 146.82 s        | 0               | 146.82 s           | 14.65 s       |
-| 15      | 👏 MMS Autonomous                             | 113.15 s        | 5               | 163.15 s           | 10.90 s       |
-| 16      | 👏 WaterlooF110                               | 190.31 s        | 0               | 190.31 s           | 18.78 s       |
-| 17      | 👏 bracaai                                    | 201.09 s        | 0               | 201.09 s           | 19.68 s       |
-| 18      | 👏 Assiut Motorsport                          | 112.09 s        | 9               | 202.09 s           | 10.74 s       |
-| 19      | 👏 SeDriCa-UMIC                               | 185.18 s        | 2               | 205.18 s           | 18.34 s       |
-| 20      | 👏 Sabeq                                      | 128.63 s        | 10              | 228.63 s           | 12.50 s       |
+| RANK    | TEAM NAME                                     | RACE TIME       | COLLISION COUNT | ADJUSTED RACE TIME | BEST LAP TIME | VIDEO                                                     |
+|:--------|:----------------------------------------------|:----------------|:----------------|:-------------------|:--------------|:----------------------------------------------------------|
+| 01      | 👏 VAUL                                       | 70.30 s         | 0               | 70.30 s            | 6.96 s        | [:material-youtube: YouTube](https://youtu.be/SDusD071cyk?feature=shared) |
+| 02      | 👏 Asturian Kingdom Team                      | 75.27 s         | 0               | 75.27 s            | 7.52 s        | [:material-youtube: YouTube](https://youtu.be/MkIWWgdW_Bo?feature=shared) |
+| 03      | 👏 SoloDriver                                 | 82.97 s         | 0               | 82.97 s            | 8.27 s        | [:material-youtube: YouTube](https://youtu.be/iq6XiuYi0Tc?feature=shared) |
+| 04      | 👏 TURTLEBOT                                  | 90.33 s         | 0               | 90.33 s            | 8.98 s        | [:material-youtube: YouTube](https://youtu.be/tnDtR_BPtAY?feature=shared) |
+| 05      | 👏 Byte Benders                               | 85.61 s         | 1               | 95.61 s            | 8.29 s        | [:material-youtube: YouTube](https://youtu.be/kcxb_3NtO-U?feature=shared) |
+| 06      | 👏 AsTenth Martin                             | 92.44 s         | 1               | 102.44 s           | 9.08 s        | [:material-youtube: YouTube](https://youtu.be/KgV__0fcqr4?feature=shared) |
+| 07      | 👏 Pharst Laps                                | 93.69 s         | 1               | 103.69 s           | 9.24 s        | [:material-youtube: YouTube](https://youtu.be/xDbs3ewB_f4?feature=shared) |
+| 08      | 👏 Autonomous Ground Vehicle                  | 111.94 s        | 1               | 121.94 s           | 10.55 s       | [:material-youtube: YouTube](https://youtu.be/_itmR_8lQxE?feature=shared) |
+| 09      | 👏 Autonomous Motorsports Purdue              | 122.34 s        | 0               | 122.34 s           | 12.22 s       | [:material-youtube: YouTube](https://youtu.be/YnLfij6H87Q?feature=shared) |
+| 10      | 👏 Escuderia Brasileira de Veículos Autônomos | 114.19 s        | 1               | 124.19 s           | 11.33 s       | [:material-youtube: YouTube](https://youtu.be/VRmLx6drMko?feature=shared) |
+| 11      | 👏 YTU AESK                                   | 125.14 s        | 0               | 125.14 s           | 12.47 s       | [:material-youtube: YouTube](https://youtu.be/so1HFp_kmOQ?feature=shared) |
+| 12      | 👏 Zancle E-Drive                             | 126.79 s        | 0               | 126.79 s           | 12.65 s       | [:material-youtube: YouTube](https://youtu.be/-d4bYYlnBR4?feature=shared) |
+| 13      | 👏 Baby Driver                                | 122.66 s        | 1               | 132.66 s           | 12.19 s       | [:material-youtube: YouTube](https://youtu.be/FHNaUfW21Rw?feature=shared) |
+| 14      | 👏 Pegasus                                    | 146.82 s        | 0               | 146.82 s           | 14.65 s       | [:material-youtube: YouTube](https://youtu.be/r7Ppv0hXfwE?feature=shared) |
+| 15      | 👏 MMS Autonomous                             | 113.15 s        | 5               | 163.15 s           | 10.90 s       | [:material-youtube: YouTube](https://youtu.be/HXrgM4KHC2Q?feature=shared) |
+| 16      | 👏 WaterlooF110                               | 190.31 s        | 0               | 190.31 s           | 18.78 s       | [:material-youtube: YouTube](https://youtu.be/45_0Pjbd_YY?feature=shared) |
+| 17      | 👏 bracaai                                    | 201.09 s        | 0               | 201.09 s           | 19.68 s       | [:material-youtube: YouTube](https://youtu.be/Rmqrl6Qaiuc?feature=shared) |
+| 18      | 👏 Assiut Motorsport                          | 112.09 s        | 9               | 202.09 s           | 10.74 s       | [:material-youtube: YouTube](https://youtu.be/n9zs7wRjR7s?feature=shared) |
+| 19      | 👏 SeDriCa-UMIC                               | 185.18 s        | 2               | 205.18 s           | 18.34 s       | [:material-youtube: YouTube](https://youtu.be/1008cTF6gwM?feature=shared) |
+| 20      | 👏 Sabeq                                      | 128.63 s        | 10              | 228.63 s           | 12.50 s       | [:material-youtube: YouTube](https://youtu.be/Z8uZNGdLJ1A?feature=shared) |
 
 **Phase 2: Competition**
 
@@ -295,21 +295,21 @@ The following teams have qualified for the final time-attack race. Here are the 
 The following teams successfully finished the final time-attack race. Here are the official standings:
 </p>
 
-| RANK    | TEAM NAME                                     | RACE TIME       | COLLISION COUNT | ADJUSTED RACE TIME | BEST LAP TIME |
-|:--------|:----------------------------------------------|:----------------|:----------------|:-------------------|:--------------|
-| 01      | 🥇 VAUL                                       | 103.84 s        | 0               | 103.84 s           | 10.35 s       |
-| 02      | 🥈 Baby Driver                                | 136.63 s        | 0               | 136.63 s           | 13.58 s       |
-| 03      | 🥉 TURTLEBOT                                  | 145.99 s        | 0               | 145.99 s           | 14.42 s       |
-| 04      | 👏 Asturian Kingdom Team                      | 150.76 s        | 1               | 160.76 s           | 14.91s        |
-| 05      | 👏 Pharst Laps                                | 151.37 s        | 3               | 181.37 s           | 14.79 s       |
-| 06      | 👏 bracaai                                    | 167.15 s        | 2               | 187.15 s           | 16.34 s       |
-| 07      | 👏 Byte Benders                               | 195.76 s        | 2               | 215.76 s           | 18.99 s       |
-| 08      | 👏 Autonomous Motorsports Purdue              | 211.76 s        | 1               | 221.76 s           | 20.48 s       |
-| 09      | 👏 Escuderia Brasileira de Veículos Autônomos | 219.45 s        | 1               | 229.45 s           | 21.74 s       |
-| 10      | 👏 Pegasus                                    | 227.29 s        | 1               | 237.29 s           | 21.72 s       |
-| 11      | 👏 Zancle E-Drive                             | 241.64 s        | 0               | 241.64 s           | 24.04 s       |
-| 12      | 👏 MMS Autonomous                             | 155.19 s        | 9               | 245.19 s           | 15.09 s       |
-| 13      | 👏 SoloDriver                                 | 259.23 s        | 1               | 269.23 s           | 24.59 s       |
+| RANK    | TEAM NAME                                     | RACE TIME       | COLLISION COUNT | ADJUSTED RACE TIME | BEST LAP TIME | VIDEO                                                     |
+|:--------|:----------------------------------------------|:----------------|:----------------|:-------------------|:--------------|:----------------------------------------------------------|
+| 01      | 🥇 VAUL                                       | 103.84 s        | 0               | 103.84 s           | 10.35 s       | [:material-youtube: YouTube](https://youtu.be/9cGryPiPNTw?feature=shared) |
+| 02      | 🥈 Baby Driver                                | 136.63 s        | 0               | 136.63 s           | 13.58 s       | [:material-youtube: YouTube](https://youtu.be/U40fX7-eqzc?feature=shared) |
+| 03      | 🥉 TURTLEBOT                                  | 145.99 s        | 0               | 145.99 s           | 14.42 s       | [:material-youtube: YouTube](https://youtu.be/jo_Nhqn-IPI?feature=shared) |
+| 04      | 👏 Asturian Kingdom Team                      | 150.76 s        | 1               | 160.76 s           | 14.91s        | [:material-youtube: YouTube](https://youtu.be/hDVwhqrr_x8?feature=shared) |
+| 05      | 👏 Pharst Laps                                | 151.37 s        | 3               | 181.37 s           | 14.79 s       | [:material-youtube: YouTube](https://youtu.be/lDuHt5YY2rk?feature=shared) |
+| 06      | 👏 bracaai                                    | 167.15 s        | 2               | 187.15 s           | 16.34 s       | [:material-youtube: YouTube](https://youtu.be/cAbo8uAQe6k?feature=shared) |
+| 07      | 👏 Byte Benders                               | 195.76 s        | 2               | 215.76 s           | 18.99 s       | [:material-youtube: YouTube](https://youtu.be/1cwtYUkzGmc?feature=shared) |
+| 08      | 👏 Autonomous Motorsports Purdue              | 211.76 s        | 1               | 221.76 s           | 20.48 s       | [:material-youtube: YouTube](https://youtu.be/CZvvhld03B8?feature=shared) |
+| 09      | 👏 Escuderia Brasileira de Veículos Autônomos | 219.45 s        | 1               | 229.45 s           | 21.74 s       | [:material-youtube: YouTube](https://youtu.be/m1v0NSuAhTQ?feature=shared) |
+| 10      | 👏 Pegasus                                    | 227.29 s        | 1               | 237.29 s           | 21.72 s       | [:material-youtube: YouTube](https://youtu.be/o7Xye3Sd2Ns?feature=shared) |
+| 11      | 👏 Zancle E-Drive                             | 241.64 s        | 0               | 241.64 s           | 24.04 s       | [:material-youtube: YouTube](https://youtu.be/JFq6BRu7l8w?feature=shared) |
+| 12      | 👏 MMS Autonomous                             | 155.19 s        | 9               | 245.19 s           | 15.09 s       | [:material-youtube: YouTube](https://youtu.be/nn9IYfmuXLM?feature=shared) |
+| 13      | 👏 SoloDriver                                 | 259.23 s        | 1               | 269.23 s           | 24.59 s       | [:material-youtube: YouTube](https://youtu.be/nPsR5S4T-4k?feature=shared) |
 
 **Celebration Event @ CDC 2024**
 
