@@ -304,5 +304,5 @@ The following teams successfully finished the final time-attack race. Here are t
 ## Summary
 
 <center>
-<iframe width="1280" height="720" src="https://www.youtube.com/embed/bctpfSjyjXs?si=QqA764OGp2r5WWYs" title="F1TENTH Sim Racing League @ IROS 2024" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="1280" height="580" src="https://www.youtube.com/embed/bctpfSjyjXs?si=QqA764OGp2r5WWYs" title="F1TENTH Sim Racing League @ IROS 2024" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </center>
