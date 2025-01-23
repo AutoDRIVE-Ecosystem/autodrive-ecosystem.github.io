@@ -247,21 +247,23 @@ This page hosts research outcomes that employ or contribute to the AutoDRIVE Eco
     <br/>
     Tanmay Vilas Samak, Chinmay Vilas Samak, and Venkat Narayan Krovi
     <br/>
-    <a href="https://arxiv.org/abs/2406.05465">
+    <a href="https://doi.org/10.1109/Telepresence63209.2024.10841549">
     <i>IEEE Conference on Telepresence</i>
     </a>
     <br/>
     <i>2024</i>
     ??? quote "Citation"
         ```bibtex
-        @misc{Metaverse-for-Safer-Roadways-2024,
-        author = {Tanmay Vilas Samak and Chinmay Vilas Samak and Venkat Narayan Krovi},
+        @inproceedings{Metaverse-for-Safer-Roadways-2024,
+        author = {Samak, Tanmay V. and Samak, Chinmay V. and Krovi, Venkat N.},
+        booktitle = {2024 IEEE Conference on Telepresence}, 
         title = {Metaverse for Safer Roadways: An Immersive Digital Twin Framework for Exploring Human-Autonomy Coexistence in Urban Transportation Systems}, 
         year = {2024},
-        eprint = {2406.05465},
-        archivePrefix = {arXiv},
-        primaryClass = {cs.RO},
-        url = {https://arxiv.org/abs/2406.05465}
+        volume = {},
+        number = {},
+        pages = {160-165},
+        doi = {10.1109/Telepresence63209.2024.10841549},
+        url = {https://doi.org/10.1109/Telepresence63209.2024.10841549}
         }
         ```
 
@@ -309,13 +311,13 @@ This page hosts research outcomes that employ or contribute to the AutoDRIVE Eco
     ??? quote "Citation"
         ```bibtex
         @misc{AutoDRIVE-Simulator-2020,
-        author={Tanmay Vilas Samak and Chinmay Vilas Samak},
-        title={AutoDRIVE Simulator -- Technical Report}, 
-        year={2022},
-        eprint={2211.07022},
-        archivePrefix={arXiv},
-        primaryClass={cs.RO},
-        url={https://arxiv.org/abs/2211.07022}
+        author = {Tanmay Vilas Samak and Chinmay Vilas Samak},
+        title = {AutoDRIVE Simulator -- Technical Report}, 
+        year = {2022},
+        eprint = {2211.07022},
+        archivePrefix = {arXiv},
+        primaryClass = {cs.RO},
+        url = {https://arxiv.org/abs/2211.07022}
         }
         ```
 
@@ -335,13 +337,13 @@ This page hosts research outcomes that employ or contribute to the AutoDRIVE Eco
     ??? quote "Citation"
         ```bibtex
         @misc{AutoDRIVE-Autoware-2023,
-        author={Chinmay Vilas Samak and Tanmay Vilas Samak},
-        title={Autonomy Oriented Digital Twins for Real2Sim2Real Autoware Deployment},
-        year={2024},
-        eprint={2402.14739},
-        archivePrefix={arXiv},
-        primaryClass={cs.RO},
-        url={https://arxiv.org/abs/2402.14739}
+        author = {Chinmay Vilas Samak and Tanmay Vilas Samak},
+        title = {Autonomy Oriented Digital Twins for Real2Sim2Real Autoware Deployment},
+        year = {2024},
+        eprint = {2402.14739},
+        archivePrefix = {arXiv},
+        primaryClass = {cs.RO},
+        url = {https://arxiv.org/abs/2402.14739}
         }
         ```
 
