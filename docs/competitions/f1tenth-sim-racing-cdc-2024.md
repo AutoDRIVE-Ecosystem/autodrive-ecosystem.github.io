@@ -13,7 +13,9 @@ This time, we are organizing the second <b>F1TENTH Sim Racing League</b>, which 
 </p>
 
 <center>
-<iframe width="1280" height="580" src="https://www.youtube.com/embed/Rq7Wwcwn1uk?si=ngvop2-SfJJOIjWJ" title="Digital Twin of F1TENTH in AutoDRIVE Simulator" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<div style="display: flex; justify-content: center;">
+<iframe style="aspect-ratio: 16/9; width: 100% !important;" src="https://www.youtube.com/embed/Rq7Wwcwn1uk?si=ngvop2-SfJJOIjWJ" title="Digital Twin of F1TENTH in AutoDRIVE Simulator" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
 </center>
 
 <p align="justify">
@@ -359,5 +361,7 @@ The following teams successfully finished the final time-attack race. Here are t
 ## Summary
 
 <center>
-<iframe width="1280" height="580" src="https://www.youtube.com/embed/Q-WTcTOld08?si=PORCUPmbj2KfHYST" title="F1TENTH Sim Racing League @ CDC 2024" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<div style="display: flex; justify-content: center;">
+<iframe style="aspect-ratio: 16/9; width: 100% !important;" src="https://www.youtube.com/embed/Q-WTcTOld08?si=PORCUPmbj2KfHYST" title="F1TENTH Sim Racing League @ CDC 2024" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
 </center>
