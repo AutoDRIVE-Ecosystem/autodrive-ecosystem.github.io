@@ -5,7 +5,7 @@
 ## About
 
 <p align="justify">
-<b>RoboRacer Autonomous Racing</b> is a semi-regular competition organized by an international community of researchers, engineers, and autonomous systems enthusiasts. The teams participating in the <b>24th RoboRacer Autonomous Grand Prix</b> at <a href="https://2025.ieee-icra.org">ICRA 2025</a> will write software for a 1:10 scaled autonomous racecar to fulfill the objectives of the competition: <b><i>drive fast but don’t crash!</i></b>
+<b>RoboRacer Autonomous Racing</b> is a semi-regular competition organized by an international community of researchers, engineers, and autonomous systems enthusiasts. The teams participating in the <b>24th RoboRacer Autonomous Racing Competition</b> at <a href="https://2025.ieee-icra.org">ICRA 2025</a> will write software for a 1:10 scaled autonomous racecar to fulfill the objectives of the competition: <b><i>drive fast but don’t crash!</i></b>
 </p>
 
 <p align="justify">
@@ -36,15 +36,15 @@ Since the vehicle, the sensors, the simulator, and the devkit are standardized, 
 </p>
 
 !!! Tip
-    If you are interested in autonomously racing physical RoboRacer vehicles, please check out the website for [24th RoboRacer Autonomous Grand Prix](https://icra2025-race.roboracer.ai), which will be held in person at <a href="https://2025.ieee-icra.org">ICRA 2025</a>. You can always register and compete in both physical and virtual competitions!
+    If you are interested in autonomously racing physical RoboRacer vehicles, please check out the website for [24th RoboRacer Autonomous Racing Competition](https://icra2025-race.roboracer.ai), which will be held in person at <a href="https://2025.ieee-icra.org">ICRA 2025</a>. You can always register and compete in both physical and virtual competitions!
 
 ## Organizers
 
-| <img src="/../assets/images/people/Rahul Mangharam.png" width="125"> | <img src="/../assets/images/people/Venkat Krovi.png" width="125"> | <img src="/../assets/images/people/Johannes Betz.png" width="125"> | <img src="/../assets/images/people/Chinmay Samak.png" width="125"> | <img src="/../assets/images/people/Tanmay Samak.png" width="125"> |
-|:------------------:|:-------------------:|:-------------------:|:-------------------:|:-------------------:|
-| [**Dr. Rahul Mangharam**](mailto:rahulm@seas.upenn.edu) | [**Dr. Venkat Krovi**](mailto:vkrovi@clemson.edu) | [**Dr. Johannes Betz**](mailto:johannes.betz@tum.de) | [**Chinmay Samak**](mailto:csamak@clemson.edu) | [**Tanmay Samak**](mailto:tsamak@clemson.edu) |
-| <img src="/../assets/images/people/Ahmad Amine.png" width="125"> |
-| [**Ahmad Amine**](mailto:aminea@seas.upenn.edu) |
+| <img src="/../assets/images/people/Rahul Mangharam.png" width="125"> | <img src="/../assets/images/people/Venkat Krovi.png" width="125"> | <img src="/../assets/images/people/Johannes Betz.png" width="125"> |
+|:------------------:|:-------------------:|:-------------------:|
+| [**Dr. Rahul Mangharam**](mailto:rahulm@seas.upenn.edu) | [**Dr. Venkat Krovi**](mailto:vkrovi@clemson.edu) | [**Dr. Johannes Betz**](mailto:johannes.betz@tum.de) |
+| <img src="/../assets/images/people/Chinmay Samak.png" width="125"> | <img src="/../assets/images/people/Tanmay Samak.png" width="125"> | <img src="/../assets/images/people/Ahmad Amine.png" width="125"> |
+| [**Chinmay Samak**](mailto:csamak@clemson.edu) | [**Tanmay Samak**](mailto:tsamak@clemson.edu) | [**Ahmad Amine**](mailto:aminea@seas.upenn.edu) |
 
 ## Timeline
 
@@ -55,8 +55,7 @@ Since the vehicle, the sensors, the simulator, and the devkit are standardized, 
 |:----------------------------------|:-------------------------------|
 | Feb 20, 2025                      | Registration Opens             |
 | Apr 15, 2025                      | Registration Closes            |
-| Apr 16, 2025 (5:30 – 6:30 PM EST) | Online Orientation 1           |
-| Apr 30, 2025 (5:30 – 6:30 PM EST) | Online Orientation 2           |
+| Apr 16, 2025 (5:30 – 6:30 PM EST) | Online Orientation             |
 | May 03 – May 04, 2025             | Qualification Round            |
 | May 05, 2025                      | Qualification Results Declared |
 | May 08, 2025                      | Competition Track Released     |
@@ -69,8 +68,7 @@ Following is a brief summary of each event:
 
 <ul class="justify-list">
   <li><b>Registration:</b> Interested teams will register for the Sim Racing League.</li>
-  <li><b>Online Orientation 1:</b> Organizers will explain the competition rules and guidelines, and demonstrate how to use the simulation framework.</li>
-  <li><b>Online Orientation 2:</b> Organizers will check progress of the participating teams and help with any technical difficulties.</li>
+  <li><b>Online Orientation:</b> Organizers will explain the competition rules and guidelines, and demonstrate how to use the simulation framework.</li>
   <li><b>Qualification Round:</b> Teams will demonstrate successful completion of 10 laps around the practice track provided ahead of time.</li>
   <li><b>Qualification Results Declared:</b> Standings of all the qualified teams will be released.</li>
   <li><b>Competition Track Released:</b> Organizers will release the actual "competition track", which will be used for the final race. This track may be replicated in the physical race as well.</li>
@@ -137,23 +135,23 @@ We recommend all the teams interested in participating in the RoboRacer Sim Raci
     
     :simple-ros: ROS 2
 
--   :fontawesome-solid-users:{ .lg .middle } __Orientation Resources__
+-   :octicons-link-16:{ .lg .middle } __Quick Links__
 
     ---
 
-    Join the online orientation sessions or review what we covered there.
+    Links to be kept at your fingertips, for a smooth ride throughout the competition.
 
-    **Orientation 1:**
+    **Schedule:** [:material-calendar-clock: Timeline](#timeline)
+
+    **Registration:** [:material-file-document-edit: Form](https://forms.gle/zjj5dLDajUhnuTdL9)
     
-    Meeting Link: :fontawesome-solid-video: Zoom
-    
-    Review Links: :octicons-video-16: Recording
-    
-    **Orientation 2:**
-    
-    Meeting Link: :fontawesome-solid-video: Zoom
-    
-    Review Links: :octicons-video-16: Recording
+    **Orientation:** :fontawesome-solid-video: Zoom | :octicons-video-16: Recording | :material-projector-screen-outline: Slides
+
+    **Communication:** [:material-slack: Slack](https://join.slack.com/t/autodrive-ecosystem/shared_invite/zt-2oeg2hce8-0JvasvnBM1M_wUdDTWRuKw)
+
+    **Submission:** [:material-file-document-edit: Phase 1]() | [:material-file-document-edit: Phase 2]()
+
+    **Results:** [:fontawesome-solid-trophy: Phase 1]() | [:fontawesome-solid-trophy: Phase 2]()
 </div>
 
 !!! question
