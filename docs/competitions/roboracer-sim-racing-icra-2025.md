@@ -175,9 +175,15 @@ Registration for the Sim Racing League is free of cost and separate from the Phy
 Registered teams are added to the following table:
 </p>
 
-| SR. NO. | TEAM NAME                 | TEAM MEMBERS                  | ORGANIZATION                              |
-|:--------|:--------------------------|:------------------------------|:------------------------------------------|
-| 01      | fsociety                  | Ritesh Gole<br/>Kartikeya Gupta<br/>Raj Shah<br/>Goutham Jyothilal | Personal |
+| SR. NO. | TEAM NAME                 | TEAM MEMBERS                  | ORGANIZATION                              | COUNTRY                              |
+|:--------|:--------------------------|:------------------------------|:------------------------------------------|:-------------------------------------|
+| 01      | fsociety                  | Ritesh Gole<br/>Kartikeya Gupta<br/>Raj Shah<br/>Goutham Jyothilal | Personal | India                            |
+| 02      | Chasing Cop Car           | Jaihind J<br/>Aditya Ravichander | Personal                               | India                                |
+| 03      | Alp Autonomous            | Ble Auriol                    | Alpha Space Robotics                      | Côte d'Ivoire                        |
+| 04      | Bushra AlShehhi           | Bushra AlShehhi               | Khalifa University                        | United Arab Emirates (UAE)           |
+| 05      | Technion F1TENTH Team     | Andrés Kaminker               | Technion                                  | Israel                               |
+| 06      | bracavisionai             | Luis Bracamontes              | Personal                                  | Mexico                               |
+| 07      | Finding Theta             | Michael Kudlaty               | Personal                                  | United States of America (USA)       |
 
 !!! note
     The above table will be updated with newly registered teams within a few days of registration. Please contact [:material-email: Chinmay Samak](mailto:csamak@clemson.edu) or [:material-email: Tanmay Samak](mailto:tsamak@clemson.edu) if you do not see your team entry for more than 7 days after registering.
