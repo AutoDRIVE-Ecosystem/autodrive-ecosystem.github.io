@@ -184,6 +184,10 @@ Registered teams are added to the following table:
 | 05      | Technion F1TENTH Team     | Andrés Kaminker               | Technion                                  | Israel                               |
 | 06      | bracavisionai             | Luis Bracamontes              | Personal                                  | Mexico                               |
 | 07      | Finding Theta             | Michael Kudlaty               | Personal                                  | United States of America (USA)       |
+| 08      | Team                      | Rajdeep Singh                 | Personal                                  | India                                |
+| 09      | Mostafa Ahmed Sayed       | Mostafa Hassan                | Personal                                  | Egypt                                |
+| 10      | Invincibles               | Elyas Saeed<br/>Ahmad Aljallaf<br/>Ali Asaad Al-Behadili<br/>Abdelrahman Zidan | Khalifa University | United Arab Emirates (UAE) |
+| 11      | FuzzyGreenBlurs           | Akhil Sankar                  | Rutgers University                        | United States of America (USA)       |
 
 !!! note
     The above table will be updated with newly registered teams within a few days of registration. Please contact [:material-email: Chinmay Samak](mailto:csamak@clemson.edu) or [:material-email: Tanmay Samak](mailto:tsamak@clemson.edu) if you do not see your team entry for more than 7 days after registering.
