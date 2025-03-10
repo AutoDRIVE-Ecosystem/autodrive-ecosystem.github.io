@@ -188,6 +188,8 @@ Registered teams are added to the following table:
 | 09      | Mostafa Ahmed Sayed       | Mostafa Hassan                | Personal                                  | Egypt                                |
 | 10      | Invincibles               | Elyas Saeed<br/>Ahmad Aljallaf<br/>Ali Asaad Al-Behadili<br/>Abdelrahman Zidan | Khalifa University | United Arab Emirates (UAE) |
 | 11      | FuzzyGreenBlurs           | Akhil Sankar                  | Rutgers University                        | United States of America (USA)       |
+| 12      | CarGoesVroom              | WenYang Lim                   | Personal                                  | Malaysia                             |
+| 13      | Autobots                  | Shubham Barge<br/>Anshuman Jena<br/>Saivamshi Jilla | Personal            | India                                |
 
 !!! note
     The above table will be updated with newly registered teams within a few days of registration. Please contact [:material-email: Chinmay Samak](mailto:csamak@clemson.edu) or [:material-email: Tanmay Samak](mailto:tsamak@clemson.edu) if you do not see your team entry for more than 7 days after registering.
