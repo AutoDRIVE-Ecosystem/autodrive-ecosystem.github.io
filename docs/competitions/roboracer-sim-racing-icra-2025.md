@@ -190,6 +190,9 @@ Registered teams are added to the following table:
 | 11      | FuzzyGreenBlurs           | Akhil Sankar                  | Rutgers University                        | United States of America (USA)       |
 | 12      | CarGoesVroom              | WenYang Lim                   | Personal                                  | Malaysia                             |
 | 13      | Autobots                  | Shubham Barge<br/>Anshuman Jena<br/>Saivamshi Jilla | Personal            | India                                |
+| 14      | Baby Driver               | Mason Notz<br/>Pallavi Kulkarni | Personal                                | United States of America (USA)       |
+| 15      | TURTLEBOT                 | Jit Ern Lim<br/>Dustin Lim    | Personal                                  | Malaysia & Indonesia                 |
+| 16      | Cair's                    | Siddhant Diwaker<br/>Chirag Makwana | Personal                            | India                                |
 
 !!! note
     The above table will be updated with newly registered teams within a few days of registration. Please contact [:material-email: Chinmay Samak](mailto:csamak@clemson.edu) or [:material-email: Tanmay Samak](mailto:tsamak@clemson.edu) if you do not see your team entry for more than 7 days after registering.
