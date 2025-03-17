@@ -193,6 +193,7 @@ Registered teams are added to the following table:
 | 14      | Baby Driver               | Mason Notz<br/>Pallavi Kulkarni | Personal                                | United States of America (USA)       |
 | 15      | TURTLEBOT                 | Jit Ern Lim<br/>Dustin Lim    | Personal                                  | Malaysia & Indonesia                 |
 | 16      | Cair's                    | Siddhant Diwaker<br/>Chirag Makwana | Personal                            | India                                |
+| 17      | BONG_RACERS               | Srinjoy Ganguly<br/>Pritish Saha<br/>Srijit Das | Personal                | India                                |
 
 !!! note
     The above table will be updated with newly registered teams within a few days of registration. Please contact [:material-email: Chinmay Samak](mailto:csamak@clemson.edu) or [:material-email: Tanmay Samak](mailto:tsamak@clemson.edu) if you do not see your team entry for more than 7 days after registering.
