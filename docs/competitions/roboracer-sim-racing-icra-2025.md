@@ -195,6 +195,8 @@ Registered teams are added to the following table:
 | 16      | Cair's                    | Siddhant Diwaker<br/>Chirag Makwana | Personal                            | India                                |
 | 17      | BONG_RACERS               | Srinjoy Ganguly<br/>Pritish Saha<br/>Srijit Das | Personal                | India                                |
 | 18      | AA Lab                    | Taha Kocyigit<br/>Omer Geyikci | Bogazici University                      | Turkiye                              |
+| 19      | SUST Autodrive            | Abul Bashar Raz               | Shahjalal University of Science and Technology | Bangladesh                      |
+| 20      | Beep Beep                 | Jeremy Seyssaud               | Personal                                  | France                               |
 
 !!! note
     The above table will be updated with newly registered teams within a few days of registration. Please contact [:material-email: Chinmay Samak](mailto:csamak@clemson.edu) or [:material-email: Tanmay Samak](mailto:tsamak@clemson.edu) if you do not see your team entry for more than 7 days after registering.
