@@ -201,6 +201,8 @@ Registered teams are added to the following table:
 | 22      | Mamba                     | Hariharan Ravichandran<br/>Dhruv Pathak<br/>Atharva Patil | Personal      | United States of America (USA)       |
 | 23      | Racer X                   | Jonathan Nixon<br/>Roberto Ligeralde | Autonomous Racing at Penn          | United States of America (USA)       |
 | 24      | IDEA_LAB                  | Ji-Hong Park<br/>Kim Ju-Young<br/>Chanki Kim<br/>Sujin Park<br/>Se Yeon Lee | Gyeongsang National University | South Korea |
+| 25      | Abdulrahman Mahmoud       | Abdulrahman Mahmoud           | Personal                                  | Egypt                                |
+| 26      | ESL                       | Christopher Flood<br/>Nico Martin<br/>JC Schoeman | Stellenbosch University | South Africa                       |
 
 !!! note
     The above table will be updated with newly registered teams within a few days of registration. Please contact [:material-email: Chinmay Samak](mailto:csamak@clemson.edu) or [:material-email: Tanmay Samak](mailto:tsamak@clemson.edu) if you do not see your team entry for more than 7 days after registering.
