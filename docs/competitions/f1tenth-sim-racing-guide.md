@@ -387,8 +387,7 @@ autodrive_devkit
 ├───setup.py
 │
 ├───autodrive_f1tenth
-│   └───autodrive_incoming_bridge.py
-│   └───autodrive_outgoing_bridge.py
+│   └───autodrive_bridge.py
 │   └───config.py
 │   └───teleop_keyboard.py
 │   └───__init__.py
@@ -533,11 +532,15 @@ Particularly, each team is expected to submit a containerized version of their a
 
 #### 3.2.2. Headless Mode Operations:
 
-1. Launch AutoDRIVE Simulator in `headless` mode (camera rendering will be disabled) by passing the IP address of the machine running the devkit as AutoDRIVE CLI arguments:
+1. Launch AutoDRIVE Simulator in `no-graphics` mode (camera rendering will be disabled) by passing the IP address of the machine running the devkit as AutoDRIVE CLI arguments:
     ```bash
     ./AutoDRIVE\ Simulator.x86_64 -batchmode -nographics -ip 127.0.0.1 -port 4567
     ```
-2. Launch AutoDRIVE Devkit in `headless` mode (rviz rendering will be disabled):
+2. Launch AutoDRIVE Simulator in `headless` mode (camera rendering will be functional) by passing the IP address of the machine running the devkit as AutoDRIVE CLI arguments:
+    ```bash
+    xvfb-run ./AutoDRIVE\ Simulator.x86_64 -ip 127.0.0.1 -port 4567
+    ```
+3. Launch AutoDRIVE Devkit in `headless` mode (rviz rendering will be disabled):
     ```bash
     ros2 launch autodrive_f1tenth simulator_bringup_headless.launch.py
     ```
