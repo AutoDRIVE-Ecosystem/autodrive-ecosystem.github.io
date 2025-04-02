@@ -382,26 +382,29 @@ The following tree describes the ROS 2 package structure of the AutoDRIVE Devkit
 
 ```
 autodrive_devkit
+├───README.md
 ├───package.xml
 ├───setup.cfg
 ├───setup.py
+├───requirements_python_3.8.txt
+├───requirements_python_3.9.txt
+├───requirements_python_3.10.txt
 │
 ├───autodrive_roboracer
-│   └───autodrive_incoming_bridge.py
-│   └───autodrive_outgoing_bridge.py
+│   └───autodrive_bridge.py
 │   └───config.py
 │   └───teleop_keyboard.py
 │   └───__init__.py
 │
 ├───launch
-│   └───simulator_bringup_headless.launch.py
-│   └───simulator_bringup_rviz.launch.py
+│   └───bringup_headless.launch.py
+│   └───bringup_graphics.launch.py
 │
 ├───resource
 │   └───autodrive_roboracer
 │
 ├───rviz
-│   └───simulator.rviz
+│   └───autodrive_roboracer.rviz
 │
 └───test
 │   └───test_copyright.py
@@ -515,11 +518,11 @@ Particularly, each team is expected to submit a containerized version of their a
 <img src="/../assets/images/documentation/roboracer sim racing league/GUI vs Headless Mode.png">
 </center>
 
-1. Launch AutoDRIVE Simulator in `gui` mode (camera rendering will be enabled):
+1. Launch AutoDRIVE Simulator in `graphics` mode (camera rendering will be enabled):
     ```bash
     ./AutoDRIVE\ Simulator.x86_64
     ```
-2. Launch AutoDRIVE Devkit in `gui` mode (rviz rendering will be enabled):
+2. Launch AutoDRIVE Devkit in `graphics` mode (RViz rendering will be enabled):
     ```bash
     ros2 launch autodrive_roboracer simulator_bringup_rviz.launch.py
     ```
@@ -533,17 +536,21 @@ Particularly, each team is expected to submit a containerized version of their a
 
 #### 3.2.2. Headless Mode Operations:
 
-1. Launch AutoDRIVE Simulator in `headless` mode (camera rendering will be disabled) by passing the IP address of the machine running the devkit as AutoDRIVE CLI arguments:
+1. Launch AutoDRIVE Simulator in `no-graphics` mode (all rendering including vehicle camera will be disabled) by passing the IP address of the machine running the devkit as AutoDRIVE CLI arguments:
     ```bash
     ./AutoDRIVE\ Simulator.x86_64 -batchmode -nographics -ip 127.0.0.1 -port 4567
     ```
-2. Launch AutoDRIVE Devkit in `headless` mode (rviz rendering will be disabled):
+2. Launch AutoDRIVE Simulator in `headless` mode (all rendering except vehicle camera rendering will be disabled) by passing the IP address of the machine running the devkit as AutoDRIVE CLI arguments:
+    ```bash
+    xvfb-run ./AutoDRIVE\ Simulator.x86_64 -ip 127.0.0.1 -port 4567
+    ```
+2. Launch AutoDRIVE Devkit in `headless` mode (RViz rendering will be disabled):
     ```bash
     ros2 launch autodrive_roboracer simulator_bringup_headless.launch.py
     ```
 
 !!! info
-    It is possible to run either the simulator, devkit, or both selectively in either `gui` or `headless` mode.
+    It is possible to run either the simulator, devkit, or both selectively in either `graphics` or `headless/no-graphics` mode.
 
 #### 3.2.3. Distributed Computing Mode:
 
