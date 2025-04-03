@@ -544,7 +544,7 @@ Particularly, each team is expected to submit a containerized version of their a
     ```bash
     xvfb-run ./AutoDRIVE\ Simulator.x86_64 -ip 127.0.0.1 -port 4567
     ```
-2. Launch AutoDRIVE Devkit in `headless` mode (RViz rendering will be disabled):
+3. Launch AutoDRIVE Devkit in `headless` mode (RViz rendering will be disabled):
     ```bash
     ros2 launch autodrive_roboracer simulator_bringup_headless.launch.py
     ```
