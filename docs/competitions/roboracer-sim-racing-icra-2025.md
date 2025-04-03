@@ -203,6 +203,7 @@ Registered teams are added to the following table:
 | 24      | IDEA_LAB                  | Ji-Hong Park<br/>Kim Ju-Young<br/>Chanki Kim<br/>Sujin Park<br/>Se Yeon Lee | Gyeongsang National University | South Korea |
 | 25      | Abdulrahman Mahmoud       | Abdulrahman Mahmoud           | Personal                                  | Egypt                                |
 | 26      | ESL                       | Christopher Flood<br/>Nico Martin<br/>JC Schoeman | Stellenbosch University | South Africa                       |
+| 27      | VAUL                      | William Fecteau<br/>Nicolas Lauzon<br/>Tommy Bouchard-Lebrun | Laval University | Canada                         |
 
 !!! note
     The above table will be updated with newly registered teams within a few days of registration. Please contact [:material-email: Chinmay Samak](mailto:csamak@clemson.edu) or [:material-email: Tanmay Samak](mailto:tsamak@clemson.edu) if you do not see your team entry for more than 7 days after registering.
