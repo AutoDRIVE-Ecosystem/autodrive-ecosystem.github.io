@@ -207,6 +207,8 @@ Registered teams are added to the following table:
 | 28      | Wall-E                    | Vinura Wanniarachchi          | Personal                                  | Sri Lanka                            |
 | 29      | SoloDriver                | Hana Nabhan                   | Personal                                  | Egypt                                |
 | 30      | Robotikusu                | Ananay Shiv                   | Indian Institute of Technology, Kharagpur | India                                |
+| 31      | Shelby                    | S. Srikaanth<br/>S.Vignesh<br/>S.A.Gogulnath | Personal                   | India                                |
+| 32      | MMS Autonomous            | Osama Helal<br/>Ahmed Mwafy<br/>Abdelrahman Arafa<br/>Kirellos Youssef<br/>Kareem El Zahaby | Mansoura University | Egypt |
 
 !!! note
     The above table will be updated with newly registered teams within a few days of registration. Please contact [:material-email: Chinmay Samak](mailto:csamak@clemson.edu) or [:material-email: Tanmay Samak](mailto:tsamak@clemson.edu) if you do not see your team entry for more than 7 days after registering.
