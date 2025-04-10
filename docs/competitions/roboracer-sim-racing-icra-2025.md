@@ -207,7 +207,7 @@ Registered teams are added to the following table:
 | 28      | Wall-E                    | Vinura Wanniarachchi          | Personal                                  | Sri Lanka                            |
 | 29      | SoloDriver                | Hana Nabhan                   | Personal                                  | Egypt                                |
 | 30      | Robotikusu                | Ananay Shiv                   | Indian Institute of Technology, Kharagpur | India                                |
-| 31      | Shelby                    | S. Srikaanth<br/>S.Vignesh<br/>S.A.Gogulnath | Personal                   | India                                |
+| 31      | Shelby                    | S. Srikaanth<br/>S. Vignesh<br/>S. A. Gogulnath | Personal                   | India                                |
 | 32      | MMS Autonomous            | Osama Helal<br/>Ahmed Mwafy<br/>Abdelrahman Arafa<br/>Kirellos Youssef<br/>Kareem El Zahaby | Mansoura University | Egypt |
 | 33      | Escuderia Poliposition    | Fernando Zolubas Preto<br/>Antonio Colombini Neto<br/>Carlos Alberto Arronte Delgado<br/>Gabriel Stephano Santos<br/>Luccas Barsotti<br/>Francisco Rodrigues Marazia<br/>Amanda Spagolla | Polytechnic School of the University of São Paulo | Brazil |
 | 34      | Raptor                    | Ji Su Lee                     | Personal                                  | South Korea                          |
