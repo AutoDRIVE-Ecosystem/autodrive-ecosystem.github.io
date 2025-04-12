@@ -690,13 +690,15 @@ This document describes the technical details of the competition framework for t
 <p>Although AutoDRIVE Ecosystem supports various vehicles across different scales, configurations, and operational design domains (ODDs), the <strong>only</strong> vehicle allowed for this competition is the <strong>RoboRacer</strong>. Similarly, although AutoDRIVE Ecosystem supports multiple application programming interfaces (APIs), the <strong>only</strong> API allowed for this competition is <strong>ROS 2</strong>.</p>
 </div>
 <p>Please see the accompanying video for a step-by-step tutorial of setting up and using the competition framework.</p>
-<p><center></p>
+<center>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/lvm0Ep-5YPA" title="Competition Framework Tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-<p></center></p>
+</center>
+
 <h2 id="1-autodrive-simulator">1. AutoDRIVE Simulator<a class="headerlink" href="#1-autodrive-simulator" title="Permanent link">&para;</a></h2>
-<p><center>
+<center>
 <img src="/../assets/images/documentation/roboracer sim racing league/Simulator.png">
-</center></p>
+</center>
+
 <p align="justify">
 AutoDRIVE Simulator (part of the larger <a href="https://autodrive-ecosystem.github.io">AutoDRIVE Ecosystem</a>) is an autonomy oriented tool designed to model and simulate vehicle and environment digital twins. It equally prioritizes backend physics and frontend graphics to achieve high-fidelity simulation in real-time. From a computing perspective, the simulation framework is completely modular owing to its object-oriented programming (OOP) constructs. Additionally, the simulator can take advantage of CPU multi-threading as well as GPU instancing (if available) to efficiently parallelize various simulation objects and processes, with cross-platform support.
 </p>
@@ -965,9 +967,10 @@ AutoDRIVE Simulator's graphical user interface (GUI) consists of a toolbar encom
 <p>All frame transforms mentioned above are defined w.r.t. the vehicle (local) frame of reference <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m12 2 4 4h-3v7.85l6.53 3.76L21 15.03l1.5 5.47-5.5 1.46 1.53-2.61L12 15.58l-6.53 3.77L7 21.96 1.5 20.5 3 15.03l1.47 2.58L11 13.85V6H8z"/></svg></span> <code>roboracer_1</code> located at the center of rear axle with x-axis pointing forward, y-axis pointing left, and z-axis pointing upwards. Columns x, y, and z denote translations in meters (m), while R, P, and Y denote rotations in degrees (deg). <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M384 160c-17.7 0-32-14.3-32-32s14.3-32 32-32h160c17.7 0 32 14.3 32 32v160c0 17.7-14.3 32-32 32s-32-14.3-32-32v-82.7L342.6 374.6c-12.5 12.5-32.8 12.5-45.3 0L192 269.3 54.6 406.6c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3l160-160c12.5-12.5 32.8-12.5 45.3 0L320 306.7 466.7 160z"/></svg></span> denotes variable quantities.</p>
 </div>
 <h4 id="132-vehicle-dynamics">1.3.2. Vehicle Dynamics<a class="headerlink" href="#132-vehicle-dynamics" title="Permanent link">&para;</a></h4>
-<p><center>
+<center>
 <img src="/../assets/images/documentation/roboracer sim racing league/RoboRacer Vehicle Dynamics.png">
-</center></p>
+</center>
+
 <p>The vehicle model is a combination of a rigid body and a collection of sprung masses <span class="arithmatex">\(^iM\)</span>, where the total mass of the rigid body is defined as <span class="arithmatex">\(M=\sum{^iM}\)</span>. The rigid body's center of mass, <span class="arithmatex">\(X_{COM} = \frac{\sum{{^iM}*{^iX}}}{\sum{^iM}}\)</span>, connects these representations, with <span class="arithmatex">\(^iX\)</span> representing the coordinates of the sprung masses.</p>
 <p>The suspension force acting on each sprung mass is computed as <span class="arithmatex">\({^iM} * {^i{\ddot{Z}}} + {^iB} * ({^i{\dot{Z}}}-{^i{\dot{z}}}) + {^iK} * ({^i{Z}}-{^i{z}})\)</span>, where <span class="arithmatex">\(^iZ\)</span> and <span class="arithmatex">\(^iz\)</span> are the displacements of sprung and unsprung masses, and <span class="arithmatex">\(^iB\)</span> and <span class="arithmatex">\(^iK\)</span> are the damping and spring coefficients of the <span class="arithmatex">\(i\)</span>-th suspension, respectively. The unsprung mass <span class="arithmatex">\(m\)</span> is also subject to gravitational and suspension forces: <span class="arithmatex">\({^im} * {^i{\ddot{z}}} + {^iB} * ({^i{\dot{z}}}-{^i{\dot{Z}}}) + {^iK} * ({^i{z}}-{^i{Z}})\)</span>.</p>
 <p>Tire forces are computed based on the friction curve for each tire, represented as <span class="arithmatex">\(\left\{\begin{matrix} {^iF_{t_x}} = F(^iS_x) \\{^iF_{t_y}} = F(^iS_y) \\ \end{matrix}\right.\)</span>, where <span class="arithmatex">\(^iS_x\)</span> and <span class="arithmatex">\(^iS_y\)</span> are the longitudinal and lateral slips of the <span class="arithmatex">\(i\)</span>-th tire, respectively. The friction curve is approximated using a two-piece cubic spline, defined as <span class="arithmatex">\(F(S) = \left\{\begin{matrix} f_0(S); \;\; S_0 \leq S &lt; S_e \\ f_1(S); \;\; S_e \leq S &lt; S_a \\ \end{matrix}\right.\)</span>, where <span class="arithmatex">\(f_k(S) = a_k*S^3+b_k*S^2+c_k*S+d_k\)</span> is a cubic polynomial function. The first segment of the spline ranges from zero <span class="arithmatex">\((S_0,F_0)\)</span> to an extremum point <span class="arithmatex">\((S_e,F_e)\)</span>, while the second segment ranges from the extremum point <span class="arithmatex">\((S_e, F_e)\)</span> to an asymptote point <span class="arithmatex">\((S_a, F_a)\)</span>.</p>
@@ -1327,9 +1330,10 @@ AutoDRIVE Simulator's graphical user interface (GUI) consists of a toolbar encom
 <p>Simulated environments can be developed using AutoDRIVE's modular infrastructure development kit (IDK), or imported from third-party tools and open standards. Specifically, the autonomous racing scenario was created based on the binary occupancy grid map of a real-world RoboRacer racetrack, called "Porto", using a third-party 3D modeling software, and was imported and post-processed within AutoDRIVE Simulator to make it physically and graphically "sim-ready".</p>
 <p>These environments are simulated by conducting mesh-mesh interference detection and computing contact forces, frictional forces, momentum transfer, as well as linear and angular drag acting on all rigid bodies in the scenario.</p>
 <h4 id="141-transforms">1.4.1. Transforms<a class="headerlink" href="#141-transforms" title="Permanent link">&para;</a></h4>
-<p><center>
+<center>
 <img src="/../assets/images/documentation/roboracer sim racing league/Racetrack TF - Porto.png">
-</center></p>
+</center>
+
 <div class="admonition note">
 <p class="admonition-title">Note</p>
 <p>All right-handed coordinate frames depicted above are defined such that red represents x-axis, green represents y-axis, and blue represents z-axis.</p>
@@ -1411,9 +1415,10 @@ AutoDRIVE Simulator's graphical user interface (GUI) consists of a toolbar encom
 #### 1.4.6. Environmental Variability (time, weather, wind, lighting, friction, etc.) -->
 
 <h2 id="2-autodrive-devkit">2. AutoDRIVE Devkit<a class="headerlink" href="#2-autodrive-devkit" title="Permanent link">&para;</a></h2>
-<p><center>
+<center>
 <img src="/../assets/images/documentation/roboracer sim racing league/Devkit.png">
-</center></p>
+</center>
+
 <p align="justify">
 AutoDRIVE Devkit (part of the larger <a href="https://autodrive-ecosystem.github.io">AutoDRIVE Ecosystem</a>) is a collection of application programming interfaces (APIs), human-machine interfaces (HMIs), programming languages, libraries, frameworks, packages and tools, which enables the flexible development of on-road and off-road autonomous driving algorithms, as well as smart city traffic management algorithms. It allows targeting the devised algorithms to the simulator as well as the testbed, seamlessly. It supports both local as well as distributed computing, thereby facilitating the development of both centralized and decentralized autonomy algorithms.
 </p>
@@ -1633,9 +1638,10 @@ The following table describes various data streams of the competition framework.
 </center></p>
 </div>
 <h2 id="3-competition-submission">3. Competition Submission<a class="headerlink" href="#3-competition-submission" title="Permanent link">&para;</a></h2>
-<p><center>
+<center>
 <img src="/../assets/images/documentation/roboracer sim racing league/Competition Framework.png">
-</center></p>
+</center>
+
 <p align="justify">
 RoboRacer Sim Racing League is a virtual competition, which aims to make autonomous racing accessible to everyone across the globe. This competition adopts a containerization workflow to evaluate the submissions in a reproducible manner. Containerization provides a lightweight and portable environment, allowing applications to be easily packaged along with their dependencies, configurations, and libraries.
 </p>
@@ -1681,9 +1687,10 @@ Particularly, each team is expected to submit a containerized version of their a
 </span></code></pre></div></li>
 </ol>
 <h4 id="321-gui-mode-operations">3.2.1. GUI Mode Operations:<a class="headerlink" href="#321-gui-mode-operations" title="Permanent link">&para;</a></h4>
-<p><center>
+<center>
 <img src="/../assets/images/documentation/roboracer sim racing league/GUI vs Headless Mode.png">
-</center></p>
+</center>
+
 <ol>
 <li>Launch AutoDRIVE Simulator in <code>graphics</code> mode (camera rendering will be enabled):
     <div class="language-bash highlight"><pre><span></span><code><span id="__span-9-1"><a id="__codelineno-9-1" name="__codelineno-9-1" href="#__codelineno-9-1"></a>./AutoDRIVE<span class="se">\ </span>Simulator.x86_64
@@ -1715,9 +1722,10 @@ Particularly, each team is expected to submit a containerized version of their a
 <p>It is possible to run either the simulator, devkit, or both selectively in either <code>graphics</code> or <code>headless/no-graphics</code> mode.</p>
 </div>
 <h4 id="323-distributed-computing-mode">3.2.3. Distributed Computing Mode:<a class="headerlink" href="#323-distributed-computing-mode" title="Permanent link">&para;</a></h4>
-<p><center>
+<center>
 <img src="/../assets/images/documentation/roboracer sim racing league/Distributed Computing Mode.png">
-</center></p>
+</center>
+
 <p align="justify">
 It is possible to run the simulator and devkit on two separate computing nodes (e.g. two different PCs) connected via a common network. The benefit of this approach is workload distribution by isolating the two computing processes, thereby gaining higher performance. It is further possible to run the devkit on a physical RoboRacer vehicle (using the Jetson SBC onboard) and connect it to the PC running AutoDRIVE Simulator as a hardware-in-the-loop (HIL) setup.
 </p>
