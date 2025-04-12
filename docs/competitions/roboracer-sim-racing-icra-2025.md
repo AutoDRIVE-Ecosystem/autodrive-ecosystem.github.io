@@ -216,7 +216,7 @@ Registered teams are added to the following table:
 | 37      | Zancle E-Drive            | Gaetano Pio Pispisa<br/>Giovanni Lombardo<br/>Simone Castorino<br/>Gabriele Rinaldi<br/>Andrea Ferdinando Longoni | University of Messina | Italy  |
 | 38      |Riverside Racers           | Alexander Totah<br/>Marcus Hsieh<br/>Amber Lin<br/>James Liu<br/>Hang Qiu | University of California, Riverside | United States of America (USA) |
 | 39      | IslandDriver              | Eunhye Lee | Stony Brook University                                       | United States of America (USA)       |
-| 40      | ICPS                      | Juan Tique<br/>Donovan Ho<br/>Andrew Mitchell | Intelligent Cyber-Physical Systems Laboratory | United States of America (USA) |
+| 40      | ICPS                      | Juan Tique<br/>Donovan Ho<br/>Andrew Mitchell | iCPS Lab, University of Central Florida | United States of America (USA) |
 
 !!! note
     The above table will be updated with newly registered teams within a few days of registration. Please contact [:material-email: Chinmay Samak](mailto:csamak@clemson.edu) or [:material-email: Tanmay Samak](mailto:tsamak@clemson.edu) if you do not see your team entry for more than 7 days after registering.
