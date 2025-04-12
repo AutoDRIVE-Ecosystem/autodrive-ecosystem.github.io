@@ -55,7 +55,7 @@ Since the vehicle, the sensors, the simulator, and the devkit are standardized, 
 |:----------------------------------|:-------------------------------|
 | Feb 20, 2025                      | Registration Opens             |
 | Apr 15, 2025                      | Registration Closes            |
-| Apr 16, 2025 (5:30 – 6:30 PM EST) | Online Orientation             |
+| Apr 16, 2025 (5:30 – 6:30 PM EDT) | Online Orientation             |
 | May 03 – May 04, 2025             | Qualification Round            |
 | May 05, 2025                      | Qualification Results Declared |
 | May 08, 2025                      | Competition Track Released     |
