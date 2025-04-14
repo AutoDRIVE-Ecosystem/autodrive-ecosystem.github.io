@@ -658,14 +658,14 @@ This document describes the technical details of the competition framework for t
 <p>Although AutoDRIVE Ecosystem supports various vehicles across different scales, configurations, and operational design domains (ODDs), the <strong>only</strong> vehicle allowed for this competition is the <strong>RoboRacer</strong>. Similarly, although AutoDRIVE Ecosystem supports multiple application programming interfaces (APIs), the <strong>only</strong> API allowed for this competition is <strong>ROS 2</strong>.</p>
 </div>
 <p>Please see the accompanying video for a step-by-step tutorial of setting up and using the competition framework.</p>
-<center>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/lvm0Ep-5YPA" title="Competition Framework Tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-</center>
+<div style="display: flex; justify-content: center;">
+<iframe style="aspect-ratio: 16/9; width: 100% !important;" src="https://www.youtube.com/embed/lvm0Ep-5YPA" title="Competition Framework Tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
 
 <h2 id="1-autodrive-simulator">1. AutoDRIVE Simulator<a class="headerlink" href="#1-autodrive-simulator" title="Permanent link">&para;</a></h2>
-<center>
+<div style="display: flex; justify-content: center;">
 <img src="/../assets/images/documentation/roboracer sim racing league/Simulator.png">
-</center>
+</div>
 
 <p align="justify">
 AutoDRIVE Simulator (part of the larger <a href="https://autodrive-ecosystem.github.io">AutoDRIVE Ecosystem</a>) is an autonomy oriented tool designed to model and simulate vehicle and environment digital twins. It equally prioritizes backend physics and frontend graphics to achieve high-fidelity simulation in real-time. From a computing perspective, the simulation framework is completely modular owing to its object-oriented programming (OOP) constructs. Additionally, the simulator can take advantage of CPU multi-threading as well as GPU instancing (if available) to efficiently parallelize various simulation objects and processes, with cross-platform support.
@@ -935,9 +935,9 @@ AutoDRIVE Simulator's graphical user interface (GUI) consists of a toolbar encom
 <p>All frame transforms mentioned above are defined w.r.t. the vehicle (local) frame of reference <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m12 2 4 4h-3v7.85l6.53 3.76L21 15.03l1.5 5.47-5.5 1.46 1.53-2.61L12 15.58l-6.53 3.77L7 21.96 1.5 20.5 3 15.03l1.47 2.58L11 13.85V6H8l4-4Z"/></svg></span> <code>roboracer_1</code> located at the center of rear axle with x-axis pointing forward, y-axis pointing left, and z-axis pointing upwards. Columns x, y, and z denote translations in meters (m), while R, P, and Y denote rotations in degrees (deg). <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M384 160c-17.7 0-32-14.3-32-32s14.3-32 32-32h160c17.7 0 32 14.3 32 32v160c0 17.7-14.3 32-32 32s-32-14.3-32-32v-82.7L342.6 374.6c-12.5 12.5-32.8 12.5-45.3 0L192 269.3 54.6 406.6c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3l160-160c12.5-12.5 32.8-12.5 45.3 0L320 306.7 466.7 160H384z"/></svg></span> denotes variable quantities.</p>
 </div>
 <h4 id="132-vehicle-dynamics">1.3.2. Vehicle Dynamics<a class="headerlink" href="#132-vehicle-dynamics" title="Permanent link">&para;</a></h4>
-<center>
+<div style="display: flex; justify-content: center;">
 <img src="/../assets/images/documentation/roboracer sim racing league/RoboRacer Vehicle Dynamics.png">
-</center>
+</div>
 
 <p>The vehicle model is a combination of a rigid body and a collection of sprung masses <span class="arithmatex">\(^iM\)</span>, where the total mass of the rigid body is defined as <span class="arithmatex">\(M=\sum{^iM}\)</span>. The rigid body's center of mass, <span class="arithmatex">\(X_{COM} = \frac{\sum{{^iM}*{^iX}}}{\sum{^iM}}\)</span>, connects these representations, with <span class="arithmatex">\(^iX\)</span> representing the coordinates of the sprung masses.</p>
 <p>The suspension force acting on each sprung mass is computed as <span class="arithmatex">\({^iM} * {^i{\ddot{Z}}} + {^iB} * ({^i{\dot{Z}}}-{^i{\dot{z}}}) + {^iK} * ({^i{Z}}-{^i{z}})\)</span>, where <span class="arithmatex">\(^iZ\)</span> and <span class="arithmatex">\(^iz\)</span> are the displacements of sprung and unsprung masses, and <span class="arithmatex">\(^iB\)</span> and <span class="arithmatex">\(^iK\)</span> are the damping and spring coefficients of the <span class="arithmatex">\(i\)</span>-th suspension, respectively. The unsprung mass <span class="arithmatex">\(m\)</span> is also subject to gravitational and suspension forces: <span class="arithmatex">\({^im} * {^i{\ddot{z}}} + {^iB} * ({^i{\dot{z}}}-{^i{\dot{Z}}}) + {^iK} * ({^i{z}}-{^i{Z}})\)</span>.</p>
@@ -1298,9 +1298,9 @@ AutoDRIVE Simulator's graphical user interface (GUI) consists of a toolbar encom
 <p>Simulated environments can be developed using AutoDRIVE's modular infrastructure development kit (IDK), or imported from third-party tools and open standards. Specifically, the autonomous racing scenario was created based on the binary occupancy grid map of a real-world RoboRacer racetrack, called "Porto", using a third-party 3D modeling software, and was imported and post-processed within AutoDRIVE Simulator to make it physically and graphically "sim-ready".</p>
 <p>These environments are simulated by conducting mesh-mesh interference detection and computing contact forces, frictional forces, momentum transfer, as well as linear and angular drag acting on all rigid bodies in the scenario.</p>
 <h4 id="141-transforms">1.4.1. Transforms<a class="headerlink" href="#141-transforms" title="Permanent link">&para;</a></h4>
-<center>
+<div style="display: flex; justify-content: center;">
 <img src="/../assets/images/documentation/roboracer sim racing league/Racetrack TF - Porto.png">
-</center>
+</div>
 
 <div class="admonition note">
 <p class="admonition-title">Note</p>
@@ -1383,9 +1383,9 @@ AutoDRIVE Simulator's graphical user interface (GUI) consists of a toolbar encom
 #### 1.4.6. Environmental Variability (time, weather, wind, lighting, friction, etc.) -->
 
 <h2 id="2-autodrive-devkit">2. AutoDRIVE Devkit<a class="headerlink" href="#2-autodrive-devkit" title="Permanent link">&para;</a></h2>
-<center>
+<div style="display: flex; justify-content: center;">
 <img src="/../assets/images/documentation/roboracer sim racing league/Devkit.png">
-</center>
+</div>
 
 <p align="justify">
 AutoDRIVE Devkit (part of the larger <a href="https://autodrive-ecosystem.github.io">AutoDRIVE Ecosystem</a>) is a collection of application programming interfaces (APIs), human-machine interfaces (HMIs), programming languages, libraries, frameworks, packages and tools, which enables the flexible development of on-road and off-road autonomous driving algorithms, as well as smart city traffic management algorithms. It allows targeting the devised algorithms to the simulator as well as the testbed, seamlessly. It supports both local as well as distributed computing, thereby facilitating the development of both centralized and decentralized autonomy algorithms.
@@ -1601,14 +1601,14 @@ The following table describes various data streams of the competition framework.
 <p>You can reset the simulation by publishing a <code>std_msgs/msg/Bool</code> message with <code>True</code> value on the <code>/autodrive/reset_command</code> topic. However, do not forget to set it to <code>False</code> again, or else the simulation will keep resetting!</p>
 </div>
 <p>Please check out the video below to see the functionality of resetting the simulator via API in action, using the <a href="https://github.com/AutoDRIVE-Ecosystem/AutoDRIVE-RoboRacer-Sim-Racing/blob/main/autodrive_devkit/autodrive_roboracer/teleop_keyboard.py"><code>teleop_keyboard</code></a> node. This would be a good way of understanding the working and implementation of this functionality for writing your custom nodes that can exploit this feature.</p>
-<p><center>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/IV2W0G827f0?si=jzcpbMhpFcXCNvyN" title="Reset AutoDRIVE Simulator via AutoDRIVE Devkit" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-</center></p>
+<p><div style="display: flex; justify-content: center;">
+<iframe style="aspect-ratio: 16/9; width: 50% !important;" src="https://www.youtube.com/embed/IV2W0G827f0" title="Reset AutoDRIVE Simulator via AutoDRIVE Devkit" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div></p>
 </div>
 <h2 id="3-competition-submission">3. Competition Submission<a class="headerlink" href="#3-competition-submission" title="Permanent link">&para;</a></h2>
-<center>
+<div style="display: flex; justify-content: center;">
 <img src="/../assets/images/documentation/roboracer sim racing league/Competition Framework.png">
-</center>
+</div>
 
 <p align="justify">
 RoboRacer Sim Racing League is a virtual competition, which aims to make autonomous racing accessible to everyone across the globe. This competition adopts a containerization workflow to evaluate the submissions in a reproducible manner. Containerization provides a lightweight and portable environment, allowing applications to be easily packaged along with their dependencies, configurations, and libraries.
@@ -1655,9 +1655,9 @@ Particularly, each team is expected to submit a containerized version of their a
 </span></code></pre></div></li>
 </ol>
 <h4 id="321-gui-mode-operations">3.2.1. GUI Mode Operations:<a class="headerlink" href="#321-gui-mode-operations" title="Permanent link">&para;</a></h4>
-<center>
+<div style="display: flex; justify-content: center;">
 <img src="/../assets/images/documentation/roboracer sim racing league/GUI vs Headless Mode.png">
-</center>
+</div>
 
 <ol>
 <li>Launch AutoDRIVE Simulator in <code>graphics</code> mode (camera rendering will be enabled):
@@ -1690,9 +1690,9 @@ Particularly, each team is expected to submit a containerized version of their a
 <p>It is possible to run either the simulator, devkit, or both selectively in either <code>graphics</code> or <code>headless/no-graphics</code> mode.</p>
 </div>
 <h4 id="323-distributed-computing-mode">3.2.3. Distributed Computing Mode:<a class="headerlink" href="#323-distributed-computing-mode" title="Permanent link">&para;</a></h4>
-<center>
+<div style="display: flex; justify-content: center;">
 <img src="/../assets/images/documentation/roboracer sim racing league/Distributed Computing Mode.png">
-</center>
+</div>
 
 <p align="justify">
 It is possible to run the simulator and devkit on two separate computing nodes (e.g. two different PCs) connected via a common network. The benefit of this approach is workload distribution by isolating the two computing processes, thereby gaining higher performance. It is further possible to run the devkit on a physical RoboRacer vehicle (using the Jetson SBC onboard) and connect it to the PC running AutoDRIVE Simulator as a hardware-in-the-loop (HIL) setup.
@@ -1821,7 +1821,7 @@ This work has been published at <strong>2021 International Conference on Control
     <span class="md-icon" title="Last update">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1-2.1-2M12.5 7v5.2l4 2.4-1 1L11 13V7h1.5M11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2v1.8Z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="April 3, 2025 04:49:29">April 3, 2025</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="April 14, 2025 06:58:16">April 14, 2025</span>
   </span>
 
     
