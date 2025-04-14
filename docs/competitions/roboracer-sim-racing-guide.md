@@ -14,15 +14,15 @@ This document describes the technical details of the competition framework for t
 
 Please see the accompanying video for a step-by-step tutorial of setting up and using the competition framework.
 
-<center>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/lvm0Ep-5YPA" title="Competition Framework Tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-</center>
+<div style="display: flex; justify-content: center;">
+<iframe style="aspect-ratio: 16/9; width: 100% !important;" src="https://www.youtube.com/embed/lvm0Ep-5YPA" title="Competition Framework Tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
 
 ## 1. AutoDRIVE Simulator
 
-<center>
+<div style="display: flex; justify-content: center;">
 <img src="/../assets/images/documentation/roboracer sim racing league/Simulator.png">
-</center>
+</div>
 
 <p align="justify">
 AutoDRIVE Simulator (part of the larger <a href="https://autodrive-ecosystem.github.io">AutoDRIVE Ecosystem</a>) is an autonomy oriented tool designed to model and simulate vehicle and environment digital twins. It equally prioritizes backend physics and frontend graphics to achieve high-fidelity simulation in real-time. From a computing perspective, the simulation framework is completely modular owing to its object-oriented programming (OOP) constructs. Additionally, the simulator can take advantage of CPU multi-threading as well as GPU instancing (if available) to efficiently parallelize various simulation objects and processes, with cross-platform support.
@@ -157,9 +157,9 @@ These vehicles are simulated as a combination of rigid body and sprung mass repr
 
 #### 1.3.2. Vehicle Dynamics
 
-<center>
+<div style="display: flex; justify-content: center;">
 <img src="/../assets/images/documentation/roboracer sim racing league/RoboRacer Vehicle Dynamics.png">
-</center>
+</div>
 
 The vehicle model is a combination of a rigid body and a collection of sprung masses $^iM$, where the total mass of the rigid body is defined as $M=\sum{^iM}$. The rigid body's center of mass, $X_{COM} = \frac{\sum{{^iM}*{^iX}}}{\sum{^iM}}$, connects these representations, with $^iX$ representing the coordinates of the sprung masses.
 
@@ -286,9 +286,9 @@ These environments are simulated by conducting mesh-mesh interference detection 
 
 #### 1.4.1. Transforms
 
-<center>
+<div style="display: flex; justify-content: center;">
 <img src="/../assets/images/documentation/roboracer sim racing league/Racetrack TF - Porto.png">
-</center>
+</div>
 
 !!! note
     All right-handed coordinate frames depicted above are defined such that red represents x-axis, green represents y-axis, and blue represents z-axis.
@@ -331,9 +331,9 @@ These environments are simulated by conducting mesh-mesh interference detection 
 
 ## 2. AutoDRIVE Devkit
 
-<center>
+<div style="display: flex; justify-content: center;">
 <img src="/../assets/images/documentation/roboracer sim racing league/Devkit.png">
-</center>
+</div>
 
 <p align="justify">
 AutoDRIVE Devkit (part of the larger <a href="https://autodrive-ecosystem.github.io">AutoDRIVE Ecosystem</a>) is a collection of application programming interfaces (APIs), human-machine interfaces (HMIs), programming languages, libraries, frameworks, packages and tools, which enables the flexible development of on-road and off-road autonomous driving algorithms, as well as smart city traffic management algorithms. It allows targeting the devised algorithms to the simulator as well as the testbed, seamlessly. It supports both local as well as distributed computing, thereby facilitating the development of both centralized and decentralized autonomy algorithms.
@@ -451,15 +451,15 @@ The following table describes various data streams of the competition framework.
     
     Please check out the video below to see the functionality of resetting the simulator via API in action, using the [`teleop_keyboard`](https://github.com/AutoDRIVE-Ecosystem/AutoDRIVE-RoboRacer-Sim-Racing/blob/main/autodrive_devkit/autodrive_roboracer/teleop_keyboard.py) node. This would be a good way of understanding the working and implementation of this functionality for writing your custom nodes that can exploit this feature.
 
-    <center>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/IV2W0G827f0?si=jzcpbMhpFcXCNvyN" title="Reset AutoDRIVE Simulator via AutoDRIVE Devkit" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-    </center>
+    <div style="display: flex; justify-content: center;">
+    <iframe style="aspect-ratio: 16/9; width: 50% !important;" src="https://www.youtube.com/embed/IV2W0G827f0" title="Reset AutoDRIVE Simulator via AutoDRIVE Devkit" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
 
 ## 3. Competition Submission
 
-<center>
+<div style="display: flex; justify-content: center;">
 <img src="/../assets/images/documentation/roboracer sim racing league/Competition Framework.png">
-</center>
+</div>
 
 <p align="justify">
 RoboRacer Sim Racing League is a virtual competition, which aims to make autonomous racing accessible to everyone across the globe. This competition adopts a containerization workflow to evaluate the submissions in a reproducible manner. Containerization provides a lightweight and portable environment, allowing applications to be easily packaged along with their dependencies, configurations, and libraries.
@@ -514,9 +514,9 @@ Particularly, each team is expected to submit a containerized version of their a
 
 #### 3.2.1. GUI Mode Operations:
 
-<center>
+<div style="display: flex; justify-content: center;">
 <img src="/../assets/images/documentation/roboracer sim racing league/GUI vs Headless Mode.png">
-</center>
+</div>
 
 1. Launch AutoDRIVE Simulator in `graphics` mode (camera rendering will be enabled):
     ```bash
@@ -554,9 +554,9 @@ Particularly, each team is expected to submit a containerized version of their a
 
 #### 3.2.3. Distributed Computing Mode:
 
-<center>
+<div style="display: flex; justify-content: center;">
 <img src="/../assets/images/documentation/roboracer sim racing league/Distributed Computing Mode.png">
-</center>
+</div>
 
 <p align="justify">
 It is possible to run the simulator and devkit on two separate computing nodes (e.g. two different PCs) connected via a common network. The benefit of this approach is workload distribution by isolating the two computing processes, thereby gaining higher performance. It is further possible to run the devkit on a physical RoboRacer vehicle (using the Jetson SBC onboard) and connect it to the PC running AutoDRIVE Simulator as a hardware-in-the-loop (HIL) setup.

@@ -12,11 +12,9 @@
 This time, we are organizing the second <b>F1TENTH Sim Racing League</b>, which leverages <a href="https://autodrive-ecosystem.github.io">AutoDRIVE Ecosystem</a> to model and simulate the digital twin of an F1TENTH racecar within a virtual racetrack. Please see the accompanying video for a glimpse of the F1TENTH digital twins in action.
 </p>
 
-<center>
 <div style="display: flex; justify-content: center;">
 <iframe style="aspect-ratio: 16/9; width: 100% !important;" src="https://www.youtube.com/embed/Rq7Wwcwn1uk?si=ngvop2-SfJJOIjWJ" title="Digital Twin of F1TENTH in AutoDRIVE Simulator" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
-</center>
 
 <p align="justify">
 The main focus of the Sim Racing League is a virtual competition with simulated cars and environments, which is accessible to everyone across the globe. For the <a href="https://cdc2024.ieeecss.org">CDC 2024</a> competition, each team will be provided with a standardized simulation setup (in the form of a digital twin of the F1TENTH vehicle, and a digital twin of the Porto racetrack) within the high-fidelity <a href="https://github.com/Tinker-Twins/AutoDRIVE/tree/AutoDRIVE-Simulator">AutoDRIVE Simulator</a>. Additionally, teams will also be provided with a working implementation of the <a href="https://github.com/Tinker-Twins/AutoDRIVE/tree/AutoDRIVE-Devkit">AutoDRIVE Devkit</a> to get started with developing their autonomy algorithms. Teams will have to develop perception, planning, and control algorithms to parse the real-time sensor data streamed from the simulator and generate control commands to be fed back to the simulated vehicle.
@@ -57,8 +55,8 @@ Since the vehicle, the sensors, the simulator, and the devkit are standardized, 
 |:----------------------------------|:-------------------------------|
 | Aug 01, 2024                      | Registration Opens             |
 | Oct 31, 2024                      | Registration Closes            |
-| Nov 08, 2024 (5:30 – 6:30 PM EST) | Online Orientation 1           |
-| Nov 23, 2024 (1:00 – 2:00 PM EST) | Online Orientation 2           |
+| Nov 08, 2024 (5:30 – 6:30 PM EST) | [Online Orientation 1](https://clemson.zoom.us/j/92399406829) |
+| Nov 23, 2024 (1:00 – 2:00 PM EST) | [Online Orientation 2](https://clemson.zoom.us/j/98938663143) |
 | Nov 30 – Dec 01, 2024             | Qualification Round            |
 | Dec 02, 2024                      | Qualification Results Declared |
 | Dec 04, 2024                      | Competition Track Released     |
@@ -167,9 +165,9 @@ We recommend all the teams interested in participating in the F1TENTH Sim Racing
 This competition is open to everyone around the world - students, researchers, hobbyists, professionals, or anyone else who is interested. A team can consist of multiple teammates. Teams with only one person are also allowed.
 </p>
 
-<center>
-[:material-file-document-edit: Registration Form](https://forms.gle/D6X2C5PMwmDWEWbo9){.md-button}
-</center>
+<div style="display: flex; justify-content: center;">
+<a class="md-button" href="https://forms.gle/D6X2C5PMwmDWEWbo9"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M6 2c-1.11 0-2 .89-2 2v16a2 2 0 0 0 2 2h4v-1.91L12.09 18H6v-2h8.09l2-2H6v-2h12.09L20 10.09V8l-6-6H6m7 1.5L18.5 9H13V3.5m7.15 9.5a.55.55 0 0 0-.4.16l-1.02 1.02 2.09 2.08 1.02-1.01c.21-.22.21-.58 0-.79l-1.3-1.3a.544.544 0 0 0-.39-.16m-2.01 1.77L12 20.92V23h2.08l6.15-6.15-2.09-2.08Z"/></svg></span> Registration Form</a>
+</div>
 
 <p align="justify">
 Registration for the Sim Racing League is free of cost and separate from the Physical Racing League and the conference registrations themselves. The above form signs you up only for the Sim Racing League, and for its orientation and information sessions. Although you can participate in the Sim Racing League without attending the conference, we strongly encourage all competition participants to attend the conference in person. This will help you connect with the broader AutoDRIVE and F1TENTH communities, and you can also witness/participate in the physical F1TENTH autonomous racing competition!
@@ -242,9 +240,9 @@ Registered teams are added to the following table:
 Use the secure form below to make your team's submission for Phase 1 (Qualification Round) of the F1TENTH Sim Racing League. Please fill in your team's name and add the link to your team's DockerHub repository containing the autonomous racing stack. If you are using a private repository, make sure to add <a href="https://hub.docker.com/u/autodriveecosystem">autodriveecosystem</a> as a <a href="https://docs.docker.com/docker-hub/repos/access">collaborator to your repository</a>.
 </p>
 
-<center>
-[:material-file-document-edit: Phase 1 Submission Form](https://forms.gle/aYPFnWwVDzf47eXS6){.md-button}
-</center>
+<div style="display: flex; justify-content: center;">
+<a class="md-button" href="https://forms.gle/aYPFnWwVDzf47eXS6"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M6 2c-1.11 0-2 .89-2 2v16a2 2 0 0 0 2 2h4v-1.91L12.09 18H6v-2h8.09l2-2H6v-2h12.09L20 10.09V8l-6-6H6m7 1.5L18.5 9H13V3.5m7.15 9.5a.55.55 0 0 0-.4.16l-1.02 1.02 2.09 2.08 1.02-1.01c.21-.22.21-.58 0-.79l-1.3-1.3a.544.544 0 0 0-.39-.16m-2.01 1.77L12 20.92V23h2.08l6.15-6.15-2.09-2.08Z"/></svg></span> Phase 1 Submission Form</a>
+</div>
 
 !!! warning
     Phase 1 submission window will close on Nov 30, 2024. Please contact [:material-email: Chinmay Samak](mailto:csamak@clemson.edu) or [:material-email: Tanmay Samak](mailto:tsamak@clemson.edu) if you have any questions.
@@ -253,9 +251,9 @@ Use the secure form below to make your team's submission for Phase 1 (Qualificat
 Use the secure form below to make your team's submission for Phase 2 (Final Race) of the F1TENTH Sim Racing League. Please fill in your team's name and add the link to your team's DockerHub repository containing the autonomous racing stack. If you are using a private repository, make sure to add <a href="https://hub.docker.com/u/autodriveecosystem">autodriveecosystem</a> as a <a href="https://docs.docker.com/docker-hub/repos/access">collaborator to your repository</a>.
 </p>
 
-<center>
-[:material-file-document-edit: Phase 2 Submission Form](https://forms.gle/mbrDFBU9Xww1Gp5X9){.md-button}
-</center>
+<div style="display: flex; justify-content: center;">
+<a class="md-button" href="https://forms.gle/mbrDFBU9Xww1Gp5X9"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M6 2c-1.11 0-2 .89-2 2v16a2 2 0 0 0 2 2h4v-1.91L12.09 18H6v-2h8.09l2-2H6v-2h12.09L20 10.09V8l-6-6H6m7 1.5L18.5 9H13V3.5m7.15 9.5a.55.55 0 0 0-.4.16l-1.02 1.02 2.09 2.08 1.02-1.01c.21-.22.21-.58 0-.79l-1.3-1.3a.544.544 0 0 0-.39-.16m-2.01 1.77L12 20.92V23h2.08l6.15-6.15-2.09-2.08Z"/></svg></span> Phase 2 Submission Form</a>
+</div>
 
 !!! warning
     Phase 2 submission window will close on Dec 07, 2024. Please contact [:material-email: Chinmay Samak](mailto:csamak@clemson.edu) or [:material-email: Tanmay Samak](mailto:tsamak@clemson.edu) if you have any questions.
@@ -360,8 +358,6 @@ The following teams successfully finished the final time-attack race. Here are t
 
 ## Summary
 
-<center>
 <div style="display: flex; justify-content: center;">
 <iframe style="aspect-ratio: 16/9; width: 100% !important;" src="https://www.youtube.com/embed/Q-WTcTOld08?si=PORCUPmbj2KfHYST" title="F1TENTH Sim Racing League @ CDC 2024" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
-</center>
