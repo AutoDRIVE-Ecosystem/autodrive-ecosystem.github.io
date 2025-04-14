@@ -205,7 +205,7 @@ Registered teams are added to the following table:
 | 28      | Wall-E                    | Vinura Wanniarachchi          | Personal                                  | Sri Lanka                            |
 | 29      | SoloDriver                | Hana Nabhan                   | Personal                                  | Egypt                                |
 | 30      | Robotikusu                | Ananay Shiv                   | Indian Institute of Technology, Kharagpur | India                                |
-| 31      | Shelby                    | S. Srikaanth<br/>S. Vignesh<br/>S. A. Gogulnath | Personal                   | India                                |
+| 31      | Shelby                    | S. Srikaanth<br/>S. Vignesh<br/>S. A. Gogulnath | Personal                | India                                |
 | 32      | MMS Autonomous            | Osama Helal<br/>Ahmed Mwafy<br/>Abdelrahman Arafa<br/>Kirellos Youssef<br/>Kareem El Zahaby | Mansoura University | Egypt |
 | 33      | Escuderia Poliposition    | Fernando Zolubas Preto<br/>Antonio Colombini Neto<br/>Carlos Alberto Arronte Delgado<br/>Gabriel Stephano Santos<br/>Luccas Barsotti<br/>Francisco Rodrigues Marazia<br/>Amanda Spagolla | Polytechnic School of the University of São Paulo | Brazil |
 | 34      | Raptor                    | Ji Su Lee                     | Personal                                  | South Korea                          |
@@ -221,6 +221,10 @@ Registered teams are added to the following table:
 | 44      | Autonomous Ground Vehicle | Swaminathan S K<br/>Shreyansh Kansal<br/>Daksh Yadav<br/>Ninaad Desai<br/>Rohan Singh<br/>Sandip Das<br/>Utsab Karan<br/>Varun Thirupathy<br/>Aditya Srivastava<br/>Sreyas Venkataraman | Indian Institute of Technology, Kharagpur | India |
 | 45      | CAVREL-UCF                | Israel Charles<br/>Babak Soorchaei<br/>Devin Hunter<br/>Yaser Fallah | University of Central Florida | United States of America (USA) |
 | 46      | Autoware Aces             | Po-Jen Wang<br/>Tran Huu Nhat Huy | Autoware Foundation                   | United States of America (USA)       |
+| 47      | Ashesi ARCLab             | Emmanuel Korankye<br/>William Akuffo<br/>Joshua Nti<br/>Reginald Andrew Sai-Obadai<br/>Baron Afutu<br/>Joel Osei-Asamoah<br/>Kobena Enyam<br/>Samuel Akwensivie<br/>Appenteng Adjepong<br/>Desmond Hammond | Ashesi University | Ghana |
+| 48      | QuillKraft                | Aryan Iyer                    | Indian Institute of Technology, Bombay    | India                                |
+| 49      | PowerZero                 | Ramana Botta<br/>Venkat Prasad | Personal                                 | India                                |
+| 50      | WARRacing                 | Dominik Schneider<br/>Danit Niwattananan | Personal                       | Germany                              |
 
 !!! note
     The above table will be updated with newly registered teams within a few days of registration. Please contact [:material-email: Chinmay Samak](mailto:csamak@clemson.edu) or [:material-email: Tanmay Samak](mailto:tsamak@clemson.edu) if you do not see your team entry for more than 7 days after registering.
