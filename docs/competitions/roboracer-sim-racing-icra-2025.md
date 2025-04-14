@@ -217,8 +217,10 @@ Registered teams are added to the following table:
 | 40      | ICPS                      | Juan Tique<br/>Donovan Ho<br/>Andrew Mitchell | iCPS Lab, University of Central Florida | United States of America (USA) |
 | 41      | Kanka                     | Yukang Cao<br/>Goktug Poyrazoglu | University of Minnesota                | United States of America (USA) |
 | 42      | Ctrl+Drift                | Aditya Jambhale<br/>Chaitanya Bhatia<br/>Kaustubh Krishna<br/>Akshat Tambi<br/>Prerna Sharma<br/>Yashowardhan Singh | SRM Institute of Science and Technology | India |
-| 43      | Overtechnologia           | Aditya Paul                   | Personal                                  | India |
+| 43      | Overtechnologia           | Aditya Paul                   | Personal                                  | India                                |
 | 44      | Autonomous Ground Vehicle | Swaminathan S K<br/>Shreyansh Kansal<br/>Daksh Yadav<br/>Ninaad Desai<br/>Rohan Singh<br/>Sandip Das<br/>Utsab Karan<br/>Varun Thirupathy<br/>Aditya Srivastava<br/>Sreyas Venkataraman | Indian Institute of Technology, Kharagpur | India |
+| 45      | CAVREL-UCF                | Israel Charles<br/>Babak Soorchaei<br/>Devin Hunter<br/>Yaser Fallah | University of Central Florida | United States of America (USA) |
+| 46      | Autoware Aces             | Po-Jen Wang<br/>Tran Huu Nhat Huy | Autoware Foundation                   | United States of America (USA)       |
 
 !!! note
     The above table will be updated with newly registered teams within a few days of registration. Please contact [:material-email: Chinmay Samak](mailto:csamak@clemson.edu) or [:material-email: Tanmay Samak](mailto:tsamak@clemson.edu) if you do not see your team entry for more than 7 days after registering.
