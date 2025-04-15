@@ -209,22 +209,23 @@ Registered teams are added to the following table:
 | 32      | MMS Autonomous            | Osama Helal<br/>Ahmed Mwafy<br/>Abdelrahman Arafa<br/>Kirellos Youssef<br/>Kareem El Zahaby | Mansoura University | Egypt |
 | 33      | Escuderia Poliposition    | Fernando Zolubas Preto<br/>Antonio Colombini Neto<br/>Carlos Alberto Arronte Delgado<br/>Gabriel Stephano Santos<br/>Luccas Barsotti<br/>Francisco Rodrigues Marazia<br/>Amanda Spagolla | Polytechnic School of the University of São Paulo | Brazil |
 | 34      | Raptor                    | Ji Su Lee                     | Personal                                  | South Korea                          |
-| 35      | SoloNewbie                | Nhat Huy Tran Huu             | Tokyo Institute of Technology             | Japan                                |
-| 36      | Humble-CV                 | Ayush David<br/>Basil Shaji<br/>Cyril Jacob | Karunya Institute of Technology and Sciences | India               |
-| 37      | Zancle E-Drive            | Gaetano Pio Pispisa<br/>Giovanni Lombardo<br/>Simone Castorino<br/>Gabriele Rinaldi<br/>Andrea Ferdinando Longoni | University of Messina | Italy  |
-| 38      |Riverside Racers           | Alexander Totah<br/>Marcus Hsieh<br/>Amber Lin<br/>James Liu<br/>Hang Qiu | University of California, Riverside | United States of America (USA) |
-| 39      | IslandDriver              | Eunhye Lee | Stony Brook University                                       | United States of America (USA)       |
-| 40      | ICPS                      | Juan Tique<br/>Donovan Ho<br/>Andrew Mitchell | iCPS Lab, University of Central Florida | United States of America (USA) |
-| 41      | Kanka                     | Yukang Cao<br/>Goktug Poyrazoglu | University of Minnesota                | United States of America (USA) |
-| 42      | Ctrl+Drift                | Aditya Jambhale<br/>Chaitanya Bhatia<br/>Kaustubh Krishna<br/>Akshat Tambi<br/>Prerna Sharma<br/>Yashowardhan Singh | SRM Institute of Science and Technology | India |
-| 43      | Overtechnologia           | Aditya Paul                   | Personal                                  | India                                |
-| 44      | Autonomous Ground Vehicle | Swaminathan S K<br/>Shreyansh Kansal<br/>Daksh Yadav<br/>Ninaad Desai<br/>Rohan Singh<br/>Sandip Das<br/>Utsab Karan<br/>Varun Thirupathy<br/>Aditya Srivastava<br/>Sreyas Venkataraman | Indian Institute of Technology, Kharagpur | India |
-| 45      | CAVREL-UCF                | Israel Charles<br/>Babak Soorchaei<br/>Devin Hunter<br/>Yaser Fallah | University of Central Florida | United States of America (USA) |
-| 46      | Autoware Aces             | Po-Jen Wang<br/>Tran Huu Nhat Huy | Autoware Foundation                   | United States of America (USA)       |
-| 47      | Ashesi ARCLab             | Emmanuel Korankye<br/>William Akuffo<br/>Joshua Nti<br/>Reginald Andrew Sai-Obadai<br/>Baron Afutu<br/>Joel Osei-Asamoah<br/>Kobena Enyam<br/>Samuel Akwensivie<br/>Appenteng Adjepong<br/>Desmond Hammond | Ashesi University | Ghana |
-| 48      | QuillKraft                | Aryan Iyer                    | Indian Institute of Technology, Bombay    | India                                |
-| 49      | PowerZero                 | Ramana Botta<br/>Venkat Prasad | Personal                                 | India                                |
-| 50      | WARRacing                 | Dominik Schneider<br/>Danit Niwattananan | Personal                       | Germany                              |
+| 35      | Humble-CV                 | Ayush David<br/>Basil Shaji<br/>Cyril Jacob | Karunya Institute of Technology and Sciences | India               |
+| 36      | Zancle E-Drive            | Gaetano Pio Pispisa<br/>Giovanni Lombardo<br/>Simone Castorino<br/>Gabriele Rinaldi<br/>Andrea Ferdinando Longoni | University of Messina | Italy  |
+| 37      |Riverside Racers           | Alexander Totah<br/>Marcus Hsieh<br/>Amber Lin<br/>James Liu<br/>Hang Qiu | University of California, Riverside | United States of America (USA) |
+| 38      | IslandDriver              | Eunhye Lee | Stony Brook University                                       | United States of America (USA)       |
+| 39      | ICPS                      | Juan Tique<br/>Donovan Ho<br/>Andrew Mitchell | iCPS Lab, University of Central Florida | United States of America (USA) |
+| 40      | Kanka                     | Yukang Cao<br/>Goktug Poyrazoglu | University of Minnesota                | United States of America (USA) |
+| 41      | Ctrl+Drift                | Aditya Jambhale<br/>Chaitanya Bhatia<br/>Kaustubh Krishna<br/>Akshat Tambi<br/>Prerna Sharma<br/>Yashowardhan Singh | SRM Institute of Science and Technology | India |
+| 42      | Overtechnologia           | Aditya Paul                   | Personal                                  | India                                |
+| 43      | Autonomous Ground Vehicle | Swaminathan S K<br/>Shreyansh Kansal<br/>Daksh Yadav<br/>Ninaad Desai<br/>Rohan Singh<br/>Sandip Das<br/>Utsab Karan<br/>Varun Thirupathy<br/>Aditya Srivastava<br/>Sreyas Venkataraman | Indian Institute of Technology, Kharagpur | India |
+| 44      | CAVREL-UCF                | Israel Charles<br/>Babak Soorchaei<br/>Devin Hunter<br/>Yaser Fallah | University of Central Florida | United States of America (USA) |
+| 45      | Autoware Aces             | Po-Jen Wang<br/>Tran Huu Nhat Huy | Autoware Foundation                   | United States of America (USA)       |
+| 46      | Ashesi ARCLab             | Emmanuel Korankye<br/>William Akuffo<br/>Joshua Nti<br/>Reginald Andrew Sai-Obadai<br/>Baron Afutu<br/>Joel Osei-Asamoah<br/>Kobena Enyam<br/>Samuel Akwensivie<br/>Appenteng Adjepong<br/>Desmond Hammond | Ashesi University | Ghana |
+| 47      | QuillKraft                | Aryan Iyer                    | Indian Institute of Technology, Bombay    | India                                |
+| 48      | PowerZero                 | Ramana Botta<br/>Venkat Prasad | Personal                                 | India                                |
+| 49      | WARRacing                 | Dominik Schneider<br/>Danit Niwattananan | Personal                       | Germany                              |
+| 50      | The Impressionists        | Tanay Shah                    | Personal                                  | India                                |
+| 51      | WATonomous                | Rodney Dong<br/>Mark Do<br/>Harsharan Rakhra<br/>Manjot Dola | University of Waterloo WATonomous Design Team | Canada |
 
 !!! note
     The above table will be updated with newly registered teams within a few days of registration. Please contact [:material-email: Chinmay Samak](mailto:csamak@clemson.edu) or [:material-email: Tanmay Samak](mailto:tsamak@clemson.edu) if you do not see your team entry for more than 7 days after registering.
