@@ -226,6 +226,9 @@ Registered teams are added to the following table:
 | 49      | WARRacing                 | Dominik Schneider<br/>Danit Niwattananan | Personal                       | Germany                              |
 | 50      | The Impressionists        | Tanay Shah                    | Personal                                  | India                                |
 | 51      | WATonomous                | Rodney Dong<br/>Mark Do<br/>Harsharan Rakhra<br/>Manjot Dola | University of Waterloo WATonomous Design Team | Canada |
+| 52      | UO Autonomous Drive       | David Miranda<br/>Lucía Sánchez<br/>Miguel Santamaría | University of Oviedo | Spain                             |
+| 53      | Smirnov Racing            | Kirill Smirnov                | K. Smirnov Robotics Ltd.                  | Cyprus                               |
+| 54      | RUN-RUN-ChuraTaro         | Soya Aoki                     | Chura DATA Inc.                           | Japan                                |
 
 !!! note
     The above table will be updated with newly registered teams within a few days of registration. Please contact [:material-email: Chinmay Samak](mailto:csamak@clemson.edu) or [:material-email: Tanmay Samak](mailto:tsamak@clemson.edu) if you do not see your team entry for more than 7 days after registering.
