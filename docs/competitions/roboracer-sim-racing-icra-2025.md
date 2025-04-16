@@ -223,7 +223,7 @@ Registered teams are added to the following table:
 | 46      | Ashesi ARCLab             | Emmanuel Korankye<br/>William Akuffo<br/>Joshua Nti<br/>Reginald Andrew Sai-Obadai<br/>Baron Afutu<br/>Joel Osei-Asamoah<br/>Kobena Enyam<br/>Samuel Akwensivie<br/>Appenteng Adjepong<br/>Desmond Hammond | Ashesi University | Ghana |
 | 47      | QuillKraft                | Aryan Iyer                    | Indian Institute of Technology, Bombay    | India                                |
 | 48      | PowerZero                 | Ramana Botta<br/>Venkat Prasad | Personal                                 | India                                |
-| 49      | WARRacing                 | Dominik Schneider<br/>Danit Niwattananan | Personal                       | Germany                              |
+| 49      | WARRacing                 | Dominik Schneider<br/>Danit Niwattananan<br/>Parham Rahimi | Personal     | Germany                              |
 | 50      | The Impressionists        | Tanay Shah                    | Personal                                  | India                                |
 | 51      | WATonomous                | Rodney Dong<br/>Mark Do<br/>Harsharan Rakhra<br/>Manjot Dola | University of Waterloo WATonomous Design Team | Canada |
 | 52      | UO Autonomous Drive       | David Miranda<br/>Lucía Sánchez<br/>Miguel Santamaría | University of Oviedo | Spain                             |
