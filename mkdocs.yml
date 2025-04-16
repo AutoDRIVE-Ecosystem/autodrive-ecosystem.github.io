@@ -16,7 +16,7 @@ copyright: Copyright &copy; 2025 <a href="https://tinker-twins.github.io">Tinker
 # Configuration
 theme:
   name: material
-  custom_dir: overrides # Comment out this line if there are no announcements
+  # custom_dir: overrides # Comment out this line if there are no announcements
   features:
     - announce.dismiss
     # - content.action.edit
