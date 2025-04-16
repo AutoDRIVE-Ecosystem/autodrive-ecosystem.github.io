@@ -232,6 +232,7 @@ Registered teams are added to the following table:
 | 55      | Arcanine                  | Shreyas Raorane               | University of Pennslvania                 | United States of America (USA)       |
 | 56      | orangetongue              | Vittorio Cataffo<br/>Francesca Cataffo<br/>Federica Cataffo | Personal    | Italy                                |
 | 57      | AsTenth Martin            | Ajay Shankar Sriram           | Chura DATA Inc.                           | United States of America (USA)       |
+| 58      | PITT                      | Aragya Goyal<br/>Robert Exley | University of Pittsburgh                  | United States of America (USA)       |
 
 !!! note
     The above table will be updated with newly registered teams within a few days of registration. Please contact [:material-email: Chinmay Samak](mailto:csamak@clemson.edu) or [:material-email: Tanmay Samak](mailto:tsamak@clemson.edu) if you do not see your team entry for more than 7 days after registering.
