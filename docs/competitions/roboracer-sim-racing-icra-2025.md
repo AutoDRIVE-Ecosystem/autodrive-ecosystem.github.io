@@ -143,7 +143,7 @@ We recommend all the teams interested in participating in the RoboRacer Sim Raci
 
     **Registration:** [:material-file-document-edit: Form](https://forms.gle/zjj5dLDajUhnuTdL9)
     
-    **Orientation:** [:fontawesome-solid-video: Zoom](https://clemson.zoom.us/j/94807115758) | [:octicons-video-16: Recording](https://youtu.be/Mit9c8B-06o) | :material-projector-screen-outline: Slides
+    **Orientation:** [:fontawesome-solid-video: Zoom](https://clemson.zoom.us/j/94807115758) | [:octicons-video-16: Recording](https://youtu.be/Mit9c8B-06o) | [:material-projector-screen-outline: Slides](https://github.com/AutoDRIVE-Ecosystem/AutoDRIVE-RoboRacer-Sim-Racing/releases/download/2025-icra/orientation_slides.zip)
 
     **Communication:** [:material-slack: Slack](https://join.slack.com/t/autodrive-ecosystem/shared_invite/zt-2oeg2hce8-0JvasvnBM1M_wUdDTWRuKw)
 
