@@ -403,8 +403,8 @@ autodrive_devkit
 ├───resource
 │   └───autodrive_roboracer
 │
-├───rviz
-│   └───autodrive_roboracer.rviz
+├───
+│   └───autodrive_roboracer.
 │
 └───test
 │   └───test_copyright.py
@@ -524,7 +524,7 @@ Particularly, each team is expected to submit a containerized version of their a
     ```
 2. Launch AutoDRIVE Devkit in `graphics` mode (RViz rendering will be enabled):
     ```bash
-    ros2 launch autodrive_roboracer simulator_bringup_rviz.launch.py
+    ros2 launch autodrive_roboracer simulator_bringup_graphics.launch.py
     ```
 3. Using the simulator GUI menu panel, configure the following:
    
