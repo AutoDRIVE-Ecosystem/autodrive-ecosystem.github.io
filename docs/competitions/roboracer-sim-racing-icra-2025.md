@@ -196,7 +196,7 @@ Registered teams are added to the following table:
 | 19      | SUST Autodrive            | Abul Bashar Raz               | Shahjalal University of Science and Technology | Bangladesh                      |
 | 20      | Beep Beep                 | Jeremy Seyssaud               | Personal                                  | France                               |
 | 21      | Circuit Breakers          | Thanushraam Suresh Kumar<br/>Dhruv Pathak<br/>Atharva Patil | University of Colorado, Boulder | United States of America (USA) |
-| 22      | Mamba                     | Hariharan Ravichandran<br/>Dhruv Pathak<br/>Atharva Patil | Personal      | United States of America (USA)       |
+| 22      | Mamba                     | Hariharan Ravichandran        | Personal                                  | United States of America (USA)       |
 | 23      | Racer X                   | Jonathan Nixon<br/>Roberto Ligeralde | Autonomous Racing at Penn          | United States of America (USA)       |
 | 24      | IDEA_LAB                  | Ji-Hong Park<br/>Kim Ju-Young<br/>Chanki Kim<br/>Sujin Park<br/>Se Yeon Lee | Gyeongsang National University | South Korea |
 | 25      | Abdulrahman Mahmoud       | Abdulrahman Mahmoud           | Personal                                  | Egypt                                |
