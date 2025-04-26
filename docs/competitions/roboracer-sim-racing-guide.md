@@ -559,7 +559,7 @@ Particularly, each team is expected to submit a containerized version of their a
 </div>
 
 <p align="justify">
-It is possible to run the simulator and devkit on two separate computing nodes (e.g. two different PCs) connected via a common network. The benefit of this approach is workload distribution by isolating the two computing processes, thereby gaining higher performance. It is further possible to run the devkit on a physical RoboRacer vehicle (using the Jetson SBC onboard) and connect it to the PC running AutoDRIVE Simulator as a hardware-in-the-loop (HIL) setup.
+It is possible to run the simulator and devkit on two separate computing nodes (e.g., two different PCs) connected via a common network (wired or wireless). In order to establish communication between the simulator and devkit, enter the IP address of the machine running the devkit into the GUI or CLI of the simulator. The port number could be left to its default value of `4567` unless it is occupied by some other process that cannot be terminated (in such a case, modify the port number within the devkit and pass it via the GUI or CLI of the simulator as well). The benefit of this approach is workload distribution by isolating the two computing processes, thereby gaining better performance. It is further possible to run the devkit on a physical RoboRacer vehicle (using the Jetson SBC onboard) and connect it to the PC running AutoDRIVE Simulator as a hardware-in-the-loop (HIL) setup.
 </p>
 
 !!! tip
