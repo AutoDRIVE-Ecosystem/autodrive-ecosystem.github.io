@@ -189,7 +189,7 @@ Registered teams are added to the following table:
 | 12      | CarGoesVroom              | WenYang Lim                   | Personal                                  | Malaysia                             |
 | 13      | Autobots                  | Shubham Barge<br/>Anshuman Jena<br/>Saivamshi Jilla | Personal            | India                                |
 | 14      | Baby Driver               | Mason Notz<br/>Pallavi Kulkarni | Personal                                | United States of America (USA)       |
-| 15      | TURTLEBOT                 | Jit Ern Lim<br/>Dustin Lim    | Personal                                  | Malaysia & Indonesia                 |
+| 15      | TURTLEBOT                 | Jit Ern Lim<br/>Dustin Lim    | Personal                                  | Malaysia, Indonesia                  |
 | 16      | Cair's                    | Siddhant Diwaker<br/>Chirag Makwana | Personal                            | India                                |
 | 17      | BONG_RACERS               | Srinjoy Ganguly<br/>Pritish Saha<br/>Srijit Das | Personal                | India                                |
 | 18      | AA Lab                    | Taha Kocyigit<br/>Omer Geyikci | Bogazici University                      | Turkiye                              |
@@ -219,7 +219,7 @@ Registered teams are added to the following table:
 | 42      | Overtechnologia           | Aditya Paul                   | Personal                                  | India                                |
 | 43      | Autonomous Ground Vehicle | Swaminathan S K<br/>Shreyansh Kansal<br/>Daksh Yadav<br/>Ninaad Desai<br/>Rohan Singh<br/>Sandip Das<br/>Utsab Karan<br/>Varun Thirupathy<br/>Aditya Srivastava<br/>Sreyas Venkataraman | Indian Institute of Technology, Kharagpur | India |
 | 44      | CAVREL-UCF                | Israel Charles<br/>Babak Soorchaei<br/>Devin Hunter<br/>Yaser Fallah | University of Central Florida | United States of America (USA) |
-| 45      | Autoware Aces             | Po-Jen Wang<br/>Tran Huu Nhat Huy<br/>Alexander Kalmykov | Autoware Foundation | Japan & United States of America (USA) |
+| 45      | Autoware Aces             | Po-Jen Wang<br/>Tran Huu Nhat Huy<br/>Alexander Kalmykov<br/>Atanasko Boris Mitrev | Autoware Foundation | United States of America (USA), Japan, Russia, North Macedonia |
 | 46      | Ashesi ARCLab             | Emmanuel Korankye<br/>William Akuffo<br/>Joshua Nti<br/>Reginald Andrew Sai-Obadai<br/>Baron Afutu<br/>Joel Osei-Asamoah<br/>Kobena Enyam<br/>Samuel Akwensivie<br/>Appenteng Adjepong<br/>Desmond Hammond | Ashesi University | Ghana |
 | 47      | QuillKraft                | Aryan Iyer                    | Indian Institute of Technology, Bombay    | India                                |
 | 48      | PowerZero                 | Ramana Botta<br/>Venkat Prasad | Personal                                 | India                                |
