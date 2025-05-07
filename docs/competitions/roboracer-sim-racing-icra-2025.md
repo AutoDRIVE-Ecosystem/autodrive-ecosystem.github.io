@@ -274,8 +274,32 @@ Use the secure form below to make your team's submission for Phase 2 (Final Race
 **Phase 1: Qualification**
 
 <p align="justify">
-To be announced on May 05, 2025.
+The following teams have qualified for the final time-attack race. Here are the official standings:
 </p>
+
+| RANK    | TEAM NAME                       | RACE TIME       | COLLISION COUNT | ADJUSTED RACE TIME | BEST LAP TIME |
+|:--------|:--------------------------------|:----------------|:----------------|:-------------------|:--------------|
+| 01      | 👏 Autonomous Ground Vehicle    | 67.86 s         | 0               | 67.86 s            | 6.77 s        |
+| 02      | 👏 VAUL                         | 71.30 s         | 0               | 71.30 s            | 7.06 s        |
+| 03      | 👏 Ctrl+Drift                   | 81.32 s         | 0               | 81.32 s            | 8.03 s        |
+| 04      | 👏 Ashesi ARCLab                | 82.02 s         | 0               | 82.02 s            | 8.12 s        |
+| 05      | 👏 ICPS                         | 82.70 s         | 0               | 82.70 s            | 8.24 s        |
+| 06      | 👏 Escuderia Poliposition       | 75.18 s         | 1               | 85.18 s            | 7.40 s        |
+| 07      | 👏 TURTLEBOT                    | 84.48 s         | 1               | 94.48 s            | 8.03 s        |
+| 08      | 👏 IDEA_LAB                     | 95.12 s         | 0               | 95.12 s            | 9.35 s        |
+| 09      | 👏 UO Autonomous Drive          | 81.37 s         | 2               | 101.37 s           | 8.01 s        |
+| 10      | 👏 Chasing Cop Car              | 90.97 s         | 2               | 110.97 s           | 9.04 s        |
+| 11      | 👏 Racer X                      | 97.65 s         | 3               | 127.65 s           | 9.57 s        |
+| 12      | 👏 Zancle E-Drive               | 128.71 s        | 0               | 128.71 s           | 12.69 s       |
+| 13      | 👏 Mamba                        | 118.86 s        | 1               | 128.86 s           | 11.79 s       |
+| 14      | 👏 WARRacing                    | 128.76 s        | 1               | 138.76 s           | 12.79 s       |
+| 15      | 👏 MMS Autonomous               | 120.25 s        | 3               | 150.25 s           | 11.74 s       |
+| 16      | 👏 RUN-RUN-ChuraTaro            | 94.35 s         | 6               | 154.35 s           | 8.89 s        |
+| 17      | 👏 Kanka                        | 141.43 s        | 2               | 161.43 s           | 13.86 s       |
+| 18      | 👏 Autoware Aces                | 71.14 s         | 10              | 171.14 s           | 6.89 s        |
+| 19      | 👏 bracavisionai                | 187.69 s        | 1               | 197.69 s           | 18.56 s       |
+| 20      | 👏 Bushra AlShehhi              | 226.40 s        | 1               | 236.40 s           | 22.26 s       |
+| 21      | 👏 ESL                          | 290.78 s        | 1               | 300.78 s           | 28.97 s       |
 
 **Phase 2: Competition**
 
