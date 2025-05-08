@@ -289,9 +289,9 @@ The following teams have qualified for the final time-attack race. Here are the 
 | 08      | 👏 IDEA_LAB                     | 95.12 s         | 0               | 95.12 s            | 9.35 s        |
 | 09      | 👏 UO Autonomous Drive          | 81.37 s         | 2               | 101.37 s           | 8.01 s        |
 | 10      | 👏 Chasing Cop Car              | 90.97 s         | 2               | 110.97 s           | 9.04 s        |
-| 11      | 👏 Racer X                      | 97.65 s         | 3               | 127.65 s           | 9.57 s        |
-| 12      | 👏 Zancle E-Drive               | 128.71 s        | 0               | 128.71 s           | 12.69 s       |
-| 13      | 👏 Mamba                        | 118.86 s        | 1               | 128.86 s           | 11.79 s       |
+| 11      | 👏 Mamba                        | 118.15 s        | 0               | 118.15 s           | 11.79 s       |
+| 12      | 👏 Racer X                      | 97.65 s         | 3               | 127.65 s           | 9.57 s        |
+| 13      | 👏 Zancle E-Drive               | 128.71 s        | 0               | 128.71 s           | 12.69 s       |
 | 14      | 👏 WARRacing                    | 128.76 s        | 1               | 138.76 s           | 12.79 s       |
 | 15      | 👏 MMS Autonomous               | 120.25 s        | 3               | 150.25 s           | 11.74 s       |
 | 16      | 👏 RUN-RUN-ChuraTaro            | 94.35 s         | 6               | 154.35 s           | 8.89 s        |
