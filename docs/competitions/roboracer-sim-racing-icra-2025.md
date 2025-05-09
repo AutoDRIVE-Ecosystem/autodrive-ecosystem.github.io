@@ -111,9 +111,9 @@ We recommend all the teams interested in participating in the RoboRacer Sim Raci
 
     Download base container images for the competition and start developing your algorithms.
 
-    [:material-open-in-new: **AutoDRIVE Simulator:**](https://hub.docker.com/r/autodriveecosystem/autodrive_roboracer_sim) [`explore`](https://hub.docker.com/layers/autodriveecosystem/autodrive_roboracer_sim/2025-icra-explore/images/sha256-71556ca735c7d3726150495bae8ffe2093b4c3e6441420d595906f076422bb58) | [`practice`](https://hub.docker.com/layers/autodriveecosystem/autodrive_roboracer_sim/2025-icra-practice/images/sha256-b047b7345d9dd81ef4c1faf86a94dd62f4022c78cc8c1693aee39abda0f6208c) | `compete`
+    [:material-open-in-new: **AutoDRIVE Simulator:**](https://hub.docker.com/r/autodriveecosystem/autodrive_roboracer_sim) [`explore`](https://hub.docker.com/layers/autodriveecosystem/autodrive_roboracer_sim/2025-icra-explore/images/sha256-71556ca735c7d3726150495bae8ffe2093b4c3e6441420d595906f076422bb58) | [`practice`](https://hub.docker.com/layers/autodriveecosystem/autodrive_roboracer_sim/2025-icra-practice/images/sha256-b047b7345d9dd81ef4c1faf86a94dd62f4022c78cc8c1693aee39abda0f6208c) | [`compete`]()
 
-    [:material-open-in-new: **AutoDRIVE Devkit:**](https://hub.docker.com/r/autodriveecosystem/autodrive_roboracer_api) [`explore`](https://hub.docker.com/layers/autodriveecosystem/autodrive_roboracer_api/2025-icra-explore/images/sha256-5cca86a81db106773685b41b42301adeeb7721c91cde3cf39e9cf9537b1bdcfe) | [`practice`](https://hub.docker.com/layers/autodriveecosystem/autodrive_roboracer_api/2025-icra-practice/images/sha256-d086c01fa7f6025da18a6b73295e98b62bb6b6ceb9c86fa07a172135c3ceddce) | `compete`
+    [:material-open-in-new: **AutoDRIVE Devkit:**](https://hub.docker.com/r/autodriveecosystem/autodrive_roboracer_api) [`explore`](https://hub.docker.com/layers/autodriveecosystem/autodrive_roboracer_api/2025-icra-explore/images/sha256-5cca86a81db106773685b41b42301adeeb7721c91cde3cf39e9cf9537b1bdcfe) | [`practice`](https://hub.docker.com/layers/autodriveecosystem/autodrive_roboracer_api/2025-icra-practice/images/sha256-d086c01fa7f6025da18a6b73295e98b62bb6b6ceb9c86fa07a172135c3ceddce) | [`compete`]()
 
 -   :material-monitor:{ .lg .middle } __Local Resources__
 
@@ -127,7 +127,7 @@ We recommend all the teams interested in participating in the RoboRacer Sim Raci
 
     `practice`&nbsp; [:simple-linux: Linux](https://github.com/AutoDRIVE-Ecosystem/AutoDRIVE-RoboRacer-Sim-Racing/releases/download/2025-icra/autodrive_simulator_practice_linux.zip) | [:material-microsoft: Windows](https://github.com/AutoDRIVE-Ecosystem/AutoDRIVE-RoboRacer-Sim-Racing/releases/download/2025-icra/autodrive_simulator_practice_windows.zip) | [:simple-apple: macOS](https://github.com/AutoDRIVE-Ecosystem/AutoDRIVE-RoboRacer-Sim-Racing/releases/download/2025-icra/autodrive_simulator_practice_macos.zip)
 
-    `compete`&nbsp;&nbsp;&nbsp; :simple-linux: Linux | :material-microsoft: Windows | :simple-apple: macOS
+    `compete`&nbsp;&nbsp;&nbsp; [:simple-linux: Linux](https://github.com/AutoDRIVE-Ecosystem/AutoDRIVE-RoboRacer-Sim-Racing/releases/download/2025-icra/autodrive_simulator_compete_linux.zip) | [:material-microsoft: Windows](https://github.com/AutoDRIVE-Ecosystem/AutoDRIVE-RoboRacer-Sim-Racing/releases/download/2025-icra/autodrive_simulator_compete_windows.zip) | [:simple-apple: macOS](https://github.com/AutoDRIVE-Ecosystem/AutoDRIVE-RoboRacer-Sim-Racing/releases/download/2025-icra/autodrive_simulator_compete_macos.zip)
 
     **AutoDRIVE Devkit:**
     
