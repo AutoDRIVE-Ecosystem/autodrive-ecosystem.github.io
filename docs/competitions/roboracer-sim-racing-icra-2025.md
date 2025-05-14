@@ -54,11 +54,11 @@ Since the vehicle, the sensors, the simulator, and the devkit are standardized, 
 | Feb 20, 2025                      | Registration Opens             |
 | Apr 15, 2025                      | Registration Closes            |
 | Apr 16, 2025 (5:30 – 6:30 PM EDT) | [Online Orientation](https://clemson.zoom.us/j/94807115758) |
-| May 03 – May 04, 2025             | Qualification Round            |
+| May 03 – May 05, 2025             | Qualification Round            |
 | May 06, 2025                      | Qualification Results Declared |
 | May 08, 2025                      | Competition Track Released     |
-| May 11 – May 12, 2025             | Final Race                     |
-| May 13, 2025                      | Competition Results Declared   |
+| May 11 – May 13, 2025             | Final Race                     |
+| May 14, 2025                      | Competition Results Declared   |
 
 <p align="justify">
 Following is a brief summary of each event:
@@ -304,5 +304,5 @@ The following teams have qualified for the final time-attack race. Here are the 
 **Phase 2: Competition**
 
 <p align="justify">
-To be announced on May 12, 2025.
+To be announced on May 14, 2025.
 </p>
