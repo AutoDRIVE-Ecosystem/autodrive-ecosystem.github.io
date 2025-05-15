@@ -304,5 +304,23 @@ The following teams have qualified for the final time-attack race. Here are the 
 **Phase 2: Competition**
 
 <p align="justify">
-To be announced on May 14, 2025.
+The following teams successfully finished the final time-attack race. Here are the official standings:
 </p>
+
+| RANK    | TEAM NAME                       | RACE TIME       | COLLISION COUNT | ADJUSTED RACE TIME | BEST LAP TIME |
+|:--------|:--------------------------------|:----------------|:----------------|:-------------------|:--------------|
+| 01      | 🥇 VAUL                         | 111.46 s        | 0               | 111.46 s           | 11.28 s       |
+| 02      | 🥈 Autoware Aces                | 122.16 s        | 0               | 122.16 s           | 12.08 s       |
+| 03      | 🥉 Kanka                        | 129.28 s        | 0               | 129.28 s           | 12.76 s       |
+| 04      | 👏 UO Autonomous Drive          | 137.42 s        | 0               | 137.42 s           | 13.70 s       |
+| 05      | 👏 ESL                          | 155.81 s        | 0               | 155.81 s           | 15.52 s       |
+| 06      | 👏 IDEA_LAB                     | 193.24 s        | 0               | 193.24 s           | 18.33 s       |
+| 07      | 👏 Ashesi ARCLab                | 188.67 s        | 2               | 208.67 s           | 18.67 s       |
+| 08      | 👏 bracavisionai                | 221.03 s        | 0               | 221.03 s           | 22.06 s       |
+| 09      | 👏 Autonomous Ground Vehicle    | 226.71 s        | 0               | 226.71 s           | 22.54 s       |
+| 10      | 👏 Zancle E-Drive               | 149.19 s        | 10              | 249.19 s           | 14.81 s       |
+| 10      | 👏 RUN-RUN-ChuraTaro            | 275.71 s        | 0               | 275.71 s           | 27.36 s       |
+| 12      | 👏 Escuderia Poliposition       | 191.05 s        | 10              | 291.05 s           | 19.05 s       |
+| 13      | 👏 ICPS                         | 297.31 s        | 4               | 337.31 s           | 29.02 s       |
+| 14      | 👏 Ctrl+Drift                   | 287.98 s        | 10              | 387.98 s           | 28.74 s       |
+| 15      | 👏 Bushra AlShehhi              | 395.36 s        | 1               | 405.36 s           | 37.76 s       |
