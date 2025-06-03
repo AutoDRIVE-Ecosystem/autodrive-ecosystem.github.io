@@ -277,29 +277,29 @@ Use the secure form below to make your team's submission for Phase 2 (Final Race
 The following teams have qualified for the final time-attack race. Here are the official standings:
 </p>
 
-| RANK    | TEAM NAME                       | RACE TIME       | COLLISION COUNT | ADJUSTED RACE TIME | BEST LAP TIME |
-|:--------|:--------------------------------|:----------------|:----------------|:-------------------|:--------------|
-| 01      | 👏 Autonomous Ground Vehicle    | 67.86 s         | 0               | 67.86 s            | 6.77 s        |
-| 02      | 👏 VAUL                         | 71.30 s         | 0               | 71.30 s            | 7.06 s        |
-| 03      | 👏 Ctrl+Drift                   | 81.32 s         | 0               | 81.32 s            | 8.03 s        |
-| 04      | 👏 Ashesi ARCLab                | 82.02 s         | 0               | 82.02 s            | 8.12 s        |
-| 05      | 👏 ICPS                         | 82.70 s         | 0               | 82.70 s            | 8.24 s        |
-| 06      | 👏 Escuderia Poliposition       | 75.18 s         | 1               | 85.18 s            | 7.40 s        |
-| 07      | 👏 TURTLEBOT                    | 84.48 s         | 1               | 94.48 s            | 8.03 s        |
-| 08      | 👏 IDEA_LAB                     | 95.12 s         | 0               | 95.12 s            | 9.35 s        |
-| 09      | 👏 UO Autonomous Drive          | 81.37 s         | 2               | 101.37 s           | 8.01 s        |
-| 10      | 👏 Chasing Cop Car              | 90.97 s         | 2               | 110.97 s           | 9.04 s        |
-| 11      | 👏 Mamba                        | 118.15 s        | 0               | 118.15 s           | 11.79 s       |
-| 12      | 👏 Racer X                      | 97.65 s         | 3               | 127.65 s           | 9.57 s        |
-| 13      | 👏 Zancle E-Drive               | 128.71 s        | 0               | 128.71 s           | 12.69 s       |
-| 14      | 👏 WARRacing                    | 128.76 s        | 1               | 138.76 s           | 12.79 s       |
-| 15      | 👏 MMS Autonomous               | 120.25 s        | 3               | 150.25 s           | 11.74 s       |
-| 16      | 👏 RUN-RUN-ChuraTaro            | 94.35 s         | 6               | 154.35 s           | 8.89 s        |
-| 17      | 👏 Kanka                        | 141.43 s        | 2               | 161.43 s           | 13.86 s       |
-| 18      | 👏 Autoware Aces                | 71.14 s         | 10              | 171.14 s           | 6.89 s        |
-| 19      | 👏 bracavisionai                | 187.69 s        | 1               | 197.69 s           | 18.56 s       |
-| 20      | 👏 Bushra AlShehhi              | 226.40 s        | 1               | 236.40 s           | 22.26 s       |
-| 21      | 👏 ESL                          | 290.78 s        | 1               | 300.78 s           | 28.97 s       |
+| RANK    | TEAM NAME                       | RACE TIME       | COLLISION COUNT | ADJUSTED RACE TIME | BEST LAP TIME | VIDEO                                                                     |
+|:--------|:--------------------------------|:----------------|:----------------|:-------------------|:--------------|:--------------------------------------------------------------------------|
+| 01      | 👏 Autonomous Ground Vehicle    | 67.86 s         | 0               | 67.86 s            | 6.77 s        | [:material-youtube: YouTube](https://www.youtube.com/watch?v=VKbfRomFJDs) |
+| 02      | 👏 VAUL                         | 71.30 s         | 0               | 71.30 s            | 7.06 s        | [:material-youtube: YouTube](https://www.youtube.com/watch?v=XvATpKFpMTk) |
+| 03      | 👏 Ctrl+Drift                   | 81.32 s         | 0               | 81.32 s            | 8.03 s        | [:material-youtube: YouTube](https://www.youtube.com/watch?v=AmnK0JQ3ayQ) |
+| 04      | 👏 Ashesi ARCLab                | 82.02 s         | 0               | 82.02 s            | 8.12 s        | [:material-youtube: YouTube](https://www.youtube.com/watch?v=atS4VkU-NDc) |
+| 05      | 👏 ICPS                         | 82.70 s         | 0               | 82.70 s            | 8.24 s        | [:material-youtube: YouTube](https://www.youtube.com/watch?v=PafZhFbtwP8) |
+| 06      | 👏 Escuderia Poliposition       | 75.18 s         | 1               | 85.18 s            | 7.40 s        | [:material-youtube: YouTube](https://www.youtube.com/watch?v=V7Xzswo91Ic) |
+| 07      | 👏 TURTLEBOT                    | 84.48 s         | 1               | 94.48 s            | 8.03 s        | [:material-youtube: YouTube](https://www.youtube.com/watch?v=pxmvkxcWw7c) |
+| 08      | 👏 IDEA_LAB                     | 95.12 s         | 0               | 95.12 s            | 9.35 s        | [:material-youtube: YouTube](https://www.youtube.com/watch?v=XdkDexM9oWE) |
+| 09      | 👏 UO Autonomous Drive          | 81.37 s         | 2               | 101.37 s           | 8.01 s        | [:material-youtube: YouTube](https://www.youtube.com/watch?v=k0GN7XYCuxU) |
+| 10      | 👏 Chasing Cop Car              | 90.97 s         | 2               | 110.97 s           | 9.04 s        | [:material-youtube: YouTube](https://www.youtube.com/watch?v=Q2wCUHkaB3c) |
+| 11      | 👏 Mamba                        | 118.15 s        | 0               | 118.15 s           | 11.79 s       | [:material-youtube: YouTube](https://www.youtube.com/watch?v=p8Qr2_OBiQU) |
+| 12      | 👏 Racer X                      | 97.65 s         | 3               | 127.65 s           | 9.57 s        | [:material-youtube: YouTube](https://www.youtube.com/watch?v=gAqO3CEhe4c) |
+| 13      | 👏 Zancle E-Drive               | 128.71 s        | 0               | 128.71 s           | 12.69 s       | [:material-youtube: YouTube](https://www.youtube.com/watch?v=9hFu3PFkdEc) |
+| 14      | 👏 WARRacing                    | 128.76 s        | 1               | 138.76 s           | 12.79 s       | [:material-youtube: YouTube](https://www.youtube.com/watch?v=LBekcSYnj1s) |
+| 15      | 👏 MMS Autonomous               | 120.25 s        | 3               | 150.25 s           | 11.74 s       | [:material-youtube: YouTube](https://www.youtube.com/watch?v=MWCyzOFxg6I) |
+| 16      | 👏 RUN-RUN-ChuraTaro            | 94.35 s         | 6               | 154.35 s           | 8.89 s        | [:material-youtube: YouTube](https://www.youtube.com/watch?v=evYS4Ko18vo) |
+| 17      | 👏 Kanka                        | 141.43 s        | 2               | 161.43 s           | 13.86 s       | [:material-youtube: YouTube](https://www.youtube.com/watch?v=Qen9MtQQS3Q) |
+| 18      | 👏 Autoware Aces                | 71.14 s         | 10              | 171.14 s           | 6.89 s        | [:material-youtube: YouTube](https://www.youtube.com/watch?v=0xlkFJhtXHY) |
+| 19      | 👏 bracavisionai                | 187.69 s        | 1               | 197.69 s           | 18.56 s       | [:material-youtube: YouTube](https://www.youtube.com/watch?v=fguceh6xZ-k) |
+| 20      | 👏 Bushra AlShehhi              | 226.40 s        | 1               | 236.40 s           | 22.26 s       | [:material-youtube: YouTube](https://www.youtube.com/watch?v=mci9wVYnv-w) |
+| 21      | 👏 ESL                          | 290.78 s        | 1               | 300.78 s           | 28.97 s       | [:material-youtube: YouTube](https://www.youtube.com/watch?v=lb_aRrXptFM) |
 
 **Phase 2: Competition**
 
@@ -307,20 +307,20 @@ The following teams have qualified for the final time-attack race. Here are the 
 The following teams successfully finished the final time-attack race. Here are the official standings:
 </p>
 
-| RANK    | TEAM NAME                       | RACE TIME       | COLLISION COUNT | ADJUSTED RACE TIME | BEST LAP TIME |
-|:--------|:--------------------------------|:----------------|:----------------|:-------------------|:--------------|
-| 01      | 🥇 VAUL                         | 111.46 s        | 0               | 111.46 s           | 11.28 s       |
-| 02      | 🥈 Autoware Aces                | 122.16 s        | 0               | 122.16 s           | 12.08 s       |
-| 03      | 🥉 Kanka                        | 129.28 s        | 0               | 129.28 s           | 12.76 s       |
-| 04      | 👏 UO Autonomous Drive          | 137.42 s        | 0               | 137.42 s           | 13.70 s       |
-| 05      | 👏 ESL                          | 155.81 s        | 0               | 155.81 s           | 15.52 s       |
-| 06      | 👏 IDEA_LAB                     | 193.24 s        | 0               | 193.24 s           | 18.33 s       |
-| 07      | 👏 Ashesi ARCLab                | 188.67 s        | 2               | 208.67 s           | 18.67 s       |
-| 08      | 👏 bracavisionai                | 221.03 s        | 0               | 221.03 s           | 22.06 s       |
-| 09      | 👏 Autonomous Ground Vehicle    | 226.71 s        | 0               | 226.71 s           | 22.54 s       |
-| 10      | 👏 Zancle E-Drive               | 149.19 s        | 10              | 249.19 s           | 14.81 s       |
-| 10      | 👏 RUN-RUN-ChuraTaro            | 275.71 s        | 0               | 275.71 s           | 27.36 s       |
-| 12      | 👏 Escuderia Poliposition       | 191.05 s        | 10              | 291.05 s           | 19.05 s       |
-| 13      | 👏 ICPS                         | 297.31 s        | 4               | 337.31 s           | 29.02 s       |
-| 14      | 👏 Ctrl+Drift                   | 287.98 s        | 10              | 387.98 s           | 28.74 s       |
-| 15      | 👏 Bushra AlShehhi              | 395.36 s        | 1               | 405.36 s           | 37.76 s       |
+| RANK    | TEAM NAME                       | RACE TIME       | COLLISION COUNT | ADJUSTED RACE TIME | BEST LAP TIME | VIDEO                                                                     |
+|:--------|:--------------------------------|:----------------|:----------------|:-------------------|:--------------|:--------------------------------------------------------------------------|
+| 01      | 🥇 VAUL                         | 111.46 s        | 0               | 111.46 s           | 11.28 s       | [:material-youtube: YouTube](https://www.youtube.com/watch?v=oZ2VSZ34sW0) |
+| 02      | 🥈 Autoware Aces                | 122.16 s        | 0               | 122.16 s           | 12.08 s       | [:material-youtube: YouTube](https://www.youtube.com/watch?v=oaA02UnakHA) |
+| 03      | 🥉 Kanka                        | 129.28 s        | 0               | 129.28 s           | 12.76 s       | [:material-youtube: YouTube](https://www.youtube.com/watch?v=XbWIewaOPfM) |
+| 04      | 👏 UO Autonomous Drive          | 137.42 s        | 0               | 137.42 s           | 13.70 s       | [:material-youtube: YouTube](https://www.youtube.com/watch?v=tarOUcH42_8) |
+| 05      | 👏 ESL                          | 155.81 s        | 0               | 155.81 s           | 15.52 s       | [:material-youtube: YouTube](https://www.youtube.com/watch?v=AkMqvP502co) |
+| 06      | 👏 IDEA_LAB                     | 193.24 s        | 0               | 193.24 s           | 18.33 s       | [:material-youtube: YouTube](https://www.youtube.com/watch?v=7dDAAQbR4dY) |
+| 07      | 👏 Ashesi ARCLab                | 188.67 s        | 2               | 208.67 s           | 18.67 s       | [:material-youtube: YouTube](https://www.youtube.com/watch?v=sRbtkivA7tY) |
+| 08      | 👏 bracavisionai                | 221.03 s        | 0               | 221.03 s           | 22.06 s       | [:material-youtube: YouTube](https://www.youtube.com/watch?v=IHeRv5ammHU) |
+| 09      | 👏 Autonomous Ground Vehicle    | 226.71 s        | 0               | 226.71 s           | 22.54 s       | [:material-youtube: YouTube](https://www.youtube.com/watch?v=U9_lRkEmCtQ) |
+| 10      | 👏 Zancle E-Drive               | 149.19 s        | 10              | 249.19 s           | 14.81 s       | [:material-youtube: YouTube](https://www.youtube.com/watch?v=Wy4rXx_UaUk) |
+| 10      | 👏 RUN-RUN-ChuraTaro            | 275.71 s        | 0               | 275.71 s           | 27.36 s       | [:material-youtube: YouTube](https://www.youtube.com/watch?v=VujkuVcB3eg) |
+| 12      | 👏 Escuderia Poliposition       | 191.05 s        | 10              | 291.05 s           | 19.05 s       | [:material-youtube: YouTube](https://www.youtube.com/watch?v=dkC1mroUt5k) |
+| 13      | 👏 ICPS                         | 297.31 s        | 4               | 337.31 s           | 29.02 s       | [:material-youtube: YouTube](https://www.youtube.com/watch?v=YMzhB9NgW7E) |
+| 14      | 👏 Ctrl+Drift                   | 287.98 s        | 10              | 387.98 s           | 28.74 s       | [:material-youtube: YouTube](https://www.youtube.com/watch?v=bL3KXh52gs4) |
+| 15      | 👏 Bushra AlShehhi              | 395.36 s        | 1               | 405.36 s           | 37.76 s       | [:material-youtube: YouTube](https://www.youtube.com/watch?v=gFaLzf5wjSA) |
