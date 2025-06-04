@@ -324,3 +324,9 @@ The following teams successfully finished the final time-attack race. Here are t
 | 13      | 👏 ICPS                         | 297.31 s        | 4               | 337.31 s           | 29.02 s       | [:material-youtube: YouTube](https://www.youtube.com/watch?v=YMzhB9NgW7E) |
 | 14      | 👏 Ctrl+Drift                   | 287.98 s        | 10              | 387.98 s           | 28.74 s       | [:material-youtube: YouTube](https://www.youtube.com/watch?v=bL3KXh52gs4) |
 | 15      | 👏 Bushra AlShehhi              | 395.36 s        | 1               | 405.36 s           | 37.76 s       | [:material-youtube: YouTube](https://www.youtube.com/watch?v=gFaLzf5wjSA) |
+
+## Summary
+
+<div style="display: flex; justify-content: center;">
+<iframe style="aspect-ratio: 16/9; width: 100% !important;" src="https://www.youtube.com/embed/oObgg_MCU4U?si=PoG8ilw_ovGh71Dj" title="RoboRacer Sim Racing League @ ICRA 2025" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
