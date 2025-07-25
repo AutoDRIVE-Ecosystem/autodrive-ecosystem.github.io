@@ -157,7 +157,7 @@ This page hosts research outcomes that employ or contribute to the AutoDRIVE Eco
         ```
 
 !!! abstract ""
-    <a href="https://arxiv.org/abs/2401.11542"><img class="research-artifact" src="/../assets/images/research/Nigel Sim2Real Control - IEEE TMECH.png"></a>
+    <a href="https://arxiv.org/abs/2401.11542"><img class="research-artifact" src="/../assets/images/research/Nigel Sim2Real Control - T-MECH 2025.png"></a>
     <a href="https://arxiv.org/abs/2401.11542">
     <b>Nigel - Mechatronic Design and Robust Sim2Real Control of an Over-Actuated Autonomous Vehicle</b>
     </a>
@@ -268,28 +268,159 @@ This page hosts research outcomes that employ or contribute to the AutoDRIVE Eco
         ```
 
 !!! abstract ""
-    <a href="https://arxiv.org/abs/2403.10996"><img class="research-artifact" src="/../assets/images/research/Sim2Real MARL - ICRA 2025.png"></a>
+    <a href="https://arxiv.org/abs/2409.10347"><img class="research-artifact" src="/../assets/images/research/DTs Meet KO - ICRA 2025.png"></a>
+    <a href="https://arxiv.org/abs/2409.10347">
+    <b>Digital Twins Meet the Koopman Operator: Data-Driven Learning for Robust Autonomy</b>
+    </a>
+    <br/>
+    Chinmay Vilas Samak, Tanmay Vilas Samak, Ajinkya Joglekar, Umesh Vaidya, and Venkat Narayan Krovi
+    <br/>
+    <a href="https://arxiv.org/abs/2409.10347">
+    <i>IEEE International Conference on Robotics and Automation (ICRA)</i>
+    </a>
+    <br/>
+    <i>2025</i>
+    ??? quote "Citation"
+        ```bibtex
+        @misc{DTs-Meet-KO-2025,
+        author = {Chinmay Vilas Samak and Tanmay Vilas Samak and Ajinkya Joglekar and Umesh Vaidya and Venkat Krovi},
+        title = {Digital Twins Meet the Koopman Operator: Data-Driven Learning for Robust Autonomy},
+        year = {2025},
+        eprint = {2409.10347},
+        archivePrefix = {arXiv},
+        primaryClass = {cs.RO},
+        url = {https://arxiv.org/abs/2409.10347}
+        }
+        ```
+
+!!! abstract ""
+    <a href="https://arxiv.org/abs/2403.10996"><img class="research-artifact" src="/../assets/images/research/MRDT-MARL - RA-L 2025.png"></a>
     <a href="https://arxiv.org/abs/2403.10996">
-    <b>A Scalable and Parallelizable Digital Twin Framework for Sustainable Sim2Real Transition of Multi-Agent Reinforcement Learning Systems</b>
+    <b>Mixed-Reality Digital Twins: Leveraging the Physical and Virtual Worlds for Hybrid Sim2Real Transition of Multi-Agent Reinforcement Learning Policies</b>
     </a>
     <br/>
     Chinmay Vilas Samak, Tanmay Vilas Samak, and Venkat Narayan Krovi
     <br/>
-    <a href="https://arxiv.org/abs/2403.10996">
+    <a href="https://doi.org/10.1109/LRA.2025.3592085">
+    <i>IEEE Robotics and Automation Letters</i>
+    </a>
+    <br/>
+    <i>2025</i>
+    ??? quote "Citation"
+        ```bibtex
+        @article{MRDT-MARL-2025,
+        author={Samak, Chinmay and Samak, Tanmay and Krovi, Venkat},
+        journal={IEEE Robotics and Automation Letters}, 
+        title={Mixed-Reality Digital Twins: Leveraging the Physical and Virtual Worlds for Hybrid Sim2Real Transition of Multi-Agent Reinforcement Learning Policies}, 
+        year={2025},
+        volume={},
+        number={},
+        pages={1-8},
+        doi={10.1109/LRA.2025.3592085}
+        }
+        ```
+
+!!! abstract ""
+    <a href="https://arxiv.org/abs/2505.12661"><img class="research-artifact" src="/../assets/images/research/DTs in Cloud - IDETC-CIE 2025.png"></a>
+    <a href="https://arxiv.org/abs/2505.12661">
+    <b>Digital Twins in the Cloud: A Modular, Scalable and Interoperable Framework for Accelerating Verification and Validation of Autonomous Driving Solutions</b>
+    </a>
+    <br/>
+    Tanmay Vilas Samak, Chinmay Vilas Samak, Giovanni Martino, Pranav Nair, and Venkat Narayan Krovi
+    <br/>
+    <a href="https://arxiv.org/abs/2505.12661">
+    <i>ASME International Design Engineering Technical Conferences & Computers and Information in Engineering Conference (IDETC-CIE)</i>
+    </a>
+    <br/>
+    <i>2025</i>
+    ??? quote "Citation"
+        ```bibtex
+        @misc{DTs-in-Cloud-2025,
+        author = {Tanmay Vilas Samak and Chinmay Vilas Samak and Giovanni Martino and Pranav Nair and Venkat Krovi},
+        title = {Digital Twins in the Cloud: A Modular, Scalable and Interoperable Framework for Accelerating Verification and Validation of Autonomous Driving Solutions},
+        year = {2025},
+        eprint = {2505.12661},
+        archivePrefix = {arXiv},
+        primaryClass = {cs.RO},
+        url = {https://arxiv.org/abs/2505.12661}
+        }
+        ```
+
+!!! abstract ""
+    <a href="https://arxiv.org/abs/2503.13787"><img class="research-artifact" src="/../assets/images/research/Digital Engineering - MECC 2025.png"></a>
+    <a href="https://arxiv.org/abs/2503.13787">
+    <b>A Systematic Digital Engineering Approach to Verification & Validation of Autonomous Ground Vehicles in Off-Road Environments</b>
+    </a>
+    <br/>
+    Tanmay Vilas Samak, Chinmay Vilas Samak, Julia Brault, Cori Harber, Kirsten McCane, Jonathon Smereka, Mark Brudnak, David Gorsich, and Venkat Narayan Krovi
+    <br/>
+    <a href="https://arxiv.org/abs/2503.13787">
+    <i>Modeling, Estimation and Control Conference (MECC)</i>
+    </a>
+    <br/>
+    <i>2025</i>
+    ??? quote "Citation"
+        ```bibtex
+        @misc{Digital-Engineering-2025,
+        author = {Tanmay Vilas Samak and Chinmay Vilas Samak and Julia Brault and Cori Harber and Kirsten McCane and Jonathon Smereka and Mark Brudnak and David Gorsich and Venkat Krovi},
+        title = {A Systematic Digital Engineering Approach to Verification & Validation of Autonomous Ground Vehicles in Off-Road Environments},
+        year = {2025},
+        eprint = {2503.13787},
+        archivePrefix = {arXiv},
+        primaryClass = {cs.RO},
+        url = {https://arxiv.org/abs/2503.13787}
+        }
+        ```
+
+!!! abstract ""
+    <a href="https://arxiv.org/abs/2507.00319"><img class="research-artifact" src="/../assets/images/research/DTs Meet LLMs - Preprint 2025.png"></a>
+    <a href="https://arxiv.org/abs/2507.00319">
+    <b>When Digital Twins Meet Large Language Models: Realistic, Interactive, and Editable Simulation for Autonomous Driving</b>
+    </a>
+    <br/>
+    Tanmay Vilas Samak, Chinmay Vilas Samak, Bing Li, and Venkat Narayan Krovi
+    <br/>
+    <a href="https://arxiv.org/abs/2507.00319">
     <i>arXiv Preprint</i>
     </a>
     <br/>
-    <i>2024</i>
+    <i>2025</i>
     ??? quote "Citation"
         ```bibtex
-        @misc{Sim2Real-MARL-2024,
-        author = {Chinmay Vilas Samak and Tanmay Vilas Samak and Venkat Krovi},
-        title = {A Scalable and Parallelizable Digital Twin Framework for Sustainable Sim2Real Transition of Multi-Agent Reinforcement Learning Systems}, 
-        year = {2024},
-        eprint = {2403.10996},
+        @misc{DTs-Meet-LLMs-2025,
+        author = {Tanmay Vilas Samak and Chinmay Vilas Samak and Bing Li and Venkat Krovi},
+        title = {When Digital Twins Meet Large Language Models: Realistic, Interactive, and Editable Simulation for Autonomous Driving},
+        year = {2025},
+        eprint = {2507.00319},
         archivePrefix = {arXiv},
         primaryClass = {cs.RO},
-        url = {https://arxiv.org/abs/2403.10996}
+        url = {https://arxiv.org/abs/2507.00319}
+        }
+        ```
+
+!!! abstract ""
+    <a href="https://arxiv.org/abs/2507.00236"><img class="research-artifact" src="/../assets/images/research/Sim2Real Diffusion - Preprint 2025.png"></a>
+    <a href="https://arxiv.org/abs/2507.00236">
+    <b>Sim2Real Diffusion: Learning Cross-Domain Adaptive Representations for Transferable Autonomous Driving</b>
+    </a>
+    <br/>
+    Chinmay Vilas Samak, Tanmay Vilas Samak, Bing Li, and Venkat Narayan Krovi
+    <br/>
+    <a href="https://arxiv.org/abs/2507.00236">
+    <i>arXiv Preprint</i>
+    </a>
+    <br/>
+    <i>2025</i>
+    ??? quote "Citation"
+        ```bibtex
+        @misc{Sim2Real-Diffusion-2025,
+        author = {Chinmay Vilas Samak and Tanmay Vilas Samak and Bing Li and Venkat Krovi},
+        title = {Sim2Real Diffusion: Learning Cross-Domain Adaptive Representations for Transferable Autonomous Driving},
+        year = {2025},
+        eprint = {2507.00236},
+        archivePrefix = {arXiv},
+        primaryClass = {cs.RO},
+        url = {https://arxiv.org/abs/2507.00236}
         }
         ```
 
@@ -365,12 +496,12 @@ This page hosts research outcomes that employ or contribute to the AutoDRIVE Eco
     ??? quote "Citation"
         ```bibtex
         @misc{AutoDRIVE-Ecosystem-2021,
-        author={Tanmay Vilas Samak and Chinmay Vilas Samak},
-        title={AutoDRIVE -- Technical Report},
-        year={2022},
-        eprint={2211.08475},
-        archivePrefix={arXiv},
-        primaryClass={cs.RO},
-        url={https://arxiv.org/abs/2211.08475}
+        author = {Tanmay Vilas Samak and Chinmay Vilas Samak},
+        title = {AutoDRIVE -- Technical Report},
+        year = {2022},
+        eprint = {2211.08475},
+        archivePrefix = {arXiv},
+        primaryClass = {cs.RO},
+        url = {https://arxiv.org/abs/2211.08475}
         }
         ```
