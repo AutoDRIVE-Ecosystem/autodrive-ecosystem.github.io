@@ -1585,6 +1585,11 @@
             "query-input": "required name=search_term_string"
         }
     }</script>
+    <script>
+    if (window.app && typeof window.app.initialize === 'function') {
+        window.app.initialize();
+    }
+    </script>
 </body>
 
 </html>
