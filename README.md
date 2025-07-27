@@ -28,3 +28,5 @@ AutoDRIVE is envisioned to be an integrated platform for autonomous driving rese
 ## Deployment
 
 The deployment is live at https://autodrive-ecosystem.github.io
+
+![](Preview.png)
