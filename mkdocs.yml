@@ -41,8 +41,8 @@ theme:
     - navigation.top
     - navigation.tracking
     - search.highlight
-    - search.share
     - search.suggest
+    # - search.share
     - toc.follow
     - toc.integrate
   language: en
