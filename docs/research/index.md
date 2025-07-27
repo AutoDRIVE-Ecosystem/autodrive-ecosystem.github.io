@@ -240,6 +240,34 @@ This page hosts research outcomes that employ or contribute to the AutoDRIVE Eco
         ```
 
 !!! abstract ""
+    <a href="http://dx.doi.org/10.13140/RG.2.2.32033.52323"><img class="research-artifact" src="/../assets/images/research/FSRL R&B - IROS 2024.png"></a>
+    <a href="http://dx.doi.org/10.13140/RG.2.2.32033.52323">
+    <b>F1TENTH Sim Racing League: An Open-Source Competition Framework for Promoting Reproducibility and Benchmarking in Autonomous Driving</b>
+    </a>
+    <br/>
+    Tanmay Vilas Samak, Chinmay Vilas Samak, and Venkat Narayan Krovi
+    <br/>
+    <a href="http://dx.doi.org/10.13140/RG.2.2.32033.52323">
+    <i>IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)</i>
+    </a>
+    <br/>
+    <i>2024</i>
+    ??? quote "Citation"
+        ```bibtex
+        @inproceedings{FSRL-RB-2024,
+        author = {Samak, Tanmay and Samak, Chinmay and Krovi, Venkat},
+        booktitle = {2024 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)}, 
+        title = {F1TENTH Sim Racing League: An Open-Source Competition Framework for Promoting Reproducibility and Benchmarking in Autonomous Driving}, 
+        year = {2024},
+        month = {10},
+        volume = {Workshop on Reproducibility and Benchmarking in Robotic Research},
+        number = {},
+        pages = {},
+        doi = {10.13140/RG.2.2.32033.52323}
+        }
+        ```
+
+!!! abstract ""
     <a href="https://arxiv.org/abs/2406.05465"><img class="research-artifact" src="/../assets/images/research/Metaverse for Safer Roadways - Telepresence 2024.png"></a>
     <a href="https://arxiv.org/abs/2406.05465">
     <b>Metaverse for Safer Roadways: An Immersive Digital Twin Framework for Exploring Human-Autonomy Coexistence in Urban Transportation Systems</b>
