@@ -24,3 +24,7 @@ AutoDRIVE is envisioned to be an integrated platform for autonomous driving rese
 
 - [`ci`](https://github.com/AutoDRIVE-Ecosystem/autodrive-ecosystem.github.io/actions/workflows/ci.yml) automatically builds the site using MkDocs. It runs automatically after each commit to the `main` branch.
 - [`pages-build-deployment`](https://github.com/AutoDRIVE-Ecosystem/autodrive-ecosystem.github.io/actions/workflows/pages/pages-build-deployment) deploys the site. It is called by the `ci` action and runs automatically.
+
+## Deployment
+
+The deployment is live at https://autodrive-ecosystem.github.io
