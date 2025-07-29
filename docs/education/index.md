@@ -14,7 +14,7 @@
 
 </div>
 
-## Highlights
+## Spotlights
 
 <div class="grid cards" markdown> 
 
