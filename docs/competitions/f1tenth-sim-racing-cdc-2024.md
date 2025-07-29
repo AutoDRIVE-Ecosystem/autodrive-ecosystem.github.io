@@ -340,11 +340,11 @@ The following teams successfully finished the final time-attack race. Here are t
 
 - :material-youtube:{ .lg .middle } __Celebration Event Recording__
     
-    <iframe width="640" height="266" src="https://www.youtube.com/embed/HtmRKE3Jres?si=4j6mOefsbBnGiGud" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <iframe width="640" height="268" src="https://www.youtube.com/embed/HtmRKE3Jres?si=4j6mOefsbBnGiGud" title="Celebration Event Recording" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 - :material-youtube:{ .lg .middle } __Words from the Winners!__
     
-    <iframe width="640" height="268" src="https://www.youtube.com/embed/-mV4k7wvUac?si=1sykHxWwryncDJFu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <iframe width="640" height="268" src="https://www.youtube.com/embed/-mV4k7wvUac?si=1sykHxWwryncDJFu" title="Words from the Winners!" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 - :material-projector-screen-outline:{ .lg .middle } __Celebration Event Slides - Part 1__
     
