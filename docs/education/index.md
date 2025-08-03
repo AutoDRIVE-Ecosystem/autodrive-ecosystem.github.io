@@ -1,5 +1,15 @@
 # EDUCATION
 
+## Courses
+
+<div class="grid cards" markdown> 
+
+- :fontawesome-solid-graduation-cap:{ .lg .middle } __Course @ Aalto University__
+
+    <a href="aalto-university-course"><img id="imageHyperlink" src="../assets/images/banners/Course @ Aalto University.png"></a>
+
+</div>
+
 ## Workshops
 
 <div class="grid cards" markdown>
