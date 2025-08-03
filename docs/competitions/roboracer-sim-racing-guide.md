@@ -524,7 +524,7 @@ Particularly, each team is expected to submit a containerized version of their a
     ```
 2. Launch AutoDRIVE Devkit in `graphics` mode (RViz rendering will be enabled):
     ```bash
-    ros2 launch autodrive_roboracer simulator_bringup_graphics.launch.py
+    ros2 launch autodrive_roboracer bringup_graphics.launch.py
     ```
 3. Using the simulator GUI menu panel, configure the following:
    
@@ -546,7 +546,7 @@ Particularly, each team is expected to submit a containerized version of their a
     ```
 3. Launch AutoDRIVE Devkit in `headless` mode (RViz rendering will be disabled):
     ```bash
-    ros2 launch autodrive_roboracer simulator_bringup_headless.launch.py
+    ros2 launch autodrive_roboracer bringup_headless.launch.py
     ```
 
 !!! info
