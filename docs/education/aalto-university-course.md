@@ -1,6 +1,6 @@
 # Course @ Aalto University
 
-![Course @ Aalto University](../assets/images/banners/Course @ Aalto University.png)
+![Course @ Aalto University](../assets/images/banners/Course @ Aalto University - Thin.png)
 
 ## About
 
