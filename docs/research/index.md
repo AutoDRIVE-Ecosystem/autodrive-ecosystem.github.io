@@ -312,21 +312,22 @@ This page hosts research outcomes that employ or contribute to the AutoDRIVE Eco
     <br/>
     Chinmay Vilas Samak, Tanmay Vilas Samak, Ajinkya Joglekar, Umesh Vaidya, and Venkat Narayan Krovi
     <br/>
-    <a href="https://arxiv.org/abs/2409.10347">
+    <a href="https://doi.org/10.1109/ICRA55743.2025.11128858">
     <i>IEEE International Conference on Robotics and Automation (ICRA)</i>
     </a>
     <br/>
     <i>2025</i>
     ??? quote "Citation"
         ```bibtex
-        @misc{DTs-Meet-KO-2025,
-        author = {Chinmay Vilas Samak and Tanmay Vilas Samak and Ajinkya Joglekar and Umesh Vaidya and Venkat Krovi},
-        title = {Digital Twins Meet the Koopman Operator: Data-Driven Learning for Robust Autonomy},
+        @inproceedings{DTs-Meet-KO-2025,
+        author = {Samak, Chinmay V. and Samak, Tanmay V. and Joglekar, Ajinkya S. and Vaidya, Umesh G. and Krovi, Venkat N.},
+        booktitle = {2025 IEEE International Conference on Robotics and Automation (ICRA)}, 
+        title = {Digital Twins Meet the Koopman Operator: Data-Driven Learning for Robust Autonomy}, 
         year = {2025},
-        eprint = {2409.10347},
-        archivePrefix = {arXiv},
-        primaryClass = {cs.RO},
-        url = {https://arxiv.org/abs/2409.10347}
+        volume = {},
+        number = {},
+        pages = {9816-9822},
+        doi = {10.1109/ICRA55743.2025.11128858}
         }
         ```
 
@@ -346,14 +347,14 @@ This page hosts research outcomes that employ or contribute to the AutoDRIVE Eco
     ??? quote "Citation"
         ```bibtex
         @article{MRDT-MARL-2025,
-        author={Samak, Chinmay and Samak, Tanmay and Krovi, Venkat},
-        journal={IEEE Robotics and Automation Letters}, 
-        title={Mixed-Reality Digital Twins: Leveraging the Physical and Virtual Worlds for Hybrid Sim2Real Transition of Multi-Agent Reinforcement Learning Policies}, 
-        year={2025},
-        volume={10},
-        number={9},
-        pages={9040-9047},
-        doi={10.1109/LRA.2025.3592085}
+        author = {Samak, Chinmay and Samak, Tanmay and Krovi, Venkat},
+        journal = {IEEE Robotics and Automation Letters}, 
+        title = {Mixed-Reality Digital Twins: Leveraging the Physical and Virtual Worlds for Hybrid Sim2Real Transition of Multi-Agent Reinforcement Learning Policies}, 
+        year = {2025},
+        volume = {10},
+        number = {9},
+        pages = {9040-9047},
+        doi = {10.1109/LRA.2025.3592085}
         }
         ```
 
