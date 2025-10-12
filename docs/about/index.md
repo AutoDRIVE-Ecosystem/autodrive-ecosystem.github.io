@@ -75,7 +75,9 @@ AutoDRIVE Devkit is a developer's kit that enables the users to exploit AutoDRIV
 
 ## Awards and Recognition
 - [Best Paper Award Candidate](https://mecc2025.a2c2.org/) for paper "A Systematic Digital Engineering Approach to Verification & Validation of Autonomous Ground Vehicles in Off-Road Environments" by ASME Automotive and Transportation Systems Technical Committee (ATS TC) at MECC 2025
-- [Best Poster Award](https://www.clemson.edu/ccit/research/learn/hpc-day.html) for project "Autonomy-Oriented Digital Twins in the Cloud" at High Performance Computing (HPC) Day 2025
+- [Best Poster Award](https://www.clemson.edu/ccit/research/learn/hpc-day.html) for project "Digital Twins in the Cloud: A Modular, Scalable and Interoperable Framework for Accelerating Verification and Validation of Autonomous Driving Solutions" at High Performance Computing (HPC) Day 2025
+- [Best Poster Award](https://www.clemson.edu/ccit/research/learn/hpc-day.html) for project "Off-Road Autonomy Validation Using Scalable Digital Twin Simulations Within High-Performance Computing Clusters" at High Performance Computing (HPC) Day 2025
+- [Lightning Talk](https://www.clemson.edu/ccit/research/learn/hpc-day.html) of project "Autonomy-Oriented Digital Twins in the Cloud" at High Performance Computing (HPC) Day 2025
 - [Finalist Award](https://sites.google.com/site/asmemrc/design-competition-showcase/2023-finalists#h.k763k3hc2lfu) for project "Nigel: A Mechatronically Redundant and Reconfigurable Scaled Autonomous Vehicle of AutoDRIVE Ecosystem" at ASME Student Mechanism and Robot Design Competition (SMRDC) 2023
 - [Best Paper Award](http://ccris2023.net/ccris2021.html) for paper "AutoDRIVE Simulator: A Simulator for Scaled Autonomous Vehicle Research and Education" at CCRIS 2021
 - [Best Project Award](https://www.youtube.com/watch?v=VUo4UFiTnd4&t=4048s) for "AutoDRIVE – An Integrated Platform for Autonomous Driving Research and Education" at National Level IEEE Project Competition 2021
