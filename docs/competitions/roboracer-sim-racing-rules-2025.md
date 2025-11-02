@@ -131,7 +131,7 @@ However, utilizing simulation ground truth data or controlling aspects other tha
 </p>
 
 !!! info
-    Please refer to the Technical Guide for more information about permissible and restricted data streams.
+    Please refer to the [Technical Guide](https://autodrive-ecosystem.github.io/competitions/roboracer-sim-racing-guide-2025) for more information about permissible and restricted data streams.
 
 <p align="justify">
 Since this is a global event held at some of the world's premier conferences, we ask all teams to observe ethical integrity and abide by the code of conduct of this competition. Any malpractice or plagiarism in terms of submission code or other material shall be considered a serious breach of the code of conduct. Depending upon the situation, organizers reserve the right to issue a warning, public citation, and/or disqualification of the responsible team(s) from the competition.

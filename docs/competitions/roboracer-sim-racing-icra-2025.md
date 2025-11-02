@@ -101,9 +101,9 @@ We recommend all the teams interested in participating in the RoboRacer Sim Raci
 
     Learn about the competition rules and technical aspects of the framework.
 
-    [:material-open-in-new: **Competition Rules**](../roboracer-sim-racing-rules)
+    [:material-open-in-new: **Competition Rules**](../roboracer-sim-racing-rules-2025)
 
-    [:material-open-in-new: **Technical Guide**](../roboracer-sim-racing-guide)
+    [:material-open-in-new: **Technical Guide**](../roboracer-sim-racing-guide-2025)
 
 -   :material-docker:{ .lg .middle } __Docker Containers__
 
