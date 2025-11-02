@@ -12,7 +12,7 @@
         <meta name="author" content="Tinker Twins">
       
       
-        <link rel="canonical" href="https://autodrive-ecosystem.github.io/competitions/roboracer-sim-racing-guide/">
+        <link rel="canonical" href="https://autodrive-ecosystem.github.io/competitions/roboracer-sim-racing-guide-2025/">
       
       
       
@@ -1744,7 +1744,7 @@ It is possible to run the simulator and devkit on two separate computing nodes (
 <h3 id="35-container-submission">3.5. Container Submission<a class="headerlink" href="#35-container-submission" title="Permanent link">&para;</a></h3>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
-<p>We expect that upon running your submitted container, all the necessary nodes should start up (the <code>autodrive_devkit</code> API we have included as well as your team's racing stack). Once we hit the <code>Connection Button</code> on the <code>Menu Panel</code> of AutoDRIVE Simulator, the simulated vehicle should start running. Please refer to the <a href="https://autodrive-ecosystem.github.io/competitions/roboracer-sim-racing-rules">competition rules</a>, where it talks about the <a href="https://autodrive-ecosystem.github.io/competitions/roboracer-sim-racing-rules/#3-submission-guidelines">submission guidelines</a>. Please make sure that you include all the necessary commands (for sourcing workspaces, setting environment variables, launching nodes, etc.) within the <code>entrypoint</code> script (<code>autodrive_devkit.sh</code> file) provided within the <code>autodrive_roboracer_api</code> container. Please do <strong>NOT</strong> use <code>~/.bashrc</code> or other means to automate the algorithm execution! Competition organizers should be able to start additional bash session(s) within your submitted container (without your codebase executing every time a new bash session is initialized) for data recording and inspection purposes.</p>
+<p>We expect that upon running your submitted container, all the necessary nodes should start up (the <code>autodrive_devkit</code> API we have included as well as your team's racing stack). Once we hit the <code>Connection Button</code> on the <code>Menu Panel</code> of AutoDRIVE Simulator, the simulated vehicle should start running. Please refer to the <a href="https://autodrive-ecosystem.github.io/competitions/roboracer-sim-racing-rules-2025">competition rules</a>, where it talks about the <a href="https://autodrive-ecosystem.github.io/competitions/roboracer-sim-racing-rules-2025/#3-submission-guidelines">submission guidelines</a>. Please make sure that you include all the necessary commands (for sourcing workspaces, setting environment variables, launching nodes, etc.) within the <code>entrypoint</code> script (<code>autodrive_devkit.sh</code> file) provided within the <code>autodrive_roboracer_api</code> container. Please do <strong>NOT</strong> use <code>~/.bashrc</code> or other means to automate the algorithm execution! Competition organizers should be able to start additional bash session(s) within your submitted container (without your codebase executing every time a new bash session is initialized) for data recording and inspection purposes.</p>
 </div>
 <ol>
 <li>Run the image you created in the previous step inside a container:
