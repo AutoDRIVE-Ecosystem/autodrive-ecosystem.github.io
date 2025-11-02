@@ -1,16 +1,16 @@
 # Technical Guide
 
-![F1TENTH Sim Racing](../assets/images/banners/F1TENTH Sim Racing.png)
+![RoboRacer Sim Racing](../assets/images/banners/RoboRacer Sim Racing.png)
 
 <p align="justify">
-This document describes the technical details of the competition framework for the F1TENTH Sim Racing League. It goes over the details pertaining to the simulator and devkit, as well as some important aspects of the submission system, process, and evaluation.
+This document describes the technical details of the competition framework for the RoboRacer Sim Racing League. It goes over the details pertaining to the simulator and devkit, as well as some important aspects of the submission system, process, and evaluation.
 </p>
 
 !!! warning
     It expected that teams have sufficient background knowledge pertaining to autonomous racing (concepts, methods, and algorithms), programming languages (Python, C++, etc.) and frameworks (ROS 2), containerization (Docker) and version control (Git), etc. In order to be fair to all teams and keep the competition on schedule, extensive technical support/help cannot be provided by the organizers. However, legitimate requests may be entertained at the discretion of the organizers.
 
 !!! note
-    Although AutoDRIVE Ecosystem supports various vehicles across different scales, configurations, and operational design domains (ODDs), the **only** vehicle allowed for this competition is the **F1TENTH**. Similarly, although AutoDRIVE Ecosystem supports multiple application programming interfaces (APIs), the **only** API allowed for this competition is **ROS 2**.
+    Although AutoDRIVE Ecosystem supports various vehicles across different scales, configurations, and operational design domains (ODDs), the **only** vehicle allowed for this competition is the **RoboRacer**. Similarly, although AutoDRIVE Ecosystem supports multiple application programming interfaces (APIs), the **only** API allowed for this competition is **ROS 2**.
 
 Please see the accompanying video for a step-by-step tutorial of setting up and using the competition framework.
 
@@ -29,7 +29,7 @@ AutoDRIVE Simulator (part of the larger <a href="https://autodrive-ecosystem.git
 </p>
 
 <p align="justify">
-For the F1TENTH Sim Racing League, each team will be provided with a standardized simulation setup (in the form of a digital twin of the F1TENTH vehicle, and a digital twin of the Porto racetrack) within the high-fidelity <a href="https://github.com/Tinker-Twins/AutoDRIVE/tree/AutoDRIVE-Simulator">AutoDRIVE Simulator</a>. This would democratize autonomous racing and make this competition accessible to everyone across the globe.
+For the RoboRacer Sim Racing League, each team will be provided with a standardized simulation setup (in the form of a digital twin of the RoboRacer vehicle, and a digital twin of the Porto racetrack) within the high-fidelity <a href="https://github.com/Tinker-Twins/AutoDRIVE/tree/AutoDRIVE-Simulator">AutoDRIVE Simulator</a>. This would democratize autonomous racing and make this competition accessible to everyone across the globe.
 </p>
 
 ### 1.1. System Requirements
@@ -123,7 +123,7 @@ The data recorder can be triggered by clicking on the red `Record Data` button i
 
 ### 1.3. Vehicle
 
-Simulated vehicles can be developed using AutoDRIVE's modular scripts, or imported from third-party tools and open standards. Specifically, the F1TENTH vehicle was reverse-engineered and visually recreated using a third-party 3D modeling software, and was imported and post-processed within AutoDRIVE Simulator to make it physically and graphically "sim-ready".
+Simulated vehicles can be developed using AutoDRIVE's modular scripts, or imported from third-party tools and open standards. Specifically, the RoboRacer vehicle was reverse-engineered and visually recreated using a third-party 3D modeling software, and was imported and post-processed within AutoDRIVE Simulator to make it physically and graphically "sim-ready".
 
 These vehicles are simulated as a combination of rigid body and sprung mass representations with adequate attention to rigid body dynamics, suspension dynamics, actuator dynamics, and tire dynamics. Additionally, the simulator detects mesh-mesh interference and computes contact forces, frictional forces, momentum transfer, as well as linear and angular drag acting on the vehicle. Finally, being an autonomy-oriented digital twin, the simulator offers physically-based sensor simulation for proprioceptive as well as exteroceptive sensors on-board the virtual vehicle.
 
@@ -280,7 +280,7 @@ Simulated cameras are parameterized by their focal length $f$, sensor size $\{s_
 
 ### 1.4. Environment
 
-Simulated environments can be developed using AutoDRIVE's modular infrastructure development kit (IDK), or imported from third-party tools and open standards. Specifically, the autonomous racing scenario was created based on the binary occupancy grid map of a real-world F1TENTH racetrack, called "Porto", using a third-party 3D modeling software, and was imported and post-processed within AutoDRIVE Simulator to make it physically and graphically "sim-ready".
+Simulated environments can be developed using AutoDRIVE's modular infrastructure development kit (IDK), or imported from third-party tools and open standards. Specifically, the autonomous racing scenario was created based on the binary occupancy grid map of a real-world RoboRacer racetrack, called "Porto", using a third-party 3D modeling software, and was imported and post-processed within AutoDRIVE Simulator to make it physically and graphically "sim-ready".
 
 These environments are simulated by conducting mesh-mesh interference detection and computing contact forces, frictional forces, momentum transfer, as well as linear and angular drag acting on all rigid bodies in the scenario.
 
@@ -306,9 +306,9 @@ These environments are simulated by conducting mesh-mesh interference detection 
 
 #### 1.4.2. Size and Structure
 
-- The simulated racetrack will be designed in accordance with the physical F1TENTH racetracks, using similar materials and spanning similar dimensions.
+- The simulated racetrack will be designed in accordance with the physical RoboRacer racetracks, using similar materials and spanning similar dimensions.
 
-- The entire racetrack will be designed to fit within an area of around 30$\times$10 m<sup>2</sup>, much like the physical F1TENTH racetracks.
+- The entire racetrack will be designed to fit within an area of around 30$\times$10 m<sup>2</sup>, much like the physical RoboRacer racetracks.
 
 - The racetrack border will be constructed from air ducts of about 33 cm in diameter, making sure that it is perceivable to exteroceptive sensors.
 
@@ -340,7 +340,7 @@ AutoDRIVE Devkit (part of the larger <a href="https://autodrive-ecosystem.github
 </p>
 
 <p align="justify">
-For the F1TENTH Sim Racing League, each team will be provided with a standardized working implementation of the <a href="https://github.com/Tinker-Twins/AutoDRIVE/tree/AutoDRIVE-Devkit">AutoDRIVE Devkit</a> (in the form of ROS 2 API for the F1TENTH digital twin within AutoDRIVE Simulator) to get started with developing their autonomy algorithms. Teams will have to develop perception, planning, and control algorithms to parse the real-time sensor data streamed from the simulator and generate control commands to be fed back to the simulated vehicle. Since the vehicle, the sensors, the simulator, and the devkit are standardized, teams must develop robust racing algorithms that can deal with the uncertainties of an unseen racetrack.
+For the RoboRacer Sim Racing League, each team will be provided with a standardized working implementation of the <a href="https://github.com/Tinker-Twins/AutoDRIVE/tree/AutoDRIVE-Devkit">AutoDRIVE Devkit</a> (in the form of ROS 2 API for the RoboRacer digital twin within AutoDRIVE Simulator) to get started with developing their autonomy algorithms. Teams will have to develop perception, planning, and control algorithms to parse the real-time sensor data streamed from the simulator and generate control commands to be fed back to the simulated vehicle. Since the vehicle, the sensors, the simulator, and the devkit are standardized, teams must develop robust racing algorithms that can deal with the uncertainties of an unseen racetrack.
 </p>
 
 ### 2.1. System Requirements
@@ -458,7 +458,7 @@ The following table describes various data streams of the competition framework.
 </div>
 
 <p align="justify">
-F1TENTH Sim Racing League is a virtual competition, which aims to make autonomous racing accessible to everyone across the globe. This competition adopts a containerization workflow to evaluate the submissions in a reproducible manner. Containerization provides a lightweight and portable environment, allowing applications to be easily packaged along with their dependencies, configurations, and libraries.
+RoboRacer Sim Racing League is a virtual competition, which aims to make autonomous racing accessible to everyone across the globe. This competition adopts a containerization workflow to evaluate the submissions in a reproducible manner. Containerization provides a lightweight and portable environment, allowing applications to be easily packaged along with their dependencies, configurations, and libraries.
 </p>
 
 <p align="justify">
@@ -555,7 +555,7 @@ Particularly, each team is expected to submit a containerized version of their a
 </div>
 
 <p align="justify">
-It is possible to run the simulator and devkit on two separate computing nodes (e.g. two different PCs) connected via a common network. The benefit of this approach is workload distribution by isolating the two computing processes, thereby gaining higher performance. It is further possible to run the devkit on a physical F1TENTH vehicle (using the Jetson SBC onboard) and connect it to the PC running AutoDRIVE Simulator as a hardware-in-the-loop (HIL) setup.
+It is possible to run the simulator and devkit on two separate computing nodes (e.g. two different PCs) connected via a common network. The benefit of this approach is workload distribution by isolating the two computing processes, thereby gaining higher performance. It is further possible to run the devkit on a physical RoboRacer vehicle (using the Jetson SBC onboard) and connect it to the PC running AutoDRIVE Simulator as a hardware-in-the-loop (HIL) setup.
 </p>
 
 !!! tip
@@ -610,7 +610,7 @@ Please make a note of the data streams mentioned above (along with their access 
 ### 3.5. Container Submission
 
 !!! note
-    We expect that upon running your submitted container, all the necessary nodes should start up (the `autodrive_devkit` API we have included as well as your team's racing stack). Once we hit the `Connection Button` on the `Menu Panel` of AutoDRIVE Simulator, the simulated vehicle should start running. Please refer to the [competition rules](https://autodrive-ecosystem.github.io/competitions/f1tenth-sim-racing-rules), where it talks about the [submission guidelines](https://autodrive-ecosystem.github.io/competitions/f1tenth-sim-racing-rules/#3-submission-guidelines). Please make sure that you include all the necessary commands (for sourcing workspaces, setting environment variables, launching nodes, etc.) within the `entrypoint` script (`autodrive_devkit.sh` file) provided within the `autodrive_f1tenth_api` container. Please do **NOT** use `~/.bashrc` or other means to automate the algorithm execution! Competition organizers should be able to start additional bash session(s) within your submitted container (without your codebase executing every time a new bash session is initialized) for data recording and inspection purposes.
+    We expect that upon running your submitted container, all the necessary nodes should start up (the `autodrive_devkit` API we have included as well as your team's racing stack). Once we hit the `Connection Button` on the `Menu Panel` of AutoDRIVE Simulator, the simulated vehicle should start running. Please refer to the [competition rules](https://autodrive-ecosystem.github.io/competitions/roboracer-sim-racing-rules-2024), where it talks about the [submission guidelines](https://autodrive-ecosystem.github.io/competitions/roboracer-sim-racing-rules-2024/#3-submission-guidelines). Please make sure that you include all the necessary commands (for sourcing workspaces, setting environment variables, launching nodes, etc.) within the `entrypoint` script (`autodrive_devkit.sh` file) provided within the `autodrive_f1tenth_api` container. Please do **NOT** use `~/.bashrc` or other means to automate the algorithm execution! Competition organizers should be able to start additional bash session(s) within your submitted container (without your codebase executing every time a new bash session is initialized) for data recording and inspection purposes.
 
 1. Run the image you created in the previous step inside a container:
 ```bash

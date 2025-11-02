@@ -1,9 +1,9 @@
 # Competition Rules
 
-![F1TENTH Sim Racing](../assets/images/banners/F1TENTH Sim Racing.png)
+![RoboRacer Sim Racing](../assets/images/banners/RoboRacer Sim Racing.png)
 
 <p align="justify">
-This document describes the rules and regulations for the F1TENTH Sim Racing League. It goes over the definitions, requirements and evaluation criteria as well as general dos and don'ts for the competition.
+This document describes the rules and regulations for the RoboRacer Sim Racing League. It goes over the definitions, requirements and evaluation criteria as well as general dos and don'ts for the competition.
 </p>
 
 !!! warning
@@ -12,7 +12,7 @@ This document describes the rules and regulations for the F1TENTH Sim Racing Lea
 ## 1. General Guidelines
 
 <p align="justify">
-F1TENTH Sim Racing League is a virtual competition, which accompanies the physical F1TENTH Autonomous Racing Competition. It leverages <a href="https://autodrive-ecosystem.github.io">AutoDRIVE Ecosystem</a> to model and simulate the digital twin of an F1TENTH racecar within a virtual racetrack. The main goal of this competition is to make autonomous racing accessible to everyone across the globe.
+RoboRacer Sim Racing League is a virtual competition, which accompanies the physical RoboRacer Autonomous Racing Competition. It leverages <a href="https://autodrive-ecosystem.github.io">AutoDRIVE Ecosystem</a> to model and simulate the digital twin of an RoboRacer racecar within a virtual racetrack. The main goal of this competition is to make autonomous racing accessible to everyone across the globe.
 </p>
 
 ### 1.1. Eligibility Criteria
@@ -28,7 +28,7 @@ Registration for the Sim Racing League is free of cost and separate from the Phy
 ### 1.2. Competition Structure
 
 <p align="justify">
-Each team will be provided with a standardized simulation setup (in the form of a digital twin of the F1TENTH vehicle, and a digital twin of the Porto racetrack) within the high-fidelity <a href="https://github.com/Tinker-Twins/AutoDRIVE/tree/AutoDRIVE-Simulator">AutoDRIVE Simulator</a>. Additionally, teams will also be provided with a working implementation of the <a href="https://github.com/Tinker-Twins/AutoDRIVE/tree/AutoDRIVE-Devkit">AutoDRIVE Devkit</a> to get started with developing their autonomy algorithms. Teams will have to develop perception, planning, and control algorithms to parse the real-time sensor data streamed from the simulator and generate control commands to be fed back to the simulated vehicle.
+Each team will be provided with a standardized simulation setup (in the form of a digital twin of the RoboRacer vehicle, and a digital twin of the Porto racetrack) within the high-fidelity <a href="https://github.com/Tinker-Twins/AutoDRIVE/tree/AutoDRIVE-Simulator">AutoDRIVE Simulator</a>. Additionally, teams will also be provided with a working implementation of the <a href="https://github.com/Tinker-Twins/AutoDRIVE/tree/AutoDRIVE-Devkit">AutoDRIVE Devkit</a> to get started with developing their autonomy algorithms. Teams will have to develop perception, planning, and control algorithms to parse the real-time sensor data streamed from the simulator and generate control commands to be fed back to the simulated vehicle.
 </p>
 
 ### 1.3. Competition Timeline
@@ -131,7 +131,7 @@ However, utilizing simulation ground truth data or controlling aspects other tha
 </p>
 
 !!! info
-    Please refer to the Technical Guide for more information about permissible and restricted data streams.
+    Please refer to the [Technical Guide](https://autodrive-ecosystem.github.io/competitions/roboracer-sim-racing-guide-2024) for more information about permissible and restricted data streams.
 
 <p align="justify">
 Since this is a global event held at some of the world's premier conferences, we ask all teams to observe ethical integrity and abide by the code of conduct of this competition. Any malpractice or plagiarism in terms of submission code or other material shall be considered a serious breach of the code of conduct. Depending upon the situation, organizers reserve the right to issue a warning, public citation, and/or disqualification of the responsible team(s) from the competition.

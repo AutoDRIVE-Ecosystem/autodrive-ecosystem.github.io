@@ -1,23 +1,23 @@
-# F1TENTH Sim Racing League @ CDC 2024
+# RoboRacer Sim Racing League @ CDC 2024
 
-![F1TENTH Sim Racing League @ CDC 2024](../assets/images/banners/F1TENTH Sim Racing @ CDC 2024.png)
+![RoboRacer Sim Racing League @ CDC 2024](../assets/images/banners/RoboRacer Sim Racing @ CDC 2024.png)
 
 ## About
 
 <p align="justify">
-<b>F1TENTH Autonomous Racing</b> is a semi-regular competition organized by an international community of researchers, engineers, and autonomous systems enthusiasts. The teams participating in the <b>22nd F1TENTH Autonomous Grand Prix</b> at <a href="https://cdc2024.ieeecss.org">CDC 2024</a> will write software for a 1:10 scaled autonomous racecar to fulfill the objectives of the competition: <b><i>drive fast but don’t crash!</i></b>
+<b>RoboRacer Autonomous Racing</b> is a semi-regular competition organized by an international community of researchers, engineers, and autonomous systems enthusiasts. The teams participating in the <b>22nd RoboRacer Autonomous Grand Prix</b> at <a href="https://cdc2024.ieeecss.org">CDC 2024</a> will write software for a 1:10 scaled autonomous racecar to fulfill the objectives of the competition: <b><i>drive fast but don’t crash!</i></b>
 </p>
 
 <p align="justify">
-This time, we are organizing the second <b>F1TENTH Sim Racing League</b>, which leverages <a href="https://autodrive-ecosystem.github.io">AutoDRIVE Ecosystem</a> to model and simulate the digital twin of an F1TENTH racecar within a virtual racetrack. Please see the accompanying video for a glimpse of the F1TENTH digital twins in action.
+This time, we are organizing the second <b>RoboRacer Sim Racing League</b>, which leverages <a href="https://autodrive-ecosystem.github.io">AutoDRIVE Ecosystem</a> to model and simulate the digital twin of an RoboRacer racecar within a virtual racetrack. Please see the accompanying video for a glimpse of the RoboRacer digital twins in action.
 </p>
 
 <div style="display: flex; justify-content: center;">
-<iframe style="aspect-ratio: 16/9; width: 100% !important;" src="https://www.youtube.com/embed/Rq7Wwcwn1uk?si=ngvop2-SfJJOIjWJ" title="Digital Twin of F1TENTH in AutoDRIVE Simulator" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe style="aspect-ratio: 16/9; width: 100% !important;" src="https://www.youtube.com/embed/Rq7Wwcwn1uk?si=ngvop2-SfJJOIjWJ" title="Digital Twin of RoboRacer in AutoDRIVE Simulator" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
 
 <p align="justify">
-The main focus of the Sim Racing League is a virtual competition with simulated cars and environments, which is accessible to everyone across the globe. For the <a href="https://cdc2024.ieeecss.org">CDC 2024</a> competition, each team will be provided with a standardized simulation setup (in the form of a digital twin of the F1TENTH vehicle, and a digital twin of the Porto racetrack) within the high-fidelity <a href="https://github.com/Tinker-Twins/AutoDRIVE/tree/AutoDRIVE-Simulator">AutoDRIVE Simulator</a>. Additionally, teams will also be provided with a working implementation of the <a href="https://github.com/Tinker-Twins/AutoDRIVE/tree/AutoDRIVE-Devkit">AutoDRIVE Devkit</a> to get started with developing their autonomy algorithms. Teams will have to develop perception, planning, and control algorithms to parse the real-time sensor data streamed from the simulator and generate control commands to be fed back to the simulated vehicle.
+The main focus of the Sim Racing League is a virtual competition with simulated cars and environments, which is accessible to everyone across the globe. For the <a href="https://cdc2024.ieeecss.org">CDC 2024</a> competition, each team will be provided with a standardized simulation setup (in the form of a digital twin of the RoboRacer vehicle, and a digital twin of the Porto racetrack) within the high-fidelity <a href="https://github.com/Tinker-Twins/AutoDRIVE/tree/AutoDRIVE-Simulator">AutoDRIVE Simulator</a>. Additionally, teams will also be provided with a working implementation of the <a href="https://github.com/Tinker-Twins/AutoDRIVE/tree/AutoDRIVE-Devkit">AutoDRIVE Devkit</a> to get started with developing their autonomy algorithms. Teams will have to develop perception, planning, and control algorithms to parse the real-time sensor data streamed from the simulator and generate control commands to be fed back to the simulated vehicle.
 </p>
 
 <p align="justify">
@@ -34,7 +34,7 @@ Since the vehicle, the sensors, the simulator, and the devkit are standardized, 
 </p>
 
 !!! Tip
-    If you are interested in autonomously racing physical F1TENTH vehicles, please check out the website for [22nd F1TENTH Autonomous Grand Prix](https://cdc2024-race.f1tenth.org), which will be held in person at <a href="https://cdc2024.ieeecss.org">CDC 2024</a>. You can always register and compete in both physical and virtual competitions!
+    If you are interested in autonomously racing physical RoboRacer vehicles, please check out the website for [22nd RoboRacer Autonomous Racing Competition](https://cdc2024-race.f1tenth.org), which will be held in person at <a href="https://cdc2024.ieeecss.org">CDC 2024</a>. You can always register and compete in both physical and virtual competitions!
 
 ## Organizers
 
@@ -79,7 +79,7 @@ Following is a brief summary of each event:
 </ul>
 
 !!! info
-    The F1TENTH Sim Racing League will be held approximately 1 week ahead of <a href="https://cdc2024.ieeecss.org">CDC 2024</a> and the performance metrics will be made available to the teams. We have also been able to organize a <a href="https://css.paperplaza.net/conferences/conferences/CDC24/program/CDC24_ContentListWeb_1.html#moevsp1_01">special session</a> for <a href="https://cdc2024.ieeecss.org/program/competitions#session-10-44">F1TENTH Sim Racing League Celebration</a> on Monday (Dec 16), 18:00-19:00 CET with the help of the CDC organizing committee. Join the celebration event to relive the nail-biting races, hear the top teams brag about their winning strategies (~5 min presentations), and start your engines for the physical competition.
+    The RoboRacer Sim Racing League will be held approximately 1 week ahead of <a href="https://cdc2024.ieeecss.org">CDC 2024</a> and the performance metrics will be made available to the teams. We have also been able to organize a <a href="https://css.paperplaza.net/conferences/conferences/CDC24/program/CDC24_ContentListWeb_1.html#moevsp1_01">special session</a> for <a href="https://cdc2024.ieeecss.org/program/competitions#session-10-44">RoboRacer Sim Racing League Celebration</a> on Monday (Dec 16), 18:00-19:00 CET with the help of the CDC organizing committee. Join the celebration event to relive the nail-biting races, hear the top teams brag about their winning strategies (~5 min presentations), and start your engines for the physical competition.
 
 ## Resources
 
@@ -88,13 +88,13 @@ Following is a brief summary of each event:
 <a href="https://autodrive-ecosystem.github.io/">AutoDRIVE</a> is envisioned to be an open, comprehensive, flexible and integrated cyber-physical ecosystem for enhancing autonomous driving research and education. It bridges the gap between software simulation and hardware deployment by providing the <a href="https://github.com/Tinker-Twins/AutoDRIVE/tree/AutoDRIVE-Simulator">AutoDRIVE Simulator</a> and <a href="https://github.com/Tinker-Twins/AutoDRIVE/tree/AutoDRIVE-Testbed">AutoDRIVE Testbed</a>, a well-suited duo for real2sim and sim2real transfer targeting vehicles and environments of varying scales and operational design domains. It also offers <a href="https://github.com/Tinker-Twins/AutoDRIVE/tree/AutoDRIVE-Devkit">AutoDRIVE Devkit</a>, a developer's kit for rapid and flexible development of autonomy algorithms using a variety of programming languages and software frameworks. For the Sim Racing League, teams will develop their autonomous racing algorithms using the AutoDRIVE Devkit to interface with the AutoDRIVE Simulator in real-time.
 </p>
 
-<img src="/../assets/images/logos/F1TENTH Logo.png" width="24.5%" align="right"/>
+<img src="/../assets/images/logos/RoboRacer Logo.png" width="24.5%" align="right"/>
 <p align="justify">
-<a href="https://f1tenth.org/">F1TENTH</a> is an <a href="https://f1tenth.org/about.html">international community</a> of researchers, engineers, and autonomous systems enthusiasts. It is centered around the idea of converting a 1:10 scale RC car into an autonomous vehicle for research and education; check out the <a href="https://f1tenth.org/build.html">documentation</a> to build your own F1TENTH autonomous racecar. Additionally, if you are new to the field of autonomous racing, you can refer to the complete <a href="https://f1tenth.org/learn.html">course material</a>, which is open sourced. If you already have some experience with autonomous racing, feel free to delve deeper into the <a href="https://f1tenth.org/research.html">research</a> enabled by F1TENTH. Lastly, you can also check out the physical <a href="https://f1tenth.org/race.html">F1TENTH races</a> that are being organized all around the world. For the Sim Racing League, teams will not require a physical F1TENTH vehicle; however, the learning resources can certainly be useful to get your autonomous racing fundamentals right!
+<a href="https://roboracer.ai">RoboRacer</a> is an <a href="https://roboracer.ai/about.html">international community</a> of researchers, engineers, and autonomous systems enthusiasts. It is centered around the idea of converting a 1:10 scale RC car into an autonomous vehicle for research and education; check out the <a href="https://roboracer.ai/build.html">documentation</a> to build your own RoboRacer autonomous racecar. Additionally, if you are new to the field of autonomous racing, you can refer to the complete <a href="https://roboracer.ai/learn.html">course material</a>, which is open sourced. If you already have some experience with autonomous racing, feel free to delve deeper into the <a href="https://roboracer.ai/research.html">research</a> enabled by RoboRacer. Lastly, you can also check out the physical <a href="https://roboracer.ai/race.html">RoboRacer races</a> that are being organized all around the world. For the Sim Racing League, teams will not require a physical RoboRacer vehicle; however, the learning resources can certainly be useful to get your autonomous racing fundamentals right!
 </p>
 
 <p align="justify">
-We recommend all the teams interested in participating in the F1TENTH Sim Racing League to get accustomed with the competition. Following are a few resources to get you started:
+We recommend all the teams interested in participating in the RoboRacer Sim Racing League to get accustomed with the competition. Following are a few resources to get you started:
 </p>
 
 <div class="grid cards" markdown>
@@ -105,9 +105,9 @@ We recommend all the teams interested in participating in the F1TENTH Sim Racing
 
     Learn about the competition rules and technical aspects of the framework.
 
-    [:material-open-in-new: **Competition Rules**](../f1tenth-sim-racing-rules)
+    [:material-open-in-new: **Competition Rules**](../roboracer-sim-racing-rules-2024)
 
-    [:material-open-in-new: **Technical Guide**](../f1tenth-sim-racing-guide)
+    [:material-open-in-new: **Technical Guide**](../roboracer-sim-racing-guide-2024)
 
 -   :material-docker:{ .lg .middle } __Docker Containers__
 
@@ -170,7 +170,7 @@ This competition is open to everyone around the world - students, researchers, h
 </div>
 
 <p align="justify">
-Registration for the Sim Racing League is free of cost and separate from the Physical Racing League and the conference registrations themselves. The above form signs you up only for the Sim Racing League, and for its orientation and information sessions. Although you can participate in the Sim Racing League without attending the conference, we strongly encourage all competition participants to attend the conference in person. This will help you connect with the broader AutoDRIVE and F1TENTH communities, and you can also witness/participate in the physical F1TENTH autonomous racing competition!
+Registration for the Sim Racing League is free of cost and separate from the Physical Racing League and the conference registrations themselves. The above form signs you up only for the Sim Racing League, and for its orientation and information sessions. Although you can participate in the Sim Racing League without attending the conference, we strongly encourage all competition participants to attend the conference in person. This will help you connect with the broader AutoDRIVE and RoboRacer communities, and you can also witness/participate in the physical RoboRacer autonomous racing competition!
 </p>
 
 <p align="justify">
@@ -237,7 +237,7 @@ Registered teams are added to the following table:
 ## Submission
 
 <p align="justify">
-Use the secure form below to make your team's submission for Phase 1 (Qualification Round) of the F1TENTH Sim Racing League. Please fill in your team's name and add the link to your team's DockerHub repository containing the autonomous racing stack. If you are using a private repository, make sure to add <a href="https://hub.docker.com/u/autodriveecosystem">autodriveecosystem</a> as a <a href="https://docs.docker.com/docker-hub/repos/access">collaborator to your repository</a>.
+Use the secure form below to make your team's submission for Phase 1 (Qualification Round) of the RoboRacer Sim Racing League. Please fill in your team's name and add the link to your team's DockerHub repository containing the autonomous racing stack. If you are using a private repository, make sure to add <a href="https://hub.docker.com/u/autodriveecosystem">autodriveecosystem</a> as a <a href="https://docs.docker.com/docker-hub/repos/access">collaborator to your repository</a>.
 </p>
 
 <div style="display: flex; justify-content: center;">
@@ -248,7 +248,7 @@ Use the secure form below to make your team's submission for Phase 1 (Qualificat
     Phase 1 submission window will close on Nov 30, 2024. Please contact [:material-email: Chinmay Samak](mailto:csamak@clemson.edu) or [:material-email: Tanmay Samak](mailto:tsamak@clemson.edu) if you have any questions.
 
 <p align="justify">
-Use the secure form below to make your team's submission for Phase 2 (Final Race) of the F1TENTH Sim Racing League. Please fill in your team's name and add the link to your team's DockerHub repository containing the autonomous racing stack. If you are using a private repository, make sure to add <a href="https://hub.docker.com/u/autodriveecosystem">autodriveecosystem</a> as a <a href="https://docs.docker.com/docker-hub/repos/access">collaborator to your repository</a>.
+Use the secure form below to make your team's submission for Phase 2 (Final Race) of the RoboRacer Sim Racing League. Please fill in your team's name and add the link to your team's DockerHub repository containing the autonomous racing stack. If you are using a private repository, make sure to add <a href="https://hub.docker.com/u/autodriveecosystem">autodriveecosystem</a> as a <a href="https://docs.docker.com/docker-hub/repos/access">collaborator to your repository</a>.
 </p>
 
 <div style="display: flex; justify-content: center;">
@@ -314,7 +314,7 @@ The following teams successfully finished the final time-attack race. Here are t
 **Celebration Event @ CDC 2024**
 
 <p align="justify">
-🎉 Please join us (in-person or virtually) for the <a href="https://css.paperplaza.net/conferences/conferences/CDC24/program/CDC24_ContentListWeb_1.html#moevsp1_01">celebration event</a> of the 2nd F1TENTH Sim Racing League @ CDC 2024 on Monday (Dec 16, 2024) between 18:00-19:00 CET! 🏁
+🎉 Please join us (in-person or virtually) for the <a href="https://css.paperplaza.net/conferences/conferences/CDC24/program/CDC24_ContentListWeb_1.html#moevsp1_01">celebration event</a> of the 2nd RoboRacer Sim Racing League @ CDC 2024 on Monday (Dec 16, 2024) between 18:00-19:00 CET! 🏁
 </p>
 
 <p align="justify">
@@ -359,5 +359,5 @@ The following teams successfully finished the final time-attack race. Here are t
 ## Summary
 
 <div style="display: flex; justify-content: center;">
-<iframe style="aspect-ratio: 16/9; width: 100% !important;" src="https://www.youtube.com/embed/Q-WTcTOld08?si=PORCUPmbj2KfHYST" title="F1TENTH Sim Racing League @ CDC 2024" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe style="aspect-ratio: 16/9; width: 100% !important;" src="https://www.youtube.com/embed/Q-WTcTOld08?si=PORCUPmbj2KfHYST" title="RoboRacer Sim Racing League @ CDC 2024" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>

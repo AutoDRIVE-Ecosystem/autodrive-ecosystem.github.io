@@ -188,6 +188,6 @@ nav:
     - Spotlights: education/#spotlights
   - COMPETITIONS:
     - competitions/index.md
-    - F1TENTH @ IROS 2024: competitions/f1tenth-sim-racing-iros-2024.md
-    - F1TENTH @ CDC 2024: competitions/f1tenth-sim-racing-cdc-2024.md
+    - ROBORACER @ IROS 2024: competitions/roboracer-sim-racing-iros-2024.md
+    - ROBORACER @ CDC 2024: competitions/roboracer-sim-racing-cdc-2024.md
     - ROBORACER @ ICRA 2025: competitions/roboracer-sim-racing-icra-2025.md
