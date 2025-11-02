@@ -41,8 +41,12 @@
     
     <a href="http://cecas.clemson.edu/armlab-cuicar/outreach"><img id="imageHyperlink" src="../assets/images/education/PJFMS%202025.jpg"></a>
 
--:fontawesome-solid-graduation-cap:{ .lg .middle } __K-12 STEM @ [UPenn](https://www.seas.upenn.edu)__
+- :fontawesome-solid-graduation-cap:{ .lg .middle } __UG RoboEdu Forum @ [ICRA 2025](https://sites.google.com/ncsu.edu/roboedu-forum-icra2025)__
     
+    <a href="https://sites.google.com/ncsu.edu/roboedu-forum-icra2025"><img id="imageHyperlink" src="../assets/images/education/RoboEdu%20Forum%20ICRA%202025.jpg"></a>
+
+- :fontawesome-solid-graduation-cap:{ .lg .middle } __K-12 STEM @ [UPenn](https://www.seas.upenn.edu)__
+
     <iframe style="aspect-ratio: 16/9; width: 100% !important;" src="https://www.youtube.com/embed/JrdSesiJ-T0?si=7Xmfc1l-f2AXI5ZO" title="K-12 STEM @ UPenn" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 </div>
