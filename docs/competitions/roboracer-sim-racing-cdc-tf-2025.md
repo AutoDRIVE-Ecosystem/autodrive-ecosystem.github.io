@@ -43,8 +43,6 @@ Since the vehicle, the sensors, the simulator, and the devkit are standardized, 
 | [**Dr. Rahul Mangharam**](mailto:rahulm@seas.upenn.edu) | [**Dr. Venkat Krovi**](mailto:vkrovi@clemson.edu) | [**Dr. Archak Mittal**](mailto:archak@iitb.ac.in) | [**Dr. Johannes Betz**](mailto:johannes.betz@tum.de) |
 | <img src="/../assets/images/people/Chinmay Samak.png" width="125"> | <img src="/../assets/images/people/Tanmay Samak.png" width="125"> | <img src="/../assets/images/people/Ahmad Amine.png" width="125"> | <img src="/../assets/images/people/Michael Coraluzzi.png" width="125"> |
 | [**Chinmay Samak**](mailto:csamak@clemson.edu) | [**Tanmay Samak**](mailto:tsamak@clemson.edu) | [**Ahmad Amine**](mailto:aminea@seas.upenn.edu) | [**Michael Coraluzzi**](mailto:mike.coraluzzi@roboracer.ai) |
-| <img src="/../assets/images/people/Parth Agrawal.png" width="125"> | <img src="/../assets/images/people/Vaibhav Avhad.png" width="125"> | <img src="/../assets/images/people/Ishan Patni.png" width="125"> |  |
-| [**Parth Agrawal**](mailto:parth.agrawal@iitb.ac.in) | [**Vaibhav Avhad**](mailto:vaibhavavhad.techfest@gmail.com) | [**Ishan Patni**](mailto:ishanpatni123@iitb.ac.in) |  |
 
 ## Timeline
 
