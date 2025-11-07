@@ -366,21 +366,23 @@ This page hosts research outcomes that employ or contribute to the AutoDRIVE Eco
     <br/>
     Tanmay Vilas Samak, Chinmay Vilas Samak, Giovanni Martino, Pranav Nair, and Venkat Narayan Krovi
     <br/>
-    <a href="https://arxiv.org/abs/2505.12661">
+    <a href="https://doi.org/10.1115/DETC2025-163799">
     <i>ASME International Design Engineering Technical Conferences & Computers and Information in Engineering Conference (IDETC-CIE)</i>
     </a>
     <br/>
     <i>2025</i>
     ??? quote "Citation"
         ```bibtex
-        @misc{DTs-in-Cloud-2025,
-        author = {Tanmay Vilas Samak and Chinmay Vilas Samak and Giovanni Martino and Pranav Nair and Venkat Krovi},
+        @proceedings{DTs-in-Cloud-2025,
+        author = {Samak, Tanmay and Samak, Chinmay and Martino, Giovanni and Nair, Pranav and Krovi, Venkat},
         title = {Digital Twins in the Cloud: A Modular, Scalable and Interoperable Framework for Accelerating Verification and Validation of Autonomous Driving Solutions},
+        volume = {Volume 5: 21st IEEE/ASME International Conference on Mechatronic and Embedded Systems and Applications (MESA); 49th Mechanisms and Robotics Conference (MR)},
+        series = {International Design Engineering Technical Conferences and Computers and Information in Engineering Conference},
+        pages = {V005T08A071},
         year = {2025},
-        eprint = {2505.12661},
-        archivePrefix = {arXiv},
-        primaryClass = {cs.RO},
-        url = {https://arxiv.org/abs/2505.12661}
+        month = {08},
+        doi = {10.1115/DETC2025-163799},
+        url = {https://doi.org/10.1115/DETC2025-163799}
         }
         ```
 
