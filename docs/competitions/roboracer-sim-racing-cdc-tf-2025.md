@@ -175,6 +175,7 @@ Registered teams are added to the following table:
 | 03      | Finding Theta             | Michael Kudlaty               | Personal                                  | United States of America (USA)       |
 | 04      | Devrim                    | Melih Akay                    | Middle East Technical University          | Türkiye                              |
 | 05      | Khepa_BobCats             | MdSakifUddin Khan<br/>KaziSifatul Islam<br/>Rashedul Hasan<br/>Sayan Paul | Personal | United States of America (USA) |
+| 06      | MIA                       | Srivardhini Veeraragavan<br/>Krishna Vihaan Mokkapaty<br/>Souptik Sinha<br/>Siddarth Menon<br/>Aparna Asokan | Personal | Malaysia |
 
 !!! note
     The above table will be updated with newly registered teams within a few days of registration. Please contact [:material-email: Chinmay Samak](mailto:csamak@clemson.edu) or [:material-email: Tanmay Samak](mailto:tsamak@clemson.edu) if you do not see your team entry for more than 7 days after registering.
