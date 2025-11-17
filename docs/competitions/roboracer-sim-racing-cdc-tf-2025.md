@@ -176,6 +176,17 @@ Registered teams are added to the following table:
 | 04      | Devrim                    | Melih Akay                    | Middle East Technical University          | Türkiye                              |
 | 05      | Khepa_BobCats             | MdSakifUddin Khan<br/>KaziSifatul Islam<br/>Rashedul Hasan<br/>Sayan Paul | Personal | United States of America (USA) |
 | 06      | MIA                       | Srivardhini Veeraragavan<br/>Krishna Vihaan Mokkapaty<br/>Souptik Sinha<br/>Siddarth Menon<br/>Aparna Asokan | Personal | Malaysia |
+| 07      | Pathline                  | Albert Sagré                  | Personal                                  | Spain                                |
+| 08      | Phoenix Racing            | Harun Teper<br/>Utku Pazarci<br/>Louis Radtke<br/>Leon Schwarzer<br/>Adem Jabri<br/>Tim Gliemann<br/>Felix Löhring | TU Dortmund University | Germany |
+| 09      | MonacoF1                  | Gerardo Puga<br/>Ariel Lowy<br/>Diego Palma<br/>Emiliano Alban<br/>Enrique Abramzon<br/>Florencia Battocchia<br/>Juan Manuel Carosella<br/>Juan Manuel Gomez Vasquez<br/>Michel Hidalgo<br/>Nicolás de Lima | Ekumen | Argentina, Colombia, Ecuador, Peru |
+| 10      | ESL                       | Nico Martin<br/>Christopher Flood | Stellenbosch University               | South Africa                         |
+| 11      | bracavisionai             | Luis Bracamontes              | Personal                                  | Mexico                               |
+| 12      | Gator Autonomous Racing   | Christopher Oeltjon<br/>Jackie Wang<br/>Gabrielle Cammarata<br/>Trevor Turnquist | University of Florida | United States of America (USA) |
+| 13      | E-Rally                   | Morad Singer<br/>Ahmed Mohammed<br/>Abdelhamid Raafat<br/>Ramiz Sayed | Helwan University | Egypt                |
+| 14      | IrohazakaJump             | Fritz Andrew Graciano<br/>Gede Bagus Wirayasa<br/>Kelvin Pratama | National Dong Hwa University | Indonesia      |
+| 15      | VAUL – Old but Gold       | William Fecteau<br/>Nicolas Lauzon<br/>Tommy Bouchard-Lebrun | Laval University | Canada                         |
+| 16      | VAUL - Young Guns         | Mohamed Billo Barry<br/>Achy Chris Yohann Ekissi<br/>Rahul Iyer<br/>Jayson Poirier<br/>Alissa Audet<br/>Teddy Emmanuel Kana Boumkwo II | Laval University | Canada |
+| 17      | Raga Racing               | VaishnavaHari Seenivasan      | Personal                                  | Germany                              |
 
 !!! note
     The above table will be updated with newly registered teams within a few days of registration. Please contact [:material-email: Chinmay Samak](mailto:csamak@clemson.edu) or [:material-email: Tanmay Samak](mailto:tsamak@clemson.edu) if you do not see your team entry for more than 7 days after registering.
