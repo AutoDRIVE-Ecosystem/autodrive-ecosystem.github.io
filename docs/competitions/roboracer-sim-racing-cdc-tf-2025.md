@@ -187,6 +187,8 @@ Registered teams are added to the following table:
 | 15      | VAUL – Old but Gold       | William Fecteau<br/>Nicolas Lauzon<br/>Tommy Bouchard-Lebrun | Laval University | Canada                         |
 | 16      | VAUL - Young Guns         | Mohamed Billo Barry<br/>Achy Chris Yohann Ekissi<br/>Rahul Iyer<br/>Jayson Poirier<br/>Alissa Audet<br/>Teddy Emmanuel Kana Boumkwo II | Laval University | Canada |
 | 17      | Raga Racing               | VaishnavaHari Seenivasan      | Personal                                  | Germany                              |
+| 18      | RoboCORE                  | Mahdis Rabbani<br/>Armin Abdolmohammadi<br/>Mohammad Abtahi<br/>Farhang Motallebiaraghi<br/>Navid Mojahed<br/>Shima Nazari | University of California, Davis | United States of America (USA) |
+| 19      | Element                   | Sree Penisetty                | Personal                                  | India                                |
 
 !!! note
     The above table will be updated with newly registered teams within a few days of registration. Please contact [:material-email: Chinmay Samak](mailto:csamak@clemson.edu) or [:material-email: Tanmay Samak](mailto:tsamak@clemson.edu) if you do not see your team entry for more than 7 days after registering.
