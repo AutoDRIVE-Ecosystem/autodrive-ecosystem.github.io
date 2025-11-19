@@ -106,9 +106,9 @@ We recommend all the teams interested in participating in the RoboRacer Sim Raci
 
     Download base container images for the competition and start developing your algorithms.
 
-    [:material-open-in-new: **AutoDRIVE Simulator:**](https://hub.docker.com/r/autodriveecosystem/autodrive_roboracer_sim) `explore` | `practice` | `compete`
+    [:material-open-in-new: **AutoDRIVE Simulator:**](https://hub.docker.com/r/autodriveecosystem/autodrive_roboracer_sim) [`explore`](https://hub.docker.com/layers/autodriveecosystem/autodrive_roboracer_sim/2025-cdc-tf-explore/images/sha256-72887f78aaa12cf54913f77b41d4d057e8a98e5810b69c203b3653850b38f6c5) | [`practice`](https://hub.docker.com/layers/autodriveecosystem/autodrive_roboracer_sim/2025-cdc-tf-practice/images/sha256-c4cf1b17646b85036c008c5e1994e4f53a0e340a675fd05ec18c5e03c07f4c0d) | `compete`
 
-    [:material-open-in-new: **AutoDRIVE Devkit:**](https://hub.docker.com/r/autodriveecosystem/autodrive_roboracer_api) `explore` | `practice` | `compete`
+    [:material-open-in-new: **AutoDRIVE Devkit:**](https://hub.docker.com/r/autodriveecosystem/autodrive_roboracer_api) [`explore`](https://hub.docker.com/layers/autodriveecosystem/autodrive_roboracer_api/2025-cdc-tf-explore/images/sha256-15a51f3b7b75085ff1d5a36f3c9b13343cc35c3aa3026afbce8e378c5c8c23b2) | [`practice`](https://hub.docker.com/layers/autodriveecosystem/autodrive_roboracer_api/2025-cdc-tf-practice/images/sha256-f0e47bc1e694a366cc1e8fe7e0df9bb2ef77d1cce6b724af90f250ddeb83f395) | `compete`
 
 -   :material-monitor:{ .lg .middle } __Local Resources__
 
@@ -118,15 +118,15 @@ We recommend all the teams interested in participating in the RoboRacer Sim Raci
 
     **AutoDRIVE Simulator:**
     
-    `explore`&nbsp;&nbsp;&nbsp; :simple-linux: Linux | :material-microsoft: Windows | :simple-apple: macOS
+    `explore`&nbsp;&nbsp;&nbsp; [:simple-linux: Linux](https://github.com/AutoDRIVE-Ecosystem/AutoDRIVE-RoboRacer-Sim-Racing/releases/download/2025-cdc-tf/autodrive_simulator_explore_linux.zip) | [:material-microsoft: Windows](https://github.com/AutoDRIVE-Ecosystem/AutoDRIVE-RoboRacer-Sim-Racing/releases/download/2025-cdc-tf/autodrive_simulator_explore_windows.zip) | [:simple-apple: macOS](https://github.com/AutoDRIVE-Ecosystem/AutoDRIVE-RoboRacer-Sim-Racing/releases/download/2025-cdc-tf/autodrive_simulator_explore_macos.zip)
 
-    `practice`&nbsp; :simple-linux: Linux | :material-microsoft: Windows | :simple-apple: macOS
+    `practice`&nbsp; [:simple-linux: Linux](https://github.com/AutoDRIVE-Ecosystem/AutoDRIVE-RoboRacer-Sim-Racing/releases/download/2025-cdc-tf/autodrive_simulator_practice_linux.zip) | [:material-microsoft: Windows](https://github.com/AutoDRIVE-Ecosystem/AutoDRIVE-RoboRacer-Sim-Racing/releases/download/2025-cdc-tf/autodrive_simulator_practice_windows.zip) | [:simple-apple: macOS](https://github.com/AutoDRIVE-Ecosystem/AutoDRIVE-RoboRacer-Sim-Racing/releases/download/2025-cdc-tf/autodrive_simulator_practice_macos.zip)
 
     `compete`&nbsp;&nbsp;&nbsp; :simple-linux: Linux | :material-microsoft: Windows | :simple-apple: macOS
 
     **AutoDRIVE Devkit:**
     
-    :simple-ros: ROS 2
+    [:simple-ros: ROS 2](https://github.com/AutoDRIVE-Ecosystem/AutoDRIVE-RoboRacer-Sim-Racing/releases/download/2025-cdc-tf/autodrive_devkit.zip)
 
 -   :octicons-link-16:{ .lg .middle } __Quick Links__
 
