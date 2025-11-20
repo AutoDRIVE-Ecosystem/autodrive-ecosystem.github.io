@@ -189,6 +189,10 @@ Registered teams are added to the following table:
 | 17      | Raga Racing               | VaishnavaHari Seenivasan      | Personal                                  | Germany                              |
 | 18      | RoboCORE                  | Mahdis Rabbani<br/>Armin Abdolmohammadi<br/>Mohammad Abtahi<br/>Farhang Motallebiaraghi<br/>Navid Mojahed<br/>Shima Nazari | University of California, Davis | United States of America (USA) |
 | 19      | Element                   | Sree Penisetty                | Personal                                  | India                                |
+| 20      | RAPTOR                    | Jisu Lee                | Hanyang University                                  | South Korea                                |
+| 21      | EPIIBOTS                  | Leandro Henrique Vidigal Sousa<br/>Elias José de Rezende Freitas<br/>Christyan Ribeiro de Amorim Honorato<br/>Raissa Rúbia Braga Gonçalves | Instituto Federal de Minas Gerais | Brazil |
+| 22      | Phoenix Racing            | Harun Teper<br/>Utku Pazarci<br/>Adem Jabri<br/>Tim Gliemann<br/>Louis Radtke<br/>Nico Koltermann | TU Dortmund University | Germany |
+| 23      | RUN-RUN-ChuraTaro         | Soya Aoki                     | Chura DATA Inc.                           | Japan                                |
 
 !!! note
     The above table will be updated with newly registered teams within a few days of registration. Please contact [:material-email: Chinmay Samak](mailto:csamak@clemson.edu) or [:material-email: Tanmay Samak](mailto:tsamak@clemson.edu) if you do not see your team entry for more than 7 days after registering.
