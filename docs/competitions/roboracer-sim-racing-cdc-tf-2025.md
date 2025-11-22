@@ -189,11 +189,15 @@ Registered teams are added to the following table:
 | 17      | RoboCORE                  | Mahdis Rabbani<br/>Armin Abdolmohammadi<br/>Mohammad Abtahi<br/>Farhang Motallebiaraghi<br/>Navid Mojahed<br/>Shima Nazari | University of California, Davis | United States of America (USA) |
 | 18      | Element                   | Sree Penisetty                | Personal                                  | India                                |
 | 19      | RAPTOR                    | Jisu Lee                | Hanyang University                                  | South Korea                                |
-| 20      | EPIIBOTS                  | Leandro Henrique Vidigal Sousa<br/>Elias José de Rezende Freitas<br/>Christyan Ribeiro de Amorim Honorato<br/>Raissa Rúbia Braga Gonçalves | Instituto Federal de Minas Gerais | Brazil |
+| 20      | EPIIBOTS                  | Leandro Henrique Vidigal Sousa<br/>Elias José de Rezende Freitas<br/>Christyan Ribeiro de Amorim Honorato<br/>Raissa Rúbia Braga Gonçalves<br/>Luciano Cunha de Araújo Pimenta | Instituto Federal de Minas Gerais | Brazil |
 | 21      | Phoenix Racing            | Harun Teper<br/>Utku Pazarci<br/>Adem Jabri<br/>Tim Gliemann<br/>Louis Radtke<br/>Nico Koltermann | TU Dortmund University | Germany |
 | 22      | RUN-RUN-ChuraTaro         | Soya Aoki                     | Chura DATA Inc.                           | Japan                                |
 | 23      | UO Astur Martin           | Pablo Suárez<br/>Pedro Martín<br/>Mateo Cobo<br/>Álvaro Tamargo | University of Oviedo | Spain                   |
 | 24      | Assiut Motorsport         | Mohamed Emadeldeen<br/>Doaa Essam<br/>Ahmed Nadi<br/>Mina Waheed<br/>Shams Sabry<br/>Kareem Salah<br/>Abdallah Elkashef<br/>Habiba Sayed<br/>Moataz Hesham<br/>Mohamed Mostafa | Assiut University | Egypt |
+| 25      | F1tenth@UCI               | Alistair Keiller<br/>Daniel Huynh<br/>Allen Dai<br/>Bradley Chu<br/>Jeffery Lee<br/>George Rajamachvili<br/>Arthur Chung | University Of California, Irvine | United States of America (USA) |
+| 26      | YTU AESK                  | ATAHAN TAŞAL<br/>MAHMUT ESAT BAYDAŞ<br/>RABİA HANNE AKYÜZ<br/>EFE ERBAĞ<br/>KUBİLAY KAYRA KIVRAK<br/>BERKE SİNAN YETKİN | Yildiz Technical University | Türkiye | 
+| 27      | YTU-AESK-RL               | Burak Hazır<br/>Berdan Fırat Doğan<br/>Efe Pehlivan<br/>Selinay Dikdere<br/>Muhammet Yusuf Oral | Yildiz Technical University | Türkiye |
+| 28      | Solo-Drive                | Mohammed Ibrahim              | Heriot-Watt University                    | United Arab Emirates (UAE)           |
 
 !!! note
     The above table will be updated with newly registered teams within a few days of registration. Please contact [:material-email: Chinmay Samak](mailto:csamak@clemson.edu) or [:material-email: Tanmay Samak](mailto:tsamak@clemson.edu) if you do not see your team entry for more than 7 days after registering.
