@@ -439,28 +439,29 @@ This page hosts research outcomes that employ or contribute to the AutoDRIVE Eco
         ```
 
 !!! abstract ""
-    <a href="https://arxiv.org/abs/2507.00236"><img class="research-artifact" src="/../assets/images/research/Sim2Real Diffusion - Preprint 2025.png"></a>
+    <a href="https://arxiv.org/abs/2507.00236"><img class="research-artifact" src="/../assets/images/research/Sim2Real Diffusion - RA-L 2026.png"></a>
     <a href="https://arxiv.org/abs/2507.00236">
     <b>Sim2Real Diffusion: Learning Cross-Domain Adaptive Representations for Transferable Autonomous Driving</b>
     </a>
     <br/>
     Chinmay Vilas Samak, Tanmay Vilas Samak, Bing Li, and Venkat Narayan Krovi
     <br/>
-    <a href="https://arxiv.org/abs/2507.00236">
-    <i>arXiv Preprint</i>
+    <a href="https://doi.org/10.1109/LRA.2025.3632723">
+    <i>IEEE Robotics and Automation Letters</i>
     </a>
     <br/>
     <i>2025</i>
     ??? quote "Citation"
         ```bibtex
-        @misc{Sim2Real-Diffusion-2025,
-        author = {Chinmay Vilas Samak and Tanmay Vilas Samak and Bing Li and Venkat Krovi},
-        title = {Sim2Real Diffusion: Learning Cross-Domain Adaptive Representations for Transferable Autonomous Driving},
-        year = {2025},
-        eprint = {2507.00236},
-        archivePrefix = {arXiv},
-        primaryClass = {cs.RO},
-        url = {https://arxiv.org/abs/2507.00236}
+        @article{Sim2Real-Diffusion-2026,
+        author = {Samak, Chinmay and Samak, Tanmay and Li, Bing and Krovi, Venkat},
+        journal = {IEEE Robotics and Automation Letters}, 
+        title = {Sim2Real Diffusion: Leveraging Foundation Vision Language Models for Adaptive Automated Driving}, 
+        year = {2026},
+        volume = {11},
+        number = {1},
+        pages = {177-184},
+        doi={10.1109/LRA.2025.3632723}
         }
         ```
 
