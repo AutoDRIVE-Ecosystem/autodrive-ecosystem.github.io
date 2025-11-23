@@ -195,9 +195,11 @@ Registered teams are added to the following table:
 | 23      | UO Astur Martin           | Pablo Suárez<br/>Pedro Martín<br/>Mateo Cobo<br/>Álvaro Tamargo | University of Oviedo | Spain                   |
 | 24      | Assiut Motorsport         | Mohamed Emadeldeen<br/>Doaa Essam<br/>Ahmed Nadi<br/>Mina Waheed<br/>Shams Sabry<br/>Kareem Salah<br/>Abdallah Elkashef<br/>Habiba Sayed<br/>Moataz Hesham<br/>Mohamed Mostafa | Assiut University | Egypt |
 | 25      | F1tenth@UCI               | Alistair Keiller<br/>Daniel Huynh<br/>Allen Dai<br/>Bradley Chu<br/>Jeffery Lee<br/>George Rajamachvili<br/>Arthur Chung | University Of California, Irvine | United States of America (USA) |
-| 26      | YTU AESK                  | ATAHAN TAŞAL<br/>MAHMUT ESAT BAYDAŞ<br/>RABİA HANNE AKYÜZ<br/>EFE ERBAĞ<br/>KUBİLAY KAYRA KIVRAK<br/>BERKE SİNAN YETKİN | Yildiz Technical University | Türkiye | 
+| 26      | YTU AESK                  | Atahan Taşal<br/>Mahmut Esat Baydaş<br/>Rabia Hanne Akyüz<br/>Efe Erbağ<br/>Kubilay Kayra Kivrak<br/>Berke Sinan Yetkin | Yildiz Technical University | Türkiye | 
 | 27      | YTU-AESK-RL               | Burak Hazır<br/>Berdan Fırat Doğan<br/>Efe Pehlivan<br/>Selinay Dikdere<br/>Muhammet Yusuf Oral | Yildiz Technical University | Türkiye |
 | 28      | Solo-Drive                | Mohammed Ibrahim              | Heriot-Watt University                    | United Arab Emirates (UAE)           |
+| 29      | Autonomous Ground Vehicle | Akshit Goyal<br/>Utsab Karan<br/>Rohan Singh<br/>Sandip Das<br/>Ninaad Desai<br/>Theyanesh E R<br/>Jinansh Dalal<br/>Tanishq Saxena<br/>Yug Bargaway<br/>Mahin Sanklecha<br/>Shrey Nayakpara<br/>Satyam Chakravorty<br/>Aneesh Lade<br/>Gokul Vemuri<br/>Akshat Shukla<br/>Netra Nandankar | Indian Institute of Technology, Kharagpur | India           |
+| 30      | Jarvis                    | Muhilan M<br/>Rohit Balaji<br/>Chaitanya Bhatia<br/>Sujal Choudhary<br/>Asvithh Sivakumar<br/>Akash Kandasamy<br/>Devanand P | SRM Institute of Science and Technology | India |
 
 !!! note
     The above table will be updated with newly registered teams within a few days of registration. Please contact [:material-email: Chinmay Samak](mailto:csamak@clemson.edu) or [:material-email: Tanmay Samak](mailto:tsamak@clemson.edu) if you do not see your team entry for more than 7 days after registering.
