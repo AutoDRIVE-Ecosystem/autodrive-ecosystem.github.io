@@ -34,7 +34,7 @@ Since the vehicle, the sensors, the simulator, and the devkit are standardized, 
 </p>
 
 !!! Tip
-    If you are interested in autonomously racing physical RoboRacer vehicles, please check out the websites for [25th RoboRacer Autonomous Racing Competition](https://cdc2025-race.roboracer.ai) and [26th RoboRacer Autonomous Racing Competition](https://roboracer.ai/events), which will be held in person at <a href="https://cdc2025.ieeecss.org">CDC 2025</a> and <a href="https://techfest.org">Techfest 2025</a>, respectively. You can always register and compete in both physical and virtual competitions!
+    If you are interested in autonomously racing physical RoboRacer vehicles, please check out the websites for [25th RoboRacer Autonomous Racing Competition](https://cdc2025-race.roboracer.ai) and [26th RoboRacer Autonomous Racing Competition](https://techfest.org/competitions/Roboracer), which will be held in person at <a href="https://cdc2025.ieeecss.org">CDC 2025</a> and <a href="https://techfest.org">Techfest 2025</a>, respectively. You can always register and compete in both physical and virtual competitions!
 
 ## Organizers
 
@@ -200,6 +200,7 @@ Registered teams are added to the following table:
 | 28      | Solo-Drive                | Mohammed Ibrahim              | Heriot-Watt University                    | United Arab Emirates (UAE)           |
 | 29      | Autonomous Ground Vehicle | Akshit Goyal<br/>Utsab Karan<br/>Rohan Singh<br/>Sandip Das<br/>Ninaad Desai<br/>Theyanesh E R<br/>Jinansh Dalal<br/>Tanishq Saxena<br/>Yug Bargaway<br/>Mahin Sanklecha<br/>Shrey Nayakpara<br/>Satyam Chakravorty<br/>Aneesh Lade<br/>Gokul Vemuri<br/>Akshat Shukla<br/>Netra Nandankar | Indian Institute of Technology, Kharagpur | India           |
 | 30      | Jarvis                    | Muhilan M<br/>Rohit Balaji<br/>Chaitanya Bhatia<br/>Sujal Choudhary<br/>Asvithh Sivakumar<br/>Akash Kandasamy<br/>Devanand P | SRM Institute of Science and Technology | India |
+| 31      | SART                      | Seyyed Ali Kakaei<br/>Siavash Sepahi | Sharif University of Technology    | Iran                                 |
 
 !!! note
     The above table will be updated with newly registered teams within a few days of registration. Please contact [:material-email: Chinmay Samak](mailto:csamak@clemson.edu) or [:material-email: Tanmay Samak](mailto:tsamak@clemson.edu) if you do not see your team entry for more than 7 days after registering.
