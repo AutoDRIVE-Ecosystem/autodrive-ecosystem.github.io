@@ -207,6 +207,9 @@ Registered teams are added to the following table:
 | 35      | HumbleOps                 | Ayush David<br/>Cyril Jacob<br/>Basil Shaji | Karunya University          | India                                |
 | 36      | SKG                       | Anvesh SK<br/>Subhash G       | Personal                                  | India                                |
 | 37      | Al-Jazari                 | Taha Koçyiğit                 | The Institute for Data Science & Artificial Intelligence at Boğaziçi University | Republic of Türkiye |
+| 38      | PARCar                    | Pranav Bhatt                  | University of California, Berkeley        | United States of America (USA)       |
+| 39      | Hero Comes Last           | Omar Abdelrady                | Schmalkalden Applied science university   | Germany                              |
+| 40      | 321GO                     | Ashwin Pandey                 | Personal                                  | India                                |
 
 !!! note
     The above table will be updated with newly registered teams within a few days of registration. Please contact [:material-email: Chinmay Samak](mailto:csamak@clemson.edu) or [:material-email: Tanmay Samak](mailto:tsamak@clemson.edu) if you do not see your team entry for more than 7 days after registering.
