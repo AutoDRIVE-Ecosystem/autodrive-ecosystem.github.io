@@ -183,7 +183,7 @@ Registered teams are added to the following table:
 | 11      | Gator Autonomous Racing   | Christopher Oeltjon<br/>Jackie Wang<br/>Gabrielle Cammarata<br/>Trevor Turnquist | University of Florida | United States of America (USA) |
 | 12      | E-Rally                   | Morad Singer<br/>Ahmed Mohammed<br/>Abdelhamid Raafat<br/>Ramiz Sayed | Helwan University | Egypt                |
 | 13      | IrohazakaJump             | Fritz Andrew Graciano<br/>Gede Bagus Wirayasa<br/>Kelvin Pratama | National Dong Hwa University | Indonesia      |
-| 14      | VAUL – Old but Gold       | William Fecteau<br/>Nicolas Lauzon<br/>Tommy Bouchard-Lebrun | Laval University | Canada                         |
+| 14      | VAUL - Old but Gold       | William Fecteau<br/>Nicolas Lauzon<br/>Tommy Bouchard-Lebrun | Laval University | Canada                         |
 | 15      | VAUL - Young Guns         | Mohamed Billo Barry<br/>Achy Chris Yohann Ekissi<br/>Rahul Iyer<br/>Jayson Poirier<br/>Alissa Audet<br/>Teddy Emmanuel Kana Boumkwo II | Laval University | Canada |
 | 16      | Raga Racing               | VaishnavaHari Seenivasan      | Personal                                  | Germany                              |
 | 17      | RoboCORE                  | Mahdis Rabbani<br/>Armin Abdolmohammadi<br/>Mohammad Abtahi<br/>Farhang Motallebiaraghi<br/>Navid Mojahed<br/>Shima Nazari | University of California, Davis | United States of America (USA) |
