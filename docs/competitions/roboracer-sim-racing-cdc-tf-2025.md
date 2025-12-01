@@ -188,7 +188,7 @@ Registered teams are added to the following table:
 | 16      | Raga Racing               | VaishnavaHari Seenivasan      | Personal                                  | Germany                              |
 | 17      | RoboCORE                  | Mahdis Rabbani<br/>Armin Abdolmohammadi<br/>Mohammad Abtahi<br/>Farhang Motallebiaraghi<br/>Navid Mojahed<br/>Shima Nazari | University of California, Davis | United States of America (USA) |
 | 18      | Element                   | Sree Penisetty                | Personal                                  | India                                |
-| 19      | RAPTOR                    | Jisu Lee                | Hanyang University                                  | South Korea                                |
+| 19      | RAPTOR                    | Jisu Lee                      | Hanyang University                        | South Korea                          |
 | 20      | EPIIBOTS                  | Leandro Henrique Vidigal Sousa<br/>Elias José de Rezende Freitas<br/>Christyan Ribeiro de Amorim Honorato<br/>Raissa Rúbia Braga Gonçalves<br/>Luciano Cunha de Araújo Pimenta | Instituto Federal de Minas Gerais | Brazil |
 | 21      | Phoenix Racing            | Harun Teper<br/>Utku Pazarci<br/>Adem Jabri<br/>Tim Gliemann<br/>Louis Radtke<br/>Nico Koltermann | TU Dortmund University | Germany |
 | 22      | RUN-RUN-ChuraTaro         | Soya Aoki                     | Chura DATA Inc.                           | Japan                                |
@@ -251,15 +251,31 @@ Use the secure form below to make your team's submission for Phase 2 (Final Race
 **Phase 1: Qualification**
 
 <p align="justify">
-Qualification results will be declared on Dec 01, 2025.
-</p>
-
-<!-- <p align="justify">
 The following teams have qualified for the final time-attack race. Here are the official standings:
-</p> -->
+</p>
 
 | RANK    | TEAM NAME                       | RACE TIME       | COLLISION COUNT | ADJUSTED RACE TIME | BEST LAP TIME | VIDEO                                                                     |
 |:--------|:--------------------------------|:----------------|:----------------|:-------------------|:--------------|:--------------------------------------------------------------------------|
+| 01      | 👏 Mamba                       	| 65.41 s         | 0               | 65.41 s            | 6.53 s        |                                                                           |
+| 02      | 👏 VAUL - Old but Gold         	| 65.65 s         | 0               | 65.65 s            | 6.49 s        |                                                                           |
+| 03      | 👏 Phoenix Racing             	| 70.35 s         | 0               | 70.35 s            | 7.00 s        |                                                                           |
+| 04      | 👏 Solo-Drive                 	| 71.42 s         | 0               | 71.42 s            | 7.11 s        |                                                                           |
+| 05      | 👏 Autonomous Ground Vehicle	| 80.44 s         | 0               | 80.44 s            | 7.99 s        |                                                                           |
+| 06      | 👏 RUN-RUN-ChuraTaro           	| 84.33 s         | 0               | 84.33 s            | 8.37 s        |                                                                           |
+| 07      | 👏 IrohazakaJump               	| 85.38 s         | 0               | 85.38 s            | 8.51 s        |                                                                           |
+| 08      | 👏 YTU-AESK-RL                 	| 94.96 s         | 0               | 94.96 s            | 8.98 s        |                                                                           |
+| 09      | 👏 MonacoF1                    	| 98.69 s         | 0               | 98.69 s            | 9.81 s        |                                                                           |
+| 10      | 👏 PARCar                      	| 113.30 s        | 0               | 113.30 s           | 11.32 s       |                                                                           |
+| 11      | 👏 Jarvis                      	| 118.37 s        | 0               | 118.37 s           | 11.83 s       |                                                                           |
+| 12      | 👏 VAUL - Young Guns           	| 118.40 s        | 0               | 118.40 s           | 11.84 s       |                                                                           |
+| 13      | 👏 Assiut Motorsport	        | 118.83 s        | 0               | 118.83 s           | 11.85 s       |                                                                           |
+| 14      | 👏 UO Astur Martin             	| 120.42 s        | 0               | 120.42 s           | 12.04 s       |                                                                           |
+| 15      | 👏 E-Rally                  	| 124.30 s        | 0               | 124.30 s           | 12.41 s       |                                                                           |
+| 16      | 👏 YTU AESK                    	| 123.39 s        | 1               | 133.39 s           | 12.19 s       |                                                                           |
+| 17      | 👏 RoboCORE                    	| 162.99 s        | 0               | 162.99 s           | 16.18 s       |                                                                           |
+| 18      | 👏 bracavisionai            	| 185.69 s        | 0               | 185.69 s           | 18.48 s       |                                                                           |
+| 19      | 👏 Gator Autonomous Racing     	| 225.60 s        | 0               | 225.60 s           | 22.55 s       |                                                                           |
+| 20      | 👏 Hero Comes Last           	| 301.73 s        | 0               | 301.73 s           | 30.02 s       |                                                                           |
 
 **Phase 2: Competition**
 
