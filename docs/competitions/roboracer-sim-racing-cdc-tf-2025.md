@@ -142,7 +142,7 @@ We recommend all the teams interested in participating in the RoboRacer Sim Raci
 
     **Communication:** [:material-slack: Slack](https://join.slack.com/t/autodrive-ecosystem/shared_invite/zt-2oeg2hce8-0JvasvnBM1M_wUdDTWRuKw)
 
-    **Submission:** [:material-file-document-edit: Phase 1]() | [:material-file-document-edit: Phase 2]()
+    **Submission:** [:material-file-document-edit: Phase 1](https://forms.gle/X3aaPGwkR9zQTKqm7) | [:material-file-document-edit: Phase 2]()
 
     **Results:** [:fontawesome-solid-trophy: Phase 1](#results) | [:fontawesome-solid-trophy: Phase 2](#results)
 </div>
