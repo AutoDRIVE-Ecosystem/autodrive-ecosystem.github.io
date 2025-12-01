@@ -450,7 +450,7 @@ This page hosts research outcomes that employ or contribute to the AutoDRIVE Eco
     <i>IEEE Robotics and Automation Letters</i>
     </a>
     <br/>
-    <i>2025</i>
+    <i>2026</i>
     ??? quote "Citation"
         ```bibtex
         @article{Sim2Real-Diffusion-2026,
