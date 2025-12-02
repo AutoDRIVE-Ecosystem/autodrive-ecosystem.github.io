@@ -142,7 +142,7 @@ We recommend all the teams interested in participating in the RoboRacer Sim Raci
 
     **Communication:** [:material-slack: Slack](https://join.slack.com/t/autodrive-ecosystem/shared_invite/zt-2oeg2hce8-0JvasvnBM1M_wUdDTWRuKw)
 
-    **Submission:** [:material-file-document-edit: Phase 1](https://forms.gle/X3aaPGwkR9zQTKqm7) | [:material-file-document-edit: Phase 2]()
+    **Submission:** [:material-file-document-edit: Phase 1](https://forms.gle/X3aaPGwkR9zQTKqm7) | [:material-file-document-edit: Phase 2](https://forms.gle/Y95VyREHS2ABWUgJA)
 
     **Results:** [:fontawesome-solid-trophy: Phase 1](#results) | [:fontawesome-solid-trophy: Phase 2](#results)
 </div>
@@ -240,7 +240,7 @@ Use the secure form below to make your team's submission for Phase 2 (Final Race
 </p>
 
 <div style="display: flex; justify-content: center;">
-<a class="md-button" href=""><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M6 2c-1.11 0-2 .89-2 2v16a2 2 0 0 0 2 2h4v-1.91L12.09 18H6v-2h8.09l2-2H6v-2h12.09L20 10.09V8l-6-6H6m7 1.5L18.5 9H13V3.5m7.15 9.5a.55.55 0 0 0-.4.16l-1.02 1.02 2.09 2.08 1.02-1.01c.21-.22.21-.58 0-.79l-1.3-1.3a.544.544 0 0 0-.39-.16m-2.01 1.77L12 20.92V23h2.08l6.15-6.15-2.09-2.08Z"/></svg></span> Phase 2 Submission Form</a>
+<a class="md-button" href="https://forms.gle/Y95VyREHS2ABWUgJA"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M6 2c-1.11 0-2 .89-2 2v16a2 2 0 0 0 2 2h4v-1.91L12.09 18H6v-2h8.09l2-2H6v-2h12.09L20 10.09V8l-6-6H6m7 1.5L18.5 9H13V3.5m7.15 9.5a.55.55 0 0 0-.4.16l-1.02 1.02 2.09 2.08 1.02-1.01c.21-.22.21-.58 0-.79l-1.3-1.3a.544.544 0 0 0-.39-.16m-2.01 1.77L12 20.92V23h2.08l6.15-6.15-2.09-2.08Z"/></svg></span> Phase 2 Submission Form</a>
 </div>
 
 !!! warning
