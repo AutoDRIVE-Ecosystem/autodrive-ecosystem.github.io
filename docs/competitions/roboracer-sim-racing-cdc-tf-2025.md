@@ -204,23 +204,23 @@ Registered teams are added to the following table:
 | 32      | Meteoritonomous           | Seif Ashraf Mohammed Hussein<br/>Omar Mostafa<br/>Shrouq Hamdy<br/>Abdelbadee Yehia<br/>Abdelrahman Talaat<br/>Abdelrahman Ehab<br/>Abdelrahman Hamouda<br/>Ahmed Hazem<br/>Ahmed M. Khalafallah<br/>Fagr Ahmed<br/>Hatem Safwat<br/>Jana Mohamed<br/>Khalid Ashraf<br/>MIna Rushdy Rady<br/>Mohamed Fouad<br/>Mohamed Shaaban<br/>Mohamed Abdelatif<br/>Abdelrahman Hatem<br/>Eman Mohamed<br/>Nourhan Anter<br/>Sajda Mohamed<br/>Sama Ahmed<br/>Sama Mohamed | Sohag University | Egypt                              |
 | 33      | Fifty Four                | Anonymous                     | Personal                                  | Egypt                                |
 | 34      | BlindRacer                | Kamallesh Umasankar           | Personal                                  | India                                |
-| 35      | HumbleOps                 | Ayush David<br/>Cyril Jacob<br/>Basil Shaji | Karunya University          | India                                |
+| 35      | HumbleOps                 | Ayush David<br/>Cyril Jacob<br/>Basil Shaji | Karunya Institute of Technology and Sciences | India               |
 | 36      | SKG                       | Anvesh SK<br/>Subhash G       | Personal                                  | India                                |
 | 37      | Al-Jazari                 | Taha Koçyiğit                 | The Institute for Data Science & Artificial Intelligence at Boğaziçi University | Republic of Türkiye |
 | 38      | PARCar                    | Pranav Bhatt                  | University of California, Berkeley        | United States of America (USA)       |
-| 39      | Hero Comes Last           | Omar Abdelrady                | Schmalkalden Applied science university   | Germany                              |
+| 39      | Hero Comes Last           | Omar Abdelrady                | Schmalkalden Applied Science University   | Germany                              |
 | 40      | 321GO                     | Ashwin Pandey                 | Personal                                  | India                                |
 
 !!! note
     The above table will be updated with newly registered teams within a few days of registration. Please contact [:material-email: Chinmay Samak](mailto:csamak@clemson.edu) or [:material-email: Tanmay Samak](mailto:tsamak@clemson.edu) if you do not see your team entry for more than 7 days after registering.
 
-<!-- <div style="display: flex; justify-content: center;">
-<iframe style="aspect-ratio: 16/8; width: 100% !important;" src="/../assets/images/competitions/2025 icra roboracer sim racing league/Map.html" title="Global Participation Map"  frameborder="0"></iframe>
+<div style="display: flex; justify-content: center;">
+<iframe style="aspect-ratio: 16/8; width: 100% !important;" src="/../assets/images/competitions/2025 cdc-tf roboracer sim racing league/Map.html" title="Global Participation Map"  frameborder="0"></iframe>
 </div>
 
 <div style="display: flex; justify-content: center;">
-<img src="/../assets/images/competitions/2025 icra roboracer sim racing league/Collage.png" title="Participating Organizations">
-</div> -->
+<img src="/../assets/images/competitions/2025 cdc-tf roboracer sim racing league/Collage.png" title="Participating Organizations">
+</div>
 
 ## Submission
 
