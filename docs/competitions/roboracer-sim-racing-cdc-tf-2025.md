@@ -283,9 +283,9 @@ The following teams successfully finished the final time-attack race. Here are t
 
 | RANK    | TEAM NAME                       | RACE TIME       | COLLISION COUNT | ADJUSTED RACE TIME | BEST LAP TIME | VIDEO                                                                     |
 |:--------|:--------------------------------|:----------------|:----------------|:-------------------|:--------------|:--------------------------------------------------------------------------|
-| 01      | 👏 VAUL - Old but Gold         	| 78.19 s         | 0               | 78.19 s            | 7.74 s        |                                                                           |
-| 02      | 👏 Mamba                       	| 87.82 s         | 0               | 87.82 s            | 8.73 s        |                                                                           |
-| 03      | 👏 Phoenix Racing              	| 99.33 s         | 0               | 99.33 s            | 9.90 s        |                                                                           |
+| 01      | 🥇 VAUL - Old but Gold         	| 78.19 s         | 0               | 78.19 s            | 7.74 s        |                                                                           |
+| 02      | 🥈 Mamba                       	| 87.82 s         | 0               | 87.82 s            | 8.73 s        |                                                                           |
+| 03      | 🥉 Phoenix Racing              	| 99.33 s         | 0               | 99.33 s            | 9.90 s        |                                                                           |
 | 04      | 👏 MonacoF1                   	| 104.23 s        | 0               | 104.23 s           | 10.38 s       |                                                                           |
 | 05      | 👏 Assiut Motorsport           	| 113.13 s        | 0               | 113.13 s           | 11.28 s       |                                                                           |
 | 06      | 👏 Hero Comes Last             	| 117.23 s        | 0               | 117.23 s           | 11.67 s       |                                                                           |
