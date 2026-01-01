@@ -116,7 +116,7 @@ This page hosts research outcomes that employ or contribute to the AutoDRIVE Eco
     Chinmay Vilas Samak, Tanmay Vilas Samak, and Venkat Narayan Krovi
     <br/>
     <a href="https://doi.org/10.1016/j.ifacol.2023.12.037">
-    <i>AACC/IFAC Modeling, Estimation and Control Conference (MECC)</i>
+    <i>IFAC/AACC Modeling, Estimation and Control Conference (MECC)</i>
     </a>
     <br/>
     <i>2023</i>
@@ -394,21 +394,25 @@ This page hosts research outcomes that employ or contribute to the AutoDRIVE Eco
     <br/>
     Tanmay Vilas Samak, Chinmay Vilas Samak, Julia Brault, Cori Harber, Kirsten McCane, Jonathon Smereka, Mark Brudnak, David Gorsich, and Venkat Narayan Krovi
     <br/>
-    <a href="https://arxiv.org/abs/2503.13787">
-    <i>Modeling, Estimation and Control Conference (MECC)</i>
+    <a href="https://doi.org/10.1016/j.ifacol.2025.12.336">
+    <i>IFAC/AACC Modeling, Estimation and Control Conference (MECC)</i>
     </a>
     <br/>
     <i>2025</i>
     ??? quote "Citation"
         ```bibtex
-        @misc{Digital-Engineering-2025,
-        author = {Tanmay Vilas Samak and Chinmay Vilas Samak and Julia Brault and Cori Harber and Kirsten McCane and Jonathon Smereka and Mark Brudnak and David Gorsich and Venkat Krovi},
+        @article{Digital-Engineering-2025,
+        author = {Tanmay Samak and Chinmay Samak and Julia Brault and Cori Harber and Kirsten McCane and Jonathon Smereka and Mark Brudnak and David Gorsich and Venkat Krovi},
         title = {A Systematic Digital Engineering Approach to Verification & Validation of Autonomous Ground Vehicles in Off-Road Environments},
+        journal = {IFAC-PapersOnLine},
+        volume = {59},
+        number = {30},
+        pages = {797-802},
         year = {2025},
-        eprint = {2503.13787},
-        archivePrefix = {arXiv},
-        primaryClass = {cs.RO},
-        url = {https://arxiv.org/abs/2503.13787}
+        note = {5th Conference on Modeling, Estimation and Control MECC 2025},
+        issn = {2405-8963},
+        doi = {https://doi.org/10.1016/j.ifacol.2025.12.336},
+        url = {https://www.sciencedirect.com/science/article/pii/S2405896325030460}
         }
         ```
 
