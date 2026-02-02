@@ -177,59 +177,59 @@ Registration for the Sim Racing League is free of cost and separate from the Phy
 Registered teams are added to the following table:
 </p>
 
-| SR. NO. | TEAM NAME                 | TEAM MEMBERS                  | ORGANIZATION                              |
-|:--------|:--------------------------|:------------------------------|:------------------------------------------|
-| 01      | Beryllium                 | Ronnie Romman                 | Personal                                  |
-| 02      | AERObotics                | Arif Anjum<br/>Muhammed Sharjil | AEROBOTICS                              |
-| 03      | Pharst Laps               | Olivia Dry<br/>Tian Zhao<br/>Yitian Chen<br/>Amir Ali Farzin | Australian National University |
-| 04      | SeDriCa-UMIC              | Kshitij Vaidya<br/>Yash Gupta<br/>Manav Jain<br/>Parth Agrawal<br/>Sahil Kukreja<br/>Johan Biju<br/>Paawan Nenwani<br/>Shivam Yadav | Indian Institute of Technology, Bombay |
-| 05      | Unimelb F1Tenth Racing    | Henry Yapeter<br/>Matthew Freeman<br/>Nathan Ruslim<br/>Harry Tauber | The University of Melbourne |
-| 06      | Donatello                 | Rahil Bhowal                  | Personal                                  |
-| 07      | VAUL                      | Tommy Bouchard-Lebrun<br/>William Fecteau<br/>Nicolas Lauzon | Laval University |
-| 08      | TUM Phoenix               | Dean Mercer<br/>Zara Zhotabayeva | Technische Universität München         |
-| 09      | Autonomous Motorsports Purdue | Manav Gagvani<br/>Alan Kang<br/>Sivamurugan Velmurugan<br/>Rohan Potta<br/>Sangeet Mohan | Purdue University |
-| 10      | Pegasus                   | Zeyuan Wang<br/>Chao Wang     | Personal                                  |
-| 11      | ARCLab                    | William Akuffo<br/>Joshua Nti<br/>Reginald Andrew Sai-Obodai<br/>Baron Afutu<br/>Joel Osei-Asamoah | Ashesi University |
-| 12      | YTU AESK                  | Mahmut Demir<br/>Ahmet Çelik<br/>İlayda Sena Şahin<br/>Furkan Erdoğan<br/>Alper Yılmaz<br/>Enes Talha Günay<br/>Taha İlter Akar<br/>Hilal Horasan | Yıldız Technical University Alternative Energy Systems Society |
-| 13      | MMS Autonomous            | Yousef Asal<br/>Zaynap Ahmad<br/>Omar Ashraf<br/>Omar Elsharabasy<br/>Abdallah Nabil<br/>Ahmed ElShaboury | Mansoura University |
-| 14      | HUN-REN SZTAKI            | Csanád Budai<br/>Tamás Széles | HUN-REN SZTAKI                            |
-| 15      | bracaai                   | Luis Bracamontes              | Personal                                  |
-| 16      | Velox                     | Karun Ashok Kumar             | University of Twente                      |
-| 17      | Exhausted Lion            | Mohamed Alaa                  | Personal                                  |
-| 18      | Sahruday Patti            | Sahruday Patti                | Personal                                  |
-| 19      | Als F1Tenth Racing        | Auriol Ble                    | Alpha Space Robotics Lab                  |
-| 20      | SoloDriver                | Hana Nabhan                   | Personal                                  |
-| 21      | Daniel's RL Experiment    | Daniel Mittelman              | Georgia Institute of Technology           |
-| 22      | TURTLEBOT                 | Jit Ern Lim                   | Personal                                  |
-| 23      | TractionX                 | Ameya Bagal<br/>Ananya Das<br/>Amizhthni PRK | Indian Institute of Technology, Madras |
-| 24      | Awareness                 | Guodong Zhu                   | Nanjing Forest University                 |
-| 25      | Byte Benders              | Bhajneet Singh Bedi<br/>Yaduraj Jagadeesan | Personal                     |
-| 26      | Eigenbots                 | Shubham Barge<br/>Anshuman Jena | Personal                                |
-| 27      | \_\_duronto\_\_           | Md. Jesan<br/>Muhammad Fahim Faisal<br/>Abu Nafis Mohammod Noor Rohan<br/>Rakibul Islam Rakib | BRAC University, Dhaka Residential Model College |
-| 28      | MV33F110                  | Vishwanath R                  | Personal                                  |
-| 29      | F1NESSE - Formula 1 Neuro-Enhanced System for Smart Execution | Oscar Guerrero Rosado<br/>Joris Kranz<br/>Jan Honing<br/>Wout Laracker | Radboud University, ROC Nijmegen |
-| 30      | Baby Driver               | Mason Notz                    | Personal                                  |
-| 31      | Asturian Kingdom Team     | David Miranda<br/>Lucía Sánchez<br/>Miguel Santamaría | University of Oviedo |
-| 32      | AsTenth Martin            | Ajay Shankar Sriram           | UC Irvine                                 |
-| 33      | Ray C.E.R.S.              | Aditya Jambhale<br/>Akshat Tambi | SRM Institute of Science and Technology |
-| 34      | Neutrino                  | Ahmed Elnely<br/>Abdallah Atef<br/>Mohamed Abdelmoneam<br/>Noran Mohamed<br/>Yasmin Khaled<br/>Nouran Karam | Egyptian Russian University |
-| 35      | Zancle E-Drive            | Gaetano Pio Pispisa<br/>Giovanni Lombardo<br/>Simone Castorino | University of Messina, Italy |
-| 36      | sim_goes_brrrrrr_mha      | Marzanul Momenine<br/>Maidul Islam<br/>Hironmoy Roy Rudra | Personal |
-| 37      | Inertia                   | Mushfiqur Rahman<br/>Al Mahir Ahmed<br/>Suhail Haque Rafi<br/>Abrar Ahmed | Personal |
-| 38      | Assiut Motorsport         | Omar Abbas<br/>Kareem Salah<br/>Mohamed Abd-El-Fattah<br/>Ahmed Shehata<br/>Doaa Ibrahem<br/>Eslam Mohamed<br/>Arwa Ibrahim<br/>Maotaz Refaat<br/>Fajr Mohamed<br/>Ahmed Mohamed | Assiut University |
-| 39      | SELF                      | Zhuo Ouyang<br/>Pengcheng You<br/>Chang Liu<br/>Yingzhu Liu<br/>Chengrui Qu | Peking University |
-| 40      | Triton AI                 | Yen-Ru Chen<br/>Winston Chou<br/>Kevin Shin<br/>Samuel Lin<br/>Surya Setty<br/>Aryan Palaskar | University of California, San Diego |
-| 41      | Escuderia Brasileira de Veículos Autônomos | Fernando Zolubas Preto<br/>Antonio Colombini Neto<br/>Felipe Gomes de Melo D'Elia<br/>Carlos Alberto Arronte Delgado<br/>Francisco Rodrigues Marazia<br/>Luccas Barsotti<br/>Caio Victor Goveia Freitas | Polytechnic School of the University of São Paulo - Brazil |
-| 42      | Autonomous Ground Vehicle | Shreyansh Kansal<br/>Swaminathan S K<br/>Yash Sirvi<br/>Aditya Srivastava<br/>Akshit Goyal<br/>Atul Singh<br/>Rohan Singh<br/>Theyanesh E R<br/>Sandip Das<br/>Arham J Bhansali<br/>Ansh Sharma<br/>Samarth G | Indian Institute of Technology, Kharagpur |
-| 43      | SUST Autodrive            | Abul Bashar Raz<br/>Md. Redwan Hasan<br/>Ehsanul Karim Aslam<br/>Md. Tamzid Islam Babul | Shahjalal University of Science and Technology |
-| 44      | Sabeq                     | Adham Waleed<br/>Abdulrahman Ahmed<br/>Nabil Fouda<br/>Mostafa Samy | Ain Shams University |
-| 45      | RapidRabbits              | Aryan Iyer<br/>Siddhant Diwaker | Personal                                |
-| 46      | Orion                     | U Skanda Aithal<br/>Aryan Agarwal<br/>Aditya Gupta<br/>Aman Kumar<br/>Lakshmikanth Nageswar | Personal |
-| 47      | KOU-Mekatronom            | Mehmet Baha Dursun<br/>Muvahhid Kılıç<br/>Can Ercan | Personal            |
-| 48      | CLUTCH                    | Emmanuel Korankye<br/>Appenteng Adjepong<br/>Samuel Akwensivie<br/>Kobena Enyam<br/>Desmond Hammond | Personal |
-| 49      | SimRacer                  | Vinura Wanniarachchi          | Personal                                  |
-| 50      | WaterlooF110              | Megnath Ramesh<br/>Shaswat Garg<br/>Avraiem Iskander<br/>Praneeth KVK | University of Waterloo |
-| 51      | AA LAB                    | Taha Kocyigit<br/>Taha Yigit Erdogan | Bogazici University                |
+| SR. NO. | TEAM NAME                 | TEAM MEMBERS                  | ORGANIZATION                              | COUNTRY                              |
+|:--------|:--------------------------|:------------------------------|:------------------------------------------|:-------------------------------------|
+| 01      | Beryllium                 | Ronnie Romman                 | Personal                                  | United States of America (USA)       |
+| 02      | AERObotics                | Arif Anjum<br/>Muhammed Sharjil | AEROBOTICS                              | South Africa                         |
+| 03      | Pharst Laps               | Olivia Dry<br/>Tian Zhao<br/>Yitian Chen<br/>Amir Ali Farzin | Australian National University | Australia        |
+| 04      | SeDriCa-UMIC              | Kshitij Vaidya<br/>Yash Gupta<br/>Manav Jain<br/>Parth Agrawal<br/>Sahil Kukreja<br/>Johan Biju<br/>Paawan Nenwani<br/>Shivam Yadav | Indian Institute of Technology, Bombay | India |
+| 05      | Unimelb F1Tenth Racing    | Henry Yapeter<br/>Matthew Freeman<br/>Nathan Ruslim<br/>Harry Tauber | The University of Melbourne |  Australia  |
+| 06      | Donatello                 | Rahil Bhowal                  | Personal                                  | United States of America (USA)       |
+| 07      | VAUL                      | Tommy Bouchard-Lebrun<br/>William Fecteau<br/>Nicolas Lauzon | Laval University | Canada                         |
+| 08      | TUM Phoenix               | Dean Mercer<br/>Zara Zhotabayeva | Technische Universität München         | Germany                              |
+| 09      | Autonomous Motorsports Purdue | Manav Gagvani<br/>Alan Kang<br/>Sivamurugan Velmurugan<br/>Rohan Potta<br/>Sangeet Mohan | Purdue University | United States of America (USA) |
+| 10      | Pegasus                   | Zeyuan Wang<br/>Chao Wang     | Personal                                  | France, China                        |
+| 11      | ARCLab                    | William Akuffo<br/>Joshua Nti<br/>Reginald Andrew Sai-Obodai<br/>Baron Afutu<br/>Joel Osei-Asamoah | Ashesi University | Ghana |
+| 12      | YTU AESK                  | Mahmut Demir<br/>Ahmet Çelik<br/>İlayda Sena Şahin<br/>Furkan Erdoğan<br/>Alper Yılmaz<br/>Enes Talha Günay<br/>Taha İlter Akar<br/>Hilal Horasan | Yıldız Technical University Alternative Energy Systems Society | Türkiye |
+| 13      | MMS Autonomous            | Yousef Asal<br/>Zaynap Ahmad<br/>Omar Ashraf<br/>Omar Elsharabasy<br/>Abdallah Nabil<br/>Ahmed ElShaboury | Mansoura University | Egypt |
+| 14      | HUN-REN SZTAKI            | Csanád Budai<br/>Tamás Széles | HUN-REN SZTAKI                            | Hungary                              |
+| 15      | bracaai                   | Luis Bracamontes              | Personal                                  | Mexico                               |
+| 16      | Velox                     | Karun Ashok Kumar             | University of Twente                      | Netherlands                          |
+| 17      | Exhausted Lion            | Mohamed Alaa                  | Personal                                  | Egypt                                |
+| 18      | Sahruday Patti            | Sahruday Patti                | Personal                                  | United States of America (USA)       |
+| 19      | Als F1Tenth Racing        | Auriol Ble                    | Alpha Space Robotics Lab                  | Côte d'Ivoire                        |
+| 20      | SoloDriver                | Hana Nabhan                   | Personal                                  | United Arab Emirates (UAE)           |
+| 21      | Daniel's RL Experiment    | Daniel Mittelman              | Georgia Institute of Technology           | United States of America (USA)       |
+| 22      | TURTLEBOT                 | Jit Ern Lim                   | Personal                                  | Singapore                            |
+| 23      | TractionX                 | Ameya Bagal<br/>Ananya Das<br/>Amizhthni PRK | Indian Institute of Technology, Madras | India                    |
+| 24      | Awareness                 | Guodong Zhu                   | Nanjing Forest University                 | China                                |
+| 25      | Byte Benders              | Bhajneet Singh Bedi<br/>Yaduraj Jagadeesan | Personal                     | India                                |
+| 26      | Eigenbots                 | Shubham Barge<br/>Anshuman Jena | Personal                                | India                                |
+| 27      | \_\_duronto\_\_           | Md. Jesan<br/>Muhammad Fahim Faisal<br/>Abu Nafis Mohammod Noor Rohan<br/>Rakibul Islam Rakib | BRAC University, Dhaka Residential Model College | Bangladesh |
+| 28      | MV33F110                  | Vishwanath R                  | Personal                                  | India                                |
+| 29      | F1NESSE - Formula 1 Neuro-Enhanced System for Smart Execution | Oscar Guerrero Rosado<br/>Joris Kranz<br/>Jan Honing<br/>Wout Laracker | Radboud University, ROC Nijmegen | Netherlands |
+| 30      | Baby Driver               | Mason Notz                    | Personal                                  | United States of America (USA)       |
+| 31      | Asturian Kingdom Team     | David Miranda<br/>Lucía Sánchez<br/>Miguel Santamaría | University of Oviedo | Spain                             |
+| 32      | AsTenth Martin            | Ajay Shankar Sriram           | UC Irvine                                 | United States of America (USA)       |
+| 33      | Ray C.E.R.S.              | Aditya Jambhale<br/>Akshat Tambi | SRM Institute of Science and Technology | India                               |
+| 34      | Neutrino                  | Ahmed Elnely<br/>Abdallah Atef<br/>Mohamed Abdelmoneam<br/>Noran Mohamed<br/>Yasmin Khaled<br/>Nouran Karam | Egyptian Russian University | Egypt |
+| 35      | Zancle E-Drive            | Gaetano Pio Pispisa<br/>Giovanni Lombardo<br/>Simone Castorino | University of Messina, Italy | Italy            |
+| 36      | sim_goes_brrrrrr_mha      | Marzanul Momenine<br/>Maidul Islam<br/>Hironmoy Roy Rudra | Personal      | Bangladesh                           |
+| 37      | Inertia                   | Mushfiqur Rahman<br/>Al Mahir Ahmed<br/>Suhail Haque Rafi<br/>Abrar Ahmed | Personal | Bangladesh                |
+| 38      | Assiut Motorsport         | Omar Abbas<br/>Kareem Salah<br/>Mohamed Abd-El-Fattah<br/>Ahmed Shehata<br/>Doaa Ibrahem<br/>Eslam Mohamed<br/>Arwa Ibrahim<br/>Maotaz Refaat<br/>Fajr Mohamed<br/>Ahmed Mohamed | Assiut University | Egypt |
+| 39      | SELF                      | Zhuo Ouyang<br/>Pengcheng You<br/>Chang Liu<br/>Yingzhu Liu<br/>Chengrui Qu | Peking University | China          |
+| 40      | Triton AI                 | Yen-Ru Chen<br/>Winston Chou<br/>Kevin Shin<br/>Samuel Lin<br/>Surya Setty<br/>Aryan Palaskar | University of California, San Diego |  United States of America (USA) |
+| 41      | Escuderia Brasileira de Veículos Autônomos | Fernando Zolubas Preto<br/>Antonio Colombini Neto<br/>Felipe Gomes de Melo D'Elia<br/>Carlos Alberto Arronte Delgado<br/>Francisco Rodrigues Marazia<br/>Luccas Barsotti<br/>Caio Victor Goveia Freitas | Polytechnic School of the University of São Paulo - Brazil | Brazil |
+| 42      | Autonomous Ground Vehicle | Shreyansh Kansal<br/>Swaminathan S K<br/>Yash Sirvi<br/>Aditya Srivastava<br/>Akshit Goyal<br/>Atul Singh<br/>Rohan Singh<br/>Theyanesh E R<br/>Sandip Das<br/>Arham J Bhansali<br/>Ansh Sharma<br/>Samarth G | Indian Institute of Technology, Kharagpur | India |
+| 43      | SUST Autodrive            | Abul Bashar Raz<br/>Md. Redwan Hasan<br/>Ehsanul Karim Aslam<br/>Md. Tamzid Islam Babul | Shahjalal University of Science and Technology | Bangladesh |
+| 44      | Sabeq                     | Adham Waleed<br/>Abdulrahman Ahmed<br/>Nabil Fouda<br/>Mostafa Samy | Ain Shams University | Egypt               |
+| 45      | RapidRabbits              | Aryan Iyer<br/>Siddhant Diwaker | Personal                                | India                                |
+| 46      | Orion                     | U Skanda Aithal<br/>Aryan Agarwal<br/>Aditya Gupta<br/>Aman Kumar<br/>Lakshmikanth Nageswar | Personal | India   |
+| 47      | KOU-Mekatronom            | Mehmet Baha Dursun<br/>Muvahhid Kılıç<br/>Can Ercan | Personal            | Türkiye                                |
+| 48      | CLUTCH                    | Emmanuel Korankye<br/>Appenteng Adjepong<br/>Samuel Akwensivie<br/>Kobena Enyam<br/>Desmond Hammond | Personal | Ghana |
+| 49      | SimRacer                  | Vinura Wanniarachchi          | Personal                                  | Sri Lanka                            |
+| 50      | WaterlooF110              | Megnath Ramesh<br/>Shaswat Garg<br/>Avraiem Iskander<br/>Praneeth KVK | University of Waterloo | Canada          |
+| 51      | AA LAB                    | Taha Kocyigit<br/>Taha Yigit Erdogan | Bogazici University                | Türkiye                              |
 
 !!! note
     The above table will be updated with newly registered teams within a few days of registration. Please contact [:material-email: Chinmay Samak](mailto:csamak@clemson.edu) or [:material-email: Tanmay Samak](mailto:tsamak@clemson.edu) if you do not see your team entry for more than 7 days after registering.
