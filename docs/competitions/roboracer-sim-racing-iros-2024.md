@@ -243,6 +243,14 @@ Registered teams are added to the following table:
 !!! note
     The above table will be updated with newly registered teams within a few days of registration. Please contact [:material-email: Chinmay Samak](mailto:csamak@clemson.edu) or [:material-email: Tanmay Samak](mailto:tsamak@clemson.edu) if you do not see your team entry for more than 7 days after registering.
 
+<div style="display: flex; justify-content: center;">
+<iframe style="aspect-ratio: 16/8; width: 100% !important;" src="/../assets/images/competitions/2024 iros roboracer sim racing league/Map.html" title="Global Participation Map"  frameborder="0"></iframe>
+</div>
+
+<div style="display: flex; justify-content: center;">
+<img src="/../assets/images/competitions/2024 iros roboracer sim racing league/Collage.png" title="Participating Organizations">
+</div>
+
 ## Submission
 
 <p align="justify">
