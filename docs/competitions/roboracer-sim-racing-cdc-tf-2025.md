@@ -173,7 +173,7 @@ Registered teams are added to the following table:
 | 01      | 魔法师大大                 | Chen Zexiang                  | Personal                                  | China                                |
 | 02      | Mamba                     | Hariharan Ravichandran        | Personal                                  | United States of America (USA)       |
 | 03      | Finding Theta             | Michael Kudlaty               | Personal                                  | United States of America (USA)       |
-| 04      | Devrim                    | Melih Akay                    | Middle East Technical University          | Republic of Türkiye                  |
+| 04      | Devrim                    | Melih Akay                    | Middle East Technical University          | Türkiye                  |
 | 05      | Khepa_BobCats             | MdSakifUddin Khan<br/>KaziSifatul Islam<br/>Rashedul Hasan<br/>Sayan Paul | Personal | United States of America (USA) |
 | 06      | MIA                       | Srivardhini Veeraragavan<br/>Krishna Vihaan Mokkapaty<br/>Souptik Sinha<br/>Siddarth Menon<br/>Aparna Asokan | Personal | Malaysia |
 | 07      | Pathline                  | Albert Sagré                  | Personal                                  | Spain                                |
@@ -195,8 +195,8 @@ Registered teams are added to the following table:
 | 23      | UO Astur Martin           | Pablo Suárez<br/>Pedro Martín<br/>Mateo Cobo<br/>Álvaro Tamargo | University of Oviedo | Spain                   |
 | 24      | Assiut Motorsport         | Mohamed Emadeldeen<br/>Doaa Essam<br/>Ahmed Nadi<br/>Mina Waheed<br/>Shams Sabry<br/>Kareem Salah<br/>Abdallah Elkashef<br/>Habiba Sayed<br/>Moataz Hesham<br/>Mohamed Mostafa | Assiut University | Egypt |
 | 25      | F1tenth@UCI               | Alistair Keiller<br/>Daniel Huynh<br/>Allen Dai<br/>Bradley Chu<br/>Jeffery Lee<br/>George Rajamachvili<br/>Arthur Chung | University Of California, Irvine | United States of America (USA) |
-| 26      | YTU AESK                  | Atahan Taşal<br/>Mahmut Esat Baydaş<br/>Rabia Hanne Akyüz<br/>Efe Erbağ<br/>Kubilay Kayra Kivrak<br/>Berke Sinan Yetkin | Yildiz Technical University | Republic of Türkiye | 
-| 27      | YTU-AESK-RL               | Burak Hazır<br/>Berdan Fırat Doğan<br/>Efe Pehlivan<br/>Selinay Dikdere<br/>Muhammet Yusuf Oral | Yildiz Technical University | Republic of Türkiye |
+| 26      | YTU AESK                  | Atahan Taşal<br/>Mahmut Esat Baydaş<br/>Rabia Hanne Akyüz<br/>Efe Erbağ<br/>Kubilay Kayra Kivrak<br/>Berke Sinan Yetkin | Yildiz Technical University | Türkiye | 
+| 27      | YTU-AESK-RL               | Burak Hazır<br/>Berdan Fırat Doğan<br/>Efe Pehlivan<br/>Selinay Dikdere<br/>Muhammet Yusuf Oral | Yildiz Technical University | Türkiye |
 | 28      | Solo-Drive                | Mohammed Ibrahim              | Heriot-Watt University                    | United Arab Emirates (UAE)           |
 | 29      | Autonomous Ground Vehicle | Akshit Goyal<br/>Utsab Karan<br/>Rohan Singh<br/>Sandip Das<br/>Ninaad Desai<br/>Theyanesh E R<br/>Jinansh Dalal<br/>Tanishq Saxena<br/>Yug Bargaway<br/>Mahin Sanklecha<br/>Shrey Nayakpara<br/>Satyam Chakravorty<br/>Aneesh Lade<br/>Gokul Vemuri<br/>Akshat Shukla<br/>Netra Nandankar<br/>Allu Gowri Sasaank | Indian Institute of Technology, Kharagpur | India           |
 | 30      | Jarvis                    | Muhilan M<br/>Rohit Balaji<br/>Chaitanya Bhatia<br/>Sujal Choudhary<br/>Asvithh Sivakumar<br/>Akash Kandasamy<br/>Devanand P | SRM Institute of Science and Technology | India |
@@ -206,7 +206,7 @@ Registered teams are added to the following table:
 | 34      | BlindRacer                | Kamallesh Umasankar           | Personal                                  | India                                |
 | 35      | HumbleOps                 | Ayush David<br/>Cyril Jacob<br/>Basil Shaji | Karunya Institute of Technology and Sciences | India               |
 | 36      | SKG                       | Anvesh SK<br/>Subhash G       | Personal                                  | India                                |
-| 37      | Al-Jazari                 | Taha Koçyiğit                 | The Institute for Data Science & Artificial Intelligence at Boğaziçi University | Republic of Türkiye |
+| 37      | Al-Jazari                 | Taha Koçyiğit                 | The Institute for Data Science & Artificial Intelligence at Boğaziçi University | Türkiye |
 | 38      | PARCar                    | Pranav Bhatt                  | University of California, Berkeley        | United States of America (USA)       |
 | 39      | Hero Comes Last           | Omar Abdelrady                | Schmalkalden Applied Science University   | Germany                              |
 | 40      | 321GO                     | Ashwin Pandey                 | Personal                                  | India                                |
