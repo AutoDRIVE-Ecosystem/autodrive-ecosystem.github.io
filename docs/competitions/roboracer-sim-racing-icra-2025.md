@@ -192,7 +192,7 @@ Registered teams are added to the following table:
 | 15      | TURTLEBOT                 | Jit Ern Lim<br/>Dustin Lim    | Personal                                  | Malaysia, Indonesia                  |
 | 16      | Cair's                    | Siddhant Diwaker<br/>Chirag Makwana | Personal                            | India                                |
 | 17      | BONG_RACERS               | Srinjoy Ganguly<br/>Pritish Saha<br/>Srijit Das | Personal                | India                                |
-| 18      | AA Lab                    | Taha Kocyigit<br/>Omer Geyikci | Bogazici University                      | Turkiye                              |
+| 18      | AA Lab                    | Taha Kocyigit<br/>Omer Geyikci | Bogazici University                      | Türkiye                              |
 | 19      | SUST Autodrive            | Abul Bashar Raz               | Shahjalal University of Science and Technology | Bangladesh                      |
 | 20      | Beep Beep                 | Jeremy Seyssaud               | Personal                                  | France                               |
 | 21      | Circuit Breakers          | Thanushraam Suresh Kumar<br/>Dhruv Pathak<br/>Atharva Patil | University of Colorado, Boulder | United States of America (USA) |
