@@ -254,48 +254,48 @@ Use the secure form below to make your team's submission for Phase 2 (Final Race
 The following teams have qualified for the final time-attack race. Here are the official standings:
 </p>
 
-| RANK    | TEAM NAME                       | RACE TIME       | COLLISION COUNT | ADJUSTED RACE TIME | BEST LAP TIME | VIDEO                                                                     |
-|:--------|:--------------------------------|:----------------|:----------------|:-------------------|:--------------|:--------------------------------------------------------------------------|
-| 01      | 👏 Mamba                       	| 65.41 s         | 0               | 65.41 s            | 6.53 s        |                                                                           |
-| 02      | 👏 VAUL - Old but Gold         	| 65.65 s         | 0               | 65.65 s            | 6.49 s        |                                                                           |
-| 03      | 👏 Phoenix Racing             	| 70.35 s         | 0               | 70.35 s            | 7.00 s        |                                                                           |
-| 04      | 👏 Solo-Drive                 	| 71.42 s         | 0               | 71.42 s            | 7.11 s        |                                                                           |
-| 05      | 👏 Autonomous Ground Vehicle	  | 80.44 s         | 0               | 80.44 s            | 7.99 s        |                                                                           |
-| 06      | 👏 RUN-RUN-ChuraTaro           	| 84.33 s         | 0               | 84.33 s            | 8.37 s        |                                                                           |
-| 07      | 👏 IrohazakaJump               	| 85.38 s         | 0               | 85.38 s            | 8.51 s        |                                                                           |
-| 08      | 👏 YTU-AESK-RL                 	| 94.96 s         | 0               | 94.96 s            | 8.98 s        |                                                                           |
-| 09      | 👏 MonacoF1                    	| 98.69 s         | 0               | 98.69 s            | 9.81 s        |                                                                           |
-| 10      | 👏 PARCar                      	| 113.30 s        | 0               | 113.30 s           | 11.32 s       |                                                                           |
-| 11      | 👏 Jarvis                      	| 118.37 s        | 0               | 118.37 s           | 11.83 s       |                                                                           |
-| 12      | 👏 VAUL - Young Guns           	| 118.40 s        | 0               | 118.40 s           | 11.84 s       |                                                                           |
-| 13      | 👏 Assiut Motorsport	          | 118.83 s        | 0               | 118.83 s           | 11.85 s       |                                                                           |
-| 14      | 👏 UO Astur Martin             	| 120.42 s        | 0               | 120.42 s           | 12.04 s       |                                                                           |
-| 15      | 👏 E-Rally                  	  | 124.30 s        | 0               | 124.30 s           | 12.41 s       |                                                                           |
-| 16      | 👏 YTU AESK                    	| 123.39 s        | 1               | 133.39 s           | 12.19 s       |                                                                           |
-| 17      | 👏 RoboCORE                    	| 162.99 s        | 0               | 162.99 s           | 16.18 s       |                                                                           |
-| 18      | 👏 bracavisionai            	  | 185.69 s        | 0               | 185.69 s           | 18.48 s       |                                                                           |
-| 19      | 👏 Gator Autonomous Racing     	| 225.60 s        | 0               | 225.60 s           | 22.55 s       |                                                                           |
-| 20      | 👏 Hero Comes Last             	| 301.73 s        | 0               | 301.73 s           | 30.02 s       |                                                                           |
+| RANK    | TEAM NAME                       | RACE TIME       | COLLISION COUNT | ADJUSTED RACE TIME | BEST LAP TIME | VIDEO                                                      |
+|:--------|:--------------------------------|:----------------|:----------------|:-------------------|:--------------|:-----------------------------------------------------------|
+| 01      | 👏 Mamba                       	| 65.41 s         | 0               | 65.41 s            | 6.53 s        | [:material-youtube: YouTube](https://youtu.be/pp8wH99UGVE) |
+| 02      | 👏 VAUL - Old but Gold         	| 65.65 s         | 0               | 65.65 s            | 6.49 s        | [:material-youtube: YouTube](https://youtu.be/oYM95QmoKjg) |
+| 03      | 👏 Phoenix Racing             	| 70.35 s         | 0               | 70.35 s            | 7.00 s        | [:material-youtube: YouTube](https://youtu.be/iJnI9B54vf8) |
+| 04      | 👏 Solo-Drive                 	| 71.42 s         | 0               | 71.42 s            | 7.11 s        | [:material-youtube: YouTube](https://youtu.be/i0yusiTkY60) |
+| 05      | 👏 Autonomous Ground Vehicle	| 80.44 s         | 0               | 80.44 s            | 7.99 s        | [:material-youtube: YouTube](https://youtu.be/fPZe9Gwtg_A) |
+| 06      | 👏 RUN-RUN-ChuraTaro           	| 84.33 s         | 0               | 84.33 s            | 8.37 s        | [:material-youtube: YouTube](https://youtu.be/DinFNDFU3VY) |
+| 07      | 👏 IrohazakaJump               	| 85.38 s         | 0               | 85.38 s            | 8.51 s        | [:material-youtube: YouTube](https://youtu.be/6duv3lrsy1U) |
+| 08      | 👏 YTU-AESK-RL                 	| 94.96 s         | 0               | 94.96 s            | 8.98 s        | [:material-youtube: YouTube](https://youtu.be/IylqRsMGc2g) |
+| 09      | 👏 MonacoF1                    	| 98.69 s         | 0               | 98.69 s            | 9.81 s        | [:material-youtube: YouTube](https://youtu.be/xQS-xyQkqD0) |
+| 10      | 👏 PARCar                      	| 113.30 s        | 0               | 113.30 s           | 11.32 s       | [:material-youtube: YouTube](https://youtu.be/gfdK2JVEP2k) |
+| 11      | 👏 Jarvis                      	| 118.37 s        | 0               | 118.37 s           | 11.83 s       | [:material-youtube: YouTube](https://youtu.be/10cVc3KRHNs) |
+| 12      | 👏 VAUL - Young Guns           	| 118.40 s        | 0               | 118.40 s           | 11.84 s       | [:material-youtube: YouTube](https://youtu.be/i7mi00juG2Q) |
+| 13      | 👏 Assiut Motorsport	        | 118.83 s        | 0               | 118.83 s           | 11.85 s       | [:material-youtube: YouTube](https://youtu.be/bk6gZ97GS_4) |
+| 14      | 👏 UO Astur Martin             	| 120.42 s        | 0               | 120.42 s           | 12.04 s       | [:material-youtube: YouTube](https://youtu.be/GFu3DErGk-k) |
+| 15      | 👏 E-Rally                  	| 124.30 s        | 0               | 124.30 s           | 12.41 s       | [:material-youtube: YouTube](https://youtu.be/SG45DjQLLcA) |
+| 16      | 👏 YTU AESK                    	| 123.39 s        | 1               | 133.39 s           | 12.19 s       | [:material-youtube: YouTube](https://youtu.be/hMxCyuJvdt4) |
+| 17      | 👏 RoboCORE                    	| 162.99 s        | 0               | 162.99 s           | 16.18 s       | [:material-youtube: YouTube](https://youtu.be/taEslu3mVU4) |
+| 18      | 👏 bracavisionai            	| 185.69 s        | 0               | 185.69 s           | 18.48 s       | [:material-youtube: YouTube](https://youtu.be/OBVz7dLw2ag) |
+| 19      | 👏 Gator Autonomous Racing     	| 225.60 s        | 0               | 225.60 s           | 22.55 s       | [:material-youtube: YouTube](https://youtu.be/jWXGBITw4es) |
+| 20      | 👏 Hero Comes Last             	| 301.73 s        | 0               | 301.73 s           | 30.02 s       | [:material-youtube: YouTube](https://youtu.be/Q7VPn6YlgCA) |
 
 **Phase 2: Competition**
 
 The following teams successfully finished the final time-attack race. Here are the official standings:
 
-| RANK    | TEAM NAME                       | RACE TIME       | COLLISION COUNT | ADJUSTED RACE TIME | BEST LAP TIME | VIDEO                                                                     |
-|:--------|:--------------------------------|:----------------|:----------------|:-------------------|:--------------|:--------------------------------------------------------------------------|
-| 01      | 🥇 VAUL - Old but Gold         	| 78.19 s         | 0               | 78.19 s            | 7.74 s        |                                                                           |
-| 02      | 🥈 Mamba                       	| 87.82 s         | 0               | 87.82 s            | 8.73 s        |                                                                           |
-| 03      | 🥉 Phoenix Racing              	| 99.33 s         | 0               | 99.33 s            | 9.90 s        |                                                                           |
-| 04      | 👏 MonacoF1                   	| 104.23 s        | 0               | 104.23 s           | 10.38 s       |                                                                           |
-| 05      | 👏 Assiut Motorsport           	| 113.13 s        | 0               | 113.13 s           | 11.28 s       |                                                                           |
-| 06      | 👏 Hero Comes Last             	| 117.23 s        | 0               | 117.23 s           | 11.67 s       |                                                                           |
-| 07      | 👏 Autonomous Ground Vehicle   	| 119.17 s        | 0               | 119.17 s           | 11.76 s       |                                                                           |
-| 08      | 👏 RUN-RUN-ChuraTaro           	| 138.86 s        | 0               | 138.86 s           | 13.71 s       |                                                                           |
-| 09      | 👏 YTU AESK                    	| 155.39 s        | 0               | 155.39 s           | 15.38 s       |                                                                           |
-| 10      | 👏 VAUL - Young Guns           	| 183.08 s        | 0               | 183.08 s           | 18.30 s       |                                                                           |
-| 11      | 👏 bracavisionai               	| 208.51 s        | 0               | 208.51 s           | 20.73 s       |                                                                           |
-| 12      | 👏 PARCar                     	| 255.06 s        | 0               | 255.06 s           | 25.32 s       |                                                                           |
-| 13      | 👏 UO Astur Martin             	| 322.33 s        | 1               | 332.33 s           | 32.08 s       |                                                                           |
+| RANK    | TEAM NAME                       | RACE TIME       | COLLISION COUNT | ADJUSTED RACE TIME | BEST LAP TIME | VIDEO                                                      |
+|:--------|:--------------------------------|:----------------|:----------------|:-------------------|:--------------|:-----------------------------------------------------------|
+| 01      | 🥇 VAUL - Old but Gold         	| 78.19 s         | 0               | 78.19 s            | 7.74 s        | [:material-youtube: YouTube](https://youtu.be/A5JdND5oZts) |
+| 02      | 🥈 Mamba                       	| 87.82 s         | 0               | 87.82 s            | 8.73 s        | [:material-youtube: YouTube](https://youtu.be/yCjCcjlxnOg) |
+| 03      | 🥉 Phoenix Racing              	| 99.33 s         | 0               | 99.33 s            | 9.90 s        | [:material-youtube: YouTube](https://youtu.be/HJqpXWUNR-4) |
+| 04      | 👏 MonacoF1                   	| 104.23 s        | 0               | 104.23 s           | 10.38 s       | [:material-youtube: YouTube](https://youtu.be/CTjnzO3qMvQ) |
+| 05      | 👏 Assiut Motorsport           	| 113.13 s        | 0               | 113.13 s           | 11.28 s       | [:material-youtube: YouTube](https://youtu.be/f5Fx91bhmFI) |
+| 06      | 👏 Hero Comes Last             	| 117.23 s        | 0               | 117.23 s           | 11.67 s       | [:material-youtube: YouTube](https://youtu.be/mGndZPicWl0) |
+| 07      | 👏 Autonomous Ground Vehicle   	| 119.17 s        | 0               | 119.17 s           | 11.76 s       | [:material-youtube: YouTube](https://youtu.be/mQSvaBFIycY) |
+| 08      | 👏 RUN-RUN-ChuraTaro           	| 138.86 s        | 0               | 138.86 s           | 13.71 s       | [:material-youtube: YouTube](https://youtu.be/qXM7OQZmbKY) |
+| 09      | 👏 YTU AESK                    	| 155.39 s        | 0               | 155.39 s           | 15.38 s       | [:material-youtube: YouTube](https://youtu.be/ivZ-AfTFYTM) |
+| 10      | 👏 VAUL - Young Guns           	| 183.08 s        | 0               | 183.08 s           | 18.30 s       | [:material-youtube: YouTube](https://youtu.be/0t-CkkVrlx0) |
+| 11      | 👏 bracavisionai               	| 208.51 s        | 0               | 208.51 s           | 20.73 s       | [:material-youtube: YouTube](https://youtu.be/DISFyHiLYYM) |
+| 12      | 👏 PARCar                     	| 255.06 s        | 0               | 255.06 s           | 25.32 s       | [:material-youtube: YouTube](https://youtu.be/gE_fsHm0mlc) |
+| 13      | 👏 UO Astur Martin             	| 322.33 s        | 1               | 332.33 s           | 32.08 s       | [:material-youtube: YouTube](https://youtu.be/CWAUidTH78I) |
 
 ## Summary
 
@@ -303,6 +303,6 @@ The following teams successfully finished the final time-attack race. Here are t
 A summary video will be posted here after the competition.
 </p>
 
-<!-- <div style="display: flex; justify-content: center;">
-<iframe style="aspect-ratio: 16/9; width: 100% !important;" src="https://www.youtube.com/embed/oObgg_MCU4U?si=PoG8ilw_ovGh71Dj" title="RoboRacer Sim Racing League @ ICRA 2025" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-</div> -->
+<div style="display: flex; justify-content: center;">
+<iframe style="aspect-ratio: 16/9; width: 100% !important;" src="https://www.youtube.com/embed/7Y2jeoHyvWA?si=KdvjI2Aawu4Vv3xN" title="RoboRacer Sim Racing League @ CDC-TF 2025" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
