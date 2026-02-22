@@ -279,7 +279,9 @@ The following teams have qualified for the final time-attack race. Here are the 
 
 **Phase 2: Competition**
 
+<p align="justify">
 The following teams successfully finished the final time-attack race. Here are the official standings:
+</p>
 
 | RANK    | TEAM NAME                       | RACE TIME       | COLLISION COUNT | ADJUSTED RACE TIME | BEST LAP TIME | VIDEO                                                      |
 |:--------|:--------------------------------|:----------------|:----------------|:-------------------|:--------------|:-----------------------------------------------------------|
