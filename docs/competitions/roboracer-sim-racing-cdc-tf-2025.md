@@ -301,10 +301,6 @@ The following teams successfully finished the final time-attack race. Here are t
 
 ## Summary
 
-<p align="justify">
-A summary video will be posted here after the competition.
-</p>
-
 <div style="display: flex; justify-content: center;">
 <iframe style="aspect-ratio: 16/9; width: 100% !important;" src="https://www.youtube.com/embed/7Y2jeoHyvWA?si=KdvjI2Aawu4Vv3xN" title="RoboRacer Sim Racing League @ CDC-TF 2025" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
