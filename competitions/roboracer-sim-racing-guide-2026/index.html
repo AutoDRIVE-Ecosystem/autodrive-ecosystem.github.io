@@ -12,7 +12,7 @@
         <meta name="author" content="Tinker Twins">
       
       
-        <link rel="canonical" href="https://autodrive-ecosystem.github.io/competitions/roboracer-sim-racing-guide-2024/">
+        <link rel="canonical" href="https://autodrive-ecosystem.github.io/competitions/roboracer-sim-racing-guide-2026/">
       
       
       
@@ -668,7 +668,7 @@ This document describes the technical details of the competition framework for t
 
 <h2 id="1-autodrive-simulator">1. AutoDRIVE Simulator<a class="headerlink" href="#1-autodrive-simulator" title="Permanent link">&para;</a></h2>
 <div style="display: flex; justify-content: center;">
-<img src="/../assets/images/documentation/f1tenth sim racing league/Simulator.png">
+<img src="/../assets/images/documentation/roboracer sim racing league/Simulator.png">
 </div>
 
 <p align="justify">
@@ -819,10 +819,10 @@ AutoDRIVE Simulator's graphical user interface (GUI) consists of a toolbar encom
 <h4 id="131-transforms">1.3.1. Transforms<a class="headerlink" href="#131-transforms" title="Permanent link">&para;</a></h4>
 <div class="grid cards">
 <ul>
-<li><img src="/../assets/images/documentation/f1tenth sim racing league/F1TENTH TF - Oblique View.png"></li>
-<li><img src="/../assets/images/documentation/f1tenth sim racing league/F1TENTH TF - Front View.png"></li>
-<li><img src="/../assets/images/documentation/f1tenth sim racing league/F1TENTH TF - Side View.png"></li>
-<li><img src="/../assets/images/documentation/f1tenth sim racing league/F1TENTH TF - Top View.png"></li>
+<li><img src="/../assets/images/documentation/roboracer sim racing league/RoboRacer TF - Oblique View.png"></li>
+<li><img src="/../assets/images/documentation/roboracer sim racing league/RoboRacer TF - Front View.png"></li>
+<li><img src="/../assets/images/documentation/roboracer sim racing league/RoboRacer TF - Side View.png"></li>
+<li><img src="/../assets/images/documentation/roboracer sim racing league/RoboRacer TF - Top View.png"></li>
 </ul>
 </div>
 <div class="admonition note">
@@ -936,11 +936,11 @@ AutoDRIVE Simulator's graphical user interface (GUI) consists of a toolbar encom
 </table>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
-<p>All frame transforms mentioned above are defined w.r.t. the vehicle (local) frame of reference <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m12 2 4 4h-3v7.85l6.53 3.76L21 15.03l1.5 5.47-5.5 1.46 1.53-2.61L12 15.58l-6.53 3.77L7 21.96 1.5 20.5 3 15.03l1.47 2.58L11 13.85V6H8l4-4Z"/></svg></span> <code>f1tenth_1</code> located at the center of rear axle with x-axis pointing forward, y-axis pointing left, and z-axis pointing upwards. Columns x, y, and z denote translations in meters (m), while R, P, and Y denote rotations in degrees (deg). <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M384 160c-17.7 0-32-14.3-32-32s14.3-32 32-32h160c17.7 0 32 14.3 32 32v160c0 17.7-14.3 32-32 32s-32-14.3-32-32v-82.7L342.6 374.6c-12.5 12.5-32.8 12.5-45.3 0L192 269.3 54.6 406.6c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3l160-160c12.5-12.5 32.8-12.5 45.3 0L320 306.7 466.7 160H384z"/></svg></span> denotes variable quantities.</p>
+<p>All frame transforms mentioned above are defined w.r.t. the vehicle (local) frame of reference <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m12 2 4 4h-3v7.85l6.53 3.76L21 15.03l1.5 5.47-5.5 1.46 1.53-2.61L12 15.58l-6.53 3.77L7 21.96 1.5 20.5 3 15.03l1.47 2.58L11 13.85V6H8l4-4Z"/></svg></span> <code>roboracer_1</code> located at the center of rear axle with x-axis pointing forward, y-axis pointing left, and z-axis pointing upwards. Columns x, y, and z denote translations in meters (m), while R, P, and Y denote rotations in degrees (deg). <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M384 160c-17.7 0-32-14.3-32-32s14.3-32 32-32h160c17.7 0 32 14.3 32 32v160c0 17.7-14.3 32-32 32s-32-14.3-32-32v-82.7L342.6 374.6c-12.5 12.5-32.8 12.5-45.3 0L192 269.3 54.6 406.6c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3l160-160c12.5-12.5 32.8-12.5 45.3 0L320 306.7 466.7 160H384z"/></svg></span> denotes variable quantities.</p>
 </div>
 <h4 id="132-vehicle-dynamics">1.3.2. Vehicle Dynamics<a class="headerlink" href="#132-vehicle-dynamics" title="Permanent link">&para;</a></h4>
 <div style="display: flex; justify-content: center;">
-<img src="/../assets/images/documentation/f1tenth sim racing league/F1TENTH Vehicle Dynamics.png">
+<img src="/../assets/images/documentation/roboracer sim racing league/RoboRacer Vehicle Dynamics.png">
 </div>
 
 <p>The vehicle model is a combination of a rigid body and a collection of sprung masses <span class="arithmatex">\(^iM\)</span>, where the total mass of the rigid body is defined as <span class="arithmatex">\(M=\sum{^iM}\)</span>. The rigid body's center of mass, <span class="arithmatex">\(X_{COM} = \frac{\sum{{^iM}*{^iX}}}{\sum{^iM}}\)</span>, connects these representations, with <span class="arithmatex">\(^iX\)</span> representing the coordinates of the sprung masses.</p>
@@ -1303,7 +1303,7 @@ AutoDRIVE Simulator's graphical user interface (GUI) consists of a toolbar encom
 <p>These environments are simulated by conducting mesh-mesh interference detection and computing contact forces, frictional forces, momentum transfer, as well as linear and angular drag acting on all rigid bodies in the scenario.</p>
 <h4 id="141-transforms">1.4.1. Transforms<a class="headerlink" href="#141-transforms" title="Permanent link">&para;</a></h4>
 <div style="display: flex; justify-content: center;">
-<img src="/../assets/images/documentation/f1tenth sim racing league/Racetrack TF - Porto.png">
+<img src="/../assets/images/documentation/roboracer sim racing league/Racetrack TF - Porto.png">
 </div>
 
 <div class="admonition note">
@@ -1333,7 +1333,7 @@ AutoDRIVE Simulator's graphical user interface (GUI) consists of a toolbar encom
 <td style="text-align: left;">0.0</td>
 </tr>
 <tr>
-<td style="text-align: left;"><code>f1tenth_1</code></td>
+<td style="text-align: left;"><code>roboracer_1</code></td>
 <td style="text-align: left;"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M384 160c-17.7 0-32-14.3-32-32s14.3-32 32-32h160c17.7 0 32 14.3 32 32v160c0 17.7-14.3 32-32 32s-32-14.3-32-32v-82.7L342.6 374.6c-12.5 12.5-32.8 12.5-45.3 0L192 269.3 54.6 406.6c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3l160-160c12.5-12.5 32.8-12.5 45.3 0L320 306.7 466.7 160H384z"/></svg></span></td>
 <td style="text-align: left;"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M384 160c-17.7 0-32-14.3-32-32s14.3-32 32-32h160c17.7 0 32 14.3 32 32v160c0 17.7-14.3 32-32 32s-32-14.3-32-32v-82.7L342.6 374.6c-12.5 12.5-32.8 12.5-45.3 0L192 269.3 54.6 406.6c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3l160-160c12.5-12.5 32.8-12.5 45.3 0L320 306.7 466.7 160H384z"/></svg></span></td>
 <td style="text-align: left;"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M384 160c-17.7 0-32-14.3-32-32s14.3-32 32-32h160c17.7 0 32 14.3 32 32v160c0 17.7-14.3 32-32 32s-32-14.3-32-32v-82.7L342.6 374.6c-12.5 12.5-32.8 12.5-45.3 0L192 269.3 54.6 406.6c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3l160-160c12.5-12.5 32.8-12.5 45.3 0L320 306.7 466.7 160H384z"/></svg></span></td>
@@ -1388,7 +1388,7 @@ AutoDRIVE Simulator's graphical user interface (GUI) consists of a toolbar encom
 
 <h2 id="2-autodrive-devkit">2. AutoDRIVE Devkit<a class="headerlink" href="#2-autodrive-devkit" title="Permanent link">&para;</a></h2>
 <div style="display: flex; justify-content: center;">
-<img src="/../assets/images/documentation/f1tenth sim racing league/Devkit.png">
+<img src="/../assets/images/documentation/roboracer sim racing league/Devkit.png">
 </div>
 
 <p align="justify">
@@ -1436,34 +1436,38 @@ The following tree describes the ROS 2 package structure of the AutoDRIVE Devkit
 </p>
 
 <div class="language-text highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>autodrive_devkit
-</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>├───package.xml
-</span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a>├───setup.cfg
-</span><span id="__span-0-4"><a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a>├───setup.py
-</span><span id="__span-0-5"><a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a>│
-</span><span id="__span-0-6"><a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a>├───autodrive_f1tenth
-</span><span id="__span-0-7"><a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a>│   └───autodrive_bridge.py
-</span><span id="__span-0-8"><a id="__codelineno-0-8" name="__codelineno-0-8" href="#__codelineno-0-8"></a>│   └───config.py
-</span><span id="__span-0-9"><a id="__codelineno-0-9" name="__codelineno-0-9" href="#__codelineno-0-9"></a>│   └───teleop_keyboard.py
-</span><span id="__span-0-10"><a id="__codelineno-0-10" name="__codelineno-0-10" href="#__codelineno-0-10"></a>│   └───__init__.py
-</span><span id="__span-0-11"><a id="__codelineno-0-11" name="__codelineno-0-11" href="#__codelineno-0-11"></a>│
-</span><span id="__span-0-12"><a id="__codelineno-0-12" name="__codelineno-0-12" href="#__codelineno-0-12"></a>├───launch
-</span><span id="__span-0-13"><a id="__codelineno-0-13" name="__codelineno-0-13" href="#__codelineno-0-13"></a>│   └───simulator_bringup_headless.launch.py
-</span><span id="__span-0-14"><a id="__codelineno-0-14" name="__codelineno-0-14" href="#__codelineno-0-14"></a>│   └───simulator_bringup_rviz.launch.py
+</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>├───README.md
+</span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a>├───package.xml
+</span><span id="__span-0-4"><a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a>├───setup.cfg
+</span><span id="__span-0-5"><a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a>├───setup.py
+</span><span id="__span-0-6"><a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a>├───requirements_python_3.8.txt
+</span><span id="__span-0-7"><a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a>├───requirements_python_3.9.txt
+</span><span id="__span-0-8"><a id="__codelineno-0-8" name="__codelineno-0-8" href="#__codelineno-0-8"></a>├───requirements_python_3.10.txt
+</span><span id="__span-0-9"><a id="__codelineno-0-9" name="__codelineno-0-9" href="#__codelineno-0-9"></a>│
+</span><span id="__span-0-10"><a id="__codelineno-0-10" name="__codelineno-0-10" href="#__codelineno-0-10"></a>├───autodrive_roboracer
+</span><span id="__span-0-11"><a id="__codelineno-0-11" name="__codelineno-0-11" href="#__codelineno-0-11"></a>│   └───autodrive_bridge.py
+</span><span id="__span-0-12"><a id="__codelineno-0-12" name="__codelineno-0-12" href="#__codelineno-0-12"></a>│   └───config.py
+</span><span id="__span-0-13"><a id="__codelineno-0-13" name="__codelineno-0-13" href="#__codelineno-0-13"></a>│   └───teleop_keyboard.py
+</span><span id="__span-0-14"><a id="__codelineno-0-14" name="__codelineno-0-14" href="#__codelineno-0-14"></a>│   └───__init__.py
 </span><span id="__span-0-15"><a id="__codelineno-0-15" name="__codelineno-0-15" href="#__codelineno-0-15"></a>│
-</span><span id="__span-0-16"><a id="__codelineno-0-16" name="__codelineno-0-16" href="#__codelineno-0-16"></a>├───resource
-</span><span id="__span-0-17"><a id="__codelineno-0-17" name="__codelineno-0-17" href="#__codelineno-0-17"></a>│   └───autodrive_f1tenth
-</span><span id="__span-0-18"><a id="__codelineno-0-18" name="__codelineno-0-18" href="#__codelineno-0-18"></a>│
-</span><span id="__span-0-19"><a id="__codelineno-0-19" name="__codelineno-0-19" href="#__codelineno-0-19"></a>├───rviz
-</span><span id="__span-0-20"><a id="__codelineno-0-20" name="__codelineno-0-20" href="#__codelineno-0-20"></a>│   └───simulator.rviz
-</span><span id="__span-0-21"><a id="__codelineno-0-21" name="__codelineno-0-21" href="#__codelineno-0-21"></a>│
-</span><span id="__span-0-22"><a id="__codelineno-0-22" name="__codelineno-0-22" href="#__codelineno-0-22"></a>└───test
-</span><span id="__span-0-23"><a id="__codelineno-0-23" name="__codelineno-0-23" href="#__codelineno-0-23"></a>│   └───test_copyright.py
-</span><span id="__span-0-24"><a id="__codelineno-0-24" name="__codelineno-0-24" href="#__codelineno-0-24"></a>│   └───test_flake8.py
-</span><span id="__span-0-25"><a id="__codelineno-0-25" name="__codelineno-0-25" href="#__codelineno-0-25"></a>│   └───test_pep257.py
+</span><span id="__span-0-16"><a id="__codelineno-0-16" name="__codelineno-0-16" href="#__codelineno-0-16"></a>├───launch
+</span><span id="__span-0-17"><a id="__codelineno-0-17" name="__codelineno-0-17" href="#__codelineno-0-17"></a>│   └───bringup_headless.launch.py
+</span><span id="__span-0-18"><a id="__codelineno-0-18" name="__codelineno-0-18" href="#__codelineno-0-18"></a>│   └───bringup_graphics.launch.py
+</span><span id="__span-0-19"><a id="__codelineno-0-19" name="__codelineno-0-19" href="#__codelineno-0-19"></a>│
+</span><span id="__span-0-20"><a id="__codelineno-0-20" name="__codelineno-0-20" href="#__codelineno-0-20"></a>├───resource
+</span><span id="__span-0-21"><a id="__codelineno-0-21" name="__codelineno-0-21" href="#__codelineno-0-21"></a>│   └───autodrive_roboracer
+</span><span id="__span-0-22"><a id="__codelineno-0-22" name="__codelineno-0-22" href="#__codelineno-0-22"></a>│
+</span><span id="__span-0-23"><a id="__codelineno-0-23" name="__codelineno-0-23" href="#__codelineno-0-23"></a>├───
+</span><span id="__span-0-24"><a id="__codelineno-0-24" name="__codelineno-0-24" href="#__codelineno-0-24"></a>│   └───autodrive_roboracer.
+</span><span id="__span-0-25"><a id="__codelineno-0-25" name="__codelineno-0-25" href="#__codelineno-0-25"></a>│
+</span><span id="__span-0-26"><a id="__codelineno-0-26" name="__codelineno-0-26" href="#__codelineno-0-26"></a>└───test
+</span><span id="__span-0-27"><a id="__codelineno-0-27" name="__codelineno-0-27" href="#__codelineno-0-27"></a>│   └───test_copyright.py
+</span><span id="__span-0-28"><a id="__codelineno-0-28" name="__codelineno-0-28" href="#__codelineno-0-28"></a>│   └───test_flake8.py
+</span><span id="__span-0-29"><a id="__codelineno-0-29" name="__codelineno-0-29" href="#__codelineno-0-29"></a>│   └───test_pep257.py
 </span></code></pre></div>
 <div class="admonition warning">
 <p class="admonition-title">Warning</p>
-<p>Modifying the <code>autodrive_f1tenth</code> package is not permitted. Participants will have to create their own separate package(s) to implement their autonomous racing algorithms.</p>
+<p>Modifying the <code>autodrive_roboracer</code> package is not permitted. Participants will have to create their own separate package(s) to implement their autonomous racing algorithms.</p>
 </div>
 <h3 id="23-data-streams">2.3. Data Streams<a class="headerlink" href="#23-data-streams" title="Permanent link">&para;</a></h3>
 <p align="justify">
@@ -1481,97 +1485,97 @@ The following table describes various data streams of the competition framework.
 </thead>
 <tbody>
 <tr>
-<td style="text-align: left;"><code>/autodrive/f1tenth_1/best_lap_time</code></td>
+<td style="text-align: left;"><code>/autodrive/roboracer_1/best_lap_time</code></td>
 <td style="text-align: left;"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M14 12h-4v-2h4m0 6h-4v-2h4m6-6h-2.81a5.985 5.985 0 0 0-1.82-1.96L17 4.41 15.59 3l-2.17 2.17a6.002 6.002 0 0 0-2.83 0L8.41 3 7 4.41l1.62 1.63C7.88 6.55 7.26 7.22 6.81 8H4v2h2.09c-.05.33-.09.66-.09 1v1H4v2h2v1c0 .34.04.67.09 1H4v2h2.81c1.04 1.79 2.97 3 5.19 3s4.15-1.21 5.19-3H20v-2h-2.09c.05-.33.09-.66.09-1v-1h2v-2h-2v-1c0-.34-.04-.67-.09-1H20V8Z"/></svg></span> Debugging</td>
 <td style="text-align: left;"><code>std_msgs/msg/Float32</code></td>
 <td style="text-align: left;"><img alt="⚠" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@16.0.1/assets/svg/26a0.svg" title=":warning:" /> Restricted</td>
 </tr>
 <tr>
-<td style="text-align: left;"><code>/autodrive/f1tenth_1/collision_count</code></td>
+<td style="text-align: left;"><code>/autodrive/roboracer_1/collision_count</code></td>
 <td style="text-align: left;"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M14 12h-4v-2h4m0 6h-4v-2h4m6-6h-2.81a5.985 5.985 0 0 0-1.82-1.96L17 4.41 15.59 3l-2.17 2.17a6.002 6.002 0 0 0-2.83 0L8.41 3 7 4.41l1.62 1.63C7.88 6.55 7.26 7.22 6.81 8H4v2h2.09c-.05.33-.09.66-.09 1v1H4v2h2v1c0 .34.04.67.09 1H4v2h2.81c1.04 1.79 2.97 3 5.19 3s4.15-1.21 5.19-3H20v-2h-2.09c.05-.33.09-.66.09-1v-1h2v-2h-2v-1c0-.34-.04-.67-.09-1H20V8Z"/></svg></span> Debugging</td>
 <td style="text-align: left;"><code>std_msgs/msg/Int32</code></td>
 <td style="text-align: left;"><img alt="⚠" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@16.0.1/assets/svg/26a0.svg" title=":warning:" /> Restricted</td>
 </tr>
 <tr>
-<td style="text-align: left;"><code>/autodrive/f1tenth_1/front_camera</code></td>
+<td style="text-align: left;"><code>/autodrive/roboracer_1/front_camera</code></td>
 <td style="text-align: left;"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3m0 8a5 5 0 0 1-5-5 5 5 0 0 1 5-5 5 5 0 0 1 5 5 5 5 0 0 1-5 5m0-12.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5Z"/></svg></span> Sensor</td>
 <td style="text-align: left;"><code>sensor_msgs/msg/Image</code></td>
 <td style="text-align: left;"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 2.03c4.73.47 8.5 4.22 8.95 8.97A9.976 9.976 0 0 1 13 21.93v-2c3.64-.43 6.5-3.32 6.96-6.96A7.994 7.994 0 0 0 13 4.05V2.03m-2 .03v2c-1.43.2-2.78.78-3.9 1.68L5.67 4.26A9.827 9.827 0 0 1 11 2.06M4.26 5.67 5.69 7.1A8.017 8.017 0 0 0 4.05 11h-2c.2-1.96.95-3.81 2.21-5.33M2.06 13h2c.18 1.42.75 2.77 1.63 3.9l-1.42 1.43A10.04 10.04 0 0 1 2.06 13m5.04 5.37c1.13.88 2.48 1.45 3.9 1.63v2c-1.96-.21-3.82-1-5.33-2.26l1.43-1.37M12 16.5 7.5 12H11V8h2v4h3.5L12 16.5Z"/></svg></span> Input</td>
 </tr>
 <tr>
-<td style="text-align: left;"><code>/autodrive/f1tenth_1/imu</code></td>
+<td style="text-align: left;"><code>/autodrive/roboracer_1/imu</code></td>
 <td style="text-align: left;"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3m0 8a5 5 0 0 1-5-5 5 5 0 0 1 5-5 5 5 0 0 1 5 5 5 5 0 0 1-5 5m0-12.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5Z"/></svg></span> Sensor</td>
 <td style="text-align: left;"><code>sensor_msgs/msg/Imu</code></td>
 <td style="text-align: left;"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 2.03c4.73.47 8.5 4.22 8.95 8.97A9.976 9.976 0 0 1 13 21.93v-2c3.64-.43 6.5-3.32 6.96-6.96A7.994 7.994 0 0 0 13 4.05V2.03m-2 .03v2c-1.43.2-2.78.78-3.9 1.68L5.67 4.26A9.827 9.827 0 0 1 11 2.06M4.26 5.67 5.69 7.1A8.017 8.017 0 0 0 4.05 11h-2c.2-1.96.95-3.81 2.21-5.33M2.06 13h2c.18 1.42.75 2.77 1.63 3.9l-1.42 1.43A10.04 10.04 0 0 1 2.06 13m5.04 5.37c1.13.88 2.48 1.45 3.9 1.63v2c-1.96-.21-3.82-1-5.33-2.26l1.43-1.37M12 16.5 7.5 12H11V8h2v4h3.5L12 16.5Z"/></svg></span> Input</td>
 </tr>
 <tr>
-<td style="text-align: left;"><code>/autodrive/f1tenth_1/ips</code></td>
+<td style="text-align: left;"><code>/autodrive/roboracer_1/ips</code></td>
 <td style="text-align: left;"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3m0 8a5 5 0 0 1-5-5 5 5 0 0 1 5-5 5 5 0 0 1 5 5 5 5 0 0 1-5 5m0-12.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5Z"/></svg></span> Sensor</td>
 <td style="text-align: left;"><code>geometry_msgs/msg/Point</code></td>
 <td style="text-align: left;"><img alt="⚠" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@16.0.1/assets/svg/26a0.svg" title=":warning:" /> Restricted</td>
 </tr>
 <tr>
-<td style="text-align: left;"><code>/autodrive/f1tenth_1/lap_count</code></td>
+<td style="text-align: left;"><code>/autodrive/roboracer_1/lap_count</code></td>
 <td style="text-align: left;"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M14 12h-4v-2h4m0 6h-4v-2h4m6-6h-2.81a5.985 5.985 0 0 0-1.82-1.96L17 4.41 15.59 3l-2.17 2.17a6.002 6.002 0 0 0-2.83 0L8.41 3 7 4.41l1.62 1.63C7.88 6.55 7.26 7.22 6.81 8H4v2h2.09c-.05.33-.09.66-.09 1v1H4v2h2v1c0 .34.04.67.09 1H4v2h2.81c1.04 1.79 2.97 3 5.19 3s4.15-1.21 5.19-3H20v-2h-2.09c.05-.33.09-.66.09-1v-1h2v-2h-2v-1c0-.34-.04-.67-.09-1H20V8Z"/></svg></span> Debugging</td>
 <td style="text-align: left;"><code>std_msgs/msg/Int32</code></td>
 <td style="text-align: left;"><img alt="⚠" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@16.0.1/assets/svg/26a0.svg" title=":warning:" /> Restricted</td>
 </tr>
 <tr>
-<td style="text-align: left;"><code>/autodrive/f1tenth_1/lap_time</code></td>
+<td style="text-align: left;"><code>/autodrive/roboracer_1/lap_time</code></td>
 <td style="text-align: left;"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M14 12h-4v-2h4m0 6h-4v-2h4m6-6h-2.81a5.985 5.985 0 0 0-1.82-1.96L17 4.41 15.59 3l-2.17 2.17a6.002 6.002 0 0 0-2.83 0L8.41 3 7 4.41l1.62 1.63C7.88 6.55 7.26 7.22 6.81 8H4v2h2.09c-.05.33-.09.66-.09 1v1H4v2h2v1c0 .34.04.67.09 1H4v2h2.81c1.04 1.79 2.97 3 5.19 3s4.15-1.21 5.19-3H20v-2h-2.09c.05-.33.09-.66.09-1v-1h2v-2h-2v-1c0-.34-.04-.67-.09-1H20V8Z"/></svg></span> Debugging</td>
 <td style="text-align: left;"><code>std_msgs/msg/Float32</code></td>
 <td style="text-align: left;"><img alt="⚠" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@16.0.1/assets/svg/26a0.svg" title=":warning:" /> Restricted</td>
 </tr>
 <tr>
-<td style="text-align: left;"><code>/autodrive/f1tenth_1/last_lap_time</code></td>
+<td style="text-align: left;"><code>/autodrive/roboracer_1/last_lap_time</code></td>
 <td style="text-align: left;"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M14 12h-4v-2h4m0 6h-4v-2h4m6-6h-2.81a5.985 5.985 0 0 0-1.82-1.96L17 4.41 15.59 3l-2.17 2.17a6.002 6.002 0 0 0-2.83 0L8.41 3 7 4.41l1.62 1.63C7.88 6.55 7.26 7.22 6.81 8H4v2h2.09c-.05.33-.09.66-.09 1v1H4v2h2v1c0 .34.04.67.09 1H4v2h2.81c1.04 1.79 2.97 3 5.19 3s4.15-1.21 5.19-3H20v-2h-2.09c.05-.33.09-.66.09-1v-1h2v-2h-2v-1c0-.34-.04-.67-.09-1H20V8Z"/></svg></span> Debugging</td>
 <td style="text-align: left;"><code>std_msgs/msg/Float32</code></td>
 <td style="text-align: left;"><img alt="⚠" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@16.0.1/assets/svg/26a0.svg" title=":warning:" /> Restricted</td>
 </tr>
 <tr>
-<td style="text-align: left;"><code>/autodrive/f1tenth_1/left_encoder</code></td>
+<td style="text-align: left;"><code>/autodrive/roboracer_1/left_encoder</code></td>
 <td style="text-align: left;"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3m0 8a5 5 0 0 1-5-5 5 5 0 0 1 5-5 5 5 0 0 1 5 5 5 5 0 0 1-5 5m0-12.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5Z"/></svg></span> Sensor</td>
 <td style="text-align: left;"><code>sensor_msgs/msg/JointState</code></td>
 <td style="text-align: left;"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 2.03c4.73.47 8.5 4.22 8.95 8.97A9.976 9.976 0 0 1 13 21.93v-2c3.64-.43 6.5-3.32 6.96-6.96A7.994 7.994 0 0 0 13 4.05V2.03m-2 .03v2c-1.43.2-2.78.78-3.9 1.68L5.67 4.26A9.827 9.827 0 0 1 11 2.06M4.26 5.67 5.69 7.1A8.017 8.017 0 0 0 4.05 11h-2c.2-1.96.95-3.81 2.21-5.33M2.06 13h2c.18 1.42.75 2.77 1.63 3.9l-1.42 1.43A10.04 10.04 0 0 1 2.06 13m5.04 5.37c1.13.88 2.48 1.45 3.9 1.63v2c-1.96-.21-3.82-1-5.33-2.26l1.43-1.37M12 16.5 7.5 12H11V8h2v4h3.5L12 16.5Z"/></svg></span> Input</td>
 </tr>
 <tr>
-<td style="text-align: left;"><code>/autodrive/f1tenth_1/lidar</code></td>
+<td style="text-align: left;"><code>/autodrive/roboracer_1/lidar</code></td>
 <td style="text-align: left;"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3m0 8a5 5 0 0 1-5-5 5 5 0 0 1 5-5 5 5 0 0 1 5 5 5 5 0 0 1-5 5m0-12.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5Z"/></svg></span> Sensor</td>
 <td style="text-align: left;"><code>sensor_msgs/msg/LaserScan</code></td>
 <td style="text-align: left;"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 2.03c4.73.47 8.5 4.22 8.95 8.97A9.976 9.976 0 0 1 13 21.93v-2c3.64-.43 6.5-3.32 6.96-6.96A7.994 7.994 0 0 0 13 4.05V2.03m-2 .03v2c-1.43.2-2.78.78-3.9 1.68L5.67 4.26A9.827 9.827 0 0 1 11 2.06M4.26 5.67 5.69 7.1A8.017 8.017 0 0 0 4.05 11h-2c.2-1.96.95-3.81 2.21-5.33M2.06 13h2c.18 1.42.75 2.77 1.63 3.9l-1.42 1.43A10.04 10.04 0 0 1 2.06 13m5.04 5.37c1.13.88 2.48 1.45 3.9 1.63v2c-1.96-.21-3.82-1-5.33-2.26l1.43-1.37M12 16.5 7.5 12H11V8h2v4h3.5L12 16.5Z"/></svg></span> Input</td>
 </tr>
 <tr>
-<td style="text-align: left;"><code>/autodrive/f1tenth_1/right_encoder</code></td>
+<td style="text-align: left;"><code>/autodrive/roboracer_1/right_encoder</code></td>
 <td style="text-align: left;"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3m0 8a5 5 0 0 1-5-5 5 5 0 0 1 5-5 5 5 0 0 1 5 5 5 5 0 0 1-5 5m0-12.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5Z"/></svg></span> Sensor</td>
 <td style="text-align: left;"><code>sensor_msgs/msg/JointState</code></td>
 <td style="text-align: left;"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 2.03c4.73.47 8.5 4.22 8.95 8.97A9.976 9.976 0 0 1 13 21.93v-2c3.64-.43 6.5-3.32 6.96-6.96A7.994 7.994 0 0 0 13 4.05V2.03m-2 .03v2c-1.43.2-2.78.78-3.9 1.68L5.67 4.26A9.827 9.827 0 0 1 11 2.06M4.26 5.67 5.69 7.1A8.017 8.017 0 0 0 4.05 11h-2c.2-1.96.95-3.81 2.21-5.33M2.06 13h2c.18 1.42.75 2.77 1.63 3.9l-1.42 1.43A10.04 10.04 0 0 1 2.06 13m5.04 5.37c1.13.88 2.48 1.45 3.9 1.63v2c-1.96-.21-3.82-1-5.33-2.26l1.43-1.37M12 16.5 7.5 12H11V8h2v4h3.5L12 16.5Z"/></svg></span> Input</td>
 </tr>
 <tr>
-<td style="text-align: left;"><code>/autodrive/f1tenth_1/speed</code></td>
+<td style="text-align: left;"><code>/autodrive/roboracer_1/speed</code></td>
 <td style="text-align: left;"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M14 12h-4v-2h4m0 6h-4v-2h4m6-6h-2.81a5.985 5.985 0 0 0-1.82-1.96L17 4.41 15.59 3l-2.17 2.17a6.002 6.002 0 0 0-2.83 0L8.41 3 7 4.41l1.62 1.63C7.88 6.55 7.26 7.22 6.81 8H4v2h2.09c-.05.33-.09.66-.09 1v1H4v2h2v1c0 .34.04.67.09 1H4v2h2.81c1.04 1.79 2.97 3 5.19 3s4.15-1.21 5.19-3H20v-2h-2.09c.05-.33.09-.66.09-1v-1h2v-2h-2v-1c0-.34-.04-.67-.09-1H20V8Z"/></svg></span> Debugging</td>
 <td style="text-align: left;"><code>std_msgs/msg/Float32</code></td>
 <td style="text-align: left;"><img alt="⚠" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@16.0.1/assets/svg/26a0.svg" title=":warning:" /> Restricted</td>
 </tr>
 <tr>
-<td style="text-align: left;"><code>/autodrive/f1tenth_1/steering</code></td>
+<td style="text-align: left;"><code>/autodrive/roboracer_1/steering</code></td>
 <td style="text-align: left;"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3m0 8a5 5 0 0 1-5-5 5 5 0 0 1 5-5 5 5 0 0 1 5 5 5 5 0 0 1-5 5m0-12.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5Z"/></svg></span> Sensor</td>
 <td style="text-align: left;"><code>std_msgs/msg/Float32</code></td>
 <td style="text-align: left;"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 2.03c4.73.47 8.5 4.22 8.95 8.97A9.976 9.976 0 0 1 13 21.93v-2c3.64-.43 6.5-3.32 6.96-6.96A7.994 7.994 0 0 0 13 4.05V2.03m-2 .03v2c-1.43.2-2.78.78-3.9 1.68L5.67 4.26A9.827 9.827 0 0 1 11 2.06M4.26 5.67 5.69 7.1A8.017 8.017 0 0 0 4.05 11h-2c.2-1.96.95-3.81 2.21-5.33M2.06 13h2c.18 1.42.75 2.77 1.63 3.9l-1.42 1.43A10.04 10.04 0 0 1 2.06 13m5.04 5.37c1.13.88 2.48 1.45 3.9 1.63v2c-1.96-.21-3.82-1-5.33-2.26l1.43-1.37M12 16.5 7.5 12H11V8h2v4h3.5L12 16.5Z"/></svg></span> Input</td>
 </tr>
 <tr>
-<td style="text-align: left;"><code>/autodrive/f1tenth_1/steering_command</code></td>
+<td style="text-align: left;"><code>/autodrive/roboracer_1/steering_command</code></td>
 <td style="text-align: left;"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M7 4v2h3v2H7l-2 2v3H3v-3H1v8h2v-3h2v3h3l2 2h8v-4h2v3h3V9h-3v3h-2V8h-6V6h3V4H7Z"/></svg></span> Actuator</td>
 <td style="text-align: left;"><code>std_msgs/msg/Float32</code></td>
 <td style="text-align: left;"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 2.03c4.73.47 8.5 4.22 8.95 8.97A9.976 9.976 0 0 1 13 21.93v-2c3.64-.43 6.5-3.32 6.96-6.96A7.994 7.994 0 0 0 13 4.05V2.03m-2 .03v2c-1.43.2-2.78.78-3.9 1.68L5.67 4.26A9.827 9.827 0 0 1 11 2.06M4.26 5.67 5.69 7.1A8.017 8.017 0 0 0 4.05 11h-2c.2-1.96.95-3.81 2.21-5.33M2.06 13h2c.18 1.42.75 2.77 1.63 3.9l-1.42 1.43A10.04 10.04 0 0 1 2.06 13m5.04 5.37c1.13.88 2.48 1.45 3.9 1.63v2c-1.96-.21-3.82-1-5.33-2.26l1.43-1.37M12 7.5 7.5 12H11v4h2v-4h3.5L12 7.5Z"/></svg></span> Output</td>
 </tr>
 <tr>
-<td style="text-align: left;"><code>/autodrive/f1tenth_1/throttle</code></td>
+<td style="text-align: left;"><code>/autodrive/roboracer_1/throttle</code></td>
 <td style="text-align: left;"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3m0 8a5 5 0 0 1-5-5 5 5 0 0 1 5-5 5 5 0 0 1 5 5 5 5 0 0 1-5 5m0-12.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5Z"/></svg></span> Sensor</td>
 <td style="text-align: left;"><code>std_msgs/msg/Float32</code></td>
 <td style="text-align: left;"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 2.03c4.73.47 8.5 4.22 8.95 8.97A9.976 9.976 0 0 1 13 21.93v-2c3.64-.43 6.5-3.32 6.96-6.96A7.994 7.994 0 0 0 13 4.05V2.03m-2 .03v2c-1.43.2-2.78.78-3.9 1.68L5.67 4.26A9.827 9.827 0 0 1 11 2.06M4.26 5.67 5.69 7.1A8.017 8.017 0 0 0 4.05 11h-2c.2-1.96.95-3.81 2.21-5.33M2.06 13h2c.18 1.42.75 2.77 1.63 3.9l-1.42 1.43A10.04 10.04 0 0 1 2.06 13m5.04 5.37c1.13.88 2.48 1.45 3.9 1.63v2c-1.96-.21-3.82-1-5.33-2.26l1.43-1.37M12 16.5 7.5 12H11V8h2v4h3.5L12 16.5Z"/></svg></span> Input</td>
 </tr>
 <tr>
-<td style="text-align: left;"><code>/autodrive/f1tenth_1/throttle_command</code></td>
+<td style="text-align: left;"><code>/autodrive/roboracer_1/throttle_command</code></td>
 <td style="text-align: left;"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M7 4v2h3v2H7l-2 2v3H3v-3H1v8h2v-3h2v3h3l2 2h8v-4h2v3h3V9h-3v3h-2V8h-6V6h3V4H7Z"/></svg></span> Actuator</td>
 <td style="text-align: left;"><code>std_msgs/msg/Float32</code></td>
 <td style="text-align: left;"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 2.03c4.73.47 8.5 4.22 8.95 8.97A9.976 9.976 0 0 1 13 21.93v-2c3.64-.43 6.5-3.32 6.96-6.96A7.994 7.994 0 0 0 13 4.05V2.03m-2 .03v2c-1.43.2-2.78.78-3.9 1.68L5.67 4.26A9.827 9.827 0 0 1 11 2.06M4.26 5.67 5.69 7.1A8.017 8.017 0 0 0 4.05 11h-2c.2-1.96.95-3.81 2.21-5.33M2.06 13h2c.18 1.42.75 2.77 1.63 3.9l-1.42 1.43A10.04 10.04 0 0 1 2.06 13m5.04 5.37c1.13.88 2.48 1.45 3.9 1.63v2c-1.96-.21-3.82-1-5.33-2.26l1.43-1.37M12 7.5 7.5 12H11v4h2v-4h3.5L12 7.5Z"/></svg></span> Output</td>
@@ -1600,14 +1604,14 @@ The following table describes various data streams of the competition framework.
 <p class="admonition-title">Warning</p>
 <p>You can reset the simulation by publishing a <code>std_msgs/msg/Bool</code> message with <code>True</code> value on the <code>/autodrive/reset_command</code> topic. However, do not forget to set it to <code>False</code> again, or else the simulation will keep resetting!</p>
 </div>
-<p>Please check out the video below to see the functionality of resetting the simulator via API in action, using the <a href="https://github.com/AutoDRIVE-Ecosystem/AutoDRIVE-F1TENTH-Sim-Racing/blob/main/autodrive_devkit/autodrive_f1tenth/teleop_keyboard.py"><code>teleop_keyboard</code></a> node. This would be a good way of understanding the working and implementation of this functionality for writing your custom nodes that can exploit this feature.</p>
+<p>Please check out the video below to see the functionality of resetting the simulator via API in action, using the <a href="https://github.com/AutoDRIVE-Ecosystem/AutoDRIVE-RoboRacer-Sim-Racing/blob/main/autodrive_devkit/autodrive_roboracer/teleop_keyboard.py"><code>teleop_keyboard</code></a> node. This would be a good way of understanding the working and implementation of this functionality for writing your custom nodes that can exploit this feature.</p>
 <p><div style="display: flex; justify-content: center;">
 <iframe style="aspect-ratio: 16/9; width: 50% !important;" src="https://www.youtube.com/embed/IV2W0G827f0" title="Reset AutoDRIVE Simulator via AutoDRIVE Devkit" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div></p>
 </div>
 <h2 id="3-competition-submission">3. Competition Submission<a class="headerlink" href="#3-competition-submission" title="Permanent link">&para;</a></h2>
 <div style="display: flex; justify-content: center;">
-<img src="/../assets/images/documentation/f1tenth sim racing league/Competition Framework.png">
+<img src="/../assets/images/documentation/roboracer sim racing league/Competition Framework.png">
 </div>
 
 <p align="justify">
@@ -1622,11 +1626,11 @@ Particularly, each team is expected to submit a containerized version of their a
 <ol>
 <li>Install <a href="https://docs.docker.com/engine/install">Docker</a>.</li>
 <li>Since the Docker container is to take advantage of an NVIDIA GPU, the host machine has to be properly configured by installing the necessary NVIDIA GPU Drivers and the <a href="https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/latest/index.html">NVIDIA Container Toolkit</a>.</li>
-<li>Pull <a href="https://hub.docker.com/repository/docker/autodriveecosystem/autodrive_f1tenth_sim">AutoDRIVE Simulator docker image</a> from DockerHub.
-   <div class="language-bash highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>docker<span class="w"> </span>pull<span class="w"> </span>autodriveecosystem/autodrive_f1tenth_sim:&lt;TAG&gt;
+<li>Pull <a href="https://hub.docker.com/repository/docker/autodriveecosystem/autodrive_roboracer_sim">AutoDRIVE Simulator docker image</a> from DockerHub.
+   <div class="language-bash highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>docker<span class="w"> </span>pull<span class="w"> </span>autodriveecosystem/autodrive_roboracer_sim:&lt;TAG&gt;
 </span></code></pre></div></li>
-<li>Pull <a href="https://hub.docker.com/repository/docker/autodriveecosystem/autodrive_f1tenth_api">AutoDRIVE Devkit docker image</a> from DockerHub.
-   <div class="language-bash highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>docker<span class="w"> </span>pull<span class="w"> </span>autodriveecosystem/autodrive_f1tenth_api:&lt;TAG&gt;
+<li>Pull <a href="https://hub.docker.com/repository/docker/autodriveecosystem/autodrive_roboracer_api">AutoDRIVE Devkit docker image</a> from DockerHub.
+   <div class="language-bash highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>docker<span class="w"> </span>pull<span class="w"> </span>autodriveecosystem/autodrive_roboracer_api:&lt;TAG&gt;
 </span></code></pre></div></li>
 </ol>
 <div class="admonition note">
@@ -1639,24 +1643,24 @@ Particularly, each team is expected to submit a containerized version of their a
     <div class="language-bash highlight"><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a>xhost<span class="w"> </span>local:root
 </span></code></pre></div></li>
 <li>Run the simulator container at <code>entrypoint</code>:
-    <div class="language-bash highlight"><pre><span></span><code><span id="__span-4-1"><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a>docker<span class="w"> </span>run<span class="w"> </span>--name<span class="w"> </span>autodrive_f1tenth_sim<span class="w"> </span>--rm<span class="w"> </span>-it<span class="w"> </span>--entrypoint<span class="w"> </span>/bin/bash<span class="w"> </span>--network<span class="o">=</span>host<span class="w"> </span>--ipc<span class="o">=</span>host<span class="w"> </span>-v<span class="w"> </span>/tmp/.X11-unix:/tmp.X11-umix:rw<span class="w"> </span>--env<span class="w"> </span>DISPLAY<span class="w"> </span>--privileged<span class="w"> </span>--gpus<span class="w"> </span>all<span class="w"> </span>autodriveecosystem/autodrive_f1tenth_sim:&lt;TAG&gt;
+    <div class="language-bash highlight"><pre><span></span><code><span id="__span-4-1"><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a>docker<span class="w"> </span>run<span class="w"> </span>--name<span class="w"> </span>autodrive_roboracer_sim<span class="w"> </span>--rm<span class="w"> </span>-it<span class="w"> </span>--entrypoint<span class="w"> </span>/bin/bash<span class="w"> </span>--network<span class="o">=</span>host<span class="w"> </span>--ipc<span class="o">=</span>host<span class="w"> </span>-v<span class="w"> </span>/tmp/.X11-unix:/tmp.X11-umix:rw<span class="w"> </span>--env<span class="w"> </span>DISPLAY<span class="w"> </span>--privileged<span class="w"> </span>--gpus<span class="w"> </span>all<span class="w"> </span>autodriveecosystem/autodrive_roboracer_sim:&lt;TAG&gt;
 </span></code></pre></div></li>
 <li>[OPTIONAL] Start additional bash session(s) within the simulator container (each in a new terminal window):
-    <div class="language-bash highlight"><pre><span></span><code><span id="__span-5-1"><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a>docker<span class="w"> </span><span class="nb">exec</span><span class="w"> </span>-it<span class="w"> </span>autodrive_f1tenth_sim<span class="w"> </span>bash
+    <div class="language-bash highlight"><pre><span></span><code><span id="__span-5-1"><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a>docker<span class="w"> </span><span class="nb">exec</span><span class="w"> </span>-it<span class="w"> </span>autodrive_roboracer_sim<span class="w"> </span>bash
 </span></code></pre></div></li>
 <li>Enable display forwarding for devkit:
     <div class="language-bash highlight"><pre><span></span><code><span id="__span-6-1"><a id="__codelineno-6-1" name="__codelineno-6-1" href="#__codelineno-6-1"></a>xhost<span class="w"> </span>local:root
 </span></code></pre></div></li>
 <li>Run the devkit container at <code>entrypoint</code>:
-    <div class="language-bash highlight"><pre><span></span><code><span id="__span-7-1"><a id="__codelineno-7-1" name="__codelineno-7-1" href="#__codelineno-7-1"></a>docker<span class="w"> </span>run<span class="w"> </span>--name<span class="w"> </span>autodrive_f1tenth_api<span class="w"> </span>--rm<span class="w"> </span>-it<span class="w"> </span>--entrypoint<span class="w"> </span>/bin/bash<span class="w"> </span>--network<span class="o">=</span>host<span class="w"> </span>--ipc<span class="o">=</span>host<span class="w"> </span>-v<span class="w"> </span>/tmp/.X11-unix:/tmp.X11-umix:rw<span class="w"> </span>--env<span class="w"> </span>DISPLAY<span class="w"> </span>--privileged<span class="w"> </span>--gpus<span class="w"> </span>all<span class="w"> </span>autodriveecosystem/autodrive_f1tenth_api:&lt;TAG&gt;
+    <div class="language-bash highlight"><pre><span></span><code><span id="__span-7-1"><a id="__codelineno-7-1" name="__codelineno-7-1" href="#__codelineno-7-1"></a>docker<span class="w"> </span>run<span class="w"> </span>--name<span class="w"> </span>autodrive_roboracer_api<span class="w"> </span>--rm<span class="w"> </span>-it<span class="w"> </span>--entrypoint<span class="w"> </span>/bin/bash<span class="w"> </span>--network<span class="o">=</span>host<span class="w"> </span>--ipc<span class="o">=</span>host<span class="w"> </span>-v<span class="w"> </span>/tmp/.X11-unix:/tmp.X11-umix:rw<span class="w"> </span>--env<span class="w"> </span>DISPLAY<span class="w"> </span>--privileged<span class="w"> </span>--gpus<span class="w"> </span>all<span class="w"> </span>autodriveecosystem/autodrive_roboracer_api:&lt;TAG&gt;
 </span></code></pre></div></li>
 <li>[OPTIONAL] Start additional bash session(s) within the devkit container (each in a new terminal window):
-    <div class="language-bash highlight"><pre><span></span><code><span id="__span-8-1"><a id="__codelineno-8-1" name="__codelineno-8-1" href="#__codelineno-8-1"></a>docker<span class="w"> </span><span class="nb">exec</span><span class="w"> </span>-it<span class="w"> </span>autodrive_f1tenth_api<span class="w"> </span>bash
+    <div class="language-bash highlight"><pre><span></span><code><span id="__span-8-1"><a id="__codelineno-8-1" name="__codelineno-8-1" href="#__codelineno-8-1"></a>docker<span class="w"> </span><span class="nb">exec</span><span class="w"> </span>-it<span class="w"> </span>autodrive_roboracer_api<span class="w"> </span>bash
 </span></code></pre></div></li>
 </ol>
 <h4 id="321-gui-mode-operations">3.2.1. GUI Mode Operations:<a class="headerlink" href="#321-gui-mode-operations" title="Permanent link">&para;</a></h4>
 <div style="display: flex; justify-content: center;">
-<img src="/../assets/images/documentation/f1tenth sim racing league/GUI vs Headless Mode.png">
+<img src="/../assets/images/documentation/roboracer sim racing league/GUI vs Headless Mode.png">
 </div>
 
 <ol>
@@ -1664,7 +1668,7 @@ Particularly, each team is expected to submit a containerized version of their a
     <div class="language-bash highlight"><pre><span></span><code><span id="__span-9-1"><a id="__codelineno-9-1" name="__codelineno-9-1" href="#__codelineno-9-1"></a>./AutoDRIVE<span class="se">\ </span>Simulator.x86_64
 </span></code></pre></div></li>
 <li>Launch AutoDRIVE Devkit in <code>graphics</code> mode (RViz rendering will be enabled):
-    <div class="language-bash highlight"><pre><span></span><code><span id="__span-10-1"><a id="__codelineno-10-1" name="__codelineno-10-1" href="#__codelineno-10-1"></a>ros2<span class="w"> </span>launch<span class="w"> </span>autodrive_f1tenth<span class="w"> </span>simulator_bringup_rviz.launch.py
+    <div class="language-bash highlight"><pre><span></span><code><span id="__span-10-1"><a id="__codelineno-10-1" name="__codelineno-10-1" href="#__codelineno-10-1"></a>ros2<span class="w"> </span>launch<span class="w"> </span>autodrive_roboracer<span class="w"> </span>bringup_graphics.launch.py
 </span></code></pre></div></li>
 <li>
 <p>Using the simulator GUI menu panel, configure the following:</p>
@@ -1682,7 +1686,7 @@ Particularly, each team is expected to submit a containerized version of their a
     <div class="language-bash highlight"><pre><span></span><code><span id="__span-12-1"><a id="__codelineno-12-1" name="__codelineno-12-1" href="#__codelineno-12-1"></a>xvfb-run<span class="w"> </span>./AutoDRIVE<span class="se">\ </span>Simulator.x86_64<span class="w"> </span>-ip<span class="w"> </span><span class="m">127</span>.0.0.1<span class="w"> </span>-port<span class="w"> </span><span class="m">4567</span>
 </span></code></pre></div></li>
 <li>Launch AutoDRIVE Devkit in <code>headless</code> mode (RViz rendering will be disabled):
-    <div class="language-bash highlight"><pre><span></span><code><span id="__span-13-1"><a id="__codelineno-13-1" name="__codelineno-13-1" href="#__codelineno-13-1"></a>ros2<span class="w"> </span>launch<span class="w"> </span>autodrive_f1tenth<span class="w"> </span>simulator_bringup_headless.launch.py
+    <div class="language-bash highlight"><pre><span></span><code><span id="__span-13-1"><a id="__codelineno-13-1" name="__codelineno-13-1" href="#__codelineno-13-1"></a>ros2<span class="w"> </span>launch<span class="w"> </span>autodrive_roboracer<span class="w"> </span>bringup_headless.launch.py
 </span></code></pre></div></li>
 </ol>
 <div class="admonition info">
@@ -1691,11 +1695,11 @@ Particularly, each team is expected to submit a containerized version of their a
 </div>
 <h4 id="323-distributed-computing-mode">3.2.3. Distributed Computing Mode:<a class="headerlink" href="#323-distributed-computing-mode" title="Permanent link">&para;</a></h4>
 <div style="display: flex; justify-content: center;">
-<img src="/../assets/images/documentation/f1tenth sim racing league/Distributed Computing Mode.png">
+<img src="/../assets/images/documentation/roboracer sim racing league/Distributed Computing Mode.png">
 </div>
 
 <p align="justify">
-It is possible to run the simulator and devkit on two separate computing nodes (e.g. two different PCs) connected via a common network. The benefit of this approach is workload distribution by isolating the two computing processes, thereby gaining higher performance. It is further possible to run the devkit on a physical RoboRacer vehicle (using the Jetson SBC onboard) and connect it to the PC running AutoDRIVE Simulator as a hardware-in-the-loop (HIL) setup.
+It is possible to run the simulator and devkit on two separate computing nodes (e.g., two different PCs) connected via a common network (wired or wireless). In order to establish communication between the simulator and devkit, enter the IP address of the machine running the devkit into the GUI or CLI of the simulator. The port number could be left to its default value of 4567 unless it is occupied by some other process that cannot be terminated (in such a case, modify the port number within the devkit and pass it via the GUI or CLI of the simulator as well). The benefit of this approach is workload distribution by isolating the two computing processes, thereby gaining better performance. It is further possible to run the devkit on a physical RoboRacer vehicle (using the Jetson SBC onboard) and connect it to the PC running AutoDRIVE Simulator as a hardware-in-the-loop (HIL) setup.
 </p>
 
 <div class="admonition tip">
@@ -1736,7 +1740,7 @@ It is possible to run the simulator and devkit on two separate computing nodes (
 <p>For additional help on containerization, visit <a href="https://www.docker.com">docker.com</a>. Specifically, the <a href="https://docs.docker.com/?_gl=1*1xv75eh*_gcl_au*MTA2MDkwMzgxMC4xNzI0NzEzMDY3*_ga*NjgyMTY2Njc2LjE2OTc0MjMwNzQ.*_ga_XJWPQMJYHQ*MTcyNDcxMzA3Mi4zOS4xLjE3MjQ3MTMyODAuNTMuMC4w">documentation</a> and <a href="https://www.docker.com/get-started">get started</a> pages would be of significant help for the beginners. Also, this <a href="https://docs.docker.com/get-started/docker_cheatsheet.pdf?_gl=1*l3zebg*_gcl_au*MTA2MDkwMzgxMC4xNzI0NzEzMDY3*_ga*NjgyMTY2Njc2LjE2OTc0MjMwNzQ.*_ga_XJWPQMJYHQ*MTcyNDcxMzA3Mi4zOS4xLjE3MjQ3MTM1NzIuOS4wLjA.">cheatsheet</a> could be a very handy reference for all important Docker CLI commands.</p>
 </div>
 <h3 id="34-algorithm-development">3.4. Algorithm Development<a class="headerlink" href="#34-algorithm-development" title="Permanent link">&para;</a></h3>
-<p>Teams will have to create their ROS 2 package(s) or meta-package(s) for autonomous racing within the devkit container <strong>separate</strong> from the provided <code>autodrive_f1tenth</code> package (i.e., without making any modifications to the <code>autodrive_f1tenth</code> package itself).</p>
+<p>Teams will have to create their ROS 2 package(s) or meta-package(s) for autonomous racing within the devkit container <strong>separate</strong> from the provided <code>autodrive_roboracer</code> package (i.e., without making any modifications to the <code>autodrive_roboracer</code> package itself).</p>
 <p>Please make a note of the data streams mentioned above (along with their access restrictions) to help with the algorithm development process.</p>
 <div class="admonition tip">
 <p class="admonition-title">Tip</p>
@@ -1745,12 +1749,12 @@ It is possible to run the simulator and devkit on two separate computing nodes (
 <h3 id="35-container-submission">3.5. Container Submission<a class="headerlink" href="#35-container-submission" title="Permanent link">&para;</a></h3>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
-<p>We expect that upon running your submitted container, all the necessary nodes should start up (the <code>autodrive_devkit</code> API we have included as well as your team's racing stack). Once we hit the <code>Connection Button</code> on the <code>Menu Panel</code> of AutoDRIVE Simulator, the simulated vehicle should start running. Please refer to the <a href="https://autodrive-ecosystem.github.io/competitions/roboracer-sim-racing-rules-2024">competition rules</a>, where it talks about the <a href="https://autodrive-ecosystem.github.io/competitions/roboracer-sim-racing-rules-2024/#3-submission-guidelines">submission guidelines</a>. Please make sure that you include all the necessary commands (for sourcing workspaces, setting environment variables, launching nodes, etc.) within the <code>entrypoint</code> script (<code>autodrive_devkit.sh</code> file) provided within the <code>autodrive_f1tenth_api</code> container. Please do <strong>NOT</strong> use <code>~/.bashrc</code> or other means to automate the algorithm execution! Competition organizers should be able to start additional bash session(s) within your submitted container (without your codebase executing every time a new bash session is initialized) for data recording and inspection purposes.</p>
+<p>We expect that upon running your submitted container, all the necessary nodes should start up (the <code>autodrive_devkit</code> API we have included as well as your team's racing stack). Once we hit the <code>Connection Button</code> on the <code>Menu Panel</code> of AutoDRIVE Simulator, the simulated vehicle should start running. Please make sure that you include all the necessary commands (for sourcing workspaces, setting environment variables, launching nodes, etc.) within the <code>entrypoint</code> script (<code>autodrive_devkit.sh</code> file) provided within the <code>autodrive_roboracer_api</code> container. Please do <strong>NOT</strong> use <code>~/.bashrc</code> or other means to automate the algorithm execution! Competition organizers should be able to start additional bash session(s) within your submitted container (without your codebase executing every time a new bash session is initialized) for data recording and inspection purposes. Also, make sure to add detailed instructions to your <a href="https://docs.docker.com/docker-hub/repos/manage/information#repository-overview">Docker Hub repository overview</a>, which explains how to download (specific <code>tag</code>) and run your container image step-by-step.</p>
 </div>
 <ol>
 <li>Run the image you created in the previous step inside a container:
 <div class="language-bash highlight"><pre><span></span><code><span id="__span-21-1"><a id="__codelineno-21-1" name="__codelineno-21-1" href="#__codelineno-21-1"></a>xhost<span class="w"> </span>local:root
-</span><span id="__span-21-2"><a id="__codelineno-21-2" name="__codelineno-21-2" href="#__codelineno-21-2"></a>docker<span class="w"> </span>run<span class="w"> </span>--name<span class="w"> </span>autodrive_f1tenth_api<span class="w"> </span>--rm<span class="w"> </span>-it<span class="w"> </span>--entrypoint<span class="w"> </span>/bin/bash<span class="w"> </span>--network<span class="o">=</span>host<span class="w"> </span>--ipc<span class="o">=</span>host<span class="w"> </span>-v<span class="w"> </span>/tmp/.X11-unix:/tmp.X11-umix:rw<span class="w"> </span>--env<span class="w"> </span>DISPLAY<span class="w"> </span>--privileged<span class="w"> </span>--gpus<span class="w"> </span>all<span class="w"> </span>autodriveecosystem/autodrive_f1tenth_api:&lt;TAG&gt;
+</span><span id="__span-21-2"><a id="__codelineno-21-2" name="__codelineno-21-2" href="#__codelineno-21-2"></a>docker<span class="w"> </span>run<span class="w"> </span>--name<span class="w"> </span>autodrive_roboracer_api<span class="w"> </span>--rm<span class="w"> </span>-it<span class="w"> </span>--entrypoint<span class="w"> </span>/bin/bash<span class="w"> </span>--network<span class="o">=</span>host<span class="w"> </span>--ipc<span class="o">=</span>host<span class="w"> </span>-v<span class="w"> </span>/tmp/.X11-unix:/tmp.X11-umix:rw<span class="w"> </span>--env<span class="w"> </span>DISPLAY<span class="w"> </span>--privileged<span class="w"> </span>--gpus<span class="w"> </span>all<span class="w"> </span>autodriveecosystem/autodrive_roboracer_api:&lt;TAG&gt;
 </span></code></pre></div></li>
 <li>In a new terminal window, list all containers and make a note of the desired <code>CONTAINER ID</code>:
 <div class="language-bash highlight"><pre><span></span><code><span id="__span-22-1"><a id="__codelineno-22-1" name="__codelineno-22-1" href="#__codelineno-22-1"></a>docker<span class="w"> </span>ps<span class="w"> </span>-a
@@ -1821,7 +1825,7 @@ This work has been published at <strong>2021 International Conference on Control
     <span class="md-icon" title="Last update">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1-2.1-2M12.5 7v5.2l4 2.4-1 1L11 13V7h1.5M11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2v1.8Z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="April 14, 2025 06:58:16 UTC">April 14, 2025</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="February 23, 2026 04:44:42 UTC">February 23, 2026</span>
   </span>
 
     
