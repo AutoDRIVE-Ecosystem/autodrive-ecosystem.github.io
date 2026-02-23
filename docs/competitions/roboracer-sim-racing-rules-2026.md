@@ -131,7 +131,7 @@ However, utilizing simulation ground truth data or controlling aspects other tha
 </p>
 
 !!! info
-    Please refer to the [Technical Guide](https://autodrive-ecosystem.github.io/competitions/roboracer-sim-racing-guide-2025) for more information about permissible and restricted data streams.
+    Please refer to the [Technical Guide](https://autodrive-ecosystem.github.io/competitions/roboracer-sim-racing-guide-2026) for more information about permissible and restricted data streams.
 
 <p align="justify">
 Since this is a global event held at some of the world's premier conferences, we ask all teams to observe ethical integrity and abide by the code of conduct of this competition. Any malpractice or plagiarism in terms of submission code or other material shall be considered a serious breach of the code of conduct. Depending upon the situation, organizers reserve the right to issue a warning, public citation, and/or disqualification of the responsible team(s) from the competition.
@@ -156,11 +156,11 @@ Following are the evaluation criteria for the competition:
 ## 3. Submission Guidelines
 
 <p align="justify">
-Each team is expected to submit a containerized version of their autonomous racing software stack. Submissions for each phase of the competition will be done separately.
+Each team is expected to submit a containerized version of their autonomous racing software stack. Submissions for each phase of the competition will be handled separately.
 </p>
 
 !!! note
-    We expect that upon running your submitted container, all the necessary nodes should start up (the `autodrive_devkit` API we have included as well as your team's racing stack). Once we hit the `Connection Button` on the `Menu Panel` of AutoDRIVE Simulator, the simulated vehicle should start running. Please make sure that you include all the necessary commands (for sourcing workspaces, setting environment variables, launching nodes, etc.) within the `entrypoint` script (`autodrive_devkit.sh` file) provided within the `autodrive_roboracer_api` container. Please do **NOT** use `~/.bashrc` or other means to automate the algorithm execution! Competition organizers should be able to start additional bash session(s) within your submitted container (without your codebase executing every time a new bash session is initialized) for data recording and inspection purposes.
+    We expect that upon running your submitted container, all the necessary nodes should start up (the `autodrive_devkit` API we have included as well as your team's racing stack). Once we hit the `Connection Button` on the `Menu Panel` of AutoDRIVE Simulator, the simulated vehicle should start running. Please make sure that you include all the necessary commands (for sourcing workspaces, setting environment variables, launching nodes, etc.) within the `entrypoint` script (`autodrive_devkit.sh` file) provided within the `autodrive_roboracer_api` container. Please do **NOT** use `~/.bashrc` or other means to automate the algorithm execution! Competition organizers should be able to start additional bash session(s) within your submitted container (without your codebase executing every time a new bash session is initialized) for data recording and inspection purposes. Also, make sure to add detailed instructions to your [Docker Hub repository overview](https://docs.docker.com/docker-hub/repos/manage/information#repository-overview), which explains how to download (specific `tag`) and run your container image step-by-step.
 
 ### 3.1. Submission Requirements
 
