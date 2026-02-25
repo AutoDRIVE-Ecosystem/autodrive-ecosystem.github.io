@@ -180,6 +180,9 @@ Registered teams are added to the following table:
 | 03      | AutoTurbo                 | Pavan Kalyan Majjiga          | Barigo Holdings, Inc.                     | United States of America (USA)       |
 | 04      | HSMNF Racer               | Hamdan AlHajeri<br/>Mohammed Islam<br/>Maher Abdul Gafoor<br/>Feras Shihab<br/>Nevan John Thomas | Khalifa University | United Arab Emirates (UAE) |
 | 05      | Abdulrahman Mahmoud       | Abdulrahman Mahmoud           | Personal                                  | Egypt                                |
+| 06      | KU - TeamOne              | Shahad Rikas<br/>Zain Hasan<br/>Ahzem Manzeer<br/>Ahmed Zeeshan<br/>Harinath Ranjit | Khalifa University | United Arab Emirates (UAE) |
+| 07      | Maxed-Out                 | Greg Maxwell                  | Personal                                  | United States of America (USA)       |
+| 08      | Black Arrow               | Aswin Srinivasan<br/>Dinesh Kumar Venkatachalapathy<br/>Rohit Hemachandra Pillai<br/>Sree Raadhai Manikanda Sharma<br/>Aravindhakumar Manimaran<br/>Tharun Kamaraj Magadapalli Sathyanarayanan<br/>Shanmugadasan Ravi<br/>Sri Vaishnavi Sudapalli<br/>Charisma Tammina<br/>Khushi Naik | Personal | Germany |
 
 !!! note
     The above table will be updated with newly registered teams within a few days of registration. Please contact [:material-email: Chinmay Samak](mailto:csamak@clemson.edu) or [:material-email: Tanmay Samak](mailto:tsamak@clemson.edu) if you do not see your team entry for more than 7 days after registering.
