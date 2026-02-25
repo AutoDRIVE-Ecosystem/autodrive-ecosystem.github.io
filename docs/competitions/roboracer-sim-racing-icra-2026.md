@@ -175,6 +175,11 @@ Registered teams are added to the following table:
 
 | SR. NO. | TEAM NAME                 | TEAM MEMBERS                  | ORGANIZATION                              | COUNTRY                              |
 |:--------|:--------------------------|:------------------------------|:------------------------------------------|:-------------------------------------|
+| 01      | Neuromorphic Racer        | Joy Vithayathil               | Indian Institute of Technology (ISM), Dhanbad | India                            |
+| 02      | Macan Malaya              | Giovanni Dejan                | Universiti Malaya                         | Indonesia                            |
+| 03      | AutoTurbo                 | Pavan Kalyan Majjiga          | Barigo Holdings, Inc.                     | United States of America (USA)       |
+| 04      | HSMNF Racer               | Hamdan AlHajeri<br/>Mohammed Islam<br/>Maher Abdul Gafoor<br/>Feras Shihab<br/>Nevan John Thomas | Khalifa University | United Arab Emirates (UAE) |
+| 05      | Abdulrahman Mahmoud       | Abdulrahman Mahmoud           | Personal                                  | Egypt                                |
 
 !!! note
     The above table will be updated with newly registered teams within a few days of registration. Please contact [:material-email: Chinmay Samak](mailto:csamak@clemson.edu) or [:material-email: Tanmay Samak](mailto:tsamak@clemson.edu) if you do not see your team entry for more than 7 days after registering.
