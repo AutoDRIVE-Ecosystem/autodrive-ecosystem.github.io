@@ -183,6 +183,10 @@ Registered teams are added to the following table:
 | 06      | KU - TeamOne              | Shahad Rikas<br/>Zain Hasan<br/>Ahzem Manzeer<br/>Ahmed Zeeshan<br/>Harinath Ranjit | Khalifa University | United Arab Emirates (UAE) |
 | 07      | Maxed-Out                 | Greg Maxwell                  | Personal                                  | United States of America (USA)       |
 | 08      | Black Arrow               | Aswin Srinivasan<br/>Dinesh Kumar Venkatachalapathy<br/>Rohit Hemachandra Pillai<br/>Sree Raadhai Manikanda Sharma<br/>Aravindhakumar Manimaran<br/>Tharun Kamaraj Magadapalli Sathyanarayanan<br/>Shanmugadasan Ravi<br/>Sri Vaishnavi Sudapalli<br/>Charisma Tammina<br/>Khushi Naik | Personal | Germany |
+| 09      | MoonLit Robotix           | Karthik Nambiar<br/>Ayushman Saha<br/>Deepanshu Raj | Indian Institute of Science Education and Research, Bhopal | India |
+| 10      | KU SPARCy                 |Zayed Muhammad<br/>Abdullah HaidarSaif Mohamed Abdelmaksoud<br/>Sulaiman AbuQamar<br/>Hanadi Aljeaidi<br/>Dana Alkindi<br/>Ghala Alblooshi | Khalifa University | United Arab Emirates (UAE) |
+| 11      | bracavisionai             | Luis Bracamontes              | bracavisionai                             | Mexico                               |
+| 12      | Dexter Dynamics           | Abhinav Joshi                 | Personal                                  | India                                |
 
 !!! note
     The above table will be updated with newly registered teams within a few days of registration. Please contact [:material-email: Chinmay Samak](mailto:csamak@clemson.edu) or [:material-email: Tanmay Samak](mailto:tsamak@clemson.edu) if you do not see your team entry for more than 7 days after registering.
