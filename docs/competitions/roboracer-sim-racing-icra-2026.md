@@ -187,6 +187,8 @@ Registered teams are added to the following table:
 | 10      | KU SPARCy                 |Zayed Muhammad<br/>Abdullah HaidarSaif Mohamed Abdelmaksoud<br/>Sulaiman AbuQamar<br/>Hanadi Aljeaidi<br/>Dana Alkindi<br/>Ghala Alblooshi | Khalifa University | United Arab Emirates (UAE) |
 | 11      | bracavisionai             | Luis Bracamontes              | bracavisionai                             | Mexico                               |
 | 12      | Dexter Dynamics           | Abhinav Joshi                 | Personal                                  | India                                |
+| 13      | Purdue Autonomous Racing  | Jayesh Fasate<br/>Bala Malla Reddy Kolanu<br/>Joel Antony Bakkiyanathan<br/>Rishi Ramkumar<br/>Vikas Vivek | Purdue University | United States of America (USA) |
+| 14      | Noob                      | Abdullah Bin Naeem            | National University of Computer and Emerging Sciences, Islamabad | Pakistan      |
 
 !!! note
     The above table will be updated with newly registered teams within a few days of registration. Please contact [:material-email: Chinmay Samak](mailto:csamak@clemson.edu) or [:material-email: Tanmay Samak](mailto:tsamak@clemson.edu) if you do not see your team entry for more than 7 days after registering.
