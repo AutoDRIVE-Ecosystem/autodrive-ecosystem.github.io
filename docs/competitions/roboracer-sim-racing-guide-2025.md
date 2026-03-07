@@ -332,7 +332,7 @@ These environments are simulated by conducting mesh-mesh interference detection 
 ## 2. AutoDRIVE Devkit
 
 <div style="display: flex; justify-content: center;">
-<img src="/../assets/images/documentation/roboracer sim racing league/Devkit.png">
+<img src="/../assets/images/documentation/roboracer sim racing league/Devkit 2025.png">
 </div>
 
 <p align="justify">

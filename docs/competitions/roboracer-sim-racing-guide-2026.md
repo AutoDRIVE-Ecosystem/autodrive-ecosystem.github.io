@@ -98,7 +98,7 @@ AutoDRIVE Simulator's graphical user interface (GUI) consists of a toolbar encom
   <li><b>IMU Data:</b> Orientation [x, y, z] rad, angular velocity [x, y, z] rad/s, and linear acceleration [x, y, z] m/s<sup>2</sup> of the ego-vehicle w.r.t. body frame of reference.
   <li><b>LIDAR Measurement:</b> Instantaneous ranging measurement (m) of the 270&deg FOV 2D LIDAR on the vehicle.
   <li><b>Camera Preview:</b> Instantaneous raw image from the front camera of the vehicle.
-  <li><b>Race Telemetry:</b> Current elapsed lap time (s), last lap time (s), overall best lap time (s), total lap count  as well as collision count data.
+  <li><b>Race Telemetry:</b> Current elapsed lap time (s), last lap time (s), overall best lap time (s), total lap count as well as collision count data.
   <li><b>Data Recorder:</b> Save time-synchronized simulation data for a specific simulation run.
 </ul>
 
@@ -332,7 +332,7 @@ These environments are simulated by conducting mesh-mesh interference detection 
 ## 2. AutoDRIVE Devkit
 
 <div style="display: flex; justify-content: center;">
-<img src="/../assets/images/documentation/roboracer sim racing league/Devkit.png">
+<img src="/../assets/images/documentation/roboracer sim racing league/Devkit 2026.png">
 </div>
 
 <p align="justify">
