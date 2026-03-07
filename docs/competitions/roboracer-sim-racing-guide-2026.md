@@ -106,9 +106,9 @@ AutoDRIVE Simulator's graphical user interface (GUI) consists of a toolbar encom
 
 AutoDRIVE Simulator hosts a time-synchronized data recording functionality that can be used to export simulation data at 30 Hz. The data is saved in `CSV` format and the raw camera frames are exported as timestamped `JPG` files. The `CSV` file hosts the following data entries per timestamp:
 
-| **DATA** | timestamp | throttle |	steering | leftTicks | rightTicks |	posX | posY |	posZ | roll |	pitch |	yaw |	speed |	angX |	angY |	angZ | accX |	accY | accZ |	camera   | lidar |
-| -------- | --------- | -------- |	-------- | --------- | ---------- |	---- | ---- |	---- | ---- |	----- |	--- |	----- |	---- |	---- |	---- | ---- |	---- | ---- |	------   | ----- |
-| **UNIT** | yyyy_MM_dd_HH_mm_ss_fff | norm% | rad | count | count |	m | m |	m | rad |	rad |	rad |	m/s |	rad/s |	rad/s |	rad/s | m/s^2 |	m/s^2 | m/s^2 |	img_path    | array(float) |
+| **DATA** | timestamp               | throttle | steering | leftTicks | rightTicks | posX | posY | posZ | roll | pitch | yaw | linX  | linY | linZ | angX  | angY  | angZ  | accX  | accY  | accZ  | camera   | lidar        |
+| -------- | ----------------------- | -------- | -------- | --------- | ---------- | ---- | ---- | ---- | ---- | ----- | --- | ----- | ---- | ---- | ----- | ----- | ----- | ----- | ----- | ----- | -------- | ------------ |
+| **UNIT** | yyyy_MM_dd_HH_mm_ss_fff | norm%    | rad      | count     | count      | m    | m    | m    | rad  | rad   | rad | m/s   | m/s  | m/s  | rad/s | rad/s | rad/s | m/s^2 | m/s^2 | m/s^2 | img_path | array(float) |
 
 The data recorder can be triggered by clicking on the red `Record Data` button in the HUD panel, or using the `R` hotkey. The first time, the data recorder will prompt the user to specify the directory path to store the data. The second trigger will start recording the data, which can be verified by checking the status of the red button change from `Record Data` to `Recording Data`. Finally, the third trigger will stop data recording, which can be verified by checking the status of the red button change from `Recording Data` to `Saving Data` with the save percentage being displayed.
 
@@ -421,25 +421,25 @@ autodrive_devkit
 The following table describes various data streams of the competition framework. These data streams are exposed as ROS 2 topics using AutoDRIVE Devkit.
 </p>
 
-| TOPIC                                   | TYPE                        | MESSAGE                      | ACCESS                                                     |
-|:----------------------------------------|:----------------------------|:-----------------------------|:-----------------------------------------------------------|
-`/autodrive/roboracer_1/best_lap_time`      | :material-bug: Debugging    | `std_msgs/msg/Float32`       | :warning: Restricted                                       |
-`/autodrive/roboracer_1/collision_count`    | :material-bug: Debugging    | `std_msgs/msg/Int32`         | :warning: Restricted                                       |
+| TOPIC                                     | TYPE                        | MESSAGE                      | ACCESS                                                     |
+|:------------------------------------------|:----------------------------|:-----------------------------|:-----------------------------------------------------------|
+`/autodrive/roboracer_1/lidar`              | :material-eye: Sensor       | `sensor_msgs/msg/LaserScan`  | :material-progress-download: Input                         |
 `/autodrive/roboracer_1/front_camera`       | :material-eye: Sensor       | `sensor_msgs/msg/Image`      | :material-progress-download: Input                         |
 `/autodrive/roboracer_1/imu`                | :material-eye: Sensor       | `sensor_msgs/msg/Imu`        | :material-progress-download: Input                         |
 `/autodrive/roboracer_1/ips`                | :material-eye: Sensor       | `geometry_msgs/msg/Point`    | :warning: Restricted                                       |
-`/autodrive/roboracer_1/lap_count`          | :material-bug: Debugging    | `std_msgs/msg/Int32`         | :warning: Restricted                                       |
-`/autodrive/roboracer_1/lap_time`           | :material-bug: Debugging    | `std_msgs/msg/Float32`       | :warning: Restricted                                       |
-`/autodrive/roboracer_1/last_lap_time`      | :material-bug: Debugging    | `std_msgs/msg/Float32`       | :warning: Restricted                                       |
 `/autodrive/roboracer_1/left_encoder`       | :material-eye: Sensor       | `sensor_msgs/msg/JointState` | :material-progress-download: Input                         |
-`/autodrive/roboracer_1/lidar`              | :material-eye: Sensor       | `sensor_msgs/msg/LaserScan`  | :material-progress-download: Input                         |
 `/autodrive/roboracer_1/right_encoder`      | :material-eye: Sensor       | `sensor_msgs/msg/JointState` | :material-progress-download: Input                         |
-`/autodrive/roboracer_1/speed`              | :material-bug: Debugging    | `std_msgs/msg/Float32`       | :warning: Restricted                                       |
+`/autodrive/roboracer_1/odom`               | :material-bug: Debugging    | `nav_msgs/msg/Odometry`      | :warning: Restricted                                       |
 `/autodrive/roboracer_1/steering`           | :material-eye: Sensor       | `std_msgs/msg/Float32`       | :material-progress-download: Input                         |
 `/autodrive/roboracer_1/steering_command`   | :material-engine: Actuator  | `std_msgs/msg/Float32`       | :material-progress-upload: Output                          |
 `/autodrive/roboracer_1/throttle`           | :material-eye: Sensor       | `std_msgs/msg/Float32`       | :material-progress-download: Input                         |
 `/autodrive/roboracer_1/throttle_command`   | :material-engine: Actuator  | `std_msgs/msg/Float32`       | :material-progress-upload: Output                          |
 `/autodrive/reset_command`                  | :material-bug: Debugging    | `std_msgs/msg/Bool`          | :warning: Restricted                                       |
+`/autodrive/roboracer_1/collision_count`    | :material-bug: Debugging    | `std_msgs/msg/Int32`         | :warning: Restricted                                       |
+`/autodrive/roboracer_1/lap_count`          | :material-bug: Debugging    | `std_msgs/msg/Int32`         | :warning: Restricted                                       |
+`/autodrive/roboracer_1/lap_time`           | :material-bug: Debugging    | `std_msgs/msg/Float32`       | :warning: Restricted                                       |
+`/autodrive/roboracer_1/best_lap_time`      | :material-bug: Debugging    | `std_msgs/msg/Float32`       | :warning: Restricted                                       |
+`/autodrive/roboracer_1/last_lap_time`      | :material-bug: Debugging    | `std_msgs/msg/Float32`       | :warning: Restricted                                       |
 `/tf`                                       | :material-bug: Debugging    | `tf2_msgs/msg/TFMessage`     | :warning: Restricted                                       |
 
 !!! warning
