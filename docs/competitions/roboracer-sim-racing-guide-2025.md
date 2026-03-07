@@ -21,7 +21,7 @@ Please see the accompanying video for a step-by-step tutorial of setting up and 
 ## 1. AutoDRIVE Simulator
 
 <div style="display: flex; justify-content: center;">
-<img src="/../assets/images/documentation/roboracer sim racing league/Simulator.png">
+<img src="/../assets/images/documentation/roboracer sim racing league/Simulator 2025.png">
 </div>
 
 <p align="justify">
