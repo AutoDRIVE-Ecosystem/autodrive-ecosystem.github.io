@@ -111,9 +111,9 @@ We recommend all the teams interested in participating in the RoboRacer Sim Raci
 
     Download base container images for the competition and start developing your algorithms.
 
-    [:material-open-in-new: **AutoDRIVE Simulator:**](https://hub.docker.com/r/autodriveecosystem/autodrive_roboracer_sim) `explore` | `practice` | `compete`
+    [:material-open-in-new: **AutoDRIVE Simulator:**](https://hub.docker.com/r/autodriveecosystem/autodrive_roboracer_sim) [`explore`](https://hub.docker.com/layers/autodriveecosystem/autodrive_roboracer_sim/2026-icra-explore/images/sha256-20c0bf5806d05d779388a0263c67885741a05412f33c00cde019d9668627adb3) | [`practice`](https://hub.docker.com/layers/autodriveecosystem/autodrive_roboracer_sim/2026-icra-practice/images/sha256-264e3946dc4ff199d667caa65b3bebc1829822acf201a3a33e7aa406bc574441) | `compete`
 
-    [:material-open-in-new: **AutoDRIVE Devkit:**](https://hub.docker.com/r/autodriveecosystem/autodrive_roboracer_api) `explore` | `practice` | `compete`
+    [:material-open-in-new: **AutoDRIVE Devkit:**](https://hub.docker.com/r/autodriveecosystem/autodrive_roboracer_api) [`explore`](https://hub.docker.com/layers/autodriveecosystem/autodrive_roboracer_api/2026-icra-explore/images/sha256-8d2663bece059f54e628a8ebfa79237592b09c584545d64c465112b1899a52aa) | [`practice`](https://hub.docker.com/layers/autodriveecosystem/autodrive_roboracer_api/2026-icra-practice/images/sha256-133c366f472fc30e9fb27dbc0a71daa3b478b9d7d9ffc5e28bb6877d5d840a46) | `compete`
 
 -   :material-monitor:{ .lg .middle } __Local Resources__
 
@@ -123,15 +123,15 @@ We recommend all the teams interested in participating in the RoboRacer Sim Raci
 
     **AutoDRIVE Simulator:**
     
-    `explore`&nbsp;&nbsp;&nbsp; :simple-linux: Linux | :material-microsoft: Windows | :simple-apple: macOS
+    `explore`&nbsp;&nbsp;&nbsp; [:simple-linux: Linux](https://github.com/AutoDRIVE-Ecosystem/AutoDRIVE-RoboRacer-Sim-Racing/releases/download/2026-icra/autodrive_simulator_explore_linux.zip) | [:material-microsoft: Windows](https://github.com/AutoDRIVE-Ecosystem/AutoDRIVE-RoboRacer-Sim-Racing/releases/download/2026-icra/autodrive_simulator_explore_windows.zip) | [:simple-apple: macOS](https://github.com/AutoDRIVE-Ecosystem/AutoDRIVE-RoboRacer-Sim-Racing/releases/download/2026-icra/autodrive_simulator_explore_macos.zip)
 
-    `practice`&nbsp; :simple-linux: Linux | :material-microsoft: Windows | :simple-apple: macOS
+    `practice`&nbsp; [:simple-linux: Linux](https://github.com/AutoDRIVE-Ecosystem/AutoDRIVE-RoboRacer-Sim-Racing/releases/download/2026-icra/autodrive_simulator_practice_linux.zip) | [:material-microsoft: Windows](https://github.com/AutoDRIVE-Ecosystem/AutoDRIVE-RoboRacer-Sim-Racing/releases/download/2026-icra/autodrive_simulator_practice_windows.zip) | [:simple-apple: macOS](https://github.com/AutoDRIVE-Ecosystem/AutoDRIVE-RoboRacer-Sim-Racing/releases/download/2026-icra/autodrive_simulator_practice_macos.zip)
 
     `compete`&nbsp;&nbsp;&nbsp; :simple-linux: Linux | :material-microsoft: Windows | :simple-apple: macOS
 
     **AutoDRIVE Devkit:**
     
-    :simple-ros: ROS 2
+    [:simple-ros: ROS 2](https://github.com/AutoDRIVE-Ecosystem/AutoDRIVE-RoboRacer-Sim-Racing/releases/download/2026-icra/autodrive_devkit.zip)
 
 -   :octicons-link-16:{ .lg .middle } __Quick Links__
 
@@ -189,7 +189,7 @@ Registered teams are added to the following table:
 | 12      | Dexter Dynamics           | Abhinav Joshi                 | Personal                                  | India                                |
 | 13      | Purdue Autonomous Racing  | Jayesh Fasate<br/>Bala Malla Reddy Kolanu<br/>Joel Antony Bakkiyanathan<br/>Rishi Ramkumar<br/>Vikas Vivek | Purdue University | United States of America (USA) |
 | 14      | Team Lone Warrior         | Abdullah Bin Naeem            | National University of Computer and Emerging Sciences | Pakistan                 |
-| 16      | BitHunters                | Abin Shaji Thomas             | Karunya Institute of Technology and Sciences | India                             |
+| 15      | BitHunters                | Abin Shaji Thomas             | Karunya Institute of Technology and Sciences | India                             |
 
 !!! note
     The above table will be updated with newly registered teams within a few days of registration. Please contact [:material-email: Chinmay Samak](mailto:csamak@clemson.edu) or [:material-email: Tanmay Samak](mailto:tsamak@clemson.edu) if you do not see your team entry for more than 7 days after registering.
