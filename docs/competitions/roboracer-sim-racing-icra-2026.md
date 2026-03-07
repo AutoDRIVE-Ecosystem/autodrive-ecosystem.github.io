@@ -190,6 +190,8 @@ Registered teams are added to the following table:
 | 13      | Purdue Autonomous Racing  | Jayesh Fasate<br/>Bala Malla Reddy Kolanu<br/>Joel Antony Bakkiyanathan<br/>Rishi Ramkumar<br/>Vikas Vivek | Purdue University | United States of America (USA) |
 | 14      | Team Lone Warrior         | Abdullah Bin Naeem            | National University of Computer and Emerging Sciences | Pakistan                 |
 | 15      | BitHunters                | Abin Shaji Thomas             | Karunya Institute of Technology and Sciences | India                             |
+| 16      | Knightrix                 | Shubham Barge                 | Personal                                     | India                             |
+| 17      | MonacoF1                  | Gerardo Puga<br/>Emiliano Alban Naranjo<br/>Michel Hidalgo | Ekumen          | Argentina, Ecuador                |
 
 !!! note
     The above table will be updated with newly registered teams within a few days of registration. Please contact [:material-email: Chinmay Samak](mailto:csamak@clemson.edu) or [:material-email: Tanmay Samak](mailto:tsamak@clemson.edu) if you do not see your team entry for more than 7 days after registering.
