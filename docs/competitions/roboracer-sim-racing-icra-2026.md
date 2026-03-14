@@ -194,6 +194,10 @@ Registered teams are added to the following table:
 | 17      | MonacoF1                  | Gerardo Puga<br/>Emiliano Alban Naranjo<br/>Michel Hidalgo | Ekumen          | Argentina, Ecuador                |
 | 18      | Space Lab                 | Haorong Yuan<br/>Shengyao Lan | Shenzhen University                          | China                             |
 | 19      | Async Late Night Runner   | EuJin Tan                     | Personal                                     | Malaysia                          |
+| 20      | CRXL                      | Ujjval Patel                  | CaliberX Research Labs                       | India                             |
+| 21      | Nova                      | Dr. K. Lakshmi Prasanna<br/>Sankalp Telasang<br/>Abhay Ayyalasomayajula<br/>Shreyas Kamalapuram<br/>Yash Bhatt<br/>Vaishnavi | Birla Institute of Technology and Science(BITS) Pilani Work Integrated Learning Programmes (WILP) | India |
+| 22      | Dagozilla Racing Team     | Muhammad Adli Syauqi<br/>Sami Fauzan Ramadhan<br/>Adri Firmansya Sofyan<br/>Sulthan Naufal Affan<br/>Kenny Pramanik Najla Wibowo<br/>Muhammad Zaki Azzamy Syauqi<br/>Raegrand Archamadeus<br/>Ahmad Sahro<br/>Habibie Muhammad Ghifari | Bandung Institute of Technology | Indonesia |
+| 23      | AM warm-up NC26           | Abdulrahman Yasser<br/>Sama Ahmed Osama Farouk<br/>Sajda Mohammed<br/>Mohmmed Abbas<br/>Seif  Eldaby<br/>Aisha Ahmed Mohamed<br/>Steven Joseph<br/>Mohamed Elgohary<br/>Jana Mahmoud<br/>Ahmed Ashraf Hashem | Assiut University | Egypt |
 
 !!! note
     The above table will be updated with newly registered teams within a few days of registration. Please contact [:material-email: Chinmay Samak](mailto:csamak@clemson.edu) or [:material-email: Tanmay Samak](mailto:tsamak@clemson.edu) if you do not see your team entry for more than 7 days after registering.
