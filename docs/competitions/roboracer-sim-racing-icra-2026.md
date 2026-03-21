@@ -184,7 +184,7 @@ Registered teams are added to the following table:
 | 07      | Maxed-Out                 | Greg Maxwell                  | Personal                                  | United States of America (USA)       |
 | 08      | Black Arrow               | Aswin Srinivasan<br/>Dinesh Kumar Venkatachalapathy<br/>Rohit Hemachandra Pillai<br/>Sree Raadhai Manikanda Sharma<br/>Aravindhakumar Manimaran<br/>Tharun Kamaraj Magadapalli Sathyanarayanan<br/>Shanmugadasan Ravi<br/>Sri Vaishnavi Sudapalli<br/>Charisma Tammina<br/>Khushi Naik | Personal | Germany |
 | 09      | MoonLit Robotix           | Karthik Nambiar<br/>Ayushman Saha<br/>Deepanshu Raj | Indian Institute of Science Education and Research, Bhopal | India |
-| 10      | KU SPARCy                 |Zayed Muhammad<br/>Abdullah HaidarSaif Mohamed Abdelmaksoud<br/>Sulaiman AbuQamar<br/>Hanadi Aljeaidi<br/>Dana Alkindi<br/>Ghala Alblooshi | Khalifa University | United Arab Emirates (UAE) |
+| 10      | KU SPARCy                 |Zayed Muhammad<br/>Abdullah Haider<br/>Saif Mohamed Abdelmaksoud<br/>Sulaiman AbuQamar<br/>Hanadi Aljeaidi<br/>Dana Alkindi<br/>Ghala Alblooshi | Khalifa University | United Arab Emirates (UAE) |
 | 11      | bracavisionai             | Luis Bracamontes              | bracavisionai                             | Mexico                               |
 | 12      | Dexter Dynamics           | Abhinav Joshi                 | Personal                                  | India                                |
 | 13      | Purdue Autonomous Racing  | Jayesh Fasate<br/>Bala Malla Reddy Kolanu<br/>Joel Antony Bakkiyanathan<br/>Rishi Ramkumar<br/>Vikas Vivek | Purdue University | United States of America (USA) |
@@ -198,6 +198,7 @@ Registered teams are added to the following table:
 | 21      | Nova                      | Dr. K. Lakshmi Prasanna<br/>Sankalp Telasang<br/>Abhay Ayyalasomayajula<br/>Shreyas Kamalapuram<br/>Yash Bhatt<br/>Vaishnavi | Birla Institute of Technology and Science(BITS) Pilani Work Integrated Learning Programmes (WILP) | India |
 | 22      | Dagozilla Racing Team     | Muhammad Adli Syauqi<br/>Sami Fauzan Ramadhan<br/>Adri Firmansya Sofyan<br/>Sulthan Naufal Affan<br/>Kenny Pramanik Najla Wibowo<br/>Muhammad Zaki Azzamy Syauqi<br/>Raegrand Archamadeus<br/>Ahmad Sahro<br/>Habibie Muhammad Ghifari | Bandung Institute of Technology | Indonesia |
 | 23      | AM warm-up NC26           | Abdulrahman Yasser<br/>Sama Ahmed Osama Farouk<br/>Sajda Mohammed<br/>Mohmmed Abbas<br/>Seif  Eldaby<br/>Aisha Ahmed Mohamed<br/>Steven Joseph<br/>Mohamed Elgohary<br/>Jana Mahmoud<br/>Ahmed Ashraf Hashem | Assiut University | Egypt |
+| 24      | JARVIS                    | N Rohit Balaji<br/>Sujal Choudary | SRM Institute of Science and Technology  | India                             |
 
 !!! note
     The above table will be updated with newly registered teams within a few days of registration. Please contact [:material-email: Chinmay Samak](mailto:csamak@clemson.edu) or [:material-email: Tanmay Samak](mailto:tsamak@clemson.edu) if you do not see your team entry for more than 7 days after registering.
