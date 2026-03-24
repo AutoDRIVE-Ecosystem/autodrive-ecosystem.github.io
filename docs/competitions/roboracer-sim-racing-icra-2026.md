@@ -199,6 +199,7 @@ Registered teams are added to the following table:
 | 22      | Dagozilla Racing Team     | Muhammad Adli Syauqi<br/>Sami Fauzan Ramadhan<br/>Adri Firmansya Sofyan<br/>Sulthan Naufal Affan<br/>Kenny Pramanik Najla Wibowo<br/>Muhammad Zaki Azzamy Syauqi<br/>Raegrand Archamadeus<br/>Ahmad Sahro<br/>Habibie Muhammad Ghifari | Bandung Institute of Technology | Indonesia |
 | 23      | AM warm-up NC26           | Abdulrahman Yasser<br/>Sama Ahmed Osama Farouk<br/>Sajda Mohammed<br/>Mohmmed Abbas<br/>Seif  Eldaby<br/>Aisha Ahmed Mohamed<br/>Steven Joseph<br/>Mohamed Elgohary<br/>Jana Mahmoud<br/>Ahmed Ashraf Hashem | Assiut University | Egypt |
 | 24      | JARVIS                    | N Rohit Balaji<br/>Sujal Choudary | SRM Institute of Science and Technology  | India                             |
+| 25      | determination             | Fagr Ahmed                    | Egypt-Japan University of Science and Technology | Egypt                         |
 
 !!! note
     The above table will be updated with newly registered teams within a few days of registration. Please contact [:material-email: Chinmay Samak](mailto:csamak@clemson.edu) or [:material-email: Tanmay Samak](mailto:tsamak@clemson.edu) if you do not see your team entry for more than 7 days after registering.
