@@ -200,6 +200,10 @@ Registered teams are added to the following table:
 | 23      | AM warm-up NC26           | Abdulrahman Yasser<br/>Sama Ahmed Osama Farouk<br/>Sajda Mohammed<br/>Mohmmed Abbas<br/>Seif  Eldaby<br/>Aisha Ahmed Mohamed<br/>Steven Joseph<br/>Mohamed Elgohary<br/>Jana Mahmoud<br/>Ahmed Ashraf Hashem | Assiut University | Egypt |
 | 24      | JARVIS                    | N Rohit Balaji<br/>Sujal Choudary | SRM Institute of Science and Technology  | India                             |
 | 25      | determination             | Fagr Ahmed                    | Egypt-Japan University of Science and Technology | Egypt                         |
+| 26      | Penn RoboRacer            | Keshav Mohta<br/>Ananya Bhat<br/>Ashwin Krishnaswamy<br/>Zhaoqi Wang<br/>Deniz Gursoy<br/>Yatin Bayya<br/>Deepa Lokesha | University of Pennsylvania | United States of America (USA) |
+| 27      | Rostamza_ITS_JKU          | Aida Rostamza                 | Johannes Kepler University Linz - Intelligent Transport Systems | Austria        |
+| 28      | Apex Predator             | Taaha Saleem Bajwa            | Personal                                     | Pakistan                          |
+| 29      | Simracer                  | Dominik Schneider             | Personal                                     | Germany                           |
 
 !!! note
     The above table will be updated with newly registered teams within a few days of registration. Please contact [:material-email: Chinmay Samak](mailto:csamak@clemson.edu) or [:material-email: Tanmay Samak](mailto:tsamak@clemson.edu) if you do not see your team entry for more than 7 days after registering.
