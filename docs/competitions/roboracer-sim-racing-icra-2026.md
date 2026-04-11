@@ -204,6 +204,8 @@ Registered teams are added to the following table:
 | 27      | Rostamza_ITS_JKU          | Aida Rostamza                 | Johannes Kepler University Linz - Intelligent Transport Systems | Austria        |
 | 28      | Apex Predator             | Taaha Saleem Bajwa            | Personal                                     | Pakistan                          |
 | 29      | Simracer                  | Dominik Schneider             | Personal                                     | Germany                           |
+| 30      | DEWO SPEED                | Bima Aditya Pratama<br/>Afrizal Luthfi Eka Arnatha<br/>Aleminaitha Kerina Beru Ginting<br/>Faiz Muhammad Hakim<br/>Galih Ramadhani Muhamad<br/>Muhamad Alvi Kirana Zulfan Nazal<br/>Muhammad Hisyam Adiansyah | Universitas Negeri Surabaya | Indonesia |
+| 31      | KUF1Tenth                 | Jackson Yanek<br/>Tyler Oswald<br/>Nickan Safi | University Of Kansas        | United States of America (USA)    |
 
 !!! note
     The above table will be updated with newly registered teams within a few days of registration. Please contact [:material-email: Chinmay Samak](mailto:csamak@clemson.edu) or [:material-email: Tanmay Samak](mailto:tsamak@clemson.edu) if you do not see your team entry for more than 7 days after registering.
