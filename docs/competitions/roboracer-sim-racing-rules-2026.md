@@ -48,8 +48,6 @@ Following is a summary of the main events of the competition:
 
 <ul class="justify-list">
   <li><b>Registration:</b> Interested teams will register for the Sim Racing League.</li>
-  <li><b>Online Orientation 1:</b> Organizers will explain the competition rules and guidelines, and demonstrate how to use the simulation framework.</li>
-  <li><b>Online Orientation 2:</b> Organizers will check progress of the participating teams and help with any technical difficulties.</li>
   <li><b>Qualification Round:</b> Teams will demonstrate successful completion of 10 laps around the practice track provided ahead of time.</li>
   <li><b>Qualification Results Declared:</b> Standings of all the qualified teams will be released.</li>
   <li><b>Competition Track Released:</b> Organizers will release the actual "competition track", which will be used for the final race. This track may be replicated in the physical race as well.</li>
@@ -71,7 +69,6 @@ Following are the requirements to progress along each phase of the competition:
 
 <ul class="justify-list">
   <li><b>Registration:</b> Interested teams must register for the competition before the deadline. Organizers may extend registration deadlines in certain cases; however, direct requests for deadline extension from any team(s) will not be entertained. It is recommended to register your team well in advance to avoid last-minute rush.</li>
-  <li><b>Orientations:</b> It is highly recommended for all teams to attend the online orientation sessions to understand the competition code-of-conduct and get familiar with the simulation framework. These events can also be used to get some of your doubts clarified!</li>
   <li><b>Qualification:</b> Teams will have to demonstrate successful completion of 10 autonomous laps around the practice track provided ahead of time. During this phase, speed is not very important, but failure to complete 10 consecutive autonomous laps without exceeding the collision count tolerance will result in disqualification of that team. Passing the qualification session entitles a team for the final race.</li>
   <li><b>Competition:</b> During this phase, the clock will be ticking, and the objective would be to complete 10 consecutive autonomous laps as fast as possible without exceeding the collision count tolerance. Failure to respect the collision count tolerance will result in disqualification of that team. Teams will be ranked on a leaderboard in the ascending order of their time to completion (10 autonomous racing laps).</li>
 </ul>
