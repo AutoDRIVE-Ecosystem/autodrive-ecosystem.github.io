@@ -195,13 +195,13 @@ Registered teams are added to the following table:
 | 18      | Space Lab                 | Haorong Yuan<br/>Shengyao Lan | Shenzhen University                          | China                             |
 | 19      | Async Late Night Runner   | EuJin Tan                     | Personal                                     | Malaysia                          |
 | 20      | CRXL                      | Ujjval Patel                  | CaliberX Research Labs                       | India                             |
-| 21      | Nova                      | Dr. K. Lakshmi Prasanna<br/>Sankalp Telasang<br/>Abhay Ayyalasomayajula<br/>Shreyas Kamalapuram<br/>Yash Bhatt<br/>Vaishnavi | Birla Institute of Technology and Science(BITS) Pilani Work Integrated Learning Programmes (WILP) | India |
+| 21      | Nova                      | Dr. K. Lakshmi Prasanna<br/>Sankalp Telasang<br/>Abhay Ayyalasomayajula<br/>Shreyas Kamalapuram<br/>Yash Bhatt<br/>Vaishnavi | Birla Institute of Technology and Science (BITS) Pilani Work Integrated Learning Programmes (WILP) | India |
 | 22      | Dagozilla Racing Team     | Muhammad Adli Syauqi<br/>Sami Fauzan Ramadhan<br/>Adri Firmansya Sofyan<br/>Sulthan Naufal Affan<br/>Kenny Pramanik Najla Wibowo<br/>Muhammad Zaki Azzamy Syauqi<br/>Raegrand Archamadeus<br/>Ahmad Sahro<br/>Habibie Muhammad Ghifari | Bandung Institute of Technology | Indonesia |
 | 23      | AM warm-up NC26           | Abdulrahman Yasser<br/>Sama Ahmed Osama Farouk<br/>Sajda Mohammed<br/>Mohmmed Abbas<br/>Seif  Eldaby<br/>Aisha Ahmed Mohamed<br/>Steven Joseph<br/>Mohamed Elgohary<br/>Jana Mahmoud<br/>Ahmed Ashraf Hashem | Assiut University | Egypt |
 | 24      | JARVIS                    | N Rohit Balaji<br/>Sujal Choudary | SRM Institute of Science and Technology  | India                             |
 | 25      | determination             | Fagr Ahmed                    | Egypt-Japan University of Science and Technology | Egypt                         |
 | 26      | Penn RoboRacer            | Keshav Mohta<br/>Ananya Bhat<br/>Ashwin Krishnaswamy<br/>Zhaoqi Wang<br/>Deniz Gursoy<br/>Yatin Bayya<br/>Deepa Lokesha | University of Pennsylvania | United States of America (USA) |
-| 27      | Rostamza_ITS_JKU          | Aida Rostamza                 | Johannes Kepler University Linz - Intelligent Transport Systems | Austria        |
+| 27      | JKU-ITS                   | Aida Rostamza<br/>Joshua Cherian Varughese<br/>Gaspar Garcia Gutierrez<br/>Husam Issa | Johannes Kepler University Linz - Intelligent Transport Systems | Austria |
 | 28      | Apex Predator             | Taaha Saleem Bajwa            | Personal                                     | Pakistan                          |
 | 29      | Simracer                  | Dominik Schneider             | Personal                                     | Germany                           |
 | 30      | DEWO SPEED                | Bima Aditya Pratama<br/>Afrizal Luthfi Eka Arnatha<br/>Aleminaitha Kerina Beru Ginting<br/>Faiz Muhammad Hakim<br/>Galih Ramadhani Muhamad<br/>Muhamad Alvi Kirana Zulfan Nazal<br/>Muhammad Hisyam Adiansyah | Universitas Negeri Surabaya | Indonesia |
