@@ -201,14 +201,16 @@ Registered teams are added to the following table:
 | 24      | JARVIS                    | N Rohit Balaji<br/>Sujal Choudary | SRM Institute of Science and Technology  | India                             |
 | 25      | determination             | Fagr Ahmed                    | Egypt-Japan University of Science and Technology | Egypt                         |
 | 26      | Penn RoboRacer            | Keshav Mohta<br/>Ananya Bhat<br/>Ashwin Krishnaswamy<br/>Zhaoqi Wang<br/>Deniz Gursoy<br/>Yatin Bayya<br/>Deepa Lokesha | University of Pennsylvania | United States of America (USA) |
-| 27      | JKU-ITS                   | Aida Rostamza<br/>Joshua Cherian Varughese<br/>Gaspar Garcia Gutierrez<br/>Husam Issa | Johannes Kepler University Linz - Intelligent Transport Systems | Austria |
-| 28      | Apex Predator             | Taaha Saleem Bajwa            | Personal                                     | Pakistan                          |
-| 29      | Simracer                  | Dominik Schneider             | Personal                                     | Germany                           |
-| 30      | DEWO SPEED                | Bima Aditya Pratama<br/>Afrizal Luthfi Eka Arnatha<br/>Aleminaitha Kerina Beru Ginting<br/>Faiz Muhammad Hakim<br/>Galih Ramadhani Muhamad<br/>Muhamad Alvi Kirana Zulfan Nazal<br/>Muhammad Hisyam Adiansyah | Universitas Negeri Surabaya | Indonesia |
-| 31      | KUF1Tenth                 | Jackson Yanek<br/>Tyler Oswald<br/>Nickan Safi | University Of Kansas        | United States of America (USA)    |
-| 32      | RUN-RUN-ChuraTaro         | Soya Aoki                     | Chura DATA Inc.                              | Japan                             |
-| 33      | MooN-Racer                | Pavan Rajak<br/>Rishabh Mittal | Indian Institute of Science Education and Research, Bhopal | India              |
-| 34      | racingIllini              | Sidhant Jha<br/>Adrian Mittal<br/>Siddhant Shankar<br/>Bryan Zhang | University of Illinois at Urbana Champaign (UIUC) | United States of America (USA) |
+| 27      | Apex Predator             | Taaha Saleem Bajwa            | Personal                                     | Pakistan                          |
+| 28      | Simracer                  | Dominik Schneider             | Personal                                     | Germany                           |
+| 29      | DEWO SPEED                | Bima Aditya Pratama<br/>Afrizal Luthfi Eka Arnatha<br/>Aleminaitha Kerina Beru Ginting<br/>Faiz Muhammad Hakim<br/>Galih Ramadhani Muhamad<br/>Muhamad Alvi Kirana Zulfan Nazal<br/>Muhammad Hisyam Adiansyah | Universitas Negeri Surabaya | Indonesia |
+| 30      | KUF1Tenth                 | Jackson Yanek<br/>Tyler Oswald<br/>Nickan Safi | University Of Kansas        | United States of America (USA)    |
+| 31      | RUN-RUN-ChuraTaro         | Soya Aoki                     | Chura DATA Inc.                              | Japan                             |
+| 32      | MooN-Racer                | Pavan Rajak<br/>Rishabh Mittal | Indian Institute of Science Education and Research, Bhopal | India              |
+| 33      | racingIllini              | Sidhant Jha<br/>Adrian Mittal<br/>Siddhant Shankar<br/>Bryan Zhang | University of Illinois at Urbana Champaign (UIUC) | United States of America (USA) |
+| 34      | JKU-ITS                   | Aida Rostamza<br/>Joshua Cherian Varughese<br/>Gaspar Garcia Gutierrez<br/>Husam Issa | Johannes Kepler University Linz - Intelligent Transport Systems | Austria |
+| 35      | Bhuna Khichuri Racers     | Al Mahir Ahmed<br/>Suhail Haque Rafi | BRAC University                       | Bangladesh                        |
+| 36      | AutoJim                   | Demetris H                    | Personal                                     | Cyprus                            |
 
 !!! note
     The above table will be updated with newly registered teams within a few days of registration. Please contact [:material-email: Chinmay Samak](mailto:csamak@clemson.edu) or [:material-email: Tanmay Samak](mailto:tsamak@clemson.edu) if you do not see your team entry for more than 7 days after registering.
