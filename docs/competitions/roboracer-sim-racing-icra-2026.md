@@ -211,6 +211,15 @@ Registered teams are added to the following table:
 | 34      | JKU-ITS                   | Aida Rostamza<br/>Joshua Cherian Varughese<br/>Gaspar Garcia Gutierrez<br/>Husam Issa | Johannes Kepler University Linz - Intelligent Transport Systems | Austria |
 | 35      | Bhuna Khichuri Racers     | Al Mahir Ahmed<br/>Suhail Haque Rafi | BRAC University                       | Bangladesh                        |
 | 36      | AutoJim                   | Demetris H                    | Personal                                     | Cyprus                            |
+| 37      | Tarek Alhafez             | Tarek Alhafez                 | Personal                                     | United Arab Emirates              |
+| 38      | NTU DeepSpeed             | Ting-Ju Chen<br/>Baba Purandara Moolya<br/>Chennupati Sri Siva Sai Abhiram<br/>Eduardo Fernandes de Conto<br/>Kah Lok Wong<br/>Mu-En Li<br/>Raditya Chema Hafizh Pradigta<br/>S Sarvajana Hari<br/>Yun-Tung Lee | Nanyang Technological University | Singapore |
+| 39      | Prakhar                   | Prakhar Dwivedi               | Personal                                     | India                             |
+| 40      | IDEA_LAB                  | SuJin Park<br/>SinHo Cho<br/>JongAh Ha | Gyeongsang National University      | South Korea                       |
+| 41      | SuperRace                 | Jisu Lee                      | Hanyang University                           | South Korea                       |
+| 42      | rumba                     | Rujhan Najib                  | Personal                                     | Malaysia                          |
+| 43      | Shiam                     | Shiam Chuttoo                 | Personal                                     | United Kingdom                    |
+| 44      | Nineyards Robotics        | Alistair English              | Personal                                     | Australia                         |
+| 45      | IU Luddy Roboracer Team   | Shreyaj Kankipati<br/>Arav Pushkar | Indiana University                      | United States of America (USA)    |
 
 !!! note
     The above table will be updated with newly registered teams within a few days of registration. Please contact [:material-email: Chinmay Samak](mailto:csamak@clemson.edu) or [:material-email: Tanmay Samak](mailto:tsamak@clemson.edu) if you do not see your team entry for more than 7 days after registering.
