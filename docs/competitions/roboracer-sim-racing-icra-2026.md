@@ -220,6 +220,22 @@ Registered teams are added to the following table:
 | 43      | Shiam                     | Shiam Chuttoo                 | Personal                                     | United Kingdom                    |
 | 44      | Nineyards Robotics        | Alistair English              | Personal                                     | Australia                         |
 | 45      | IU Luddy Roboracer Team   | Shreyaj Kankipati<br/>Arav Pushkar | Indiana University                      | United States of America (USA)    |
+| 46      | SpeedTiger                | Alexander Krolicki            | Personal                                     | United States of America (USA)    |
+| 47      | Omega_assassin's          | Akash Kanagala                | Personal                                     | India                             |
+| 48      | YalaAE                    | Bushra AlShehhi               | Personal                                     | United Arab Emirates (UAE)        |
+| 49      | Innomer                   | Mann Bhanushali               | Personal                                     | India                             |
+| 50      | Nehal Sonawane            | Nehal Sonawane                | Personal                                     | United States of America (USA)    |
+| 51      | IKERLAN - F1Tenth         | Asier Caballero<br/>Andoni Amurrio<br/>Haritz Odriozola | IKERLAN            | Spain                             |
+| 52      | FOCAS                     | Archana Kulkarni<br/>Soumyodipta Nath | Indian Institute of Science (IISc)   | India                             |
+| 53      | Raghav                    | Raghav Toshniwal              | Personal                                     | India                             |
+| 54      | SUST AUTODRIVE            | Abul Bashar Raz<br/>Ehsanul Karim Aslam<br/>Redwan Hassan<br/>Nayeem Islam Shanto<br/>Hasan Marjuk | SUST AUTODRIVE | Bangladesh |
+| 55      | PromptEngines             | Ruan Delport                  | Personal                                     | South Africa                      |
+| 56      | Infinity                  | Nilesh TN<br/>Harish A<br/>Kumar | Personal                                  | India                             |
+| 57      | Gator Autonomous Racing   | Christopher Oeltjen<br/>Sriram Yerramsetty<br/>Angela Nguyen<br/>Layla Hernandez<br/>Rishi Gandi<br/>Sunny Gupta<br/>Timothy Macias<br/>Walter Wieler | University of Florida | United States of America (USA) |
+| 58      | Fast3                     | Abdulla Alhammadi             | Khalifa University                           | United Arab Emirates (UAE)        |
+| 59      | Delulu Underdogs          | Karun Ashok Kumar<br/>Leonie Hoekstra<br/>Luuk Lenders | University of Twente | Netherlands                      |
+| 60      | Vibe_racer                | Ruan Delport                  | Personal                                     | South Africa                      |
+| 61      | We ain't slippin          | Niklas Holle                  | Personal                                     | Germany                           |
 
 !!! note
     The above table will be updated with newly registered teams within a few days of registration. Please contact [:material-email: Chinmay Samak](mailto:csamak@clemson.edu) or [:material-email: Tanmay Samak](mailto:tsamak@clemson.edu) if you do not see your team entry for more than 7 days after registering.
