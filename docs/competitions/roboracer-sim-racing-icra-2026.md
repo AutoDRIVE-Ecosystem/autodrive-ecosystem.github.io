@@ -241,6 +241,10 @@ Registered teams are added to the following table:
 | 64      | Sagol                     | JoonCheol Park<br/>Jiyul Park                  | Personal                    | South Korea                       |
 | 65      | Lepton                    | Muhammed Hayyan<br/>Hishaam Abdul Razik<br/>Simreen Siraj Shehzadi<br/>Marc George Abraham | Khalifa University | United Arab Emirates (UAE) |
 | 66      | Apex Autonomy             | Prajwal Thakur<br/>Alvin P Cheriyan | Personal                               | India                             |
+| 67      | Barmy Army                | Prathap Kishore               | Personal                                     | United Kingdom                    |
+| 68      | Autonomous Ground Vehicle | Utsab Karan<br/>Rohan Singh<br/>Sandip Das<br/>Theyanesh E R<br/>Uday Kayan S<br/>Allu Gowri Sasaank<br/>Akshat Shukla | Indian Institute of Technology, Kharagpur | India |
+| 69      | ROS Club Peru             | Fabricio Cabrera              | University of Engineering and Technology (UTEC) | Peru                           |
+| 70      | Need4Speed                | Sharvari Joshi                | Personal                                     | India                             |
 
 !!! note
     The above table will be updated with newly registered teams within a few days of registration. Please contact [:material-email: Chinmay Samak](mailto:csamak@clemson.edu) or [:material-email: Tanmay Samak](mailto:tsamak@clemson.edu) if you do not see your team entry for more than 7 days after registering.
