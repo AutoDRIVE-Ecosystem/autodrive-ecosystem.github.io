@@ -236,6 +236,11 @@ Registered teams are added to the following table:
 | 59      | Delulu Underdogs          | Karun Ashok Kumar<br/>Leonie Hoekstra<br/>Luuk Lenders | University of Twente | Netherlands                      |
 | 60      | Vibe_racer                | Ruan Delport                  | Personal                                     | South Africa                      |
 | 61      | We ain't slippin          | Niklas Holle                  | Personal                                     | Germany                           |
+| 62      | AM^2sport                 | Ahmed Nadi<br/>Mohamed Mostafa<br/>Mina Waheed | Assiut University           | Egypt                             |
+| 63      | ِAssiut Core               | Abdelbadea Yehia<br/>Rahma Abdelmaqsoud<br/>Hoda Nageh<br/>Ahmed Adel<br/>Haneen Montasser | Assiut National University | Egypt |
+| 64      | Sagol                     | JoonCheol Park<br/>Jiyul Park                  | Personal                    | South Korea                       |
+| 65      | Lepton                    | Muhammed Hayyan<br/>Hishaam Abdul Razik<br/>Simreen Siraj Shehzadi<br/>Marc George Abraham | Khalifa University | United Arab Emirates (UAE) |
+| 66      | Apex Autonomy             | Prajwal Thakur<br/>Alvin P Cheriyan | Personal                               | India                             |
 
 !!! note
     The above table will be updated with newly registered teams within a few days of registration. Please contact [:material-email: Chinmay Samak](mailto:csamak@clemson.edu) or [:material-email: Tanmay Samak](mailto:tsamak@clemson.edu) if you do not see your team entry for more than 7 days after registering.
