@@ -245,6 +245,7 @@ Registered teams are added to the following table:
 | 68      | Autonomous Ground Vehicle | Utsab Karan<br/>Rohan Singh<br/>Sandip Das<br/>Theyanesh E R<br/>Uday Kayan S<br/>Allu Gowri Sasaank<br/>Akshat Shukla | Indian Institute of Technology, Kharagpur | India |
 | 69      | ROS Club Peru             | Fabricio Cabrera              | University of Engineering and Technology (UTEC) | Peru                           |
 | 70      | Need4Speed                | Sharvari Joshi                | Personal                                     | India                             |
+| 71      | VAUL - Véhicules Autonomes Université Laval | Tommy Bouchard-Lebrun | Laval University                   | Canada                            |
 
 !!! note
     The above table will be updated with newly registered teams within a few days of registration. Please contact [:material-email: Chinmay Samak](mailto:csamak@clemson.edu) or [:material-email: Tanmay Samak](mailto:tsamak@clemson.edu) if you do not see your team entry for more than 7 days after registering.
