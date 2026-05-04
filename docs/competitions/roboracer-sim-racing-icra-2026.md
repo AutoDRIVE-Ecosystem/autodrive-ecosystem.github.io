@@ -176,7 +176,7 @@ Registered teams are added to the following table:
 | SR. NO. | TEAM NAME                 | TEAM MEMBERS                  | ORGANIZATION                              | COUNTRY                              |
 |:--------|:--------------------------|:------------------------------|:------------------------------------------|:-------------------------------------|
 | 01      | Neuromorphic Racer        | Joy Vithayathil               | Indian Institute of Technology (ISM), Dhanbad | India                            |
-| 02      | Macan Malaya              | Giovanni Dejan                | Universiti Malaya                         | Indonesia                            |
+| 02      | Macan Malaya              | Giovanni Dejan                | University of Malaya                      | Indonesia                            |
 | 03      | AutoTurbo                 | Pavan Kalyan Majjiga          | Barigo Holdings, Inc.                     | United States of America (USA)       |
 | 04      | HSMNF Racer               | Hamdan AlHajeri<br/>Mohammed Islam<br/>Maher Abdul Gafoor<br/>Feras Shihab<br/>Nevan John Thomas | Khalifa University | United Arab Emirates (UAE) |
 | 05      | Abdulrahman Mahmoud       | Abdulrahman Mahmoud           | Personal                                  | Egypt                                |
@@ -204,7 +204,7 @@ Registered teams are added to the following table:
 | 27      | Apex Predator             | Taaha Saleem Bajwa            | Personal                                     | Pakistan                          |
 | 28      | Simracer                  | Dominik Schneider             | Personal                                     | Germany                           |
 | 29      | DEWO SPEED                | Bima Aditya Pratama<br/>Afrizal Luthfi Eka Arnatha<br/>Aleminaitha Kerina Beru Ginting<br/>Faiz Muhammad Hakim<br/>Galih Ramadhani Muhamad<br/>Muhamad Alvi Kirana Zulfan Nazal<br/>Muhammad Hisyam Adiansyah | Universitas Negeri Surabaya | Indonesia |
-| 30      | KUF1Tenth                 | Jackson Yanek<br/>Tyler Oswald<br/>Nickan Safi | University Of Kansas        | United States of America (USA)    |
+| 30      | KUF1Tenth                 | Jackson Yanek<br/>Tyler Oswald<br/>Nickan Safi | The University Of Kansas    | United States of America (USA)    |
 | 31      | RUN-RUN-ChuraTaro         | Soya Aoki                     | Chura DATA Inc.                              | Japan                             |
 | 32      | MooN-Racer                | Pavan Rajak<br/>Rishabh Mittal | Indian Institute of Science Education and Research, Bhopal | India              |
 | 33      | racingIllini              | Sidhant Jha<br/>Adrian Mittal<br/>Siddhant Shankar<br/>Bryan Zhang | University of Illinois at Urbana Champaign (UIUC) | United States of America (USA) |
@@ -250,13 +250,13 @@ Registered teams are added to the following table:
 !!! note
     The above table will be updated with newly registered teams within a few days of registration. Please contact [:material-email: Chinmay Samak](mailto:csamak@clemson.edu) or [:material-email: Tanmay Samak](mailto:tsamak@clemson.edu) if you do not see your team entry for more than 7 days after registering.
 
-<!-- <div style="display: flex; justify-content: center;">
+<div style="display: flex; justify-content: center;">
 <iframe style="aspect-ratio: 16/8; width: 100% !important;" src="/../assets/images/competitions/2026 icra roboracer sim racing league/Map.html" title="Global Participation Map"  frameborder="0"></iframe>
 </div>
 
 <div style="display: flex; justify-content: center;">
 <img src="/../assets/images/competitions/2026 icra roboracer sim racing league/Collage.png" title="Participating Organizations">
-</div> -->
+</div>
 
 ## Submission
 
