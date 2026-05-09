@@ -234,7 +234,7 @@ Registered teams are added to the following table:
 | 57      | Gator Autonomous Racing   | Christopher Oeltjen<br/>Sriram Yerramsetty<br/>Angela Nguyen<br/>Layla Hernandez<br/>Rishi Gandi<br/>Sunny Gupta<br/>Timothy Macias<br/>Walter Wieler | University of Florida | United States of America (USA) |
 | 58      | Fast3                     | Abdulla Alhammadi             | Khalifa University                           | United Arab Emirates (UAE)        |
 | 59      | Delulu Underdogs          | Karun Ashok Kumar<br/>Leonie Hoekstra<br/>Luuk Lenders | University of Twente | Netherlands                      |
-| 60      | Vibe_racer                | Ruan Delport                  | Personal                                     | South Africa                      |
+| 60      | Viberacer                 | Ruan Delport                  | Personal                                     | South Africa                      |
 | 61      | We ain't slippin          | Niklas Holle                  | Personal                                     | Germany                           |
 | 62      | AM^2sport                 | Ahmed Nadi<br/>Mohamed Mostafa<br/>Mina Waheed | Assiut University           | Egypt                             |
 | 63      | ِAssiut Core               | Abdelbadea Yehia<br/>Rahma Abdelmaqsoud<br/>Hoda Nageh<br/>Ahmed Adel<br/>Haneen Montasser | Assiut National University | Egypt |
@@ -246,6 +246,8 @@ Registered teams are added to the following table:
 | 69      | ROS Club Peru             | Fabricio Cabrera              | University of Engineering and Technology (UTEC) | Peru                           |
 | 70      | Need4Speed                | Sharvari Joshi                | Personal                                     | India                             |
 | 71      | VAUL - Véhicules Autonomes Université Laval | Tommy Bouchard-Lebrun | Laval University                   | Canada                            |
+| 72      | Tachyons                  | Pruthviraj Banne<br/>Yashvi Shah<br/>Tanishq Agrawal<br/>Raj Teli | Personal | India                             |
+| 73      | TritonAI Team 6           | Calvin Magsie<br/>Ethan Haus<br/>James Wootton | University of California, San Diego | United States of America (USA) |
 
 !!! note
     The above table will be updated with newly registered teams within a few days of registration. Please contact [:material-email: Chinmay Samak](mailto:csamak@clemson.edu) or [:material-email: Tanmay Samak](mailto:tsamak@clemson.edu) if you do not see your team entry for more than 7 days after registering.
