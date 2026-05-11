@@ -294,17 +294,44 @@ Use the secure form below to make your team's submission for Phase 2 (Final Race
 
 **Phase 1: Qualification**
 
-<p align="justify">
-Phase 1 results will be posted here on May 11, 2026.
-</p>
-
 <!-- <p align="justify">
+Phase 1 results will be posted here on May 11, 2026.
+</p> -->
+
+<p align="justify">
 The following teams have qualified for the final time-attack race. Here are the official standings:
 </p>
 
-| RANK    | TEAM NAME                       | RACE TIME       | COLLISION COUNT | ADJUSTED RACE TIME | BEST LAP TIME | VIDEO                                                      |
-|:--------|:--------------------------------|:----------------|:----------------|:-------------------|:--------------|:-----------------------------------------------------------| -->
-
+| RANK    | TEAM NAME                                         | RACE TIME       | COLLISION COUNT | ADJUSTED RACE TIME | BEST LAP TIME | VIDEO                                                      |
+|:--------|:--------------------------------------------------|:----------------|:----------------|:-------------------|:--------------|:-----------------------------------------------------------|
+| 01      | 👏 VAUL - Véhicules Autonomes Université Laval   | 64.80 s         | 0               | 64.80 s            | 6.46 s        |                                                            |
+| 02      | 👏 DEWO SPEED                                    | 74.67 s         | 0               | 74.67 s            | 7.40 s        |                                                            |
+| 03      | 👏 Innomer                                       | 79.34 s         | 0               | 79.34 s            | 7.84 s        |                                                            |
+| 04      | 👏 bracavisionai                                 | 83.13 s         | 0               | 83.13 s            | 8.15 s        |                                                            |
+| 05      | 👏 IDEA_LAB                                      | 83.18 s         | 0               | 83.18 s            | 8.27 s        |                                                            |
+| 06      | 👏 NTU DeepSpeed                                 | 83.29 s         | 0               | 83.29 s            | 8.33 s        |                                                            |
+| 07      | 👏 RUN-RUN-ChuraTaro                             | 86.15 s         | 0               | 86.15 s            | 8.50 s        |                                                            |
+| 08      | 👏 Assiut Core                                   | 87.70 s         | 0               | 87.70 s            | 8.24 s        |                                                            |
+| 09      | 👏 MonacoF1                                      | 88.65 s         | 0               | 88.65 s            | 8.84 s        |                                                            |
+| 10      | 👏 Delulu Underdogs                              | 93.03 s         | 0               | 93.03 s            | 9.28 s        |                                                            |
+| 11      | 👏 KUF1Tenth                                     | 94.93 s         | 0               | 94.93 s            | 9.43 s        |                                                            |
+| 12      | 👏 Penn RoboRacer                                | 103.51 s        | 0               | 103.51 s           | 10.34 s       |                                                            |
+| 13      | 👏 Maxed-Out                                     | 109.77 s        | 0               | 109.77 s           | 10.93 s       |                                                            |
+| 14      | 👏 Gator Autonomous Racing                       | 113.94 s        | 0               | 113.94 s           | 11.38 s       |                                                            |
+| 15      | 👏 IKERLAN - F1Tenth                             | 116.72 s        | 0               | 116.72 s           | 11.62 s       |                                                            |
+| 16      | 👏 IU Luddy Roboracer Team                       | 118.64 s        | 0               | 118.64 s           | 11.86 s       |                                                            |
+| 17      | 👏 Sagol                                         | 113.04 s        | 1               | 123.04 s           | 10.13 s       |                                                            |
+| 18      | 👏 AM^2sport                                     | 127.97 s        | 0               | 127.97 s           | 12.73 s       |                                                            |
+| 19      | 👏 Bhuna Khichuri Racers                         | 151.76 s        | 0               | 151.76 s           | 15.13 s       |                                                            |
+| 20      | 👏 AM warm-up NC26                               | 165.53 s        | 0               | 165.53 s           | 16.54 s       |                                                            |
+| 21      | 👏 We ain't slippin                              | 191.38 s        | 0               | 191.38 s           | 18.97 s       |                                                            |
+| 22      | 👏 JKU-ITS                                       | 207.03 s        | 0               | 207.03 s           | 20.70 s       |                                                            |
+| 23      | 👏 Tachyons                                      | 219.11 s        | 1               | 229.11 s           | 19.01 s       |                                                            |
+| 24      | 👏 Apex Autonomy                                 | 254.30 s        | 0               | 254.30 s           | 25.33 s       |                                                            |
+| 25      | 👏 Nova                                          | 272.75 s        | 0               | 272.75 s           | 27.22 s       |                                                            |
+| 26      | 👏 Apex Predator                                 | 376.07 s        | 0               | 376.07 s           | 37.55 s       |                                                            |
+| 27      | 👏 Prakhar                                       | 620.15 s        | 0               | 620.15 s           | 61.79 s       |                                                            |
+| 28      | 👏 Nineyards Robotics                            | 667.82 s        | 0               | 667.82 s           | 66.75 s       |                                                            |
 
 **Phase 2: Competition**
 
