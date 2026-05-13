@@ -111,9 +111,9 @@ We recommend all the teams interested in participating in the RoboRacer Sim Raci
 
     Download base container images for the competition and start developing your algorithms.
 
-    [:material-open-in-new: **AutoDRIVE Simulator:**](https://hub.docker.com/r/autodriveecosystem/autodrive_roboracer_sim) [`explore`](https://hub.docker.com/layers/autodriveecosystem/autodrive_roboracer_sim/2026-icra-explore/images/sha256-20c0bf5806d05d779388a0263c67885741a05412f33c00cde019d9668627adb3) | [`practice`](https://hub.docker.com/layers/autodriveecosystem/autodrive_roboracer_sim/2026-icra-practice/images/sha256-264e3946dc4ff199d667caa65b3bebc1829822acf201a3a33e7aa406bc574441) | `compete`
+    [:material-open-in-new: **AutoDRIVE Simulator:**](https://hub.docker.com/r/autodriveecosystem/autodrive_roboracer_sim) [`explore`](https://hub.docker.com/layers/autodriveecosystem/autodrive_roboracer_sim/2026-icra-explore/images/sha256-20c0bf5806d05d779388a0263c67885741a05412f33c00cde019d9668627adb3) | [`practice`](https://hub.docker.com/layers/autodriveecosystem/autodrive_roboracer_sim/2026-icra-practice/images/sha256-264e3946dc4ff199d667caa65b3bebc1829822acf201a3a33e7aa406bc574441) | [`compete`](https://hub.docker.com/layers/autodriveecosystem/autodrive_roboracer_sim/2026-icra-compete/images/sha256-0511fb6d6db7f31ec0d20787c0498eb05f3bd45ae6b9683165e8680b61e9b159)
 
-    [:material-open-in-new: **AutoDRIVE Devkit:**](https://hub.docker.com/r/autodriveecosystem/autodrive_roboracer_api) [`explore`](https://hub.docker.com/layers/autodriveecosystem/autodrive_roboracer_api/2026-icra-explore/images/sha256-8d2663bece059f54e628a8ebfa79237592b09c584545d64c465112b1899a52aa) | [`practice`](https://hub.docker.com/layers/autodriveecosystem/autodrive_roboracer_api/2026-icra-practice/images/sha256-133c366f472fc30e9fb27dbc0a71daa3b478b9d7d9ffc5e28bb6877d5d840a46) | `compete`
+    [:material-open-in-new: **AutoDRIVE Devkit:**](https://hub.docker.com/r/autodriveecosystem/autodrive_roboracer_api) [`explore`](https://hub.docker.com/layers/autodriveecosystem/autodrive_roboracer_api/2026-icra-explore/images/sha256-8d2663bece059f54e628a8ebfa79237592b09c584545d64c465112b1899a52aa) | [`practice`](https://hub.docker.com/layers/autodriveecosystem/autodrive_roboracer_api/2026-icra-practice/images/sha256-133c366f472fc30e9fb27dbc0a71daa3b478b9d7d9ffc5e28bb6877d5d840a46) | [`compete`](https://hub.docker.com/layers/autodriveecosystem/autodrive_roboracer_api/2026-icra-compete/images/sha256-ce081910948c3f30898322358d682b79cf165aa287a3dc27128dbacae99178c7)
 
 -   :material-monitor:{ .lg .middle } __Local Resources__
 
@@ -127,7 +127,7 @@ We recommend all the teams interested in participating in the RoboRacer Sim Raci
 
     `practice`&nbsp; [:simple-linux: Linux](https://github.com/AutoDRIVE-Ecosystem/AutoDRIVE-RoboRacer-Sim-Racing/releases/download/2026-icra/autodrive_simulator_practice_linux.zip) | [:material-microsoft: Windows](https://github.com/AutoDRIVE-Ecosystem/AutoDRIVE-RoboRacer-Sim-Racing/releases/download/2026-icra/autodrive_simulator_practice_windows.zip) | [:simple-apple: macOS](https://github.com/AutoDRIVE-Ecosystem/AutoDRIVE-RoboRacer-Sim-Racing/releases/download/2026-icra/autodrive_simulator_practice_macos.zip)
 
-    `compete`&nbsp;&nbsp;&nbsp; :simple-linux: Linux | :material-microsoft: Windows | :simple-apple: macOS
+    `compete`&nbsp;&nbsp;&nbsp; [:simple-linux: Linux](https://github.com/AutoDRIVE-Ecosystem/AutoDRIVE-RoboRacer-Sim-Racing/releases/download/2026-icra/autodrive_simulator_compete_linux.zip) | [:material-microsoft: Windows](https://github.com/AutoDRIVE-Ecosystem/AutoDRIVE-RoboRacer-Sim-Racing/releases/download/2026-icra/autodrive_simulator_compete_windows.zip) | [:simple-apple: macOS](https://github.com/AutoDRIVE-Ecosystem/AutoDRIVE-RoboRacer-Sim-Racing/releases/download/2026-icra/autodrive_simulator_compete_macos.zip)
 
     **AutoDRIVE Devkit:**
     
@@ -147,7 +147,7 @@ We recommend all the teams interested in participating in the RoboRacer Sim Raci
 
     **Communication:** [:material-slack: Slack](https://join.slack.com/t/autodrive-ecosystem/shared_invite/zt-2oeg2hce8-0JvasvnBM1M_wUdDTWRuKw)
 
-    **Submission:** [:material-file-document-edit: Phase 1](https://forms.gle/hshuuLocosuvhPoE8) | :material-file-document-edit: Phase 2
+    **Submission:** [:material-file-document-edit: Phase 1](https://forms.gle/hshuuLocosuvhPoE8) | [:material-file-document-edit: Phase 2](https://forms.gle/bVeyakt6CFfxeMYE9)
 
     **Results:** [:fontawesome-solid-trophy: Phase 1](#results) | [:fontawesome-solid-trophy: Phase 2](#results)
 </div>
@@ -284,7 +284,7 @@ Use the secure form below to make your team's submission for Phase 2 (Final Race
 </p>
 
 <div style="display: flex; justify-content: center;">
-<a class="md-button" href=""><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M6 2c-1.11 0-2 .89-2 2v16a2 2 0 0 0 2 2h4v-1.91L12.09 18H6v-2h8.09l2-2H6v-2h12.09L20 10.09V8l-6-6H6m7 1.5L18.5 9H13V3.5m7.15 9.5a.55.55 0 0 0-.4.16l-1.02 1.02 2.09 2.08 1.02-1.01c.21-.22.21-.58 0-.79l-1.3-1.3a.544.544 0 0 0-.39-.16m-2.01 1.77L12 20.92V23h2.08l6.15-6.15-2.09-2.08Z"/></svg></span> Phase 2 Submission Form</a>
+<a class="md-button" href="https://forms.gle/bVeyakt6CFfxeMYE9"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M6 2c-1.11 0-2 .89-2 2v16a2 2 0 0 0 2 2h4v-1.91L12.09 18H6v-2h8.09l2-2H6v-2h12.09L20 10.09V8l-6-6H6m7 1.5L18.5 9H13V3.5m7.15 9.5a.55.55 0 0 0-.4.16l-1.02 1.02 2.09 2.08 1.02-1.01c.21-.22.21-.58 0-.79l-1.3-1.3a.544.544 0 0 0-.39-.16m-2.01 1.77L12 20.92V23h2.08l6.15-6.15-2.09-2.08Z"/></svg></span> Phase 2 Submission Form</a>
 </div>
 
 !!! warning
