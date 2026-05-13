@@ -56,7 +56,7 @@ Since the vehicle, the sensors, the simulator, and the devkit are standardized, 
 | May 09, 2026                      | Qualification Round Submission |
 | May 10, 2026                      | Qualification Round Evaluation |
 | May 11, 2026                      | Qualification Results Declared |
-| May 12, 2026                      | Competition Track Released     |
+| May 13, 2026                      | Competition Track Released     |
 | May 16, 2026                      | Final Race Submission          |
 | May 17, 2026                      | Final Race Evaluation          |
 | May 18, 2026                      | Competition Results Declared   |
