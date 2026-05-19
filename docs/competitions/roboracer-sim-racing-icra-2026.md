@@ -335,17 +335,33 @@ The following teams have qualified for the final time-attack race. Here are the 
 
 **Phase 2: Competition**
 
-<p align="justify">
-Phase 2 results will be posted here on May 18, 2026.
-</p>
-
 <!-- <p align="justify">
+Phase 2 results will be posted here on May 18, 2026.
+</p> -->
+
+<p align="justify">
 The following teams successfully finished the final time-attack race. Here are the official standings:
 </p>
 
 | RANK    | TEAM NAME                       | RACE TIME       | COLLISION COUNT | ADJUSTED RACE TIME | BEST LAP TIME | VIDEO                                                      |
-|:--------|:--------------------------------|:----------------|:----------------|:-------------------|:--------------|:-----------------------------------------------------------| -->
-
+|:--------|:--------------------------------|:----------------|:----------------|:-------------------|:--------------|:-----------------------------------------------------------|
+| 01      | 👏 MonacoF1                    | 110.27 s        | 0               | 110.27 s           | 11.00 s       |                                                            |
+| 02      | 👏 RUN-RUN-ChuraTaro           | 122.76 s        | 0               | 122.76 s           | 12.10 s       |                                                            |
+| 03      | 👏 bracavisionai               | 126.71 s        | 0               | 126.71 s           | 12.53 s       |                                                            |
+| 04      | 👏 KUF1Tenth                   | 148.09 s        | 0               | 148.09 s           | 14.62 s       |                                                            |
+| 05      | 👏 DEWO SPEED                  | 149.90 s        | 0               | 149.90 s           | 14.77 s       |                                                            |
+| 06      | 👏 JKU-ITS                     | 153.34 s        | 0               | 153.34 s           | 15.31 s       |                                                            |
+| 07      | 👏 AM warm-up NC26             | 159.69 s        | 0               | 159.69 s           | 15.70 s       |                                                            |
+| 08      | 👏 Innomer                     | 164.29 s        | 0               | 164.29 s           | 16.21 s       |                                                            |
+| 09      | 👏 Penn RoboRacer              | 164.30 s        | 0               | 164.30 s           | 16.40 s       |                                                            |
+| 10      | 👏 Delulu Underdogs            | 164.79 s        | 0               | 164.79 s           | 16.44 s       |                                                            |
+| 11      | 👏 NTU DeepSpeed               | 217.46 s        | 0               | 217.46 s           | 21.69 s       |                                                            |
+| 12      | 👏 Apex Autonomy               | 222.19 s        | 0               | 222.19 s           | 22.15 s       |                                                            |
+| 13      | 👏 Nova                        | 222.25 s        | 0               | 222.25 s           | 22.13 s       |                                                            |
+| 14      | 👏 Bhuna Khichuri Racers       | 232.63 s        | 0               | 232.63 s           | 22.22 s       |                                                            |
+| 15      | 👏 Gator Autonomous Racing     | 246.35 s        | 0               | 246.35 s           | 24.58 s       |                                                            |
+| 16      | 👏 We ain't slippin            | 330.30 s        | 0               | 330.30 s           | 33.01 s       |                                                            |
+| 17      | 👏 IKERLAN - F1Tenth           | 372.38 s        | 0               | 372.38 s           | 37.16 s       |                                                            |
 
 ## Summary
 
