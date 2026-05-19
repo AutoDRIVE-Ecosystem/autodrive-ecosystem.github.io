@@ -345,9 +345,9 @@ The following teams successfully finished the final time-attack race. Here are t
 
 | RANK    | TEAM NAME                       | RACE TIME       | COLLISION COUNT | ADJUSTED RACE TIME | BEST LAP TIME | VIDEO                                                      |
 |:--------|:--------------------------------|:----------------|:----------------|:-------------------|:--------------|:-----------------------------------------------------------|
-| 01      | 👏 MonacoF1                    | 110.27 s        | 0               | 110.27 s           | 11.00 s       |                                                            |
-| 02      | 👏 RUN-RUN-ChuraTaro           | 122.76 s        | 0               | 122.76 s           | 12.10 s       |                                                            |
-| 03      | 👏 bracavisionai               | 126.71 s        | 0               | 126.71 s           | 12.53 s       |                                                            |
+| 01      | 🥇 MonacoF1                    | 110.27 s        | 0               | 110.27 s           | 11.00 s       |                                                            |
+| 02      | 🥈 RUN-RUN-ChuraTaro           | 122.76 s        | 0               | 122.76 s           | 12.10 s       |                                                            |
+| 03      | 🥉 bracavisionai               | 126.71 s        | 0               | 126.71 s           | 12.53 s       |                                                            |
 | 04      | 👏 KUF1Tenth                   | 148.09 s        | 0               | 148.09 s           | 14.62 s       |                                                            |
 | 05      | 👏 DEWO SPEED                  | 149.90 s        | 0               | 149.90 s           | 14.77 s       |                                                            |
 | 06      | 👏 JKU-ITS                     | 153.34 s        | 0               | 153.34 s           | 15.31 s       |                                                            |
