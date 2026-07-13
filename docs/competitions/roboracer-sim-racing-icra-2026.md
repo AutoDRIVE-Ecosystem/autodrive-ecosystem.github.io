@@ -304,34 +304,34 @@ The following teams have qualified for the final time-attack race. Here are the 
 
 | RANK    | TEAM NAME                                         | RACE TIME       | COLLISION COUNT | ADJUSTED RACE TIME | BEST LAP TIME | VIDEO                                                      |
 |:--------|:--------------------------------------------------|:----------------|:----------------|:-------------------|:--------------|:-----------------------------------------------------------|
-| 01      | 👏 VAUL - Véhicules Autonomes Université Laval   | 64.80 s         | 0               | 64.80 s            | 6.46 s        |                                                            |
-| 02      | 👏 DEWO SPEED                                    | 74.67 s         | 0               | 74.67 s            | 7.40 s        |                                                            |
-| 03      | 👏 Innomer                                       | 79.34 s         | 0               | 79.34 s            | 7.84 s        |                                                            |
-| 04      | 👏 bracavisionai                                 | 83.13 s         | 0               | 83.13 s            | 8.15 s        |                                                            |
-| 05      | 👏 IDEA_LAB                                      | 83.18 s         | 0               | 83.18 s            | 8.27 s        |                                                            |
-| 06      | 👏 NTU DeepSpeed                                 | 83.29 s         | 0               | 83.29 s            | 8.33 s        |                                                            |
-| 07      | 👏 RUN-RUN-ChuraTaro                             | 86.15 s         | 0               | 86.15 s            | 8.50 s        |                                                            |
-| 08      | 👏 Assiut Core                                   | 87.70 s         | 0               | 87.70 s            | 8.24 s        |                                                            |
-| 09      | 👏 MonacoF1                                      | 88.65 s         | 0               | 88.65 s            | 8.84 s        |                                                            |
-| 10      | 👏 Delulu Underdogs                              | 93.03 s         | 0               | 93.03 s            | 9.28 s        |                                                            |
-| 11      | 👏 KUF1Tenth                                     | 94.93 s         | 0               | 94.93 s            | 9.43 s        |                                                            |
-| 12      | 👏 Penn RoboRacer                                | 103.51 s        | 0               | 103.51 s           | 10.34 s       |                                                            |
-| 13      | 👏 Maxed-Out                                     | 109.77 s        | 0               | 109.77 s           | 10.93 s       |                                                            |
-| 14      | 👏 Gator Autonomous Racing                       | 113.94 s        | 0               | 113.94 s           | 11.38 s       |                                                            |
-| 15      | 👏 IKERLAN - F1Tenth                             | 116.72 s        | 0               | 116.72 s           | 11.62 s       |                                                            |
-| 16      | 👏 IU Luddy Roboracer Team                       | 118.64 s        | 0               | 118.64 s           | 11.86 s       |                                                            |
-| 17      | 👏 Sagol                                         | 113.04 s        | 1               | 123.04 s           | 10.13 s       |                                                            |
-| 18      | 👏 AM^2sport                                     | 127.97 s        | 0               | 127.97 s           | 12.73 s       |                                                            |
-| 19      | 👏 Bhuna Khichuri Racers                         | 151.76 s        | 0               | 151.76 s           | 15.13 s       |                                                            |
-| 20      | 👏 AM warm-up NC26                               | 165.53 s        | 0               | 165.53 s           | 16.54 s       |                                                            |
-| 21      | 👏 We ain't slippin                              | 191.38 s        | 0               | 191.38 s           | 18.97 s       |                                                            |
-| 22      | 👏 JKU-ITS                                       | 207.03 s        | 0               | 207.03 s           | 20.70 s       |                                                            |
-| 23      | 👏 Tachyons                                      | 219.11 s        | 1               | 229.11 s           | 19.01 s       |                                                            |
-| 24      | 👏 Apex Autonomy                                 | 254.30 s        | 0               | 254.30 s           | 25.33 s       |                                                            |
-| 25      | 👏 Nova                                          | 272.75 s        | 0               | 272.75 s           | 27.22 s       |                                                            |
-| 26      | 👏 Apex Predator                                 | 376.07 s        | 0               | 376.07 s           | 37.55 s       |                                                            |
-| 27      | 👏 Prakhar                                       | 620.15 s        | 0               | 620.15 s           | 61.79 s       |                                                            |
-| 28      | 👏 Nineyards Robotics                            | 667.82 s        | 0               | 667.82 s           | 66.75 s       |                                                            |
+| 01      | 👏 VAUL - Véhicules Autonomes Université Laval   | 64.80 s         | 0               | 64.80 s            | 6.46 s        | [:material-youtube: YouTube](https://youtu.be/YKkoMIc-RdQ) |
+| 02      | 👏 DEWO SPEED                                    | 74.67 s         | 0               | 74.67 s            | 7.40 s        | [:material-youtube: YouTube](https://youtu.be/5xUKXoLhXI4) |
+| 03      | 👏 Innomer                                       | 79.34 s         | 0               | 79.34 s            | 7.84 s        | [:material-youtube: YouTube](https://youtu.be/9xZYPI_o6ss) |
+| 04      | 👏 bracavisionai                                 | 83.13 s         | 0               | 83.13 s            | 8.15 s        | [:material-youtube: YouTube](https://youtu.be/Lssp6C7cgSc) |
+| 05      | 👏 IDEA_LAB                                      | 83.18 s         | 0               | 83.18 s            | 8.27 s        | [:material-youtube: YouTube](https://youtu.be/lc1zQ4caKwE) |
+| 06      | 👏 NTU DeepSpeed                                 | 83.29 s         | 0               | 83.29 s            | 8.33 s        | [:material-youtube: YouTube](https://youtu.be/zgcfAttv_6I) |
+| 07      | 👏 RUN-RUN-ChuraTaro                             | 86.15 s         | 0               | 86.15 s            | 8.50 s        | [:material-youtube: YouTube](https://youtu.be/rwx7OX0muv4) |
+| 08      | 👏 Assiut Core                                   | 87.70 s         | 0               | 87.70 s            | 8.24 s        | [:material-youtube: YouTube](https://youtu.be/JQaLp94IJtU) |
+| 09      | 👏 MonacoF1                                      | 88.65 s         | 0               | 88.65 s            | 8.84 s        | [:material-youtube: YouTube](https://youtu.be/02tJ_oF6tow) |
+| 10      | 👏 Delulu Underdogs                              | 93.03 s         | 0               | 93.03 s            | 9.28 s        | [:material-youtube: YouTube](https://youtu.be/whJetcQ7h0w) |
+| 11      | 👏 KUF1Tenth                                     | 94.93 s         | 0               | 94.93 s            | 9.43 s        | [:material-youtube: YouTube](https://youtu.be/IcyYmTpMfOk) |
+| 12      | 👏 Penn RoboRacer                                | 103.51 s        | 0               | 103.51 s           | 10.34 s       | [:material-youtube: YouTube](https://youtu.be/htzzeVQenzY) |
+| 13      | 👏 Maxed-Out                                     | 109.77 s        | 0               | 109.77 s           | 10.93 s       | [:material-youtube: YouTube](https://youtu.be/A2BQ8-R3kW4) |
+| 14      | 👏 Gator Autonomous Racing                       | 113.94 s        | 0               | 113.94 s           | 11.38 s       | [:material-youtube: YouTube](https://youtu.be/rOUPS1FmmKI) |
+| 15      | 👏 IKERLAN - F1Tenth                             | 116.72 s        | 0               | 116.72 s           | 11.62 s       | [:material-youtube: YouTube](https://youtu.be/O4uk8wd43N8) |
+| 16      | 👏 IU Luddy Roboracer Team                       | 118.64 s        | 0               | 118.64 s           | 11.86 s       | [:material-youtube: YouTube](https://youtu.be/XOAKTd3S4l8) |
+| 17      | 👏 Sagol                                         | 113.04 s        | 1               | 123.04 s           | 10.13 s       | [:material-youtube: YouTube](https://youtu.be/fvcI-kBppEE) |
+| 18      | 👏 AM^2sport                                     | 127.97 s        | 0               | 127.97 s           | 12.73 s       | [:material-youtube: YouTube](https://youtu.be/QK2g4W2BoG8) |
+| 19      | 👏 Bhuna Khichuri Racers                         | 151.76 s        | 0               | 151.76 s           | 15.13 s       | [:material-youtube: YouTube](https://youtu.be/713UB5Y5qzw) |
+| 20      | 👏 AM warm-up NC26                               | 165.53 s        | 0               | 165.53 s           | 16.54 s       | [:material-youtube: YouTube](https://youtu.be/8XUnUmlBbak) |
+| 21      | 👏 We ain't slippin                              | 191.38 s        | 0               | 191.38 s           | 18.97 s       | [:material-youtube: YouTube](https://youtu.be/Q0c9fpRScm0) |
+| 22      | 👏 JKU-ITS                                       | 207.03 s        | 0               | 207.03 s           | 20.70 s       | [:material-youtube: YouTube](https://youtu.be/REAh_2ADsuk) |
+| 23      | 👏 Tachyons                                      | 219.11 s        | 1               | 229.11 s           | 19.01 s       | [:material-youtube: YouTube](https://youtu.be/_OoVD4u1wqU) |
+| 24      | 👏 Apex Autonomy                                 | 254.30 s        | 0               | 254.30 s           | 25.33 s       | [:material-youtube: YouTube](https://youtu.be/oXYrihy2YS0) |
+| 25      | 👏 Nova                                          | 272.75 s        | 0               | 272.75 s           | 27.22 s       | [:material-youtube: YouTube](https://youtu.be/WIN-FDPKyf8) |
+| 26      | 👏 Apex Predator                                 | 376.07 s        | 0               | 376.07 s           | 37.55 s       | [:material-youtube: YouTube](https://youtu.be/af7tKtI53pg) |
+| 27      | 👏 Prakhar                                       | 620.15 s        | 0               | 620.15 s           | 61.79 s       | [:material-youtube: YouTube](https://youtu.be/DZWtluT1XEI) |
+| 28      | 👏 Nineyards Robotics                            | 667.82 s        | 0               | 667.82 s           | 66.75 s       | [:material-youtube: YouTube](https://youtu.be/SCuwsSaqc8c) |
 
 **Phase 2: Competition**
 
@@ -345,30 +345,30 @@ The following teams successfully finished the final time-attack race. Here are t
 
 | RANK    | TEAM NAME                       | RACE TIME       | COLLISION COUNT | ADJUSTED RACE TIME | BEST LAP TIME | VIDEO                                                      |
 |:--------|:--------------------------------|:----------------|:----------------|:-------------------|:--------------|:-----------------------------------------------------------|
-| 01      | 🥇 MonacoF1                    | 110.27 s        | 0               | 110.27 s           | 11.00 s       |                                                            |
-| 02      | 🥈 RUN-RUN-ChuraTaro           | 122.76 s        | 0               | 122.76 s           | 12.10 s       |                                                            |
-| 03      | 🥉 bracavisionai               | 126.71 s        | 0               | 126.71 s           | 12.53 s       |                                                            |
-| 04      | 👏 KUF1Tenth                   | 148.09 s        | 0               | 148.09 s           | 14.62 s       |                                                            |
-| 05      | 👏 DEWO SPEED                  | 149.90 s        | 0               | 149.90 s           | 14.77 s       |                                                            |
-| 06      | 👏 JKU-ITS                     | 153.34 s        | 0               | 153.34 s           | 15.31 s       |                                                            |
-| 07      | 👏 AM warm-up NC26             | 159.69 s        | 0               | 159.69 s           | 15.70 s       |                                                            |
-| 08      | 👏 Innomer                     | 164.29 s        | 0               | 164.29 s           | 16.21 s       |                                                            |
-| 09      | 👏 Penn RoboRacer              | 164.30 s        | 0               | 164.30 s           | 16.40 s       |                                                            |
-| 10      | 👏 Delulu Underdogs            | 164.79 s        | 0               | 164.79 s           | 16.44 s       |                                                            |
-| 11      | 👏 NTU DeepSpeed               | 217.46 s        | 0               | 217.46 s           | 21.69 s       |                                                            |
-| 12      | 👏 Apex Autonomy               | 222.19 s        | 0               | 222.19 s           | 22.15 s       |                                                            |
-| 13      | 👏 Nova                        | 222.25 s        | 0               | 222.25 s           | 22.13 s       |                                                            |
-| 14      | 👏 Bhuna Khichuri Racers       | 232.63 s        | 0               | 232.63 s           | 22.22 s       |                                                            |
-| 15      | 👏 Gator Autonomous Racing     | 246.35 s        | 0               | 246.35 s           | 24.58 s       |                                                            |
-| 16      | 👏 We ain't slippin            | 330.30 s        | 0               | 330.30 s           | 33.01 s       |                                                            |
-| 17      | 👏 IKERLAN - F1Tenth           | 372.38 s        | 0               | 372.38 s           | 37.16 s       |                                                            |
+| 01      | 🥇 MonacoF1                    | 110.27 s        | 0               | 110.27 s           | 11.00 s       | [:material-youtube: YouTube](https://youtu.be/L0XfY58z5fg) |
+| 02      | 🥈 RUN-RUN-ChuraTaro           | 122.76 s        | 0               | 122.76 s           | 12.10 s       | [:material-youtube: YouTube](https://youtu.be/QYNZm1AAK1Y) |
+| 03      | 🥉 bracavisionai               | 126.71 s        | 0               | 126.71 s           | 12.53 s       | [:material-youtube: YouTube](https://youtu.be/o1XFhI2EFhQ) |
+| 04      | 👏 KUF1Tenth                   | 148.09 s        | 0               | 148.09 s           | 14.62 s       | [:material-youtube: YouTube](https://youtu.be/Nwd3SmOTvAY) |
+| 05      | 👏 DEWO SPEED                  | 149.90 s        | 0               | 149.90 s           | 14.77 s       | [:material-youtube: YouTube](https://youtu.be/gB--buItTiY) |
+| 06      | 👏 JKU-ITS                     | 153.34 s        | 0               | 153.34 s           | 15.31 s       | [:material-youtube: YouTube](https://youtu.be/RKQNte1TZ0s) |
+| 07      | 👏 AM warm-up NC26             | 159.69 s        | 0               | 159.69 s           | 15.70 s       | [:material-youtube: YouTube](https://youtu.be/zPvocoOdWas) |
+| 08      | 👏 Innomer                     | 164.29 s        | 0               | 164.29 s           | 16.21 s       | [:material-youtube: YouTube](https://youtu.be/SWaekIruDMc) |
+| 09      | 👏 Penn RoboRacer              | 164.30 s        | 0               | 164.30 s           | 16.40 s       | [:material-youtube: YouTube](https://youtu.be/wrZ0JA9S6NE) |
+| 10      | 👏 Delulu Underdogs            | 164.79 s        | 0               | 164.79 s           | 16.44 s       | [:material-youtube: YouTube](https://youtu.be/7V9bsrvx1u0) |
+| 11      | 👏 NTU DeepSpeed               | 217.46 s        | 0               | 217.46 s           | 21.69 s       | [:material-youtube: YouTube](https://youtu.be/6B8Bjg0NMFk) |
+| 12      | 👏 Apex Autonomy               | 222.19 s        | 0               | 222.19 s           | 22.15 s       | [:material-youtube: YouTube](https://youtu.be/2tP9PZ2QY0c) |
+| 13      | 👏 Nova                        | 222.25 s        | 0               | 222.25 s           | 22.13 s       | [:material-youtube: YouTube](https://youtu.be/huIhjZEad5Q) |
+| 14      | 👏 Bhuna Khichuri Racers       | 232.63 s        | 0               | 232.63 s           | 22.22 s       | [:material-youtube: YouTube](https://youtu.be/rGeF58tEOSs) |
+| 15      | 👏 Gator Autonomous Racing     | 246.35 s        | 0               | 246.35 s           | 24.58 s       | [:material-youtube: YouTube](https://youtu.be/onmHRkeD-G8) |
+| 16      | 👏 We ain't slippin            | 330.30 s        | 0               | 330.30 s           | 33.01 s       | [:material-youtube: YouTube](https://youtu.be/RCe8x2yhUzw) |
+| 17      | 👏 IKERLAN - F1Tenth           | 372.38 s        | 0               | 372.38 s           | 37.16 s       | [:material-youtube: YouTube](https://youtu.be/FiJ5vsYnsn0) |
 
 ## Summary
 
-<p align="justify">
+<!-- <p align="justify">
 A summary video will be posted here after the competition.
-</p>
+</p> -->
 
-<!-- <div style="display: flex; justify-content: center;">
-<iframe style="aspect-ratio: 16/9; width: 100% !important;" src="https://www.youtube.com/embed/7Y2jeoHyvWA?si=KdvjI2Aawu4Vv3xN" title="RoboRacer Sim Racing League @ CDC-TF 2025" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-</div> -->
+<div style="display: flex; justify-content: center;">
+<iframe style="aspect-ratio: 16/9; width: 100% !important;" src="https://www.youtube.com/embed/xCp1KB-JGZ4?si=3gYI4MUgyh0sgjPL" title="RoboRacer Sim Racing League @ ICRA 2026" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
