@@ -321,7 +321,7 @@ The following teams successfully finished the final time-attack race. Here are t
 | 10      | 👏 Zancle E-Drive               | 149.19 s        | 10              | 249.19 s           | 14.81 s       | [:material-youtube: YouTube](https://www.youtube.com/watch?v=Wy4rXx_UaUk) |
 | 10      | 👏 RUN-RUN-ChuraTaro            | 275.71 s        | 0               | 275.71 s           | 27.36 s       | [:material-youtube: YouTube](https://www.youtube.com/watch?v=VujkuVcB3eg) |
 | 12      | 👏 Escuderia Poliposition       | 191.05 s        | 10              | 291.05 s           | 19.05 s       | [:material-youtube: YouTube](https://www.youtube.com/watch?v=dkC1mroUt5k) |
-| 13      | 👏 ICPS                         | 297.31 s        | 4               | 337.31 s           | 29.02 s       | [:material-youtube: YouTube](https://www.youtube.com/watch?v=YMzhB9NgW7E) |
+| 13      | 👏 ICPS                         | 292.76 s        | 0               | 292.76 s           | 29.25 s       | [:material-youtube: YouTube](https://www.youtube.com/watch?v=Cbp8bpLFcs8) |
 | 14      | 👏 Ctrl+Drift                   | 287.98 s        | 10              | 387.98 s           | 28.74 s       | [:material-youtube: YouTube](https://www.youtube.com/watch?v=bL3KXh52gs4) |
 | 15      | 👏 Bushra AlShehhi              | 395.36 s        | 1               | 405.36 s           | 37.76 s       | [:material-youtube: YouTube](https://www.youtube.com/watch?v=gFaLzf5wjSA) |
 
