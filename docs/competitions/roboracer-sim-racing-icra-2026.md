@@ -75,7 +75,7 @@ Following is a brief summary of each event:
 </ul>
 
 !!! info
-    The RoboRacer Sim Racing League will be held approximately 1 week ahead of <a href="https://2026.ieee-icra.org">ICRA 2026</a> and the performance metrics will be made available to the teams. Discussions are underway with the ICRA organizing team to allow teams to analyze and present their approach/results in a short (~10 min) presentation in a special session at <a href="https://2026.ieee-icra.org">ICRA 2025</a>.
+    The RoboRacer Sim Racing League will be held approximately 1 week ahead of <a href="https://2026.ieee-icra.org">ICRA 2026</a> and the performance metrics will be made available to the teams. Discussions are underway with the ICRA organizing team to allow teams to analyze and present their approach/results in a short (~10 min) presentation in a special session at <a href="https://2026.ieee-icra.org">ICRA 2026</a>.
 
 ## Resources
 
