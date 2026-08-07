@@ -175,6 +175,12 @@ Registered teams are added to the following table:
 
 | SR. NO. | TEAM NAME                 | TEAM MEMBERS                  | ORGANIZATION                              | COUNTRY                              |
 |:--------|:--------------------------|:------------------------------|:------------------------------------------|:-------------------------------------|
+| 01      | bracavisionai             | Luis Bracamontes              | Personal                                  | Mexico                               |
+| 02      | GhostLine Racing          | Shreyash Kinhikar             | Personal                                  | India                                |
+| 03      | VectorDrive               | Abdulrahman Saadeldin         | Personal                                  | Egypt                                |
+| 04      | JARVIS                    | Rohit Balaji N                | SRM Institute of Science and Technology   | India                                |
+| 05      | Siga Siga Racing Team     | Kirill Smirnov<br/>Nikita Fokin<br/>Nikolay Mikolaychuk | K. Smirnov Robotics LTD | Cyprus                       |
+| 06      | Lunia                     | Zehao Wang                    | KU Leuven                                 | Belgium                              |
 
 !!! note
     The above table will be updated with newly registered teams within a few days of registration. Please contact [:material-email: Chinmay Samak](mailto:csamak@clemson.edu) or [:material-email: Tanmay Samak](mailto:tsamak@clemson.edu) if you do not see your team entry for more than 7 days after registering.
