@@ -18,3 +18,5 @@
 <a href="roboracer-sim-racing-cdc-tf-2025"><img id="imageHyperlink" src="../assets/images/banners/RoboRacer Sim Racing @ CDC Techfest 2025 - Thin.png"></a>
 
 <a href="roboracer-sim-racing-icra-2026"><img id="imageHyperlink" src="../assets/images/banners/RoboRacer Sim Racing @ ICRA 2026 - Thin.png"></a>
+
+<a href="roboracer-sim-racing-iros-2026"><img id="imageHyperlink" src="../assets/images/banners/RoboRacer Sim Racing @ IROS 2026 - Thin.png"></a>
