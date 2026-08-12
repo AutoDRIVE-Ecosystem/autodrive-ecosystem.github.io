@@ -184,6 +184,8 @@ Registered teams are added to the following table:
 | 07      | We ain't slippin          | Niklas Holle                  | Personal                                  | Germany                              |
 | 08      | Cedric Hollande           | Cedric Hollande               | xLAB, University of Pennsylvania          | United States of America (USA)       |
 | 09      | NTU DeepSpeed             | Ting-Ju Chen<br/>Baba Purandara Moolya<br/>Chennupati Sri Siva Sai Abhiram<br/>Eduardo Fernandes de Conto<br/>Kah Lok Wong<br/>Mu-En Li<br/>Raditya Chema Hafizh Pradigta<br/>S Sarvajana Hari<br/>Yun-Tung Lee | Nanyang Technological University | Singapore |
+| 10      | X                         | Abdullah Naeem                | National University of Computer and Emerging Sciences | Pakistan                 |
+| 11      | Traxon Racing             | Jackson Yanek                 | Personal                                  | United States of America (USA)       |
 
 !!! note
     The above table will be updated with newly registered teams within a few days of registration. Please contact [:material-email: Chinmay Samak](mailto:csamak@clemson.edu) or [:material-email: Tanmay Samak](mailto:tsamak@clemson.edu) if you do not see your team entry for more than 7 days after registering.
