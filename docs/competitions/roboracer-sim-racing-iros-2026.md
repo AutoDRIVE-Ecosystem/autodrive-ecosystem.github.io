@@ -187,6 +187,8 @@ Registered teams are added to the following table:
 | 10      | X                         | Abdullah Naeem                | National University of Computer and Emerging Sciences | Pakistan                 |
 | 11      | Traxon Racing             | Jackson Yanek                 | Personal                                  | United States of America (USA)       |
 | 12      | ARC                       | Ram Charan Akula              | Personal                                  | India                                |
+| 13      | Penn RoboRacer            | Keshav Mohta                  | University of Pennsylvania                | United States of America (USA)       |
+| 14      | F1A                       | Shadow Ri<br/>Sonic Ri        | F1A                                       | Egypt                                |
 
 !!! note
     The above table will be updated with newly registered teams within a few days of registration. Please contact [:material-email: Chinmay Samak](mailto:csamak@clemson.edu) or [:material-email: Tanmay Samak](mailto:tsamak@clemson.edu) if you do not see your team entry for more than 7 days after registering.
