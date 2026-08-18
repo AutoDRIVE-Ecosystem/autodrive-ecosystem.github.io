@@ -189,6 +189,10 @@ Registered teams are added to the following table:
 | 12      | ARC                       | Ram Charan Akula              | Personal                                  | India                                |
 | 13      | Penn RoboRacer            | Keshav Mohta                  | University of Pennsylvania                | United States of America (USA)       |
 | 14      | F1A                       | Shadow Ri<br/>Sonic Ri        | F1A                                       | Egypt                                |
+| 15      | XOYO                      | Shashank<br/>Chaarvi<br/>Santhosh<br/>Dhanalaxmi | M. S. Ramaiah University of Applied Sciences | India          |
+| 16      | Huginn & Muninn           | Aditya Choudhary              | Personal                                  | United States of America (USA)       |
+| 17      | E-Rally                   | Ahmed Mohammed<br/>Ahmed El Ashiry | Helwan University                    | Egypt                                |
+| 18      | Hakuna_Matata             | Shalem Bakth Singh Badampudi<br/>Venkata Manvitha Tatikonda<br/>Anudeep Dondapati<br/>Venkata Karthik Thallam | Personal | India |
 
 !!! note
     The above table will be updated with newly registered teams within a few days of registration. Please contact [:material-email: Chinmay Samak](mailto:csamak@clemson.edu) or [:material-email: Tanmay Samak](mailto:tsamak@clemson.edu) if you do not see your team entry for more than 7 days after registering.
