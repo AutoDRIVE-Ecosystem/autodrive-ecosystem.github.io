@@ -184,17 +184,18 @@ Registered teams are added to the following table:
 | 07      | We ain't slippin          | Niklas Holle                  | Personal                                  | Germany                              |
 | 08      | Cedric Hollande           | Cedric Hollande               | xLAB, University of Pennsylvania          | United States of America (USA)       |
 | 09      | NTU DeepSpeed             | Ting-Ju Chen<br/>Baba Purandara Moolya<br/>Chennupati Sri Siva Sai Abhiram<br/>Eduardo Fernandes de Conto<br/>Kah Lok Wong<br/>Mu-En Li<br/>Raditya Chema Hafizh Pradigta<br/>S Sarvajana Hari<br/>Yun-Tung Lee | Nanyang Technological University | Singapore |
-| 10      | X                         | Abdullah Naeem                | National University of Computer and Emerging Sciences | Pakistan                 |
-| 11      | Traxon Racing             | Jackson Yanek                 | Personal                                  | United States of America (USA)       |
-| 12      | ARC                       | Ram Charan Akula              | Personal                                  | India                                |
-| 13      | Penn RoboRacer            | Keshav Mohta                  | University of Pennsylvania                | United States of America (USA)       |
-| 14      | F1A                       | Shadow Ri<br/>Sonic Ri        | F1A                                       | Egypt                                |
-| 15      | XOYO                      | Shashank<br/>Chaarvi<br/>Santhosh<br/>Dhanalaxmi | M. S. Ramaiah University of Applied Sciences | India          |
-| 16      | Huginn & Muninn           | Aditya Choudhary              | Personal                                  | United States of America (USA)       |
-| 17      | E-Rally                   | Ahmed Mohammed<br/>Ahmed El Ashiry | Helwan University                    | Egypt                                |
-| 18      | Hakuna_Matata             | Shalem Bakth Singh Badampudi<br/>Venkata Manvitha Tatikonda<br/>Anudeep Dondapati<br/>Venkata Karthik Thallam | Personal | India |
-| 19      | armoured_alpha            | Akash Kanagala                | nxtwave                                   | India                                |
-| 20      | Innomer                   | Mann Bhanushali               | Personal                                  | India                                |
+| 10      | Traxon Racing             | Jackson Yanek                 | Personal                                  | United States of America (USA)       |
+| 11      | ARC                       | Ram Charan Akula              | Personal                                  | India                                |
+| 12      | Penn RoboRacer            | Keshav Mohta                  | University of Pennsylvania                | United States of America (USA)       |
+| 13      | F1A                       | Shadow Ri<br/>Sonic Ri        | F1A                                       | Egypt                                |
+| 14      | XOYO                      | Shashank<br/>Chaarvi<br/>Santhosh<br/>Dhanalaxmi | M. S. Ramaiah University of Applied Sciences | India          |
+| 15      | Huginn & Muninn           | Aditya Choudhary              | Personal                                  | United States of America (USA)       |
+| 16      | E-Rally                   | Ahmed Mohammed<br/>Ahmed El Ashiry | Helwan University                    | Egypt                                |
+| 17      | Hakuna_Matata             | Shalem Bakth Singh Badampudi<br/>Venkata Manvitha Tatikonda<br/>Anudeep Dondapati<br/>Venkata Karthik Thallam | Personal | India |
+| 18      | armoured_alpha            | Akash Kanagala                | nxtwave                                   | India                                |
+| 19      | Innomer                   | Mann Bhanushali               | Personal                                  | India                                |
+| 20      | Barq Racing               | Abdullah Naeem<br/>Muhammad Usman | Personal                              | Pakistan                             |
+| 21      | Prakhar                   | Prakhar Dwivedi               | Personal                                  | India                                |
 
 !!! note
     The above table will be updated with newly registered teams within a few days of registration. Please contact [:material-email: Chinmay Samak](mailto:csamak@clemson.edu) or [:material-email: Tanmay Samak](mailto:tsamak@clemson.edu) if you do not see your team entry for more than 7 days after registering.
