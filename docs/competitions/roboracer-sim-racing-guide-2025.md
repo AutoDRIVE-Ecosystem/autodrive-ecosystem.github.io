@@ -493,7 +493,7 @@ Particularly, each team is expected to submit a containerized version of their a
     ```
 2. Run the simulator container at `entrypoint`:
     ```bash
-    docker run --name autodrive_roboracer_sim --rm -it --entrypoint /bin/bash --network=host --ipc=host -v /tmp/.X11-unix:/tmp.X11-umix:rw --env DISPLAY --privileged --gpus all autodriveecosystem/autodrive_roboracer_sim:<TAG>
+    docker run --name autodrive_roboracer_sim --rm -it --entrypoint /bin/bash --network=host --ipc=host -v /tmp/.X11-unix:/tmp/.X11-unix:rw --env DISPLAY --privileged --gpus all autodriveecosystem/autodrive_roboracer_sim:<TAG>
     ```
 3. [OPTIONAL] Start additional bash session(s) within the simulator container (each in a new terminal window):
     ```bash
@@ -505,7 +505,7 @@ Particularly, each team is expected to submit a containerized version of their a
     ```
 5. Run the devkit container at `entrypoint`:
     ```bash
-    docker run --name autodrive_roboracer_api --rm -it --entrypoint /bin/bash --network=host --ipc=host -v /tmp/.X11-unix:/tmp.X11-umix:rw --env DISPLAY --privileged --gpus all autodriveecosystem/autodrive_roboracer_api:<TAG>
+    docker run --name autodrive_roboracer_api --rm -it --entrypoint /bin/bash --network=host --ipc=host -v /tmp/.X11-unix:/tmp/.X11-unix:rw --env DISPLAY --privileged --gpus all autodriveecosystem/autodrive_roboracer_api:<TAG>
     ```
 6. [OPTIONAL] Start additional bash session(s) within the devkit container (each in a new terminal window):
     ```bash
@@ -619,7 +619,7 @@ Please make a note of the data streams mentioned above (along with their access 
 1. Run the image you created in the previous step inside a container:
 ```bash
 xhost local:root
-docker run --name autodrive_roboracer_api --rm -it --entrypoint /bin/bash --network=host --ipc=host -v /tmp/.X11-unix:/tmp.X11-umix:rw --env DISPLAY --privileged --gpus all autodriveecosystem/autodrive_roboracer_api:<TAG>
+docker run --name autodrive_roboracer_api --rm -it --entrypoint /bin/bash --network=host --ipc=host -v /tmp/.X11-unix:/tmp/.X11-unix:rw --env DISPLAY --privileged --gpus all autodriveecosystem/autodrive_roboracer_api:<TAG>
 ```
 2. In a new terminal window, list all containers and make a note of the desired `CONTAINER ID`:
 ```bash
