@@ -196,6 +196,7 @@ Registered teams are added to the following table:
 | 19      | Innomer                   | Mann Bhanushali               | Personal                                  | India                                |
 | 20      | Barq Racing               | Abdullah Naeem<br/>Muhammad Usman | Personal                              | Pakistan                             |
 | 21      | Prakhar                   | Prakhar Dwivedi               | Personal                                  | India                                |
+| 22      | Element                   | Sree Aslesh Penisetty         | Personal                                  | United States of America (USA)       |
 
 !!! note
     The above table will be updated with newly registered teams within a few days of registration. Please contact [:material-email: Chinmay Samak](mailto:csamak@clemson.edu) or [:material-email: Tanmay Samak](mailto:tsamak@clemson.edu) if you do not see your team entry for more than 7 days after registering.
