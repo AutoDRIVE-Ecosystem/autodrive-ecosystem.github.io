@@ -199,6 +199,7 @@ Registered teams are added to the following table:
 | 22      | Element                   | Sree Aslesh Penisetty         | Personal                                  | United States of America (USA)       |
 | 23      | Team Abhiyaan             | Alan Royce Gabriel Samuel<br/>Ashwaat Tarun Thirukumarsubbiah Shriraam<br/>Madhav Pradeep<br/>Yash Purswani | Indian Institute of Technology, Madras | India |
 | 24      | Shiam                     | Shiam Chuttoo                 | Personal                                  | United Kingdom (UK)                  |
+| 25      | singleroom                | Manish Rasamalla              | Indian Institute of Technology, Kharagpur | India                                |
 
 !!! note
     The above table will be updated with newly registered teams within a few days of registration. Please contact [:material-email: Chinmay Samak](mailto:csamak@clemson.edu) or [:material-email: Tanmay Samak](mailto:tsamak@clemson.edu) if you do not see your team entry for more than 7 days after registering.
