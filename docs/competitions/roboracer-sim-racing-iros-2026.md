@@ -190,7 +190,7 @@ Registered teams are added to the following table:
 | 13      | F1A                       | Shadow Ri<br/>Sonic Ri        | F1A                                       | Egypt                                |
 | 14      | XOYO                      | Shashank<br/>Chaarvi<br/>Santhosh<br/>Dhanalaxmi | M. S. Ramaiah University of Applied Sciences | India          |
 | 15      | Huginn & Muninn           | Aditya Choudhary              | Personal                                  | United States of America (USA)       |
-| 16      | E-Rally                   | Ahmed Mohammed<br/>Ahmed El Ashiry | Helwan University                    | Egypt                                |
+| 16      | E-Rally                   | Ahmed Mohammed<br/>Ahmed El Ashiry<br/>Morad Singer | Helwan University   | Egypt                                |
 | 17      | Hakuna_Matata             | Shalem Bakth Singh Badampudi<br/>Venkata Manvitha Tatikonda<br/>Anudeep Dondapati<br/>Venkata Karthik Thallam | Personal | India |
 | 18      | armoured_alpha            | Akash Kanagala                | nxtwave                                   | India                                |
 | 19      | Innomer                   | Mann Bhanushali               | Personal                                  | India                                |
@@ -200,6 +200,7 @@ Registered teams are added to the following table:
 | 23      | Team Abhiyaan             | Alan Royce Gabriel Samuel<br/>Ashwaat Tarun Thirukumarsubbiah Shriraam<br/>Madhav Pradeep<br/>Yash Purswani | Indian Institute of Technology, Madras | India |
 | 24      | Shiam                     | Shiam Chuttoo                 | Personal                                  | United Kingdom (UK)                  |
 | 25      | singleroom                | Manish Rasamalla              | Indian Institute of Technology, Kharagpur | India                                |
+| 26      | CEM Navigators            | Shyam Rithin Suresh Kumar<br/>Chitra Kaverappa<br/>Manikandan Ganesan | SRM Institute of Science and Technology | India |
 
 !!! note
     The above table will be updated with newly registered teams within a few days of registration. Please contact [:material-email: Chinmay Samak](mailto:csamak@clemson.edu) or [:material-email: Tanmay Samak](mailto:tsamak@clemson.edu) if you do not see your team entry for more than 7 days after registering.
