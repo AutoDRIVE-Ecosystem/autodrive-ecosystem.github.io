@@ -194,7 +194,7 @@ Registered teams are added to the following table:
 | 17      | Hakuna_Matata             | Shalem Bakth Singh Badampudi<br/>Venkata Manvitha Tatikonda<br/>Anudeep Dondapati<br/>Venkata Karthik Thallam | Personal | India |
 | 18      | armoured_alpha            | Akash Kanagala                | nxtwave                                   | India                                |
 | 19      | Innomer                   | Mann Bhanushali               | Personal                                  | India                                |
-| 20      | Barq Racing               | Abdullah Naeem<br/>Muhammad Usman | Personal                              | Pakistan                             |
+| 20      | Barq Racing               | Abdullah Naeem<br/>Muhammad Usman<br/>Adil Mubashir Chaudhry | Personal   | Pakistan                             |
 | 21      | Prakhar                   | Prakhar Dwivedi               | Personal                                  | India                                |
 | 22      | Element                   | Sree Aslesh Penisetty         | Personal                                  | United States of America (USA)       |
 | 23      | Team Abhiyaan             | Alan Royce Gabriel Samuel<br/>Ashwaat Tarun Thirukumarsubbiah Shriraam<br/>Madhav Pradeep<br/>Yash Purswani | Indian Institute of Technology, Madras | India |
