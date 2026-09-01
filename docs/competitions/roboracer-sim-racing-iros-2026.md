@@ -206,6 +206,9 @@ Registered teams are added to the following table:
 | 29      | APEX                      | Dongbeen Jeon<br/>Youngrok Kim<br/>Joonhyung Im<br/>Minji Jung<br/>Jaehyung Choi | Inje University | Republic of Korea  |
 | 30      | Solo Dev                  | Yiu Wa Hung                   | Personal                                  | Germany                              |
 | 31      | MonacoF1                  | Emiliano Alban<br/>Michel Hidalgo<br/>Gerardo Puga<br/>Rodrigo Alcobero<br/>Ignacio Bugueno | Ekumen | Argentina, Chile, Ecuador |
+| 32      | Tk                        | Fangfei Fan                   | The University of New South Wales         | Australia                            |
+| 33      | YallaAE                   | Bushra AlShehhi               | MBZUAI                                    | United Arab Emirates (UAE)           |
+| 34      | Botzilla                  | Nilum Mudaliarachchi<br/>Tharusha Udana | University of Moratuwa          | Sri Lanka                            |
 
 !!! note
     The above table will be updated with newly registered teams within a few days of registration. Please contact [:material-email: Chinmay Samak](mailto:csamak@clemson.edu) or [:material-email: Tanmay Samak](mailto:tsamak@clemson.edu) if you do not see your team entry for more than 7 days after registering.
