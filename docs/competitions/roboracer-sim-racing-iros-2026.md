@@ -209,6 +209,8 @@ Registered teams are added to the following table:
 | 32      | Tk                        | Fangfei Fan                   | The University of New South Wales         | Australia                            |
 | 33      | YallaAE                   | Bushra AlShehhi               | MBZUAI                                    | United Arab Emirates (UAE)           |
 | 34      | Botzilla                  | Nilum Mudaliarachchi<br/>Tharusha Udana | University of Moratuwa          | Sri Lanka                            |
+| 35      | DaVinci                   | Ishan Bala                    | Personal                                  | India                                |
+| 36      | Bhuna Khichuri Racers     | Al Mahir Ahmed                | BRAC University                           | Bangladesh                           |
 
 !!! note
     The above table will be updated with newly registered teams within a few days of registration. Please contact [:material-email: Chinmay Samak](mailto:csamak@clemson.edu) or [:material-email: Tanmay Samak](mailto:tsamak@clemson.edu) if you do not see your team entry for more than 7 days after registering.
