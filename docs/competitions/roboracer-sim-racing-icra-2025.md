@@ -145,7 +145,7 @@ We recommend all the teams interested in participating in the RoboRacer Sim Raci
     
     **Orientation:** [:fontawesome-solid-video: Zoom](https://clemson.zoom.us/j/94807115758) | [:octicons-video-16: Recording](https://youtu.be/Mit9c8B-06o) | [:material-projector-screen-outline: Slides](https://github.com/AutoDRIVE-Ecosystem/AutoDRIVE-RoboRacer-Sim-Racing/releases/download/2025-icra/orientation_slides.zip)
 
-    **Communication:** [:material-slack: Slack](https://join.slack.com/t/autodrive-ecosystem/shared_invite/zt-2oeg2hce8-0JvasvnBM1M_wUdDTWRuKw)
+    **Communication:** [:material-slack: Slack](https://join.slack.com/t/autodrive-ecosystem/shared_invite/zt-48txi68ja-4UGptYTuzFXjDHFAQFfzWA)
 
     **Submission:** [:material-file-document-edit: Phase 1](https://forms.gle/ioZy5SXYrA6DCnhG6) | [:material-file-document-edit: Phase 2](https://forms.gle/MMVAPszcowRppESw9)
 
@@ -153,7 +153,7 @@ We recommend all the teams interested in participating in the RoboRacer Sim Raci
 </div>
 
 !!! question
-    You can post general questions on the [:material-slack: AutoDRIVE Slack](https://join.slack.com/t/autodrive-ecosystem/shared_invite/zt-2oeg2hce8-0JvasvnBM1M_wUdDTWRuKw) workspace; this is the preferred modality. Technical questions can be also posted as [:material-github: GitHub Issues](https://github.com/AutoDRIVE-Ecosystem/AutoDRIVE-RoboRacer-Sim-Racing/issues) or [:material-github: GitHub Discussions](https://github.com/AutoDRIVE-Ecosystem/AutoDRIVE-RoboRacer-Sim-Racing/discussions). For any other questions or concerns that cannot be posted publicly, please contact [:material-email: Chinmay Samak](mailto:csamak@clemson.edu) or [:material-email: Tanmay Samak](mailto:tsamak@clemson.edu).
+    You can post general questions on the [:material-slack: AutoDRIVE Slack](https://join.slack.com/t/autodrive-ecosystem/shared_invite/zt-48txi68ja-4UGptYTuzFXjDHFAQFfzWA) workspace; this is the preferred modality. Technical questions can be also posted as [:material-github: GitHub Issues](https://github.com/AutoDRIVE-Ecosystem/AutoDRIVE-RoboRacer-Sim-Racing/issues) or [:material-github: GitHub Discussions](https://github.com/AutoDRIVE-Ecosystem/AutoDRIVE-RoboRacer-Sim-Racing/discussions). For any other questions or concerns that cannot be posted publicly, please contact [:material-email: Chinmay Samak](mailto:csamak@clemson.edu) or [:material-email: Tanmay Samak](mailto:tsamak@clemson.edu).
 
 ## Registration
 

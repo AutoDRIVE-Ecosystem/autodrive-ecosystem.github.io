@@ -145,7 +145,7 @@ We recommend all the teams interested in participating in the RoboRacer Sim Raci
     
     **Documentation:** [:material-file-document: Rule Book](../roboracer-sim-racing-rules-2026) | [:material-file-document: Tech Guide](../roboracer-sim-racing-guide-2026)
 
-    **Communication:** [:material-slack: Slack](https://join.slack.com/t/autodrive-ecosystem/shared_invite/zt-2oeg2hce8-0JvasvnBM1M_wUdDTWRuKw)
+    **Communication:** [:material-slack: Slack](https://join.slack.com/t/autodrive-ecosystem/shared_invite/zt-48txi68ja-4UGptYTuzFXjDHFAQFfzWA)
 
     **Submission:** [:material-file-document-edit: Phase 1](https://forms.gle/hshuuLocosuvhPoE8) | [:material-file-document-edit: Phase 2](https://forms.gle/bVeyakt6CFfxeMYE9)
 
@@ -153,7 +153,7 @@ We recommend all the teams interested in participating in the RoboRacer Sim Raci
 </div>
 
 !!! question
-    You can post general questions on the [:material-slack: AutoDRIVE Slack](https://join.slack.com/t/autodrive-ecosystem/shared_invite/zt-2oeg2hce8-0JvasvnBM1M_wUdDTWRuKw) workspace; this is the preferred modality. Technical questions can be also posted as [:material-github: GitHub Issues](https://github.com/AutoDRIVE-Ecosystem/AutoDRIVE-RoboRacer-Sim-Racing/issues) or [:material-github: GitHub Discussions](https://github.com/AutoDRIVE-Ecosystem/AutoDRIVE-RoboRacer-Sim-Racing/discussions). For any other questions or concerns that cannot be posted publicly, please contact [:material-email: Chinmay Samak](mailto:csamak@clemson.edu) or [:material-email: Tanmay Samak](mailto:tsamak@clemson.edu).
+    You can post general questions on the [:material-slack: AutoDRIVE Slack](https://join.slack.com/t/autodrive-ecosystem/shared_invite/zt-48txi68ja-4UGptYTuzFXjDHFAQFfzWA) workspace; this is the preferred modality. Technical questions can be also posted as [:material-github: GitHub Issues](https://github.com/AutoDRIVE-Ecosystem/AutoDRIVE-RoboRacer-Sim-Racing/issues) or [:material-github: GitHub Discussions](https://github.com/AutoDRIVE-Ecosystem/AutoDRIVE-RoboRacer-Sim-Racing/discussions). For any other questions or concerns that cannot be posted publicly, please contact [:material-email: Chinmay Samak](mailto:csamak@clemson.edu) or [:material-email: Tanmay Samak](mailto:tsamak@clemson.edu).
 
 ## Registration
 
