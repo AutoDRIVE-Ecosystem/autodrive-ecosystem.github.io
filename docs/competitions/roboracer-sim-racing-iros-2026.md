@@ -211,6 +211,10 @@ Registered teams are added to the following table:
 | 34      | Botzilla                  | Nilum Mudaliarachchi<br/>Tharusha Udana | University of Moratuwa          | Sri Lanka                            |
 | 35      | DaVinci                   | Ishan Bala                    | Personal                                  | India                                |
 | 36      | Bhuna Khichuri Racers     | Al Mahir Ahmed                | BRAC University                           | Bangladesh                           |
+| 37      | SpaceRacer                | Haorong Yuan<br/>Shengyao Lan | Shenzhen University                       | China                                |
+| 38      | IDEA_LAB                  | Junseo Jang<br/>Jong-ah Ha<br/>Jaehyeong Kim | Gyeongsang National University | Republic of Korea                |
+| 39      | Go-Go-Taro                | Soya Aoki                     | Personal                                  | Japan                                |
+| 40      | Team Proboticists         | Srinjoy Ganguly<br/>Ankit Meda<br/>Deepak G<br/>Vidit Gupta<br/>Priyanshu Bansal<br/>Vansh Lohia | Indian Institute of Technology, Kharagpur | India |
 
 !!! note
     The above table will be updated with newly registered teams within a few days of registration. Please contact [:material-email: Chinmay Samak](mailto:csamak@clemson.edu) or [:material-email: Tanmay Samak](mailto:tsamak@clemson.edu) if you do not see your team entry for more than 7 days after registering.
