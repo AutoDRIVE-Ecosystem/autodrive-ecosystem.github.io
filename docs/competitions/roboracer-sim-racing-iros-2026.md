@@ -226,6 +226,7 @@ Registered teams are added to the following table:
 | 49      | UNISAFE                   | Jaechan Shin<br/>Sunhwi Kim   | Ulsan National Institute of Science and Technology (UNIST) | South Korea         |
 | 50      | \*whoosh\*                | Adham Fayad                   | Personal                                  | Egypt                                |
 | 51      | Autonomous Ground Vehicle | Jinansh Dalal<br/>Abhishek Lakote<br/>Aryan Pokhriyal<br/>Mahin Sankleja<br/>Netra Nandankar<br/>Oishi Nandi<br/>Ratharv Rathore<br/>Rohan Singh<br/>Shrey Nayakpara<br/>Siddharth Sreejith<br/>Tanishq Saxena<br/>Uday Kalyan S<br/>Uddipto Mandal<br/>Yash Shah<br/>Yug Bargaway<br/> | Indian Institute of Technology, Kharagpur | India |
+| 52      | Rostamza_JKU_ITS          | Aida Rostamza                 | Johannes Kepler University Linz           | Austria                              |
 
 !!! note
     The above table will be updated with newly registered teams within a few days of registration. Please contact [:material-email: Chinmay Samak](mailto:csamak@clemson.edu) or [:material-email: Tanmay Samak](mailto:tsamak@clemson.edu) if you do not see your team entry for more than 7 days after registering.
