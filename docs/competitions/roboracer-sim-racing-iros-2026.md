@@ -219,7 +219,7 @@ Registered teams are added to the following table:
 | 42      | Penguin                   | Private                       | Personal                                  | Madagascar                           |
 | 43      | Mamba                     | Hariharan Ravichandran        | Personal                                  | India                                |
 | 44      | rulim                     | Mikhail Shulga                | MIPT                                      | Russia                               |
-| 45      | Assiut Motorsport         | Ahmed Ashraf Hashem<br/>Steven Joseph Ibrahim<br/>Sama Ahmed<br/>Mohammed Yasser Mohammed<br/>Sajda Mohammed Shaker<br/>Aisha Ahmed Mohamed<br/>Seif Eldaby<br/>Jana Mahmoud Fahmy<br/>Mohamed Fouad Elgohary<br/>Mohamed Emadeldeen | Assiut University | Egypt |
+| 45      | Assiut Motorsport         | Ahmed Ashraf Hashem<br/>Steven Joseph Ibrahim<br/>Sama Ahmed<br/>Mohammed Yasser Mohammed<br/>Sajda Mohammed Shaker<br/>Aisha Ahmed Mohamed<br/>Seif Eldaby<br/>Jana Mahmoud Fahmy<br/>Mohamed Fouad Elgohary<br/>Mohamed Emadeldeen<br/>Doaa Essam | Assiut University | Egypt |
 | 46      | ASUF1Tenth                | Mohamed Hany<br/>Moaz Ahmed<br/>Mohamed Mahmoud<br/>Belal Anas | Faculty of Engineering, Ain Shams University | Egypt |
 | 47      | Light Year                | Aahan Kumbham                 | Panther Creek High School                 | United States of America (USA)       |
 | 48      | Sagol                     | JoonCheol Park<br/>Jiyul Park | Personal                                  | South Korea                          |
