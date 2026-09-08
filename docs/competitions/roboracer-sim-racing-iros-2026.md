@@ -219,7 +219,7 @@ Registered teams are added to the following table:
 | 42      | Penguin                   | Private                       | Personal                                  | Madagascar                           |
 | 43      | Mamba                     | Hariharan Ravichandran        | Personal                                  | India                                |
 | 44      | rulim                     | Mikhail Shulga                | MIPT                                      | Russia                               |
-| 45      | Assiut Motorsport         | Ahmed Ashraf Hashem<br/>Steven Joseph Ibrahim<br/>Sama Ahmed<br/>Ahmed Nadi Mohamed<br/>Mohammed Yasser Mohammed<br/>Sajda Mohammed Shaker<br/>Aisha Ahmed Mohamed<br/>Seif Eldaby<br/>Jana Mahmoud Fahmy<br/>Mohamed Fouad Elgohary | Assiut University | Egypt |
+| 45      | Assiut Motorsport         | Ahmed Ashraf Hashem<br/>Steven Joseph Ibrahim<br/>Sama Ahmed<br/>Mohammed Yasser Mohammed<br/>Sajda Mohammed Shaker<br/>Aisha Ahmed Mohamed<br/>Seif Eldaby<br/>Jana Mahmoud Fahmy<br/>Mohamed Fouad Elgohary<br/>Mohamed Emadeldeen | Assiut University | Egypt |
 | 46      | ASUF1Tenth                | Mohamed Hany<br/>Moaz Ahmed<br/>Mohamed Mahmoud<br/>Belal Anas | Faculty of Engineering, Ain Shams University | Egypt |
 | 47      | Light Year                | Aahan Kumbham                 | Panther Creek High School                 | United States of America (USA)       |
 | 48      | Sagol                     | JoonCheol Park<br/>Jiyul Park | Personal                                  | South Korea                          |
@@ -229,6 +229,7 @@ Registered teams are added to the following table:
 | 52      | Rostamza_JKU_ITS          | Aida Rostamza                 | Johannes Kepler University Linz           | Austria                              |
 | 53      | Apex Autonomy             | Prajwal Thakur<br/>Alvin Cheriyan | Personal                              | India                                |
 | 54      | Team Abhiyaan             | Alan Royce Gabriel Samuel<br/>Ashwaat Tarun Thirukumarsubbiah Shriraam<br/>Madhav Pradeep<br/>Yash Purswani<br/>Vishal Senthilkumar<br/>Nikhilram<br/>Siddharth R<br/>Deva Kaushik | Indian Institute of Technology, Madras | India |
+| 55      | Δ 2RQ                     | Krishn Singh                  | Indian Institute of Technology, Madras    | India                                |
 
 !!! note
     The above table will be updated with newly registered teams within a few days of registration. Please contact [:material-email: Chinmay Samak](mailto:csamak@clemson.edu) or [:material-email: Tanmay Samak](mailto:tsamak@clemson.edu) if you do not see your team entry for more than 7 days after registering.
