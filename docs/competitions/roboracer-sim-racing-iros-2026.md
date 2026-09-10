@@ -229,6 +229,7 @@ Registered teams are added to the following table:
 | 52      | Apex Autonomy             | Prajwal Thakur<br/>Alvin Cheriyan | Personal                              | India                                |
 | 53      | Team Abhiyaan             | Alan Royce Gabriel Samuel<br/>Ashwaat Tarun Thirukumarsubbiah Shriraam<br/>Madhav Pradeep<br/>Yash Purswani<br/>Vishal Senthilkumar<br/>Nikhilram<br/>Siddharth R<br/>Deva Kaushik | Indian Institute of Technology, Madras | India |
 | 54      | Δ 2RQ                     | Krishn Singh                  | Indian Institute of Technology, Madras    | India                                |
+| 55      | FEBAuto                   | Pranav Bhatt                  | University of California, Berkeley        | United States of America (USA)       |
 
 !!! note
     The above table will be updated with newly registered teams within a few days of registration. Please contact [:material-email: Chinmay Samak](mailto:csamak@clemson.edu) or [:material-email: Tanmay Samak](mailto:tsamak@clemson.edu) if you do not see your team entry for more than 7 days after registering.
