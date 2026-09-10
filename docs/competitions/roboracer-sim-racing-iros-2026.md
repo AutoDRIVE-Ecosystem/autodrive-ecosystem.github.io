@@ -197,39 +197,38 @@ Registered teams are added to the following table:
 | 20      | Barq Racing               | Abdullah Naeem<br/>Muhammad Usman<br/>Adil Mubashir Chaudhry | Personal   | Pakistan                             |
 | 21      | Prakhar                   | Prakhar Dwivedi               | Personal                                  | India                                |
 | 22      | Element                   | Sree Aslesh Penisetty         | Personal                                  | United States of America (USA)       |
-| 23      | Team Abhiyaan             | Alan Royce Gabriel Samuel<br/>Ashwaat Tarun Thirukumarsubbiah Shriraam<br/>Madhav Pradeep<br/>Yash Purswani | Indian Institute of Technology, Madras | India |
-| 24      | Shiam                     | Shiam Chuttoo                 | Personal                                  | United Kingdom (UK)                  |
-| 25      | singleroom                | Manish Rasamalla              | Indian Institute of Technology, Kharagpur | India                                |
-| 26      | CEM Navigators            | Shyam Rithin Suresh Kumar<br/>Chitra Kaverappa<br/>Manikandan Ganesan | SRM Institute of Science and Technology | India |
-| 27      | Torque Dirty To Me        | Krishna Chochipatla           | Indian Institute of Technology, Kharagpur | India                                |
-| 28      | Phantom Arrow             | Rohit Hemachandra Pillai      | Personal                                  | Germany                              |
-| 29      | APEX                      | Dongbeen Jeon<br/>Youngrok Kim<br/>Joonhyung Im<br/>Minji Jung<br/>Jaehyung Choi | Inje University | South Korea  |
-| 30      | Solo Dev                  | Yiu Wa Hung                   | Personal                                  | Germany                              |
-| 31      | MonacoF1                  | Emiliano Alban<br/>Michel Hidalgo<br/>Gerardo Puga<br/>Rodrigo Alcobero<br/>Ignacio Bugueno | Ekumen | Argentina, Chile, Ecuador |
-| 32      | Tk                        | Fangfei Fan                   | The University of New South Wales         | Australia                            |
-| 33      | YallaAE                   | Bushra AlShehhi               | MBZUAI                                    | United Arab Emirates (UAE)           |
-| 34      | Botzilla                  | Nilum Mudaliarachchi<br/>Tharusha Udana | University of Moratuwa          | Sri Lanka                            |
-| 35      | DaVinci                   | Ishan Bala                    | Personal                                  | India                                |
-| 36      | Bhuna Khichuri Racers     | Al Mahir Ahmed                | BRAC University                           | Bangladesh                           |
-| 37      | SpaceRacer                | Haorong Yuan<br/>Shengyao Lan | Shenzhen University                       | China                                |
-| 38      | IDEA_LAB                  | Junseo Jang<br/>Jong-ah Ha<br/>Jaehyeong Kim | Gyeongsang National University | South Korea                      |
-| 39      | Go-Go-Taro                | Soya Aoki                     | Personal                                  | Japan                                |
-| 40      | Team Proboticists         | Srinjoy Ganguly<br/>Ankit Meda<br/>Deepak G<br/>Vidit Gupta<br/>Priyanshu Bansal<br/>Vansh Lohia | Indian Institute of Technology, Kharagpur | India |
-| 41      | FirstName LastName        | Sandip Das                    | Personal                                  | India                                |
-| 42      | Penguin                   | Private                       | Personal                                  | Madagascar                           |
-| 43      | Mamba                     | Hariharan Ravichandran        | Personal                                  | India                                |
-| 44      | rulim                     | Mikhail Shulga                | MIPT                                      | Russia                               |
-| 45      | Assiut Motorsport         | Ahmed Ashraf Hashem<br/>Steven Joseph Ibrahim<br/>Sama Ahmed<br/>Mohammed Yasser Mohammed<br/>Sajda Mohammed Shaker<br/>Aisha Ahmed Mohamed<br/>Seif Eldaby<br/>Jana Mahmoud Fahmy<br/>Mohamed Fouad Elgohary<br/>Mohamed Emadeldeen<br/>Doaa Essam | Assiut University | Egypt |
-| 46      | ASUF1Tenth                | Mohamed Hany<br/>Moaz Ahmed<br/>Mohamed Mahmoud<br/>Belal Anas | Faculty of Engineering, Ain Shams University | Egypt |
-| 47      | Light Year                | Aahan Kumbham                 | Panther Creek High School                 | United States of America (USA)       |
-| 48      | Sagol                     | JoonCheol Park<br/>Jiyul Park | Personal                                  | South Korea                          |
-| 49      | UNISAFE                   | Jaechan Shin<br/>Sunhwi Kim   | Ulsan National Institute of Science and Technology (UNIST) | South Korea         |
-| 50      | \*whoosh\*                | Adham Fayad                   | Personal                                  | Egypt                                |
-| 51      | Autonomous Ground Vehicle | Jinansh Dalal<br/>Abhishek Lakote<br/>Aryan Pokhriyal<br/>Mahin Sankleja<br/>Netra Nandankar<br/>Oishi Nandi<br/>Ratharv Rathore<br/>Rohan Singh<br/>Shrey Nayakpara<br/>Siddharth Sreejith<br/>Tanishq Saxena<br/>Uday Kalyan S<br/>Uddipto Mandal<br/>Yash Shah<br/>Yug Bargaway<br/> | Indian Institute of Technology, Kharagpur | India |
-| 52      | Rostamza_JKU_ITS          | Aida Rostamza                 | Johannes Kepler University Linz           | Austria                              |
-| 53      | Apex Autonomy             | Prajwal Thakur<br/>Alvin Cheriyan | Personal                              | India                                |
-| 54      | Team Abhiyaan             | Alan Royce Gabriel Samuel<br/>Ashwaat Tarun Thirukumarsubbiah Shriraam<br/>Madhav Pradeep<br/>Yash Purswani<br/>Vishal Senthilkumar<br/>Nikhilram<br/>Siddharth R<br/>Deva Kaushik | Indian Institute of Technology, Madras | India |
-| 55      | Δ 2RQ                     | Krishn Singh                  | Indian Institute of Technology, Madras    | India                                |
+| 23      | Shiam                     | Shiam Chuttoo                 | Personal                                  | United Kingdom (UK)                  |
+| 24      | singleroom                | Manish Rasamalla              | Indian Institute of Technology, Kharagpur | India                                |
+| 25      | CEM Navigators            | Shyam Rithin Suresh Kumar<br/>Chitra Kaverappa<br/>Manikandan Ganesan | SRM Institute of Science and Technology | India |
+| 26      | Torque Dirty To Me        | Krishna Chochipatla           | Indian Institute of Technology, Kharagpur | India                                |
+| 27      | Phantom Arrow             | Rohit Hemachandra Pillai      | Personal                                  | Germany                              |
+| 28      | APEX                      | Dongbeen Jeon<br/>Youngrok Kim<br/>Joonhyung Im<br/>Minji Jung<br/>Jaehyung Choi | Inje University | South Korea  |
+| 29      | Solo Dev                  | Yiu Wa Hung                   | Personal                                  | Germany                              |
+| 30      | MonacoF1                  | Emiliano Alban<br/>Michel Hidalgo<br/>Gerardo Puga<br/>Rodrigo Alcobero<br/>Ignacio Bugueno | Ekumen | Argentina, Chile, Ecuador |
+| 31      | Tk                        | Fangfei Fan                   | The University of New South Wales         | Australia                            |
+| 32      | YallaAE                   | Bushra AlShehhi               | MBZUAI                                    | United Arab Emirates (UAE)           |
+| 33      | Botzilla                  | Nilum Mudaliarachchi<br/>Tharusha Udana | University of Moratuwa          | Sri Lanka                            |
+| 34      | DaVinci                   | Ishan Bala                    | Personal                                  | India                                |
+| 35      | Bhuna Khichuri Racers     | Al Mahir Ahmed                | BRAC University                           | Bangladesh                           |
+| 36      | SpaceRacer                | Haorong Yuan<br/>Shengyao Lan | Shenzhen University                       | China                                |
+| 37      | IDEA_LAB                  | Junseo Jang<br/>Jong-ah Ha<br/>Jaehyeong Kim | Gyeongsang National University | South Korea                      |
+| 38      | Go-Go-Taro                | Soya Aoki                     | Personal                                  | Japan                                |
+| 39      | Team Proboticists         | Srinjoy Ganguly<br/>Ankit Meda<br/>Deepak G<br/>Vidit Gupta<br/>Priyanshu Bansal<br/>Vansh Lohia | Indian Institute of Technology, Kharagpur | India |
+| 40      | FirstName LastName        | Sandip Das                    | Personal                                  | India                                |
+| 41      | Penguin                   | Private                       | Personal                                  | Madagascar                           |
+| 42      | Mamba                     | Hariharan Ravichandran        | Personal                                  | India                                |
+| 43      | rulim                     | Mikhail Shulga                | MIPT                                      | Russia                               |
+| 44      | Assiut Motorsport         | Ahmed Ashraf Hashem<br/>Steven Joseph Ibrahim<br/>Sama Ahmed<br/>Mohammed Yasser Mohammed<br/>Sajda Mohammed Shaker<br/>Aisha Ahmed Mohamed<br/>Seif Eldaby<br/>Jana Mahmoud Fahmy<br/>Mohamed Fouad Elgohary<br/>Mohamed Emadeldeen<br/>Doaa Essam | Assiut University | Egypt |
+| 45      | ASUF1Tenth                | Mohamed Hany<br/>Moaz Ahmed<br/>Mohamed Mahmoud<br/>Belal Anas | Faculty of Engineering, Ain Shams University | Egypt |
+| 46      | Light Year                | Aahan Kumbham                 | Panther Creek High School                 | United States of America (USA)       |
+| 47      | Sagol                     | JoonCheol Park<br/>Jiyul Park | Personal                                  | South Korea                          |
+| 48      | UNISAFE                   | Jaechan Shin<br/>Sunhwi Kim   | Ulsan National Institute of Science and Technology (UNIST) | South Korea         |
+| 49      | \*whoosh\*                | Adham Fayad                   | Personal                                  | Egypt                                |
+| 50      | Autonomous Ground Vehicle | Jinansh Dalal<br/>Abhishek Lakote<br/>Aryan Pokhriyal<br/>Mahin Sankleja<br/>Netra Nandankar<br/>Oishi Nandi<br/>Ratharv Rathore<br/>Rohan Singh<br/>Shrey Nayakpara<br/>Siddharth Sreejith<br/>Tanishq Saxena<br/>Uday Kalyan S<br/>Uddipto Mandal<br/>Yash Shah<br/>Yug Bargaway<br/> | Indian Institute of Technology, Kharagpur | India |
+| 51      | Rostamza_JKU_ITS          | Aida Rostamza                 | Johannes Kepler University Linz           | Austria                              |
+| 52      | Apex Autonomy             | Prajwal Thakur<br/>Alvin Cheriyan | Personal                              | India                                |
+| 53      | Team Abhiyaan             | Alan Royce Gabriel Samuel<br/>Ashwaat Tarun Thirukumarsubbiah Shriraam<br/>Madhav Pradeep<br/>Yash Purswani<br/>Vishal Senthilkumar<br/>Nikhilram<br/>Siddharth R<br/>Deva Kaushik | Indian Institute of Technology, Madras | India |
+| 54      | Δ 2RQ                     | Krishn Singh                  | Indian Institute of Technology, Madras    | India                                |
 
 !!! note
     The above table will be updated with newly registered teams within a few days of registration. Please contact [:material-email: Chinmay Samak](mailto:csamak@clemson.edu) or [:material-email: Tanmay Samak](mailto:tsamak@clemson.edu) if you do not see your team entry for more than 7 days after registering.
