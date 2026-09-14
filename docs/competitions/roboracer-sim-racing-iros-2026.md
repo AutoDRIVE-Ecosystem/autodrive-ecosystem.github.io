@@ -111,9 +111,9 @@ We recommend all the teams interested in participating in the RoboRacer Sim Raci
 
     Download base container images for the competition and start developing your algorithms.
 
-    [:material-open-in-new: **AutoDRIVE Simulator:**](https://hub.docker.com/r/autodriveecosystem/autodrive_roboracer_sim) [`explore`](https://hub.docker.com/layers/autodriveecosystem/autodrive_roboracer_sim/2026-iros-explore/images/sha256-1a26bcc8b91fe845f2caafb95533bf3606092502430efca493709e167a5adb40) | [`practice`](https://hub.docker.com/layers/autodriveecosystem/autodrive_roboracer_sim/2026-iros-practice/images/sha256-b4bbda41fdb1da7a2eadba4350ed3a0cb5020e7eb783454e78399ef5852dbd76) | [`compete`]()
+    [:material-open-in-new: **AutoDRIVE Simulator:**](https://hub.docker.com/r/autodriveecosystem/autodrive_roboracer_sim) [`explore`](https://hub.docker.com/layers/autodriveecosystem/autodrive_roboracer_sim/2026-iros-explore/images/sha256-1a26bcc8b91fe845f2caafb95533bf3606092502430efca493709e167a5adb40) | [`practice`](https://hub.docker.com/layers/autodriveecosystem/autodrive_roboracer_sim/2026-iros-practice/images/sha256-b4bbda41fdb1da7a2eadba4350ed3a0cb5020e7eb783454e78399ef5852dbd76) | [`compete`](https://hub.docker.com/repository/docker/autodriveecosystem/autodrive_roboracer_sim/tags/2026-iros-compete/sha256:749fbef07942109d18497cbcf6ffe9452e06ae487f2bfc915e92440bc4b4663d)
 
-    [:material-open-in-new: **AutoDRIVE Devkit:**](https://hub.docker.com/r/autodriveecosystem/autodrive_roboracer_api) [`explore`](https://hub.docker.com/layers/autodriveecosystem/autodrive_roboracer_api/2026-iros-explore/images/sha256-8ed816a4e0db62d69c3791a698c82d52710141993a6a1097ca4cda4ec27d409c) | [`practice`](https://hub.docker.com/layers/autodriveecosystem/autodrive_roboracer_api/2026-iros-practice/images/sha256-6e4c29536b7283a1a7322473d46dab2d4ad5513cf40d1bdfc908ee9d408e26e9) | [`compete`]()
+    [:material-open-in-new: **AutoDRIVE Devkit:**](https://hub.docker.com/r/autodriveecosystem/autodrive_roboracer_api) [`explore`](https://hub.docker.com/layers/autodriveecosystem/autodrive_roboracer_api/2026-iros-explore/images/sha256-8ed816a4e0db62d69c3791a698c82d52710141993a6a1097ca4cda4ec27d409c) | [`practice`](https://hub.docker.com/layers/autodriveecosystem/autodrive_roboracer_api/2026-iros-practice/images/sha256-6e4c29536b7283a1a7322473d46dab2d4ad5513cf40d1bdfc908ee9d408e26e9) | [`compete`](https://hub.docker.com/repository/docker/autodriveecosystem/autodrive_roboracer_api/tags/2026-iros-compete/sha256:4ce4334657feb4c6760aa61f23a76f8962bf80e8e746e2547b082985a95a46a2)
 
 -   :material-monitor:{ .lg .middle } __Local Resources__
 
@@ -276,16 +276,48 @@ Use the secure form below to make your team's submission for Phase 2 (Final Race
 
 **Phase 1: Qualification**
 
-<p align="justify">
-Phase 1 results will be posted here on Sep 14, 2026.
-</p>
-
 <!-- <p align="justify">
-The following teams have qualified for the final time-attack race. Here are the official standings:
+Phase 1 results will be posted here on Sep 14, 2026.
 </p> -->
 
-<!-- | RANK    | TEAM NAME                                         | RACE TIME       | COLLISION COUNT | ADJUSTED RACE TIME | BEST LAP TIME | VIDEO                                                      |
-|:--------|:--------------------------------------------------|:----------------|:----------------|:-------------------|:--------------|:-----------------------------------------------------------| -->
+<p align="justify">
+The following teams have qualified for the final time-attack race. Here are the official standings:
+</p>
+
+| RANK    | TEAM NAME                                         | RACE TIME       | COLLISION COUNT | ADJUSTED RACE TIME | BEST LAP TIME | VIDEO                                                      |
+|:--------|:--------------------------------------------------|:----------------|:----------------|:-------------------|:--------------|:-----------------------------------------------------------|
+| 01      | 👏 NTU DeepSpeed                                  | 49.83 s         | 0               | 49.83 s            | 4.94 s        | [:material-youtube: YouTube]() |
+| 02      | 👏 IDEA_LAB                                       | 60.99 s         | 0               | 60.99 s            | 6.07 s        | [:material-youtube: YouTube]() |
+| 03      | 👏 Penguin                                        | 64.61 s         | 0               | 64.61 s            | 6.45 s        | [:material-youtube: YouTube]() |
+| 04      | 👏 Barq Racing                                    | 65.67 s         | 0               | 65.67 s            | 6.49 s        | [:material-youtube: YouTube]() |
+| 05      | 👏 E-Rally                                        | 67.33 s         | 0               | 67.33 s            | 6.67 s        | [:material-youtube: YouTube]() |
+| 06      | 👏 Team Proboticists                              | 70.72 s         | 0               | 70.72 s            | 6.97 s        | [:material-youtube: YouTube]() |
+| 07      | 👏 Δ 2RQ                                          | 72.72 s         | 0               | 72.72 s            | 7.13 s        | [:material-youtube: YouTube]() |
+| 08      | 👏 bracavisionai                                  | 75.76 s         | 0               | 75.76 s            | 7.45 s        | [:material-youtube: YouTube]() |
+| 09      | 👏 FirstName LastName                             | 81.76 s         | 0               | 81.76 s            | 8.12 s        | [:material-youtube: YouTube]() |
+| 10      | 👏 Bhuna Khichuri Racers                          | 83.14 s         | 0               | 83.14 s            | 8.28 s        | [:material-youtube: YouTube]() |
+| 11      | 👏 CEM Navigators                                 | 74.28 s         | 1               | 84.28 s            | 7.32 s        | [:material-youtube: YouTube]() |
+| 12      | 👏 Assiut Motorsport                              | 84.65 s         | 0               | 84.65 s            | 8.56 s        | [:material-youtube: YouTube]() |
+| 13      | 👏 Go-Go-Taro                                     | 85.81 s         | 0               | 85.81 s            | 8.49 s        | [:material-youtube: YouTube]() |
+| 14      | 👏 Autonomous Ground Vehicle                      | 77.82 s         | 1               | 87.82 s            | 7.53 s        | [:material-youtube: YouTube]() |
+| 15      | 👏 MonacoF1                                       | 88.79 s         | 0               | 88.79 s            | 8.86 s        | [:material-youtube: YouTube]() |
+| 16      | 👏 Team Abhiyaan                                  | 92.56 s         | 0               | 92.56 s            | 9.10 s        | [:material-youtube: YouTube]() |
+| 17      | 👏 APEX                                           | 77.68 s         | 2               | 97.68 s            | 7.15 s        | [:material-youtube: YouTube]() |
+| 18      | 👏 Penn RoboRacer                                 | 99.99 s         | 0               | 99.99 s            | 9.98 s        | [:material-youtube: YouTube]() |
+| 19      | 👏 Cedric Hollande                                | 70.35 s         | 3               | 100.35 s           | 6.80 s        | [:material-youtube: YouTube]() |
+| 20      | 👏 Light Year                                     | 105.02 s        | 0               | 105.02 s           | 10.41 s       | [:material-youtube: YouTube]() |
+| 21      | 👏 Sagol                                          | 101.41 s        | 1               | 111.41 s           | 9.24 s        | [:material-youtube: YouTube]() |
+| 22      | 👏 UNISAFE                                        | 103.85 s        | 1               | 113.85 s           | 9.03 s        | [:material-youtube: YouTube]() |
+| 23      | 👏 YallaAE                                        | 116.43 s        | 0               | 116.43 s           | 11.52 s       | [:material-youtube: YouTube]() |
+| 24      | 👏 rulim                                          | 117.05 s        | 0               | 117.05 s           | 11.70 s       | [:material-youtube: YouTube]() |
+| 25      | 👏 FEBAuto                                        | 82.26 s         | 4               | 122.26 s           | 7.91 s        | [:material-youtube: YouTube]() |
+| 26      | 👏 Innomer                                        | 124.42 s        | 0               | 124.42 s           | 12.13 s       | [:material-youtube: YouTube]() |
+| 27      | 👏 SpaceRacer                                     | 150.30 s        | 0               | 150.30 s           | 14.78 s       | [:material-youtube: YouTube]() |
+| 28      | 👏 Siga Siga Racing Team                          | 181.55 s        | 0               | 181.55 s           | 17.84 s       | [:material-youtube: YouTube]() |
+| 29      | 👏 We ain't slippin                               | 192.02 s        | 0               | 192.02 s           | 19.01 s       | [:material-youtube: YouTube]() |
+| 30      | 👏 armoured_alpha                                 | 205.28 s        | 0               | 205.28 s           | 20.45 s       | [:material-youtube: YouTube]() |
+| 31      | 👏 ASUF1Tenth                                     | 257.88 s        | 0               | 257.88 s           | 25.69 s       | [:material-youtube: YouTube]() |
+| 32      | 👏 F1A                                            | 317.90 s        | 0               | 317.90 s           | 31.78 s       | [:material-youtube: YouTube]() |
 
 **Phase 2: Competition**
 
