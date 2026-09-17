@@ -16,7 +16,7 @@ copyright: Copyright &copy; 2026 <a href="https://tinker-twins.github.io">Tinker
 # Configuration
 theme:
   name: material
-  custom_dir: overrides # Comment out this line if there are no announcements
+  # custom_dir: overrides # Comment out this line if there are no announcements
   features:
     - announce.dismiss
     # - content.action.edit
@@ -187,7 +187,7 @@ nav:
     - education/index.md
     - Courses: education/#courses
     - Workshops: education/#workshops
-    - Spotlights: education/#spotlights
+    - Outreach: education/#outreach
   - COMPETITIONS:
     - competitions/index.md
     - ROBORACER @ IROS 2024: competitions/roboracer-sim-racing-iros-2024.md
