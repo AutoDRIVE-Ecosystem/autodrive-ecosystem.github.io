@@ -13,9 +13,9 @@
 
 <div class="grid cards" markdown> 
 
-- :fontawesome-solid-graduation-cap:{ .lg .middle } __Course @ [Aalto University](https://www.aalto.fi/en)__
+- :fontawesome-solid-graduation-cap:{ .lg .middle } __EEA-EV008 @ [Aalto University](https://www.aalto.fi/en)__
 
-    <a href="aalto-university-course"><img id="imageHyperlink" src="../assets/images/banners/Course @ Aalto University.png"></a>
+    <a href="aalto-university-eea-ev008"><img id="imageHyperlink" src="../assets/images/banners/EEA-EV008 @ Aalto University.png"></a>
 
 </div>
 
@@ -33,7 +33,7 @@
 
 </div>
 
-## Spotlights
+## Outreach
 
 <div class="grid cards" markdown> 
 
