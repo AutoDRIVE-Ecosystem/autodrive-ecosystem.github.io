@@ -1,7 +1,72 @@
 {% extends "base.html" %}
 
-{% block announce %}
-  <!-- Add announcement here, including arbitrary HTML -->
-  <!-- New paper accepted in <a href="https://doi.org/10.1109/MRA.2026.3683252">IEEE Robotics and Automation Magazine (RA-M)</a>. Head to the <a href="https://autodrive-ecosystem.github.io/research">RESEARCH</a> tab to learn more. -->
-  <!-- Registrations for the <a href="https://autodrive-ecosystem.github.io/competitions/roboracer-sim-racing-iros-2026/">6th RoboRacer Sim Racing League</a> are now OPEN! Click <a href="https://forms.gle/MiuoSMYQ4z6QACLS6">here</a> to register your team today! -->
+{% block announce -%}
+  {%- if config.extra.announcement -%}
+    {{ config.extra.announcement }}
+  {%- endif -%}
+{%- endblock %}
+
+{% block site_nav %}
+
+  {% if page.meta and page.meta.unlisted_toc %}
+
+    <div
+      class="md-sidebar md-sidebar--primary"
+      data-md-component="sidebar"
+      data-md-type="navigation"
+    >
+      <div class="md-sidebar__scrollwrap">
+        <div class="md-sidebar__inner">
+
+          <nav
+            class="md-nav md-nav--primary"
+            aria-label="{{ lang.t('toc') }}"
+          >
+            {% include "partials/toc.html" %}
+          </nav>
+
+        </div>
+      </div>
+    </div>
+
+  {% else %}
+
+    {% if nav %}
+      {% if page.meta and page.meta.hide %}
+        {% set hidden = "hidden" if "navigation" in page.meta.hide %}
+      {% endif %}
+      <div
+        class="md-sidebar md-sidebar--primary"
+        data-md-component="sidebar"
+        data-md-type="navigation"
+        {{ hidden }}
+      >
+        <div class="md-sidebar__scrollwrap">
+          <div class="md-sidebar__inner">
+            {% include "partials/nav.html" %}
+          </div>
+        </div>
+      </div>
+    {% endif %}
+
+  {% endif %}
+
+  {% if not (page.meta and page.meta.unlisted_toc) and "toc.integrate" not in features %}
+    {% if page.meta and page.meta.hide %}
+      {% set hidden = "hidden" if "toc" in page.meta.hide %}
+    {% endif %}
+    <div
+      class="md-sidebar md-sidebar--secondary"
+      data-md-component="sidebar"
+      data-md-type="toc"
+      {{ hidden }}
+    >
+      <div class="md-sidebar__scrollwrap">
+        <div class="md-sidebar__inner">
+          {% include "partials/toc.html" %}
+        </div>
+      </div>
+    </div>
+  {% endif %}
+
 {% endblock %}
