@@ -417,32 +417,6 @@ This page hosts research outcomes that employ or contribute to the AutoDRIVE Eco
         ```
 
 !!! abstract ""
-    <a href="https://arxiv.org/abs/2507.00319"><img class="research-artifact" src="/../assets/images/research/DTs Meet LLMs - Preprint 2025.png"></a>
-    <a href="https://arxiv.org/abs/2507.00319">
-    <b>When Digital Twins Meet Large Language Models: Realistic, Interactive, and Editable Simulation for Autonomous Driving</b>
-    </a>
-    <br/>
-    Tanmay Vilas Samak, Chinmay Vilas Samak, Bing Li, and Venkat Narayan Krovi
-    <br/>
-    <a href="https://arxiv.org/abs/2507.00319">
-    <i>arXiv Preprint</i>
-    </a>
-    <br/>
-    <i>2025</i>
-    ??? quote "Citation"
-        ```bibtex
-        @misc{DTs-Meet-LLMs-2025,
-        author = {Tanmay Vilas Samak and Chinmay Vilas Samak and Bing Li and Venkat Krovi},
-        title = {When Digital Twins Meet Large Language Models: Realistic, Interactive, and Editable Simulation for Autonomous Driving},
-        year = {2025},
-        eprint = {2507.00319},
-        archivePrefix = {arXiv},
-        primaryClass = {cs.RO},
-        url = {https://arxiv.org/abs/2507.00319}
-        }
-        ```
-
-!!! abstract ""
     <a href="https://arxiv.org/abs/2507.00236"><img class="research-artifact" src="/../assets/images/research/Sim2Real Diffusion - RA-L 2026.png"></a>
     <a href="https://arxiv.org/abs/2507.00236">
     <b>Sim2Real Diffusion: Learning Cross-Domain Adaptive Representations for Transferable Autonomous Driving</b>
@@ -466,6 +440,33 @@ This page hosts research outcomes that employ or contribute to the AutoDRIVE Eco
         number = {1},
         pages = {177-184},
         doi={10.1109/LRA.2025.3632723}
+        }
+        ```
+
+!!! abstract ""
+    <a href="https://arxiv.org/abs/2507.00319"><img class="research-artifact" src="/../assets/images/research/DTs Meet LLMs - RA-M 2026.png"></a>
+    <a href="https://arxiv.org/abs/2507.00319">
+    <b>When Digital Twins Meet Large Language Models: Realistic, Interactive, and Editable Simulation for Autonomous Driving</b>
+    </a>
+    <br/>
+    Tanmay Vilas Samak, Chinmay Vilas Samak, Bing Li, and Venkat Narayan Krovi
+    <br/>
+    <a href="https://doi.org/10.1109/MRA.2026.3683252">
+    <i>IEEE Robotics & Automation Magazine</i>
+    </a>
+    <br/>
+    <i>2026</i>
+    ??? quote "Citation"
+        ```bibtex
+        @article{DTs-Meet-LLMs-2026,
+        author = {Samak, Tanmay and Samak, Chinmay and Li, Bing and Krovi, Venkat},
+        journal = {IEEE Robotics & Automation Magazine}, 
+        title = {When Digital Twins Meet Large Language Models: Realistic, Interactive, and Editable Simulation for Autonomous Driving}, 
+        year = {2026},
+        volume = {},
+        number = {},
+        pages = {2-13},
+        doi={10.1109/MRA.2026.3683252}
         }
         ```
 
