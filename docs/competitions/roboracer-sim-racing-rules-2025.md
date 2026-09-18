@@ -1,3 +1,7 @@
+---
+unlisted_toc: true
+---
+
 # Competition Rules
 
 ![RoboRacer Sim Racing](../assets/images/banners/RoboRacer Sim Racing.png)

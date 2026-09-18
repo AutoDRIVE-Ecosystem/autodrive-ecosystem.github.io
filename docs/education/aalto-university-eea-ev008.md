@@ -1,3 +1,8 @@
+---
+unlisted_toc: true
+---
+
+
 # EEA-EV008 @ Aalto University
 
 ![EEA-EV008 @ Aalto University](../assets/images/banners/EEA-EV008 @ Aalto University - Thin.png)
