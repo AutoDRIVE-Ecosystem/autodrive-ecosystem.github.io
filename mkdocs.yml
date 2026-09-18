@@ -16,7 +16,7 @@ copyright: Copyright &copy; 2026 <a href="https://tinker-twins.github.io">Tinker
 # Configuration
 theme:
   name: material
-  # custom_dir: overrides # Comment out this line if there are no announcements
+  custom_dir: overrides
   features:
     - announce.dismiss
     # - content.action.edit
@@ -96,6 +96,9 @@ extra:
   status:
     new: Recently added
     deprecated: Deprecated
+  # announcement: >- # Comment out this line if there are no announcements
+  #   New paper accepted in <a href="https://doi.org/10.1109/MRA.2026.3683252">IEEE Robotics and Automation Magazine (RA-M)</a>. Head to the <a href="https://autodrive-ecosystem.github.io/research">RESEARCH</a> tab to learn more.
+  #   Registrations for the <a href="https://autodrive-ecosystem.github.io/competitions/roboracer-sim-racing-iros-2026/">6th RoboRacer Sim Racing League</a> are now OPEN! Click <a href="https://forms.gle/MiuoSMYQ4z6QACLS6">here</a> to register your team today!
   analytics:
     provider: google
     property: !ENV GOOGLE_ANALYTICS_KEY
