@@ -75,7 +75,7 @@ unlisted_toc: true
 
 | <img src="/../assets/images/people/Shoaib Azam.png" width="125"> | <img src="/../assets/images/people/Ville Kyrki.png" width="125"> | <img src="/../assets/images/people/Furkan Yardımcı.png" width="125"> |
 |:------------------:|:-------------------:|:-------------------:|
-| [**Dr. Shoaib Azam**](https://www.aalto.fi/en/people/shoaib-azam)<br/>shoaib.azam@aalto.fi<br/>Instructor | [**Dr. Ville Kyrki**](https://www.aalto.fi/en/people/ville-kyrki)<br/>ville.kyrki@aalto.fi<br/>Instructor | [**Furkan Yardımcı**](https://www.linkedin.com/in/furkan-yard%C4%B1mc%C4%B1-48513a239)<br/>furkan.yardimci@aalto.fi<br/>Teaching Assistant |
+| [**Dr. Shoaib Azam**](https://www.aalto.fi/en/people/shoaib-azam)<br/>shoaib.azam@aalto.fi<br/>Course Instructor | [**Dr. Ville Kyrki**](https://www.aalto.fi/en/people/ville-kyrki)<br/>ville.kyrki@aalto.fi<br/>Course Instructor | [**Furkan Yardımcı**](https://www.linkedin.com/in/furkan-yard%C4%B1mc%C4%B1-48513a239)<br/>furkan.yardimci@aalto.fi<br/>Teaching Assistant |
 
 ## Resources
 
