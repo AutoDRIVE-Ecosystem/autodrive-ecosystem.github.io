@@ -29,11 +29,11 @@ unlisted_toc: true
 
     ---
 
-    - <a href="https://sisu.aalto.fi/student/courseunit/otm-3fb4f6fb-a67c-466b-993c-ce9dece84a78/brochure"><b>Aalto University Sisu:</b> EEA-EV008</a>
+    - **Aalto University Sisu:** [EEA-EV008](https://sisu.aalto.fi/student/courseunit/otm-3fb4f6fb-a67c-466b-993c-ce9dece84a78/brochure)
 
-    - <a href="https://www.linkedin.com/posts/azamshoaib_aalto-autonomousdriving-computervision-activity-7432048511350697985-KBiJ"><b>Shoaib Azam:</b> LinkedIn Announcement</a>
+    - **Shoaib Azam:** [LinkedIn Announcement](https://www.linkedin.com/posts/azamshoaib_aalto-autonomousdriving-computervision-activity-7432048511350697985-KBiJ)
 
-    - <a href="https://www.linkedin.com/posts/furkan-yard%C4%B1mc%C4%B1-48513a239_turkish-below-im-excited-to-share-that-activity-7431758729827688448-tk4A"><b>Furkan Yardımcı:</b> LinkedIn Announcement</a>
+    - **Furkan Yardımcı:** [LinkedIn Announcement](https://www.linkedin.com/posts/furkan-yard%C4%B1mc%C4%B1-48513a239_turkish-below-im-excited-to-share-that-activity-7431758729827688448-tk4A)
 
 - :material-check-all:{ .lg .middle } __Learning Outcomes__
 
