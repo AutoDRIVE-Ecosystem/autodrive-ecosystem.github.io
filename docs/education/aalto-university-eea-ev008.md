@@ -25,7 +25,7 @@ unlisted_toc: true
     
     **Institution:** Aalto University
 
-- :fontawesome-solid-graduation-cap:{ .lg .middle } __Course Listing__
+- :material-pin:{ .lg .middle } __Course Listing__
 
     ---
 
@@ -35,7 +35,7 @@ unlisted_toc: true
 
     - <a href="https://www.linkedin.com/posts/furkan-yard%C4%B1mc%C4%B1-48513a239_turkish-below-im-excited-to-share-that-activity-7431758729827688448-tk4A"><b>Furkan Yardımcı:</b> LinkedIn Announcement</a>
 
-- :fontawesome-solid-graduation-cap:{ .lg .middle } __Learning Outcomes__
+- :material-check-all:{ .lg .middle } __Learning Outcomes__
 
     ---
 
@@ -47,7 +47,7 @@ unlisted_toc: true
 
     - Design and evaluate motion planning strategies for autonomous navigation in simulated environments.
 
-- :fontawesome-solid-graduation-cap:{ .lg .middle } __Course Content__
+- :material-format-list-bulleted-square:{ .lg .middle } __Course Content__
 
     ---
 
