@@ -45,7 +45,7 @@
     
     <a href="http://cecas.clemson.edu/armlab-cuicar/outreach"><img id="imageHyperlink" src="../assets/images/education/PJFMS%202025.jpg"></a>
 
-- :fontawesome-solid-graduation-cap:{ .lg .middle } __UG RoboEdu Forum @ [ICRA 2025](https://sites.google.com/ncsu.edu/roboedu-forum-icra2025)__
+- :fontawesome-solid-graduation-cap:{ .lg .middle } __UG RoboEdu Forum @ [ICRA 2025](https://2025.ieee-icra.org)__
     
     <a href="https://sites.google.com/ncsu.edu/roboedu-forum-icra2025"><img id="imageHyperlink" src="../assets/images/education/RoboEdu%20Forum%20ICRA%202025.jpg"></a>
 
