@@ -343,16 +343,16 @@ The following teams successfully finished the final time-attack race. Here are t
 | 10      | 👏 bracavisionai               | 97.46 s         | 0               | 97.46 s            | 9.51 s        | [:material-youtube: YouTube]() |
 | 11      | 👏 CEM Navigators              | 102.84 s        | 0               | 102.84 s           | 10.16 s       | [:material-youtube: YouTube]() |
 | 12      | 👏 Team Proboticists           | 106.85 s        | 0               | 106.85 s           | 10.65 s       | [:material-youtube: YouTube]() |
-| 13      | 👏 Assiut Motorsport           | 103.19 s        | 1               | 113.19 s           | 10.07 s       | [:material-youtube: YouTube]() |
-| 14      | 👏 E-Rally                     | 97.25 s         | 1               | 107.25 s           | 9.61 s        | [:material-youtube: YouTube]() |
-| 15      | 👏 Penn RoboRacer              | 107.77 s        | 0               | 107.77 s           | 10.73 s       | [:material-youtube: YouTube]() |
+| 13      | 👏 E-Rally                     | 97.25 s         | 1               | 107.25 s           | 9.61 s        | [:material-youtube: YouTube]() |
+| 14      | 👏 Penn RoboRacer              | 107.77 s        | 0               | 107.77 s           | 10.73 s       | [:material-youtube: YouTube]() |
+| 15      | 👏 Assiut Motorsport           | 103.19 s        | 1               | 113.19 s           | 10.07 s       | [:material-youtube: YouTube]() |
 | 16      | 👏 FEBAuto                     | 121.16 s        | 0               | 121.16 s           | 12.01 s       | [:material-youtube: YouTube]() |
 | 17      | 👏 APEX                        | 111.53 s        | 1               | 121.53 s           | 10.59 s       | [:material-youtube: YouTube]() |
 | 18      | 👏 Innomer                     | 132.47 s        | 0               | 132.47 s           | 13.17 s       | [:material-youtube: YouTube]() |
 | 19      | 👏 Go-Go-Taro                  | 134.74 s        | 0               | 134.74 s           | 13.12 s       | [:material-youtube: YouTube]() |
 | 20      | 👏 Bhuna Khichuri Racers       | 136.92 s        | 0               | 136.92 s           | 13.67 s       | [:material-youtube: YouTube]() |
-| 21      | 👏 We ain't slippin            | 140.77 s        | 3               | 170.77 s           | 13.40 s       | [:material-youtube: YouTube]() |
-| 22      | 👏 Δ 2RQ                       | 148.02 s        | 0               | 148.02 s           | 14.59 s       | [:material-youtube: YouTube]() |
+| 21      | 👏 Δ 2RQ                       | 148.02 s        | 0               | 148.02 s           | 14.59 s       | [:material-youtube: YouTube]() |
+| 22      | 👏 We ain't slippin            | 140.77 s        | 3               | 170.77 s           | 13.40 s       | [:material-youtube: YouTube]() |
 | 23      | 👏 ASUF1Tenth                  | 169.63 s        | 1               | 179.63 s           | 16.81 s       | [:material-youtube: YouTube]() |
 
 ## Summary
