@@ -321,17 +321,39 @@ The following teams have qualified for the final time-attack race. Here are the 
 
 **Phase 2: Competition**
 
-<p align="justify">
-Phase 2 results will be posted here on Sep 21, 2026.
-</p>
-
 <!-- <p align="justify">
-The following teams successfully finished the final time-attack race. Here are the official standings:
+Phase 2 results will be posted here on Sep 21, 2026.
 </p> -->
 
-<!-- | RANK    | TEAM NAME                       | RACE TIME       | COLLISION COUNT | ADJUSTED RACE TIME | BEST LAP TIME | VIDEO                                                      |
-|:--------|:--------------------------------|:----------------|:----------------|:-------------------|:--------------|:-----------------------------------------------------------| -->
+<p align="justify">
+The following teams successfully finished the final time-attack race. Here are the official standings:
+</p>
 
+| RANK    | TEAM NAME                       | RACE TIME       | COLLISION COUNT | ADJUSTED RACE TIME | BEST LAP TIME | VIDEO                                                      |
+|:--------|:--------------------------------|:----------------|:----------------|:-------------------|:--------------|:-----------------------------------------------------------|
+| 01      | 🥇 Siga Siga Racing Team       | 71.82 s         | 0               | 71.82 s            | 7.16 s        | [:material-youtube: YouTube]() |
+| 02      | 🥈 NTU DeepSpeed               | 72.26 s         | 0               | 72.26 s            | 7.19 s        | [:material-youtube: YouTube]() |
+| 03      | 🥉 rulim                       | 73.97 s         | 0               | 73.97 s            | 7.33 s        | [:material-youtube: YouTube]() |
+| 04      | 👏 UNISAFE                     | 81.39 s         | 0               | 81.39 s            | 7.96 s        | [:material-youtube: YouTube]() |
+| 05      | 👏 Barq Racing                 | 83.18 s         | 0               | 83.18 s            | 8.30 s        | [:material-youtube: YouTube]() |
+| 06      | 👏 IDEA_LAB                    | 85.23 s         | 0               | 85.23 s            | 8.50 s        | [:material-youtube: YouTube]() |
+| 07      | 👏 Team Abhiyaan               | 87.39 s         | 0               | 87.39 s            | 9.72 s        | [:material-youtube: YouTube]() |
+| 08      | 👏 MonacoF1                    | 95.14 s         | 0               | 95.14 s            | 9.49 s        | [:material-youtube: YouTube]() |
+| 09      | 👏 Penguin                     | 95.83 s         | 0               | 95.83 s            | 9.55 s        | [:material-youtube: YouTube]() |
+| 10      | 👏 bracavisionai               | 97.46 s         | 0               | 97.46 s            | 9.51 s        | [:material-youtube: YouTube]() |
+| 11      | 👏 CEM Navigators              | 102.84 s        | 0               | 102.84 s           | 10.16 s       | [:material-youtube: YouTube]() |
+| 12      | 👏 Team Proboticists           | 106.85 s        | 0               | 106.85 s           | 10.65 s       | [:material-youtube: YouTube]() |
+| 13      | 👏 Assiut Motorsport           | 103.19 s        | 1               | 113.19 s           | 10.07 s       | [:material-youtube: YouTube]() |
+| 14      | 👏 E-Rally                     | 97.25 s         | 1               | 107.25 s           | 9.61 s        | [:material-youtube: YouTube]() |
+| 15      | 👏 Penn RoboRacer              | 107.77 s        | 0               | 107.77 s           | 10.73 s       | [:material-youtube: YouTube]() |
+| 16      | 👏 FEBAuto                     | 121.16 s        | 0               | 121.16 s           | 12.01 s       | [:material-youtube: YouTube]() |
+| 17      | 👏 APEX                        | 111.53 s        | 1               | 121.53 s           | 10.59 s       | [:material-youtube: YouTube]() |
+| 18      | 👏 Innomer                     | 132.47 s        | 0               | 132.47 s           | 13.17 s       | [:material-youtube: YouTube]() |
+| 19      | 👏 Go-Go-Taro                  | 134.74 s        | 0               | 134.74 s           | 13.12 s       | [:material-youtube: YouTube]() |
+| 20      | 👏 Bhuna Khichuri Racers       | 136.92 s        | 0               | 136.92 s           | 13.67 s       | [:material-youtube: YouTube]() |
+| 21      | 👏 We ain't slippin            | 140.77 s        | 3               | 170.77 s           | 13.40 s       | [:material-youtube: YouTube]() |
+| 22      | 👏 Δ 2RQ                       | 148.02 s        | 0               | 148.02 s           | 14.59 s       | [:material-youtube: YouTube]() |
+| 23      | 👏 ASUF1Tenth                  | 169.63 s        | 1               | 179.63 s           | 16.81 s       | [:material-youtube: YouTube]() |
 
 ## Summary
 
