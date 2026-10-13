@@ -94,9 +94,8 @@ unlisted_toc: true
 For this course, students will develop their autonomous racing algorithms using the <b>AutoDRIVE Devkit</b> (ROS 2), safely prototype them within the <b>AutoDRIVE Simulator</b> (digital twin), and deploy them onto the <b>AutoDRIVE Testbed</b> (physical twin). Here, <a href="https://neobotics.org/kits">NeoRacer</a> serves as the reference vehicle platform for <a href="https://autodrive-ecosystem.github.io">AutoDRIVE</a>, with the corresponding high-fidelity, real2sim-calibrated digital twin represented in AutoDRIVE Simulator and the physical twin integrated into AutoDRIVE Testbed, which enables sim2real transfer and fielded deployment in the real world. AutoDRIVE Devkit provides a common <a href="https://www.ros.org">ROS 2</a> interface across the digital and physical twins, allowing students to develop and validate their autonomous racing algorithms in simulation and subsequently deploy them on the physical NeoRacer with consistent vehicle behavior and interfaces. Together, these components provide a unified development-to-deployment workflow spanning software, simulation, and hardware.
 </p>
 
-<!-- <p align="justify">
-The tech stack for this course has been released:
-</p>
+!!! tip
+    The tech stack for this course has been released publicly on [:material-github: GitHub](https://github.com/AutoDRIVE-Ecosystem/Clemson-University-AuE-X930-Tech-Stack).
 
 <div class="grid cards" markdown>
 
@@ -104,20 +103,40 @@ The tech stack for this course has been released:
 
     ---
 
-    :material-monitor: **Local Resources:** [:simple-linux: Linux](https://github.com/AutoDRIVE-Ecosystem/AutoDRIVE-Aalto-University-Course/releases/download/v1.0.0/autodrive_simulator_nigel_linux.zip) | [:material-microsoft: Windows](https://github.com/AutoDRIVE-Ecosystem/AutoDRIVE-Aalto-University-Course/releases/download/v1.0.0/autodrive_simulator_nigel_windows.zip) | [:simple-apple: macOS](https://github.com/AutoDRIVE-Ecosystem/AutoDRIVE-Aalto-University-Course/releases/download/v1.0.0/autodrive_simulator_nigel_macos.zip)
+    :material-monitor: **Local Resources:**
 
-    :material-docker: **Docker Containers:** [:material-docker: Docker Hub](https://hub.docker.com/r/autodriveecosystem/autodrive_nigel_sim)
+    `explore`&nbsp;&nbsp;&nbsp; [:simple-linux: Linux](https://github.com/AutoDRIVE-Ecosystem/Clemson-University-AuE-X930-Tech-Stack/releases/download/2026-fall/autodrive_simulator_explore_linux.zip) | [:material-microsoft: Windows](https://github.com/AutoDRIVE-Ecosystem/Clemson-University-AuE-X930-Tech-Stack/releases/download/2026-fall/autodrive_simulator_explore_windows.zip) | [:simple-apple: macOS](https://github.com/AutoDRIVE-Ecosystem/Clemson-University-AuE-X930-Tech-Stack/releases/download/2026-fall/autodrive_simulator_explore_macos.zip)
 
-    :material-file-document: **Documentation:** [:material-github: GitHub](https://github.com/AutoDRIVE-Ecosystem/AutoDRIVE-Aalto-University-Course/blob/main/autodrive_simulator/README.md)
+    `practice`&nbsp; [:simple-linux: Linux](https://github.com/AutoDRIVE-Ecosystem/Clemson-University-AuE-X930-Tech-Stack/releases/download/2026-fall/autodrive_simulator_practice_linux.zip) | [:material-microsoft: Windows](https://github.com/AutoDRIVE-Ecosystem/Clemson-University-AuE-X930-Tech-Stack/releases/download/2026-fall/autodrive_simulator_practice_windows.zip) | [:simple-apple: macOS](https://github.com/AutoDRIVE-Ecosystem/Clemson-University-AuE-X930-Tech-Stack/releases/download/2026-fall/autodrive_simulator_practice_macos.zip)
+
+    <!-- `compete`&nbsp;&nbsp;&nbsp; [:simple-linux: Linux](https://github.com/AutoDRIVE-Ecosystem/Clemson-University-AuE-X930-Tech-Stack/releases/download/2026-fall/autodrive_simulator_compete_windows.zip) | [:material-microsoft: Windows](https://github.com/AutoDRIVE-Ecosystem/Clemson-University-AuE-X930-Tech-Stack/releases/download/2026-fall/autodrive_simulator_compete_windows.zip) | [:simple-apple: macOS](https://github.com/AutoDRIVE-Ecosystem/Clemson-University-AuE-X930-Tech-Stack/releases/download/2026-fall/autodrive_simulator_compete_windows.zip) -->
+
+    :material-docker: **Docker Containers:**
+
+    [`explore`](https://hub.docker.com/layers/autodriveecosystem/autodrive_neoracer_sim/2026-fall-explore/images/sha256-276bb8aeb3fda6c3d8ba2c0128063fb1445c26f94cda71c9cc044b840277ff3e) | [`practice`](https://hub.docker.com/layers/autodriveecosystem/autodrive_neoracer_sim/2026-fall-practice/images/sha256-17aa89d43f4ab15489d846475c85d4244a7f465c4b73bcd5cce085572bf1f2a0)<!-- | [`compete`]()  -->
+
+    :material-file-document: **Documentation:**
+    
+    [:material-github: GitHub](https://github.com/AutoDRIVE-Ecosystem/Clemson-University-AuE-X930-Tech-Stack) | [:material-docker: Docker Hub](https://hub.docker.com/r/autodriveecosystem/autodrive_neoracer_sim)
 
 - :material-file-code:{ .lg .middle } __AutoDRIVE Devkit__
 
     ---
 
-    :material-monitor: **Local Resources:** [:simple-ros: ROS 2](https://github.com/AutoDRIVE-Ecosystem/AutoDRIVE-Aalto-University-Course/releases/download/v1.0.0/autodrive_devkit.zip)
+    :material-monitor: **Local Resources:**
 
-    :material-docker: **Docker Containers:** [:material-docker: Docker Hub](https://hub.docker.com/r/autodriveecosystem/autodrive_nigel_api)
+    `explore`&nbsp;&nbsp;&nbsp; [:simple-ros: ROS 2](https://github.com/AutoDRIVE-Ecosystem/Clemson-University-AuE-X930-Tech-Stack/releases/download/2026-fall/autodrive_devkit.zip)
 
-    :material-file-document: **Documentation:** [:material-github: GitHub](https://github.com/AutoDRIVE-Ecosystem/AutoDRIVE-Aalto-University-Course/blob/main/autodrive_devkit/README.md)
+    `practice`&nbsp; [:simple-ros: ROS 2](https://github.com/AutoDRIVE-Ecosystem/Clemson-University-AuE-X930-Tech-Stack/releases/download/2026-fall/autodrive_devkit.zip)
 
-</div> -->
+    <!-- `compete`&nbsp;&nbsp;&nbsp; [:simple-ros: ROS 2](https://github.com/AutoDRIVE-Ecosystem/Clemson-University-AuE-X930-Tech-Stack/releases/download/2026-fall/autodrive_devkit.zip) -->
+
+    :material-docker: **Docker Containers:**
+
+    [`explore`](https://hub.docker.com/layers/autodriveecosystem/autodrive_neoracer_api/2026-fall-explore/images/sha256-886b52d74093c47cfa1cff367f107819f85b132d2b99a52283f2eb88b290943f) | [`practice`](https://hub.docker.com/layers/autodriveecosystem/autodrive_neoracer_api/2026-fall-practice/images/sha256-ffb8062d76751d21dfa56c7c5ccf78388934d49ac9c49641435e0ced32b0261f)<!-- | [`compete`]()  -->
+
+    :material-file-document: **Documentation:**
+    
+    [:material-github: GitHub](https://github.com/AutoDRIVE-Ecosystem/Clemson-University-AuE-X930-Tech-Stack) | [:material-docker: Docker Hub](https://hub.docker.com/r/autodriveecosystem/autodrive_neoracer_api)
+
+</div>
