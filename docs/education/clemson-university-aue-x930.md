@@ -133,10 +133,13 @@ For this course, students will develop their autonomous racing algorithms using 
 
     :material-docker: **Docker Containers:**
 
-    [`explore`](https://hub.docker.com/layers/autodriveecosystem/autodrive_neoracer_api/2026-fall-explore/images/sha256-886b52d74093c47cfa1cff367f107819f85b132d2b99a52283f2eb88b290943f) | [`practice`](https://hub.docker.com/layers/autodriveecosystem/autodrive_neoracer_api/2026-fall-practice/images/sha256-ffb8062d76751d21dfa56c7c5ccf78388934d49ac9c49641435e0ced32b0261f)<!-- | [`compete`]()  -->
+    [`amd64`](https://hub.docker.com/layers/autodriveecosystem/autodrive_neoracer_api/2026-fall-amd64/images/sha256-a7bab7804e074b34a538fd111c5b256ae70649b82264ef7a2a7569c798bb2ae1) | [`arm64`](https://hub.docker.com/layers/autodriveecosystem/autodrive_neoracer_api/2026-fall-arm64/images/sha256-b36a77ed8d3e10fa5c0f36f10c4a50693bf7b86095c0407373cef6be0c7d5dc0)
 
     :material-file-document: **Documentation:**
     
     [:material-github: GitHub](https://github.com/AutoDRIVE-Ecosystem/Clemson-University-AuE-X930-Tech-Stack) | [:material-docker: Docker Hub](https://hub.docker.com/r/autodriveecosystem/autodrive_neoracer_api)
 
 </div>
+
+!!! tip
+    The lab resources for this course have been released publicly on [:material-github: GitHub](https://github.com/Tinker-Twins/AuE-X930-Autonomous-Racing).
