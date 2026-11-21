@@ -140,6 +140,3 @@ For this course, students will develop their autonomous racing algorithms using 
     [:material-github: GitHub](https://github.com/AutoDRIVE-Ecosystem/Clemson-University-AuE-X930-Tech-Stack) | [:material-docker: Docker Hub](https://hub.docker.com/r/autodriveecosystem/autodrive_neoracer_api)
 
 </div>
-
-!!! tip
-    The lab resources for this course have been released publicly on [:material-github: GitHub](https://github.com/Tinker-Twins/AuE-X930-Autonomous-Racing).
